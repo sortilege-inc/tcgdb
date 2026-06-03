@@ -1,313 +1,5 @@
 [
   {
-    "id": "children-of-the-empire-045",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Akodo Toturi",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-012",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Courtly Challenger",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-037",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Honest Challenger",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-058",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Mirumoto Daishō",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-034",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Social Puppeteer",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-023",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Student of War",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-068",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Subdue the Spirits",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-052",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "In Defense of Rokugan",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-080",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Stay Your Hand",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-074",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Jewel of the Khamasīn",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-062",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Hand to Hand",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-060",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Karmic Balance",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-055",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Try Again Tomorrow",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-028",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Sage of Gisei Toshi",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-010",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Heavy Ballista",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-072",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Miyako's Undertaking",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-019",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Mirumoto Hitomi",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-009",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Hida Yakamo",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-063",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "The Fires of Justice",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-041",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Aspiring Challenger",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-059",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Magnificent Triumph",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-031",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Loyal Challenger",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-018",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Tranquil Philosopher",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-021",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Honorable Challenger",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-069",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Infiltrator's Tools",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-039",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Shiotome Heroine",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-027",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Sincere Challenger",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-040",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Utaku Kamoko",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
     "id": "children-of-the-empire-001",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
@@ -315,116 +7,57 @@
     "name": "Kiku Matsuri",
     "type": "Province",
     "clan": "Neutral",
+    "traits": [
+      "Festival"
+    ],
+    "text": "Action: During a conflict at this province, choose a participating character controlled by each player – honor each of those characters.",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-022",
+    "id": "children-of-the-empire-002",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Ikoma Orator",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "name": "Illustrious Forge",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Reaction: After this province is revealed – search the top 5 cards of your conflict deck for an attachment and put it into play attached to a character you control. Shuffle.",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-064",
+    "id": "children-of-the-empire-003",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Glorious Victory",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
+    "name": "Midnight Revels",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Reaction: After a conflict is declared against this province, choose a character with the highest printed cost among characters in play – bow that character.",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-075",
+    "id": "children-of-the-empire-004",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Challenge on the Fields",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "name": "Temple of the Dragons",
+    "type": "Province",
+    "clan": "Neutral",
+    "traits": [
+      "Temple"
+    ],
+    "text": "Reaction: After this province is revealed – resolve the contested ring's effects as if you were the attacking player.",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-065",
+    "id": "children-of-the-empire-005",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Unmatched Expertise",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-024",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Matsu Tsuko",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-029",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Isawa Ujina",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-038",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Ide Negotiator",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-066",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Gift of Amaterasu",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-007",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Yasuki Procurer",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-035",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Shosuro Hametsu",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "name": "Vassal Fields",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Action: During a conflict at this province – your opponent loses 1 fate.",
     "unverified": true
   },
   {
@@ -436,288 +69,26 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "While you are less honorable than an opponent, this character gets +1[mil].\nAction: During a conflcit, initiate a [mil] duel – resolve the duel. Put 1 fate on the duel's winner.",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-003",
+    "id": "children-of-the-empire-007",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Midnight Revels",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-032",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Midnight Prowler",
+    "name": "Yasuki Procurer",
     "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-070",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Kirei-ko",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-050",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Honed Nodachi",
-    "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-026",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Fire Tensai Acolyte",
-    "type": "Character",
-    "clan": "Phoenix",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-061",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "True Strike Kenjutsu",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-051",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Smuggling Deal",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-081",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Warm Welcome",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-014",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Kakita Toshimoko",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-015",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Kakita Dōjō",
-    "type": "Holding",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-020",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Mirumoto Dōjō",
-    "type": "Holding",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-002",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Illustrious Forge",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-053",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Iaijutsu Master",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-017",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Prudent Challenger",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-054",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Storied Defeat",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-042",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Seppun Hidden Guard",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-004",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Temple of the Dragons",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-047",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Miya Library",
-    "type": "Holding",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-078",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Unveiled Destiny",
-    "type": "Attachment",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-044",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Righteous Magistrate",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-043",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Humble Magistrate",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-046",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Hantei XXXVIII",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-079",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Defend Your Honor",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-005",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Vassal Fields",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-071",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Unmask",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-025",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Tactician's Camp",
-    "type": "Holding",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: Dishonor this character – reduce the cost of the next attachment or character you play this phase by 1.",
     "unverified": true
   },
   {
@@ -729,61 +100,42 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander",
+      "Engineer"
+    ],
+    "text": "—",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-073",
+    "id": "children-of-the-empire-009",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Shinjo Ambusher",
+    "name": "Hida Yakamo",
     "type": "Character",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Berserker",
+      "Duelist"
+    ],
+    "text": "While you are less honorable than an opponent, this character does not bow as a result of a [mil] conflict resolution and cannot lose duels. (This character is not the loser of the duel, but the character of its opponent remains the winner of the duel.)",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-067",
+    "id": "children-of-the-empire-010",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Severed From the Stream",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-048",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Proving Ground",
+    "name": "Heavy Ballista",
     "type": "Holding",
-    "clan": "Neutral",
+    "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-013",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Paragon of Grace",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-076",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Leniency",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "text": "Action: During a [mil] conflict in which you are defending, discard a card from your hand and choose a ready attacking character. That character's controller selects one – bow that character, or remove 1 fate from it.",
     "unverified": true
   },
   {
@@ -795,61 +147,74 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Composure – This character cannot be chosen as the target of an opponent's triggered ability. (You have composure if your honor bid is lower than an opponent's.)",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-033",
+    "id": "children-of-the-empire-012",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Attendant to the Emperor",
+    "name": "Courtly Challenger",
     "type": "Character",
-    "clan": "Scorpion",
+    "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Duelist"
+    ],
+    "text": "After this character wins a duel, honor it. After this character loses a duel, dishonor it.\nAction: During a conflict, initiate a [pol] duel – resolve the duel. The controller of the duel's winner draw 2 cards.",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-057",
+    "id": "children-of-the-empire-013",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Solitary Strength",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-082",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Prayers to Ebisu",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "children-of-the-empire-036",
-    "gameId": "l5r-lcg",
-    "setId": "children-of-the-empire",
-    "publisherId": "ffg",
-    "name": "Outskirsts Sentry",
+    "name": "Paragon of Grace",
     "type": "Character",
-    "clan": "Unicorn",
+    "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Courtier"
+    ],
+    "text": "Action: During a conflict in which this character is participating on your side alone – your opponent chooses and discards 1 card from his or her hand. If this character is honored, that card is chosen at random instead.",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-077",
+    "id": "children-of-the-empire-014",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Kujira's Hireling",
+    "name": "Kakita Toshimoko",
     "type": "Character",
-    "clan": "Neutral",
-    "deck": "conflict",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Interrupt: When this character would lose a conflict, initiate a [mil] duel against a character your opponent controls of his or her choice — resolve the duel. If this character wins, instead of resolving the conflict as normal, both players count 0 total skill in the conflict. (Return the contested ring to the unclaimed ring pool. The conflict has no winner.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-015",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kakita Dōjō",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Dōjō"
+    ],
+    "text": "Action: During a conflict, initiate a [mil] duel – resolve the duel. Until the end of the conflict, the duel's loser cannot trigger its abilities. If the duel's winner is a Duelist, bow the duel's loser as well.",
     "unverified": true
   },
   {
@@ -861,28 +226,218 @@
     "type": "Character",
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Composure – This character gets +1[mil] and +1[pol]. (You have composure if your honor bid is lower than an opponent's.)",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-049",
+    "id": "children-of-the-empire-017",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Guardian of Virtue",
+    "name": "Prudent Challenger",
     "type": "Character",
-    "clan": "Crab",
-    "deck": "conflict",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Courtesy. (When this character leaves play, gain 1 fate.)\nAction: During a conflcit, initiate a [mil] duel – resolve the duel. Choose an attachment attached to the duel's loser and discard it.",
     "unverified": true
   },
   {
-    "id": "children-of-the-empire-056",
+    "id": "children-of-the-empire-018",
     "gameId": "l5r-lcg",
     "setId": "children-of-the-empire",
     "publisherId": "ffg",
-    "name": "Civil Discourse",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
+    "name": "Tranquil Philosopher",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk"
+    ],
+    "text": "Action: Choose an unclaimed ring – move 1 fate from that ring to another unclaimed ring. Then, gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-019",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Mirumoto Hitomi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Action: During a conflict, initiate a [mil] duel against up to two characters your opponent controls — resolve the duel. For each character that loses the duel, its controller must either dishonor or bow it.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-020",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Mirumoto Dōjō",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Dōjō"
+    ],
+    "text": "Action: During a conflict, initiate a [mil] duel – resolve the duel. Move 1 fate from the duel's loser to its owner's fate pool. If the duel's winner is a Duelist, discard that fate instead.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-021",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Honorable Challenger",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Pride.\nAction: During a conflict, initiate a [mil] duel – resolve the duel. The duel's winner does not bow as a result of this conflict's resolution.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-022",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Ikoma Orator",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "While you are more honorable than an opponent, this character gets +2[pol].",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-023",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Student of War",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Composure – This character cannot lose fate or be discarded. (You have composure if your honor bid is lower than an opponent's.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-024",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Matsu Tsuko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Berserker",
+      "Daimyō"
+    ],
+    "text": "Action: During a conflict in which this character is attacking, if you are more honorable than your opponent – reduce the cost of the next card you play this conflict by 2.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-025",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Tactician's Camp",
+    "type": "Holding",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Battlefield"
+    ],
+    "text": "Each honored character you control gets +1 [mil].",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-026",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Fire Tensai Acolyte",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire"
+    ],
+    "text": "This character cannot be declared as an attacker except during [fire] conflicts.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-027",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Sincere Challenger",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Duelist"
+    ],
+    "text": "Composure – This character gets +2[pol]. (You have composure if your honor bid is lower than an opponent's.)\nAction: During a conflict, initiate a [pol] duel – resolve the duel. The duel's winner is immune to events until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-028",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Sage of Gisei Toshi",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Scholar"
+    ],
+    "text": "Action: During a conflict, if you are more honorable than your opponent, choose a participating character your opponent controls – move this character home. If you do, move that character home.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-029",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Isawa Ujina",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Void",
+      "Elemental Master"
+    ],
+    "text": "Forced Reaction: After the [void] ring is claimed, choose a character with no fate – remove that character from the game. (Unlimited.)",
     "unverified": true
   },
   {
@@ -894,6 +449,764 @@
     "type": "Holding",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shrine"
+    ],
+    "text": "Action: Return 1 or more rings from your claimed ring pool to the unclaimed ring pool – you gain 1 honor for each ring returned this way.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-031",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Loyal Challenger",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Duelist"
+    ],
+    "text": "After this character wins a conflict, gain 1 honor. After this character loses a conflict, lose 1 honor.\nAction: During a conflict, initiate a [pol] duel – resolve the duel. Treat the printed text box of the duel's loser as if it were blank (except for Traits) until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-032",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Midnight Prowler",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shinobi"
+    ],
+    "text": "Reaction: After this character wins a [mil] conflict – look at the top 2 cards of your opponent's conflict deck. You may discard 1 of those cards.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-033",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Attendant to the Emperor",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial"
+    ],
+    "text": "—",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-034",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Social Puppeteer",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Composure – This character must be chosen as a target of an opponent's event, if able. (You have composure if your honor bid is lower than an opponent's.)\nAction: During a conflict in which this character is participating – switch honor dials with your opponent until your next honor bid.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-035",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Shosuro Hametsu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Daimyō",
+      "Shinobi"
+    ],
+    "text": "Action: Lose 1 honor – search your conflict deck for a Poison card, reveal it, and add it to your hand. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-036",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Outskirts Sentry",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "Reaction: After a character is moved to the conflict in which this character is participating, choose a participating character – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-037",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Honest Challenger",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Duelist"
+    ],
+    "text": "Composure – This character gets +2[mil]. (You have composure if your honor bid is lower than an opponent's.)\nAction: During a conflict, initiate a [mil] duel – resolve the duel. The controller of the duel's winner moves a character from his or her home area to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-038",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Ide Negotiator",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Cavalry"
+    ],
+    "text": "Reaction: After you reveal your honor dial – change the bid on your dial to a value 1 higher or lower than its current value (to a minimum of 1 and a maximum of 5).",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-039",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Shiotome Heroine",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Battle Maiden"
+    ],
+    "text": "Reaction: After an opponent gains 1 or more honor through a card effect – ready this character.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-040",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Utaku Kamoko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Battle Maiden"
+    ],
+    "text": "While this character is dishonored, do not subtract its glory from its skills.\nReaction: After an opponent breaks one of your provinces, choose and discard a card from your hand – ready and honor this character.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-041",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Aspiring Challenger",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist",
+      "Mantis Clan"
+    ],
+    "text": "Composure – This character gets +2 glory. (You have composure if your honor bid is lower than an opponent's.)\nAction: During a conflict, initiate a [mil] duel – resolve the duel. Honor the duel's winner.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-042",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Seppun Hidden Guard",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial",
+      "Yōjimbō"
+    ],
+    "text": "Interrupt: When the effects of a character ability that targets a unique character you control would initiate, sacrifice this character – cancel those effects. The player who initiated that ability discards 1 random card from his or her hand.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-043",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Humble Magistrate",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "Seeker role only.\nWhile this character is attacking, each character with printed cost 4 or higher does not count its skill towards the resolution of this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-044",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Righteous Magistrate",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "Keeper role only.\nWhile this character is defending, players cannot gain or lose honor.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-045",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Akodo Toturi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion",
+      "Imperial"
+    ],
+    "text": "Action: During a conflict in which this character is participating, if you have the Imperial Favor – each player cannot play cards from his or her hand until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-046",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Hantei XXXVIII",
+    "type": "Character",
+    "unique": true,
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Imperial",
+      "Emperor",
+      "Mythic"
+    ],
+    "text": "No attachments. If an opponent has the Imperial Favor, discard this character.\nAction: During a conflict, choose a participating character — bow that character.\nInterrupt: When an opponent triggers an ability that chooses 1 or more targets — you choose those targets instead.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-047",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Miya Library",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Imperial",
+      "Library"
+    ],
+    "text": "Limit 1 per deck.\nAction: Look at the top 4 cards of your dynasty deck. You may choose an Imperial character from among them and switch it with this card (faceup). Put the cards back on top in any order.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-048",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Proving Ground",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Dōjō"
+    ],
+    "text": "Reaction: After a character you control wins a duel – draw 1 card. (Limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-049",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Guardian of Virtue",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Air role only.\nComposure – This character does not bow as a result of conflict resolution in conflicts in which it is defending. (You have composure if your honor bid is lower than an opponent's.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-050",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Honed Nodachi",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Attach to a Bushi character. Restricted.\nReaction: After attached character wins a [mil] conflict, remove 1 fate from attached character. Your opponent chooses a participating character he or she controls – discard that character.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-051",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Smuggling Deal",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Action: Give an opponent 1 honor and choose an ability on a character you control – you may trigger that ability an additional time this round (or specified period).",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-052",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "In Defense of Rokugan",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Action: During a conflict, sacrifice a (friendly) defending character and choose an attacking character – set the attacking character's [mil] skill to 0 until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-053",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Iaijutsu Master",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Skill"
+    ],
+    "text": "Attach to a Duelist character.\nReaction: After honor dials are revealed during a duel in which attached character is participating – increase or decrease the value of your bid by 1 (to a minimum of 0).",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-054",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Storied Defeat",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a character that has lost a duel during this conflict – bow that character. You may spend 1 fate to dishonor that character.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-055",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Try Again Tomorrow",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: During a conflict in which you control a participating honored Courtier character, choose an attacking character – move that character home.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-056",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Civil Discourse",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Earth role only.\nDuring a conflict, initiate a [pol] duel against a character your opponent controls of his or her choice – resolve the duel. Until the end of the conflict, the duel's loser gains: \"Increase the cost to play each card in your hand by 1.\"",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-057",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Solitary Strength",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Air role only.\nIf attached character is participating in a conflict with 1 or more other characters you control, discard this attachment.\nReaction: After attached character wins a conflict – gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-058",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Mirumoto Daishō",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Restricted. Attached character may not have other restricted attachments.\nWhile attached character is dueling, your opponent cannot bid 1 or 5.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-059",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Magnificent Triumph",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a character that had won a duel during this conflict – until the end of the conflict, that character gets +2[mil], +2 [pol], and cannot be chosen as the target of opponent's events.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-060",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Karmic Balance",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Play only if your honor bid is equal to an opponent's.\nAction: Each player shuffles his or her hand and conflict discard pile into his or her conflict deck and draws 4 cards. Remove this card from the game.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-061",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "True Strike Kenjutsu",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Attached character gains: Action: During a conflict, initiate a [mil] duel – resolve the duel, using each character's base [mil] instead of their total [mil] skill for this duel. Bow the duel's loser.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-062",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Hand to Hand",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Action: During a [mil] conflict, choose an attachment on a participating character – discard the attachment. If you do, your opponent may resolve this ability.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-063",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "The Fires of Justice",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Void role only.\nReaction: After you win a conflict, your opponent chooses a participating character he or she controls. Select one – remove all fate from that character, or move any amount of fate from your opponent's fate pool onto that character.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-064",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Glorious Victory",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Reaction: After you break a province during a [mil] conflict – honor each character you control.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-065",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Unmatched Expertise",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Fire role only.\nAttached character  cannot receive dishonored status tokens.\nForced Reaction: After attached character loses a conflict – discard this attachment.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-066",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Gift of Amaterasu",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Fire"
+    ],
+    "text": "Reaction: After you win a conflict by 5 or more skill, chose a character you control – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-067",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Severed From the Stream",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Void"
+    ],
+    "text": "Action: Perform a glory count. The player who loses the glory count returns all rings in his or her claimed ring pool to the unclaimed ring pool.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-068",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Subdue the Spirits",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "text": "Action: During a conflict, if you are more honorable than your opponent – until the end of the conflict, each participating character you control adds its glory to each of its skills. (This applies in addition to any modifiers to the skills of those characters due to being honored or dishonored.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-069",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Infiltrator's Tools",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Attach to a Shinobi character.\nAttached character gains Covert. (When this character attacks, choose one character without covert. That character cannot be declared as a defender.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-070",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kirei-ko",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Reaction: After a character your opponents control triggers an ability – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-071",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Unmask",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Void role only.\nAction: During a conflict, if the bid on your honor dial is higher than your opponent's, choose a participating character – discard that character's status token and set its skills to their printed values until the end of the conflict. Its controller gains 2 honor.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-072",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Miyako's Undertaking",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Play only if you have 6 or fewer honor.\nAction: During a conflict, choose a non-unique character in your opponent's dynasty discard pile and a participating character you control – until the end of the conflict, your character becomes a copy of the character in your opponent's discard pile.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-073",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Shinjo Ambusher",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Reaction: After you play this character into a conflict – the attacked province cannot trigger its abilities this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-074",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Jewel of the Khamasīn",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Meishōdō"
+    ],
+    "text": "Action: While attached character is attacking, lose 1 honor – reduce the attacked province's province strength by 1 until the end of the conflict (to a minimum of 0). (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-075",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Challenge on the Fields",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Action: During a conflict, initiate a [mil] duel – resolve the duel, giving each dueling character +1[mil] for each other participating character controlled by the same player until the end of the duel. Move the duel's loser home.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-076",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Leniency",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Air role only.\nInterrupt: When you would resolve a ring effect, choose a character with printed cost 2 or lower in your provinces – instead of resolving the ring effect, put that character into play.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-077",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kujira's Hireling",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Rōnin"
+    ],
+    "text": "Action: Spend 1 fate and select one – this character gets +1[mil] and +1[pol] until the end of the phase, or this character gets -1[mil] and -1[pol] until the end of the phase. Any player may trigger this ability. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-078",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Unveiled Destiny",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Seeker role only.\nReaction: While attached character is attacking, the contested ring gains the element of your role. (If attached character wins the conflict as an attacker, you may choose which of its ring effects to resolve.)",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-079",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Defend Your Honor",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Keeper role only.\nInterrupt: When the effects of an opponent's event would initiate during a conflict, initiate a [mil] duel against a character your opponent controls of his or her choice – resolve the duel. If your character is the duel's winner, cancel those effects.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-080",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Stay Your Hand",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Interrupt: When a duel that targets a character you control would resolve – cancel the duel.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-081",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Warm Welcome",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Play only if your honor bid is lower than an opponent's.\nAction: Choose a card in your conflict discard pile – play that card as if it were in your hand. If that card is an event, put it on the bottom of your conflict deck.",
+    "unverified": true
+  },
+  {
+    "id": "children-of-the-empire-082",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Prayers to Ebisu",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: Each player with 19 or more honor loses 4 honor. Each player with 6 or fewer honor gains 4 honor. Draw 1 card.",
     "unverified": true
   }
 ]
