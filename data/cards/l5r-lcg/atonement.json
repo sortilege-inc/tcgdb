@@ -7,7 +7,8 @@
     "name": "Worldly Shiotome",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-123",
@@ -17,7 +18,8 @@
     "name": "Shiba Pureheart",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-121",
@@ -27,7 +29,8 @@
     "name": "Righteous Samurai",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-120",
@@ -37,7 +40,8 @@
     "name": "Agasha Sumiko (A)",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-118",
@@ -47,7 +51,8 @@
     "name": "Fire and Oil",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-131",
@@ -57,7 +62,8 @@
     "name": "Daidoji Yari",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-135",
@@ -67,7 +73,8 @@
     "name": "Compromised Secrets",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-116",
@@ -76,7 +83,8 @@
     "publisherId": "ffg",
     "name": "Unbridled Ambition",
     "type": "Province",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "atonement-128",
@@ -86,7 +94,8 @@
     "name": "Apprentice Engineer",
     "type": "Character",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-124",
@@ -96,7 +105,8 @@
     "name": "Bayushi Kachiko (A)",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-119",
@@ -106,7 +116,8 @@
     "name": "Doji Diplomat",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-122",
@@ -116,7 +127,8 @@
     "name": "Exposed Courtyard",
     "type": "Holding",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-136",
@@ -126,7 +138,8 @@
     "name": "Flank the Enemy",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-125",
@@ -136,7 +149,8 @@
     "name": "Ganzu Warrior",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-132",
@@ -146,7 +160,8 @@
     "name": "In Search of Self",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-129",
@@ -156,7 +171,8 @@
     "name": "Inventive Buttressing",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-115",
@@ -165,7 +181,8 @@
     "publisherId": "ffg",
     "name": "Iron Mountain Castle",
     "type": "Stronghold",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "atonement-134",
@@ -175,7 +192,8 @@
     "name": "Magistrate's Intervention",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-133",
@@ -185,7 +203,8 @@
     "name": "Spiritcaller Prodigy",
     "type": "Character",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-127",
@@ -195,7 +214,8 @@
     "name": "Sudden Tempest",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "atonement-130",
@@ -205,7 +225,8 @@
     "name": "Treasured Gift",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "atonement-117",
@@ -214,6 +235,7 @@
     "publisherId": "ffg",
     "name": "Weight of Duty",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   }
 ]

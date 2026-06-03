@@ -7,7 +7,8 @@
     "name": "Dragon Tattoo",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-020",
@@ -17,7 +18,8 @@
     "name": "Vine Tattoo",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-011",
@@ -27,7 +29,8 @@
     "name": "Togashi Hoshi",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-015",
@@ -37,7 +40,8 @@
     "name": "Asako Togama",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-007",
@@ -47,7 +51,8 @@
     "name": "Togashi Gaijutsu",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-001",
@@ -56,7 +61,8 @@
     "publisherId": "ffg",
     "name": "High House of Light",
     "type": "Stronghold",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-006",
@@ -66,7 +72,8 @@
     "name": "Austere Exemplar",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-005",
@@ -76,7 +83,8 @@
     "name": "Perceptive Kitsuki",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-018",
@@ -86,7 +94,8 @@
     "name": "Ichirō",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-022",
@@ -96,7 +105,8 @@
     "name": "Niten",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-026",
@@ -106,7 +116,8 @@
     "name": "Hida Kotoe",
     "type": "Character",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-008",
@@ -116,7 +127,8 @@
     "name": "Mirumoto Masashige",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-003",
@@ -125,7 +137,8 @@
     "publisherId": "ffg",
     "name": "Support of the Dragon",
     "type": "Role",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-021",
@@ -135,7 +148,8 @@
     "name": "An Ocean in a Drop",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-013",
@@ -145,7 +159,8 @@
     "name": "Asahina Maeko",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-016",
@@ -155,7 +170,8 @@
     "name": "Bayushi Gensato",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-027",
@@ -165,7 +181,8 @@
     "name": "Elegant Tessen",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-028",
@@ -175,7 +192,8 @@
     "name": "Four Temples Advisor",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-002",
@@ -184,7 +202,8 @@
     "publisherId": "ffg",
     "name": "Fuchi Mura",
     "type": "Province",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-024",
@@ -194,7 +213,8 @@
     "name": "Iron Foundations Stance",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-017",
@@ -204,7 +224,8 @@
     "name": "Iuchi Rimei",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-014",
@@ -214,7 +235,8 @@
     "name": "Matsu Koso",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-009",
@@ -224,7 +246,8 @@
     "name": "Monastery Protector",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-012",
@@ -234,7 +257,8 @@
     "name": "Shintao Monastery",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-004",
@@ -244,7 +268,8 @@
     "name": "Taoist Adept",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-019",
@@ -254,7 +279,8 @@
     "name": "Togashi Acolyte",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-010",
@@ -264,7 +290,8 @@
     "name": "Togashi Mitsu",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "seekers-of-wisdom-025",
@@ -274,6 +301,7 @@
     "name": "Wildfire Kick",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

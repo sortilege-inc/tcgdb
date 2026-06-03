@@ -7,7 +7,8 @@
     "name": "Voice of the Ancestors",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-017",
@@ -17,7 +18,8 @@
     "name": "Shosuro Denmaru",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-006",
@@ -27,7 +29,8 @@
     "name": "Matsu Gohei",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-001",
@@ -36,7 +39,8 @@
     "publisherId": "ffg",
     "name": "Kyūden Ikoma",
     "type": "Stronghold",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-023",
@@ -46,7 +50,8 @@
     "name": "Embrace Death",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-004",
@@ -56,7 +61,8 @@
     "name": "Ashigaru Levy",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-014",
@@ -66,7 +72,8 @@
     "name": "Yasuki Hikaru",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-028",
@@ -76,7 +83,8 @@
     "name": "Those Who Serve",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-018",
@@ -86,7 +94,8 @@
     "name": "Moto Ariq",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-027",
@@ -96,7 +105,8 @@
     "name": "Kitsuki Kāgi",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-016",
@@ -106,7 +116,8 @@
     "name": "Isawa Tsuke",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-020",
@@ -116,7 +127,8 @@
     "name": "Insolent Outcast",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-019",
@@ -126,7 +138,8 @@
     "name": "Caravan Guard",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-015",
@@ -136,7 +149,8 @@
     "name": "Doji Kuzunobu",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-022",
@@ -146,7 +160,8 @@
     "name": "Total Warfare",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-021",
@@ -156,7 +171,8 @@
     "name": "Tactical Ingenuity",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-003",
@@ -165,7 +181,8 @@
     "publisherId": "ffg",
     "name": "Support of the Lion",
     "type": "Role",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-005",
@@ -175,7 +192,8 @@
     "name": "Samurai of Integrity",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-025",
@@ -185,7 +203,8 @@
     "name": "Prepare for War",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-026",
@@ -195,7 +214,8 @@
     "name": "Right Hand of the Emperor",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-011",
@@ -205,7 +225,8 @@
     "name": "Matsu Tsuko (TEL)",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-008",
@@ -215,7 +236,8 @@
     "name": "Kitsu Motso",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-024",
@@ -225,7 +247,8 @@
     "name": "Honor in Battle",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-013",
@@ -235,7 +258,8 @@
     "name": "Hall of Victories",
     "type": "Holding",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-012",
@@ -245,7 +269,8 @@
     "name": "Champions of Yomi",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-007",
@@ -255,7 +280,8 @@
     "name": "Ardent Omoidasu",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-009",
@@ -265,7 +291,8 @@
     "name": "Akodo Motivator",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-emperors-legion-002",
@@ -274,6 +301,7 @@
     "publisherId": "ffg",
     "name": "Kenson no Gakka",
     "type": "Province",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   }
 ]

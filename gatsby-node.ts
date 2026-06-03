@@ -48,6 +48,7 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       flavorText: String
       illustrator: String
       imagePath: String
+      unverified: Boolean
       # game-specific fields (sparse, optional, additive across games):
       clan: String
       deck: String
@@ -56,6 +57,15 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       cost: Int
       strength: Int
       influence: Int
+      # L5R-specific:
+      military: Int
+      political: Int
+      glory: Int
+      honor: Int
+      fate: Int
+      influencePool: Int
+      element: String
+      traits: [String]
       # Errata override (any subset of card fields can change). Stored as
       # JSON so the override is field-shape-flexible without enumerating
       # every possible field at the schema layer.

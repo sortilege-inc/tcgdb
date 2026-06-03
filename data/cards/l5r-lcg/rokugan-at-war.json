@@ -6,7 +6,8 @@
     "publisherId": "ffg",
     "name": "Shrug Off Despair",
     "type": "Province",
-    "clan": "Crab"
+    "clan": "Crab",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-005",
@@ -15,7 +16,8 @@
     "publisherId": "ffg",
     "name": "Kakudaira",
     "type": "Province",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-004",
@@ -24,7 +26,8 @@
     "publisherId": "ffg",
     "name": "Ninkatoshi",
     "type": "Province",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-006",
@@ -33,7 +36,8 @@
     "publisherId": "ffg",
     "name": "City of the Rich Frog",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-008",
@@ -43,7 +47,8 @@
     "name": "Kakita Yoshi (RaW)",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-021",
@@ -53,7 +58,8 @@
     "name": "Paralyzing Delicacy",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-017",
@@ -63,7 +69,8 @@
     "name": "Educated Heimin",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-014",
@@ -73,7 +80,8 @@
     "name": "A Season of War",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-002",
@@ -82,7 +90,8 @@
     "publisherId": "ffg",
     "name": "Pledge of Loyalty",
     "type": "Province",
-    "clan": "Crane"
+    "clan": "Crane",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-003",
@@ -91,7 +100,8 @@
     "publisherId": "ffg",
     "name": "Sharing Shinsei's Wisdom",
     "type": "Province",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-007",
@@ -101,7 +111,8 @@
     "name": "Recalled Defenses",
     "type": "Event",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-009",
@@ -111,7 +122,8 @@
     "name": "Cycle of Rebirth",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-010",
@@ -121,7 +133,8 @@
     "name": "Akodo Reserve Company",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-011",
@@ -131,7 +144,8 @@
     "name": "Garanto Guardian",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-012",
@@ -141,7 +155,8 @@
     "name": "Governor's Spy",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-013",
@@ -151,7 +166,8 @@
     "name": "White Horde Vanguard",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-015",
@@ -161,7 +177,8 @@
     "name": "Our Foe Does Not Wait",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-016",
@@ -171,7 +188,8 @@
     "name": "Captivating Story",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-018",
@@ -181,7 +199,8 @@
     "name": "Serene Ise Zumi",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-019",
@@ -191,7 +210,8 @@
     "name": "Prepared Ambush",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-024",
@@ -201,7 +221,8 @@
     "name": "Field of Ruin",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-020",
@@ -211,7 +232,8 @@
     "name": "Wandering Mediator",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-022",
@@ -221,7 +243,8 @@
     "name": "Countryside Trader",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "rokugan-at-war-023",
@@ -231,6 +254,7 @@
     "name": "Scouted Terrain",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

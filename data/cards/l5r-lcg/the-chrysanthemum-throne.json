@@ -7,7 +7,8 @@
     "name": "Guard Duty",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-064",
@@ -17,7 +18,8 @@
     "name": "Doji Shizue",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-061",
@@ -26,7 +28,8 @@
     "publisherId": "ffg",
     "name": "Before the Throne",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-067",
@@ -36,7 +39,8 @@
     "name": "Akodo Toshiro",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-080",
@@ -46,7 +50,8 @@
     "name": "Way of the Chrysanthemum",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-073",
@@ -56,7 +61,8 @@
     "name": "Pit Trap",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-078",
@@ -66,7 +72,8 @@
     "name": "Backhanded Compliment",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-079",
@@ -76,7 +83,8 @@
     "name": "Gaijin Customs",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-077",
@@ -86,7 +94,8 @@
     "name": "Seal of the Phoenix",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-075",
@@ -96,7 +105,8 @@
     "name": "Centipede Tattoo",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-074",
@@ -106,7 +116,8 @@
     "name": "Curry Favor",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-072",
@@ -116,7 +127,8 @@
     "name": "The Imperial Palace",
     "type": "Holding",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-065",
@@ -126,7 +138,8 @@
     "name": "Agasha Sumiko",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-070",
@@ -136,7 +149,8 @@
     "name": "Fawning Diplomat",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-071",
@@ -146,7 +160,8 @@
     "name": "Utaku Mediator",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-069",
@@ -156,7 +171,8 @@
     "name": "Haughty Magistrate",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-068",
@@ -166,7 +182,8 @@
     "name": "Implacable Magistrate",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-063",
@@ -176,7 +193,8 @@
     "name": "Kaiu Inventor",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-066",
@@ -186,7 +204,8 @@
     "name": "Mountaintop Statuary",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-chrysanthemum-throne-062",
@@ -195,6 +214,7 @@
     "publisherId": "ffg",
     "name": "Guardians of the Seikitsu",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   }
 ]

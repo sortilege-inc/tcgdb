@@ -7,7 +7,8 @@
     "name": "Akodo Toturi",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-012",
@@ -17,7 +18,8 @@
     "name": "Courtly Challenger",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-037",
@@ -27,7 +29,8 @@
     "name": "Honest Challenger",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-058",
@@ -37,7 +40,8 @@
     "name": "Mirumoto Daishō",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-034",
@@ -47,7 +51,8 @@
     "name": "Social Puppeteer",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-023",
@@ -57,7 +62,8 @@
     "name": "Student of War",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-068",
@@ -67,7 +73,8 @@
     "name": "Subdue the Spirits",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-052",
@@ -77,7 +84,8 @@
     "name": "In Defense of Rokugan",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-080",
@@ -87,7 +95,8 @@
     "name": "Stay Your Hand",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-074",
@@ -97,7 +106,8 @@
     "name": "Jewel of the Khamasīn",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-062",
@@ -107,7 +117,8 @@
     "name": "Hand to Hand",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-060",
@@ -117,7 +128,8 @@
     "name": "Karmic Balance",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-055",
@@ -127,7 +139,8 @@
     "name": "Try Again Tomorrow",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-028",
@@ -137,7 +150,8 @@
     "name": "Sage of Gisei Toshi",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-010",
@@ -147,7 +161,8 @@
     "name": "Heavy Ballista",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-072",
@@ -157,7 +172,8 @@
     "name": "Miyako's Undertaking",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-019",
@@ -167,7 +183,8 @@
     "name": "Mirumoto Hitomi",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-009",
@@ -177,7 +194,8 @@
     "name": "Hida Yakamo",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-063",
@@ -187,7 +205,8 @@
     "name": "The Fires of Justice",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-041",
@@ -197,7 +216,8 @@
     "name": "Aspiring Challenger",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-059",
@@ -207,7 +227,8 @@
     "name": "Magnificent Triumph",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-031",
@@ -217,7 +238,8 @@
     "name": "Loyal Challenger",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-018",
@@ -227,7 +249,8 @@
     "name": "Tranquil Philosopher",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-021",
@@ -237,7 +260,8 @@
     "name": "Honorable Challenger",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-069",
@@ -247,7 +271,8 @@
     "name": "Infiltrator's Tools",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-039",
@@ -257,7 +282,8 @@
     "name": "Shiotome Heroine",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-027",
@@ -267,7 +293,8 @@
     "name": "Sincere Challenger",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-040",
@@ -277,7 +304,8 @@
     "name": "Utaku Kamoko",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-001",
@@ -286,7 +314,8 @@
     "publisherId": "ffg",
     "name": "Kiku Matsuri",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-022",
@@ -296,7 +325,8 @@
     "name": "Ikoma Orator",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-064",
@@ -306,7 +336,8 @@
     "name": "Glorious Victory",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-075",
@@ -316,7 +347,8 @@
     "name": "Challenge on the Fields",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-065",
@@ -326,7 +358,8 @@
     "name": "Unmatched Expertise",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-024",
@@ -336,7 +369,8 @@
     "name": "Matsu Tsuko",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-029",
@@ -346,7 +380,8 @@
     "name": "Isawa Ujina",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-038",
@@ -356,7 +391,8 @@
     "name": "Ide Negotiator",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-066",
@@ -366,7 +402,8 @@
     "name": "Gift of Amaterasu",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-007",
@@ -376,7 +413,8 @@
     "name": "Yasuki Procurer",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-035",
@@ -386,7 +424,8 @@
     "name": "Shosuro Hametsu",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-006",
@@ -396,7 +435,8 @@
     "name": "Daring Challenger",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-003",
@@ -405,7 +445,8 @@
     "publisherId": "ffg",
     "name": "Midnight Revels",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-032",
@@ -415,7 +456,8 @@
     "name": "Midnight Prowler",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-070",
@@ -425,7 +467,8 @@
     "name": "Kirei-ko",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-050",
@@ -435,7 +478,8 @@
     "name": "Honed Nodachi",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-026",
@@ -445,7 +489,8 @@
     "name": "Fire Tensai Acolyte",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-061",
@@ -455,7 +500,8 @@
     "name": "True Strike Kenjutsu",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-051",
@@ -465,7 +511,8 @@
     "name": "Smuggling Deal",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-081",
@@ -475,7 +522,8 @@
     "name": "Warm Welcome",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-014",
@@ -485,7 +533,8 @@
     "name": "Kakita Toshimoko",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-015",
@@ -495,7 +544,8 @@
     "name": "Kakita Dōjō",
     "type": "Holding",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-020",
@@ -505,7 +555,8 @@
     "name": "Mirumoto Dōjō",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-002",
@@ -514,7 +565,8 @@
     "publisherId": "ffg",
     "name": "Illustrious Forge",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-053",
@@ -524,7 +576,8 @@
     "name": "Iaijutsu Master",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-017",
@@ -534,7 +587,8 @@
     "name": "Prudent Challenger",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-054",
@@ -544,7 +598,8 @@
     "name": "Storied Defeat",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-042",
@@ -554,7 +609,8 @@
     "name": "Seppun Hidden Guard",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-004",
@@ -563,7 +619,8 @@
     "publisherId": "ffg",
     "name": "Temple of the Dragons",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-047",
@@ -573,7 +630,8 @@
     "name": "Miya Library",
     "type": "Holding",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-078",
@@ -583,7 +641,8 @@
     "name": "Unveiled Destiny",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-044",
@@ -593,7 +652,8 @@
     "name": "Righteous Magistrate",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-043",
@@ -603,7 +663,8 @@
     "name": "Humble Magistrate",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-046",
@@ -613,7 +674,8 @@
     "name": "Hantei XXXVIII",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-079",
@@ -623,7 +685,8 @@
     "name": "Defend Your Honor",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-005",
@@ -632,7 +695,8 @@
     "publisherId": "ffg",
     "name": "Vassal Fields",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-071",
@@ -642,7 +706,8 @@
     "name": "Unmask",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-025",
@@ -652,7 +717,8 @@
     "name": "Tactician's Camp",
     "type": "Holding",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-008",
@@ -662,7 +728,8 @@
     "name": "Siege Captain",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-073",
@@ -672,7 +739,8 @@
     "name": "Shinjo Ambusher",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-067",
@@ -682,7 +750,8 @@
     "name": "Severed From the Stream",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-048",
@@ -692,7 +761,8 @@
     "name": "Proving Ground",
     "type": "Holding",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-013",
@@ -702,7 +772,8 @@
     "name": "Paragon of Grace",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-076",
@@ -712,7 +783,8 @@
     "name": "Leniency",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-011",
@@ -722,7 +794,8 @@
     "name": "Ichigenkin Soloist",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-033",
@@ -732,7 +805,8 @@
     "name": "Attendant to the Emperor",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-057",
@@ -742,7 +816,8 @@
     "name": "Solitary Strength",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-082",
@@ -752,7 +827,8 @@
     "name": "Prayers to Ebisu",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-036",
@@ -762,7 +838,8 @@
     "name": "Outskirsts Sentry",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-077",
@@ -772,7 +849,8 @@
     "name": "Kujira's Hireling",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-016",
@@ -782,7 +860,8 @@
     "name": "Kitsuki Counselor",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-049",
@@ -792,7 +871,8 @@
     "name": "Guardian of Virtue",
     "type": "Character",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-056",
@@ -802,7 +882,8 @@
     "name": "Civil Discourse",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "children-of-the-empire-030",
@@ -812,6 +893,7 @@
     "name": "Ancestral Shrine",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

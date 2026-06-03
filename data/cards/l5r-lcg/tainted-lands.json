@@ -7,7 +7,8 @@
     "name": "Feral Ningyo",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tainted-lands-023",
@@ -16,7 +17,8 @@
     "publisherId": "ffg",
     "name": "Upholding Authority",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "tainted-lands-030",
@@ -26,7 +28,8 @@
     "name": "Sneaky Shinjo",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tainted-lands-024",
@@ -36,7 +39,8 @@
     "name": "Apprentice Earthcaller",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tainted-lands-025",
@@ -46,7 +50,8 @@
     "name": "Kuni Yori",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tainted-lands-031",
@@ -56,7 +61,8 @@
     "name": "Marauding Oni",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tainted-lands-037",
@@ -66,7 +72,8 @@
     "name": "Oracle of Stone",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tainted-lands-032",
@@ -76,7 +83,8 @@
     "name": "Spreading the Darkness",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tainted-lands-021",
@@ -85,7 +93,8 @@
     "publisherId": "ffg",
     "name": "Teachings of the Elements",
     "type": "Province",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "tainted-lands-040",
@@ -95,7 +104,8 @@
     "name": "Sabotage",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tainted-lands-035",
@@ -105,7 +115,8 @@
     "name": "Writ of Authority",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tainted-lands-033",
@@ -115,7 +126,8 @@
     "name": "Adopted Kin",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tainted-lands-034",
@@ -125,7 +137,8 @@
     "name": "Ikoma Reservist",
     "type": "Character",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tainted-lands-026",
@@ -135,7 +148,8 @@
     "name": "Asahina Takako",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tainted-lands-027",
@@ -145,7 +159,8 @@
     "name": "Bonsai Garden",
     "type": "Holding",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tainted-lands-022",
@@ -154,7 +169,8 @@
     "publisherId": "ffg",
     "name": "Border Fortress",
     "type": "Province",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "tainted-lands-029",
@@ -164,7 +180,8 @@
     "name": "Court Novice",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tainted-lands-028",
@@ -174,7 +191,8 @@
     "name": "Impulsive Novice",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tainted-lands-039",
@@ -184,7 +202,8 @@
     "name": "Press of Battle",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tainted-lands-038",
@@ -194,6 +213,7 @@
     "name": "Tainted Koku",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

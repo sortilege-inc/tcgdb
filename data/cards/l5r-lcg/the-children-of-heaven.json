@@ -7,7 +7,8 @@
     "name": "Hantei Daisetsu",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-068",
@@ -16,7 +17,8 @@
     "publisherId": "ffg",
     "name": "Emperor's Summons",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-077",
@@ -26,7 +28,8 @@
     "name": "Emissary of Lies",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-088",
@@ -36,7 +39,8 @@
     "name": "Overhear",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-083",
@@ -46,7 +50,8 @@
     "name": "Rising Stars Kata",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-072",
@@ -56,7 +61,8 @@
     "name": "Togashi Yoshi",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-073",
@@ -66,7 +72,8 @@
     "name": "Truthseeker",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-086",
@@ -76,7 +83,8 @@
     "name": "Unspoken Etiquette",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-069",
@@ -86,7 +94,8 @@
     "name": "Student of Anatomies",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-067",
@@ -95,7 +104,8 @@
     "publisherId": "ffg",
     "name": "Fortified Assembly",
     "type": "Province",
-    "clan": "Crab"
+    "clan": "Crab",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-074",
@@ -105,7 +115,8 @@
     "name": "Ikoma Kiyono",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-075",
@@ -115,7 +126,8 @@
     "name": "Righteous Delegate",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-076",
@@ -125,7 +137,8 @@
     "name": "Starry Heaven Sanctuary",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-078",
@@ -135,7 +148,8 @@
     "name": "Licensed Quarter",
     "type": "Holding",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-079",
@@ -145,7 +159,8 @@
     "name": "Ide Ryōma",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-081",
@@ -155,7 +170,8 @@
     "name": "Sharpened Tsuruhashi",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-082",
@@ -165,7 +181,8 @@
     "name": "Issue a Challenge",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-084",
@@ -175,7 +192,8 @@
     "name": "Regal Bearing",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-085",
@@ -185,7 +203,8 @@
     "name": "Invoke the Divine",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-087",
@@ -195,7 +214,8 @@
     "name": "Natural Negotiator",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-070",
@@ -205,7 +225,8 @@
     "name": "Graceful Guardian",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-children-of-heaven-071",
@@ -215,6 +236,7 @@
     "name": "Iron Crane Legion",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

@@ -7,7 +7,8 @@
     "name": "A War on Two Fronts",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-122",
@@ -17,7 +18,8 @@
     "name": "At Any Cost",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-128",
@@ -27,7 +29,8 @@
     "name": "Cleanse the Empire",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-130",
@@ -37,7 +40,8 @@
     "name": "Ride On",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-129",
@@ -47,7 +51,8 @@
     "name": "Subterfuge",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-126",
@@ -57,7 +62,8 @@
     "name": "Ujiaki's Offer",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-116",
@@ -67,7 +73,8 @@
     "name": "Adorned Temple",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-113",
@@ -77,7 +84,8 @@
     "name": "Doom Thrower",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-125",
@@ -87,7 +95,8 @@
     "name": "Belief in the Little Teacher",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-123",
@@ -97,7 +106,8 @@
     "name": "Dutiful Assistant",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-124",
@@ -107,7 +117,8 @@
     "name": "Setting the Standard",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-114",
@@ -117,7 +128,8 @@
     "name": "Daidoji Iron Warrior",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-115",
@@ -127,7 +139,8 @@
     "name": "Furtive Sympathizer",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-117",
@@ -137,7 +150,8 @@
     "name": "Ikoma Ujiaki (PaAC)",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-118",
@@ -147,7 +161,8 @@
     "name": "Inquisitorial Initiate",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-112",
@@ -157,7 +172,8 @@
     "name": "Midnight Builder",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-121",
@@ -167,7 +183,8 @@
     "name": "Moto Conqueror",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-119",
@@ -177,7 +194,8 @@
     "name": "Relentless Inquisitor",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-120",
@@ -187,7 +205,8 @@
     "name": "Underhanded Samurai",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-110",
@@ -196,7 +215,8 @@
     "publisherId": "ffg",
     "name": "Golden Plains",
     "type": "Province",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-111",
@@ -205,7 +225,8 @@
     "publisherId": "ffg",
     "name": "Lord's Ascendancy",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "peace-at-any-cost-109",
@@ -214,6 +235,7 @@
     "publisherId": "ffg",
     "name": "Shiro Gisu",
     "type": "Stronghold",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   }
 ]

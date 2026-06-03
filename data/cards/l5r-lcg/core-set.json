@@ -13,7 +13,8 @@
         "source": "[sample — replace with authoritative source]",
         "text": "Sample ruling: Shizuka Toshi's ability triggers once per duel, not once per resolution step."
       }
-    ]
+    ],
+    "unverified": true
   },
   {
     "id": "core-set-004",
@@ -25,7 +26,8 @@
     "clan": "Lion",
     "errata": {
       "text": "[Sample errata] Yōjin no Shiro: While you have at least one ready character with military skill 3 or higher, this stronghold gains \"Reaction: After a unit declares an attack against this province — bow this card to bow the attacking character.\""
-    }
+    },
+    "unverified": true
   },
   {
     "id": "core-set-008",
@@ -41,7 +43,8 @@
         "source": "[sample — replace with authoritative source]",
         "text": "Sample ruling: Defend the Wall's effect resolves at the start of the conflict, before any character abilities."
       }
-    ]
+    ],
+    "unverified": true
   },
   {
     "id": "core-set-016",
@@ -60,7 +63,8 @@
         "source": "[sample — replace with authoritative source]",
         "text": "Sample ruling: Elemental Fury can target a character on either side; controller of Elemental Fury chooses."
       }
-    ]
+    ],
+    "unverified": true
   },
   {
     "id": "core-set-014",
@@ -69,7 +73,8 @@
     "publisherId": "ffg",
     "name": "Endless Plains",
     "type": "Province",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "core-set-012",
@@ -78,7 +83,8 @@
     "publisherId": "ffg",
     "name": "Kuroi Mori",
     "type": "Province",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "core-set-024",
@@ -87,7 +93,8 @@
     "publisherId": "ffg",
     "name": "Shameful Display",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-189",
@@ -97,7 +104,8 @@
     "name": "Blackmail",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-134",
@@ -107,7 +115,8 @@
     "name": "Jade Tetsubō",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-112",
@@ -117,7 +126,8 @@
     "name": "Border Rider",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-096",
@@ -127,7 +137,8 @@
     "name": "Bayushi Manipulator",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-046",
@@ -137,7 +148,8 @@
     "name": "Daidoji Nerishma",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-187",
@@ -147,7 +159,8 @@
     "name": "I Can Swim",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-038",
@@ -157,7 +170,8 @@
     "name": "Borderlands Fortifications",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-198",
@@ -167,7 +181,8 @@
     "name": "Way of the Unicorn",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-057",
@@ -177,7 +192,8 @@
     "name": "Mirumoto Prodigy",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-090",
@@ -187,7 +203,8 @@
     "name": "Isawa Masahiro",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-106",
@@ -197,7 +214,8 @@
     "name": "Yogo Hiroue",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-056",
@@ -207,7 +225,8 @@
     "name": "Agasha Swordsmith",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-059",
@@ -217,7 +236,8 @@
     "name": "Seeker of Enlightenment",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-192",
@@ -227,7 +247,8 @@
     "name": "Favored Mount",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-045",
@@ -237,7 +258,8 @@
     "name": "Savvy Politician",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-069",
@@ -247,7 +269,8 @@
     "name": "Matsu Berserker",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-025",
@@ -257,7 +280,8 @@
     "name": "Eager Scout",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-195",
@@ -267,7 +291,8 @@
     "name": "Breakthrough",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-160",
@@ -277,7 +302,8 @@
     "name": "Vengeful Oathkeeper",
     "type": "Character",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-167",
@@ -287,7 +313,8 @@
     "name": "Way of the Lion",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-146",
@@ -297,7 +324,8 @@
     "name": "Way of the Crane",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-185",
@@ -307,7 +335,8 @@
     "name": "Way of the Scorpion",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-176",
@@ -317,7 +346,8 @@
     "name": "Way of the Phoenix",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-154",
@@ -327,7 +357,8 @@
     "name": "Way of the Dragon",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-125",
@@ -337,7 +368,8 @@
     "name": "Miya Mystic",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-148",
@@ -347,7 +379,8 @@
     "name": "Noble Sacrifice",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-136",
@@ -357,7 +390,8 @@
     "name": "Rebuild",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-042",
@@ -367,7 +401,8 @@
     "name": "Brash Samurai",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-203",
@@ -377,7 +412,8 @@
     "name": "Assassination",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-055",
@@ -387,7 +423,8 @@
     "name": "Togashi Initiate",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-147",
@@ -397,7 +434,8 @@
     "name": "Admit Defeat",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-211",
@@ -407,7 +445,8 @@
     "name": "Fallen in Battle",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-132",
@@ -417,7 +456,8 @@
     "name": "Reprieve",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-122",
@@ -427,7 +467,8 @@
     "name": "Otomo Courtier",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-075",
@@ -437,7 +478,8 @@
     "name": "Lion's Pride Brawler",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-114",
@@ -447,7 +489,8 @@
     "name": "Shinjo Outrider",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-083",
@@ -457,7 +500,8 @@
     "name": "Solemn Scholar",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-209",
@@ -467,7 +511,8 @@
     "name": "Spies at Court",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-101",
@@ -477,7 +522,8 @@
     "name": "Young Rumormonger",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-111",
@@ -487,7 +533,8 @@
     "name": "Aggressive Moto",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-204",
@@ -497,7 +544,8 @@
     "name": "Banzai!",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-207",
@@ -507,7 +555,8 @@
     "name": "For Shame!",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-200",
@@ -517,7 +566,8 @@
     "name": "Fine Katana",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-202",
@@ -527,7 +577,8 @@
     "name": "Cloud the Mind",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-171",
@@ -537,7 +588,8 @@
     "name": "Seeker of Knowledge",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-082",
@@ -547,7 +599,8 @@
     "name": "Shiba Peacemaker",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-144",
@@ -557,7 +610,8 @@
     "name": "The Perfect Gift",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-044",
@@ -567,7 +621,8 @@
     "name": "Doji Gift Giver",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-053",
@@ -577,7 +632,8 @@
     "name": "Artisan Academy",
     "type": "Holding",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-143",
@@ -587,7 +643,8 @@
     "name": "Height of Fashion",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-009",
@@ -596,7 +653,8 @@
     "publisherId": "ffg",
     "name": "The Art of Peace",
     "type": "Province",
-    "clan": "Crane"
+    "clan": "Crane",
+    "unverified": true
   },
   {
     "id": "core-set-047",
@@ -606,7 +664,8 @@
     "name": "Doji Challenger",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-052",
@@ -616,7 +675,8 @@
     "name": "Doji Hotaru",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-139",
@@ -626,7 +686,8 @@
     "name": "Steward of Law",
     "type": "Character",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-145",
@@ -636,7 +697,8 @@
     "name": "Voice of Honor",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-141",
@@ -646,7 +708,8 @@
     "name": "Above Question",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-142",
@@ -656,7 +719,8 @@
     "name": "Duelist Training",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-071",
@@ -666,7 +730,8 @@
     "name": "Akodo Gunsō",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-178",
@@ -676,7 +741,8 @@
     "name": "Know the World",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-077",
@@ -686,7 +752,8 @@
     "name": "Honored General",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-163",
@@ -696,7 +763,8 @@
     "name": "Honored Blade",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-072",
@@ -706,7 +774,8 @@
     "name": "Deathseeker",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-021",
@@ -715,7 +784,8 @@
     "publisherId": "ffg",
     "name": "Night Raid",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-089",
@@ -725,7 +795,8 @@
     "name": "Shiba Yōjimbō",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-180",
@@ -735,7 +806,8 @@
     "name": "Adept of Shadows",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-208",
@@ -745,7 +817,8 @@
     "name": "Good Omen",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-093",
@@ -755,7 +828,8 @@
     "name": "Shiba Tsukune",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-118",
@@ -765,7 +839,8 @@
     "name": "Utaku Yumino",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-067",
@@ -775,7 +850,8 @@
     "name": "Obstinate Recruit",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-011",
@@ -784,7 +860,8 @@
     "publisherId": "ffg",
     "name": "The Art of War",
     "type": "Province",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "core-set-074",
@@ -794,7 +871,8 @@
     "name": "Kitsu Spiritcaller",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-076",
@@ -804,7 +882,8 @@
     "name": "Matsu Beiona",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-078",
@@ -814,7 +893,8 @@
     "name": "Ikoma Eiji",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-169",
@@ -824,7 +904,8 @@
     "name": "Strength in Numbers",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-166",
@@ -834,7 +915,8 @@
     "name": "Stand Your Ground",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-168",
@@ -844,7 +926,8 @@
     "name": "For Greater Glory",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-162",
@@ -854,7 +937,8 @@
     "name": "Guidance of the Ancestors",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-164",
@@ -864,7 +948,8 @@
     "name": "Sashimono",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-068",
@@ -874,7 +959,8 @@
     "name": "Ikoma Prodigy",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-161",
@@ -884,7 +970,8 @@
     "name": "Master of the Spear",
     "type": "Character",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-073",
@@ -894,7 +981,8 @@
     "name": "Venerable Historian",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-158",
@@ -904,7 +992,8 @@
     "name": "Indomitable Will",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-159",
@@ -914,7 +1003,8 @@
     "name": "Mirumoto's Fury",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-129",
@@ -924,7 +1014,8 @@
     "name": "Imperial Storehouse",
     "type": "Holding",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-123",
@@ -934,7 +1025,8 @@
     "name": "Seppun Guardsman",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-153",
@@ -944,7 +1036,8 @@
     "name": "Kitsuki's Method",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-155",
@@ -954,7 +1047,8 @@
     "name": "Let Go",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-156",
@@ -964,7 +1058,8 @@
     "name": "Mantra of Fire",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-010",
@@ -973,7 +1068,8 @@
     "publisherId": "ffg",
     "name": "Restoration of Balance",
     "type": "Province",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "core-set-003",
@@ -982,7 +1078,8 @@
     "publisherId": "ffg",
     "name": "Mountain's Anvil Castle",
     "type": "Stronghold",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "core-set-060",
@@ -992,7 +1089,8 @@
     "name": "Enlightened Warrior",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-064",
@@ -1002,7 +1100,8 @@
     "name": "Niten Master",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-065",
@@ -1012,7 +1111,8 @@
     "name": "Togashi Yokuni",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-149",
@@ -1022,7 +1122,8 @@
     "name": "Tattooed Wanderer",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-150",
@@ -1032,7 +1133,8 @@
     "name": "Togashi Kazue",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-061",
@@ -1042,7 +1144,8 @@
     "name": "Kitsuki Investigator",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-201",
@@ -1052,7 +1155,8 @@
     "name": "Ornate Fan",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-043",
@@ -1062,7 +1166,8 @@
     "name": "Cautious Scout",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-131",
@@ -1072,7 +1177,8 @@
     "name": "Stoic Gunsō",
     "type": "Character",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-133",
@@ -1082,7 +1188,8 @@
     "name": "Watch Commander",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-036",
@@ -1092,7 +1199,8 @@
     "name": "Kaiu Shuichi",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-017",
@@ -1101,7 +1209,8 @@
     "publisherId": "ffg",
     "name": "Entrenched Position",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-023",
@@ -1110,7 +1219,8 @@
     "publisherId": "ffg",
     "name": "Rally to the Cause",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-020",
@@ -1119,7 +1229,8 @@
     "publisherId": "ffg",
     "name": "Meditations on the Tao",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-130",
@@ -1129,7 +1240,8 @@
     "name": "Hiruma Ambusher",
     "type": "Character",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-034",
@@ -1139,7 +1251,8 @@
     "name": "Hida Tomonatsu",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-035",
@@ -1149,7 +1262,8 @@
     "name": "Steadfast Witch Hunter",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-037",
@@ -1159,7 +1273,8 @@
     "name": "Hida Kisada",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-001",
@@ -1168,7 +1283,8 @@
     "publisherId": "ffg",
     "name": "Shiro Nishiyama",
     "type": "Stronghold",
-    "clan": "Crab"
+    "clan": "Crab",
+    "unverified": true
   },
   {
     "id": "core-set-138",
@@ -1178,7 +1294,8 @@
     "name": "The Mountain Does Not Fall",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-039",
@@ -1188,7 +1305,8 @@
     "name": "Funeral Pyre",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-026",
@@ -1198,7 +1316,8 @@
     "name": "Hida Guardian",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-135",
@@ -1208,7 +1327,8 @@
     "name": "Levy",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-027",
@@ -1218,7 +1338,8 @@
     "name": "Kaiu Envoy",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-210",
@@ -1228,7 +1349,8 @@
     "name": "Charge!",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-213",
@@ -1238,7 +1360,8 @@
     "name": "Rout",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-206",
@@ -1248,7 +1371,8 @@
     "name": "Court Games",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-179",
@@ -1258,7 +1382,8 @@
     "name": "Display of Power",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-170",
@@ -1268,7 +1393,8 @@
     "name": "Ishiken Initiate",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-085",
@@ -1278,7 +1404,8 @@
     "name": "Asako Diplomat",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-084",
@@ -1288,7 +1415,8 @@
     "name": "Adept of the Waves",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-088",
@@ -1298,7 +1426,8 @@
     "name": "Serene Warrior",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-005",
@@ -1307,7 +1436,8 @@
     "publisherId": "ffg",
     "name": "Isawa Mori Seidō",
     "type": "Stronghold",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "core-set-087",
@@ -1317,7 +1447,8 @@
     "name": "Radiant Orator",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-081",
@@ -1327,7 +1458,8 @@
     "name": "Naive Student",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-172",
@@ -1337,7 +1469,8 @@
     "name": "Magnificent Kimono",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-117",
@@ -1347,7 +1480,8 @@
     "name": "Warrior Poet",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-177",
@@ -1357,7 +1491,8 @@
     "name": "Against the Waves",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-007",
@@ -1366,7 +1501,8 @@
     "publisherId": "ffg",
     "name": "Golden Plains Outpost",
     "type": "Stronghold",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "core-set-126",
@@ -1376,7 +1512,8 @@
     "name": "Seeker Initiate",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-124",
@@ -1386,7 +1523,8 @@
     "name": "Keeper Initiate",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-110",
@@ -1396,7 +1534,8 @@
     "name": "Utaku Infantry",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-102",
@@ -1406,7 +1545,8 @@
     "name": "Favored Niece",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-212",
@@ -1416,7 +1556,8 @@
     "name": "Outwit",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-214a",
@@ -1425,7 +1566,8 @@
     "publisherId": "ffg",
     "name": "Keeper of Air",
     "type": "Role",
-    "clan": "Crab"
+    "clan": "Crab",
+    "unverified": true
   },
   {
     "id": "core-set-215a",
@@ -1434,7 +1576,8 @@
     "publisherId": "ffg",
     "name": "Keeper of Earth",
     "type": "Role",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "core-set-218a",
@@ -1443,7 +1586,8 @@
     "publisherId": "ffg",
     "name": "Keeper of Void",
     "type": "Role",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-217a",
@@ -1452,7 +1596,8 @@
     "publisherId": "ffg",
     "name": "Keeper of Water",
     "type": "Role",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "core-set-128",
@@ -1462,7 +1607,8 @@
     "name": "Favorable Ground",
     "type": "Holding",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-191",
@@ -1472,7 +1618,8 @@
     "name": "Ide Messenger",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-121",
@@ -1482,7 +1629,8 @@
     "name": "Shinjo Altansarnai",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-031",
@@ -1492,7 +1640,8 @@
     "name": "Borderlands Defender",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-029",
@@ -1502,7 +1651,8 @@
     "name": "Shrewd Yasuki",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-108",
@@ -1512,7 +1662,8 @@
     "name": "City of Lies",
     "type": "Holding",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-080",
@@ -1522,7 +1673,8 @@
     "name": "Staging Ground",
     "type": "Holding",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-054",
@@ -1532,7 +1684,8 @@
     "name": "Doomed Shugenja",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-107",
@@ -1542,7 +1695,8 @@
     "name": "Bayushi Shoju",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-041",
@@ -1552,7 +1706,8 @@
     "name": "Doji Whisperer",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-070",
@@ -1562,7 +1717,8 @@
     "name": "Steadfast Samurai",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-137",
@@ -1572,7 +1728,8 @@
     "name": "Way of the Crab",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-015",
@@ -1581,7 +1738,8 @@
     "publisherId": "ffg",
     "name": "Ancestral Lands",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-152",
@@ -1591,7 +1749,8 @@
     "name": "Daimyō's Favor",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-174",
@@ -1601,7 +1760,8 @@
     "name": "Pacifism",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-127",
@@ -1611,7 +1771,8 @@
     "name": "Wandering Rōnin",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-151",
@@ -1621,7 +1782,8 @@
     "name": "Ancestral Daishō",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-040",
@@ -1631,7 +1793,8 @@
     "name": "Asahina Artisan",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-049",
@@ -1641,7 +1804,8 @@
     "name": "Kakita Kaezin",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-050",
@@ -1651,7 +1815,8 @@
     "name": "Asahina Storyteller",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-051",
@@ -1661,7 +1826,8 @@
     "name": "Guest of Honor",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-048",
@@ -1671,7 +1837,8 @@
     "name": "Kakita Asami",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-165",
@@ -1681,7 +1848,8 @@
     "name": "Ready for Battle",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-079",
@@ -1691,7 +1859,8 @@
     "name": "Akodo Toturi (Lion Clan)",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-022",
@@ -1700,7 +1869,8 @@
     "publisherId": "ffg",
     "name": "Pilgrimage",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-058",
@@ -1710,7 +1880,8 @@
     "name": "Niten Adept",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-066",
@@ -1720,7 +1891,8 @@
     "name": "Secluded Temple",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-063",
@@ -1730,7 +1902,8 @@
     "name": "Ascetic Visionary",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-062",
@@ -1740,7 +1913,8 @@
     "name": "Mirumoto Raitsugu",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-140",
@@ -1750,7 +1924,8 @@
     "name": "Political Rival",
     "type": "Character",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-019",
@@ -1759,7 +1934,8 @@
     "publisherId": "ffg",
     "name": "Manicured Garden",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-033",
@@ -1769,7 +1945,8 @@
     "name": "Vengeful Berserker",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-091",
@@ -1779,7 +1956,8 @@
     "name": "Fearsome Mystic",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-092",
@@ -1789,7 +1967,8 @@
     "name": "Isawa Atsuko",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-094",
@@ -1799,7 +1978,8 @@
     "name": "Forgotten Library",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-006",
@@ -1808,7 +1988,8 @@
     "publisherId": "ffg",
     "name": "City of the Open Hand",
     "type": "Stronghold",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "core-set-216a",
@@ -1817,7 +1998,8 @@
     "publisherId": "ffg",
     "name": "Keeper of Fire",
     "type": "Role",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-205",
@@ -1827,7 +2009,8 @@
     "name": "Contingency Plan",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-157",
@@ -1837,7 +2020,8 @@
     "name": "Tranquility",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-032",
@@ -1847,7 +2031,8 @@
     "name": "Intimidating Hida",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-028",
@@ -1857,7 +2042,8 @@
     "name": "Hiruma Yōjimbō",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-173",
@@ -1867,7 +2053,8 @@
     "name": "Grasp of Earth",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-175",
@@ -1877,7 +2064,8 @@
     "name": "Supernatural Storm",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-103",
@@ -1887,7 +2075,8 @@
     "name": "Shosuro Actress",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-193",
@@ -1897,7 +2086,8 @@
     "name": "Spyglass",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-116",
@@ -1907,7 +2097,8 @@
     "name": "Ide Trader",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-119",
@@ -1917,7 +2108,8 @@
     "name": "Moto Horde",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-109",
@@ -1927,7 +2119,8 @@
     "name": "Moto Youth",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-115",
@@ -1937,7 +2130,8 @@
     "name": "Giver of Gifts",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-120",
@@ -1947,7 +2141,8 @@
     "name": "Shinjo Tatsuo",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-113",
@@ -1957,7 +2152,8 @@
     "name": "Meishōdō Wielder",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-196",
@@ -1967,7 +2163,8 @@
     "name": "Captive Audience",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-199",
@@ -1977,7 +2174,8 @@
     "name": "Cavalry Reserves",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-194",
@@ -1987,7 +2185,8 @@
     "name": "Born in War",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-197",
@@ -1997,7 +2196,8 @@
     "name": "I Am Ready",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-188",
@@ -2007,7 +2207,8 @@
     "name": "Ambush",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-018",
@@ -2016,7 +2217,8 @@
     "publisherId": "ffg",
     "name": "Fertile Fields",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "core-set-030",
@@ -2026,7 +2228,8 @@
     "name": "Vanguard Warrior",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-086",
@@ -2036,7 +2239,8 @@
     "name": "Meddling Mediator",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-190",
@@ -2046,7 +2250,8 @@
     "name": "Iuchi Wayfinder",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-183",
@@ -2056,7 +2261,8 @@
     "name": "Fiery Madness",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-182",
@@ -2066,7 +2272,8 @@
     "name": "Court Mask",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-181",
@@ -2076,7 +2283,8 @@
     "name": "Unassuming Yōjimbō",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-186",
@@ -2086,7 +2294,8 @@
     "name": "Calling in Favors",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-184",
@@ -2096,7 +2305,8 @@
     "name": "Forged Edict",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "core-set-013",
@@ -2105,7 +2315,8 @@
     "publisherId": "ffg",
     "name": "Secret Cache",
     "type": "Province",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "core-set-104",
@@ -2115,7 +2326,8 @@
     "name": "Shosuro Miyako",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-099",
@@ -2125,7 +2337,8 @@
     "name": "Soshi Illusionist",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-100",
@@ -2135,7 +2348,8 @@
     "name": "Yogo Outcast",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-097",
@@ -2145,7 +2359,8 @@
     "name": "Sinister Soshi",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-105",
@@ -2155,7 +2370,8 @@
     "name": "Bayushi Yunako",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-098",
@@ -2165,7 +2381,8 @@
     "name": "Blackmail Artist",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "core-set-095",
@@ -2175,6 +2392,7 @@
     "name": "Bayushi Liar",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

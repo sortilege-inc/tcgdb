@@ -7,7 +7,8 @@
     "name": "Bayushi Aramoro",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-001",
@@ -16,7 +17,8 @@
     "publisherId": "ffg",
     "name": "Kyūden Bayushi",
     "type": "Stronghold",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-014",
@@ -26,7 +28,8 @@
     "name": "Akodo Kage",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-021",
@@ -36,7 +39,8 @@
     "name": "Stolen Breath",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-022",
@@ -46,7 +50,8 @@
     "name": "Duty",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-011",
@@ -56,7 +61,8 @@
     "name": "Court of Deception",
     "type": "Holding",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-010",
@@ -66,7 +72,8 @@
     "name": "Bayushi's Whisperers",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-004",
@@ -76,7 +83,8 @@
     "name": "Alibi Artist",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-026",
@@ -86,7 +94,8 @@
     "name": "Doji Fumiki",
     "type": "Character",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-002",
@@ -95,7 +104,8 @@
     "publisherId": "ffg",
     "name": "Brother's Gift Dōjō",
     "type": "Province",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-023",
@@ -105,7 +115,8 @@
     "name": "From the Shadows",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-020",
@@ -115,7 +126,8 @@
     "name": "Liar's Mask",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-018",
@@ -125,7 +137,8 @@
     "name": "Opium Wastrel",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-005",
@@ -135,7 +148,8 @@
     "name": "Shosuro Takao",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-015",
@@ -145,7 +159,8 @@
     "name": "Asako Maezawa",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-027",
@@ -155,7 +170,8 @@
     "name": "Offer Testimony",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-028",
@@ -165,7 +181,8 @@
     "name": "Peasant's Advice",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-017",
@@ -175,7 +192,8 @@
     "name": "Seppun Truthseeker",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-016",
@@ -185,7 +203,8 @@
     "name": "Utaku Tetsuko",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-007",
@@ -195,7 +214,8 @@
     "name": "Soshi Aoi",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-006",
@@ -205,7 +225,8 @@
     "name": "Insolent Rival",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-009",
@@ -215,7 +236,8 @@
     "name": "Ignoble Enforcers",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-012",
@@ -225,7 +247,8 @@
     "name": "Yasuki Oguri",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-013",
@@ -235,7 +258,8 @@
     "name": "Kitsuki Shomon",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-025",
@@ -245,7 +269,8 @@
     "name": "Stolen Secrets",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-024",
@@ -255,7 +280,8 @@
     "name": "Make an Opening",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-019",
@@ -265,7 +291,8 @@
     "name": "Bayushi Collector",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "underhand-of-the-emperor-003",
@@ -274,6 +301,7 @@
     "publisherId": "ffg",
     "name": "Support of the Scorpion",
     "type": "Role",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   }
 ]

@@ -86,6 +86,14 @@ export interface Card {
   imagePath?: string
   errata?: Partial<Card>
   rulings?: Ruling[]
+  /**
+   * Internal audit flag: this card's details came from an external/scraped
+   * source (e.g. the L5R Fandom wiki CSV) and have not been confirmed
+   * against the authoritative printed card. Cleared when the record is
+   * replaced with authoritative data via an import/paste. Surfaced in
+   * Settings → Audit.
+   */
+  unverified?: boolean
   [gameField: string]: unknown
 }
 

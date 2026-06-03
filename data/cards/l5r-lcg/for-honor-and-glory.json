@@ -7,7 +7,8 @@
     "name": "Northern Wall Sensei",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-031",
@@ -17,7 +18,8 @@
     "name": "Pathfinder's Blade",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-021",
@@ -26,7 +28,8 @@
     "publisherId": "ffg",
     "name": "Frostbitten Crossing",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-022",
@@ -35,7 +38,8 @@
     "publisherId": "ffg",
     "name": "Riot in the Streets",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-023",
@@ -45,7 +49,8 @@
     "name": "Stoic Magistrate",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-024",
@@ -55,7 +60,8 @@
     "name": "Kabuki Hero",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-026",
@@ -65,7 +71,8 @@
     "name": "Ikoma Ujiaki",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-027",
@@ -75,7 +82,8 @@
     "name": "Magnificent Lighthouse",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-036",
@@ -85,7 +93,8 @@
     "name": "Shrine Maiden",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-028",
@@ -95,7 +104,8 @@
     "name": "Bayushi Yojiro",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-029",
@@ -105,7 +115,8 @@
     "name": "Ide Tadaji",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-030",
@@ -115,7 +126,8 @@
     "name": "Miwaku Kabe",
     "type": "Holding",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-032",
@@ -125,7 +137,8 @@
     "name": "Raise the Alarm",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-033",
@@ -135,7 +148,8 @@
     "name": "Kakita Blade",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-034",
@@ -145,7 +159,8 @@
     "name": "High Kick",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-035",
@@ -155,7 +170,8 @@
     "name": "Kamayari",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-037",
@@ -165,7 +181,8 @@
     "name": "Harmonize",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-040",
@@ -175,7 +192,8 @@
     "name": "Policy Debate",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-038",
@@ -185,7 +203,8 @@
     "name": "Seal of the Scorpion",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "for-honor-and-glory-039",
@@ -195,6 +214,7 @@
     "name": "Shinjo Saddle",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

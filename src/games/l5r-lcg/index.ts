@@ -41,6 +41,18 @@ const cardDisplaySchema: CardDisplayField[] = [
   { key: 'type', label: 'Type' },
   { key: 'clan', label: 'Clan', hideIfEmpty: true },
   { key: 'deck', label: 'Deck', hideIfEmpty: true },
+  { key: 'unique', label: 'Unique', hideIfEmpty: true },
+  { key: 'cost', label: 'Cost', hideIfEmpty: true },
+  { key: 'military', label: 'Military', hideIfEmpty: true },
+  { key: 'political', label: 'Political', hideIfEmpty: true },
+  { key: 'glory', label: 'Glory', hideIfEmpty: true },
+  { key: 'strength', label: 'Strength', hideIfEmpty: true },
+  { key: 'element', label: 'Element', hideIfEmpty: true },
+  { key: 'honor', label: 'Honor (start)', hideIfEmpty: true },
+  { key: 'fate', label: 'Fate (per round)', hideIfEmpty: true },
+  { key: 'influencePool', label: 'Influence pool', hideIfEmpty: true },
+  { key: 'influence', label: 'Influence cost', hideIfEmpty: true },
+  { key: 'traits', label: 'Traits', hideIfEmpty: true },
   { key: 'illustrator', label: 'Illustrator', hideIfEmpty: true },
 ]
 

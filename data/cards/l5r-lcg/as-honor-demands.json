@@ -6,7 +6,8 @@
     "publisherId": "ffg",
     "name": "Seven Fold Palace",
     "type": "Stronghold",
-    "clan": "Crane"
+    "clan": "Crane",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-098",
@@ -16,7 +17,8 @@
     "name": "Master of the Court",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-108",
@@ -26,7 +28,8 @@
     "name": "Elegance and Grace",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-103",
@@ -36,7 +39,8 @@
     "name": "Endless Archives",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-102",
@@ -46,7 +50,8 @@
     "name": "Asako Lawmaster",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-105",
@@ -56,7 +61,8 @@
     "name": "Shinjo Altansarnai (AHD)",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-106",
@@ -66,7 +72,8 @@
     "name": "Contested Countryside",
     "type": "Holding",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-109",
@@ -76,7 +83,8 @@
     "name": "Waterfall Tattoo",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-111",
@@ -86,7 +94,8 @@
     "name": "The Receding Tie",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-110",
@@ -96,7 +105,8 @@
     "name": "Divine Ancestry",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-114",
@@ -106,7 +116,8 @@
     "name": "Command By Name",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-094",
@@ -115,7 +126,8 @@
     "publisherId": "ffg",
     "name": "Foothills Keep",
     "type": "Province",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-097",
@@ -125,7 +137,8 @@
     "name": "Hida Etsuji",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-099",
@@ -135,7 +148,8 @@
     "name": "Master of Many Lifetimes",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-104",
@@ -145,7 +159,8 @@
     "name": "Beautiful Entertainer",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-107",
@@ -155,7 +170,8 @@
     "name": "Ceaseless Duty",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-100",
@@ -165,7 +181,8 @@
     "name": "Fearless Skirmisher",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-095",
@@ -174,7 +191,8 @@
     "publisherId": "ffg",
     "name": "Honor’s Reward",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-101",
@@ -184,7 +202,8 @@
     "name": "Honored Veterans",
     "type": "Event",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-096",
@@ -194,7 +213,8 @@
     "name": "Pious Guardian",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-112",
@@ -204,7 +224,8 @@
     "name": "Soshi Diviner",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "as-honor-demands-113",
@@ -214,6 +235,7 @@
     "name": "Stoke Insurrection",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

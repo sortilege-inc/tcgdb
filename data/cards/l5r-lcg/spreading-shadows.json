@@ -7,7 +7,8 @@
     "name": "Twilight Rider",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-034",
@@ -17,7 +18,8 @@
     "name": "Traveling Philosopher",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-026",
@@ -26,7 +28,8 @@
     "publisherId": "ffg",
     "name": "Shinsei's Last Hope",
     "type": "Province",
-    "clan": "Crab"
+    "clan": "Crab",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-025",
@@ -35,7 +38,8 @@
     "publisherId": "ffg",
     "name": "Seven Stings Keep",
     "type": "Stronghold",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-036",
@@ -45,7 +49,8 @@
     "name": "Inspired Visionary",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-043",
@@ -55,7 +60,8 @@
     "name": "Highlight the Flaws",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-038",
@@ -65,7 +71,8 @@
     "name": "Dispatch to Nowhere",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-041",
@@ -75,7 +82,8 @@
     "name": "Disciple of Shinsei",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-027",
@@ -84,7 +92,8 @@
     "publisherId": "ffg",
     "name": "Spectral Visitation",
     "type": "Province",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-028",
@@ -93,7 +102,8 @@
     "publisherId": "ffg",
     "name": "Retire to the Brotherhood",
     "type": "Province",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-029",
@@ -102,7 +112,8 @@
     "publisherId": "ffg",
     "name": "Wind's Path",
     "type": "Province",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-030",
@@ -111,7 +122,8 @@
     "publisherId": "ffg",
     "name": "Driven By Courage",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-031",
@@ -121,7 +133,8 @@
     "name": "Butcher of the Fallen",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-032",
@@ -131,7 +144,8 @@
     "name": "Cunning Negotiator",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-033",
@@ -141,7 +155,8 @@
     "name": "Daidoji Marketplace",
     "type": "Holding",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-035",
@@ -151,7 +166,8 @@
     "name": "Chronicler of Conquests",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-037",
@@ -161,7 +177,8 @@
     "name": "Thunder Guard Elite",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-040",
@@ -171,7 +188,8 @@
     "name": "Moto Stables",
     "type": "Holding",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-042",
@@ -181,7 +199,8 @@
     "name": "Obsidian Talisman",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-044",
@@ -191,7 +210,8 @@
     "name": "Mountaintop Vigil",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-045",
@@ -201,7 +221,8 @@
     "name": "Logistics",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-046",
@@ -211,7 +232,8 @@
     "name": "Ethereal Alignment",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-047",
@@ -221,7 +243,8 @@
     "name": "Suffer the Consequences",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "spreading-shadows-048",
@@ -231,6 +254,7 @@
     "name": "Never Yield",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

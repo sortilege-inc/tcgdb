@@ -7,7 +7,8 @@
     "name": "The Crashing Wave",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-003",
@@ -16,7 +17,8 @@
     "publisherId": "ffg",
     "name": "Exposed Secrets (treaty)",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-082",
@@ -26,7 +28,8 @@
     "name": "Appeal to Sympathy",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-042",
@@ -36,7 +39,8 @@
     "name": "Battle Aspirant",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-086",
@@ -46,7 +50,8 @@
     "name": "Compelling Testimony",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-057",
@@ -56,7 +61,8 @@
     "name": "Endless Plains Skirmisher",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-094",
@@ -66,7 +72,8 @@
     "name": "Enlightenment",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-025",
@@ -76,7 +83,8 @@
     "name": "Hida Secretkeeper",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-015",
@@ -85,7 +93,8 @@
     "publisherId": "ffg",
     "name": "Karmic Teachings",
     "type": "Province",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "clan-war-032",
@@ -95,7 +104,8 @@
     "name": "Perfect Guest",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-048",
@@ -105,7 +115,8 @@
     "name": "Serene Seer",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-001",
@@ -114,7 +125,8 @@
     "publisherId": "ffg",
     "name": "Desertion",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-013",
@@ -123,7 +135,8 @@
     "publisherId": "ffg",
     "name": "Slaughtered Village",
     "type": "Province",
-    "clan": "Crab"
+    "clan": "Crab",
+    "unverified": true
   },
   {
     "id": "clan-war-018",
@@ -132,7 +145,8 @@
     "publisherId": "ffg",
     "name": "Shadowed Alleyway",
     "type": "Province",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "clan-war-093",
@@ -142,7 +156,8 @@
     "name": "Seize the Day",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-041",
@@ -152,7 +167,8 @@
     "name": "Righteous Akodo",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-079",
@@ -162,7 +178,8 @@
     "name": "Privileged Position",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-014",
@@ -171,7 +188,8 @@
     "publisherId": "ffg",
     "name": "Model of Courtesy",
     "type": "Province",
-    "clan": "Crane"
+    "clan": "Crane",
+    "unverified": true
   },
   {
     "id": "clan-war-064",
@@ -181,7 +199,8 @@
     "name": "Kobo Ichi-Kai Jūjutsu",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-092",
@@ -191,7 +210,8 @@
     "name": "Hige's Sermon",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-090",
@@ -201,7 +221,8 @@
     "name": "Diversionary Maneuver",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-007",
@@ -210,7 +231,8 @@
     "publisherId": "ffg",
     "name": "Second Chances",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-020",
@@ -219,7 +241,8 @@
     "publisherId": "ffg",
     "name": "Temple of Daikoku",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-021",
@@ -228,7 +251,8 @@
     "publisherId": "ffg",
     "name": "Temple of Jikoju",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-022",
@@ -237,7 +261,8 @@
     "publisherId": "ffg",
     "name": "Temple of Osano-wo",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-023",
@@ -246,7 +271,8 @@
     "publisherId": "ffg",
     "name": "Temple of Shinsei's Wisdom",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-024",
@@ -255,7 +281,8 @@
     "publisherId": "ffg",
     "name": "Temple of the Thunders",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-039",
@@ -265,7 +292,8 @@
     "name": "Alchemical Laboratory",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-046",
@@ -275,7 +303,8 @@
     "name": "Isawa Pilgrim",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-056",
@@ -285,7 +314,8 @@
     "name": "Merchant of Curiosities",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-059",
@@ -295,7 +325,8 @@
     "name": "Forthright Ide",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-065",
@@ -305,7 +336,8 @@
     "name": "Common Cause",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-071",
@@ -315,7 +347,8 @@
     "name": "Return the Offense",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-077",
@@ -325,7 +358,8 @@
     "name": "Called to War",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-084",
@@ -335,7 +369,8 @@
     "name": "Bayushi Traitor",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-045",
@@ -345,7 +380,8 @@
     "name": "Expert Interpreter",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-035",
@@ -355,7 +391,8 @@
     "name": "Inventive Mirumoto",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-062",
@@ -365,7 +402,8 @@
     "name": "Insightful Gatekeeper",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-061",
@@ -375,7 +413,8 @@
     "name": "Cunning Confidant",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-083",
@@ -385,7 +424,8 @@
     "name": "Ramparts of Stone",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-049",
@@ -395,7 +435,8 @@
     "name": "Hallowed Ground",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-047",
@@ -405,7 +446,8 @@
     "name": "Mediator of Hostilities",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-080",
@@ -415,7 +457,8 @@
     "name": "Peacemaker's Blade",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-081",
@@ -425,7 +468,8 @@
     "name": "Trick of the Light",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-037",
@@ -435,7 +479,8 @@
     "name": "Ascetic of the North Wall",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-060",
@@ -445,7 +490,8 @@
     "name": "Shika Matchmaker",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-002",
@@ -454,7 +500,8 @@
     "publisherId": "ffg",
     "name": "Dishonorable Dealings",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-004",
@@ -463,7 +510,8 @@
     "publisherId": "ffg",
     "name": "Falling Fortune",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-005",
@@ -472,7 +520,8 @@
     "publisherId": "ffg",
     "name": "Finding a New Lord",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-006",
@@ -481,7 +530,8 @@
     "publisherId": "ffg",
     "name": "Forgotten Plans",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-008",
@@ -490,7 +540,8 @@
     "publisherId": "ffg",
     "name": "Sent to their Deaths",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-009",
@@ -499,7 +550,8 @@
     "publisherId": "ffg",
     "name": "Shattered Blades",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-010",
@@ -508,7 +560,8 @@
     "publisherId": "ffg",
     "name": "Spreading Discontent",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-011",
@@ -517,7 +570,8 @@
     "publisherId": "ffg",
     "name": "Transgression of Honor",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-012",
@@ -526,7 +580,8 @@
     "publisherId": "ffg",
     "name": "Upholding Bushido",
     "type": "treaty",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "clan-war-017",
@@ -535,7 +590,8 @@
     "publisherId": "ffg",
     "name": "Fury of the Kami",
     "type": "Province",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "clan-war-016",
@@ -544,7 +600,8 @@
     "publisherId": "ffg",
     "name": "Strategizing",
     "type": "Province",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "clan-war-019",
@@ -553,7 +610,8 @@
     "publisherId": "ffg",
     "name": "Fields of the Wind",
     "type": "Province",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "clan-war-026",
@@ -563,7 +621,8 @@
     "name": "One of the Forgotten",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-027",
@@ -573,7 +632,8 @@
     "name": "Sake House Smuggler",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-028",
@@ -583,7 +643,8 @@
     "name": "Kuni Silencer",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-030",
@@ -593,7 +654,8 @@
     "name": "Chancellor's Aide",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-031",
@@ -603,7 +665,8 @@
     "name": "Dazzling Duelist",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-029",
@@ -613,7 +676,8 @@
     "name": "Roadside Inn",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-033",
@@ -623,7 +687,8 @@
     "name": "Masterpiece Painter",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-034",
@@ -633,7 +698,8 @@
     "name": "Negotiation Table",
     "type": "Holding",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-036",
@@ -643,7 +709,8 @@
     "name": "Agasha Prodigy",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-038",
@@ -653,7 +720,8 @@
     "name": "Mindful Warrior",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-040",
@@ -663,7 +731,8 @@
     "name": "Ikoma Message Runner",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-043",
@@ -673,7 +742,8 @@
     "name": "Medium of the Living Soul",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-044",
@@ -683,7 +753,8 @@
     "name": "Bushidō Adherent",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-058",
@@ -693,7 +764,8 @@
     "name": "Way Station Trader",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-052",
@@ -703,7 +775,8 @@
     "name": "Vice Proprietor",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-051",
@@ -713,7 +786,8 @@
     "name": "Shosuro Actor",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-050",
@@ -723,7 +797,8 @@
     "name": "Shepherd of Visages",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-053",
@@ -733,7 +808,8 @@
     "name": "Master Whisperer",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-063",
@@ -743,7 +819,8 @@
     "name": "Venerable Fortunist",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-067",
@@ -753,7 +830,8 @@
     "name": "Fulfill Your Duty",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-069",
@@ -763,7 +841,8 @@
     "name": "Favorable Alliance",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-068",
@@ -773,7 +852,8 @@
     "name": "A Game of Letters",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-074",
@@ -783,7 +863,8 @@
     "name": "Unquestioned Heritage",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-076",
@@ -793,7 +874,8 @@
     "name": "Take Up Command",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-072",
@@ -803,7 +885,8 @@
     "name": "Inscribed Tantō",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-075",
@@ -813,7 +896,8 @@
     "name": "Impossible Kōan",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-070",
@@ -823,7 +907,8 @@
     "name": "Cultured Façade",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-073",
@@ -833,7 +918,8 @@
     "name": "Contemplative Wisdom",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-078",
@@ -843,7 +929,8 @@
     "name": "All Out Assault",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-054",
@@ -853,7 +940,8 @@
     "name": "Acclaimed Geisha House",
     "type": "Holding",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-055",
@@ -863,7 +951,8 @@
     "name": "Altansarnai's Vanguard",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "clan-war-089",
@@ -873,7 +962,8 @@
     "name": "Way of the Open Hand",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-091",
@@ -883,7 +973,8 @@
     "name": "Join the Fray",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-085",
@@ -893,7 +984,8 @@
     "name": "Imbued With Shadows",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-088",
@@ -903,7 +995,8 @@
     "name": "Expert Bartering",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "clan-war-087",
@@ -913,6 +1006,7 @@
     "name": "Criminal Contacts",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

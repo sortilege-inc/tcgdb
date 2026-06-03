@@ -7,7 +7,8 @@
     "name": "Oni Mask",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-119",
@@ -17,7 +18,8 @@
     "name": "Talisman of the Sun",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-115",
@@ -27,7 +29,8 @@
     "name": "Written in the Stars",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-116",
@@ -37,7 +40,8 @@
     "name": "A Legion of One",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-109",
@@ -47,7 +51,8 @@
     "name": "Sake House Confidant",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-110",
@@ -57,7 +62,8 @@
     "name": "Illustrious Plagiarist",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-114",
@@ -67,7 +73,8 @@
     "name": "Seal of the Dragon",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-118",
@@ -77,7 +84,8 @@
     "name": "Seal of the Unicorn",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-120",
@@ -87,7 +95,8 @@
     "name": "Mono no Aware",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-112",
@@ -97,7 +106,8 @@
     "name": "Miya Satoshi",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-113",
@@ -107,7 +117,8 @@
     "name": "Pillow Book",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-108",
@@ -117,7 +128,8 @@
     "name": "Kanjo District",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-103",
@@ -127,7 +139,8 @@
     "name": "Iron Mine",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-104",
@@ -137,7 +150,8 @@
     "name": "Silver-Tongued Magistrate",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-101",
@@ -146,7 +160,8 @@
     "publisherId": "ffg",
     "name": "Along the River of Gold",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-102",
@@ -156,7 +171,8 @@
     "name": "Kuni Ritsuko",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-106",
@@ -166,7 +182,8 @@
     "name": "Beastmaster Matriarch",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-107",
@@ -176,7 +193,8 @@
     "name": "Asako Tsuki",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-105",
@@ -186,7 +204,8 @@
     "name": "Togashi Mendicant",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "meditations-on-the-ephemeral-111",
@@ -196,6 +215,7 @@
     "name": "Shinjo Scout",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

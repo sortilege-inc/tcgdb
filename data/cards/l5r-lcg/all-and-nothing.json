@@ -7,7 +7,8 @@
     "name": "Perfect Land Ethos",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-096",
@@ -17,7 +18,8 @@
     "name": "Shosuro Sadako",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-099",
@@ -27,7 +29,8 @@
     "name": "Dispatch",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-097",
@@ -37,7 +40,8 @@
     "name": "Mark of Shame",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-081",
@@ -46,7 +50,8 @@
     "publisherId": "ffg",
     "name": "Raging Battleground",
     "type": "Province",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-085",
@@ -56,7 +61,8 @@
     "name": "Callow Delegate",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-089",
@@ -66,7 +72,8 @@
     "name": "Ethereal Dreamer",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-093",
@@ -76,7 +83,8 @@
     "name": "Game of Sadane",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-083",
@@ -86,7 +94,8 @@
     "name": "Tainted Hero",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-082",
@@ -95,7 +104,8 @@
     "publisherId": "ffg",
     "name": "Appealing to the Fortunes",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-094",
@@ -105,7 +115,8 @@
     "name": "Void Fist",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-090",
@@ -115,7 +126,8 @@
     "name": "Bustling Academy",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-091",
@@ -125,7 +137,8 @@
     "name": "Iuchi Shahai",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-088",
@@ -135,7 +148,8 @@
     "name": "Matsu Mitsuko",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-086",
@@ -145,7 +159,8 @@
     "name": "Togashi Mitsu",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-095",
@@ -155,7 +170,8 @@
     "name": "All and Nothing",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-098",
@@ -165,7 +181,8 @@
     "name": "Discourage Pursuit",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-092",
@@ -175,7 +192,8 @@
     "name": "Imperial Librarian",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-087",
@@ -185,7 +203,8 @@
     "name": "Tactician's Apprentice",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "all-and-nothing-084",
@@ -195,6 +214,7 @@
     "name": "Kuni Laboratory",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

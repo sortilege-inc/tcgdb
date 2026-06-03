@@ -7,7 +7,8 @@
     "name": "Bonds of Blood (card)",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-059",
@@ -17,7 +18,8 @@
     "name": "Disparaging Challenge",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-061",
@@ -27,7 +29,8 @@
     "name": "Feeding An Army",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-060",
@@ -37,7 +40,8 @@
     "name": "Ki Alignment",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-063",
@@ -47,7 +51,8 @@
     "name": "Sanguine Mastery",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-064",
@@ -57,7 +62,8 @@
     "name": "Seize the Mind",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-047",
@@ -66,7 +72,8 @@
     "publisherId": "ffg",
     "name": "By Onnotangu's Light",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-046",
@@ -75,7 +82,8 @@
     "publisherId": "ffg",
     "name": "Seeking Enlightenment",
     "type": "Province",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-045",
@@ -84,7 +92,8 @@
     "publisherId": "ffg",
     "name": "The Eternal Watch",
     "type": "Province",
-    "clan": "Crab"
+    "clan": "Crab",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-065",
@@ -94,7 +103,8 @@
     "name": "Command the Tributary",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-062",
@@ -104,7 +114,8 @@
     "name": "In Harmony",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-058",
@@ -114,7 +125,8 @@
     "name": "Tetsubō of Blood",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-048",
@@ -124,7 +136,8 @@
     "name": "Damned Hida",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-049",
@@ -134,7 +147,8 @@
     "name": "Desperate Negotiator",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-056",
@@ -144,7 +158,8 @@
     "name": "Iuchi Shahai (ACO)",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-053",
@@ -154,7 +169,8 @@
     "name": "Kaito Mai",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-051",
@@ -164,7 +180,8 @@
     "name": "Lion's Pride Paragon",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-057",
@@ -174,7 +191,8 @@
     "name": "Resourceful Mahō-Tsukai",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-050",
@@ -184,7 +202,8 @@
     "name": "Togashi Kazue (ACO)",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-054",
@@ -194,7 +213,8 @@
     "name": "Yogo Paramour",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-052",
@@ -204,7 +224,8 @@
     "name": "Forward Garrison",
     "type": "Holding",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-crimson-offering-055",
@@ -214,6 +235,7 @@
     "name": "Shadowed Village",
     "type": "Holding",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

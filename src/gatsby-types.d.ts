@@ -42,6 +42,7 @@ type Card = Node & {
   readonly clan: Maybe<Scalars['String']>;
   readonly cost: Maybe<Scalars['Int']>;
   readonly deck: Maybe<Scalars['String']>;
+  readonly errata: Maybe<Scalars['JSON']>;
   readonly faction: Maybe<Scalars['String']>;
   readonly flavorText: Maybe<Scalars['String']>;
   readonly gameId: Scalars['String'];
@@ -53,6 +54,7 @@ type Card = Node & {
   readonly name: Scalars['String'];
   readonly parent: Maybe<Node>;
   readonly publisherId: Scalars['String'];
+  readonly rulings: Maybe<ReadonlyArray<Maybe<CardRuling>>>;
   readonly setId: Scalars['String'];
   readonly side: Maybe<Scalars['String']>;
   readonly strength: Maybe<Scalars['Int']>;
@@ -112,6 +114,7 @@ type CardFieldSelector = {
   readonly clan: InputMaybe<FieldSelectorEnum>;
   readonly cost: InputMaybe<FieldSelectorEnum>;
   readonly deck: InputMaybe<FieldSelectorEnum>;
+  readonly errata: InputMaybe<FieldSelectorEnum>;
   readonly faction: InputMaybe<FieldSelectorEnum>;
   readonly flavorText: InputMaybe<FieldSelectorEnum>;
   readonly gameId: InputMaybe<FieldSelectorEnum>;
@@ -123,6 +126,7 @@ type CardFieldSelector = {
   readonly name: InputMaybe<FieldSelectorEnum>;
   readonly parent: InputMaybe<NodeFieldSelector>;
   readonly publisherId: InputMaybe<FieldSelectorEnum>;
+  readonly rulings: InputMaybe<CardRulingFieldSelector>;
   readonly setId: InputMaybe<FieldSelectorEnum>;
   readonly side: InputMaybe<FieldSelectorEnum>;
   readonly strength: InputMaybe<FieldSelectorEnum>;
@@ -137,6 +141,7 @@ type CardFilterInput = {
   readonly clan: InputMaybe<StringQueryOperatorInput>;
   readonly cost: InputMaybe<IntQueryOperatorInput>;
   readonly deck: InputMaybe<StringQueryOperatorInput>;
+  readonly errata: InputMaybe<JSONQueryOperatorInput>;
   readonly faction: InputMaybe<StringQueryOperatorInput>;
   readonly flavorText: InputMaybe<StringQueryOperatorInput>;
   readonly gameId: InputMaybe<StringQueryOperatorInput>;
@@ -148,6 +153,7 @@ type CardFilterInput = {
   readonly name: InputMaybe<StringQueryOperatorInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
   readonly publisherId: InputMaybe<StringQueryOperatorInput>;
+  readonly rulings: InputMaybe<CardRulingFilterListInput>;
   readonly setId: InputMaybe<StringQueryOperatorInput>;
   readonly side: InputMaybe<StringQueryOperatorInput>;
   readonly strength: InputMaybe<IntQueryOperatorInput>;
@@ -195,6 +201,34 @@ type CardGroupConnection_minArgs = {
 
 type CardGroupConnection_sumArgs = {
   field: CardFieldSelector;
+};
+
+type CardRuling = {
+  readonly date: Maybe<Scalars['String']>;
+  readonly source: Maybe<Scalars['String']>;
+  readonly text: Maybe<Scalars['String']>;
+};
+
+type CardRulingFieldSelector = {
+  readonly date: InputMaybe<FieldSelectorEnum>;
+  readonly source: InputMaybe<FieldSelectorEnum>;
+  readonly text: InputMaybe<FieldSelectorEnum>;
+};
+
+type CardRulingFilterInput = {
+  readonly date: InputMaybe<StringQueryOperatorInput>;
+  readonly source: InputMaybe<StringQueryOperatorInput>;
+  readonly text: InputMaybe<StringQueryOperatorInput>;
+};
+
+type CardRulingFilterListInput = {
+  readonly elemMatch: InputMaybe<CardRulingFilterInput>;
+};
+
+type CardRulingSortInput = {
+  readonly date: InputMaybe<SortOrderEnum>;
+  readonly source: InputMaybe<SortOrderEnum>;
+  readonly text: InputMaybe<SortOrderEnum>;
 };
 
 type CardSet = Node & {
@@ -357,6 +391,7 @@ type CardSortInput = {
   readonly clan: InputMaybe<SortOrderEnum>;
   readonly cost: InputMaybe<SortOrderEnum>;
   readonly deck: InputMaybe<SortOrderEnum>;
+  readonly errata: InputMaybe<SortOrderEnum>;
   readonly faction: InputMaybe<SortOrderEnum>;
   readonly flavorText: InputMaybe<SortOrderEnum>;
   readonly gameId: InputMaybe<SortOrderEnum>;
@@ -368,6 +403,7 @@ type CardSortInput = {
   readonly name: InputMaybe<SortOrderEnum>;
   readonly parent: InputMaybe<NodeSortInput>;
   readonly publisherId: InputMaybe<SortOrderEnum>;
+  readonly rulings: InputMaybe<CardRulingSortInput>;
   readonly setId: InputMaybe<SortOrderEnum>;
   readonly side: InputMaybe<SortOrderEnum>;
   readonly strength: InputMaybe<SortOrderEnum>;
@@ -1204,6 +1240,7 @@ type Query_cardArgs = {
   clan: InputMaybe<StringQueryOperatorInput>;
   cost: InputMaybe<IntQueryOperatorInput>;
   deck: InputMaybe<StringQueryOperatorInput>;
+  errata: InputMaybe<JSONQueryOperatorInput>;
   faction: InputMaybe<StringQueryOperatorInput>;
   flavorText: InputMaybe<StringQueryOperatorInput>;
   gameId: InputMaybe<StringQueryOperatorInput>;
@@ -1215,6 +1252,7 @@ type Query_cardArgs = {
   name: InputMaybe<StringQueryOperatorInput>;
   parent: InputMaybe<NodeFilterInput>;
   publisherId: InputMaybe<StringQueryOperatorInput>;
+  rulings: InputMaybe<CardRulingFilterListInput>;
   setId: InputMaybe<StringQueryOperatorInput>;
   side: InputMaybe<StringQueryOperatorInput>;
   strength: InputMaybe<IntQueryOperatorInput>;
@@ -2179,7 +2217,7 @@ type CardDetailQueryVariables = Exact<{
 }>;
 
 
-type CardDetailQuery = { readonly card: { readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly strength: number | null, readonly influence: number | null } | null, readonly cardSet: { readonly setId: string, readonly name: string, readonly cycle: string | null, readonly type: string } | null };
+type CardDetailQuery = { readonly card: { readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly strength: number | null, readonly influence: number | null, readonly errata: Record<string, unknown> | null, readonly rulings: ReadonlyArray<{ readonly date: string | null, readonly source: string | null, readonly text: string | null } | null> | null } | null, readonly cardSet: { readonly setId: string, readonly name: string, readonly cycle: string | null, readonly type: string } | null };
 
 type CardsIndexQueryVariables = Exact<{
   gameId: Scalars['String'];
@@ -2194,6 +2232,13 @@ type CollectionPageQueryVariables = Exact<{
 
 
 type CollectionPageQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly name: string, readonly type: string, readonly setId: string, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null }> }, readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly name: string, readonly type: string, readonly cycle: string | null }> } };
+
+type DeckDetailQueryVariables = Exact<{
+  gameId: Scalars['String'];
+}>;
+
+
+type DeckDetailQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly strength: number | null, readonly influence: number | null }> } };
 
 type SetDetailQueryVariables = Exact<{
   gameId: Scalars['String'];

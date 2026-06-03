@@ -7,7 +7,8 @@
     "name": "Ancestral Sight",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-091",
@@ -17,7 +18,8 @@
     "name": "Asahina Peacekeeper",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-094",
@@ -27,7 +29,8 @@
     "name": "Conduit of Heroes",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-099",
@@ -37,7 +40,8 @@
     "name": "Higashi Kaze Company",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-095",
@@ -47,7 +51,8 @@
     "name": "Kami of Ancient Wisdom",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-093",
@@ -57,7 +62,8 @@
     "name": "Militant Faithful",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-098",
@@ -67,7 +73,8 @@
     "name": "Open Field Skirmisher",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-096",
@@ -77,7 +84,8 @@
     "name": "Shosuro Deceiver",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-090",
@@ -87,7 +95,8 @@
     "name": "Repentant Legion",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-102",
@@ -97,7 +106,8 @@
     "name": "Phoenix Tattoo",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-101",
@@ -107,7 +117,8 @@
     "name": "Tsangusuri Ward",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-100",
@@ -117,7 +128,8 @@
     "name": "Battle Meditation",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-105",
@@ -127,7 +139,8 @@
     "name": "Battlefield Orders",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-103",
@@ -137,7 +150,8 @@
     "name": "Betrayal of Truth",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-106",
@@ -147,7 +161,8 @@
     "name": "Calling the Storm",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-097",
@@ -157,7 +172,8 @@
     "name": "Display of Loyalty",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "coils-of-power-107",
@@ -167,7 +183,8 @@
     "name": "Final Whisper",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-108",
@@ -177,7 +194,8 @@
     "name": "Overrun",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "coils-of-power-087",
@@ -186,7 +204,8 @@
     "publisherId": "ffg",
     "name": "Castle of the Forgotten",
     "type": "Stronghold",
-    "clan": "Crab"
+    "clan": "Crab",
+    "unverified": true
   },
   {
     "id": "coils-of-power-089",
@@ -195,7 +214,8 @@
     "publisherId": "ffg",
     "name": "Deserted Shrine",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "coils-of-power-088",
@@ -204,7 +224,8 @@
     "publisherId": "ffg",
     "name": "Offerings to the Kami",
     "type": "Province",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "coils-of-power-092",
@@ -214,6 +235,7 @@
     "name": "Fū Sui Temple",
     "type": "Holding",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

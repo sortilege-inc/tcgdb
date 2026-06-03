@@ -7,7 +7,8 @@
     "name": "Invocation of Ash",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-044",
@@ -17,7 +18,8 @@
     "name": "Master Alchemist",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-fires-within-051",
@@ -27,7 +29,8 @@
     "name": "Wicked Tetsubō",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-057",
@@ -37,7 +40,8 @@
     "name": "Shiksha Scout",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-045",
@@ -47,7 +51,8 @@
     "name": "The Wrath of the Kami",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-fires-within-050",
@@ -57,7 +62,8 @@
     "name": "Battle Maiden Recruit",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-fires-within-054",
@@ -67,7 +73,8 @@
     "name": "Smoke",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-041",
@@ -76,7 +83,8 @@
     "publisherId": "ffg",
     "name": "Abandoning Honor",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "the-fires-within-042",
@@ -86,7 +94,8 @@
     "name": "Hiruma Kogoe",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-fires-within-049",
@@ -96,7 +105,8 @@
     "name": "Soshi Shiori",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-fires-within-043",
@@ -106,7 +116,8 @@
     "name": "Sadane Student",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-fires-within-060",
@@ -116,7 +127,8 @@
     "name": "Mantis Seafarer",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-055",
@@ -126,7 +138,8 @@
     "name": "Jurōjin's Curse",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-053",
@@ -136,7 +149,8 @@
     "name": "Insult to Injury",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-056",
@@ -146,7 +160,8 @@
     "name": "Infiltrator",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-046",
@@ -156,7 +171,8 @@
     "name": "Ikoma Ikehata",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-fires-within-052",
@@ -166,7 +182,8 @@
     "name": "Icon of Favor",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-048",
@@ -176,7 +193,8 @@
     "name": "Chikai Order Protector",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "the-fires-within-059",
@@ -186,7 +204,8 @@
     "name": "Breach of Etiquette",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "the-fires-within-047",
@@ -196,6 +215,7 @@
     "name": "Ancestral Armory",
     "type": "Holding",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

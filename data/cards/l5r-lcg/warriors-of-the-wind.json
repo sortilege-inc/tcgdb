@@ -7,7 +7,8 @@
     "name": "Shinjo Trailblazer",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-012",
@@ -17,7 +18,8 @@
     "name": "Hida Tsuru",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-009",
@@ -27,7 +29,8 @@
     "name": "Iuchi Daiyu",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-005",
@@ -37,7 +40,8 @@
     "name": "Young Warrior",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-001",
@@ -46,7 +50,8 @@
     "publisherId": "ffg",
     "name": "Shiro Shinjo",
     "type": "Stronghold",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-023",
@@ -56,7 +61,8 @@
     "name": "Speak to the Heart",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-004",
@@ -66,7 +72,8 @@
     "name": "Wild Stallion",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-003",
@@ -75,7 +82,8 @@
     "publisherId": "ffg",
     "name": "Support of the Unicorn",
     "type": "Role",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-007",
@@ -85,7 +93,8 @@
     "name": "Iuchi Farseer",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-027",
@@ -95,7 +104,8 @@
     "name": "Compass",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-022",
@@ -105,7 +115,8 @@
     "name": "Utaku Battle Steed",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-020",
@@ -115,7 +126,8 @@
     "name": "Curved Blade",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-028",
@@ -125,7 +137,8 @@
     "name": "Trading on the Sand Road",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-021",
@@ -135,7 +148,8 @@
     "name": "Ring of Binding",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-002",
@@ -144,7 +158,8 @@
     "publisherId": "ffg",
     "name": "Khan's Ordu",
     "type": "Province",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-018",
@@ -154,7 +169,8 @@
     "name": "Visiting Advisor",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-019",
@@ -164,7 +180,8 @@
     "name": "Shinomen Wayfinders",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-025",
@@ -174,7 +191,8 @@
     "name": "Warriors of the Wind",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-011",
@@ -184,7 +202,8 @@
     "name": "Aranat",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-016",
@@ -194,7 +213,8 @@
     "name": "Shosuro Hyobu",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-013",
@@ -204,7 +224,8 @@
     "name": "Kakita Ryoku",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-017",
@@ -214,7 +235,8 @@
     "name": "Ivory Kingdoms Unicorn",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-026",
@@ -224,7 +246,8 @@
     "name": "Ikoma Anakazu",
     "type": "Character",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-014",
@@ -234,7 +257,8 @@
     "name": "Agasha Taiko",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-015",
@@ -244,7 +268,8 @@
     "name": "Kaito Nobukai",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-010",
@@ -254,7 +279,8 @@
     "name": "Moto Chagatai",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-008",
@@ -264,7 +290,8 @@
     "name": "Saadiyah al-Mozedu",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "warriors-of-the-wind-024",
@@ -274,6 +301,7 @@
     "name": "Spoils of War",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

@@ -7,7 +7,8 @@
     "name": "Chasing the Sun",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-041",
@@ -16,7 +17,8 @@
     "publisherId": "ffg",
     "name": "Feast or Famine",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-042",
@@ -25,7 +27,8 @@
     "publisherId": "ffg",
     "name": "Public Forum",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-043",
@@ -35,7 +38,8 @@
     "name": "Kakita Yoshi",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-044",
@@ -45,7 +49,8 @@
     "name": "Chisei District",
     "type": "Holding",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-055",
@@ -55,7 +60,8 @@
     "name": "Benten's Touch",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-047",
@@ -65,7 +71,8 @@
     "name": "Back-Alley Hideaway",
     "type": "Holding",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-045",
@@ -75,7 +82,8 @@
     "name": "Enigmatic Magistrate",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-046",
@@ -85,7 +93,8 @@
     "name": "Prodigy of the Waves",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-056",
@@ -95,7 +104,8 @@
     "name": "Bayushi Kachiko",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-057",
@@ -105,7 +115,8 @@
     "name": "Misinformation",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-048",
@@ -115,7 +126,8 @@
     "name": "Child of the Plains",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-049",
@@ -125,7 +137,8 @@
     "name": "War Dog Master",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-050",
@@ -135,7 +148,8 @@
     "name": "Hiruma Skirmisher",
     "type": "Character",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-051",
@@ -145,7 +159,8 @@
     "name": "Seal of the Crab",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-052",
@@ -155,7 +170,8 @@
     "name": "Mantra of Water",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-053",
@@ -165,7 +181,8 @@
     "name": "Ageless Crone",
     "type": "Character",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-054",
@@ -175,7 +192,8 @@
     "name": "Test of Courage",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-059",
@@ -185,7 +203,8 @@
     "name": "Tattered Missive",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "into-the-forbidden-city-060",
@@ -195,6 +214,7 @@
     "name": "Censure",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

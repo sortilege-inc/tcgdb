@@ -7,7 +7,8 @@
     "name": "Political Sanction",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-001",
@@ -16,7 +17,8 @@
     "publisherId": "ffg",
     "name": "Kyūden Kakita",
     "type": "Stronghold",
-    "clan": "Crane"
+    "clan": "Crane",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-008",
@@ -26,7 +28,8 @@
     "name": "Kakita Yuri",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-009",
@@ -36,7 +39,8 @@
     "name": "Asahina Takamori",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-016",
@@ -46,7 +50,8 @@
     "name": "Akodo Makoto",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-022",
@@ -56,7 +61,8 @@
     "name": "Gossip",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-013",
@@ -66,7 +72,8 @@
     "name": "Distinguished Dōjō",
     "type": "Holding",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-011",
@@ -76,7 +83,8 @@
     "name": "Daidoji Uji",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-023",
@@ -86,7 +94,8 @@
     "name": "The Spear Rushes Forth",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-026",
@@ -96,7 +105,8 @@
     "name": "Shinjo Haruko",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-002",
@@ -105,7 +115,8 @@
     "publisherId": "ffg",
     "name": "Market of Kaze-no-Kami",
     "type": "Province",
-    "clan": "Crane"
+    "clan": "Crane",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-006",
@@ -115,7 +126,8 @@
     "name": "Kakita Favorite",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-027",
@@ -125,7 +137,8 @@
     "name": "Daimyō's Gunbai",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-014",
@@ -135,7 +148,8 @@
     "name": "Yasuki Fuzake",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-015",
@@ -145,7 +159,8 @@
     "name": "Kitsuki Jusai",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-017",
@@ -155,7 +170,8 @@
     "name": "Chukan Nobue",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-018",
@@ -165,7 +181,8 @@
     "name": "Bayushi Dairu",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-019",
@@ -175,7 +192,8 @@
     "name": "Armament Artisan",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-012",
@@ -185,7 +203,8 @@
     "name": "Winter Court Hosts",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-007",
@@ -195,7 +214,8 @@
     "name": "Maker of Keepsakes",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-025",
@@ -205,7 +225,8 @@
     "name": "Festival for the Fortunes",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-024",
@@ -215,7 +236,8 @@
     "name": "Courteous Scheming",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-010",
@@ -225,7 +247,8 @@
     "name": "Benevolent Host",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-003",
@@ -234,7 +257,8 @@
     "publisherId": "ffg",
     "name": "Support of the Crane",
     "type": "Role",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-004",
@@ -244,7 +268,8 @@
     "name": "Iwasaki Pupil",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-005",
@@ -254,7 +279,8 @@
     "name": "Beloved Advisor",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-021",
@@ -264,7 +290,8 @@
     "name": "Letter of the Daimyō",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "masters-of-the-court-028",
@@ -274,6 +301,7 @@
     "name": "Retreat",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

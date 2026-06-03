@@ -27,6 +27,7 @@ interface CardNode {
   text?: string | null
   flavorText?: string | null
   illustrator?: string | null
+  unverified?: boolean | null
   clan?: string | null
   deck?: string | null
   faction?: string | null
@@ -34,6 +35,14 @@ interface CardNode {
   cost?: number | null
   strength?: number | null
   influence?: number | null
+  military?: number | null
+  political?: number | null
+  glory?: number | null
+  honor?: number | null
+  fate?: number | null
+  influencePool?: number | null
+  element?: string | null
+  traits?: string[] | null
   errata?: Record<string, unknown> | null
   rulings?: CardRulingNode[] | null
 }
@@ -83,9 +92,27 @@ export default function CardDetailPage(
           </Link>{' '}
           / <span>{card.cardId}</span>
         </div>
-        <h1 style={{ marginTop: '0.5rem' }}>
-          {card.unique ? '◆ ' : ''}
-          {card.name}
+        <h1 style={{ marginTop: '0.5rem', display: 'flex', alignItems: 'baseline', gap: '0.5rem' }}>
+          <span>
+            {card.unique ? '◆ ' : ''}
+            {card.name}
+          </span>
+          {card.unverified && (
+            <span
+              title="Unverified — details came from an external scrape and haven't been confirmed against the printed card."
+              style={{
+                fontSize: '0.7rem',
+                padding: '0.15rem 0.5rem',
+                border: '1px dashed var(--theme-border)',
+                borderRadius: 999,
+                opacity: 0.7,
+                fontWeight: 400,
+                cursor: 'help',
+              }}
+            >
+              unverified
+            </span>
+          )}
         </h1>
         <div style={{ opacity: 0.7 }}>{card.type}</div>
       </header>
@@ -242,6 +269,7 @@ function formatVal(v: unknown): string {
   if (v === null) return '—'
   if (v === '') return '(empty)'
   if (typeof v === 'boolean') return v ? 'yes' : 'no'
+  if (Array.isArray(v)) return v.length === 0 ? '—' : v.join(' · ')
   if (typeof v === 'object') return JSON.stringify(v)
   return String(v)
 }
@@ -264,6 +292,7 @@ export const query = graphql`
       text
       flavorText
       illustrator
+      unverified
       clan
       deck
       faction
@@ -271,6 +300,14 @@ export const query = graphql`
       cost
       strength
       influence
+      military
+      political
+      glory
+      honor
+      fate
+      influencePool
+      element
+      traits
       errata
       rulings {
         date

@@ -7,7 +7,8 @@
     "name": "Withstand the Darkness",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-093",
@@ -17,7 +18,8 @@
     "name": "Strategic Weakpoint",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-089",
@@ -26,7 +28,8 @@
     "publisherId": "ffg",
     "name": "Shiro Kitsuki",
     "type": "Stronghold",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-110",
@@ -36,7 +39,8 @@
     "name": "Outflank",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-092",
@@ -46,7 +50,8 @@
     "name": "Frontline Engineer",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-105",
@@ -56,7 +61,8 @@
     "name": "Deduction",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-108",
@@ -66,7 +72,8 @@
     "name": "By Any Means",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-096",
@@ -76,7 +83,8 @@
     "name": "Army of the Rising Wave",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-091",
@@ -85,7 +93,8 @@
     "publisherId": "ffg",
     "name": "Smuggler's Cove",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-090",
@@ -94,7 +103,8 @@
     "publisherId": "ffg",
     "name": "Henshin Mysteries",
     "type": "Province",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-094",
@@ -104,7 +114,8 @@
     "name": "Court Musician",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-095",
@@ -114,7 +125,8 @@
     "name": "Daidoji Kageyu",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-097",
@@ -124,7 +136,8 @@
     "name": "Quarrelsome Youth",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-098",
@@ -134,7 +147,8 @@
     "name": "Unified Company",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-099",
@@ -144,7 +158,8 @@
     "name": "Asako Takahiro",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-100",
@@ -154,7 +169,8 @@
     "name": "Palace Guard",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-102",
@@ -164,7 +180,8 @@
     "name": "Keeper of Secret Names",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-104",
@@ -174,7 +191,8 @@
     "name": "Shukujo",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-106",
@@ -184,7 +202,8 @@
     "name": "Fan of Command",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-107",
@@ -194,7 +213,8 @@
     "name": "Erudite Prestige",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-109",
@@ -204,7 +224,8 @@
     "name": "Current of the Beryt",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "a-champions-foresight-101",
@@ -214,6 +235,7 @@
     "name": "Petal Village Estate",
     "type": "Holding",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

@@ -7,7 +7,8 @@
     "name": "Isawa Kaede",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-006",
@@ -17,7 +18,8 @@
     "name": "Kitsuki Yaruma",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-010",
@@ -27,7 +29,8 @@
     "name": "Swift Magistrate",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-004",
@@ -37,7 +40,8 @@
     "name": "Karada District",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-018",
@@ -47,7 +51,8 @@
     "name": "Smoke and Mirrors",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-015",
@@ -57,7 +62,8 @@
     "name": "Time for War",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-013",
@@ -67,7 +73,8 @@
     "name": "Disdainful Remark",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-019",
@@ -77,7 +84,8 @@
     "name": "Goblin Sneak",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-002",
@@ -86,7 +94,8 @@
     "publisherId": "ffg",
     "name": "Tears of Amaterasu",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-014",
@@ -96,7 +105,8 @@
     "name": "Jade Masterpiece",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-001",
@@ -105,7 +115,8 @@
     "publisherId": "ffg",
     "name": "Blood of Onnotangu",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-020",
@@ -115,7 +126,8 @@
     "name": "Finger of Jade",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-016",
@@ -125,7 +137,8 @@
     "name": "Embrace the Void",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-003",
@@ -135,7 +148,8 @@
     "name": "Staunch Hida",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-012",
@@ -145,7 +159,8 @@
     "name": "Seal of the Crane",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-017",
@@ -155,7 +170,8 @@
     "name": "Meek Informant",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-011",
@@ -165,7 +181,8 @@
     "name": "Windswept Yurt",
     "type": "Holding",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-008",
@@ -175,7 +192,8 @@
     "name": "Hito District",
     "type": "Holding",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-007",
@@ -185,7 +203,8 @@
     "name": "Gifted Tactician",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "tears-of-amaterasu-005",
@@ -195,6 +214,7 @@
     "name": "Doji Representative",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]

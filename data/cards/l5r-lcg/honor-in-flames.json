@@ -7,7 +7,8 @@
     "name": "Unhallow",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-031",
@@ -17,7 +18,8 @@
     "name": "Steward of Cryptic Lore",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-033",
@@ -27,7 +29,8 @@
     "name": "Shoju's Diviner",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-043",
@@ -37,7 +40,8 @@
     "name": "Shadow Steed",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-034",
@@ -47,7 +51,8 @@
     "name": "Nimble Noyan",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-036",
@@ -57,7 +62,8 @@
     "name": "Darkness Rising",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-030",
@@ -67,7 +73,8 @@
     "name": "Commander of the Legions",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-028",
@@ -77,7 +84,8 @@
     "name": "Daidoji Uji (HiF)",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-027",
@@ -87,7 +95,8 @@
     "name": "Master of Jade",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-041",
@@ -97,7 +106,8 @@
     "name": "Messenger of Misfortune",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-029",
@@ -107,7 +117,8 @@
     "name": "Perfect Land Believer",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-026",
@@ -117,7 +128,8 @@
     "name": "Silent Skirmisher",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-044",
@@ -127,7 +139,8 @@
     "name": "Curse of Misfortune",
     "type": "Attachment",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-042",
@@ -137,7 +150,8 @@
     "name": "Shape the Flesh",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-039",
@@ -147,7 +161,8 @@
     "name": "Under Amaterasu's Gaze",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-025",
@@ -156,7 +171,8 @@
     "publisherId": "ffg",
     "name": "Cycle of Vengeance",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-024",
@@ -165,7 +181,8 @@
     "publisherId": "ffg",
     "name": "The Roar of the Lioness",
     "type": "Province",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-023",
@@ -174,7 +191,8 @@
     "publisherId": "ffg",
     "name": "The Way of Peace",
     "type": "Province",
-    "clan": "Crane"
+    "clan": "Crane",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-032",
@@ -184,7 +202,8 @@
     "name": "Guardian Dōjō",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-035",
@@ -194,7 +213,8 @@
     "name": "Reserve Tents",
     "type": "Holding",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-037",
@@ -204,7 +224,8 @@
     "name": "Raze to the Ground",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "honor-in-flames-038",
@@ -214,6 +235,7 @@
     "name": "Shoshi ni Kie",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

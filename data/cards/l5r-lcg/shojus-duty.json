@@ -7,7 +7,8 @@
     "name": "Inferno Guard Invoker",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-129",
@@ -17,7 +18,8 @@
     "name": "Castigated",
     "type": "Attachment",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "shojus-duty-121",
@@ -27,7 +29,8 @@
     "name": "Bayushi Shoju (SD)",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-118",
@@ -37,7 +40,8 @@
     "name": "Student of Esoterica",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-112",
@@ -47,7 +51,8 @@
     "name": "Yasuki Hatsu",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-111",
@@ -57,7 +62,8 @@
     "name": "Gallant Quartermaster",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-120",
@@ -67,7 +73,8 @@
     "name": "Chrysanthemum Steward",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-124",
@@ -77,7 +84,8 @@
     "name": "Root Out Heresy",
     "type": "Event",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "shojus-duty-114",
@@ -87,7 +95,8 @@
     "name": "Hitsu-do Disciple",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-113",
@@ -97,7 +106,8 @@
     "name": "Daidoji Harrier",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-115",
@@ -107,7 +117,8 @@
     "name": "Togashi Ichi",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-116",
@@ -117,7 +128,8 @@
     "name": "Hero of Three Trees",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-117",
@@ -127,7 +139,8 @@
     "name": "Persuasive Counselor",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-122",
@@ -137,7 +150,8 @@
     "name": "Golden Plains Raider",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-123",
@@ -147,7 +161,8 @@
     "name": "Moto Outrider",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "shojus-duty-125",
@@ -157,7 +172,8 @@
     "name": "Kakita's Final Stance",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "shojus-duty-126",
@@ -167,7 +183,8 @@
     "name": "Mantra of Air",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "shojus-duty-127",
@@ -177,7 +194,8 @@
     "name": "In Service to My Lord",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "shojus-duty-128",
@@ -187,7 +205,8 @@
     "name": "Cloak of Night",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "shojus-duty-130",
@@ -197,6 +216,7 @@
     "name": "Know the Terrain",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

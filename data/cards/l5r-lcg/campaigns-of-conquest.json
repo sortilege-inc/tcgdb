@@ -7,7 +7,8 @@
     "name": "Under Siege",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-079",
@@ -17,7 +18,8 @@
     "name": "Ikoma Tsanuri (CoC)",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-071",
@@ -26,7 +28,8 @@
     "publisherId": "ffg",
     "name": "Hayaken no Shiro",
     "type": "Stronghold",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-072",
@@ -35,7 +38,8 @@
     "publisherId": "ffg",
     "name": "Breaking In",
     "type": "Province",
-    "clan": "Unicorn"
+    "clan": "Unicorn",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-085",
@@ -45,7 +49,8 @@
     "name": "Mercenary Company",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-083",
@@ -55,7 +60,8 @@
     "name": "Open Window",
     "type": "Holding",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-073",
@@ -64,7 +70,8 @@
     "publisherId": "ffg",
     "name": "The Pursuit of Justice",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-074",
@@ -74,7 +81,8 @@
     "name": "Kuni Purifier",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-075",
@@ -84,7 +92,8 @@
     "name": "Veteran of Toshi Ranbo",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-076",
@@ -94,7 +103,8 @@
     "name": "Crippling Taxes",
     "type": "Event",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-077",
@@ -104,7 +114,8 @@
     "name": "Stoic Rival",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-078",
@@ -114,7 +125,8 @@
     "name": "Hidden Mountain Pass",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-080",
@@ -124,7 +136,8 @@
     "name": "Isawa Tsuke (CoC)",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-081",
@@ -134,7 +147,8 @@
     "name": "Celebrated Renown",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-082",
@@ -144,7 +158,8 @@
     "name": "Shadow Stalker",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-084",
@@ -154,7 +169,8 @@
     "name": "Ride at Dawn",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-086",
@@ -164,7 +180,8 @@
     "name": "Sturdy Tetsubō",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-087",
@@ -174,7 +191,8 @@
     "name": "Local Daimyō's Retainer",
     "type": "Character",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-088",
@@ -184,7 +202,8 @@
     "name": "Asceticism",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-090",
@@ -194,7 +213,8 @@
     "name": "Kyofuki's Hammer",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-091",
@@ -204,7 +224,8 @@
     "name": "Forgery",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "campaigns-of-conquest-092",
@@ -214,6 +235,7 @@
     "name": "Steed of the Steppes",
     "type": "Attachment",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

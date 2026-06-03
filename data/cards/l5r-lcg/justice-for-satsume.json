@@ -7,7 +7,8 @@
     "name": "Shosuro Miyako",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-059",
@@ -17,7 +18,8 @@
     "name": "Wayfarer's Camp",
     "type": "Holding",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-066",
@@ -27,7 +29,8 @@
     "name": "Ujik Tactics",
     "type": "Event",
     "clan": "Unicorn",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-054",
@@ -37,7 +40,8 @@
     "name": "Steward of the Rich Frog",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-058",
@@ -47,7 +51,8 @@
     "name": "Shinjo Gunsō",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-063",
@@ -57,7 +62,8 @@
     "name": "Sharpen the Mind",
     "type": "Attachment",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-053",
@@ -67,7 +73,8 @@
     "name": "Matsu Swiftspear",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-047",
@@ -76,7 +83,8 @@
     "publisherId": "ffg",
     "name": "Into the Forbidden City",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-057",
@@ -86,7 +94,8 @@
     "name": "Shosuro Ibuki",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-050",
@@ -96,7 +105,8 @@
     "name": "Doji Kuwanan",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-049",
@@ -106,7 +116,8 @@
     "name": "Doji Hotaru (JfS)",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-046",
@@ -115,7 +126,8 @@
     "publisherId": "ffg",
     "name": "Effective Deception",
     "type": "Province",
-    "clan": "Scorpion"
+    "clan": "Scorpion",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-045",
@@ -124,7 +136,8 @@
     "publisherId": "ffg",
     "name": "Conflict Between Kin",
     "type": "Province",
-    "clan": "Crane"
+    "clan": "Crane",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-062",
@@ -134,7 +147,8 @@
     "name": "Justicar's Approach",
     "type": "Attachment",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-048",
@@ -144,7 +158,8 @@
     "name": "Hida Sugi",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-051",
@@ -154,7 +169,8 @@
     "name": "Trusted Advisor",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-052",
@@ -164,7 +180,8 @@
     "name": "Court of Justice",
     "type": "Holding",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-055",
@@ -174,7 +191,8 @@
     "name": "Acolyte of Koyane",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-056",
@@ -184,7 +202,8 @@
     "name": "Isawa Heiko",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-060",
@@ -194,7 +213,8 @@
     "name": "Warden of the Damned",
     "type": "Character",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-061",
@@ -204,7 +224,8 @@
     "name": "Callous Ashigaru",
     "type": "Attachment",
     "clan": "Crab",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "justice-for-satsume-064",
@@ -214,6 +235,7 @@
     "name": "Stride the Waves",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

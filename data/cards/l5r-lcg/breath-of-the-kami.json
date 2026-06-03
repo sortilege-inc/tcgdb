@@ -7,7 +7,8 @@
     "name": "Shinjo Shono",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-006",
@@ -17,7 +18,8 @@
     "name": "Fū Sui Disciple",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-008",
@@ -27,7 +29,8 @@
     "name": "Isawa Uona",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-012",
@@ -37,7 +40,8 @@
     "name": "Shiotome Encampment",
     "type": "Holding",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-015",
@@ -47,7 +51,8 @@
     "name": "The Mirror's Gaze",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-001",
@@ -56,7 +61,8 @@
     "publisherId": "ffg",
     "name": "Hisu Mori Toride (Lion Clan)",
     "type": "Stronghold",
-    "clan": "Lion"
+    "clan": "Lion",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-019",
@@ -66,7 +72,8 @@
     "name": "Winds of Change",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-003",
@@ -75,7 +82,8 @@
     "publisherId": "ffg",
     "name": "Demonstrating Excellence",
     "type": "Province",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-017",
@@ -85,7 +93,8 @@
     "name": "Hurricane Punch",
     "type": "Event",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-013",
@@ -95,7 +104,8 @@
     "name": "Kudaka",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-018",
@@ -105,7 +115,8 @@
     "name": "Even the Odds",
     "type": "Event",
     "clan": "Lion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-007",
@@ -115,7 +126,8 @@
     "name": "Matsu Seventh Legion",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-002",
@@ -124,7 +136,8 @@
     "publisherId": "ffg",
     "name": "Sacred Sanctuary",
     "type": "Province",
-    "clan": "Dragon"
+    "clan": "Dragon",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-004",
@@ -134,7 +147,8 @@
     "name": "Third Tower Guard",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-005",
@@ -144,7 +158,8 @@
     "name": "Hiruma Outpost",
     "type": "Holding",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-009",
@@ -154,7 +169,8 @@
     "name": "Soshi Shadowshaper",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-010",
@@ -164,7 +180,8 @@
     "name": "Heartless Intimidator",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-014",
@@ -174,7 +191,8 @@
     "name": "Formal Invitation",
     "type": "Attachment",
     "clan": "Crane",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-016",
@@ -184,7 +202,8 @@
     "name": "Ancient Master",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "breath-of-the-kami-020",
@@ -194,6 +213,7 @@
     "name": "Maze of Illusion",
     "type": "Event",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   }
 ]

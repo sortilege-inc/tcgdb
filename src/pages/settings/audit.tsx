@@ -10,16 +10,24 @@ interface SetNode {
   status: string
 }
 
+interface CardNode {
+  cardId: string
+  gameId: string
+  unverified?: boolean | null
+}
+
 interface Data {
   allCardSet: { nodes: SetNode[] }
+  allCard: { nodes: CardNode[] }
 }
 
 export default function AuditPage(props: PageProps<Data>): React.ReactElement {
   const { state, loading } = useSidecarState()
   const sets = props.data.allCardSet.nodes
+  const cards = props.data.allCard.nodes
 
   // Unverified collection entries grouped by game.
-  const unverifiedByGame = React.useMemo(() => {
+  const unverifiedCollectionByGame = React.useMemo(() => {
     const out: Record<string, number> = {}
     for (const [gameId, entries] of Object.entries(state.collection ?? {})) {
       let count = 0
@@ -31,10 +39,20 @@ export default function AuditPage(props: PageProps<Data>): React.ReactElement {
     return out
   }, [state.collection])
 
+  // Unverified card records grouped by game.
+  const unverifiedCardsByGame = React.useMemo(() => {
+    const out: Record<string, number> = {}
+    for (const c of cards) {
+      if (c.unverified) out[c.gameId] = (out[c.gameId] ?? 0) + 1
+    }
+    return out
+  }, [cards])
+
   const stubbedGames = GAMES.filter((g) => g.status === 'stubbed')
   const previewSets = sets.filter((s) => s.status === 'preview' || s.status === 'announced')
 
-  const totalUnverified = Object.values(unverifiedByGame).reduce((a, b) => a + b, 0)
+  const totalUnverifiedCollection = Object.values(unverifiedCollectionByGame).reduce((a, b) => a + b, 0)
+  const totalUnverifiedCards = Object.values(unverifiedCardsByGame).reduce((a, b) => a + b, 0)
 
   return (
     <>
@@ -52,15 +70,15 @@ export default function AuditPage(props: PageProps<Data>): React.ReactElement {
         <h2 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>
           Unverified collection entries{' '}
           <span style={{ opacity: 0.5, fontWeight: 400, fontSize: '0.9rem' }}>
-            ({totalUnverified.toLocaleString()})
+            ({totalUnverifiedCollection.toLocaleString()})
           </span>
         </h2>
         {loading && <p style={{ opacity: 0.6 }}>Loading state…</p>}
-        {!loading && totalUnverified === 0 ? (
+        {!loading && totalUnverifiedCollection === 0 ? (
           <p style={{ opacity: 0.7 }}>None.</p>
         ) : (
           <ul style={{ listStyle: 'none' }}>
-            {Object.entries(unverifiedByGame).map(([gameId, count]) => {
+            {Object.entries(unverifiedCollectionByGame).map(([gameId, count]) => {
               const game = GAMES.find((g) => g.id === gameId)
               return (
                 <li
@@ -79,6 +97,49 @@ export default function AuditPage(props: PageProps<Data>): React.ReactElement {
                   </Link>
                   <span style={{ fontVariantNumeric: 'tabular-nums' }}>
                     {count.toLocaleString()} entries
+                  </span>
+                </li>
+              )
+            })}
+          </ul>
+        )}
+      </section>
+
+      <section style={{ marginBottom: '2rem' }}>
+        <h2 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>
+          Unverified card records{' '}
+          <span style={{ opacity: 0.5, fontWeight: 400, fontSize: '0.9rem' }}>
+            ({totalUnverifiedCards.toLocaleString()})
+          </span>
+        </h2>
+        <p style={{ opacity: 0.65, fontSize: '0.85rem', marginBottom: '0.5rem' }}>
+          Card records whose details came from an external scrape (Fandom wiki
+          CSV) and haven't been confirmed against the printed card. Replaced
+          on a per-card basis as authoritative data is entered.
+        </p>
+        {totalUnverifiedCards === 0 ? (
+          <p style={{ opacity: 0.7 }}>None.</p>
+        ) : (
+          <ul style={{ listStyle: 'none' }}>
+            {Object.entries(unverifiedCardsByGame).map(([gameId, count]) => {
+              const game = GAMES.find((g) => g.id === gameId)
+              return (
+                <li
+                  key={gameId}
+                  style={{
+                    padding: '0.5rem 0.75rem',
+                    borderBottom: '1px solid var(--theme-border)',
+                    display: 'grid',
+                    gridTemplateColumns: '1fr auto',
+                    gap: '1rem',
+                    alignItems: 'baseline',
+                  }}
+                >
+                  <Link to={`/games/${gameId}/cards/`}>
+                    {game?.name ?? gameId}
+                  </Link>
+                  <span style={{ fontVariantNumeric: 'tabular-nums' }}>
+                    {count.toLocaleString()} cards
                   </span>
                 </li>
               )
@@ -173,6 +234,13 @@ export const query = graphql`
         gameId
         name
         status
+      }
+    }
+    allCard {
+      nodes {
+        cardId
+        gameId
+        unverified
       }
     }
   }

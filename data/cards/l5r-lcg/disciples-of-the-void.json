@@ -7,7 +7,8 @@
     "name": "Isawa Tadaka",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-004",
@@ -17,7 +18,8 @@
     "name": "Fire Tensai Initiate",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-006",
@@ -27,7 +29,8 @@
     "name": "Shiba Tetsu",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-018",
@@ -37,7 +40,8 @@
     "name": "Kaito Kosori",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-011",
@@ -47,7 +51,8 @@
     "name": "Fushichō",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-025",
@@ -57,7 +62,8 @@
     "name": "Yogo Kikuyo",
     "type": "Character",
     "clan": "Scorpion",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-001",
@@ -66,7 +72,8 @@
     "publisherId": "ffg",
     "name": "Kyūden Isawa",
     "type": "Stronghold",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-015",
@@ -76,7 +83,8 @@
     "name": "Togashi Tadakatsu",
     "type": "Character",
     "clan": "Dragon",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-023",
@@ -86,7 +94,8 @@
     "name": "Clarity of Purpose",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-019",
@@ -96,7 +105,8 @@
     "name": "Favor of the Kami",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-020",
@@ -106,7 +116,8 @@
     "name": "Katana of Fire",
     "type": "Attachment",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-012",
@@ -116,7 +127,8 @@
     "name": "Secluded Shrine",
     "type": "Holding",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-008",
@@ -126,7 +138,8 @@
     "name": "Fire Elemental Guard",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-007",
@@ -136,7 +149,8 @@
     "name": "Inquisitive Ishika",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-003",
@@ -145,7 +159,8 @@
     "publisherId": "ffg",
     "name": "Support of the Phoenix",
     "type": "Role",
-    "clan": "Neutral"
+    "clan": "Neutral",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-024",
@@ -155,7 +170,8 @@
     "name": "Karmic Twist",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-013",
@@ -165,7 +181,8 @@
     "name": "Hida Amoro",
     "type": "Character",
     "clan": "Crab",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-021",
@@ -175,7 +192,8 @@
     "name": "The Path of Man",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-017",
@@ -185,7 +203,8 @@
     "name": "Moto Nergüi",
     "type": "Character",
     "clan": "Unicorn",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-014",
@@ -195,7 +214,8 @@
     "name": "Doji Shigeru",
     "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-027",
@@ -205,7 +225,8 @@
     "name": "Kami Unleashed",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-026",
@@ -215,7 +236,8 @@
     "name": "Guardian Kami",
     "type": "Character",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-022",
@@ -225,7 +247,8 @@
     "name": "Wholeness of the World",
     "type": "Event",
     "clan": "Phoenix",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-009",
@@ -235,7 +258,8 @@
     "name": "Kaito Temple Protector",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-028",
@@ -245,7 +269,8 @@
     "name": "Walking the Way",
     "type": "Event",
     "clan": "Neutral",
-    "deck": "conflict"
+    "deck": "conflict",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-002",
@@ -254,7 +279,8 @@
     "publisherId": "ffg",
     "name": "Sanpuku Seidō",
     "type": "Province",
-    "clan": "Phoenix"
+    "clan": "Phoenix",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-005",
@@ -264,7 +290,8 @@
     "name": "Pacifist Philosopher",
     "type": "Character",
     "clan": "Phoenix",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   },
   {
     "id": "disciples-of-the-void-016",
@@ -274,6 +301,7 @@
     "name": "Ikoma Tsanuri",
     "type": "Character",
     "clan": "Lion",
-    "deck": "dynasty"
+    "deck": "dynasty",
+    "unverified": true
   }
 ]
