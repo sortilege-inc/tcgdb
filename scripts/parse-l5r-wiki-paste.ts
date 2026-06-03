@@ -115,6 +115,9 @@ function stripTagsToText(html: string, replaceBrWith: string): string {
       .replace(/<img[^>]*alt="[aA]ir"[^>]*\/?>/g, '[air]')
       .replace(/<img[^>]*alt="[eE]arth"[^>]*\/?>/g, '[earth]')
       .replace(/<img[^>]*alt="[uU]nique"[^>]*\/?>/g, '')
+      // Bullet markers used inside multi-line card text on multiplayer
+      // expansions (Negotiation Table, Hallowed Ground, A Game of Letters).
+      .replace(/<img[^>]*alt="dot"[^>]*\/?>/g, '•')
       .replace(/<img[^>]*\/?>/g, '')
       .replace(/<br\s*\/?>/gi, replaceBrWith)
       .replace(/<[^>]+>/g, '')
