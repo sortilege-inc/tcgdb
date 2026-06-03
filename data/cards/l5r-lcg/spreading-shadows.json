@@ -1,0 +1,236 @@
+[
+  {
+    "id": "spreading-shadows-039",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Twilight Rider",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-034",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Traveling Philosopher",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-026",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Shinsei's Last Hope",
+    "type": "Province",
+    "clan": "Crab"
+  },
+  {
+    "id": "spreading-shadows-025",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Seven Stings Keep",
+    "type": "Stronghold",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "spreading-shadows-036",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Inspired Visionary",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-043",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Highlight the Flaws",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "spreading-shadows-038",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Dispatch to Nowhere",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-041",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Disciple of Shinsei",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-027",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Spectral Visitation",
+    "type": "Province",
+    "clan": "Lion"
+  },
+  {
+    "id": "spreading-shadows-028",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Retire to the Brotherhood",
+    "type": "Province",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "spreading-shadows-029",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Wind's Path",
+    "type": "Province",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "spreading-shadows-030",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Driven By Courage",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "spreading-shadows-031",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Butcher of the Fallen",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-032",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Cunning Negotiator",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-033",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Daidoji Marketplace",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-035",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Chronicler of Conquests",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-037",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Thunder Guard Elite",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-040",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Moto Stables",
+    "type": "Holding",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "spreading-shadows-042",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Obsidian Talisman",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "spreading-shadows-044",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Mountaintop Vigil",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "spreading-shadows-045",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Logistics",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "spreading-shadows-046",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Ethereal Alignment",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "spreading-shadows-047",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Suffer the Consequences",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "spreading-shadows-048",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Never Yield",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "id": "as-honor-demands-093",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Seven Fold Palace",
+    "type": "Stronghold",
+    "clan": "Crane"
+  },
+  {
+    "id": "as-honor-demands-098",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Master of the Court",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-108",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Elegance and Grace",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "as-honor-demands-103",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Endless Archives",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-102",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Asako Lawmaster",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-105",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Shinjo Altansarnai (AHD)",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-106",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Contested Countryside",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-109",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Waterfall Tattoo",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "as-honor-demands-111",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "The Receding Tie",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "as-honor-demands-110",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Divine Ancestry",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "as-honor-demands-114",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Command By Name",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "as-honor-demands-094",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Foothills Keep",
+    "type": "Province",
+    "clan": "Dragon"
+  },
+  {
+    "id": "as-honor-demands-097",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Hida Etsuji",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-099",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Master of Many Lifetimes",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-104",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Beautiful Entertainer",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-107",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Ceaseless Duty",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "as-honor-demands-100",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Fearless Skirmisher",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-095",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Honor’s Reward",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "as-honor-demands-101",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Honored Veterans",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-096",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Pious Guardian",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "as-honor-demands-112",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Soshi Diviner",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "as-honor-demands-113",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Stoke Insurrection",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  }
+]

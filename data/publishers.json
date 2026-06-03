@@ -1,0 +1,9 @@
+[
+  { "id": "ffg",                  "name": "Fantasy Flight Games" },
+  { "id": "null-signal",          "name": "Null Signal Games" },
+  { "id": "renegade-games",       "name": "Renegade Game Studios" },
+  { "id": "white-wolf",           "name": "White Wolf Publishing" },
+  { "id": "black-chantry",        "name": "Black Chantry Productions" },
+  { "id": "lss",                  "name": "Legend Story Studios" },
+  { "id": "wizards-of-the-coast", "name": "Wizards of the Coast" }
+]

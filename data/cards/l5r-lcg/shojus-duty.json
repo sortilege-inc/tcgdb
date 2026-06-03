@@ -1,0 +1,202 @@
+[
+  {
+    "id": "shojus-duty-119",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Inferno Guard Invoker",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-129",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Castigated",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "shojus-duty-121",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Bayushi Shoju (SD)",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-118",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Student of Esoterica",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-112",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Yasuki Hatsu",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-111",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Gallant Quartermaster",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-120",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Chrysanthemum Steward",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-124",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Root Out Heresy",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "shojus-duty-114",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Hitsu-do Disciple",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-113",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Daidoji Harrier",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-115",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Togashi Ichi",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-116",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Hero of Three Trees",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-117",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Persuasive Counselor",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-122",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Golden Plains Raider",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-123",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Moto Outrider",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "shojus-duty-125",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Kakita's Final Stance",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "shojus-duty-126",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Mantra of Air",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "shojus-duty-127",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "In Service to My Lord",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "shojus-duty-128",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Cloak of Night",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "shojus-duty-130",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Know the Terrain",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  }
+]

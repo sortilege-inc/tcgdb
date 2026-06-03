@@ -1,0 +1,173 @@
+L5R LCG Inventory — notes & open questions
+============================================
+
+Files in this folder
+--------------------
+- scrape_l5r.py      Scrapes card data from the L5R Fandom wiki (via MediaWiki API)
+- l5r_cards.csv      1,359 cards: Set Category, Set Name, Card ID, Card Name, Clan, Deck, Card Type
+- build_app.py       Generates inventory.html from l5r_cards.csv (and bakes in
+                     expected-count overrides from a previously exported JSON)
+- inventory.html     The standalone inventory tracker (open in any browser)
+- inventory_notes.txt   This file
+- l5r-inventory-2026-06-02T13-49-32.json   Source of the baked-in expected
+                                           overrides for Defenders of Rokugan
+                                           and Under Fu Leng's Shadow
+
+
+How the app models a collection
+-------------------------------
+- The Core Set is pre-duplicated into three named instances ("Core Set 1",
+  "Core Set 2", "Core Set 3") since the standard playset recommendation is
+  three Core boxes.
+- Every other set starts as a single instance with the set's own name.
+- "+ Add box" on any set header appends another numbered copy (starting at 2
+  for sets that started unnumbered, or the next free number for Core Set).
+- "× Remove" on a non-original instance deletes that copy and any counts you
+  entered against it (with a confirmation prompt).
+- All counts and added/removed instances persist in localStorage and round-trip
+  through Export JSON / Import JSON.
+
+Status colors
+-------------
+- Green  — actual == expected
+- Red    — actual <  expected (this includes 0 actual; an empty row is "short")
+- Blue   — actual >  expected
+Promos are tracked separately and do NOT affect the status color.
+
+
+Expected-copies rule (the per-BOX defaults)
+-------------------------------------------
+For one Core Set box:
+  - 3 copies of each Neutral non-province card (Character/Event/Attachment/Holding)
+  - 1 copy of each clan-specific card
+  - 1 copy of each Province / Stronghold / Role
+
+For any other box (Clan Pack, Cycle pack, Premium Expansion):
+  - 3 copies of each card by default
+  - 1 copy of Roles, Warlords, and treaty cards (always)
+  - 1 copy of Strongholds and Provinces in Clan Packs and Inheritance / Dominion
+    / Temptations Cycles and Premium Expansions
+    (Imperial / Elemental Cycle strongholds and provinces stay at 3, because
+    those packs are 20×3 with no singletons)
+  - 2 copies of Clan War provinces (confirmed by box inspection)
+
+Per-card "Expected" is editable in the UI. Edits are saved to localStorage
+and included in JSON exports — both at the per-instance level and across all
+copies of a set.
+
+Total expected playset under this rule (3 cores + 1 box of everything else):
+~3,903 cards across 1,805 card "slots" (unique cards × number of box instances).
+
+
+Baked-in overrides
+------------------
+Pulled from l5r-inventory-2026-06-02T13-49-32.json — these are user-confirmed
+per-card expected values that override the default rule:
+
+  Defenders of Rokugan
+    IDs 12–17 (the six Crab Holdings: Kaiu Forges, Northern Curtain Wall,
+    River of the Last Stand, Seventh Tower, Third Whisker Warrens,
+    Watchtower of Valor) — 1 copy each. This makes Defenders 23×3 + 9×1 = 78,
+    so there are still 3 more singletons we haven't pinned down (probably the
+    stronghold + role + 1 province).
+
+  Under Fu Leng's Shadow (adversary / Shadowlands cards) — 56 specific cards
+  with varied expected counts (1, 2, or 4). Notable patterns:
+    - Goblin Brawler, Skeletal Warrior, Lost Samurai, Scavenging Goblin,
+      Shambling Servant, Shrine to Jigoku → 4 each
+    - Many holdings and characters → 2 each
+    - Many "leader" characters and one-off events → 1 each
+  Missing from the override set (still default-3 in the build): IDs 44, 49,
+  54, 59, 64, 74-77 in UFLS. Pattern-match these as you inventory.
+
+
+Reddit verification prompt (for the Claude Chrome plugin, when available)
+-------------------------------------------------------------------------
+
+I'm building an inventory tracker for the Legend of the Five Rings LCG (the
+Fantasy Flight Games card game, 2017–2021, sometimes called L5R LCG or
+L5R: The Card Game). I need you to verify my assumptions about how many copies
+of each card ship in each product. Please use Reddit as your primary source
+(especially r/l5r), and feel free to also check the L5R Fandom wiki and the
+FFG product announcement pages where useful. Quote the specific Reddit
+threads/comments you rely on.
+
+Here is the rule set I'm currently using. For each line, return ONE OF:
+  ✅ confirmed by Reddit (cite thread + comment)
+  ⚠️ partially correct — note what's different
+  ❌ wrong — note the correct rule
+  ❓ couldn't find a clear answer
+
+Assumptions to verify:
+
+1. CORE SET (released 2017, ~224 cards in the box): One box contains 3 copies
+   of each Neutral non-province card, 1 copy of each clan-specific card, and
+   1 copy of each Province / Stronghold / Role. Players are advised to buy 3
+   Core Sets to get a full playset.
+
+2. CLAN PACKS (Disciples of the Void, Underhand of the Emperor, Warriors of the
+   Wind, Masters of the Court, The Emperor's Legion, Defenders of Rokugan,
+   Seekers of Wisdom — 78 cards each): 25 cards × 3 + 3 cards × 1. Which card
+   types are the 3 singletons? My assumption: 1 stronghold, 1 role, 1 province.
+   (Defenders of Rokugan is bigger — 32 unique cards — so its split is more
+    like 23×3 + 9×1; I have 6 Crab Holdings confirmed as singletons there.)
+
+3. IMPERIAL CYCLE dynasty packs (Tears of Amaterasu, For Honor and Glory, Into
+   the Forbidden City, The Chrysanthemum Throne, Fate Has No Secrets,
+   Meditations on the Ephemeral — 20 unique cards each, 60 in the pack): Every
+   card comes 3 copies. NO singletons. This includes any provinces in these
+   packs.
+
+4. ELEMENTAL CYCLE dynasty packs (Breath of the Kami, Tainted Lands, The Fires
+   Within, The Ebb and Flow, All and Nothing, Elements Unbound — 20 unique
+   cards each, 60 in the pack): Every card comes 3 copies, including the two
+   strongholds (Hisu Mori Toride — Lion Clan in Breath of the Kami, and
+   Hisu Mori Toride — Unicorn Clan in Elements Unbound) and all provinces.
+
+5. INHERITANCE CYCLE dynasty packs (For the Empire, Bonds of Blood, Justice for
+   Satsume, The Children of Heaven, A Champion's Foresight, Shoju's Duty): The
+   22-card packs (most of them) follow 19 × 3 + 3 × 1 = 60, where the 3
+   singletons are the stronghold/role/province cards in that pack. Shoju's Duty
+   has only 20 unique cards and is 20 × 3 = 60, no singletons.
+
+6. DOMINION CYCLE dynasty packs (Rokugan at War, Spreading Shadows, In Pursuit
+   of Truth, Campaigns of Conquest, As Honor Demands, Atonement): Same pattern
+   as Inheritance — strongholds, roles, and provinces are 1 copy; everything
+   else is 3 copies.
+
+7. TEMPTATIONS CYCLE dynasty packs (Twisted Loyalties, Honor in Flames, A
+   Crimson Offering, The Temptation of the Scorpion, Coils of Power, Peace at
+   Any Cost): Same pattern — strongholds/roles/provinces are 1 copy, rest are 3.
+
+8. PREMIUM EXPANSIONS:
+   a. Children of the Empire (234 cards): 76 × 3 + 6 × 1. Which 6 cards are
+      the singletons?
+   b. Clan War (240 cards I believe): Provinces are 2 copies each (confirmed
+      from box inspection). 12 "treaty" cards I think are 1-copy each. What's
+      the breakdown for the rest?
+   c. Under Fu Leng's Shadow: Co-op expansion. Adversary (Shadowlands) cards
+      have *varied* copy counts (mix of 1s, 2s, and 4s). Player cards
+      (non-Shadowlands strongholds/provinces/characters) are still standard.
+      Can you confirm the per-card counts for the adversary deck?
+
+9. CARD-TYPE RULES (cross-cutting):
+   - Roles always come 1 copy in any pack that contains a role. ✓?
+   - Strongholds come 3 copies in Core Set and Imperial/Elemental Cycle packs,
+     but 1 copy in Clan Packs and Inheritance Cycle onward. ✓?
+   - Provinces come 3 copies in Core Set and Imperial/Elemental Cycle packs,
+     2 copies in Clan War, and 1 copy elsewhere. ✓?
+   - "Warlord" type cards (Under Fu Leng's Shadow co-op) always come 1 copy. ✓?
+   - "Treaty" type cards (Clan War) always come 1 copy. ✓?
+
+Specific Reddit search suggestions:
+- site:reddit.com/r/l5r card copies pack contents
+- r/l5r "playset" inheritance OR dominion stronghold
+- r/l5r "core set" "3 copies" beginner buying
+- r/l5r premium expansion clan war singletons
+- r/l5r "Under Fu Leng's Shadow" adversary deck composition
+- old.reddit.com/r/l5r/search?q=copies+per+pack
+
+Format your final answer as a numbered list mirroring the items above, each
+with a status icon and a short note. Include direct links to the Reddit
+threads/comments you used. If a claim is partially wrong, tell me the CORRECT
+per-card-type, per-set rule.

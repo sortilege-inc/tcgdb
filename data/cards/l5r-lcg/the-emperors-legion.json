@@ -1,0 +1,279 @@
+[
+  {
+    "id": "the-emperors-legion-010",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Voice of the Ancestors",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-017",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Shosuro Denmaru",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-006",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Matsu Gohei",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-001",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Kyūden Ikoma",
+    "type": "Stronghold",
+    "clan": "Lion"
+  },
+  {
+    "id": "the-emperors-legion-023",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Embrace Death",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-emperors-legion-004",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Ashigaru Levy",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-014",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Yasuki Hikaru",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-028",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Those Who Serve",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-emperors-legion-018",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Moto Ariq",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-027",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Kitsuki Kāgi",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-emperors-legion-016",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Isawa Tsuke",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-020",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Insolent Outcast",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-019",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Caravan Guard",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-015",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Doji Kuzunobu",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-022",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Total Warfare",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-emperors-legion-021",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Tactical Ingenuity",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-emperors-legion-003",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Support of the Lion",
+    "type": "Role",
+    "clan": "Neutral"
+  },
+  {
+    "id": "the-emperors-legion-005",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Samurai of Integrity",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-025",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Prepare for War",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-emperors-legion-026",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Right Hand of the Emperor",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-emperors-legion-011",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Matsu Tsuko (TEL)",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-008",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Kitsu Motso",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-024",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Honor in Battle",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-emperors-legion-013",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Hall of Victories",
+    "type": "Holding",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-012",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Champions of Yomi",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-007",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Ardent Omoidasu",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-009",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Akodo Motivator",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-emperors-legion-002",
+    "gameId": "l5r-lcg",
+    "setId": "the-emperors-legion",
+    "publisherId": "ffg",
+    "name": "Kenson no Gakka",
+    "type": "Province",
+    "clan": "Lion"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "all-and-nothing-100",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Perfect Land Ethos",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "all-and-nothing-096",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Shosuro Sadako",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "all-and-nothing-099",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Dispatch",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "all-and-nothing-097",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Mark of Shame",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "all-and-nothing-081",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Raging Battleground",
+    "type": "Province",
+    "clan": "Lion"
+  },
+  {
+    "id": "all-and-nothing-085",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Callow Delegate",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-089",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Ethereal Dreamer",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-093",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Game of Sadane",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "all-and-nothing-083",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Tainted Hero",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-082",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Appealing to the Fortunes",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "all-and-nothing-094",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Void Fist",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "all-and-nothing-090",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Bustling Academy",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-091",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Iuchi Shahai",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-088",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Matsu Mitsuko",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-086",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Togashi Mitsu",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-095",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "All and Nothing",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "all-and-nothing-098",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Discourage Pursuit",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "all-and-nothing-092",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Imperial Librarian",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-087",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Tactician's Apprentice",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "all-and-nothing-084",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Kuni Laboratory",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  }
+]

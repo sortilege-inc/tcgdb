@@ -1,0 +1,219 @@
+[
+  {
+    "id": "campaigns-of-conquest-089",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Under Siege",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "campaigns-of-conquest-079",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Ikoma Tsanuri (CoC)",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-071",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Hayaken no Shiro",
+    "type": "Stronghold",
+    "clan": "Lion"
+  },
+  {
+    "id": "campaigns-of-conquest-072",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Breaking In",
+    "type": "Province",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "campaigns-of-conquest-085",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Mercenary Company",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-083",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Open Window",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-073",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "The Pursuit of Justice",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "campaigns-of-conquest-074",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Kuni Purifier",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-075",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Veteran of Toshi Ranbo",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-076",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Crippling Taxes",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "campaigns-of-conquest-077",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Stoic Rival",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-078",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Hidden Mountain Pass",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-080",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Isawa Tsuke (CoC)",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-081",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Celebrated Renown",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-082",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Shadow Stalker",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-084",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Ride at Dawn",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "campaigns-of-conquest-086",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Sturdy Tetsubō",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "campaigns-of-conquest-087",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Local Daimyō's Retainer",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "campaigns-of-conquest-088",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Asceticism",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "campaigns-of-conquest-090",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Kyofuki's Hammer",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "campaigns-of-conquest-091",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Forgery",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "campaigns-of-conquest-092",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Steed of the Steppes",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  }
+]

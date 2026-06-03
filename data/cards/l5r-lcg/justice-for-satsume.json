@@ -1,0 +1,219 @@
+[
+  {
+    "id": "justice-for-satsume-065",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Shosuro Miyako",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "justice-for-satsume-059",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Wayfarer's Camp",
+    "type": "Holding",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-066",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Ujik Tactics",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "justice-for-satsume-054",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Steward of the Rich Frog",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-058",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Shinjo Gunsō",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-063",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Sharpen the Mind",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "justice-for-satsume-053",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Matsu Swiftspear",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-047",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Into the Forbidden City",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "justice-for-satsume-057",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Shosuro Ibuki",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-050",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Doji Kuwanan",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-049",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Doji Hotaru (JfS)",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-046",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Effective Deception",
+    "type": "Province",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "justice-for-satsume-045",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Conflict Between Kin",
+    "type": "Province",
+    "clan": "Crane"
+  },
+  {
+    "id": "justice-for-satsume-062",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Justicar's Approach",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "justice-for-satsume-048",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Hida Sugi",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-051",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Trusted Advisor",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-052",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Court of Justice",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-055",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Acolyte of Koyane",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-056",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Isawa Heiko",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "justice-for-satsume-060",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Warden of the Damned",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "justice-for-satsume-061",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Callous Ashigaru",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "justice-for-satsume-064",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Stride the Waves",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "the-children-of-heaven-080",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Hantei Daisetsu",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-068",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Emperor's Summons",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "the-children-of-heaven-077",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Emissary of Lies",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-088",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Overhear",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-children-of-heaven-083",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Rising Stars Kata",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-children-of-heaven-072",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Togashi Yoshi",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-073",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Truthseeker",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-086",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Unspoken Etiquette",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-children-of-heaven-069",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Student of Anatomies",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-067",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Fortified Assembly",
+    "type": "Province",
+    "clan": "Crab"
+  },
+  {
+    "id": "the-children-of-heaven-074",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Ikoma Kiyono",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-075",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Righteous Delegate",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-076",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Starry Heaven Sanctuary",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-078",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Licensed Quarter",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-079",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Ide Ryōma",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-081",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Sharpened Tsuruhashi",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-children-of-heaven-082",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Issue a Challenge",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-children-of-heaven-084",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Regal Bearing",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-children-of-heaven-085",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Invoke the Divine",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-children-of-heaven-087",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Natural Negotiator",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-children-of-heaven-070",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Graceful Guardian",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-children-of-heaven-071",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Iron Crane Legion",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  }
+]

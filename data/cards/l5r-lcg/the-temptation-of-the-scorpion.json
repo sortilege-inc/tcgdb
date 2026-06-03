@@ -1,0 +1,202 @@
+[
+  {
+    "id": "the-temptation-of-the-scorpion-069",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "An Agreeable Arrangement",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-086",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Dark Resurrection",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-079",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Mushin no Shin",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-080",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Reconnaissance",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-084",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Shadow Step",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-085",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "The Western Wind",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-082",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Whispers of Power",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-068",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Arrogant Kakita",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-074",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Iuchi Soulweaver",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-071",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Meticulous Scout",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-078",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Promising Youth",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-070",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Solitary Hero",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-077",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Talented Performer",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-067",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Unleashed Experiment",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-073",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Yogo Junzo",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-072",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Young Philosopher",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-081",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Blessed By Fukurokojin",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-075",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Enraged",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-083",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "The Skin of Fu Leng",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-076",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Untainted",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  }
+]

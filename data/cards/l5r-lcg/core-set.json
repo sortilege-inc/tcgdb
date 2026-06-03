@@ -1,0 +1,2180 @@
+[
+  {
+    "id": "core-set-002",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shizuka Toshi",
+    "type": "Stronghold",
+    "clan": "Crane",
+    "rulings": [
+      {
+        "date": "2026-06-03",
+        "source": "[sample — replace with authoritative source]",
+        "text": "Sample ruling: Shizuka Toshi's ability triggers once per duel, not once per resolution step."
+      }
+    ]
+  },
+  {
+    "id": "core-set-004",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Yōjin no Shiro",
+    "type": "Stronghold",
+    "clan": "Lion",
+    "errata": {
+      "text": "[Sample errata] Yōjin no Shiro: While you have at least one ready character with military skill 3 or higher, this stronghold gains \"Reaction: After a unit declares an attack against this province — bow this card to bow the attacking character.\""
+    }
+  },
+  {
+    "id": "core-set-008",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Defend the Wall",
+    "type": "Province",
+    "clan": "Crab",
+    "rulings": [
+      {
+        "date": "2026-06-03",
+        "source": "[sample — replace with authoritative source]",
+        "text": "Sample ruling: Defend the Wall's effect resolves at the start of the conflict, before any character abilities."
+      }
+    ]
+  },
+  {
+    "id": "core-set-016",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Elemental Fury",
+    "type": "Province",
+    "clan": "Neutral",
+    "errata": {
+      "text": "[Sample errata] Elemental Fury: At the start of the conflict — give one participating character +1 military and +1 political for the duration of this conflict."
+    },
+    "rulings": [
+      {
+        "date": "2026-06-03",
+        "source": "[sample — replace with authoritative source]",
+        "text": "Sample ruling: Elemental Fury can target a character on either side; controller of Elemental Fury chooses."
+      }
+    ]
+  },
+  {
+    "id": "core-set-014",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Endless Plains",
+    "type": "Province",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "core-set-012",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kuroi Mori",
+    "type": "Province",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "core-set-024",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shameful Display",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-189",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Blackmail",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-134",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Jade Tetsubō",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-112",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Border Rider",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-096",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Bayushi Manipulator",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-046",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Daidoji Nerishma",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-187",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "I Can Swim",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-038",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Borderlands Fortifications",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-198",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Unicorn",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-057",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mirumoto Prodigy",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-090",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Isawa Masahiro",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-106",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Yogo Hiroue",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-056",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Agasha Swordsmith",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-059",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Enlightenment",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-192",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Favored Mount",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-045",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Savvy Politician",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-069",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Matsu Berserker",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-025",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Eager Scout",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-195",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Breakthrough",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-160",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Vengeful Oathkeeper",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-167",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Lion",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-146",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Crane",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-185",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Scorpion",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-176",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Phoenix",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-154",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Dragon",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-125",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Miya Mystic",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-148",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Noble Sacrifice",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-136",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Rebuild",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-042",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Brash Samurai",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-203",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Assassination",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-055",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Togashi Initiate",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-147",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Admit Defeat",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-211",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fallen in Battle",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-132",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Reprieve",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-122",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Otomo Courtier",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-075",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Lion's Pride Brawler",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-114",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shinjo Outrider",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-083",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Solemn Scholar",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-209",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Spies at Court",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-101",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Young Rumormonger",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-111",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Aggressive Moto",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-204",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Banzai!",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-207",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "For Shame!",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-200",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fine Katana",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-202",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Cloud the Mind",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-171",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Knowledge",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-082",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shiba Peacemaker",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-144",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "The Perfect Gift",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-044",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doji Gift Giver",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-053",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Artisan Academy",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-143",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Height of Fashion",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-009",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "The Art of Peace",
+    "type": "Province",
+    "clan": "Crane"
+  },
+  {
+    "id": "core-set-047",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doji Challenger",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-052",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doji Hotaru",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-139",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Steward of Law",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-145",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Voice of Honor",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-141",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Above Question",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-142",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Duelist Training",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-071",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Akodo Gunsō",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-178",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Know the World",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-077",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Honored General",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-163",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Honored Blade",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-072",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Deathseeker",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-021",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Night Raid",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-089",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shiba Yōjimbō",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-180",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Adept of Shadows",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-208",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Good Omen",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-093",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shiba Tsukune",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-118",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Utaku Yumino",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-067",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Obstinate Recruit",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-011",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "The Art of War",
+    "type": "Province",
+    "clan": "Lion"
+  },
+  {
+    "id": "core-set-074",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kitsu Spiritcaller",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-076",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Matsu Beiona",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-078",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ikoma Eiji",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-169",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Strength in Numbers",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-166",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Stand Your Ground",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-168",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "For Greater Glory",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-162",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Guidance of the Ancestors",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-164",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Sashimono",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-068",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ikoma Prodigy",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-161",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Master of the Spear",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-073",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Venerable Historian",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-158",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Indomitable Will",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-159",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mirumoto's Fury",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-129",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Imperial Storehouse",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-123",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seppun Guardsman",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-153",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kitsuki's Method",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-155",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Let Go",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-156",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mantra of Fire",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-010",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Restoration of Balance",
+    "type": "Province",
+    "clan": "Dragon"
+  },
+  {
+    "id": "core-set-003",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mountain's Anvil Castle",
+    "type": "Stronghold",
+    "clan": "Dragon"
+  },
+  {
+    "id": "core-set-060",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Enlightened Warrior",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-064",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Niten Master",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-065",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Togashi Yokuni",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-149",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Tattooed Wanderer",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-150",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Togashi Kazue",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-061",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kitsuki Investigator",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-201",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ornate Fan",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-043",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Cautious Scout",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-131",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Stoic Gunsō",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-133",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Watch Commander",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-036",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kaiu Shuichi",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-017",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Entrenched Position",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-023",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Rally to the Cause",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-020",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Meditations on the Tao",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-130",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Hiruma Ambusher",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-034",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Hida Tomonatsu",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-035",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Steadfast Witch Hunter",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-037",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Hida Kisada",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-001",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shiro Nishiyama",
+    "type": "Stronghold",
+    "clan": "Crab"
+  },
+  {
+    "id": "core-set-138",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "The Mountain Does Not Fall",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-039",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Funeral Pyre",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-026",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Hida Guardian",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-135",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Levy",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-027",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kaiu Envoy",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-210",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Charge!",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-213",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Rout",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-206",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Court Games",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-179",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Display of Power",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-170",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ishiken Initiate",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-085",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Asako Diplomat",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-084",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Adept of the Waves",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-088",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Serene Warrior",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-005",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Isawa Mori Seidō",
+    "type": "Stronghold",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "core-set-087",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Radiant Orator",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-081",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Naive Student",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-172",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Magnificent Kimono",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-117",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Warrior Poet",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-177",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Against the Waves",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-007",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Golden Plains Outpost",
+    "type": "Stronghold",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "core-set-126",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker Initiate",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-124",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper Initiate",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-110",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Utaku Infantry",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-102",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Favored Niece",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-212",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Outwit",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-214a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Air",
+    "type": "Role",
+    "clan": "Crab"
+  },
+  {
+    "id": "core-set-215a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Earth",
+    "type": "Role",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "core-set-218a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Void",
+    "type": "Role",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-217a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Water",
+    "type": "Role",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "core-set-128",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Favorable Ground",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-191",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ide Messenger",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-121",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shinjo Altansarnai",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-031",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Borderlands Defender",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-029",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shrewd Yasuki",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-108",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "City of Lies",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-080",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Staging Ground",
+    "type": "Holding",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-054",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doomed Shugenja",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-107",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Bayushi Shoju",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-041",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doji Whisperer",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-070",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Steadfast Samurai",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-137",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Crab",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-015",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ancestral Lands",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-152",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Daimyō's Favor",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-174",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Pacifism",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-127",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Wandering Rōnin",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-151",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ancestral Daishō",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-040",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Asahina Artisan",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-049",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kakita Kaezin",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-050",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Asahina Storyteller",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-051",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Guest of Honor",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-048",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kakita Asami",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-165",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ready for Battle",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-079",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Akodo Toturi (Lion Clan)",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-022",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Pilgrimage",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-058",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Niten Adept",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-066",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Secluded Temple",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-063",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ascetic Visionary",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-062",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mirumoto Raitsugu",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-140",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Political Rival",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-019",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Manicured Garden",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-033",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Vengeful Berserker",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-091",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fearsome Mystic",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-092",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Isawa Atsuko",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-094",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Forgotten Library",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-006",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "City of the Open Hand",
+    "type": "Stronghold",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "core-set-216a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Fire",
+    "type": "Role",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-205",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Contingency Plan",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-157",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Tranquility",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-032",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Intimidating Hida",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-028",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Hiruma Yōjimbō",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-173",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Grasp of Earth",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-175",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Supernatural Storm",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-103",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shosuro Actress",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-193",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Spyglass",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-116",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ide Trader",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-119",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Moto Horde",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-109",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Moto Youth",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-115",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Giver of Gifts",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-120",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shinjo Tatsuo",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-113",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Meishōdō Wielder",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-196",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Captive Audience",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-199",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Cavalry Reserves",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-194",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Born in War",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-197",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "I Am Ready",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-188",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ambush",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-018",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fertile Fields",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "core-set-030",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Vanguard Warrior",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-086",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Meddling Mediator",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-190",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Iuchi Wayfinder",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-183",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fiery Madness",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-182",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Court Mask",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-181",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Unassuming Yōjimbō",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-186",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Calling in Favors",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-184",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Forged Edict",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "core-set-013",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Secret Cache",
+    "type": "Province",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "core-set-104",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shosuro Miyako",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-099",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Soshi Illusionist",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-100",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Yogo Outcast",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-097",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Sinister Soshi",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-105",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Bayushi Yunako",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-098",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Blackmail Artist",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "core-set-095",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Bayushi Liar",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  }
+]

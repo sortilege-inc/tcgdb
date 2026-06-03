@@ -1,0 +1,219 @@
+[
+  {
+    "id": "coils-of-power-104",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Ancestral Sight",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-091",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Asahina Peacekeeper",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-094",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Conduit of Heroes",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-099",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Higashi Kaze Company",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-095",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Kami of Ancient Wisdom",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-093",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Militant Faithful",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-098",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Open Field Skirmisher",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-096",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Shosuro Deceiver",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-090",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Repentant Legion",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-102",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Phoenix Tattoo",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-101",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Tsangusuri Ward",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-100",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Battle Meditation",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-105",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Battlefield Orders",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-103",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Betrayal of Truth",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-106",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Calling the Storm",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-097",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Display of Loyalty",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "coils-of-power-107",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Final Whisper",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-108",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Overrun",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "coils-of-power-087",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Castle of the Forgotten",
+    "type": "Stronghold",
+    "clan": "Crab"
+  },
+  {
+    "id": "coils-of-power-089",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Deserted Shrine",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "coils-of-power-088",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Offerings to the Kami",
+    "type": "Province",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "coils-of-power-092",
+    "gameId": "l5r-lcg",
+    "setId": "coils-of-power",
+    "publisherId": "ffg",
+    "name": "Fū Sui Temple",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  }
+]

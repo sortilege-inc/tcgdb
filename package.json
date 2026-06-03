@@ -1,0 +1,42 @@
+{
+  "name": "tcgdb",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal multi-game TCG collection, deckbuilding, and inventory tracker.",
+  "scripts": {
+    "develop": "concurrently -n gatsby,sidecar -c blue,green \"npm:develop:gatsby\" \"npm:develop:sidecar\"",
+    "develop:gatsby": "gatsby develop",
+    "develop:sidecar": "tsx watch sidecar/index.ts",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "sidecar": "tsx sidecar/index.ts",
+    "import:l5r": "tsx scripts/import-l5r.ts",
+    "import:l5r-collection": "tsx scripts/import-l5r-collection.ts",
+    "seed:l5r-errata": "tsx scripts/seed-l5r-errata.ts"
+  },
+  "dependencies": {
+    "gatsby": "^5.13.7",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-json": "^5.13.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "express": "^4.21.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "concurrently": "^9.0.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

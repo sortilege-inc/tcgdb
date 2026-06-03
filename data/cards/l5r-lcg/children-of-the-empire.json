@@ -1,0 +1,817 @@
+[
+  {
+    "id": "children-of-the-empire-045",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Akodo Toturi",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-012",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Courtly Challenger",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-037",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Honest Challenger",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-058",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Mirumoto Daishō",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-034",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Social Puppeteer",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-023",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Student of War",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-068",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Subdue the Spirits",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-052",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "In Defense of Rokugan",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-080",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Stay Your Hand",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-074",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Jewel of the Khamasīn",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-062",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Hand to Hand",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-060",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Karmic Balance",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-055",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Try Again Tomorrow",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-028",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Sage of Gisei Toshi",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-010",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Heavy Ballista",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-072",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Miyako's Undertaking",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-019",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Mirumoto Hitomi",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-009",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Hida Yakamo",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-063",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "The Fires of Justice",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-041",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Aspiring Challenger",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-059",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Magnificent Triumph",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-031",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Loyal Challenger",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-018",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Tranquil Philosopher",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-021",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Honorable Challenger",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-069",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Infiltrator's Tools",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-039",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Shiotome Heroine",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-027",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Sincere Challenger",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-040",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Utaku Kamoko",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-001",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kiku Matsuri",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "children-of-the-empire-022",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Ikoma Orator",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-064",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Glorious Victory",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-075",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Challenge on the Fields",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-065",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Unmatched Expertise",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-024",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Matsu Tsuko",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-029",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Isawa Ujina",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-038",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Ide Negotiator",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-066",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Gift of Amaterasu",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-007",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Yasuki Procurer",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-035",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Shosuro Hametsu",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-006",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Daring Challenger",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-003",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Midnight Revels",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "children-of-the-empire-032",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Midnight Prowler",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-070",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kirei-ko",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-050",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Honed Nodachi",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-026",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Fire Tensai Acolyte",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-061",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "True Strike Kenjutsu",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-051",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Smuggling Deal",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-081",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Warm Welcome",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-014",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kakita Toshimoko",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-015",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kakita Dōjō",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-020",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Mirumoto Dōjō",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-002",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Illustrious Forge",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "children-of-the-empire-053",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Iaijutsu Master",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-017",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Prudent Challenger",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-054",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Storied Defeat",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-042",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Seppun Hidden Guard",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-004",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Temple of the Dragons",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "children-of-the-empire-047",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Miya Library",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-078",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Unveiled Destiny",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-044",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Righteous Magistrate",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-043",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Humble Magistrate",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-046",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Hantei XXXVIII",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-079",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Defend Your Honor",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-005",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Vassal Fields",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "children-of-the-empire-071",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Unmask",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-025",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Tactician's Camp",
+    "type": "Holding",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-008",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Siege Captain",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-073",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Shinjo Ambusher",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-067",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Severed From the Stream",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-048",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Proving Ground",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-013",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Paragon of Grace",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-076",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Leniency",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-011",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Ichigenkin Soloist",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-033",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Attendant to the Emperor",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-057",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Solitary Strength",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-082",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Prayers to Ebisu",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-036",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Outskirsts Sentry",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-077",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kujira's Hireling",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-016",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Kitsuki Counselor",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "children-of-the-empire-049",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Guardian of Virtue",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-056",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Civil Discourse",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "children-of-the-empire-030",
+    "gameId": "l5r-lcg",
+    "setId": "children-of-the-empire",
+    "publisherId": "ffg",
+    "name": "Ancestral Shrine",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  }
+]

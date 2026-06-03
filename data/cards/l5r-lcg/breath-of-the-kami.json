@@ -1,0 +1,199 @@
+[
+  {
+    "id": "breath-of-the-kami-011",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Shinjo Shono",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-006",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Fū Sui Disciple",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-008",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Isawa Uona",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-012",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Shiotome Encampment",
+    "type": "Holding",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-015",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "The Mirror's Gaze",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "breath-of-the-kami-001",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Hisu Mori Toride (Lion Clan)",
+    "type": "Stronghold",
+    "clan": "Lion"
+  },
+  {
+    "id": "breath-of-the-kami-019",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Winds of Change",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "breath-of-the-kami-003",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Demonstrating Excellence",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "breath-of-the-kami-017",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Hurricane Punch",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "breath-of-the-kami-013",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Kudaka",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-018",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Even the Odds",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "breath-of-the-kami-007",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Matsu Seventh Legion",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-002",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Sacred Sanctuary",
+    "type": "Province",
+    "clan": "Dragon"
+  },
+  {
+    "id": "breath-of-the-kami-004",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Third Tower Guard",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-005",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Hiruma Outpost",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-009",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Soshi Shadowshaper",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-010",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Heartless Intimidator",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "breath-of-the-kami-014",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Formal Invitation",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "breath-of-the-kami-016",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Ancient Master",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "breath-of-the-kami-020",
+    "gameId": "l5r-lcg",
+    "setId": "breath-of-the-kami",
+    "publisherId": "ffg",
+    "name": "Maze of Illusion",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  }
+]

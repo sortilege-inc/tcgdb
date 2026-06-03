@@ -1,0 +1,279 @@
+[
+  {
+    "id": "disciples-of-the-void-010",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Isawa Tadaka",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-004",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Fire Tensai Initiate",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-006",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Shiba Tetsu",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-018",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Kaito Kosori",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-011",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Fushichō",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-025",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Yogo Kikuyo",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-001",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Kyūden Isawa",
+    "type": "Stronghold",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "disciples-of-the-void-015",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Togashi Tadakatsu",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-023",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Clarity of Purpose",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-019",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Favor of the Kami",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-020",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Katana of Fire",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-012",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Secluded Shrine",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-008",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Fire Elemental Guard",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-007",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Inquisitive Ishika",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-003",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Support of the Phoenix",
+    "type": "Role",
+    "clan": "Neutral"
+  },
+  {
+    "id": "disciples-of-the-void-024",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Karmic Twist",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-013",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Hida Amoro",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-021",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "The Path of Man",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-017",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Moto Nergüi",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-014",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Doji Shigeru",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-027",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Kami Unleashed",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-026",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Guardian Kami",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-022",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Wholeness of the World",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-009",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Kaito Temple Protector",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-028",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Walking the Way",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "disciples-of-the-void-002",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Sanpuku Seidō",
+    "type": "Province",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "disciples-of-the-void-005",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Pacifist Philosopher",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "disciples-of-the-void-016",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Ikoma Tsanuri",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  }
+]

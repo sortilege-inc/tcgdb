@@ -1,0 +1,2985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Fu Leng's Shadow — Card Set</title>
+  <style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Georgia, serif; background: #1a1208; color: #e8dcc8; line-height: 1.5; min-height: 100vh; }
+.page-header { text-align: center; padding: 2.5rem 1rem 1.5rem; background: linear-gradient(180deg, #0a0604 0%, #1a1208 100%); border-bottom: 2px solid #6b3a1f; margin-bottom: 2rem; }
+.page-header h1 { font-size: 2.2rem; color: #d4a843; letter-spacing: 0.05em; text-shadow: 0 2px 8px rgba(0,0,0,0.7); }
+.page-header .subtitle { color: #a08060; font-style: italic; margin-top: 0.4rem; font-size: 1rem; }
+.controls { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; justify-content: center; padding: 0 1rem 1.5rem; max-width: 1400px; margin: 0 auto 1rem; }
+.filter-group { display: flex; align-items: center; gap: 0.4rem; }
+.filter-group label { font-size: 0.85rem; color: #a08060; white-space: nowrap; }
+select, input[type="text"] { background: #2a1f0f; color: #e8dcc8; border: 1px solid #6b3a1f; border-radius: 4px; padding: 0.35rem 0.6rem; font-size: 0.85rem; font-family: inherit; }
+select:focus, input[type="text"]:focus { outline: none; border-color: #d4a843; }
+.card-count { color: #a08060; font-size: 0.85rem; padding: 0.35rem 0.6rem; background: #2a1f0f; border: 1px solid #3a2a10; border-radius: 4px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(580px, 1fr)); gap: 1.25rem; padding: 0 1rem 3rem; max-width: 1400px; margin: 0 auto; }
+.card { display: flex; flex-direction: row; background: #211609; border: 1px solid #4a2d0f; border-radius: 8px; overflow: hidden; transition: box-shadow 0.2s, border-color 0.2s; }
+.card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.6); border-color: #8b5a2b; }
+.card-shadowlands { border-left: 4px solid #9b1a1a; }
+.card-crab        { border-left: 4px solid #5a6b7a; }
+.card-crane       { border-left: 4px solid #5b9bd4; }
+.card-dragon      { border-left: 4px solid #3a8a3e; }
+.card-lion        { border-left: 4px solid #e8a020; }
+.card-phoenix     { border-left: 4px solid #d44a15; }
+.card-scorpion    { border-left: 4px solid #a01060; }
+.card-unicorn     { border-left: 4px solid #7a25a0; }
+.card-neutral     { border-left: 4px solid #607d8b; }
+.card-mantis      { border-left: 4px solid #4caf50; }
+.card-image { flex: 0 0 160px; max-width: 160px; overflow: hidden; background: #0f0a04; display: flex; align-items: center; justify-content: center; }
+.card-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card-details { flex: 1; padding: 0.85rem 1rem; display: flex; flex-direction: column; gap: 0.45rem; min-width: 0; }
+.card-header { display: flex; flex-direction: column; gap: 0.2rem; }
+.card-title-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.5rem; }
+.card-name { font-size: 1.05rem; color: #d4a843; font-weight: bold; line-height: 1.3; }
+.unique-icon { color: #d4a843; margin-right: 0.25em; font-size: 0.85em; }
+.name-extra { font-size: 0.8em; color: #a08060; font-weight: normal; }
+.faction-badge { font-size: 0.68rem; font-family: Arial, sans-serif; font-weight: bold; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.18em 0.5em; border-radius: 3px; white-space: nowrap; flex-shrink: 0; }
+.faction-shadowlands { background: #7a1010; color: #ffcdd2; }
+.faction-crab        { background: #3a4f5c; color: #cfd8dc; }
+.faction-crane       { background: #1060a0; color: #e3f2fd; }
+.faction-dragon      { background: #1b5e20; color: #c8e6c9; }
+.faction-lion        { background: #c07000; color: #fff8e1; }
+.faction-phoenix     { background: #a03010; color: #fbe9e7; }
+.faction-scorpion    { background: #6a0838; color: #fce4ec; }
+.faction-unicorn     { background: #4a0f7a; color: #ede7f6; }
+.faction-neutral     { background: #37474f; color: #eceff1; }
+.faction-mantis      { background: #1b5e20; color: #f1f8e9; }
+.card-type-badge { font-size: 0.72rem; color: #8a7060; font-family: Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.08em; }
+.traits { font-size: 0.85rem; color: #c8a870; margin-top: 0.1rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; font-family: Arial, sans-serif; font-size: 0.8rem; padding: 0.3rem 0; border-top: 1px solid #2a1f0f; }
+.stat { color: #c8b89a; }
+.stat-label { color: #8a7060; font-weight: bold; }
+.card-text { font-size: 0.875rem; color: #d8ccb8; line-height: 1.65; border-top: 1px solid #2a1f0f; padding-top: 0.45rem; }
+.card-text b { color: #e8cc80; }
+.card-text em { color: #c8a870; }
+.icon-clan { color: #c84040; }
+.icon-element { color: #8080d0; }
+.flavor-text { font-size: 0.78rem; color: #6a5a3a; font-style: italic; border-top: 1px solid #2a1f0f; padding-top: 0.4rem; }
+.card-footer { margin-top: auto; padding-top: 0.45rem; border-top: 1px solid #2a1f0f; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.25rem; font-family: Arial, sans-serif; font-size: 0.7rem; color: #6a5a40; }
+.deck-label { font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; color: #8a7050; }
+.deck-limit { color: #7a6040; font-style: italic; }
+.pack-info { color: #5a4a30; }
+.no-results { grid-column: 1 / -1; text-align: center; color: #6a5a40; font-style: italic; padding: 3rem; font-size: 1.1rem; }
+@media (max-width: 640px) { .card-grid { grid-template-columns: 1fr; } .card-image { flex: 0 0 110px; max-width: 110px; } .page-header h1 { font-size: 1.5rem; } }
+  </style>
+</head>
+<body>
+
+<header class="page-header">
+  <h1>Under Fu Leng's Shadow</h1>
+  <p class="subtitle">Legend of the Five Rings LCG — Complete Card Set (124 cards)</p>
+</header>
+
+<div class="controls">
+  <div class="filter-group"><label for="search">Search:</label>    <input type="text" id="search" placeholder="Name or text…" oninput="filterCards()"></div>
+  <div class="filter-group"><label for="filter-type">Type:</label>    <select id="filter-type" onchange="filterCards()"><option value="">All Types</option><option value="character">Character</option><option value="event">Event</option><option value="attachment">Attachment</option><option value="province">Province</option><option value="holding">Holding</option><option value="stronghold">Stronghold</option><option value="warlord">Warlord</option></select></div>
+  <div class="filter-group"><label for="filter-faction">Faction:</label>    <select id="filter-faction" onchange="filterCards()"><option value="">All Factions</option><option value="shadowlands">Shadowlands</option><option value="crab">Crab</option><option value="crane">Crane</option><option value="dragon">Dragon</option><option value="lion">Lion</option><option value="phoenix">Phoenix</option><option value="scorpion">Scorpion</option><option value="unicorn">Unicorn</option><option value="neutral">Neutral</option></select></div>
+  <div class="filter-group"><label for="filter-deck">Deck:</label>    <select id="filter-deck" onchange="filterCards()"><option value="">All Decks</option><option value="conflict">Conflict</option><option value="dynasty">Dynasty</option><option value="province">Province</option></select></div>
+  <div class="card-count" id="card-count">124 cards</div>
+</div>
+
+<main class="card-grid" id="card-grid">
+  <div class="card card-shadowlands card-type-warlord card-side-province" id="card-1a">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls01A.jpg" alt="Akuma no Oni" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Akuma no Oni <span class="name-extra">(Coop)</span></h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Oni. Champion.</strong></em></div>
+        <div class="card-type-badge">Warlord</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span><span class="stat"><span class="stat-label">Military:</span> 7</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br><b>Reaction:</b> After you collect fate in the dynasty phase, each opponent chooses a non-<span class="icon-clan" title="Shadowlands">⬡</span> character with three or lower <span class="icon-stat" title="Military">⚔</span> skill - bow each chosen character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #1A — Calvin Chua</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-warlord card-side-province" id="card-1b">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls01B.jpg" alt="Akuma no Oni" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Akuma no Oni <span class="name-extra">(Challenge)</span></h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Oni. Champion.</strong></em></div>
+        <div class="card-type-badge">Warlord</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span><span class="stat"><span class="stat-label">Military:</span> 7</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br><b>Action:</b> Choose a character. Its controller selects one - either remove all fate from that character or you may declare an additional <span class="icon-stat" title="Military">⚔</span> conflict this phase.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #1B — Calvin Chua</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-warlord card-side-province" id="card-2a">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls02A.jpg" alt="The Obsidian Flower" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>The Obsidian Flower <span class="name-extra">(Coop)</span></h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Oni. Champion.</strong></em></div>
+        <div class="card-type-badge">Warlord</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Political:</span> 4</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br><b>Reaction:</b> After you collect fate in the dynasty phase - each opponent taints a character they control.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #2A — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-warlord card-side-province" id="card-2b">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls02B.jpg" alt="The Obsidian Flower" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>The Obsidian Flower <span class="name-extra">(Challenge)</span></h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Oni. Champion.</strong></em></div>
+        <div class="card-type-badge">Warlord</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Political:</span> 4</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br><b>Action:</b> Choose a tainted character an opponent controls. Its controller selects one - either each opponent loses 2 honor, or you gain control of the chosen character and it gains a <span class="icon-clan" title="Shadowlands">⬡</span> clan symbol.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #2B — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-warlord card-side-province" id="card-3a">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls03A.jpg" alt="Atsuko the Calamitous" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Atsuko the Calamitous <span class="name-extra">(Coop)</span></h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Oni. Champion.</strong></em></div>
+        <div class="card-type-badge">Warlord</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 7</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br><b>Reaction:</b> After you collect fate in the dynasty phase - remove 2 random cards in each opponent's dynasty discard pile from the game. Bow each character in play with the same name as a card removed from the game this way.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #3A — Diego Gisbert Llorens</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-warlord card-side-province" id="card-3b">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls03B.jpg" alt="Atsuko the Calamitous" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Atsuko the Calamitous <span class="name-extra">(Challenge)</span></h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Oni. Champion.</strong></em></div>
+        <div class="card-type-badge">Warlord</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 7</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br><b>Reaction:</b> Choose an opponent to select one - either that player sacrifices a character, or you play a character from your dynasty discard pile as if it were in your hand, reducing its cost by 2.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #3B — Diego Gisbert Llorens</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-4">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls004.jpg" alt="Blood Fields" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Blood Fields</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Fire, Water</span><span class="stat"><span class="stat-label">Strength:</span> 4</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province - remove 1 fate from each attacking character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #4 — David Frasheski</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-5">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls005.jpg" alt="Defiled Cavern" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Defiled Cavern</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Fire, Earth</span><span class="stat"><span class="stat-label">Strength:</span> 5</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province - place 2 (per opponent) random characters in your dynasty discard pile on the bottom of your dynasty deck.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #5 — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-6">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls006.jpg" alt="Fallen Chrysanthemum Lake" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Fallen Chrysanthemum Lake</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Void, Water</span><span class="stat"><span class="stat-label">Strength:</span> 3</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province - each opponent discards their hand and draws that many cards.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #6 — John Anthony Di Giovanni</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-7">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls007.jpg" alt="False Lantern Grove" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>False Lantern Grove</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Air, Fire</span><span class="stat"><span class="stat-label">Strength:</span> 5</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province, choose an unclaimed ring - resolve the contested ring's effect and claim it. The chosen ring is now the constested ring.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #7 — Brian Valenzuela</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-8">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls008.jpg" alt="Forgotten Tomb of Fu Leng" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Forgotten Tomb of Fu Leng</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Void, Fire</span><span class="stat"><span class="stat-label">Strength:</span> 4</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province, choose a character in your dynasty discard pile - put that character into play in the conflict as a defender. Place 1 (per opponent) fate on it</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #8 — Daria Khlebnikova</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-9">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls009.jpg" alt="Garden of Corruption" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Garden of Corruption</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Air, Earth</span><span class="stat"><span class="stat-label">Strength:</span> 6</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province - dishonor each attacking tainted character, then taint each attacking character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #9 — Nele Diel</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-10">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls010.jpg" alt="Haunted Jungles" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Haunted Jungles</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Water, Earth</span><span class="stat"><span class="stat-label">Strength:</span> 3</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province, choose up to 1 (per opponent) characters in your provinces - put those characters into play in the conflict as defenders.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #10 — Max Degen</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-11">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls011.jpg" alt="Maddening Emptiness" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Maddening Emptiness</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Void, Earth</span><span class="stat"><span class="stat-label">Strength:</span> 2</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province, choose up to 1 attacking character by controlled by each opponent - bow each chosen character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #11 — Daria Khlebnikova</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-12">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls012.jpg" alt="Sea of Shadows" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Sea of Shadows</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Air, Water</span><span class="stat"><span class="stat-label">Strength:</span> 7</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province, choose up to 1 ready character in each opponent's home - move each of those characters to the conflict.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #12 — David Frasheski</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-province card-side-province" id="card-13">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls013.jpg" alt="Spectral Watchtower" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Spectral Watchtower</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Province</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Elements:</span> Air, Void</span><span class="stat"><span class="stat-label">Strength:</span> 4</span></div>
+      <div class="card-text"><b>Reaction:</b>  After a conflict is declared against this province - take 1 fate from each opponent.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #13 — Daria Khlebnikova</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-14">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls014.jpg" alt="Goblin Brawler" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Goblin Brawler</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Goblin.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      
+      <div class="flavor-text">Akuma no Oni's army outfitted itself with the weapons and armor scavanged from fallen samurai.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #14 — Paolo Puggioni</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-15">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls015.jpg" alt="Fouleye's Elite" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Fouleye's Elite</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Goblin.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text"><b>Reaction:</b> After this character wins a conflict, choose a character an oppontn controls with equal or lower <span class="icon-stat" title="Military">⚔</span> skill than this character - bow the chosen character.</div>
+      <div class="flavor-text">"I'd be more worried about those teeth than that blade." - Hiruma Kogoe</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #15 — Conceptopolis</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-holding card-side-dynasty" id="card-16">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls016.jpg" alt="Goblin Hovel" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Goblin Hovel</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +3</span></div>
+      <div class="card-text"><b>Interrupt:</b> When the conflict phase ends, choose up to 3 different <span class="icon-clan" title="Shadowlands">⬡</span> <em>Goblin</em> characters - move 1 fate from your fate pool to each chosen character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #16 — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-17">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls017.jpg" alt="Detritus Priest" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Detritus Priest</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Fire. Goblin.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Political:</span> 7</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text"><b>Reaction:</b> After a <em>Goblin</em> you control wins a conflict, remove 1 fate from it - resolve the contested ring's effect. (Limit twice per round.)</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #17 — Paolo Puggioni</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-18">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls018.jpg" alt="Chieftain Fouleye" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Chieftain Fouleye</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Goblin.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span><span class="stat"><span class="stat-label">Military:</span> 7</span><span class="stat"><span class="stat-label">Political:</span> 4</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Reduce the cost to play each <span class="icon-clan" title="Shadowlands">⬡</span> <em>Goblin</em> by 1.<br>Each other <span class="icon-clan" title="Shadowlands">⬡</span> <em>Goblin</em> gets +2<span class="icon-stat" title="Political">🏮</span></div>
+      <div class="flavor-text">"Great gift. Lord accepts. You eat well tonight."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #18 — Borja Pindado</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-19">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls019.jpg" alt="Skeletal Warrior" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Skeletal Warrior</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Undead.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i></div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #19 — Diego Gisbert Llorens</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-20">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls020.jpg" alt="Endless Ranks" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Endless Ranks</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Undead. Army.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No attachments except <em>Weapon</em>.<br><b>Reaction:</b> After this character wins a conflict, choose a character in your dynasty discard pile - put that character on top of your dynasty deck.</div>
+      <div class="flavor-text">Each death beyond the Wall is in service to Fu Leng.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #20</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-holding card-side-dynasty" id="card-21">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls021.jpg" alt="Killing Field" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Killing Field</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Battlefield.</strong></em></div>
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +1</span></div>
+      <div class="card-text"><b>Interrupt:</b> When the conflict phase ends - discard each card from each opponent's provinces.</div>
+      <div class="flavor-text">"No kami will ever return to this place now." - Isawa Nobu</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #21 — Alexander Chelyshev</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-22">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls022.jpg" alt="Undead Horror" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Undead Horror</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Undead.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict - attach a random character in each opponent's discard pile to this character as an attachment, treating its printed text box as if it were blank. That card gains the text: "Add this card's printed <span class="icon-stat" title="Military">⚔</span> and <span class="icon-stat" title="Political">🏮</span> skill values to those of attached character."</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #22 — Helge C. Balzer</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-23">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls023.jpg" alt="Kitsu Sokori" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Kitsu Sokori</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Water.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 5</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text"><b>Reaction:</b> After fate is removed from this character, choose a character in an opponent's dynasty discard pile - put that character into play under your control, tainted. It gains the <span class="icon-clan" title="Shadowlands">⬡</span> clan symbol. While this character is in play, that character cannot leave play. Discard that character when this character leaves play.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #23 — John Anthony Di Giovanni</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-24">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls024.jpg" alt="Lost Samurai" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Lost Samurai</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Bushi.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict, choose a participating non-<span class="icon-clan" title="Shadowlands">⬡</span> character - dishonor that character.</div>
+      <div class="flavor-text">The devotion of samurai, twisted by Jigoku into a mocker of Bushido.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #24 — Stanislav Dikolenko</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-25">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls025.jpg" alt="Onikage Rider" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Onikage Rider</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Cavalry.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 3</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict - discard each card in each opponent's provinces.</div>
+      <div class="flavor-text">"The thunder of hooves now brings me only terror and despair." - Shinjo Hideo</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #25 — Jason Behnke</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-26">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls026.jpg" alt="Dark Moto" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Dark Moto</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Cavalry.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 3</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict - move 1 fate from your fate pool to it. It does not bow as a result of this conflict's resolution.</div>
+      <div class="flavor-text">"Such foul steeds will not succumb until their demon-riders have fallen." - Hida Tsuru</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #26 — Pavel Kolomeyets</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-27">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls027.jpg" alt="Moto Tsume" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Moto Tsume</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Cavalry. Daimyo.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span><span class="stat"><span class="stat-label">Military:</span> 5</span><span class="stat"><span class="stat-label">Political:</span> 5</span><span class="stat"><span class="stat-label">Glory:</span> 3</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br><b>Reaction:</b> After this character is declared as an attacker - honor each attacking character.</div>
+      <div class="flavor-text">One act of reckless pride. Three hundred years of terror.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #27 — Borja Pindado</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-holding card-side-dynasty" id="card-28">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls028.jpg" alt="Thundering Tide Keep" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Thundering Tide Keep</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Castle.</strong></em></div>
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +4</span></div>
+      <div class="card-text"><b>Interrupt:</b> When the conflict phase ends - gain 2 fate for each opponent. This ability triggers before each other <span class="icon-clan" title="Shadowlands">⬡</span> holding's interrupt.</div>
+      <div class="flavor-text">"It is a court of demonic puppetry." - Kuni Yori</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #28 — Daria Khlebnikova</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-29">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls029.jpg" alt="Scavenging Goblin" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Scavenging Goblin</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Goblin.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text"><b>Reaction:</b> After this character wins a conflict - remove the top 3 cards of each opponent's conflict deck from the game. Then, remove from the game each attachment you do not control if it shares a name with a card removed by this effect.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #29 — Marius Bota</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-30">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls030.jpg" alt="Penanggalan" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Penanggalan</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Undead.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 0</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict, choose a tainted participating character an opponent controls - move 1 fate from that character to this character.</div>
+      <div class="flavor-text">"Who is she now?" - Kitsuki Chiari</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #30 — Marius Bota</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-31">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls031.jpg" alt="Wild Ogre" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Wild Ogre</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Ogre.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 6</span><span class="stat"><span class="stat-label">Political:</span> 4</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      
+      <div class="flavor-text">"Get away, runts! I've already lost enough of my dinner to your grimy kind."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #31 — Borja Pindado</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-32">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls032.jpg" alt="The Butcher of Ishigaki" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>The Butcher of Ishigaki</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Oni.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 7</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br>While this character is attacking, at least one character controlled by each opponent must be declared as a defender, if able.</div>
+      <div class="flavor-text">"Who can stand against it if not us?" - Hida Nanako</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #32 — Joshua Cairos</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-holding card-side-dynasty" id="card-33">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls033.jpg" alt="Oni Lair" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Oni Lair</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +4</span></div>
+      <div class="card-text"><b>Interrupt:</b> When the conflict phase ends, spend up to 4 fate - put that many random cards in your dynasty discard pile on the bottom of your dynasty deck in a random order.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #33 — Daria Khlebnikova</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-34">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls034.jpg" alt="Shambling Servant" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Shambling Servant</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Undead.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 1</span><span class="stat"><span class="stat-label">Political:</span> 1</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict, choose a participating character - taint the chosen character.</div>
+      <div class="flavor-text">Nothing is wasted in the courts of the wicked.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #34 — Paolo Puggioni</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-35">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls035.jpg" alt="Insatiable Gaki" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Insatiable Gaki</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Spirit.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military:</span> 0</span><span class="stat"><span class="stat-label">Political:</span> 1</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict - each opponent discards 1 card from their hand.</div>
+      <div class="flavor-text">"Leave the wretched thing to its hopeless gnawing." - Kuni Ritsuko</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #35 — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-holding card-side-dynasty" id="card-36">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls036.jpg" alt="Haunted Ruins" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Haunted Ruins</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +3</span></div>
+      <div class="card-text"><b>Interrupt:</b> When the conflict phase ends - each opponent loses 1 honor.</div>
+      <div class="flavor-text">The wind whisles with screams of the forgotten.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #36 — Daria Khlebnikova</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-37">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls037.jpg" alt="Chuda Gyushi" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Chuda Gyushi</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Earth.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 3</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text"><b>Reaction:</b> After fate is removed from this character, each opponent selects one - they must either lose 3 honor, discard 2 random cards from their hand or sacrifice a character.</div>
+      <div class="flavor-text">"I have need of you again, my wicked companion."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #37 — Marius Bota</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-38">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls038.jpg" alt="Oni of Obsidian and Blood" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Oni of Obsidian and Blood</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Oni.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 7</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict, choose an opponent's tainted character - discard that character.</div>
+      <div class="flavor-text">"Only the deepest pits of Jigoku could spawn such evil." - Isawa Masahiro</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #38 — Pavel Kolomeyets</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-holding card-side-dynasty" id="card-39">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls039.jpg" alt="Shrine to Jigoku" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Shrine to Jigoku</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Shrine.</strong></em></div>
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +2</span></div>
+      <div class="card-text"><b>Interrupt:</b> When the conflict phase ends, spend up to 2 fate - for each fate spent this way, each opponent discards 1 random card from their hand.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #39 — Brenda Bal</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-40">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls040.jpg" alt="Bloodthirsty Kansen" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Bloodthirsty Kansen</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Spirit. Earth.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military:</span> 0</span><span class="stat"><span class="stat-label">Political:</span> 0</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Reaction:</b> After this character wins a conflict - resolve the contested ring's effect.</div>
+      <div class="flavor-text">"It is no wonder the kami shun this place." - Kitsu Takeko</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #40 — Pavel Kolomeyets</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-41">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls041.jpg" alt="Bog Hag" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Bog Hag</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Water.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 1</span><span class="stat"><span class="stat-label">Political:</span> 4</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text"><b>Reaction:</b> After this character wins a conflict - each opponent discards the top 8 cards of their conflict deck.</div>
+      <div class="flavor-text">The villages thanked her with gifts of food and clothing, unaware that she was taking a much different rewards for healing their sick and wounded.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #41 — Marius Bota</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-42">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls042.jpg" alt="Prakhara the Schemer" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Prakhara the Schemer</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Rakshasa.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 7</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br><b>Interrupt:</b> When the effects of an opponent's event would initiate, spend 1 fate - cancel those effects. (Limit twice per round.)</div>
+      <div class="flavor-text">Many samurai have fallen to the wiles of the demons of the Ivory Kingdoms.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #42 — Borja Pindado</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-character card-side-dynasty" id="card-43">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls043.jpg" alt="Gashadokuro" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Gashadokuro</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Undead.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 6</span><span class="stat"><span class="stat-label">Military:</span> 9</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. No non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments.<br>This character cannot be evaded by the covert keyword.<br><b>Reaction:</b> After an opponent declares a <span class="icon-stat" title="Military">⚔</span> conflict against one of your provinces - ready this character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #43 — Halil Ural</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-44">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls044.jpg" alt="Power of Jigoku" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Power of Jigoku</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> Choose a participating ready <span class="icon-clan" title="Shadowlands">⬡</span> character - until the end of the conflict, that character gets +5<span class="icon-stat" title="Military">⚔</span> and cannot be bowed or moved home by opponents' card effects.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #44 — Helge C. Balzer</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-45">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls045.jpg" alt="Blade of Chaos" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Blade of Chaos</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Obsidian. Weapon.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military Bonus:</span> +4</span><span class="stat"><span class="stat-label">Political Bonus:</span> +2</span></div>
+      <div class="card-text">Attach to a <span class="icon-clan" title="Shadowlands">⬡</span> character.<br><b>Reaction:</b> After you play ths card - take another action after this one.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #45 — Carlos Palma Cruchaga</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-46">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls046.jpg" alt="Horrific Scarring" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Horrific Scarring</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Condition.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military Bonus:</span> +0</span><span class="stat"><span class="stat-label">Political Bonus:</span> +0</span></div>
+      <div class="card-text">Attach to an opponent's character. Other <span class="icon-clan" title="Shadowlands">⬡</span> cannot be played on attached character.<br>Attached character cannot participate in <span class="icon-stat" title="Political">🏮</span> conflicts.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #46 — Immar Palomera</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-47">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls047.jpg" alt="Violence and Evil" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Violence and Evil</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> If the current conflict is <span class="icon-stat" title="Political">🏮</span>, switch the conflict type. Otherwise, choose up to 2 non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments on participating characters and discard them.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #47 — Helge C. Balzer</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-48">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls048.jpg" alt="The Wall is Breached" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">The Wall is Breached</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span></div>
+      <div class="card-text">This event's effects cannot be canceled.<br><b>Action:</b> If you are attacking and count more current <span class="icon-stat" title="Military">⚔</span> skill in the conflict than your opponent - break each attacked non-stronghold province.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #48 — Diego Gisbert Llorens</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-49">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls049.jpg" alt="Way of the Shadowlands" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Way of the Shadowlands</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Philosophy.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> Choose a participating character - taint that character. If it is not a <span class="icon-clan" title="Shadowlands">⬡</span> character, you may spend 1 fate to bow it.</div>
+      <div class="flavor-text">A day will come when the rightful Emperor sits the Emerald Throne.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #49 — Scott Wade</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-50">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls050.jpg" alt="Tendrils of Corruption" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Tendrils of Corruption</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Condition.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Military Bonus:</span> +1</span><span class="stat"><span class="stat-label">Political Bonus:</span> +1</span></div>
+      <div class="card-text">Attach to a <span class="icon-clan" title="Shadowlands">⬡</span> character.<br><b>Reaction:</b> After you play this card, choose a participating character - taint it.</div>
+      <div class="flavor-text">"I have been enlightened by Fu Leng's blessing. Now, too, shall you be."</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #50 — Brian Valenzuela</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-51">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls051.jpg" alt="Drawn to Blood" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Drawn to Blood</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span></div>
+      <div class="card-text"><b>Action:</b> If the attacked province is tainted, resolve the contested ring's effect. Otherwise, taint each attacked province.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #51 — Imad Awan</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-52">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls052.jpg" alt="Death After Life" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Death After Life</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> Choose a character in your dynasty discard pile with the highest printed cost among characters in your dynasty discard pile - put that character into play in the conflict, tainted.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #52 — Patrick McEvoy</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-53">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls053.jpg" alt="At His Command" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">At His Command</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span></div>
+      <div class="card-text">This event's effects cannot be canceled.<br><b>Action:</b> Select one - either place 1 fate on each character you control, or put your warlord into play in the conflict with 3 fate on it.</div>
+      <div class="flavor-text">"Akuma no Oni will not stop until all of Rokugan burns." - Isawa Tadaka</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #53 — Helge C. Balzer</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-54">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls054.jpg" alt="Evil Portents" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Evil Portents</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> Until the end of the conflict, each participating tainted <span class="icon-clan" title="Shadowlands">⬡</span> characters gets +2<span class="icon-stat" title="Military">⚔</span> and +2<span class="icon-stat" title="Political">🏮</span> and each participating tainted non-<span class="icon-clan" title="Shadowlands">⬡</span> characters gets -2<span class="icon-stat" title="Military">⚔</span> and -2<span class="icon-stat" title="Political">🏮</span>.</div>
+      <div class="flavor-text">They say that which is better left unknown.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #54 — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-55">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls055.jpg" alt="Uncontained" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Uncontained</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> Choose a character you control in your home - move it to the conflict. If it is bowed, you may spend 1 fate to ready it.</div>
+      <div class="flavor-text">"Those growths were wings?" - Hiruma Izumi, final words</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #55 — Helge C. Balzer</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-56">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls056.jpg" alt="Unending Hatred" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Unending Hatred</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Condition.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Military Bonus:</span> +1</span><span class="stat"><span class="stat-label">Political Bonus:</span> +1</span></div>
+      <div class="card-text">Attach to a <span class="icon-clan" title="Shadowlands">⬡</span> character.<br><b>Reaction:</b> After you play this card - place 1 fate on attached character.</div>
+      <div class="flavor-text">"Then we shall fight again." - Hida Kisada</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #56 — Helge C. Balzer</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-57">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls057.jpg" alt="Direct Assault" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Direct Assault</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Tactic.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span></div>
+      <div class="card-text"><b>Action:</b> Put your warlord into play in the conflict. You may move up to 2 fate from your fate pool to it.</div>
+      <div class="flavor-text">"Your screams taste of the delicate grey that soothes the soul." - Atsuko the Calamitous</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #57 — Diego Gisbert Llorens</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-58">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls058.jpg" alt="Dark Brother's Blade" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Dark Brother's Blade</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Obsidian. Weapon.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military Bonus:</span> +4</span><span class="stat"><span class="stat-label">Political Bonus:</span> +1</span></div>
+      <div class="card-text">Attach to a <span class="icon-clan" title="Shadowlands">⬡</span> character.<br>While you are playing challenge mode, this card gains ancestral.<br>While attached character is unique, it gains: "<b>Reaction:</b> After this character wins a conflict - each opponent must sacrifice a participating character."</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #58 — Carlos Palma Cruchaga</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-59">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls059.jpg" alt="Dark Bargain" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Dark Bargain</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> For each ready participating character an opponent controls, that character's controller selects one - they must either bow that character or lose 1 honor. Then, taint each ready participating character each opponent controls.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #59 — Borja Pindado</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-60">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls060.jpg" alt="Lurking Treachery" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Lurking Treachery</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Condition.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Military Bonus:</span> -0</span><span class="stat"><span class="stat-label">Political Bonus:</span> -3</span></div>
+      <div class="card-text">Attach to an opponent's character. Other <span class="icon-clan" title="Shadowlands">⬡</span> cannot be played on attached character.<br><b>Interrupt:</b> When attached character leaves play, its controller chooses one of their unbroken provinces - taint that province.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #60 — Alayna Lemmer</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-61">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls061.jpg" alt="Permeating Mutation" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Permeating Mutation</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Condition.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Military Bonus:</span> +0</span><span class="stat"><span class="stat-label">Political Bonus:</span> +3</span></div>
+      <div class="card-text">Attach to a <span class="icon-clan" title="Shadowlands">⬡</span> character.<br><b>Reaction:</b> After you play this card - play an attachment from your discard pile.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #61 — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-62">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls062.jpg" alt="Consumed By Evil" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Consumed By Evil</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> Choose a tainted character you do not control. That character's controller selects one - either they sacrifice that character, or you put your warlord into play in the conflict with 1 fate on it.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #62 — Carlos Nct</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-63">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls063.jpg" alt="Blasphemous Act" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Blasphemous Act</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 5</span></div>
+      <div class="card-text">This event's effects cannot be canceled.<br><b>Action:</b> Bow each tainted character you do not control and ready each tainted character you control. Each tainted character you control does not bow as a result of this conflict's resolution.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #63 — Brenda Bae</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-64">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls064.jpg" alt="Spiritual Isolation" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Spiritual Isolation</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Condition.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military Bonus:</span> -2</span><span class="stat"><span class="stat-label">Political Bonus:</span> -2</span></div>
+      <div class="card-text">Attach to an opponent's character. Other <span class="icon-clan" title="Shadowlands">⬡</span> cannot be played on attached character.<br>Treat attached character's printed text box as if it were blank (except for <em>Traits</em>).</div>
+      <div class="flavor-text">Even destiny had abandoned her.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #64 — Imad Awan</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-65">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls065.jpg" alt="Shameful Affliction" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Shameful Affliction</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> Choose a participating non-<span class="icon-clan" title="Shadowlands">⬡</span> character - dishonor that character. You may spend 1 fate to resolve this ability twice.</div>
+      <div class="flavor-text">His mind raced as the makeup diminished in his cup. He would have to find more, at any cost, lest he be betrayed by the evil beneath his skin.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #65 — Drazenka Kimpel</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-66">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls066.jpg" alt="Despair" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Despair</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span></div>
+      <div class="card-text"><b>Action:</b> Increase the cost of each event an opponent plays in this conflict by 1.<br>While playing challenge mode, this card gains: "<b>Interrupt:</b> When the effects of an event would initiate - cancel those effects."</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #66 — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-67">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls067.jpg" alt="Madness" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Madness</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Condition.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military Bonus:</span> -8</span><span class="stat"><span class="stat-label">Political Bonus:</span> -0</span></div>
+      <div class="card-text">Attach to an opponent's character.<br>Attached character cannot have other attachments.</div>
+      <div class="flavor-text">"You don't understand! It's choking me!"</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #67 — Andreia Ugrai</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-68">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls068.jpg" alt="Duty's Cost" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Duty's Cost</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span></div>
+      <div class="card-text">This event's effects cannot be canceled.<br><b>Action:</b> Each opponent must select one - either taint each of your unbroken provinces or reveal your hand and discard each card with printed cost 0 from it.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #68 — Lin Hsiang</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-69">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls069.jpg" alt="Obsidian Shard" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Obsidian Shard</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Item. Obsidian.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military Bonus:</span> +2</span><span class="stat"><span class="stat-label">Political Bonus:</span> +2</span></div>
+      <div class="card-text">Attach to a <span class="icon-clan" title="Shadowlands">⬡</span> character.<br><b>Reaction:</b> After you play this card, choose a non-<span class="icon-clan" title="Shadowlands">⬡</span> attachments on a participating character or on the attacked province - discard that attachment.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #69 — Drazenka Kimpel</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-70">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls070.jpg" alt="Exploit Weakness" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Exploit Weakness</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> Choose a participating non-<span class="icon-clan" title="Shadowlands">⬡</span> character with printed cost 2 or lower - if that character is tainted, gain control of it and it gains a <span class="icon-clan" title="Shadowlands">⬡</span> clan symbol. Otherwise, bow and dishonor it.</div>
+      <div class="flavor-text">The whispers had been right all along. His lord's treachery had to end tonight.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #70 — Alexander Chelyshev</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-attachment card-side-conflict" id="card-71">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls071.jpg" alt="Tainted Wasteland" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Tainted Wasteland</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        <div class="traits"><em><strong>Condition.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Military Bonus:</span> -</span><span class="stat"><span class="stat-label">Political Bonus:</span> -</span></div>
+      <div class="card-text">Attach to an unbroken province.<br>Attached province gets +1 strength (+4 strength instead if it is tainted).<br><b>Forced Reaction:</b> After a conflict is declared against attached province - each opponent loses 1 honor.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #71 — Aaron Miller</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-72">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls072.jpg" alt="In Service to Shadow" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">In Service to Shadow</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> Bow a participating non-unique <i>(friendly)</i> <span class="icon-clan" title="Shadowlands">⬡</span> character - put your warlord into play in the conflict. Then, move all fate and attachments from the bowed character to your warlord.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #72 — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-shadowlands card-type-event card-side-conflict" id="card-73">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls073.jpg" alt="The First War" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">The First War</h2>
+          <span class="faction-badge faction-shadowlands">Shadowlands</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text">This event's effects cannot be canceled.<br><b>Action:</b> Resolve the conflict as if both teams had passed consecutively.</div>
+      <div class="flavor-text">"We fight Togashi's war, that the feuding of brothers will come to an end." - Togashi Kazue</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #73 — Jason Behnke</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-phoenix card-type-stronghold card-side-province" id="card-74">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls074.jpg" alt="Twin Soul Temple" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Twin Soul Temple</h2>
+          <span class="faction-badge faction-phoenix">Phoenix</span>
+        </div>
+        <div class="traits"><em><strong>Temple.</strong></em></div>
+        <div class="card-type-badge">Stronghold</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Bonus Fate:</span> +7</span><span class="stat"><span class="stat-label">Starting Honor:</span> 12</span><span class="stat"><span class="stat-label">Influence Pool:</span> 10</span><span class="stat"><span class="stat-label">Province Strength:</span> +2</span></div>
+      <div class="card-text"><b>Action:</b> Bow this stronghold. Choose an element symbol on a card in play - replace that symbol with the symbol of a different element until the end of the phase.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #74 — Chris Ostrowski</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-scorpion card-type-stronghold card-side-province" id="card-75">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls075.jpg" alt="Shiro Yogo" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Shiro Yogo</h2>
+          <span class="faction-badge faction-scorpion">Scorpion</span>
+        </div>
+        <div class="traits"><em><strong>Castle.</strong></em></div>
+        <div class="card-type-badge">Stronghold</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Bonus Fate:</span> +7</span><span class="stat"><span class="stat-label">Starting Honor:</span> 10</span><span class="stat"><span class="stat-label">Influence Pool:</span> 10</span><span class="stat"><span class="stat-label">Province Strength:</span> +2</span></div>
+      <div class="card-text"><b>Action:</b> Bow this stronghold. Choose a dishonored character - abilities on that character cannot be triggered this phase.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Province Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #75 — Daria Khlebnikova</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crab card-type-character card-side-dynasty" id="card-76">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls076.jpg" alt="Exiled Guardian" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Exiled Guardian</h2>
+          <span class="faction-badge faction-crab">Crab</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Shadowlands.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 1</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br>Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Action:</b> Sacrifice this character. Choose a status token on a character or province - discard that status token.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #76 — Imad Awan</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crab card-type-character card-side-dynasty" id="card-77">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls077.jpg" alt="Hida Backbreaker" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Hida Backbreaker</h2>
+          <span class="faction-badge faction-crab">Crab</span>
+        </div>
+        <div class="traits"><em><strong>Bushi.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">No opponents' attachments.<br><b>Reaction:</b> After this character wins a <span class="icon-stat" title="Military">⚔</span> conflict, choose an opponent's participating character - dishonor that character.</div>
+      <div class="flavor-text">"Will reputation deflect a tetsubo's strike? I thought not."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #77 — Romana Kendelic</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crab card-type-holding card-side-dynasty" id="card-78">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls078.jpg" alt="Third Tower" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name"><span class="unique-icon" title="Unique">◆</span>Third Tower</h2>
+          <span class="faction-badge faction-crab">Crab</span>
+        </div>
+        <div class="traits"><em><strong>Kaiu-wall.</strong></em></div>
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +2</span></div>
+      <div class="card-text">Limit 1 per deck.<br><b>Reaction:</b> After an opponent declares a conflict against a province you control that does not contain a <em>Kaiu Wall</em> holding - take 1 honor from that opponent. (Unlimited.)</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        <span class="deck-limit">(Limit 1 per deck)</span>
+        <span class="pack-info">Under Fu Leng's Shadow #78 — Hai Hoang</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crane card-type-character card-side-dynasty" id="card-79">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls079.jpg" alt="Iron Warrior Vanguard" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Iron Warrior Vanguard</h2>
+          <span class="faction-badge faction-crane">Crane</span>
+        </div>
+        <div class="traits"><em><strong>Bushi.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 0</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Reaction:</b> After this character wins a conflict, choose a character - honor that character.</div>
+      <div class="flavor-text">"I will never stop protecting you."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #79 — Toni Foti</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crane card-type-character card-side-dynasty" id="card-80">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls080.jpg" alt="Daidoji Strategist" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Daidoji Strategist</h2>
+          <span class="faction-badge faction-crane">Crane</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Commander.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Political:</span> 3</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> During a conflict in which this character is participating, choose an honored character - move that character home.</div>
+      <div class="flavor-text">In honor of longstanding tradition, the Daidoji were welcomed among the Crab in defense of Rokugan. Their leadership, while effective, was somewhat less welcome.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #80 — Sergio Camarena</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-dragon card-type-character card-side-dynasty" id="card-81">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls081.jpg" alt="Discerning Yoriki" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Discerning Yoriki</h2>
+          <span class="faction-badge faction-dragon">Dragon</span>
+        </div>
+        <div class="traits"><em><strong>Courtier.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 1</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Courtesy.<br><b>Reaction:</b> After you look at 1 or more cards in an opponent's hand (or those are revealed), choose a character - honor it.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #81 — Chris Pritchard</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-dragon card-type-character card-side-dynasty" id="card-82">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls082.jpg" alt="Togashi Dreamer" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Togashi Dreamer</h2>
+          <span class="faction-badge faction-dragon">Dragon</span>
+        </div>
+        <div class="traits"><em><strong>Monk. Tattooed.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text">Support.<br><b>Reaction:</b> After you play a <em>Kihō</em> event during a conflict in which this character is participating, choose a participating character with 1 or more status tokens on it and choose an unclaimed ring - move 1 fate from the chosen character to the chosen ring.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #82 — Drazenka Kimpel</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-dragon card-type-character card-side-dynasty" id="card-83">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls083.jpg" alt="Teacher of Empty Thought" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Teacher of Empty Thought</h2>
+          <span class="faction-badge faction-dragon">Dragon</span>
+        </div>
+        <div class="traits"><em><strong>Monk. Tattooed.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text"><b>Action:</b> During a conflict in which this character is participating, if you have played 3 or more cards during this conflict - draw 1 card.</div>
+      <div class="flavor-text">"You cannot hir me because you think you can hit me. I move with the flow of the kata, not with my mind, and am freed from the prison of thought."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #83 — Felipe Gaona</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-dragon card-type-holding card-side-dynasty" id="card-84">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls084.jpg" alt="Revered Bonshō" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Revered Bonshō</h2>
+          <span class="faction-badge faction-dragon">Dragon</span>
+        </div>
+        <div class="traits"><em><strong>Temple.</strong></em></div>
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +1</span></div>
+      <div class="card-text">When fate would be removed from characters during the fate phase, instead distribute that fate among unclaimed rings as evenly as possible.</div>
+      <div class="flavor-text">"The gong of the temple bell echoes the destiny that awaits us all."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #84 — Eli Ring</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-lion card-type-character card-side-dynasty" id="card-85">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls085.jpg" alt="Field Tactician" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Field Tactician</h2>
+          <span class="faction-badge faction-lion">Lion</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Commander.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 1</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Reaction:</b> After you play a <em>Tactic</em> card, choose a card in any player's conflict discard pile - place it into that player's conflict deck third from the top.</div>
+      <div class="flavor-text">"We will make it work."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #85 — Conceptopolis</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-lion card-type-character card-side-dynasty" id="card-86">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls086.jpg" alt="Akodo Mastermind" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Akodo Mastermind</h2>
+          <span class="faction-badge faction-lion">Lion</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Commander.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> During a conflict in which this character is participating, remove 1 or more <em>Tactic</em> cards in your conflict discard pile from the game. Choose a participating character with glory equal to or lower than the number of removed cards - bow that character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #86 — Carlos Nct</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-phoenix card-type-character card-side-dynasty" id="card-87">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls087.jpg" alt="Void Wielder" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Void Wielder</h2>
+          <span class="faction-badge faction-phoenix">Phoenix</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Void.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 1</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Action:</b> During a <span class="icon-element" title="Void">◉</span> conflict, choose a participating character. That character's controller selects one - either discard a status token from it, move it home or discard an attachment on it.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #87 — Isuardi Therianto</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-phoenix card-type-character card-side-dynasty" id="card-88">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls088.jpg" alt="Isawa Skycaller" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Isawa Skycaller</h2>
+          <span class="faction-badge faction-phoenix">Phoenix</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Air.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 5</span><span class="stat"><span class="stat-label">Glory:</span> 3</span></div>
+      <div class="card-text">During <span class="icon-element" title="Air">⅁</span> conflicts you may play characters in your provinces as if they were in your hand. Characters played this way must be played into the conflict.</div>
+      <div class="flavor-text">"Though my heart be heavy, Kaze-no-Kami shall lift my spirit."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #88 — Jonathan Moore</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-scorpion card-type-character card-side-dynasty" id="card-89">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls089.jpg" alt="Disciple of Deception" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Disciple of Deception</h2>
+          <span class="faction-badge faction-scorpion">Scorpion</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Air.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 1</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Action:</b> During a conflict, choose 2 different status tokens on 2 different characters - treat one of the chosen status tokens as if it were the other until the end of the conflict.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #89 — Drew Baker</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-scorpion card-type-character card-side-dynasty" id="card-90">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls090.jpg" alt="Loyal Oathbreaker" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Loyal Oathbreaker</h2>
+          <span class="faction-badge faction-scorpion">Scorpion</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Earth.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 1</span><span class="stat"><span class="stat-label">Political:</span> 3</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">You are considered to be less honorable than each opponent.</div>
+      <div class="flavor-text">"Take comfort in the knowledge that my love was true."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #90 — Mario Wibisono</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-scorpion card-type-character card-side-dynasty" id="card-91">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls091.jpg" alt="Silent Enforcer" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Silent Enforcer</h2>
+          <span class="faction-badge faction-scorpion">Scorpion</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Shinobi.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 3</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text"><b>Reaction:</b> After you play an event during a conflict in which this character is participating, choose a participating character with printed cost 3 or lower. Its controller selects one - either bow that character or move it home.</div>
+      <div class="flavor-text">They betray not even a whisper</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #91 — Apterus</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-unicorn card-type-character card-side-dynasty" id="card-92">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls092.jpg" alt="Reckless Avenger" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Reckless Avenger</h2>
+          <span class="faction-badge faction-unicorn">Unicorn</span>
+        </div>
+        <div class="traits"><em><strong>Shugenja. Water.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 2</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Action:</b> Each player in turn order may choose a character they control - ready the first chosen character, honor the second chosen character, and taint each other chosen character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #92 — Marcel Mercado</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-unicorn card-type-character card-side-dynasty" id="card-93">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls093.jpg" alt="Seasoned Patroller" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Seasoned Patroller</h2>
+          <span class="faction-badge faction-unicorn">Unicorn</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Cavalry.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 3</span><span class="stat"><span class="stat-label">Political:</span> 1</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">While this character is attacking, the attacked province's strength cannot be increased. <i>(This includes by holdings, strongholds, attachments, lasting effects and status tokens.)</i></div>
+      <div class="flavor-text">"I could barely shoot a bow at her age, and she's alread off winning a war!" - Grandmother Sakae</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #93 — Greg Lambrakis</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-unicorn card-type-character card-side-dynasty" id="card-94">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls094.jpg" alt="Moto Beastmaster" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Moto Beastmaster</h2>
+          <span class="faction-badge faction-unicorn">Unicorn</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Cavalry.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Political:</span> 1</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text"><b>Reaction:</b> After this character is declared as an attacker, choose a character with printed cost 2 or lower in your provinces (printed cost 4 or lower instead if you are first player) - put that character into play in the conflict.</div>
+      <div class="flavor-text">"I'd keep my distance, I've seen them bring down bears."</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #94 — Amélie Hutt</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-character card-side-dynasty" id="card-95">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls095.jpg" alt="Fearless Sailor" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Fearless Sailor</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        <div class="traits"><em><strong>Bushi. Mantis-clan.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Military:</span> 2</span><span class="stat"><span class="stat-label">Political:</span> 1</span><span class="stat"><span class="stat-label">Glory:</span> 1</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Action: </b>During a conflict, in which this character is participating, choose a participating character with 1 or more status tokens on it - that character gets -2<span class="icon-stat" title="Military">⚔</span> until the end of the conflict.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #95 — Luis Nunez De Castro</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-character card-side-dynasty" id="card-96">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls096.jpg" alt="Oni Tyrant" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Oni Tyrant</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        <div class="traits"><em><strong>Oni. Shadowlands.</strong></em></div>
+        <div class="card-type-badge">Character</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 4</span><span class="stat"><span class="stat-label">Military:</span> 4</span><span class="stat"><span class="stat-label">Glory:</span> 0</span></div>
+      <div class="card-text">Corrupted. <i>(This character enters play tainted.)</i><br><b>Action:</b> During a conflict in which this character is participating, lose 1 honor. Choose a <span class="icon-clan" title="Shadowlands">⬡</span> character you own from outside the game with printed cost 2 or lower - put that character into play in the conflict. When it would leave play, remove it from the game instead.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #96 — Calvin Chua</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-holding card-side-dynasty" id="card-97">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls097.jpg" alt="Audience Chamber" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Audience Chamber</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        <div class="traits"><em><strong>Castle.</strong></em></div>
+        <div class="card-type-badge">Holding</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Province Strength:</span> +2</span></div>
+      <div class="card-text"><b>Reaction:</b> After you play a character with printed cost 4 or higher - place 1 fate on it.</div>
+      <div class="flavor-text">When the clan champion visits, even lords are little more than servants.</div>
+      <div class="card-footer">
+        <span class="deck-label">Dynasty Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #97 — Haibin Wu</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crab card-type-attachment card-side-conflict" id="card-98">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls098.jpg" alt="Jade Talisman" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Jade Talisman</h2>
+          <span class="faction-badge faction-crab">Crab</span>
+        </div>
+        <div class="traits"><em><strong>Jade. Item.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Military Bonus:</span> +0</span><span class="stat"><span class="stat-label">Political Bonus:</span> +0</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text">Attach to a character you control.<br><b>Interrupt:</b> When a ring effect would initiate, if it chooses attached character as a target, sacrifice this attachment - cancel that ring effect.</div>
+      <div class="flavor-text">The difference between sanctity and suffering.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #98 — Nino Vecia</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crab card-type-attachment card-side-conflict" id="card-99">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls099.jpg" alt="Jade-Inlaid Katana" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Jade-Inlaid Katana</h2>
+          <span class="faction-badge faction-crab">Crab</span>
+        </div>
+        <div class="traits"><em><strong>Jade. Weapon.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military Bonus:</span> +2</span><span class="stat"><span class="stat-label">Political Bonus:</span> +0</span><span class="stat"><span class="stat-label">Influence:</span> 2</span></div>
+      <div class="card-text">Restricted. Support.<br>Attached character gains: "<b>Reaction:</b> After this character wins a conflict, choose a participating character with 1 or more status tokens on it - remove 1 fate from that character."</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #99 — Carlos Palma Cruchaga</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crab card-type-event card-side-conflict" id="card-100">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls100.jpg" alt="Jade Strike" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Jade Strike</h2>
+          <span class="faction-badge faction-crab">Crab</span>
+        </div>
+        <div class="traits"><em><strong>Jade. Spell. Earth.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Influence:</span> 3</span></div>
+      <div class="card-text">Play only if you control a <em>Shugenja</em> character.<br><b>Action:</b> During a conflict, choose a participating character with 1 or more status tokens on it - set its base <span class="icon-stat" title="Military">⚔</span> and <span class="icon-stat" title="Political">🏮</span> skills to 0 until the end of the conflict. If that character is tainted, also remove 1 fate from it.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #100 — Carlos Nct</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crane card-type-event card-side-conflict" id="card-101">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls101.jpg" alt="Preeminent Decree" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Preeminent Decree</h2>
+          <span class="faction-badge faction-crane">Crane</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Influence:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> During a conflict, choose a participating <em>Courtier</em> character you control - for this conflict, each other participating character gets -X<span class="icon-stat" title="Political">🏮</span>, where X is the chosen <em>Courtier</em>'s glory.</div>
+      <div class="flavor-text">Even without her title, Kakita Ryoku's judgments prevail.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #101 — Le Vuong</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crane card-type-event card-side-conflict" id="card-102">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls102.jpg" alt="Resourcefulness" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Resourcefulness</h2>
+          <span class="faction-badge faction-crane">Crane</span>
+        </div>
+        <div class="traits"><em><strong>Tactic.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Influence:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> Dishonor a <i>(friendly)</i> character. Choose a character - honor it.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #102 — Diego Gisbert Llorens</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-crane card-type-event card-side-conflict" id="card-103">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls103.jpg" alt="Masashigi's Sacrifice" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Masashigi's Sacrifice</h2>
+          <span class="faction-badge faction-crane">Crane</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Action:</b> During a conflict, sacrifice a <i>(friendly)</i> character with 1 or more status tokens on it - each defending character does not bow as a result of this conflict's resolution.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #103 — Nino Vecia</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-dragon card-type-event card-side-conflict" id="card-104">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls104.jpg" alt="Centered Breath" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Centered Breath</h2>
+          <span class="faction-badge faction-dragon">Dragon</span>
+        </div>
+        <div class="traits"><em><strong>Kiho. Air.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text"><b>Action:</b> During a conflict, choose a participating <em>Monk</em> character – You may trigger each ability printed on that character an additional time this round (or specified period). If you have played another <em>Kihō</em> in this conflict, take another action after this one.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #104 — Lin Hsiang</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-dragon card-type-event card-side-conflict" id="card-105">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls105.jpg" alt="Swell of Seafoam" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Swell of Seafoam</h2>
+          <span class="faction-badge faction-dragon">Dragon</span>
+        </div>
+        <div class="traits"><em><strong>Kiho. Water.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Influence:</span> 2</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Action:</b> During a conflict, choose a participating <em>Monk</em> character – that character does not bow as the result of this conflict's resolution. If you have played another <em>Kihō</em> in this conflict, also honor that character.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #105 — Carlos Diaz</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-lion card-type-event card-side-conflict" id="card-106">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls106.jpg" alt="Prove Your Skill" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Prove Your Skill</h2>
+          <span class="faction-badge faction-lion">Lion</span>
+        </div>
+        <div class="traits"><em><strong>Tactic.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text">Play only if you are more honorable than an opponent.<br><b>Action:</b> Choose a status token on a character - discard it.</div>
+      <div class="flavor-text">"I always doubted the gossip."</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #106 — Ramon Puasa</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-lion card-type-event card-side-conflict" id="card-107">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls107.jpg" alt="Directing the Battle" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Directing the Battle</h2>
+          <span class="faction-badge faction-lion">Lion</span>
+        </div>
+        <div class="traits"><em><strong>Tactic.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text">Support.<br><b>Action:</b> During a conflict, choose a character. That character's controller selects one -<br>- move that character home.<br>-that character gets +3<span class="icon-stat" title="Military">⚔</span> until the end of the conflict.<br>-that character can't be bowed by opponents' card effects during this conflict.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #107 — Charles Urbach</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-lion card-type-event card-side-conflict" id="card-108">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls108.jpg" alt="Peerless Discipline" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Peerless Discipline</h2>
+          <span class="faction-badge faction-lion">Lion</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Influence:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> Until the end of the phase, each character you control gets +1<span class="icon-stat" title="Military">⚔</span> and gains the <em>Bushi</em> trait.</div>
+      <div class="flavor-text">"Any of these farmers could be the difference between victory and defeat. Why would we not prepare them as best as possible?"</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #108 — Joshua Cairos</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-phoenix card-type-attachment card-side-conflict" id="card-109">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls109.jpg" alt="Spell Scroll" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Spell Scroll</h2>
+          <span class="faction-badge faction-phoenix">Phoenix</span>
+        </div>
+        
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Military Bonus:</span> +0</span><span class="stat"><span class="stat-label">Political Bonus:</span> +0</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text">While attached character is participating in a conflict whose element matches one of attached character's <em>Traits</em>, it gets +3<span class="icon-stat" title="Political">🏮</span><br><b>Action:</b> Choose a non-character card in your conflict discard pile that shares a <em>Trait</em> with attached character - add it to your hand and sacrifice this attachment.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #109 — Carlos Palma Cruchaga</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-phoenix card-type-event card-side-conflict" id="card-110">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls110.jpg" alt="Elemental Inversion" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Elemental Inversion</h2>
+          <span class="faction-badge faction-phoenix">Phoenix</span>
+        </div>
+        <div class="traits"><em><strong>Spell. Void.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text"><b>Action:</b> During a conflict, choose a ring - move all fate from the chosen ring to the contested ring and switch them. <i>(The chosen ring is now contested.)</i></div>
+      <div class="flavor-text">"If all elements are of the Void, then what is their opposite?" - Tao of Shinsei</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #110 — Carlos Diaz</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-phoenix card-type-event card-side-conflict" id="card-111">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls111.jpg" alt="Dance of Chikushō-dō" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Dance of Chikushō-dō</h2>
+          <span class="faction-badge faction-phoenix">Phoenix</span>
+        </div>
+        <div class="traits"><em><strong>Spell. Air.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Influence:</span> 2</span></div>
+      <div class="card-text">Support. <i>(Another player may help pay this card's fate cost.)</i><br><b>Action:</b> Choose any number of non-<span class="icon-clan" title="Shadowlands">⬡</span> players - each of those players fills each of their unbroken non-stronghold provinces with 2 facedown dynasty cards. (Max 1 per round.)</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #111 — Borja Pindado</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-scorpion card-type-event card-side-conflict" id="card-112">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls112.jpg" alt="Soshi's Memory" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Soshi's Memory</h2>
+          <span class="faction-badge faction-scorpion">Scorpion</span>
+        </div>
+        <div class="traits"><em><strong>Spell. Air.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text"><b>Action:</b> Choose a player - that player searches the top X cards of their deck for a card and adds it to their hand, where X is the number of <em>Shugenja</em> characters you control. Shuffle.</div>
+      <div class="flavor-text">"Does my Lord Bayushi fear the sunlight?"</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #112 — Adam S. Doyle</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-scorpion card-type-event card-side-conflict" id="card-113">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls113.jpg" alt="Betrayed Vision" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Betrayed Vision</h2>
+          <span class="faction-badge faction-scorpion">Scorpion</span>
+        </div>
+        <div class="traits"><em><strong>Spell. Air.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span><span class="stat"><span class="stat-label">Influence:</span> 2</span></div>
+      <div class="card-text">Play only if you control a <em>Shugenja</em> character.<br>Support.<br><b>Action:</b> During a conflict, choose a participating character an opponent controls and a different non-unique character - the participating character becomes a copy of the non-unique character until the end of the conflict.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #113 — Drazenka Kimpel</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-unicorn card-type-attachment card-side-conflict" id="card-114">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls114.jpg" alt="Scarlet Sabre" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Scarlet Sabre</h2>
+          <span class="faction-badge faction-unicorn">Unicorn</span>
+        </div>
+        <div class="traits"><em><strong>Weapon. Gaijin.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span><span class="stat"><span class="stat-label">Military Bonus:</span> +2</span><span class="stat"><span class="stat-label">Political Bonus:</span> +0</span><span class="stat"><span class="stat-label">Influence:</span> 1</span></div>
+      <div class="card-text">Restricted.<br>While you are the first player, attached character gains: "<b>Reaction:</b> After this character wins a conflict - your opponent loses 1 fate."</div>
+      <div class="flavor-text">Vibrant tassles often adorn Unicorn blades, their Ujik meaning largely forgotten.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #114 — Carlos Palma Cruchaga</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-unicorn card-type-attachment card-side-conflict" id="card-115">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls115.jpg" alt="Daikyū" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Daikyū</h2>
+          <span class="faction-badge faction-unicorn">Unicorn</span>
+        </div>
+        <div class="traits"><em><strong>Weapon.</strong></em></div>
+        <div class="card-type-badge">Attachment</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span><span class="stat"><span class="stat-label">Military Bonus:</span> +0</span><span class="stat"><span class="stat-label">Political Bonus:</span> +0</span><span class="stat"><span class="stat-label">Influence:</span> 2</span></div>
+      <div class="card-text">Restricted. Support.<br>While you are the first player, attached character gets +2<span class="icon-stat" title="Military">⚔</span>.<br>Attached character gains: "<b>Reaction:</b> After a character either commits to or moves to a <span class="icon-stat" title="Military">⚔</span> conflict this character is participating in, choose a participating character with lower <span class="icon-stat" title="Military">⚔</span> skill than this character - bow it."</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #115 — Carlos Palma Cruchaga</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-event card-side-conflict" id="card-116">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls116.jpg" alt="Defiance" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Defiance</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> During a conflict, if you have fewer cards in hand than your opponent, choose a character - until the end of the conflict, that character gets +X<span class="icon-stat" title="Military">⚔</span> and +X<span class="icon-stat" title="Political">🏮</span>, where X is you opponent's honor bid.</div>
+      <div class="flavor-text">Fall down seven times, stand up eight.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #116 — Andreia Ugrai</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-event card-side-conflict" id="card-117">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls117.jpg" alt="Exposed Secrets" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Exposed Secrets</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> During a <span class="icon-stat" title="Political">🏮</span> conflict, choose a participating character with <span class="icon-stat" title="Political">🏮</span> skill equal to or lower than its controller's honor bid - bow that character.</div>
+      <div class="flavor-text">"You seemed awfully excited to learn of Ikoma-sama's return. I thought you had barely spoken to her?"</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #117 — Andreia Ugrai</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-event card-side-conflict" id="card-118">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls118.jpg" alt="Lurking Affliction" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Lurking Affliction</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> During a  conflict, choose a participating character - taint it.</div>
+      <div class="flavor-text">"Heavens, Asako-sama, are you unwell? You will shatter the ceramics!"</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #118 — Lin Hsiang</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-event card-side-conflict" id="card-119">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls119.jpg" alt="Way of the Warrior" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Way of the Warrior</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 0</span></div>
+      <div class="card-text"><b>Action:</b> During a conflict, choose a participating <em>Bushi</em> character - until the end of the conflict, opponents' card effects cannot bow, move or dishonor that character. If it is bowed, ready it.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #119 — Haibin Wu</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-event card-side-conflict" id="card-120">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls120.jpg" alt="Accursed Summoning" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Accursed Summoning</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        <div class="traits"><em><strong>Maho. Spell. Earth.</strong></em></div>
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 1</span></div>
+      <div class="card-text">This card's fate cost can only be paid for with fate on character you control.<br><b>Action:</b> During a conflict, lose X honor. Choose a non-unique <span class="icon-clan" title="Shadowlands">⬡</span> character you own from outside the game with printed cost X - put that character into play in the conflict. When it would leave play, remove it from the game instead.</div>
+      
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #120 — IFS</span>
+      </div>
+    </div>
+  </div>
+  <div class="card card-neutral card-type-event card-side-conflict" id="card-121">
+    <div class="card-image">
+      <img src="https://emerald-legacy.github.io/emeralddb-images/ffg/under-fu-leng-s-shadow/fls121.jpg" alt="Unveiled Corruption" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <div class="card-details">
+      <div class="card-header">
+        <div class="card-title-row">
+          <h2 class="card-name">Unveiled Corruption</h2>
+          <span class="faction-badge faction-neutral">Neutral</span>
+        </div>
+        
+        <div class="card-type-badge">Event</div>
+      </div>
+      <div class="stats"><span class="stat"><span class="stat-label">Cost:</span> 2</span></div>
+      <div class="card-text"><b>Action:</b> Taint a <i>(friendly)</i> unbroken province - each opponent discards cards from their hand, until they have an equal or fewer number of cards in their hand as you.</div>
+      <div class="flavor-text">The shrine was a lie, a facade for a maho-tsukai's personal laboratory.</div>
+      <div class="card-footer">
+        <span class="deck-label">Conflict Deck</span>
+        
+        <span class="pack-info">Under Fu Leng's Shadow #121 — Lin Hsiang</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+function filterCards() {
+  var search = document.getElementById("search").value.toLowerCase();
+  var type = document.getElementById("filter-type").value;
+  var faction = document.getElementById("filter-faction").value;
+  var deck = document.getElementById("filter-deck").value;
+  var cards = document.querySelectorAll(".card");
+  var visible = 0;
+  cards.forEach(function(card) {
+    var classes = card.className;
+    var nameEl = card.querySelector(".card-name");
+    var textEl = card.querySelector(".card-text");
+    var traitsEl = card.querySelector(".traits");
+    var statsEl = card.querySelector(".stats");
+    var searchTarget = [
+      nameEl ? nameEl.textContent : "",
+      textEl ? textEl.textContent : "",
+      traitsEl ? traitsEl.textContent : ""
+    ].join(" ").toLowerCase();
+    var matchesSearch = !search || searchTarget.includes(search);
+    var matchesType = !type || classes.includes("card-type-" + type);
+    var matchesFaction = !faction || card.classList.contains("card-" + faction);
+    var deckEl = card.querySelector(".deck-label");
+    var matchesDeck = !deck || (deckEl && deckEl.textContent.toLowerCase().includes(deck));
+    var show = matchesSearch && matchesType && matchesFaction && matchesDeck;
+    card.style.display = show ? "" : "none";
+    if (show) visible++;
+  });
+  document.getElementById("card-count").textContent = visible + " card" + (visible !== 1 ? "s" : "");
+  var noResults = document.getElementById("no-results");
+  if (visible === 0) {
+    if (!noResults) {
+      noResults = document.createElement("div");
+      noResults.id = "no-results";
+      noResults.className = "no-results";
+      noResults.textContent = "No cards match your filters.";
+      document.getElementById("card-grid").appendChild(noResults);
+    }
+  } else if (noResults) {
+    noResults.remove();
+  }
+}
+</script>
+
+</body>
+</html>

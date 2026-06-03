@@ -1,0 +1,200 @@
+[
+  {
+    "id": "the-ebb-and-flow-071",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Nezumi Infiltrator",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-076",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Heroic Resolve",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-069",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Master of the Swift Waves",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-ebb-and-flow-080",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Force of the River",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-063",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Ikebana Artisan",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-ebb-and-flow-073",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Menacing Iron Warrior",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-074",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Soul Beyond Reproach",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-079",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Deceptive Offer",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-067",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Disguised Protector",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-ebb-and-flow-075",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Hawk Tattoo",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-064",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Volcanic Troll",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-ebb-and-flow-065",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Tireless Sōdan Senzo",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-ebb-and-flow-077",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "My Ancestor's Strength",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-072",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Fight On",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-ebb-and-flow-062",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Seeking the Truth",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "the-ebb-and-flow-070",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Yoritomo",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-ebb-and-flow-066",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Asako Azunami",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-ebb-and-flow-068",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Hidden Moon Dōjō",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-ebb-and-flow-061",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Flooded Waste",
+    "type": "Province",
+    "clan": "Crab"
+  },
+  {
+    "id": "the-ebb-and-flow-078",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Ofushikai",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  }
+]

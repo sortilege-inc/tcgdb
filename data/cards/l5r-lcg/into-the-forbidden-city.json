@@ -1,0 +1,200 @@
+[
+  {
+    "id": "into-the-forbidden-city-058",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Chasing the Sun",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-041",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Feast or Famine",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "into-the-forbidden-city-042",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Public Forum",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "into-the-forbidden-city-043",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Kakita Yoshi",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "into-the-forbidden-city-044",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Chisei District",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "into-the-forbidden-city-055",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Benten's Touch",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-047",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Back-Alley Hideaway",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "into-the-forbidden-city-045",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Enigmatic Magistrate",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "into-the-forbidden-city-046",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Prodigy of the Waves",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "into-the-forbidden-city-056",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Bayushi Kachiko",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-057",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Misinformation",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-048",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Child of the Plains",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "into-the-forbidden-city-049",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "War Dog Master",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "into-the-forbidden-city-050",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Hiruma Skirmisher",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-051",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Seal of the Crab",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-052",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Mantra of Water",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-053",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Ageless Crone",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-054",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Test of Courage",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-059",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Tattered Missive",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "into-the-forbidden-city-060",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Censure",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  }
+]

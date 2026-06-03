@@ -1,0 +1,199 @@
+[
+  {
+    "id": "elements-unbound-111",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Mantis Tenkinja",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-112",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Awakened Tsukumogami",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-120",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Unleash the Djinn",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "elements-unbound-110",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Minami Kaze Regulars",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-113",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Pragmatism",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "elements-unbound-106",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Agasha Shunsen",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-105",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Tengu Sensei",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-109",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Reclusive Zokujin",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-108",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Reader of Omens",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-118",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Roving Michibiku",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "elements-unbound-119",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Taryū-Jiai",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "elements-unbound-114",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Specialized Defenses",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "elements-unbound-103",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Web of Lies",
+    "type": "Province",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "elements-unbound-107",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Kitsu Warrior",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-117",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Restored Heirloom",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "elements-unbound-102",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Magistrate Station",
+    "type": "Province",
+    "clan": "Crane"
+  },
+  {
+    "id": "elements-unbound-104",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Yasuki Broker",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "elements-unbound-101",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Hisu Mori Toride (Unicorn Clan)",
+    "type": "Stronghold",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "elements-unbound-115",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Being and Becoming",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "elements-unbound-116",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Mantra of Earth",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  }
+]

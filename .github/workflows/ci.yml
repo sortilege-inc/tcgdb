@@ -1,0 +1,68 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install
+        run: npm ci --no-audit --no-fund
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build
+        run: npm run build
+
+      - name: Sidecar smoke test
+        run: |
+          npm run sidecar > sidecar.log 2>&1 &
+          SIDECAR_PID=$!
+
+          ok=0
+          for i in $(seq 1 30); do
+            if curl -fsS http://localhost:8001/api/health > /dev/null 2>&1; then
+              ok=1
+              break
+            fi
+            sleep 1
+          done
+
+          if [ "$ok" = "1" ]; then
+            echo "health endpoint responded"
+            curl -fsS http://localhost:8001/api/state > /dev/null
+            echo "state endpoint responded"
+          else
+            echo "sidecar never came up; logs:"
+            cat sidecar.log
+          fi
+
+          kill "$SIDECAR_PID" 2>/dev/null || true
+          wait "$SIDECAR_PID" 2>/dev/null || true
+          exit $((1 - ok))
+
+      - name: Upload sidecar log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sidecar-log
+          path: sidecar.log
+          if-no-files-found: ignore

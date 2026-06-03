@@ -1,0 +1,279 @@
+[
+  {
+    "id": "warriors-of-the-wind-006",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Shinjo Trailblazer",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-012",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Hida Tsuru",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-009",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Iuchi Daiyu",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-005",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Young Warrior",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-001",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Shiro Shinjo",
+    "type": "Stronghold",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "warriors-of-the-wind-023",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Speak to the Heart",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-004",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Wild Stallion",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-003",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Support of the Unicorn",
+    "type": "Role",
+    "clan": "Neutral"
+  },
+  {
+    "id": "warriors-of-the-wind-007",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Iuchi Farseer",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-027",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Compass",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-022",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Utaku Battle Steed",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-020",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Curved Blade",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-028",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Trading on the Sand Road",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-021",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Ring of Binding",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-002",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Khan's Ordu",
+    "type": "Province",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "warriors-of-the-wind-018",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Visiting Advisor",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-019",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Shinomen Wayfinders",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-025",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Warriors of the Wind",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-011",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Aranat",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-016",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Shosuro Hyobu",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-013",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Kakita Ryoku",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-017",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Ivory Kingdoms Unicorn",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-026",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Ikoma Anakazu",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "warriors-of-the-wind-014",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Agasha Taiko",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-015",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Kaito Nobukai",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-010",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Moto Chagatai",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-008",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Saadiyah al-Mozedu",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "warriors-of-the-wind-024",
+    "gameId": "l5r-lcg",
+    "setId": "warriors-of-the-wind",
+    "publisherId": "ffg",
+    "name": "Spoils of War",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  }
+]

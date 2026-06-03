@@ -1,0 +1,201 @@
+[
+  {
+    "id": "meditations-on-the-ephemeral-117",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Oni Mask",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-119",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Talisman of the Sun",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-115",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Written in the Stars",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-116",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "A Legion of One",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-109",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Sake House Confidant",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-110",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Illustrious Plagiarist",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-114",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Seal of the Dragon",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-118",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Seal of the Unicorn",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-120",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Mono no Aware",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-112",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Miya Satoshi",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-113",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Pillow Book",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-108",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Kanjo District",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-103",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Iron Mine",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-104",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Silver-Tongued Magistrate",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-101",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Along the River of Gold",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-102",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Kuni Ritsuko",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-106",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Beastmaster Matriarch",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-107",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Asako Tsuki",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-105",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Togashi Mendicant",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "meditations-on-the-ephemeral-111",
+    "gameId": "l5r-lcg",
+    "setId": "meditations-on-the-ephemeral",
+    "publisherId": "ffg",
+    "name": "Shinjo Scout",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  }
+]

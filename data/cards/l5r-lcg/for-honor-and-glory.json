@@ -1,0 +1,200 @@
+[
+  {
+    "id": "for-honor-and-glory-025",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Northern Wall Sensei",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-honor-and-glory-031",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Pathfinder's Blade",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-021",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Frostbitten Crossing",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "for-honor-and-glory-022",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Riot in the Streets",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "for-honor-and-glory-023",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Stoic Magistrate",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-honor-and-glory-024",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Kabuki Hero",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-honor-and-glory-026",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Ikoma Ujiaki",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-honor-and-glory-027",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Magnificent Lighthouse",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-honor-and-glory-036",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Shrine Maiden",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-028",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Bayushi Yojiro",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-honor-and-glory-029",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Ide Tadaji",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-honor-and-glory-030",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Miwaku Kabe",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-honor-and-glory-032",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Raise the Alarm",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-033",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Kakita Blade",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-034",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "High Kick",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-035",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Kamayari",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-037",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Harmonize",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-040",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Policy Debate",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-038",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Seal of the Scorpion",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-honor-and-glory-039",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Shinjo Saddle",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  }
+]

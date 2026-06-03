@@ -1,0 +1,219 @@
+[
+  {
+    "id": "for-the-empire-001",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Toshi Ranbo",
+    "type": "Province",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "for-the-empire-008",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Magistrate of Reason",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-005",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Fifth Tower Watch",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-010",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Shiba Sophist",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-019",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Purity of Spirit",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-the-empire-022",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "A Perfect Cut",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-the-empire-009",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Akodo Zentarō",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-013",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Hantei Sotorii",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-012",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Shinjo Kyōra",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-007",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Esteemed Tea House",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-006",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Sententious Poet",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-002",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Scene of the Crime",
+    "type": "Province",
+    "clan": "Dragon"
+  },
+  {
+    "id": "for-the-empire-011",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Shameless Gossip",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-004",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Hiruma Signaller",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "for-the-empire-021",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Adorned Barcha",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-the-empire-017",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Blade of 10,000 Battles",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-the-empire-016",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Greater Understanding",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-the-empire-003",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Gateway to Meido",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "for-the-empire-018",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Command Respect",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-the-empire-020",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "False Loyalties",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-the-empire-015",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Moment of Perfect Beauty",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "for-the-empire-014",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Give No Ground",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  }
+]

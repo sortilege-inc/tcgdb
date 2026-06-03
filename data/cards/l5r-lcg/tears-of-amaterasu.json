@@ -1,0 +1,200 @@
+[
+  {
+    "id": "tears-of-amaterasu-009",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Isawa Kaede",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tears-of-amaterasu-006",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Kitsuki Yaruma",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tears-of-amaterasu-010",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Swift Magistrate",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tears-of-amaterasu-004",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Karada District",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tears-of-amaterasu-018",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Smoke and Mirrors",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-015",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Time for War",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-013",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Disdainful Remark",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-019",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Goblin Sneak",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-002",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Tears of Amaterasu",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "tears-of-amaterasu-014",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Jade Masterpiece",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-001",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Blood of Onnotangu",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "tears-of-amaterasu-020",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Finger of Jade",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-016",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Embrace the Void",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-003",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Staunch Hida",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tears-of-amaterasu-012",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Seal of the Crane",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-017",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Meek Informant",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "tears-of-amaterasu-011",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Windswept Yurt",
+    "type": "Holding",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tears-of-amaterasu-008",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Hito District",
+    "type": "Holding",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tears-of-amaterasu-007",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Gifted Tactician",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tears-of-amaterasu-005",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Doji Representative",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  }
+]

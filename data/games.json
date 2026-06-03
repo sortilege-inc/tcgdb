@@ -1,0 +1,147 @@
+[
+  {
+    "id": "l5r-lcg",
+    "name": "Legend of the Five Rings LCG",
+    "shortName": "L5R",
+    "status": "stubbed",
+    "publishers": [
+      { "publisherId": "ffg", "status": "official", "notes": "Original publisher, 2017-2021" }
+    ],
+    "formats": [
+      { "id": "standard", "name": "Standard" },
+      { "id": "stronghold", "name": "Stronghold Format" }
+    ],
+    "deckZones": [
+      { "id": "stronghold", "name": "Stronghold" },
+      { "id": "dynasty", "name": "Dynasty Deck" },
+      { "id": "conflict", "name": "Conflict Deck" }
+    ],
+    "theme": { "primary": "#c8a04d" }
+  },
+  {
+    "id": "netrunner",
+    "name": "Android: Netrunner LCG",
+    "shortName": "Netrunner",
+    "status": "stubbed",
+    "publishers": [
+      { "publisherId": "ffg", "status": "official", "notes": "Original publisher, 2012-2018" },
+      { "publisherId": "null-signal", "status": "official", "notes": "Community continuation" }
+    ],
+    "formats": [
+      { "id": "standard", "name": "Standard" },
+      { "id": "startup", "name": "Startup" },
+      { "id": "eternal", "name": "Eternal" }
+    ],
+    "deckZones": [
+      { "id": "identity", "name": "Identity" },
+      { "id": "deck", "name": "Deck" }
+    ],
+    "theme": { "primary": "#3aa6ff" }
+  },
+  {
+    "id": "arkham-lcg",
+    "name": "Arkham Horror: The Card Game",
+    "shortName": "Arkham",
+    "status": "stubbed",
+    "publishers": [
+      { "publisherId": "ffg", "status": "official" }
+    ],
+    "formats": [
+      { "id": "standard", "name": "Standard" }
+    ],
+    "deckZones": [
+      { "id": "investigator", "name": "Investigator" },
+      { "id": "deck", "name": "Player Deck" }
+    ],
+    "theme": { "primary": "#6b8c4a" }
+  },
+  {
+    "id": "vampire-rivals",
+    "name": "Vampire: The Masquerade — Rivals ECG",
+    "shortName": "VtM Rivals",
+    "status": "stubbed",
+    "publishers": [
+      { "publisherId": "renegade-games", "status": "official" }
+    ],
+    "formats": [
+      { "id": "standard", "name": "Standard" }
+    ],
+    "deckZones": [
+      { "id": "deck", "name": "Deck" }
+    ],
+    "theme": { "primary": "#a8202c" }
+  },
+  {
+    "id": "vtes",
+    "name": "Vampire: The Eternal Struggle",
+    "shortName": "VtES",
+    "status": "stubbed",
+    "publishers": [
+      { "publisherId": "white-wolf", "status": "official", "notes": "Original publisher" },
+      { "publisherId": "black-chantry", "status": "official", "notes": "Current publisher" }
+    ],
+    "formats": [
+      { "id": "standard", "name": "Standard" }
+    ],
+    "deckZones": [
+      { "id": "crypt", "name": "Crypt" },
+      { "id": "library", "name": "Library" }
+    ],
+    "theme": { "primary": "#7a1320" }
+  },
+  {
+    "id": "flesh-and-blood",
+    "name": "Flesh and Blood",
+    "shortName": "FaB",
+    "status": "stubbed",
+    "publishers": [
+      { "publisherId": "lss", "status": "official", "notes": "Legend Story Studios" }
+    ],
+    "formats": [
+      { "id": "classic-constructed", "name": "Classic Constructed" },
+      { "id": "blitz", "name": "Blitz" },
+      { "id": "commoner", "name": "Commoner" }
+    ],
+    "deckZones": [
+      { "id": "hero", "name": "Hero" },
+      { "id": "weapon", "name": "Weapon" },
+      { "id": "equipment", "name": "Equipment" },
+      { "id": "deck", "name": "Deck" }
+    ],
+    "theme": { "primary": "#d76a2a" }
+  },
+  {
+    "id": "lotr-lcg",
+    "name": "The Lord of the Rings: The Card Game",
+    "shortName": "LotR LCG",
+    "status": "stubbed",
+    "publishers": [
+      { "publisherId": "ffg", "status": "official" }
+    ],
+    "formats": [
+      { "id": "standard", "name": "Standard" }
+    ],
+    "deckZones": [
+      { "id": "heroes", "name": "Heroes" },
+      { "id": "deck", "name": "Player Deck" }
+    ],
+    "theme": { "primary": "#3f6f4f" }
+  },
+  {
+    "id": "mtg",
+    "name": "Magic: the Gathering",
+    "shortName": "MTG",
+    "status": "stubbed",
+    "publishers": [
+      { "publisherId": "wizards-of-the-coast", "status": "official" }
+    ],
+    "formats": [
+      { "id": "commander", "name": "Commander" }
+    ],
+    "deckZones": [
+      { "id": "commander", "name": "Commander" },
+      { "id": "deck", "name": "Deck" }
+    ],
+    "theme": { "primary": "#9c7b3b" }
+  }
+]

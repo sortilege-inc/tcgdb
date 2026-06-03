@@ -1,0 +1,219 @@
+[
+  {
+    "id": "a-champions-foresight-103",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Withstand the Darkness",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-champions-foresight-093",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Strategic Weakpoint",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-089",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Shiro Kitsuki",
+    "type": "Stronghold",
+    "clan": "Dragon"
+  },
+  {
+    "id": "a-champions-foresight-110",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Outflank",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-champions-foresight-092",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Frontline Engineer",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-105",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Deduction",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-champions-foresight-108",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "By Any Means",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-champions-foresight-096",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Army of the Rising Wave",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-091",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Smuggler's Cove",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "a-champions-foresight-090",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Henshin Mysteries",
+    "type": "Province",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "a-champions-foresight-094",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Court Musician",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-095",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Daidoji Kageyu",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-097",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Quarrelsome Youth",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-098",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Unified Company",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-099",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Asako Takahiro",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-100",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Palace Guard",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-102",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Keeper of Secret Names",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-champions-foresight-104",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Shukujo",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-champions-foresight-106",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Fan of Command",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-champions-foresight-107",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Erudite Prestige",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-champions-foresight-109",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Current of the Beryt",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-champions-foresight-101",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Petal Village Estate",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  }
+]

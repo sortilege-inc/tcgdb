@@ -1,0 +1,6805 @@
+{
+  "version": 2,
+  "exportedAt": "2026-06-02T19:08:53.563Z",
+  "state": {
+    "instances": {},
+    "counts": {
+      "The Emperor's Legion::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "The Emperor's Legion::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "The Emperor's Legion::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "The Emperor's Legion::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Emperor's Legion::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Masters of the Court::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Masters of the Court::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Masters of the Court::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Masters of the Court::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Underhand of the Emperor::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Underhand of the Emperor::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Underhand of the Emperor::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Underhand of the Emperor::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Disciples of the Void::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Disciples of the Void::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Disciples of the Void::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Disciples of the Void::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Warriors of the Wind::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Warriors of the Wind::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Warriors of the Wind::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Warriors of the Wind::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Seekers of Wisdom::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Seekers of Wisdom::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Seekers of Wisdom::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Seekers of Wisdom::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Defenders of Rokugan::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Defenders of Rokugan::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Defenders of Rokugan::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::12": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Defenders of Rokugan::13": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Defenders of Rokugan::14": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Defenders of Rokugan::15": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Defenders of Rokugan::16": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Defenders of Rokugan::17": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Defenders of Rokugan::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::29": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::30": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::31": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Defenders of Rokugan::32": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Rokugan at War::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Rokugan at War::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Rokugan at War::4": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Rokugan at War::5": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Rokugan at War::6": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Rokugan at War::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Rokugan at War::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::25": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Spreading Shadows::26": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Spreading Shadows::27": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Spreading Shadows::28": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Spreading Shadows::29": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Spreading Shadows::30": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Spreading Shadows::31": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::32": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::33": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::34": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::35": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::36": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::37": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::38": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::39": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::40": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::41": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::42": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::43": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::44": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::45": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::46": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::47": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Spreading Shadows::48": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::49": {
+        "actual": 1,
+        "promo": 0
+      },
+      "In Pursuit of Truth::50": {
+        "actual": 1,
+        "promo": 0
+      },
+      "In Pursuit of Truth::51": {
+        "actual": 1,
+        "promo": 0
+      },
+      "In Pursuit of Truth::52": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::53": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::54": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::55": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::56": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::57": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::58": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::59": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::60": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::61": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::62": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::63": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::64": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::65": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::66": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::67": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::68": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::69": {
+        "actual": 3,
+        "promo": 0
+      },
+      "In Pursuit of Truth::70": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::71": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Campaigns of Conquest::72": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Campaigns of Conquest::73": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Campaigns of Conquest::74": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::75": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::76": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::77": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::78": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::79": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::80": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::81": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::82": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::83": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::84": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::85": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::86": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::87": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::88": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::89": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::90": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::91": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Campaigns of Conquest::92": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::93": {
+        "actual": 1,
+        "promo": 0
+      },
+      "As Honor Demands::94": {
+        "actual": 1,
+        "promo": 0
+      },
+      "As Honor Demands::95": {
+        "actual": 1,
+        "promo": 0
+      },
+      "As Honor Demands::96": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::97": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::98": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::99": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::100": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::101": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::102": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::103": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::104": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::105": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::106": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::107": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::108": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::109": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::110": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::111": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::112": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::113": {
+        "actual": 3,
+        "promo": 0
+      },
+      "As Honor Demands::114": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::115": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Atonement::116": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Atonement::117": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Atonement::118": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::119": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::120": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::121": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::122": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::123": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::124": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::125": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::126": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::127": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::128": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::129": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::130": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::131": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::132": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::133": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::134": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::135": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Atonement::136": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::4": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::5": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::6": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::7": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::8": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::9": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::10": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::11": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::12": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Clan War::13": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::14": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::15": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::16": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::17": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::18": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::19": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::20": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::21": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::22": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::23": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::24": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Clan War::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::29": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::30": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::31": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::32": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::33": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::34": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::35": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::36": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::37": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::38": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::39": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::40": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::41": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::42": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::43": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::44": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::45": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::46": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::47": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::48": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::49": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::50": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::51": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::52": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::53": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::54": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::55": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::56": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::57": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::58": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::59": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::60": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::61": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::62": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::63": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::64": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::65": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::66": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::67": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::68": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::69": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::70": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::71": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::72": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::73": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::74": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::75": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::76": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::77": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::78": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::79": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::80": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::81": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::82": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::83": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::84": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::85": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::86": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::87": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::88": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::89": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::90": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::91": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::92": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::93": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Clan War::94": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::1B": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::2B": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::3B": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::4": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::5": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::6": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::7": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::8": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::9": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::10": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::11": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::12": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::13": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::14": {
+        "actual": 4,
+        "promo": 0,
+        "expected": 4
+      },
+      "Under Fu Leng's Shadow::15": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::16": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::17": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::18": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::19": {
+        "actual": 4,
+        "promo": 0,
+        "expected": 4
+      },
+      "Under Fu Leng's Shadow::20": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::21": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::22": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::23": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::24": {
+        "actual": 4,
+        "promo": 0,
+        "expected": 4
+      },
+      "Under Fu Leng's Shadow::25": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::26": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::27": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::28": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::29": {
+        "actual": 4,
+        "promo": 0,
+        "expected": 4
+      },
+      "Under Fu Leng's Shadow::30": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::31": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::32": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::33": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::34": {
+        "actual": 4,
+        "promo": 0,
+        "expected": 4
+      },
+      "Under Fu Leng's Shadow::35": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::36": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::37": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::38": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::39": {
+        "actual": 4,
+        "promo": 0,
+        "expected": 4
+      },
+      "Under Fu Leng's Shadow::40": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::41": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::42": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::43": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::44": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::45": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::46": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::47": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::48": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::49": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::50": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::51": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::52": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::53": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::54": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::55": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::56": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::57": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::58": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::59": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::60": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::61": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::62": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::63": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::64": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::65": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::66": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::67": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::68": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::69": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::70": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::71": {
+        "actual": 2,
+        "promo": 0,
+        "expected": 2
+      },
+      "Under Fu Leng's Shadow::72": {
+        "actual": 0,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::73": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::74": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::75": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::78": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Under Fu Leng's Shadow::76": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::77": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::79": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::80": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::81": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::82": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::83": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::84": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::85": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::86": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::87": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::88": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::89": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::90": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::91": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::92": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::93": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::94": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::95": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::96": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::97": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::98": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::99": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::100": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::101": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::102": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::103": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::104": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::105": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::106": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::107": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::108": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::109": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::110": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::111": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::112": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::113": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::114": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::115": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::116": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::117": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::118": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::119": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::120": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Under Fu Leng's Shadow::121": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "For the Empire::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "For the Empire::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "For the Empire::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For the Empire::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::23": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Bonds of Blood::24": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Bonds of Blood::25": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Bonds of Blood::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::29": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::30": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::31": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::32": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::33": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::34": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::35": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::36": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::37": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::38": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::39": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::40": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::41": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::42": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::43": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Bonds of Blood::44": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::45": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Justice for Satsume::46": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Justice for Satsume::47": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Justice for Satsume::48": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::49": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::50": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::51": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::52": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::53": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::54": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::55": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::56": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::57": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::58": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::59": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::60": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::61": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::62": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::63": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::64": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::65": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Justice for Satsume::66": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::76": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "The Children of Heaven::67": {
+        "actual": 1,
+        "promo": 0
+      },
+      "The Children of Heaven::68": {
+        "actual": 1,
+        "promo": 0
+      },
+      "The Children of Heaven::69": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::70": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::71": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::72": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::73": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::74": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::75": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::77": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::78": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::79": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::80": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::81": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::82": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::83": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::84": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::85": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::86": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::87": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Children of Heaven::88": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::89": {
+        "actual": 1,
+        "promo": 0
+      },
+      "A Champion's Foresight::90": {
+        "actual": 1,
+        "promo": 0
+      },
+      "A Champion's Foresight::91": {
+        "actual": 1,
+        "promo": 0
+      },
+      "A Champion's Foresight::92": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::93": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::94": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::95": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::96": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::97": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::98": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::99": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::100": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::101": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::102": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::103": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::104": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::105": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::106": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::107": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::108": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::109": {
+        "actual": 3,
+        "promo": 0
+      },
+      "A Champion's Foresight::110": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::111": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::112": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::113": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::114": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::115": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::116": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::117": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::118": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::119": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::120": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::121": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::122": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::123": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::124": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::125": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::126": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::127": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::128": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::129": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Shoju's Duty::130": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::1": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::2": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::3": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tears of Amaterasu::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::29": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::30": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::31": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::32": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::33": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::34": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::35": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::36": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::37": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::39": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::40": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::41": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::42": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::43": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::44": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::45": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::46": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::47": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::48": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::49": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::50": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::51": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::52": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::53": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::54": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::55": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::56": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::57": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::58": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::59": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Into the Forbidden City::60": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::61": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::62": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::63": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::64": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::65": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::66": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::67": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::68": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::69": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::70": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::71": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::72": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::73": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::74": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::75": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::76": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::77": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::78": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::79": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Chrysanthemum Throne::80": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::81": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::82": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::83": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::84": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::85": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::86": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::87": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::88": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::89": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::117": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::118": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::119": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::120": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::116": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::102": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::103": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::104": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::105": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::106": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::107": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::108": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::109": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::110": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::111": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::112": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::113": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::114": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::115": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Meditations on the Ephemeral::101": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::91": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::92": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::93": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::94": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::95": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::96": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::97": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::98": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::99": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::100": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::4": {
+        "actual": 1,
+        "promo": 0,
+        "expected": 1
+      },
+      "Twisted Loyalties::3": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::36": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::23": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Honor in Flames::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::29": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::37": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::38": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::24": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Twisted Loyalties::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::30": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::39": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::31": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::32": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::40": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Twisted Loyalties::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Twisted Loyalties::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Twisted Loyalties::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::25": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Honor in Flames::33": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::34": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::35": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::41": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::42": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::43": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Honor in Flames::44": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::36": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::37": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::38": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::39": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::40": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::73": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::74": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::75": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::76": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::69": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::70": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::71": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::72": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::31": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::32": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::33": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::34": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::35": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::55": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::53": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::54": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::56": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::29": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::30": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::65": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::66": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::67": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::68": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::51": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::52": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::49": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::50": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::57": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::58": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::59": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::60": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Children of the Empire::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Children of the Empire::4": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Children of the Empire::5": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Children of the Empire::61": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::62": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::63": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::64": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::47": {
+        "actual": 2,
+        "promo": 0
+      },
+      "Children of the Empire::41": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::48": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::42": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::43": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::44": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::45": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::46": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::77": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::78": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::79": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::80": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::81": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::82": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Children of the Empire::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Tainted Lands::22": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::11": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::91": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::101": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::100": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::40": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::60": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::98": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::38": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::20": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::39": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::58": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::80": {
+        "actual": 3,
+        "promo": 3
+      },
+      "All and Nothing::99": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::120": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::79": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::97": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::119": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::118": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::96": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::95": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::57": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::56": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::55": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::37": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::36": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::19": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::94": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::54": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::33": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::16": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::17": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::75": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::116": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::115": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::117": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::76": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::77": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::34": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::35": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::18": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::14": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::15": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::53": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::52": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::73": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::74": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::93": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::32": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::51": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::72": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::71": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::113": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::114": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::112": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::111": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::92": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::70": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::31": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::13": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::12": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::30": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::50": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::69": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::110": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::109": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::68": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::49": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::29": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::9": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::10": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::67": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::8": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::48": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::66": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::90": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::108": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::89": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::7": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::47": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::46": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::65": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::88": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::107": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::87": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::86": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::106": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::64": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::45": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::44": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::28": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::105": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::85": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::63": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::43": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::27": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::26": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::6": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::4": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::5": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::25": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::42": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::83": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::84": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::104": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::24": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::61": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::1": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::2": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Breath of the Kami::3": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::21": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Tainted Lands::23": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Fires Within::41": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::62": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::81": {
+        "actual": 3,
+        "promo": 0
+      },
+      "All and Nothing::82": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::102": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Elements Unbound::103": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::216A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::217A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::214A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::215A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::201": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::202": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::203": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::204": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::205": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::206": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::207": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::208": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::209": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::210": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::211": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::212": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::213": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::127": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::126": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::125": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::124": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::123": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::122": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::128": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::129": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::200": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 3::109": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::110": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::111": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::112": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::113": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::114": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::115": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::116": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::117": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::118": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::119": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::120": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::121": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::95": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::96": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::97": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::98": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::99": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::100": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::101": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::102": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::103": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::104": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::105": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::106": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::107": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::108": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::81": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::82": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::83": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::84": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::85": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::86": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::87": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::88": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::89": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::90": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::91": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::92": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::93": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::94": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::67": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::68": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::69": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::70": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::71": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::72": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::73": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::74": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::75": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::76": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::77": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::78": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::79": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::80": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::54": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::55": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::56": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::57": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::58": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::59": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::60": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::61": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::62": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::63": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::64": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::65": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::66": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::40": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::41": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::42": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::43": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::44": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::45": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::46": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::47": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::48": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::49": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::50": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::51": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::52": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::53": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::25": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::26": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::27": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::28": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::29": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::30": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::31": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::32": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::33": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::34": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::35": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::36": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::37": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::38": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::39": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::17": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::16": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::18": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::19": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::20": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::21": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::22": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::23": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::24": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::11": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::10": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::9": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::14": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::15": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::12": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::13": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::8": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::7": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::6": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::5": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::130": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::131": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::132": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::133": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::134": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::135": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::136": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::137": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::138": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::139": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::140": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::141": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::142": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::143": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::144": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::145": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::146": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::147": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::148": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::149": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::150": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::151": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::152": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::153": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::154": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::155": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::156": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::157": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::158": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::159": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::160": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::161": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::162": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::163": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::164": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::169": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::168": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::167": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::166": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::170": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::171": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::172": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::173": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::174": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::175": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::176": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::177": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::178": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::179": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::180": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::181": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::182": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::183": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::184": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::185": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::186": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::187": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::188": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::189": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::190": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::191": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::192": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::193": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::194": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::195": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::196": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::197": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::198": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::199": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::218A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::218A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::217A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::216A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::215A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::214A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::202": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::203": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::201": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::204": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::205": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::206": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::207": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::208": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::209": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::210": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::211": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::212": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::213": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::200": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::190": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::191": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::192": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::193": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::194": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::195": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::196": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::197": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::198": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::199": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::180": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::181": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::182": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::183": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::184": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::185": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::186": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::187": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::188": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::189": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::170": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::171": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::172": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::173": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::174": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::175": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::176": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::177": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::178": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::179": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::166": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::167": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::168": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::169": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::162": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::161": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::160": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::163": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::164": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::158": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::157": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::156": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::155": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::154": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::153": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::152": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::151": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::150": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::149": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::148": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::146": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::147": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::139": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::140": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::143": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::144": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::141": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::142": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::145": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::159": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::138": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::137": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::136": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::135": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::134": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::133": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::132": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::131": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::130": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::129": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::128": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::127": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::126": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::125": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::124": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::123": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::122": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 2::109": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::110": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::111": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::112": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::113": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::114": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::115": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::116": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::117": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::118": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::119": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::120": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::121": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::108": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::107": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::106": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::105": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::104": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::103": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::102": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::101": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::100": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::99": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::98": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::97": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::96": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::88": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::89": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::87": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::86": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::85": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::84": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::83": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::82": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::81": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::90": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::91": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::92": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::93": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::94": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::95": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::80": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::79": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::78": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::77": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::76": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::75": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::74": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::73": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::72": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::71": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::70": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::69": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::68": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::67": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::54": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::55": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::56": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::57": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::58": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::59": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::60": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::61": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::62": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::63": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::64": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::65": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::66": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::40": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::41": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::42": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::43": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::44": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::46": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::45": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::47": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::48": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::49": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::50": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::51": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::52": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::53": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::39": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::38": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::37": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::36": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::35": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::34": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::33": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::32": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::31": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::30": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::29": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::28": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::27": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::26": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::25": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::23": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::22": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::21": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::20": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::19": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::18": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::17": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::5": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::12": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::11": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::10": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::9": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::8": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::7": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::14": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::24": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::15": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::16": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::13": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::6": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 2::4": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 3::4": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::218A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::217A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::215A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::214A": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::210": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::207": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::206": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::203": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::201": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::202": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::208": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::209": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::211": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::205": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::199": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::198": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::197": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::196": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::195": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::194": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::193": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::192": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::191": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::190": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::189": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::188": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::187": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::186": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::185": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::184": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::183": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::182": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::181": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::180": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::179": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::178": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::177": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::176": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::175": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::174": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::173": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::172": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::171": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::170": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::164": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::163": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::162": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::161": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::160": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::159": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::158": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::157": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::156": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::155": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::154": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::153": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::152": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::151": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::150": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::149": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::148": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::147": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::146": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::145": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::144": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::143": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::142": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::141": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::140": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::139": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::138": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::137": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::136": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::135": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::134": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::133": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::132": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::131": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::130": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::129": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::128": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::127": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::126": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::125": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::124": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::123": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::122": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Core Set 1::121": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::120": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::119": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::118": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::117": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::116": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::115": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::114": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::113": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::112": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::111": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::110": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::109": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::101": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::108": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::105": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::104": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::103": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::102": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::100": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::99": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::98": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::97": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::96": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::94": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::93": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::92": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::91": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::90": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::89": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::88": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::87": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::95": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::86": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::85": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::84": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::83": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::82": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::81": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::80": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::77": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::76": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::75": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::74": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::73": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::72": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::71": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::70": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::69": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::68": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::67": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::66": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::65": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::64": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::63": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::62": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::61": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::60": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::59": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::58": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::57": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::56": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::55": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::54": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::53": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::52": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::51": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::50": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::49": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::48": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::47": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::46": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::45": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::44": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::43": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::42": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::41": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::40": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::39": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::38": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::37": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::36": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::35": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::34": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::33": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::32": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::31": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::30": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::29": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::28": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::27": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::26": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::25": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::24": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::23": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::22": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::21": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::20": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::19": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::18": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::17": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::16": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::1": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::2": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::3": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::14": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::13": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::12": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::11": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::10": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::9": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::8": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::7": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::6": {
+        "actual": 1,
+        "promo": 0
+      },
+      "Core Set 1::5": {
+        "actual": 1,
+        "promo": 0
+      },
+      "The Fires Within::59": {
+        "actual": 3,
+        "promo": 0
+      },
+      "The Ebb and Flow::78": {
+        "actual": 3,
+        "promo": 0
+      },
+      "For Honor and Glory::38": {
+        "actual": 3,
+        "promo": 0
+      },
+      "Fate Has No Secrets::90": {
+        "actual": 3,
+        "promo": 0
+      }
+    }
+  }
+}

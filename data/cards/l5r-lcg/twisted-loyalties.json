@@ -1,0 +1,220 @@
+[
+  {
+    "id": "twisted-loyalties-016",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Superior Authority",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-008",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Revered Ikoma",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-018",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Renowned Singer",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-009",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Procedural Interference",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-012",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Khanbulak Benefactor",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-005",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Diplomatic Gift-Giver",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-015",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Exemplary Etiquette",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-020",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Kunshu",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-010",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Asako Maezawa (TL)",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-006",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Keen Warrior",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-011",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Sinister Peacekeeper",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-003",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Yasuki Oguri (TL)",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-002",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Brushfires",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "twisted-loyalties-001",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "The Scorpion Clan Coup",
+    "type": "Province",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "twisted-loyalties-013",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Chikara",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-021",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Daughter of War",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-017",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Self-Understanding",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-014",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Guardians of Rokugan",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-019",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Heresy!",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-022",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Make Your Case",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "twisted-loyalties-007",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Overlooked Community",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "twisted-loyalties-004",
+    "gameId": "l5r-lcg",
+    "setId": "twisted-loyalties",
+    "publisherId": "ffg",
+    "name": "Watchtower of Sun's Shadow",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  }
+]

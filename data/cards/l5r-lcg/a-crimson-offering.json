@@ -1,0 +1,219 @@
+[
+  {
+    "id": "a-crimson-offering-066",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Bonds of Blood (card)",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-059",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Disparaging Challenge",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-061",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Feeding An Army",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-060",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Ki Alignment",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-063",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Sanguine Mastery",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-064",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Seize the Mind",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-047",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "By Onnotangu's Light",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "a-crimson-offering-046",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Seeking Enlightenment",
+    "type": "Province",
+    "clan": "Dragon"
+  },
+  {
+    "id": "a-crimson-offering-045",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "The Eternal Watch",
+    "type": "Province",
+    "clan": "Crab"
+  },
+  {
+    "id": "a-crimson-offering-065",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Command the Tributary",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-062",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "In Harmony",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-058",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Tetsubō of Blood",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "a-crimson-offering-048",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Damned Hida",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-049",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Desperate Negotiator",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-056",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Iuchi Shahai (ACO)",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-053",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Kaito Mai",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-051",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Lion's Pride Paragon",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-057",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Resourceful Mahō-Tsukai",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-050",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Togashi Kazue (ACO)",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-054",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Yogo Paramour",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-052",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Forward Garrison",
+    "type": "Holding",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "a-crimson-offering-055",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Shadowed Village",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  }
+]

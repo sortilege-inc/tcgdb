@@ -1,0 +1,200 @@
+[
+  {
+    "id": "the-chrysanthemum-throne-076",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Guard Duty",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-chrysanthemum-throne-064",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Doji Shizue",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-061",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Before the Throne",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "the-chrysanthemum-throne-067",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Akodo Toshiro",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-080",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Way of the Chrysanthemum",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-chrysanthemum-throne-073",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Pit Trap",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-chrysanthemum-throne-078",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Backhanded Compliment",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-chrysanthemum-throne-079",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Gaijin Customs",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-chrysanthemum-throne-077",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Seal of the Phoenix",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-chrysanthemum-throne-075",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Centipede Tattoo",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-chrysanthemum-throne-074",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Curry Favor",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-chrysanthemum-throne-072",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "The Imperial Palace",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-065",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Agasha Sumiko",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-070",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Fawning Diplomat",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-071",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Utaku Mediator",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-069",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Haughty Magistrate",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-068",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Implacable Magistrate",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-063",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Kaiu Inventor",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-066",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Mountaintop Statuary",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-chrysanthemum-throne-062",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Guardians of the Seikitsu",
+    "type": "Province",
+    "clan": "Neutral"
+  }
+]

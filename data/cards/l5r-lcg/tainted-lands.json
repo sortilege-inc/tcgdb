@@ -1,0 +1,199 @@
+[
+  {
+    "id": "tainted-lands-036",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Feral Ningyo",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "tainted-lands-023",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Upholding Authority",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "tainted-lands-030",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Sneaky Shinjo",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tainted-lands-024",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Apprentice Earthcaller",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tainted-lands-025",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Kuni Yori",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tainted-lands-031",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Marauding Oni",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tainted-lands-037",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Oracle of Stone",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "tainted-lands-032",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Spreading the Darkness",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "tainted-lands-021",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Teachings of the Elements",
+    "type": "Province",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "tainted-lands-040",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Sabotage",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "tainted-lands-035",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Writ of Authority",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "tainted-lands-033",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Adopted Kin",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "tainted-lands-034",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Ikoma Reservist",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "tainted-lands-026",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Asahina Takako",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tainted-lands-027",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Bonsai Garden",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tainted-lands-022",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Border Fortress",
+    "type": "Province",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "tainted-lands-029",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Court Novice",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tainted-lands-028",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Impulsive Novice",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "tainted-lands-039",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Press of Battle",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "tainted-lands-038",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Tainted Koku",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  }
+]

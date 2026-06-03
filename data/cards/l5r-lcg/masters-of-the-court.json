@@ -1,0 +1,279 @@
+[
+  {
+    "id": "masters-of-the-court-020",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Political Sanction",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "masters-of-the-court-001",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Kyūden Kakita",
+    "type": "Stronghold",
+    "clan": "Crane"
+  },
+  {
+    "id": "masters-of-the-court-008",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Kakita Yuri",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-009",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Asahina Takamori",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-016",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Akodo Makoto",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-022",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Gossip",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "masters-of-the-court-013",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Distinguished Dōjō",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-011",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Daidoji Uji",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-023",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "The Spear Rushes Forth",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "masters-of-the-court-026",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Shinjo Haruko",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "masters-of-the-court-002",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Market of Kaze-no-Kami",
+    "type": "Province",
+    "clan": "Crane"
+  },
+  {
+    "id": "masters-of-the-court-006",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Kakita Favorite",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-027",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Daimyō's Gunbai",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "masters-of-the-court-014",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Yasuki Fuzake",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-015",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Kitsuki Jusai",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-017",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Chukan Nobue",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-018",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Bayushi Dairu",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-019",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Armament Artisan",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-012",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Winter Court Hosts",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-007",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Maker of Keepsakes",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-025",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Festival for the Fortunes",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "masters-of-the-court-024",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Courteous Scheming",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "masters-of-the-court-010",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Benevolent Host",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-003",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Support of the Crane",
+    "type": "Role",
+    "clan": "Neutral"
+  },
+  {
+    "id": "masters-of-the-court-004",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Iwasaki Pupil",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-005",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Beloved Advisor",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "masters-of-the-court-021",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Letter of the Daimyō",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "masters-of-the-court-028",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Retreat",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  }
+]

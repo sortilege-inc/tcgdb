@@ -1,0 +1,9 @@
+{
+  "id": "core-set",
+  "gameId": "l5r-lcg",
+  "publisherId": "ffg",
+  "name": "Core Set",
+  "type": "core",
+  "status": "released",
+  "cardCount": 218
+}

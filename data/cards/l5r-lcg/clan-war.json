@@ -1,0 +1,918 @@
+[
+  {
+    "id": "clan-war-066",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "The Crashing Wave",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-003",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Exposed Secrets (treaty)",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-082",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Appeal to Sympathy",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-042",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Battle Aspirant",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-086",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Compelling Testimony",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-057",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Endless Plains Skirmisher",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-094",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Enlightenment",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-025",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Hida Secretkeeper",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-015",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Karmic Teachings",
+    "type": "Province",
+    "clan": "Dragon"
+  },
+  {
+    "id": "clan-war-032",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Perfect Guest",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-048",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Serene Seer",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-001",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Desertion",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-013",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Slaughtered Village",
+    "type": "Province",
+    "clan": "Crab"
+  },
+  {
+    "id": "clan-war-018",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Shadowed Alleyway",
+    "type": "Province",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "clan-war-093",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Seize the Day",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-041",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Righteous Akodo",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-079",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Privileged Position",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-014",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Model of Courtesy",
+    "type": "Province",
+    "clan": "Crane"
+  },
+  {
+    "id": "clan-war-064",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Kobo Ichi-Kai Jūjutsu",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-092",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Hige's Sermon",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-090",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Diversionary Maneuver",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-007",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Second Chances",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-020",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Temple of Daikoku",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-021",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Temple of Jikoju",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-022",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Temple of Osano-wo",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-023",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Temple of Shinsei's Wisdom",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-024",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Temple of the Thunders",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-039",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Alchemical Laboratory",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-046",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Isawa Pilgrim",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-056",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Merchant of Curiosities",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-059",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Forthright Ide",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-065",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Common Cause",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-071",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Return the Offense",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-077",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Called to War",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-084",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Bayushi Traitor",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-045",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Expert Interpreter",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-035",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Inventive Mirumoto",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-062",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Insightful Gatekeeper",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-061",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Cunning Confidant",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-083",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Ramparts of Stone",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-049",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Hallowed Ground",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-047",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Mediator of Hostilities",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-080",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Peacemaker's Blade",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-081",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Trick of the Light",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-037",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Ascetic of the North Wall",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-060",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Shika Matchmaker",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-002",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Dishonorable Dealings",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-004",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Falling Fortune",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-005",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Finding a New Lord",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-006",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Forgotten Plans",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-008",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Sent to their Deaths",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-009",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Shattered Blades",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-010",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Spreading Discontent",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-011",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Transgression of Honor",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-012",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Upholding Bushido",
+    "type": "treaty",
+    "clan": "Neutral"
+  },
+  {
+    "id": "clan-war-017",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Fury of the Kami",
+    "type": "Province",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "clan-war-016",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Strategizing",
+    "type": "Province",
+    "clan": "Lion"
+  },
+  {
+    "id": "clan-war-019",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Fields of the Wind",
+    "type": "Province",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "clan-war-026",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "One of the Forgotten",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-027",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Sake House Smuggler",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-028",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Kuni Silencer",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-030",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Chancellor's Aide",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-031",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Dazzling Duelist",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-029",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Roadside Inn",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-033",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Masterpiece Painter",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-034",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Negotiation Table",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-036",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Agasha Prodigy",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-038",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Mindful Warrior",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-040",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Ikoma Message Runner",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-043",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Medium of the Living Soul",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-044",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Bushidō Adherent",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-058",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Way Station Trader",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-052",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Vice Proprietor",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-051",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Shosuro Actor",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-050",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Shepherd of Visages",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-053",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Master Whisperer",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-063",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Venerable Fortunist",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-067",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Fulfill Your Duty",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-069",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Favorable Alliance",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-068",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "A Game of Letters",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-074",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Unquestioned Heritage",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-076",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Take Up Command",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-072",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Inscribed Tantō",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-075",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Impossible Kōan",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-070",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Cultured Façade",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-073",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Contemplative Wisdom",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-078",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "All Out Assault",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-054",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Acclaimed Geisha House",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-055",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Altansarnai's Vanguard",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "clan-war-089",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Way of the Open Hand",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-091",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Join the Fray",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-085",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Imbued With Shadows",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-088",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Expert Bartering",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "clan-war-087",
+    "gameId": "l5r-lcg",
+    "setId": "clan-war",
+    "publisherId": "ffg",
+    "name": "Criminal Contacts",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  }
+]

@@ -1,0 +1,67 @@
+:root {
+  --theme-primary: #6c7a8a;
+  --theme-secondary: #4a5462;
+  --theme-background: #0f1115;
+  --theme-surface: #181b22;
+  --theme-surface-2: #1f242d;
+  --theme-text: #e8eaee;
+  --theme-text-muted: #9aa1ad;
+  --theme-border: #2a2f39;
+
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: var(--font-body);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--theme-background);
+  color: var(--theme-text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--theme-primary);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+button {
+  font: inherit;
+  color: inherit;
+  background: var(--theme-surface-2);
+  border: 1px solid var(--theme-border);
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+button:hover {
+  border-color: var(--theme-primary);
+}
+
+.tcgdb-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tcgdb-main {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}

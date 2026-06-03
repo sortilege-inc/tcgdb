@@ -1,0 +1,219 @@
+[
+  {
+    "id": "bonds-of-blood-030",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Yogo Preserver",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "bonds-of-blood-043",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Softskin",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-040",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Isawa Tadaka",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-025",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Festival of the Departed",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "bonds-of-blood-041",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Earth Becomes Sky",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-036",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Duel to the Death",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-034",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Arbiter of Authority",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-023",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Dishonorable Assault",
+    "type": "Province",
+    "clan": "Lion"
+  },
+  {
+    "id": "bonds-of-blood-024",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Untamed Steppe",
+    "type": "Province",
+    "clan": "Unicorn"
+  },
+  {
+    "id": "bonds-of-blood-026",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Hiruma Yoshino",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "bonds-of-blood-028",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Akodo Kaede",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "bonds-of-blood-032",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Utaku Rumaru",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "bonds-of-blood-035",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "A New Name",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-039",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Forebearer's Echoes",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-042",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Alluring Patron",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-044",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Unfulfilled Duty",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-038",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Two-Heavens Technique",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-033",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Fury of the Damned",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "bonds-of-blood-031",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Benevolent Ambassador",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "bonds-of-blood-029",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Valiant Oathkeeper",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "bonds-of-blood-027",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Kitsuki Yuikimi",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "bonds-of-blood-037",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Niten Pupil",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "conflict"
+  }
+]

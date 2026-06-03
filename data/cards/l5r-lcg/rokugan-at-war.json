@@ -1,0 +1,236 @@
+[
+  {
+    "id": "rokugan-at-war-001",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Shrug Off Despair",
+    "type": "Province",
+    "clan": "Crab"
+  },
+  {
+    "id": "rokugan-at-war-005",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Kakudaira",
+    "type": "Province",
+    "clan": "Phoenix"
+  },
+  {
+    "id": "rokugan-at-war-004",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Ninkatoshi",
+    "type": "Province",
+    "clan": "Lion"
+  },
+  {
+    "id": "rokugan-at-war-006",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "City of the Rich Frog",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "rokugan-at-war-008",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Kakita Yoshi (RaW)",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-021",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Paralyzing Delicacy",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "rokugan-at-war-017",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Educated Heimin",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "rokugan-at-war-014",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "A Season of War",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-002",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Pledge of Loyalty",
+    "type": "Province",
+    "clan": "Crane"
+  },
+  {
+    "id": "rokugan-at-war-003",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Sharing Shinsei's Wisdom",
+    "type": "Province",
+    "clan": "Dragon"
+  },
+  {
+    "id": "rokugan-at-war-007",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Recalled Defenses",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-009",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Cycle of Rebirth",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-010",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Akodo Reserve Company",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-011",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Garanto Guardian",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-012",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Governor's Spy",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-013",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "White Horde Vanguard",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-015",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Our Foe Does Not Wait",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "rokugan-at-war-016",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Captivating Story",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "rokugan-at-war-018",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Serene Ise Zumi",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "rokugan-at-war-019",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Prepared Ambush",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "rokugan-at-war-024",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Field of Ruin",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "rokugan-at-war-020",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Wandering Mediator",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "rokugan-at-war-022",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Countryside Trader",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "rokugan-at-war-023",
+    "gameId": "l5r-lcg",
+    "setId": "rokugan-at-war",
+    "publisherId": "ffg",
+    "name": "Scouted Terrain",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  }
+]

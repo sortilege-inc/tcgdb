@@ -1,0 +1,201 @@
+[
+  {
+    "id": "the-fires-within-058",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Invocation of Ash",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-044",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Master Alchemist",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-fires-within-051",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Wicked Tetsubō",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-057",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Shiksha Scout",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-045",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "The Wrath of the Kami",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-fires-within-050",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Battle Maiden Recruit",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-fires-within-054",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Smoke",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-041",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Abandoning Honor",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "the-fires-within-042",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Hiruma Kogoe",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-fires-within-049",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Soshi Shiori",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-fires-within-043",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Sadane Student",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-fires-within-060",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Mantis Seafarer",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-055",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Jurōjin's Curse",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-053",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Insult to Injury",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-056",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Infiltrator",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-046",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Ikoma Ikehata",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-fires-within-052",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Icon of Favor",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-048",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Chikai Order Protector",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "the-fires-within-059",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Breach of Etiquette",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "the-fires-within-047",
+    "gameId": "l5r-lcg",
+    "setId": "the-fires-within",
+    "publisherId": "ffg",
+    "name": "Ancestral Armory",
+    "type": "Holding",
+    "clan": "Lion",
+    "deck": "dynasty"
+  }
+]

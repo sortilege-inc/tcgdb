@@ -1,0 +1,219 @@
+[
+  {
+    "id": "in-pursuit-of-truth-054",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Asahina Augur",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-068",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Study the Natural World",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "in-pursuit-of-truth-063",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "The Wealth of the Crane",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict"
+  },
+  {
+    "id": "in-pursuit-of-truth-049",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Tsuma",
+    "type": "Province",
+    "clan": "Crane"
+  },
+  {
+    "id": "in-pursuit-of-truth-050",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Silent Ones Monastery",
+    "type": "Province",
+    "clan": "Scorpion"
+  },
+  {
+    "id": "in-pursuit-of-truth-060",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Scholar of Old Rempet",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-053",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Third Whisker Sneak",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-066",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Shori",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "in-pursuit-of-truth-058",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Student of the Tao",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-069",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Way With Words",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict"
+  },
+  {
+    "id": "in-pursuit-of-truth-052",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Blatant Swindler",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-051",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Courteous Greeting",
+    "type": "Province",
+    "clan": "Neutral"
+  },
+  {
+    "id": "in-pursuit-of-truth-059",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Cursecatcher",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-070",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Hunting Falcon",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict"
+  },
+  {
+    "id": "in-pursuit-of-truth-067",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Studious",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "in-pursuit-of-truth-065",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Makeshift War Camp",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict"
+  },
+  {
+    "id": "in-pursuit-of-truth-061",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Lost Papers",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-056",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Kitsuki Chiari",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-064",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Mantra of Void",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict"
+  },
+  {
+    "id": "in-pursuit-of-truth-057",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Master Tactician",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-055",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Shrewd Investigator",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "in-pursuit-of-truth-062",
+    "gameId": "l5r-lcg",
+    "setId": "in-pursuit-of-truth",
+    "publisherId": "ffg",
+    "name": "Return From Shadows",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  }
+]

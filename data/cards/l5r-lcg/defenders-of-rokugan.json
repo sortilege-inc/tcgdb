@@ -1,0 +1,319 @@
+[
+  {
+    "id": "defenders-of-rokugan-007",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Hida O-Ushi",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-026",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Subterranean Guile",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "defenders-of-rokugan-028",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Siege Warfare",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "defenders-of-rokugan-014",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "River of the Last Stand",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-017",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Watchtower of Valor",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-013",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Northern Curtain Wall",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-001",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kyūden Hida",
+    "type": "Stronghold",
+    "clan": "Crab"
+  },
+  {
+    "id": "defenders-of-rokugan-010",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kaiu Shihobu",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-018",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Daidoji Netsu",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-012",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kaiu Forges",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-015",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Seventh Tower",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-002",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kuni Wasteland",
+    "type": "Province",
+    "clan": "Crab"
+  },
+  {
+    "id": "defenders-of-rokugan-029",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Desolation",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "defenders-of-rokugan-009",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Favorable Dealbroker",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-004",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Purifier Apprentice",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-008",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Unyielding Sensei",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-005",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Hida Sukune",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-016",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Third Whisker Warrens",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-019",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Agasha Hiyori",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-030",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "The Strength of the Mountain",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "defenders-of-rokugan-032",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Slovenly Scavenger",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict"
+  },
+  {
+    "id": "defenders-of-rokugan-031",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Isawa Eju",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict"
+  },
+  {
+    "id": "defenders-of-rokugan-021",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Yogo Asami",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-022",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Shinjo Yasamura",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-023",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Moto Eviscerator",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-020",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Matsu Agetoki",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-024",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kansen Haunt",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-003",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Support of the Crab",
+    "type": "Role",
+    "clan": "Neutral"
+  },
+  {
+    "id": "defenders-of-rokugan-027",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Fruitful Respite",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "defenders-of-rokugan-025",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Reinforced Plate",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict"
+  },
+  {
+    "id": "defenders-of-rokugan-006",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Shadowlands Hunter",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  },
+  {
+    "id": "defenders-of-rokugan-011",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kaiu Siege Force",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty"
+  }
+]
