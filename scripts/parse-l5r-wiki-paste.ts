@@ -70,6 +70,7 @@ interface CardRecord {
   traits?: string[]
   errata?: Record<string, unknown>
   rulings?: Array<{ date: string; source: string; text: string }>
+  flipSideOf?: string
   [k: string]: unknown
 }
 
@@ -118,6 +119,10 @@ function stripTagsToText(html: string, replaceBrWith: string): string {
       // Bullet markers used inside multi-line card text on multiplayer
       // expansions (Negotiation Table, Hallowed Ground, A Game of Letters).
       .replace(/<img[^>]*alt="dot"[^>]*\/?>/g, '•')
+      // Shadowlands clan icon and per-opponent multiplier appear in card
+      // text on Under Fu Leng's Shadow.
+      .replace(/<img[^>]*alt="[sS]hadowlands"[^>]*\/?>/g, '[shadow]')
+      .replace(/<img[^>]*alt="per opponent"[^>]*\/?>/g, '(per opponent)')
       .replace(/<img[^>]*\/?>/g, '')
       .replace(/<br\s*\/?>/gi, replaceBrWith)
       .replace(/<[^>]+>/g, '')
@@ -132,6 +137,7 @@ const CLAN_BY_ALT: Record<string, string> = {
   crab: 'Crab', crane: 'Crane', dragon: 'Dragon', lion: 'Lion',
   phoenix: 'Phoenix', scorpion: 'Scorpion', unicorn: 'Unicorn',
   neutral: 'Neutral',
+  shadowlands: 'Shadowlands',
 }
 
 function extractClan(cellHtml: string): string | null {
@@ -313,9 +319,11 @@ function main(): void {
       // unverified is normally dropped by Replace policy, but can be kept
       // when the caller knows the paste still needs follow-up.
       ...(KEEP_UNVERIFIED ? { unverified: true } : {}),
-      // errata/rulings preserved if previously set; this paste doesn't carry them.
+      // errata/rulings/flipSideOf preserved if previously set; this paste
+      // doesn't carry them.
       ...(before.errata ? { errata: before.errata } : {}),
       ...(before.rulings ? { rulings: before.rulings } : {}),
+      ...(before.flipSideOf ? { flipSideOf: before.flipSideOf } : {}),
     }
     replacements.push({ id, before, after, row })
   }

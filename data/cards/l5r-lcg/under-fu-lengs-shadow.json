@@ -1,574 +1,217 @@
 [
   {
-    "id": "under-fu-lengs-shadow-120",
+    "id": "under-fu-lengs-shadow-001a",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Accursed Summoning",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-053",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "At His Command",
-    "type": "Event",
+    "name": "Akuma no Oni (coop)",
+    "type": "Warlord",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
+    "traits": [
+      "Oni",
+      "Champion"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nReaction: After you collect fate in the dynasty phase, each opponent chooses a non-[shadow] character with three or lower [mil] skill – bow each chosen character.",
+    "unverified": true,
+    "flipSideOf": "under-fu-lengs-shadow-001b"
   },
   {
-    "id": "under-fu-lengs-shadow-113",
+    "id": "under-fu-lengs-shadow-001b",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Betrayed Vision",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-063",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Blasphemous Act",
-    "type": "Event",
+    "name": "Akuma no Oni",
+    "type": "Warlord",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
+    "traits": [
+      "Oni",
+      "Champion"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nAction: Choose a character. Its controller selects one – either remove all fate from that character or you may declare an additional [mil] conflict this phase.",
+    "unverified": true,
+    "flipSideOf": "under-fu-lengs-shadow-001a"
   },
   {
-    "id": "under-fu-lengs-shadow-104",
+    "id": "under-fu-lengs-shadow-002a",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Centered Breath",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-062",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Consumed By Evil",
-    "type": "Event",
+    "name": "The Obsidian Flower (coop)",
+    "type": "Warlord",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
+    "traits": [
+      "Oni",
+      "Champion"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nReaction: After you collect fate in the dynasty phase – each opponent taints a character they control.",
+    "unverified": true,
+    "flipSideOf": "under-fu-lengs-shadow-002b"
   },
   {
-    "id": "under-fu-lengs-shadow-111",
+    "id": "under-fu-lengs-shadow-002b",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Dance of Chikushō-dō",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-059",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Dark Bargain",
-    "type": "Event",
+    "name": "The Obsidian Flower",
+    "type": "Warlord",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
+    "traits": [
+      "Oni",
+      "Champion"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nAction: Choose a tainted character an opponent controls. Its controller selects one – either each opponent loses 2 honor, or you gain control of the chosen character and it gains a [shadow] clan symbol.",
+    "unverified": true,
+    "flipSideOf": "under-fu-lengs-shadow-002a"
   },
   {
-    "id": "under-fu-lengs-shadow-052",
+    "id": "under-fu-lengs-shadow-003a",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Death After Life",
-    "type": "Event",
+    "name": "Atsuko the Calamitous (coop)",
+    "type": "Warlord",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
+    "traits": [
+      "Oni",
+      "Champion"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nReaction: After you collect fate in the dynasty phase – remove 2 random cards in each opponent's dynasty discard pile from the game. Bow each character in play with the same name as a card removed from the game this way.",
+    "unverified": true,
+    "flipSideOf": "under-fu-lengs-shadow-003b"
   },
   {
-    "id": "under-fu-lengs-shadow-066",
+    "id": "under-fu-lengs-shadow-003b",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Despair",
-    "type": "Event",
+    "name": "Atsuko the Calamitous",
+    "type": "Warlord",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
+    "traits": [
+      "Oni",
+      "Champion"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nReaction: Choose an opponent to select one – either that player sacrifices a character, or you play a character from your dynasty discard pile as if it were in your hand, reducing its cost by 2.",
+    "unverified": true,
+    "flipSideOf": "under-fu-lengs-shadow-003a"
   },
   {
-    "id": "under-fu-lengs-shadow-116",
+    "id": "under-fu-lengs-shadow-004",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Defiance",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-057",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Direct Assault",
-    "type": "Event",
+    "name": "Blood Fields",
+    "type": "Province",
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province – remove 1 fate from each attacking character.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-107",
+    "id": "under-fu-lengs-shadow-005",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Directing the Battle",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-051",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Drawn to Blood",
-    "type": "Event",
+    "name": "Defiled Cavern",
+    "type": "Province",
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province – place 2 (per opponent) random characters in your dynasty discard pile on the bottom of your dynasty deck.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-068",
+    "id": "under-fu-lengs-shadow-006",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Duty's Cost",
-    "type": "Event",
+    "name": "Fallen Chrysanthemum Lake",
+    "type": "Province",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province – each opponent discards their hand and draws that many cards.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-110",
+    "id": "under-fu-lengs-shadow-007",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Elemental Inversion",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-054",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Evil Portents",
-    "type": "Event",
+    "name": "False Lantern Grove",
+    "type": "Province",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province, choose an unclaimed ring – resolve the contested ring's effect and claim it. The chosen ring is now the contested ring.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-070",
+    "id": "under-fu-lengs-shadow-008",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Exploit Weakness",
-    "type": "Event",
+    "name": "Forgotten Tomb of Fu Leng",
+    "type": "Province",
+    "unique": true,
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province, choose a character in your dynasty discard pile – put that character into play in the conflict as a defender. Place 1 (per opponent) fate on it.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-117",
+    "id": "under-fu-lengs-shadow-009",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Exposed Secrets",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-072",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "In Service to Shadow",
-    "type": "Event",
+    "name": "Garden of Corruption",
+    "type": "Province",
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province – dishonor each attacking tainted character, then taint each attacking character.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-100",
+    "id": "under-fu-lengs-shadow-010",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Jade Strike",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-118",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Lurking Affliction",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-103",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Masashigi's Sacrifice",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-108",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Peerless Discipline",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-044",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Power of Jigoku",
-    "type": "Event",
+    "name": "Haunted Jungles",
+    "type": "Province",
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province, choose up to 1 (per opponent) characters in your provinces – put those characters into play in the conflict as defenders.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-101",
+    "id": "under-fu-lengs-shadow-011",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Preeminent Decree",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-106",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Prove Your Skill",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-102",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Resourcefulness",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-065",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Shameful Affliction",
-    "type": "Event",
+    "name": "Maddening Emptiness",
+    "type": "Province",
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province, choose up to 1 attacking character controlled by each opponent – bow each chosen character.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-112",
+    "id": "under-fu-lengs-shadow-012",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Soshi's Memory",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-105",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Swell of Seafoam",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-073",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "The First War",
-    "type": "Event",
+    "name": "Sea of Shadows",
+    "type": "Province",
     "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Reaction: After a conflict is declared against this province, choose up to 1 ready character in each opponent's home – move each of those characters to the conflict.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-055",
+    "id": "under-fu-lengs-shadow-013",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Uncontained",
-    "type": "Event",
+    "name": "Spectral Watchtower",
+    "type": "Province",
     "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-121",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Unveiled Corruption",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-047",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Violence and Evil",
-    "type": "Event",
-    "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-049",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Way of the Shadowlands",
-    "type": "Event",
-    "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-119",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Way of the Warrior",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-086",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Akodo Mastermind",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-040",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Bloodthirsty Kansen",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-041",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Bog Hag",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-018",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Chieftain Fouleye",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-037",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Chuda Gyushi",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-080",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Daidoji Strategist",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-026",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Dark Moto",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-017",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Detritus Priest",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-081",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Discerning Yoriki",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-089",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Disciple of Deception",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-020",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Endless Ranks",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-076",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Exiled Guardian",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-095",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Fearless Sailor",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-085",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Field Tactician",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-043",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Gashadokuro",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
+    "text": "Reaction: After a conflict is declared against this province – take 1 fate from each opponent.",
     "unverified": true
   },
   {
@@ -580,28 +223,10 @@
     "type": "Character",
     "clan": "Shadowlands",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-077",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Hida Backbreaker",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-035",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Insatiable Gaki",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
+    "traits": [
+      "Goblin"
+    ],
+    "text": "—",
     "unverified": true
   },
   {
@@ -613,281 +238,10 @@
     "type": "Character",
     "clan": "Shadowlands",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-079",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Iron Warrior Vanguard",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-088",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Isawa Skycaller",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-023",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Kitsu Sokori",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-024",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Lost Samurai",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-094",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Moto Beastmaster",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-027",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Moto Tsume",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-090",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Loyal Oathbreaker",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-038",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Oni of Obsidian and Blood",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-096",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Oni Tyrant",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-025",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Onikage Rider",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-030",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Penanggalan",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-042",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Prakhara the Schemer",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-092",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Reckless Avenger",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-029",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Scavenging Goblin",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-093",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Seasoned Patroller",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-034",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Shambling Servant",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-091",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Silent Enforcer",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-019",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Skeletal Warrior",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-083",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Teacher of Empty Thought",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-032",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "The Butcher of Ishigaki",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-082",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Togashi Dreamer",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-022",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Undead Horror",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-087",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Void Wielder",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-031",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Wild Ogre",
-    "type": "Character",
-    "clan": "Shadowlands",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-097",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Audience Chamber",
-    "type": "Holding",
-    "clan": "Neutral",
-    "deck": "dynasty",
+    "traits": [
+      "Goblin"
+    ],
+    "text": "Reaction: After this character wins a conflict, choose a character an opponent controls with equal or lower [mil] skill than this character – bow the chosen character.",
     "unverified": true
   },
   {
@@ -899,17 +253,73 @@
     "type": "Holding",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "text": "Interrupt: When the conflict phase ends, choose up to 3 different [shadow] Goblin characters – move 1 fate from your fate pool to each chosen character.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-036",
+    "id": "under-fu-lengs-shadow-017",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Haunted Ruins",
-    "type": "Holding",
+    "name": "Detritus Priest",
+    "type": "Character",
+    "unique": true,
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire",
+      "Goblin"
+    ],
+    "text": "Reaction: After a Goblin you control wins a conflict, remove 1 fate from it – resolve the contested ring's effect. (Limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-018",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Chieftain Fouleye",
+    "type": "Character",
+    "unique": true,
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Goblin"
+    ],
+    "text": "Reduce the cost to play each [shadow] Goblin by 1.\nEach other [shadow] Goblin gets +2[pol].",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-019",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Skeletal Warrior",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Undead"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-020",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Endless Ranks",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Undead",
+      "Army"
+    ],
+    "text": "Corrupted. No attachments except Weapon.\nReaction: After this character wins a conflict, choose a character in your dynasty discard pile - put that character on top of your dynasty deck.",
     "unverified": true
   },
   {
@@ -921,6 +331,184 @@
     "type": "Holding",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "traits": [
+      "Battlefield"
+    ],
+    "text": "Interrupt: When the conflict phase ends – discard each card from each opponent's provinces.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-022",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Undead Horror",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Undead"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – attach a random character in each opponent's discard pile to this character as an attachment, treating its printed text box as if it were blank. That card gains the text: \"Add this card's printed [mil] and [pol] skill values to those of attached character.\"",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-023",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Kitsu Sokori",
+    "type": "Character",
+    "unique": true,
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Reaction: After fate is removed from this character, choose a character in an opponent's dynasty discard pile – put that character into play under your control, tainted. It gains the [shadow] clan symbol. While this character is in play, that character cannot leave play. Discard that character when this character leaves play.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-024",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Lost Samurai",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict, choose a participating non-[shadow] character – dishonor that character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-025",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Onikage Rider",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – discard each card in each opponent's provinces.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-026",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Dark Moto",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – move 1 fate from your fate pool to it. It does not bow as a result of this conflict's resolution.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-027",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Moto Tsume",
+    "type": "Character",
+    "unique": true,
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Daimyō"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nReaction: After this character is declared as an attacker – honor each attacking character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-028",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Thundering Tide Keep",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Interrupt: When the conflict phase ends – gain 2 fate for each opponent. This ability triggers before each other [shadow] holding's interrupt.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-029",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Scavenging Goblin",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Goblin"
+    ],
+    "text": "Reaction: After this character wins a conflict – remove the top 3 cards of each opponent's conflict deck from the game. Then, remove from the game each attachment you do not control if it shares a name with a card removed by this effect.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-030",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Penanggalan",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Undead"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict, choose a tainted participating character an opponent controls – move 1 fate from that character to this character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-031",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Wild Ogre",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Ogre"
+    ],
+    "text": "—",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-032",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "The Butcher of Ishigaki",
+    "type": "Character",
+    "unique": true,
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Goblin"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nWhile this character is attacking, at least one character controlled by each opponent must be declared as a defender, if able.",
     "unverified": true
   },
   {
@@ -930,19 +518,84 @@
     "publisherId": "ffg",
     "name": "Oni Lair",
     "type": "Holding",
+    "unique": true,
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "text": "Interrupt: When the conflict phase ends, spend up to 4 fate – put that many random cards in your dynasty discard pile on the bottom of your dynasty deck in a random order.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-084",
+    "id": "under-fu-lengs-shadow-034",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Revered Bonshō",
-    "type": "Holding",
-    "clan": "Dragon",
+    "name": "Shambling Servant",
+    "type": "Character",
+    "clan": "Shadowlands",
     "deck": "dynasty",
+    "traits": [
+      "Undead"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict, choose a participating character – taint the chosen character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-035",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Insatiable Gaki",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Spirit"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – each opponent discards 1 card from their hand.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-036",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Haunted Ruins",
+    "type": "Holding",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "text": "Interrupt: When the conflict phase ends – each opponent loses 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-037",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Chuda Gyushi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "Reaction: After fate is removed from this character, each opponent selects one – they must either lose 3 honor, discard 2 random cards from their hand or sacrifice a character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-038",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Oni of Obsidian and Blood",
+    "type": "Character",
+    "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Oni"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict, choose an opponent's tainted character – discard that character.",
     "unverified": true
   },
   {
@@ -954,88 +607,86 @@
     "type": "Holding",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "traits": [
+      "Shrine"
+    ],
+    "text": "Interrupt: When the conflict phase ends, spend up to 2 fate – for each fate spent this way, each opponent discards 1 random card from their hand.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-078",
+    "id": "under-fu-lengs-shadow-040",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Third Tower",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-028",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Thundering Tide Keep",
-    "type": "Holding",
+    "name": "Bloodthirsty Kansen",
+    "type": "Character",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "traits": [
+      "Spirit",
+      "Earth"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – resolve the contested ring's effect.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-004",
+    "id": "under-fu-lengs-shadow-041",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Blood Fields",
-    "type": "Province",
+    "name": "Bog Hag",
+    "type": "Character",
     "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Reaction: After this character wins a conflict – each opponent discards the top 8 cards of their conflict deck.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-005",
+    "id": "under-fu-lengs-shadow-042",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Defiled Cavern",
-    "type": "Province",
+    "name": "Prakhara the Schemer",
+    "type": "Character",
+    "unique": true,
     "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Rakshasa"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nInterrupt: When the effects of an opponent's event would initiate, spend 1 fate – cancel those effects. (Limit twice per round.)",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-006",
+    "id": "under-fu-lengs-shadow-043",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Fallen Chrysanthemum Lake",
-    "type": "Province",
+    "name": "Gashadokuro",
+    "type": "Character",
+    "unique": true,
     "clan": "Shadowlands",
+    "deck": "dynasty",
+    "traits": [
+      "Undead"
+    ],
+    "text": "Corrupted. No non-[shadow] attachments.\nThis character cannot be evaded by the covert keyword.\nReaction: After an opponent declares a [mil] conflict against one of your provinces – ready this character.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-007",
+    "id": "under-fu-lengs-shadow-044",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "False Lantern Grove",
-    "type": "Province",
+    "name": "Power of Jigoku",
+    "type": "Event",
     "clan": "Shadowlands",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-008",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Forgotten Tomb of Fu Leng",
-    "type": "Province",
-    "clan": "Shadowlands",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-009",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Garden of Corruption",
-    "type": "Province",
-    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: Choose a participating ready [shadow] character – until the end of the conflict, that character gets +5[mil] and cannot be bowed or moved home by opponents' card effects.",
     "unverified": true
   },
   {
@@ -1047,28 +698,11 @@
     "type": "Attachment",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-115",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Daikyū",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-058",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Dark Brother's Blade",
-    "type": "Attachment",
-    "clan": "Shadowlands",
-    "deck": "conflict",
+    "traits": [
+      "Obsidian",
+      "Weapon"
+    ],
+    "text": "Attach to a [shadow] character.\nReaction: After you play this card – take another action after this one.",
     "unverified": true
   },
   {
@@ -1080,198 +714,22 @@
     "type": "Attachment",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to an opponent's character. Other [shadow] attachments cannot be played on attached character.\nAttached character cannot participate in [pol] conflicts.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-098",
+    "id": "under-fu-lengs-shadow-047",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Jade Talisman",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-099",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Jade-Inlaid Katana",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-060",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Lurking Treachery",
-    "type": "Attachment",
+    "name": "Violence and Evil",
+    "type": "Event",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-069",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Obsidian Shard",
-    "type": "Attachment",
-    "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-061",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Permeating Mutation",
-    "type": "Attachment",
-    "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-114",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Scarlet Sabre",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-109",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Spell Scroll",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-071",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Tainted Wasteland",
-    "type": "Attachment",
-    "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-050",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Tendrils of Corruption",
-    "type": "Attachment",
-    "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-056",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Unending Hatred",
-    "type": "Attachment",
-    "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-075",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Shiro Yogo",
-    "type": "Stronghold",
-    "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-074",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Twin Soul Temple",
-    "type": "Stronghold",
-    "clan": "Phoenix",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-010",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Haunted Jungles",
-    "type": "Province",
-    "clan": "Shadowlands",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-011",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Maddening Emptiness",
-    "type": "Province",
-    "clan": "Shadowlands",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-012",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Sea of Shadows",
-    "type": "Province",
-    "clan": "Shadowlands",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-067",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Madness",
-    "type": "Attachment",
-    "clan": "Shadowlands",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-013",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Spectral Watchtower",
-    "type": "Province",
-    "clan": "Shadowlands",
-    "unverified": true
-  },
-  {
-    "id": "under-fu-lengs-shadow-064",
-    "gameId": "l5r-lcg",
-    "setId": "under-fu-lengs-shadow",
-    "publisherId": "ffg",
-    "name": "Spiritual Isolation",
-    "type": "Attachment",
-    "clan": "Shadowlands",
-    "deck": "conflict",
+    "text": "Action: If the current conflict is [pol], switch the conflict type. Otherwise, choose up to 2 non-[shadow] attachments on participating characters and discard them.",
     "unverified": true
   },
   {
@@ -1283,36 +741,1066 @@
     "type": "Event",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "text": "This event's effects cannot be canceled.\nAction: If you are attacking and count more current [mil] skill in the conflict than your opponent – break each attacked non-stronghold province.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-001b",
+    "id": "under-fu-lengs-shadow-049",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Akuma no Oni",
-    "type": "Warlord",
+    "name": "Way of the Shadowlands",
+    "type": "Event",
     "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: Choose a participating character – taint that character. If it is not a [shadow] character, you may spend 1 fate to bow it.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-003b",
+    "id": "under-fu-lengs-shadow-050",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Atsuko the Calamitous",
-    "type": "Warlord",
+    "name": "Tendrils of Corruption",
+    "type": "Attachment",
     "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to a [shadow] character.\nReaction: After you play this card, choose a participating character – taint it.",
     "unverified": true
   },
   {
-    "id": "under-fu-lengs-shadow-002b",
+    "id": "under-fu-lengs-shadow-051",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "The Obsidian Flower",
-    "type": "Warlord",
+    "name": "Drawn to Blood",
+    "type": "Event",
     "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: If the attacked province is tainted, resolve the contested ring's effect. Otherwise, taint each attacked province.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-052",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Death After Life",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: Choose a character in your dynasty discard pile with the highest printed cost among characters in your dynasty discard pile - put that character into play in the conflict, tainted.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-053",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "At His Command",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "This event's effects cannot be canceled.\nAction: Select one – either place 1 fate on each character you control, or put your warlord into play in the conflict with 3 fate on it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-054",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Evil Portents",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: Until the end of the conflict, each participating tainted [shadow] characters gets +2[mil] and +2[pol] and each participating tainted non-[shadow] characters gets -2[mil] and -2[pol].",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-055",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Uncontained",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: Choose a character you control in your home – move it to the conflict. If it is bowed, you may spend 1 fate to ready it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-056",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Unending Hatred",
+    "type": "Attachment",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to a [shadow] character.\nReaction: After you play this card – place 1 fate on attached character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-057",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Direct Assault",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Action: Put your warlord into play in the conflict. You may move up to 2 fate from your fate pool to it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-058",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Dark Brother's Blade",
+    "type": "Attachment",
+    "unique": true,
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Obsidian",
+      "Weapon"
+    ],
+    "text": "Attach to a [shadow] character.\nWhile you are playing challenge mode, this card gains ancestral.\nWhile attached character is unique, it gains: \"Reaction: After this character wins a conflict – each opponent must sacrifice a participating character.\"",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-059",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Dark Bargain",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: For each ready participating character an opponent controls, that character's controller selects one – they must either bow that character or lose 1 honor. Then, taint each ready participating character each opponent controls.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-060",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Lurking Treachery",
+    "type": "Attachment",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to an opponent's character. Other [shadow] attachments cannot be played on attached character.\nInterrupt: When attached character leaves play, its controller chooses one of their unbroken provinces – taint that province.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-061",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Permeating Mutation",
+    "type": "Attachment",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to a [shadow] character.\nReaction: After you play this card – play an attachment from your discard pile.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-062",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Consumed By Evil",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: Choose a tainted character you do not control. That character's controller selects one – either they sacrifice that character, or you put your warlord into play in the conflict with 1 fate on it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-063",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Blasphemous Act",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "This event's effects cannot be canceled.\nAction: Bow each tainted character you do not control and ready each tainted character you control. Each tainted character you control does not bow as a result of this conflict's resolution.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-064",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Spiritual Isolation",
+    "type": "Attachment",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to an opponent's character. Other [shadow] attachments cannot be played on attached character.\nTreat attached character's printed text box as if it were blank (except for Traits).",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-065",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Shameful Affliction",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: Choose a participating non-[shadow] character – dishonor that character. You may spend 1 fate to resolve this ability twice.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-066",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Despair",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Increase the cost of each event an opponent plays in this conflict by 1.\nWhile playing challenge mode, this card gains: \"Interrupt: When the effects of an event would initiate – cancel those effects.\"",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-067",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Madness",
+    "type": "Attachment",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to an opponent's character.\nAttached character cannot have other attachments.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-068",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Duty's Cost",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "This event's effects cannot be canceled.\nAction: Each opponent must select one – either taint each of your unbroken provinces or reveal your hand and discard each card with printed cost 0 from it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-069",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Obsidian Shard",
+    "type": "Attachment",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Obsidian"
+    ],
+    "text": "Attach to a [shadow] character.\nReaction: After you play this card, choose a non-[shadow] attachment on a participating character or on the attacked province – discard that attachment.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-070",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Exploit Weakness",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: Choose a participating non-[shadow] character with printed cost 2 or lower – if that character is tainted, gain control of it and it gains a [shadow] clan symbol. Otherwise, bow and dishonor it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-071",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Tainted Wasteland",
+    "type": "Attachment",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to an unbroken province.\nAttached province gets +1 strength (+4 strength instead if it is tainted).\nForced Reaction: After a conflict is declared against attached province – each opponent loses 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-072",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "In Service to Shadow",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "Action: Bow a participating non-unique (friendly) [shadow] character – put your warlord into play in the conflict. Then, move all fate and attachments from the bowed character to your warlord.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-073",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "The First War",
+    "type": "Event",
+    "clan": "Shadowlands",
+    "deck": "conflict",
+    "text": "This event's effects cannot be canceled.\nAction: Resolve the conflict as if both teams had passed consecutively.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-074",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Twin Soul Temple",
+    "type": "Stronghold",
+    "unique": true,
+    "clan": "Phoenix",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Action: Bow this stronghold. Choose an element symbol on a card in play – replace that symbol with the symbol of a different element until the end of the phase.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-075",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Shiro Yogo",
+    "type": "Stronghold",
+    "unique": true,
+    "clan": "Scorpion",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Action: Bow this stronghold. Choose a dishonored character – abilities on that character cannot be triggered this phase.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-076",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Exiled Guardian",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shadowlands"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nSupport. (Another player may help pay this card's fate cost.)\nAction: Sacrifice this character. Choose a status token on a character or province – discard that status token.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-077",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Hida Backbreaker",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "No opponents' attachments.\nReaction: After this character wins a [mil] conflict, choose an opponent's participating character – dishonor that character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-078",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Third Tower",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Kaiu Wall"
+    ],
+    "text": "Limit 1 per deck.\nReaction: After an opponent declares a conflict against a province you control that does not contain a Kaiu Wall holding – take 1 honor from that opponent. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-079",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Iron Warrior Vanguard",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Support. (Another player may help pay this card's fate cost.)\nReaction: After this character wins a conflict, choose a character – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-080",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Daidoji Strategist",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Action: During a conflict in which this character is participating, choose an honored character – move that character home.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-081",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Discerning Yoriki",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Courtesy. (When this character leaves play, gain 1 fate.)\nReaction: After you look at 1 or more cards in an opponent's hand (or those are revealed), choose a character – honor it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-082",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Togashi Dreamer",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Support.\nReaction: After you play a Kihō event during a conflict in which this character is participating, choose a participating character with 1 or more status tokens on it and choose an unclaimed ring – move 1 fate from the chosen character to the chosen ring.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-083",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Teacher of Empty Thought",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Action: During a conflict in which this character is participating, if you have played 3 or more cards during this conflict – draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-084",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Revered Bonshō",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Temple"
+    ],
+    "text": "When fate would be removed from characters during the fate phase, instead distribute that fate among unclaimed rings as evenly as possible.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-085",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Field Tactician",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Support. (Another player may help pay this card's fate cost.)\nReaction: After you play a Tactic card, choose a card in any player's conflict discard pile – place it into that player's conflict deck third from the top.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-086",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Akodo Mastermind",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Action: During a conflict in which this character is participating, remove 1 or more Tactic cards in your conflict discard pile from the game. Choose a participating character with glory equal to or lower than the number of removed cards - bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-087",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Void Wielder",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Void"
+    ],
+    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a [void] conflict, choose a participating character. That character's controller selects one – either discard a status token from it, move it home or discard an attachment on it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-088",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Isawa Skycaller",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "During [air] conflicts you may play characters in your provinces as if they were in your hand. Characters played this way must be played into the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-089",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Disciple of Deception",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict, choose 2 different status tokens on 2 different characters – treat one of the chosen status tokens as if it were the other until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-090",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Loyal Oathbreaker",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "You are considered to be less honorable than each opponent.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-091",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Silent Enforcer",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shinobi"
+    ],
+    "text": "Reaction: After you play an event during a conflict in which this character is participating, choose a participating character with printed cost 3 or lower. Its controller selects one – either bow that character or move it home.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-092",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Reckless Avenger",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: Each player in turn order may choose a character they control - ready the first chosen character, honor the second chosen character, and taint each other chosen character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-093",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Seasoned Patroller",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "While this character is attacking, the attacked province's strength cannot be increased. (This includes by holdings, strongholds, attachments, lasting effects and status tokens.)",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-094",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Moto Beastmaster",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Reaction: After this character is declared as an attacker, choose a character with printed cost 2 or lower in your provinces (printed cost 4 or lower instead if you are first player) – put that character into play in the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-095",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Fearless Sailor",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Mantis Clan"
+    ],
+    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict, in which this character is participating, choose a participating character with 1 or more status tokens on it – that character gets -2[mil] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-096",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Oni Tyrant",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Oni",
+      "Shadowlands"
+    ],
+    "text": "Corrupted. (This character enters play tainted.)\nAction: During a conflict in which this character is participating, lose 1 honor. Choose a [shadow] character you own from outside the game with printed cost 2 or lower – put that character into play in the conflict. When it would leave play, remove it from the game instead.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-097",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Audience Chamber",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Reaction: After you play a character with printed cost 4 or higher – place 1 fate on it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-098",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Jade Talisman",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Jade"
+    ],
+    "text": "Attach to a character you control.\nInterrupt: When a ring effect would initiate, if it chooses attached character as a target, sacrifice this attachment – cancel that ring effect.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-099",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Jade-Inlaid Katana",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Jade",
+      "Weapon"
+    ],
+    "text": "Attach to a character you control.\nAttached character gains: \"Reaction: After this character wins a conflict, choose a participating character with 1 or more status tokens on it – remove 1 fate from that character.\"",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-100",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Jade Strike",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Jade",
+      "Spell",
+      "Earth"
+    ],
+    "text": "Play only if you control a Shugenja character.\nAction: During a conflict, choose a participating character with 1 or more status tokens on it – set its base [mil] and [pol] skills to 0 until the end of the conflict. If that character is tainted, also remove 1 fate from it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-101",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Preeminent Decree",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a participating Courtier character you control – for this conflict, each other participating character gets -X[pol], where X is the chosen Courtier's glory.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-102",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Resourcefulness",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Action: Dishonor a (friendly) character. Choose a character – honor it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-103",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Masashigi's Sacrifice",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict, sacrifice a (friendly) character with 1 or more status tokens on it – each defending character does not bow as a result of this conflict's resolution.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-104",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Centered Breath",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Air"
+    ],
+    "text": "Action: During a conflict, choose a participating Monk character – You may trigger each ability printed on that character an additional time this round (or specified period). If you have played another Kihō in this conflict, take another action after this one.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-105",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Swell of Seafoam",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Water"
+    ],
+    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict, choose a participating Monk character – that character does not bow as the result of this conflict's resolution. If you have played another Kihō in this conflict, also honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-106",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Prove Your Skill",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Play only if you are more honorable than an opponent.\nAction: Choose a status token on a character – discard it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-107",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Directing the Battle",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Support.\nAction: During a conflict, choose a character. That character's controller selects one –\n* move that character home.\n* that character gets +3[mil] until the end of the conflict.\n* that character can't be bowed by opponents' card effects during this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-108",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Peerless Discipline",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Action: Until the end of the phase, each character you control gets +1[mil] and gains the Bushi trait.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-109",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Spell Scroll",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Gaijin",
+      "Item"
+    ],
+    "text": "While attached character is participating in a conflict whose element matches one of attached character's Traits, it gets +3[pol].\nAction: Choose a non-character card in your conflict discard pile that shares a Trait with attached character – add it to your hand and sacrifice this attachment.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-110",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Elemental Inversion",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Void"
+    ],
+    "text": "Action: During a conflict, choose a ring – move all fate from the chosen ring to the contested ring and switch them. (The chosen ring is now contested.)",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-111",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Dance of Chikushō-dō",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Air"
+    ],
+    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: Choose any number of non-[shadow] players – each of those players fills each of their unbroken non-stronghold provinces with 2 facedown dynasty cards. (Max 1 per round.)",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-112",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Soshi's Memory",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Action: Choose a player – that player searches the top X cards of their deck for a card and adds it to their hand, where X is the number of Shugenja characters you control. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-113",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Betrayed Vision",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Air"
+    ],
+    "text": "Play only if you control a Shugenja character.\nSupport.\nAction: During a conflict, choose a participating character an opponent controls and a different non-unique character – the participating character becomes a copy of the non-unique character until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-114",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Scarlet Sabre",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Gaijin",
+      "Weapon"
+    ],
+    "text": "Restricted.\nWhile you are the first player, attached character gains: \"Reaction: After this character wins a conflict – your opponent loses 1 fate.\"",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-115",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Daikyū",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Restricted. Support.\nWhile you are the first player, attached character gets +2[mil].\nAttached character gains: \"Reaction: After a character either commits to or moves to a [mil] conflict this character is participating in, choose a participating character with lower [mil] skill than this character – bow it.\"",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-116",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Defiance",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, if you have fewer cards in hand than your opponent, choose a character – until the end of the conflict, that character gets +X[mil] and +X[pol], where X is your opponent's honor bid.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-117",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Exposed Secrets",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict, choose a participating character with [pol] skill equal to or lower than its controller's honor bid – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-118",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Lurking Affliction",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a participating character – taint it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-119",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Way of the Warrior",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a participating Bushi character – until the end of the conflict, opponents' card effects cannot bow, move or dishonor that character. If it is bowed, ready it.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-120",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Accursed Summoning",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Mahō",
+      "Spell",
+      "Earth"
+    ],
+    "text": "This card's fate cost can only be paid for with fate on character you control.\nAction: During a conflict, lose X honor. Choose a non-unique [shadow] character you own from outside the game with printed cost X – put that character into play in the conflict. When it would leave play, remove it from the game instead.",
+    "unverified": true
+  },
+  {
+    "id": "under-fu-lengs-shadow-121",
+    "gameId": "l5r-lcg",
+    "setId": "under-fu-lengs-shadow",
+    "publisherId": "ffg",
+    "name": "Unveiled Corruption",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: Taint a (friendly) unbroken province – each opponent discards cards from their hand, until they have an equal or fewer number of cards in their hand as you.",
     "unverified": true
   }
 ]

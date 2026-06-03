@@ -94,6 +94,16 @@ export interface Card {
    * Settings → Audit.
    */
   unverified?: boolean
+  /**
+   * If this card is one face of a physical two-sided card, the cardId of
+   * the other side. Used by L5R Under Fu Leng's Shadow co-op variants
+   * (1A/1B, 2A/2B, 3A/3B) and Core Set Keeper/Seeker role pairs.
+   * Bidirectional: both sides should set this to point at each other.
+   * Collection counting treats both sides as the same physical card —
+   * that semantic decision lives in the collection / inventory layer,
+   * not here.
+   */
+  flipSideOf?: string
   [gameField: string]: unknown
 }
 

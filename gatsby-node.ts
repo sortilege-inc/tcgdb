@@ -49,6 +49,8 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       illustrator: String
       imagePath: String
       unverified: Boolean
+      # cardId of the other side, when this is a physical two-sided card.
+      flipSideOf: String
       # game-specific fields (sparse, optional, additive across games):
       clan: String
       deck: String

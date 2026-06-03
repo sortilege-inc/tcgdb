@@ -31,14 +31,17 @@ const PUBLISHER_ID = 'ffg'
  * Pulled from the existing build_app.py.
  */
 const EXCLUDED: Array<[string, string]> = [
+  // Core Set Seeker role pairs (215B-218B are the back side of the
+  // matching Keeper 215A-218A roles). Track Keepers only for now;
+  // promote to two-sided modelling when needed.
   ['Core Set', '214B'],
   ['Core Set', '215B'],
   ['Core Set', '216B'],
   ['Core Set', '217B'],
   ['Core Set', '218B'],
-  ["Under Fu Leng's Shadow", '1A'],
-  ["Under Fu Leng's Shadow", '2A'],
-  ["Under Fu Leng's Shadow", '3A'],
+  // Under Fu Leng's Shadow co-op Warlord variants used to be excluded as
+  // flip-sides of 1B/2B/3B, but we now model them as two-sided cards via
+  // the Card.flipSideOf field. Keep the import including them.
 ]
 const excludedKeys = new Set(EXCLUDED.map(([s, n]) => `${s}::${n}`))
 
