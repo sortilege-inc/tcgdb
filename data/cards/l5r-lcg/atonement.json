@@ -1,46 +1,39 @@
 [
   {
-    "id": "atonement-126",
+    "id": "atonement-115",
     "gameId": "l5r-lcg",
     "setId": "atonement",
     "publisherId": "ffg",
-    "name": "Worldly Shiotome",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "atonement-123",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Shiba Pureheart",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "atonement-121",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Righteous Samurai",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "atonement-120",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Agasha Sumiko (A)",
-    "type": "Character",
+    "name": "Iron Mountain Castle",
+    "type": "Stronghold",
+    "unique": true,
     "clan": "Dragon",
-    "deck": "dynasty",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Each  character you control can have an additional restricted attachment.\nInterrupt: When you play an attachment on a character you control, bow this stronghold – reduce the cost to play that attachment by 1.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-116",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Unbridled Ambition",
+    "type": "Province",
+    "clan": "Scorpion",
+    "text": "Cannot be a stronghold province.\nDishonored characters do not count their skill toward the resolution of conflicts at this province.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-117",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Weight of Duty",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Action: During a conflict at a [void] province, sacrifice a participating character. Choose a non-unique character your opponent controls (or any character your opponent controls, if the sacrificed character was unique) – bow and dishonor the chosen character.",
     "unverified": true
   },
   {
@@ -52,60 +45,10 @@
     "type": "Holding",
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "atonement-131",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Daidoji Yari",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "atonement-135",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Compromised Secrets",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "atonement-116",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Unbridled Ambition",
-    "type": "Province",
-    "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "atonement-128",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Apprentice Engineer",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "atonement-124",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Bayushi Kachiko (A)",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "traits": [
+      "Siege Weapon"
+    ],
+    "text": "While this holding is in an unbroken province, it gains \"Action: During a conflict, lose 1 honor. Choose a character that is attacking a province you control – dishonor that character.\"",
     "unverified": true
   },
   {
@@ -117,6 +60,43 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After this character enters play, each player chooses a facedown province they do not control – reveal each chosen province.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-120",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Agasha Sumiko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion",
+      "Imperial"
+    ],
+    "text": "Interrupt: When this character leaves play, choose an opponent – if that player is more honorable than you, they lose 2 honor. If that player has more fate than you, they lose 2 fate. If that player has more cards in hand than you, they discard 2 cards from their hand.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-121",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Righteous Samurai",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After an opponent's card or ring effect causes you to lose 1 or more honor, choose a character – honor that character.",
     "unverified": true
   },
   {
@@ -128,17 +108,44 @@
     "type": "Holding",
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Battlefield",
+      "Castle"
+    ],
+    "text": "Reaction: During a [mil] conflict – discard the top 2 cards of your conflict deck. Then, choose an event in your discard pile. You may play that card as if it were in your hand until the end of the conflict. Put it on the bottom of its owner's conflict deck after playing it.",
     "unverified": true
   },
   {
-    "id": "atonement-136",
+    "id": "atonement-123",
     "gameId": "l5r-lcg",
     "setId": "atonement",
     "publisherId": "ffg",
-    "name": "Flank the Enemy",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "name": "Shiba Pureheart",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Yōjimbō"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nReaction: After an opponent declares their second conflict against you this phase, choose a character – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-124",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Bayushi Kachiko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial"
+    ],
+    "text": "During [pol] conflicts in which this character is participating, you may play each event in your opponent's conflict discard pile as if it were in your hand. After you play a card in this way, remove it from the game. You cannot play more than 3 cards per round in this way.",
     "unverified": true
   },
   {
@@ -150,60 +157,28 @@
     "type": "Character",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Gaijin"
+    ],
+    "text": "Seeker role only.\nReaction: After a province is revealed during a conflict in which this character is participating – resolve a ring effect that matches the attacked province's element. (Max 1 per conflict.)",
     "unverified": true
   },
   {
-    "id": "atonement-132",
+    "id": "atonement-126",
     "gameId": "l5r-lcg",
     "setId": "atonement",
     "publisherId": "ffg",
-    "name": "In Search of Self",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "atonement-129",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Inventive Buttressing",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "atonement-115",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Iron Mountain Castle",
-    "type": "Stronghold",
-    "clan": "Dragon",
-    "unverified": true
-  },
-  {
-    "id": "atonement-134",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Magistrate's Intervention",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "atonement-133",
-    "gameId": "l5r-lcg",
-    "setId": "atonement",
-    "publisherId": "ffg",
-    "name": "Spiritcaller Prodigy",
+    "name": "Worldly Shiotome",
     "type": "Character",
-    "clan": "Lion",
-    "deck": "conflict",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Battle Maiden"
+    ],
+    "text": "Reaction: After you play a Gaijin card – honor this character.\nCard design by Legend of the Five Rings community.",
     "unverified": true
   },
   {
@@ -215,6 +190,38 @@
     "type": "Event",
     "clan": "Neutral",
     "deck": "dynasty",
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: Choose an unclaimed ring – remove that ring from the unclaimed ring pool until the end of the round. (It is out of play. Do not discard fate from the ring.)",
+    "unverified": true
+  },
+  {
+    "id": "atonement-128",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Apprentice Engineer",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Engineer"
+    ],
+    "text": "Reaction: After this character enters play, choose a holding in your dynasty discard pile – put that holding into play in one of your unbroken non-stronghold provinces, discarding each other card in that province.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-129",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Inventive Buttressing",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Fortification"
+    ],
+    "text": "Attach to an unbroken province.\nAttached province gets +3 strength during [mil] conflicts.",
     "unverified": true
   },
   {
@@ -226,16 +233,95 @@
     "type": "Attachment",
     "clan": "Crane",
     "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Attach to a character an opponent controls.\nAttached character cannot be declared as an attacker against a province you control.",
     "unverified": true
   },
   {
-    "id": "atonement-117",
+    "id": "atonement-131",
     "gameId": "l5r-lcg",
     "setId": "atonement",
     "publisherId": "ffg",
-    "name": "Weight of Duty",
-    "type": "Province",
-    "clan": "Neutral",
+    "name": "Daidoji Yari",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Restricted.\nWhile your honor bid is lower than an opponent's, each character that opponent controls loses covert.\nCard design by 2018 World Champion Erik Balhuis.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-132",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "In Search of Self",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose an attacking character with printed cost X or lower, where X is equal to the number of facedown provinces you control – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-133",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Spiritcaller Prodigy",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Action: Sacrifice this character. Choose a  character with printed cost 3 or lower in your dynasty discard pile – put that character into play.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-134",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Magistrate's Intervention",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "text": "Play only if you control a Courtier or Magistrate character.\nAction: Choose an attacking character – dishonor that character. Then, if that character's controller has declared two or more conflicts against you this phase, dishonor it again.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-135",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Compromised Secrets",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Play only if you are less honorable than an opponent.\nAs an additional cost to trigger an ability on attached character, its controller must give you 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "atonement-136",
+    "gameId": "l5r-lcg",
+    "setId": "atonement",
+    "publisherId": "ffg",
+    "name": "Flank the Enemy",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Action: During a conflict in which you control more participating characters than your opponent, your opponent chooses a participating character they control – bow that character.",
     "unverified": true
   }
 ]

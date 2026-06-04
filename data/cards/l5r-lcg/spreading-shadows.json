@@ -1,24 +1,17 @@
 [
   {
-    "id": "spreading-shadows-039",
+    "id": "spreading-shadows-025",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Twilight Rider",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "spreading-shadows-034",
-    "gameId": "l5r-lcg",
-    "setId": "spreading-shadows",
-    "publisherId": "ffg",
-    "name": "Traveling Philosopher",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
+    "name": "Seven Stings Keep",
+    "type": "Stronghold",
+    "unique": true,
+    "clan": "Scorpion",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Interrupt: When you declare a conflict, choose a number greater than 0 and bow this stronghold – your opponent declares defenders for this conflict. Then declare the conflict (choosing attackers, ring, conflict type, and province). You must declare a number of attackers equal to the number you chose.",
     "unverified": true
   },
   {
@@ -28,61 +21,12 @@
     "publisherId": "ffg",
     "name": "Shinsei's Last Hope",
     "type": "Province",
+    "unique": true,
     "clan": "Crab",
-    "unverified": true
-  },
-  {
-    "id": "spreading-shadows-025",
-    "gameId": "l5r-lcg",
-    "setId": "spreading-shadows",
-    "publisherId": "ffg",
-    "name": "Seven Stings Keep",
-    "type": "Stronghold",
-    "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "spreading-shadows-036",
-    "gameId": "l5r-lcg",
-    "setId": "spreading-shadows",
-    "publisherId": "ffg",
-    "name": "Inspired Visionary",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "spreading-shadows-043",
-    "gameId": "l5r-lcg",
-    "setId": "spreading-shadows",
-    "publisherId": "ffg",
-    "name": "Highlight the Flaws",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "spreading-shadows-038",
-    "gameId": "l5r-lcg",
-    "setId": "spreading-shadows",
-    "publisherId": "ffg",
-    "name": "Dispatch to Nowhere",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "spreading-shadows-041",
-    "gameId": "l5r-lcg",
-    "setId": "spreading-shadows",
-    "publisherId": "ffg",
-    "name": "Disciple of Shinsei",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
+    "traits": [
+      "Village"
+    ],
+    "text": "Eminent. (This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)\nEach character played from this province costs two less to play and enters play dishonored.",
     "unverified": true
   },
   {
@@ -93,6 +37,10 @@
     "name": "Spectral Visitation",
     "type": "Province",
     "clan": "Lion",
+    "traits": [
+      "Spirit"
+    ],
+    "text": "Reaction: After this province is revealed, discard the top 4 cards of your dynasty deck – choose a character in your dynasty discard pile and put that character into play",
     "unverified": true
   },
   {
@@ -103,6 +51,7 @@
     "name": "Retire to the Brotherhood",
     "type": "Province",
     "clan": "Phoenix",
+    "text": "Reaction: After this province is revealed – each player discards each character they control with no fate, reveals cards from the top of their dynasty deck until an equal number of characters are revealed, and puts those characters into play. Shuffle.",
     "unverified": true
   },
   {
@@ -112,7 +61,12 @@
     "publisherId": "ffg",
     "name": "Wind's Path",
     "type": "Province",
+    "unique": true,
     "clan": "Unicorn",
+    "traits": [
+      "Road"
+    ],
+    "text": "Eminent.\nDuring conflicts, you may play each character in this province as if it were in your hand. Each character played this way must enter play in the conflict.",
     "unverified": true
   },
   {
@@ -123,6 +77,7 @@
     "name": "Driven By Courage",
     "type": "Province",
     "clan": "Neutral",
+    "text": "Action: During a conflict at an [air] province, choose a participating character – that character gets +2[mil] and +2[pol] until the end of the conflict.",
     "unverified": true
   },
   {
@@ -134,6 +89,11 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Berserker"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nWhile this character is attacking, characters with less [mil] skill than the number of unbroken provinces you control cannot be declared as defenders.",
     "unverified": true
   },
   {
@@ -145,6 +105,11 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Duelist"
+    ],
+    "text": "Rally.\nAction: During a conflict, initiate a [pol] duel against a character your opponent controls of their choice – resolve the duel. The controller of the duel's winner may trigger the attacked province's action ability as if they controlled the province, even if it has already been triggered this round (or specified period).",
     "unverified": true
   },
   {
@@ -156,6 +121,25 @@
     "type": "Holding",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Marketplace"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nReaction: After the conflict phase begins – reveal this holding's province.",
+    "unverified": true
+  },
+  {
+    "id": "spreading-shadows-034",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Traveling Philosopher",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk"
+    ],
+    "text": "Interrupt: When this character leaves play, choose an unbroken province you control – turn that province facedown.",
     "unverified": true
   },
   {
@@ -167,6 +151,26 @@
     "type": "Character",
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict in which this character is participating, if there is a Battlefield in play – gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "spreading-shadows-036",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Inspired Visionary",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Reaction: After the fate phase begins, bow this character and choose an attachment – shuffle that attachment into its owner's conflict deck. That player draws 1 card.",
     "unverified": true
   },
   {
@@ -178,6 +182,39 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Pride.\nAction: During a conflict in which this character is participating, lose 1 honor – your opponent discards 1 random card from their hand.",
+    "unverified": true
+  },
+  {
+    "id": "spreading-shadows-038",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Dispatch to Nowhere",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "text": "Action: Choose a character with no fate – discard it.",
+    "unverified": true
+  },
+  {
+    "id": "spreading-shadows-039",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Twilight Rider",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Scout"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nReaction: After this character moves to a conflict, choose a character – ready that character.",
     "unverified": true
   },
   {
@@ -189,6 +226,23 @@
     "type": "Holding",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "text": "Reaction: After a character you control moves to a conflict – it gets +2[mil] until the end of the conflict. (Limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "spreading-shadows-041",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Disciple of Shinsei",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Brotherhood"
+    ],
+    "text": "Interrupt: When this character leaves play, choose an attachment – discard it.",
     "unverified": true
   },
   {
@@ -200,6 +254,23 @@
     "type": "Attachment",
     "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Item",
+      "Shadowlands"
+    ],
+    "text": "Void role only.\nAction: Lose 1 honor – discard a status token from attached character. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "spreading-shadows-043",
+    "gameId": "l5r-lcg",
+    "setId": "spreading-shadows",
+    "publisherId": "ffg",
+    "name": "Highlight the Flaws",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Fire role only.\nInterrupt: When the effects of a province's triggered ability would initiate – cancel those effects.",
     "unverified": true
   },
   {
@@ -211,6 +282,7 @@
     "type": "Event",
     "clan": "Dragon",
     "deck": "conflict",
+    "text": "Void role only.\nAction: During a conflict – cancel all ring effects until the end of the conflict.",
     "unverified": true
   },
   {
@@ -222,6 +294,10 @@
     "type": "Event",
     "clan": "Lion",
     "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Action: Choose a card in or attached to a province – move that card to another unbroken non-stronghold province controlled by the same player. If there is a Battlefield in play, draw 1 card.",
     "unverified": true
   },
   {
@@ -233,6 +309,11 @@
     "type": "Event",
     "clan": "Phoenix",
     "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Void"
+    ],
+    "text": "Interrupt: When the conflict phase ends, choose a broken province that shares an element with a ring in your claimed ring pool – restore that province. Remove this card from the game.",
     "unverified": true
   },
   {
@@ -244,6 +325,7 @@
     "type": "Event",
     "clan": "Scorpion",
     "deck": "conflict",
+    "text": "Earth role only.\nAction: During the conflict phase, sacrifice a bowed (friendly) Bushi, Courtier, or Shugenja character – you may declare an additional [pol] conflict this phase. (Max 1 per phase.)",
     "unverified": true
   },
   {
@@ -255,6 +337,10 @@
     "type": "Event",
     "clan": "Unicorn",
     "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Reaction: After you declare an attack – until the end of the conflict, each character you control cannot be bowed or moved home by opponents' card effects.",
     "unverified": true
   }
 ]

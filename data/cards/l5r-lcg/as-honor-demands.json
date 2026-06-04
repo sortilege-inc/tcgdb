@@ -6,117 +6,12 @@
     "publisherId": "ffg",
     "name": "Seven Fold Palace",
     "type": "Stronghold",
+    "unique": true,
     "clan": "Crane",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-098",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Master of the Court",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-108",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Elegance and Grace",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-103",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Endless Archives",
-    "type": "Holding",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-102",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Asako Lawmaster",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-105",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Shinjo Altansarnai (AHD)",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-106",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Contested Countryside",
-    "type": "Holding",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-109",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Waterfall Tattoo",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-111",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "The Receding Tie",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-110",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Divine Ancestry",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-114",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Command By Name",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "traits": [
+      "Palace"
+    ],
+    "text": "Reaction: After an honored character you control wins a conflict as the attacker, bow this stronghold – gain 2 honor.",
     "unverified": true
   },
   {
@@ -126,62 +21,12 @@
     "publisherId": "ffg",
     "name": "Foothills Keep",
     "type": "Province",
+    "unique": true,
     "clan": "Dragon",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-097",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Hida Etsuji",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-099",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Master of Many Lifetimes",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-104",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Beautiful Entertainer",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-107",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Ceaseless Duty",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-100",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Fearless Skirmisher",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Eminent. (This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)\nAs an additional cost to attack another province you control, your opponent must spend 1 fate to an unclaimed ring.",
     "unverified": true
   },
   {
@@ -189,20 +34,10 @@
     "gameId": "l5r-lcg",
     "setId": "as-honor-demands",
     "publisherId": "ffg",
-    "name": "Honor’s Reward",
+    "name": "Honor's Reward",
     "type": "Province",
     "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "as-honor-demands-101",
-    "gameId": "l5r-lcg",
-    "setId": "as-honor-demands",
-    "publisherId": "ffg",
-    "name": "Honored Veterans",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "text": "Action: During a conflict at a [fire] province, choose a participating character – that character gets +3 glory until the end of the conflict.",
     "unverified": true
   },
   {
@@ -214,6 +49,231 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nInterrupt: When the conflict phase ends, if you control 1 or fewer broken provinces – gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-097",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Hida Etsuji",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "This character cannot be evaded by the covert keyword.\nYou can trigger each ability on a province you control an additional time each round (or specified period).",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-098",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Master of the Court",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Covert. (When this character attacks, choose one character without covert. That character cannot be declared as a defender.)\nInterrupt: When the effects of an event would initiate, discard an honored status token from this character – cancel those effects.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-099",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Master of Many Lifetimes",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Seeker role only.\nRally.\nInterrupt: When a character you control would leave play, choose a facedown province you control - put that character into that province instead, adding each attachment on it to its owner's hand.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-100",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Fearless Skirmisher",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Keeper role only.\nReaction: After this character wins a [mil] conflict, choose a dishonored status token and a character – move the status token to the chosen character.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-101",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Honored Veterans",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: Each player chooses up to one Bushi character they played this phase – honor each of those characters.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-102",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Asako Lawmaster",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After you pass on declaring a conflict – gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-103",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Endless Archives",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Library"
+    ],
+    "text": "Reaction: After you pass on declaring a conflict – put an honor token on this holding. Then, put X cards from your hand on the bottom of your conflict deck and draw that many cards, where X is the number of honor tokens on this holding. Any player may trigger this ability. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-104",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Beautiful Entertainer",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Geisha"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nInterrupt: When this character leaves play, if you are less honorable than an opponent – gain 2 honor.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-105",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Shinjo Altansarnai",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Champion"
+    ],
+    "text": "Action: During a [mil] conflict in which this character is participating – search the top 8 cards of your dynasty deck for a non-unique character with printed cost 3 or lower and put that character into play in the conflict. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-106",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Contested Countryside",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Battlefield",
+      "Village"
+    ],
+    "text": "Keeper role only.\nRally.\nDuring conflicts in which you are the attacking player, you may trigger the attacked province's abilities as if you controlled that province.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-107",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Ceaseless Duty",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Action: When a character with printed cost equal to or lower than the number of unbroken provinces you control would leave play – it remains in play instead.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-108",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Elegance and Grace",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: Choose up to two honored characters with total printed gold cost 6 or less – ready each of those characters.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-109",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Waterfall Tattoo",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Tattoo"
+    ],
+    "text": "Attach to a character you control. Attached character gains the Tattooed trait.\nReaction: After a province you control is revealed - ready attached character.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-110",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Divine Ancestry",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Earth role only.\nReaction: After a phase begins – you cannot lose honor this phase.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-111",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "The Receding Tie",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water"
+    ],
+    "text": "Water role only.\nAction: Choose a non-Mythic character you own – put that character into a non-stronghold province you control. (It is now out of play.)",
     "unverified": true
   },
   {
@@ -225,6 +285,11 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Action: During a conflict, choose a card in a non-stronghold province – move that card to another non-stronghold province controlled by the same player.",
     "unverified": true
   },
   {
@@ -236,6 +301,24 @@
     "type": "Event",
     "clan": "Scorpion",
     "deck": "conflict",
+    "text": "Reduce the cost to play this card by 2 if your opponent has 4 or more facedown cards in their provinces.\nAction: During a conflict, reveal each facedown card in your opponent's provinces. Then, choose up to 2 characters in their provinces – put those characters into play in the conflict under your control.",
+    "unverified": true
+  },
+  {
+    "id": "as-honor-demands-114",
+    "gameId": "l5r-lcg",
+    "setId": "as-honor-demands",
+    "publisherId": "ffg",
+    "name": "Command By Name",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water",
+      "Meishōdō"
+    ],
+    "text": "Water role only.\nAction: During a conflict, lose 1 honor and discard a card from your hand – set the attacked province's base strength to 0 until the end of the conflict.",
     "unverified": true
   }
 ]

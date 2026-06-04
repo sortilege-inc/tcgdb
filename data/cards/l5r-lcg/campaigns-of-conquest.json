@@ -1,34 +1,17 @@
 [
   {
-    "id": "campaigns-of-conquest-089",
-    "gameId": "l5r-lcg",
-    "setId": "campaigns-of-conquest",
-    "publisherId": "ffg",
-    "name": "Under Siege",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "campaigns-of-conquest-079",
-    "gameId": "l5r-lcg",
-    "setId": "campaigns-of-conquest",
-    "publisherId": "ffg",
-    "name": "Ikoma Tsanuri (CoC)",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
     "id": "campaigns-of-conquest-071",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
     "name": "Hayaken no Shiro",
     "type": "Stronghold",
+    "unique": true,
     "clan": "Lion",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Action: Bow this stronghold. Choose a Bushi character with printed cost 2 or lower – ready that character.",
     "unverified": true
   },
   {
@@ -39,28 +22,7 @@
     "name": "Breaking In",
     "type": "Province",
     "clan": "Unicorn",
-    "unverified": true
-  },
-  {
-    "id": "campaigns-of-conquest-085",
-    "gameId": "l5r-lcg",
-    "setId": "campaigns-of-conquest",
-    "publisherId": "ffg",
-    "name": "Mercenary Company",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "campaigns-of-conquest-083",
-    "gameId": "l5r-lcg",
-    "setId": "campaigns-of-conquest",
-    "publisherId": "ffg",
-    "name": "Open Window",
-    "type": "Holding",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "text": "Reaction: After this province is revealed – search the top 8 cards of your dynasty deck for a character and put it into this province faceup. If that character has the Cavalry trait, you may put it faceup into any province you control instead. Shuffle.",
     "unverified": true
   },
   {
@@ -71,6 +33,7 @@
     "name": "The Pursuit of Justice",
     "type": "Province",
     "clan": "Neutral",
+    "text": "Action: During a conflict at a [water] province, choose a participating character – ready that character.",
     "unverified": true
   },
   {
@@ -82,6 +45,11 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "Reaction: After an opponent passes on declaring a conflict – that opponent discards 1 random card from their hand.",
     "unverified": true
   },
   {
@@ -93,6 +61,10 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nThis character gets +1 glory for each faceup province you control.",
     "unverified": true
   },
   {
@@ -104,6 +76,7 @@
     "type": "Event",
     "clan": "Crane",
     "deck": "conflict",
+    "text": "Keeper role only.\nAction: Choose a province – discard each card in that province.",
     "unverified": true
   },
   {
@@ -115,6 +88,11 @@
     "type": "Character",
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: During a conflict in which this character is participating, choose a participating character with fewer attachments than this character – dishonor this character.",
     "unverified": true
   },
   {
@@ -126,6 +104,24 @@
     "type": "Holding",
     "clan": "Dragon",
     "deck": "dynasty",
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nInterrupt: When the conflict phase ends, if this holding's province is unbroken – turn that province facedown.",
+    "unverified": true
+  },
+  {
+    "id": "campaigns-of-conquest-079",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Ikoma Tsanuri",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: During conflicts in which this character is participating, your opponent cannot trigger abilities on the attacked province.",
     "unverified": true
   },
   {
@@ -133,10 +129,17 @@
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Isawa Tsuke (CoC)",
+    "name": "Isawa Tsuke",
     "type": "Character",
+    "unique": true,
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire",
+      "Elemental Master"
+    ],
+    "text": "Pride\nAction: During a conflict, if the [fire] ring is in the unclaimed ring pool, lose 1 or more honor. Choose an equal number of participating characters – remove 1 fate from each of those characters.",
     "unverified": true
   },
   {
@@ -148,6 +151,7 @@
     "type": "Event",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: Choose a character with the most fate on it among characters in play – honor that character.",
     "unverified": true
   },
   {
@@ -159,6 +163,24 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shadow",
+      "Shinobi"
+    ],
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nWhile you have 6 or fewer honor, this character gets +2[mil] and +2[pol].",
+    "unverified": true
+  },
+  {
+    "id": "campaigns-of-conquest-083",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Open Window",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: During a conflict, choose a Shinobi character you control – move that character to the conflict.",
     "unverified": true
   },
   {
@@ -170,6 +192,24 @@
     "type": "Event",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nReaction: After you pass during the dynasty phase – each opponent who has not yet passed discards 1 random card from their hand.",
+    "unverified": true
+  },
+  {
+    "id": "campaigns-of-conquest-085",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Mercenary Company",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Rōnin",
+      "Army"
+    ],
+    "text": "No attachments except Weapon. Rally.\nForced Reaction: After this character loses a conflict – your opponent may move 1 fate from their fate pool to this character. If they do, they gain control of it. (Unlimited.)",
     "unverified": true
   },
   {
@@ -181,6 +221,10 @@
     "type": "Attachment",
     "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Restricted. (No more than two restricted attachments per character.)\nAttached character gains: \"Reaction: After this character wins a conflict – your opponent discards 1 card from their hand. (Limit twice per round.)\"",
     "unverified": true
   },
   {
@@ -192,6 +236,11 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Rōnin"
+    ],
+    "text": "You can only play this card if you control at least 3 faceup provinces.",
     "unverified": true
   },
   {
@@ -203,6 +252,22 @@
     "type": "Attachment",
     "clan": "Dragon",
     "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Earth role only\nWhile 2 or more of your non-stronghold provinces are facedown, attached character cannot be chosen as a target of an opponent's triggered ability.",
+    "unverified": true
+  },
+  {
+    "id": "campaigns-of-conquest-089",
+    "gameId": "l5r-lcg",
+    "setId": "campaigns-of-conquest",
+    "publisherId": "ffg",
+    "name": "Under Siege",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Fire role only.\nReaction: After a conflict is declared – the defending player sets their hand aside, facedown and out of play. If they do, they draw 5 cards. At the end of the conflict, that player discards their hand and adds the set-aside cards to their hands. (Max 1 per conflict.)",
     "unverified": true
   },
   {
@@ -214,6 +279,11 @@
     "type": "Attachment",
     "clan": "Phoenix",
     "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Earth"
+    ],
+    "text": "Reaction: After attached character wins a conflict, choose a card in a province – discard that card. (Unlimited.).",
     "unverified": true
   },
   {
@@ -225,6 +295,7 @@
     "type": "Event",
     "clan": "Scorpion",
     "deck": "conflict",
+    "text": "Interrupt: When the effects of an event would initiate, if you are less honorable than the player initiating those effects – cancel those effects.",
     "unverified": true
   },
   {
@@ -236,6 +307,10 @@
     "type": "Attachment",
     "clan": "Unicorn",
     "deck": "conflict",
+    "traits": [
+      "Creature"
+    ],
+    "text": "Attached character gains the Cavalry trait\nAction: If an opponent controls 3 or more faceup provinces, sacrifice this attachment – ready attached character.",
     "unverified": true
   }
 ]
