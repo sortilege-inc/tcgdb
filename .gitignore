@@ -13,3 +13,10 @@ Thumbs.db
 .vscode/
 *.tsbuildinfo
 dist/
+
+# Personal deck files (mutable user state managed by the sidecar). The
+# placeholder .gitkeep is kept so the directory still exists on a fresh
+# clone — without it, the sidecar's deck loader has nowhere to scan.
+# Revisit if/when we want decks versioned alongside cards.
+data/decks/*
+!data/decks/.gitkeep
