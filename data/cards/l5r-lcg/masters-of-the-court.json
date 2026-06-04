@@ -1,111 +1,17 @@
 [
   {
-    "id": "masters-of-the-court-020",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Political Sanction",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
     "id": "masters-of-the-court-001",
     "gameId": "l5r-lcg",
     "setId": "masters-of-the-court",
     "publisherId": "ffg",
     "name": "Kyūden Kakita",
     "type": "Stronghold",
+    "unique": true,
     "clan": "Crane",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-008",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Kakita Yuri",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-009",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Asahina Takamori",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-016",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Akodo Makoto",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-022",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Gossip",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-013",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Distinguished Dōjō",
-    "type": "Holding",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-011",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Daidoji Uji",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-023",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "The Spear Rushes Forth",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-026",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Shinjo Haruko",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "traits": [
+      "Palace"
+    ],
+    "text": "Reaction: After a duel resolves, bow this stronghold and choose a character you control which was involved in the duel – honor that character.",
     "unverified": true
   },
   {
@@ -116,138 +22,10 @@
     "name": "Market of Kaze-no-Kami",
     "type": "Province",
     "clan": "Crane",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-006",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Kakita Favorite",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-027",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Daimyō's Gunbai",
-    "type": "Attachment",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-014",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Yasuki Fuzake",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-015",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Kitsuki Jusai",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-017",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Chukan Nobue",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-018",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Bayushi Dairu",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-019",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Armament Artisan",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-012",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Winter Court Hosts",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-007",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Maker of Keepsakes",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-025",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Festival for the Fortunes",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-024",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Courteous Scheming",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "masters-of-the-court-010",
-    "gameId": "l5r-lcg",
-    "setId": "masters-of-the-court",
-    "publisherId": "ffg",
-    "name": "Benevolent Host",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
+    "traits": [
+      "Marketplace"
+    ],
+    "text": "Reaction: After this province is revealed, choose a character that is not honored – bow that character.",
     "unverified": true
   },
   {
@@ -258,6 +36,10 @@
     "name": "Support of the Crane",
     "type": "Role",
     "clan": "Neutral",
+    "traits": [
+      "Crane"
+    ],
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
     "unverified": true
   },
   {
@@ -269,6 +51,10 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Geisha"
+    ],
+    "text": "Each player draws 2 fewer cards from honor bids during the draw phase (to a minimum of 1).",
     "unverified": true
   },
   {
@@ -280,6 +66,257 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: Choose an opponent – you and that opponent each draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-006",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Kakita Favorite",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "The character gets +2[pol] while it is involved in a duel.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-007",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Maker of Keepsakes",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "This character cannot receive dishonored status tokens.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-008",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Kakita Yuri",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Duelist"
+    ],
+    "text": "Action: During a conflict, initiate a [pol] duel against a character your opponent controls of his or her choice – resolve the duel. The controller of the duel's loser cannot declare [mil] conflicts this phase.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-009",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Asahina Takamori",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Shugenja",
+      "Air",
+      "Daimyō"
+    ],
+    "text": "Reaction: After you play a  character, choose an opponent's character with equal or lower printed cost – that character cannot be declared as an attacker or defender this round.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-010",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Benevolent Host",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After you play this character, choose a Courtier in your provinces – put that character into play. If that character has a printed cost of 2 or lower, put 1 fate on it.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-011",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Daidoji Uji",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Daimyō",
+      "Shinobi"
+    ],
+    "text": "While this character is honored, you may play each character in your provinces as if it were in your hand.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-012",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Winter Court Hosts",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "No attachments.\nAction: After your opponent plays a card during a conflict in which this character is participating, if you are more honorable than that opponent – draw 1 card. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-013",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Distinguished Dōjō",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Dōjō"
+    ],
+    "text": "Reaction: After you win a duel – place 1 honor token on this holding. Then, you may sacrifice this holding to gain honor equal to the number of honor tokens on this holding. (Limit 3 times per round.)",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-014",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Yasuki Fuzake",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "Interrupt: When this character leaves play, choose up to one character controlled by each player – discard each status token from each of those characters.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-015",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Kitsuki Jusai",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Daimyō"
+    ],
+    "text": "Reaction: After honor dials are revealed, if your honor bid is equal to an opponent's – move 1 fate from that opponent's fate pool to an unclaimed ring.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-016",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Akodo Makoto",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After this character wins a conflict, choose a participating Courtier character – if that character has no fate on it, discard it. Otherwise, remove 1 fate from it.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-017",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Chukan Nobue",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Scholar"
+    ],
+    "text": "Card abilities triggered by your opponents cannot cause cards to be discarded from your hand.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-018",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Bayushi Dairu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Scholar"
+    ],
+    "text": "Action: During a conflict in which this character is participating, choose a status token on another character in play – move that token to this character.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-019",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Armament Artisan",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Mantis Clan"
+    ],
+    "text": "Reaction: After another character you control is honored – honor this character.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-020",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Political Sanction",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Play only during a [pol] conflict in which you count more current [pol] skill than your opponent, and only on a participating character.\nAttached character cannot trigger its abilities.",
     "unverified": true
   },
   {
@@ -291,6 +328,96 @@
     "type": "Attachment",
     "clan": "Crane",
     "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Attach to a character you control.\nRestricted.\nReaction: After attached character wins a [pol] conflict, sacrifice this attachment – your opponent chooses and discards 2 cards from his or her hand.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-022",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Gossip",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Limited. (No more than one limited card can be played by each player each round.)\nAction: Name a card. Until the end of the phase, each opponent cannot play cards from his or her hand with that name.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-023",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "The Spear Rushes Forth",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: During a [mil] conflict, discard an honored status token from a participating (friendly) character and choose a participating character your opponent controls – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-024",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Courteous Scheming",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict, initiate a [pol] duel against a character your opponent controls of his or her choice – resolve the duel. The controller of the duel's winner may declare an additional [pol] conflict this phase. (Max 1 per round.)",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-025",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Festival for the Fortunes",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Festival"
+    ],
+    "text": "Action: Honor each character.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-026",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Shinjo Haruko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Action: During a conflict in which this character is participating, choose an honored character – move that character to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "masters-of-the-court-027",
+    "gameId": "l5r-lcg",
+    "setId": "masters-of-the-court",
+    "publisherId": "ffg",
+    "name": "Daimyō's Gunbai",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Restricted.\nAction: During a conflict, if this card is in your hand, reveal it and initiate a [mil] duel against a character your opponent controls of his or her choice — resolve the duel. Put this card into play attached to the duel's winner, if able. Otherwise, discard it.",
     "unverified": true
   },
   {
@@ -302,6 +429,7 @@
     "type": "Event",
     "clan": "Neutral",
     "deck": "conflict",
+    "text": "Action: During a [mil] conflict, choose a participating character you control – move that character home.",
     "unverified": true
   }
 ]

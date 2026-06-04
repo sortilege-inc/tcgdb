@@ -1,122 +1,17 @@
 [
   {
-    "id": "defenders-of-rokugan-007",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Hida O-Ushi",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-026",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Subterranean Guile",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-028",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Siege Warfare",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-014",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "River of the Last Stand",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-017",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Watchtower of Valor",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-013",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Northern Curtain Wall",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
     "id": "defenders-of-rokugan-001",
     "gameId": "l5r-lcg",
     "setId": "defenders-of-rokugan",
     "publisherId": "ffg",
     "name": "Kyūden Hida",
     "type": "Stronghold",
+    "unique": true,
     "clan": "Crab",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-010",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Kaiu Shihobu",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-018",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Daidoji Netsu",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-012",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Kaiu Forges",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-015",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Seventh Tower",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Action: During the dynasty phase, bow this stronghold – look at the top three cards of your dynasty deck. You may play a character from among those cards as if it were in your provinces. Discard the rest.",
     "unverified": true
   },
   {
@@ -126,29 +21,26 @@
     "publisherId": "ffg",
     "name": "Kuni Wasteland",
     "type": "Province",
+    "unique": true,
     "clan": "Crab",
+    "traits": [
+      "Wasteland"
+    ],
+    "text": "During conflicts at this province, your opponent cannot trigger character abilities or initiate keywords from characters he or she controls. (Covert is initiated before this province is revealed.)",
     "unverified": true
   },
   {
-    "id": "defenders-of-rokugan-029",
+    "id": "defenders-of-rokugan-003",
     "gameId": "l5r-lcg",
     "setId": "defenders-of-rokugan",
     "publisherId": "ffg",
-    "name": "Desolation",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-009",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Favorable Dealbroker",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
+    "name": "Support of the Crab",
+    "type": "Role",
+    "clan": "Neutral",
+    "traits": [
+      "Crab"
+    ],
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
     "unverified": true
   },
   {
@@ -160,17 +52,11 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-008",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Unyielding Sensei",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "Reaction: After you win a conflict as the defending player – your opponent loses 1 honor.",
     "unverified": true
   },
   {
@@ -180,150 +66,14 @@
     "publisherId": "ffg",
     "name": "Hida Sukune",
     "type": "Character",
+    "unique": true,
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-016",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Third Whisker Warrens",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-019",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Agasha Hiyori",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-030",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "The Strength of the Mountain",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-032",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Slovenly Scavenger",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-031",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Isawa Eju",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-021",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Yogo Asami",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-022",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Shinjo Yasamura",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-023",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Moto Eviscerator",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-020",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Matsu Agetoki",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-024",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Kansen Haunt",
-    "type": "Holding",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-003",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Support of the Crab",
-    "type": "Role",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-027",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Fruitful Respite",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "defenders-of-rokugan-025",
-    "gameId": "l5r-lcg",
-    "setId": "defenders-of-rokugan",
-    "publisherId": "ffg",
-    "name": "Reinforced Plate",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Action: During a conflict in which this character is defending – draw 1 card, then discard 1 card from your hand. (Limit once per conflict.)",
     "unverified": true
   },
   {
@@ -335,6 +85,76 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "Each conflict this character wins while attacking is considered to be unopposed.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-007",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Hida O-Ushi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After you win a conflict as the defending player – you may declare an additional [mil] conflict this phase. (Max 1 per phase.)",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-008",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Unyielding Sensei",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: Choose an unbroken province you control with a holding – look at the top 2 cards of your dynasty deck. You may put a character card from among them into the province faceup. (Do not discard the other cards in the province.)",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-009",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Favorable Dealbroker",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Merchant"
+    ],
+    "text": "Reaction: After this character enters play – search your dynasty deck for a character with printed cost 1 and put it into play. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-010",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kaiu Shihobu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Daimyō",
+      "Engineer"
+    ],
+    "text": "Reaction: After this character enters play – search your dynasty deck for any number of holdings, reveal them, and put them facedown underneath your stronghold province (out of play). Shuffle.\nAction: Put a facedown holding under your stronghold province into play in an unbroken non-stronghold province you control, discarding each other card in your province.",
     "unverified": true
   },
   {
@@ -344,8 +164,351 @@
     "publisherId": "ffg",
     "name": "Kaiu Siege Force",
     "type": "Character",
+    "unique": true,
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Army",
+      "Engineer"
+    ],
+    "text": "No attachments.\nAction: Put a (friendly) holding on the bottom of your dynasty deck – ready this character.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-012",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kaiu Forges",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Kaiu Wall"
+    ],
+    "text": "Limit 1 per deck.\nAction: Choose a province you control – search the top 10 cards of your dynasty deck for a holding and switch it with a Kaiu Wall holding in that province. Shuffle. (The new holding is faceup.)",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-013",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Northern Curtain Wall",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Kaiu Wall"
+    ],
+    "text": "Limit 1 per deck.\nEach Kaiu Wall holding in each adjacent province gets +2 bonus strength.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-014",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "River of the Last Stand",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Kaiu Wall",
+      "River"
+    ],
+    "text": "Limit 1 per deck.\nAction: During a conflict at a province you control with a Kaiu Wall holding – your opponent discards 2 random cards from their hand, then draws 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-015",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Seventh Tower",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Kaiu Wall"
+    ],
+    "text": "Limit 1 per deck.\nReaction: After you win a conflict as the defending player, if the attacked province has a Kaiu Wall holding – resolve the ring effect of the contested ring as if you were the attacking player",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-016",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Third Whisker Warrens",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Kaiu Wall"
+    ],
+    "text": "Limit 1 per deck.\nDuring each conflict at a province you control with a Kaiu Wall holding, you may look at and play the top card of your dynasty deck as if it were in your hand.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-017",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Watchtower of Valor",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Kaiu Wall"
+    ],
+    "text": "Limit 1 per deck.\nReaction: After you win a conflict as the defending player, if the attacked province has a Kaiu Wall holding – draw 1 card. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-018",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Daidoji Netsu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Other characters cannot leave play during the conflict phase except by the effect of keywords.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-019",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Agasha Hiyori",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire"
+    ],
+    "text": "Reaction: After a phase begins, spend 1 fate to an unclaimed ring and choose an attachment on a character – until the end of the phase, treat that attachment as if its printed text box were blank (except for Traits) and as if it had no skill modifiers.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-020",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Matsu Agetoki",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Commander"
+    ],
+    "text": "Action: During a conflict in which this character is attacking, if you are more honorable than your opponent – move the contested ring to another eligible province and reveal that province, if able. It is now the attacked province.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-021",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Yogo Asami",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Bayushi Kachiko cannot be chosen as the target of abilities triggered by an opponent.\nAction: During a conflict in which this character is participating, bow it and choose a participating character – that character gets -2[mil] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-022",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Shinjo Yasamura",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Covert. (When this character attacks, choose one character without covert. That character cannot be declared as a defender.)\nReaction: After this character evades a character using covert – that character cannot be declared as a defender this phase.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-023",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Moto Eviscerator",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Shadowlands"
+    ],
+    "text": "Action: During a conflict, lose 1 honor – move this character to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-024",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Kansen Haunt",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Shadowlands"
+    ],
+    "text": "Reaction: After you claim a ring during a conflict in which you are the defending player, if you are less honorable than an opponent, lose 2 honor – resolve that ring's effect as if you were the attacking player.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-025",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Reinforced Plate",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Armor"
+    ],
+    "text": "While attached character is participating in a [mil] conflict, it is immune to the effects of opponents' events.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-026",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Subterranean Guile",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "During [mil] conflicts, if you control a holding on an unbroken province, attached character gains covert.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-027",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Fruitful Respite",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Reaction: After an opponent passes on declaring a conflict, if he or she controls 1 or more ready characters – gain 2 fate.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-028",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Siege Warfare",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Action: During a conflict in which you are attacking, if you control a holding – until the end of the conflict, the attacked province gets -2 strength (to a minimum of 0).",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-029",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Desolation",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Earth"
+    ],
+    "text": "Action: Lose 2 honor. Choose an opponent – until the end of the phase, treat each of that opponent's provinces as if its printed text box were blank (except for Traits), including provinces that are revealed later this phase.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-030",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "The Strength of the Mountain",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: During a conflict – until the end of the conflict, each defending character cannot be bowed or moved home by opponents' card effects and does not bow as the result of conflict resolution.",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-031",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Isawa Eju",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Air",
+      "Elemental Master"
+    ],
+    "text": "Courtesy. Sincerity.\nAction: If you have claimed the [air] ring, choose a province – discard each card in that province and refill it faceup. (Limit 3 times per round.)",
+    "unverified": true
+  },
+  {
+    "id": "defenders-of-rokugan-032",
+    "gameId": "l5r-lcg",
+    "setId": "defenders-of-rokugan",
+    "publisherId": "ffg",
+    "name": "Slovenly Scavenger",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Goblin",
+      "Shadowlands"
+    ],
+    "text": "Reaction: After this character wins a conflict, sacrifice it. Choose a discard pile – shuffle that discard pile into its owner's corresponding deck.",
     "unverified": true
   }
 ]

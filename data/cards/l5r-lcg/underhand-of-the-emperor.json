@@ -1,78 +1,45 @@
 [
   {
-    "id": "underhand-of-the-emperor-008",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Bayushi Aramoro",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
     "id": "underhand-of-the-emperor-001",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
     "name": "Kyūden Bayushi",
     "type": "Stronghold",
+    "unique": true,
     "clan": "Scorpion",
+    "traits": [
+      "Palace"
+    ],
+    "text": "Action: Bow this stronghold and choose a dishonored character you control – ready that character. If you have 6 or fewer honor, that character gets +1[mil] and +1[pol] until the end of the phase.",
     "unverified": true
   },
   {
-    "id": "underhand-of-the-emperor-014",
+    "id": "underhand-of-the-emperor-002",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Akodo Kage",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "name": "Brother's Gift Dōjō",
+    "type": "Province",
+    "clan": "Scorpion",
+    "traits": [
+      "Dōjō"
+    ],
+    "text": "Action: During a conflict, lose 1 honor and choose a participating character you control – move that character home. (Limit twice per round.)",
     "unverified": true
   },
   {
-    "id": "underhand-of-the-emperor-021",
+    "id": "underhand-of-the-emperor-003",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Stolen Breath",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-022",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Duty",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-011",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Court of Deception",
-    "type": "Holding",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-010",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Bayushi's Whisperers",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "name": "Support of the Scorpion",
+    "type": "Role",
+    "clan": "Neutral",
+    "traits": [
+      "Scorpion"
+    ],
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
     "unverified": true
   },
   {
@@ -84,60 +51,11 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-026",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Doji Fumiki",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-002",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Brother's Gift Dōjō",
-    "type": "Province",
-    "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-023",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "From the Shadows",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-020",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Liar's Mask",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-018",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Opium Wastrel",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "conflict",
+    "traits": [
+      "Courtier",
+      "Shinobi"
+    ],
+    "text": "Action: If you have 6 or fewer honor – look at the top 2 cards of your conflict deck. Put 1 of those cards into your hand and the other on the bottom of your conflict deck.",
     "unverified": true
   },
   {
@@ -147,74 +65,15 @@
     "publisherId": "ffg",
     "name": "Shosuro Takao",
     "type": "Character",
+    "unique": true,
     "clan": "Scorpion",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-015",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Asako Maezawa",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-027",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Offer Testimony",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-028",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Peasant's Advice",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-017",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Seppun Truthseeker",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-016",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Utaku Tetsuko",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "underhand-of-the-emperor-007",
-    "gameId": "l5r-lcg",
-    "setId": "underhand-of-the-emperor",
-    "publisherId": "ffg",
-    "name": "Soshi Aoi",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shadow",
+      "Shinobi"
+    ],
+    "text": "Action: While a dishonored character is participating in a conflict – move this character into or out of that conflict.",
     "unverified": true
   },
   {
@@ -226,6 +85,45 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "While the bid on your honor dial is higher than an opponent's, this character gains +2 [mil] and +2 [pol].\nAction: While this character is participating in a conflict, choose a participating character controlled by an opponent – challenge that character to a [mil] duel. Dishonor the loser of the duel.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-007",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Soshi Aoi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Action: Lose 1 honor and choose a personality you control. Select an effect – until the end of the phase that character gets +1 [mil] and the Bushi trait; until the end of the phase that character gains +1 [pol] and the Courtier trait.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-008",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Bayushi Aramoro",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shinobi"
+    ],
+    "text": "Action: While this character is participating in a [mil] conflict, dishonor this character and choose a participating character controlled by your opponent – until the end of the conflict, that character gets -2[mil] and is discarded if its [mil] skill is 0.",
     "unverified": true
   },
   {
@@ -237,6 +135,38 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After you play this character, you may lose up to 3 honor – for each honor you lost by this ability, put 1 fate in this character.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-010",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Bayushi's Whisperers",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Informant"
+    ],
+    "text": "No attachments.\nAction: During a conflict – look at an opponent's hand, then name a card. That player cannot play copies of the named card this phase.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-011",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Court of Deception",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "text": "Action: If you have 6 or fewer honor, choose a dishonored character in your home area – discard that character's status token.",
     "unverified": true
   },
   {
@@ -246,8 +176,13 @@
     "publisherId": "ffg",
     "name": "Yasuki Oguri",
     "type": "Character",
+    "unique": true,
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Covert.\nReaction: After an opponent plays an event during a conflict in which this character is defending – until the end of the conflict, this character gets +1 [mil] and +1 [pol]. (Unlimited.)",
     "unverified": true
   },
   {
@@ -257,30 +192,96 @@
     "publisherId": "ffg",
     "name": "Kitsuki Shomon",
     "type": "Character",
+    "unique": true,
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Interrupt: When another character you control would be dishonored – instead, dishonor this character. If you do, ready this character.",
     "unverified": true
   },
   {
-    "id": "underhand-of-the-emperor-025",
+    "id": "underhand-of-the-emperor-014",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Stolen Secrets",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
+    "name": "Akodo Kage",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After honor dials are revealed for an honor bid, if your bid is lower than an opponent's and you are more honorable than that opponent – set that opponent's honor dial to be equal to yours.",
     "unverified": true
   },
   {
-    "id": "underhand-of-the-emperor-024",
+    "id": "underhand-of-the-emperor-015",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Make an Opening",
-    "type": "Event",
+    "name": "Asako Maezawa",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a conflict, if you count more current glory than your opponent among ready participating characters, choose a participating character – double that character's base [pol] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-016",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Utaku Tetsuko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "While this character is attacking, increase the cost for your opponent to play cards from his or her hand by 1.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-017",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Seppun Truthseeker",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial"
+    ],
+    "text": "Forced Interrupt: When this character leaves play – each player draws 2 cards.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-018",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Opium Wastrel",
+    "type": "Character",
     "clan": "Scorpion",
     "deck": "conflict",
+    "traits": [
+      "Peasant"
+    ],
+    "text": "Play only if you are less honorable than an opponent.\nReaction: After this character enters play during a conflict, choose a participating character – set that character's glory to 0 until the end of the conflict.",
     "unverified": true
   },
   {
@@ -292,16 +293,132 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "conflict",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: Choose an attachment attached to a dishonored character – discard both that attachment and that character's status token.",
     "unverified": true
   },
   {
-    "id": "underhand-of-the-emperor-003",
+    "id": "underhand-of-the-emperor-020",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Support of the Scorpion",
-    "type": "Role",
+    "name": "Liar's Mask",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Mask"
+    ],
+    "text": "Play only if you have 6 or fewer honor.\nAction: Discard a status token from attached character.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-021",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Stolen Breath",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Poison"
+    ],
+    "text": "This attachment cannot be played during a conflict.\nAttached character cannot participate in [pol] conflicts.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-022",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Duty",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Limit 1 per deck.\nInterrupt: When the effect of a card ability, ring effect, or framework step would cause you to lose your last honor – cancel that effect, then gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-023",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "From the Shadows",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Play only if you are less honorable than an opponent.\nAction: During a conflict – put a Shinobi character into play from your hand or provinces in the conflict. That character enters play dishonored.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-024",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Make an Opening",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Action: During a conflict in which you control a participating character, choose a participating character controlled by your opponent – that character gets -X[mil] and -X[pol] until the end of the conflict, where X is the difference between the bid on your honor dial and that of your opponent.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-025",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Stolen Secrets",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict, remove 1 fate from a (friendly) participating character – search the top 4 cards of your opponent's conflict deck for a card, remove it from the game facedown, and put the other cards back on top in any order. While removed from the game, you may play that card as if it were in your hand.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-026",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Doji Fumiki",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict in which this character is participating, choose a dishonored participating character – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-027",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Offer Testimony",
+    "type": "Event",
     "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict, you and your opponent each chooses a ready participating character he or she controls – each of those players simultaneously reveals a card from his or her hand. Each player who reveals the lowest cost card bows his or her chosen character.",
+    "unverified": true
+  },
+  {
+    "id": "underhand-of-the-emperor-028",
+    "gameId": "l5r-lcg",
+    "setId": "underhand-of-the-emperor",
+    "publisherId": "ffg",
+    "name": "Peasant's Advice",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During the conflict phase, dishonor a (friendly) character and choose a province – look at that province if it is facedown. You may shuffle a faceup card in that province into its owner's dynasty deck.",
     "unverified": true
   }
 ]

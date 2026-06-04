@@ -1,13 +1,46 @@
 [
   {
-    "id": "disciples-of-the-void-010",
+    "id": "disciples-of-the-void-001",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Isawa Tadaka",
-    "type": "Character",
+    "name": "Kyūden Isawa",
+    "type": "Stronghold",
+    "unique": true,
     "clan": "Phoenix",
-    "deck": "dynasty",
+    "traits": [
+      "Library",
+      "Palace"
+    ],
+    "text": "Action: During a conflict, bow this stronghold and discard a Spell event from your hand – play a Spell event from your conflict discard pile as if it were in your hand. Remove that spell from the game.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-002",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Sanpuku Seidō",
+    "type": "Province",
+    "clan": "Phoenix",
+    "traits": [
+      "Shrine"
+    ],
+    "text": "Cannot be a stronghold province.\nWhile resolving a conflict at this province, characters count their glory instead of their [mil] skill and [pol] skill.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-003",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Support of the Phoenix",
+    "type": "Role",
+    "clan": "Neutral",
+    "traits": [
+      "Phoenix"
+    ],
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
     "unverified": true
   },
   {
@@ -19,267 +52,12 @@
     "type": "Character",
     "clan": "Phoenix",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-006",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Shiba Tetsu",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-018",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Kaito Kosori",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-011",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Fushichō",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-025",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Yogo Kikuyo",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-001",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Kyūden Isawa",
-    "type": "Stronghold",
-    "clan": "Phoenix",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-015",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Togashi Tadakatsu",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-023",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Clarity of Purpose",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-019",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Favor of the Kami",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-020",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Katana of Fire",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-012",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Secluded Shrine",
-    "type": "Holding",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-008",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Fire Elemental Guard",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-007",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Inquisitive Ishika",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-003",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Support of the Phoenix",
-    "type": "Role",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-024",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Karmic Twist",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-013",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Hida Amoro",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-021",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "The Path of Man",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-017",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Moto Nergüi",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-014",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Doji Shigeru",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-027",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Kami Unleashed",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-026",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Guardian Kami",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-022",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Wholeness of the World",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-009",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Kaito Temple Protector",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-028",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Walking the Way",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "disciples-of-the-void-002",
-    "gameId": "l5r-lcg",
-    "setId": "disciples-of-the-void",
-    "publisherId": "ffg",
-    "name": "Sanpuku Seidō",
-    "type": "Province",
-    "clan": "Phoenix",
+    "traits": [
+      "Shugenja",
+      "Fire",
+      "Scholar"
+    ],
+    "text": "—",
     "unverified": true
   },
   {
@@ -291,6 +69,176 @@
     "type": "Character",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After a player passes on declaring a conflict – gain 1 fate. (Limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-006",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Shiba Tetsu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After you play a Spell card during a conflict – until the end of the conflict this character gets +1 [mil] and +1 [pol]. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-007",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Inquisitive Ishika",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Void"
+    ],
+    "text": "During a conflict, each card that has a Trait that matches an element of the contested ring has its cost to play reduced by 1.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-008",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Fire Elemental Guard",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire",
+      "Army"
+    ],
+    "text": "No attachments except Spell.\nAction: During a conflict in which you have played 3 or more Spell cards, choose an attachment – discard that attachment.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-009",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Kaito Temple Protector",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Monk"
+    ],
+    "text": "While this character is defending, opponents' card effects cannot move it.\nAction: While this character is defending, choose another participating character – until the end of the conflict, set this character's base [mil] and [pol] skill to the chosen character's current skill values.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-010",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Isawa Tadaka",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth",
+      "Elemental Master"
+    ],
+    "text": "Each opponent cannot play copies of event cards that are in his or her conflict discard pile unless the [earth] ring is in that player's claimed ring pool.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-011",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Fushichō",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Creature",
+      "Fire",
+      "Mythic",
+      "Spirit"
+    ],
+    "text": "No attachments.\nInterrupt: When this character leaves play, choose a  character in your dynasty discard pile – put that character into play with 1 fate on it.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-012",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Secluded Shrine",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shrine"
+    ],
+    "text": "Reaction: After the conflict phase begins, choose a ring – until the end of the phase, you are considered to have that ring in your claimed ring pool.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-013",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Hida Amoro",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Berserker"
+    ],
+    "text": "Forced Reaction: After a player passes on declaring a conflict – that player must sacrifice a character he or she controls. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-014",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Doji Shigeru",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After your opponent plays an event during a conflict in which this character is participating – that opponent chooses and discards a card from his or her hand. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-015",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Togashi Tadakatsu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Heretic"
+    ],
+    "text": "The defending player chooses the element (but not the type) during each conflict declared against him or her. This choice is made before conflict type, attacking characters, and the attacked province are chosen.",
     "unverified": true
   },
   {
@@ -300,8 +248,208 @@
     "publisherId": "ffg",
     "name": "Ikoma Tsanuri",
     "type": "Character",
+    "unique": true,
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Action: During a conflict in which this character is participating, if you control 3 or more participating Bushi characters – until the end of the conflict, each participating character you control gets +1 [mil] and +1 [pol].",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-017",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Moto Nergüi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Action: While this character is participating in a [mil] conflict, choose a participating character with the highest glory in the conflict (you choose in case of a tie) – move that character home.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-018",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Kaito Kosori",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Monk",
+      "Shugenja",
+      "Air"
+    ],
+    "text": "During each [air] conflict, if you control at least 1 participating character and this character is in your home area and ready, it contributes its skill to your side.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-019",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Favor of the Kami",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attached character gets +1 glory.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-020",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Katana of Fire",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Fire",
+      "Weapon"
+    ],
+    "text": "Play only if you control a Shugenja character. Restricted.\nAttached character gets +1 [mil] for each Fire card you control.\nAttached character gets +2 [mil] while the [fire] ring is in your claimed ring pool.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-021",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "The Path of Man",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Philosophy"
+    ],
+    "text": "Reaction: After you win a conflict by 5 or more skill – gain 2 fate.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-022",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Wholeness of the World",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Earth"
+    ],
+    "text": "Interrupt: When a ring in your claimed ring pool would be returned to the unclaimed ring pool – it remains claimed instead. (Max 1 per round.)",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-023",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Clarity of Purpose",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water"
+    ],
+    "text": "Action: During a conflict, choose a character you control – until the end of that conflict, opponents' card effects cannot bow that character and it does not bow as a result of conflict resolution during [pol] conflicts.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-024",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Karmic Twist",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Void"
+    ],
+    "text": "Action: Choose a non-unique character with 1 or more fate on it – move each fate from that character to a non-unique character with no fate on it controlled by the same player.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-025",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Yogo Kikuyo",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "Interrupt: When the effects of a Spell event your opponent plays during a conflict would initiate, put this card into play from your hand – cancel those effects.",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-026",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Guardian Kami",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Spirit"
+    ],
+    "text": "Keeper role only.\nAction: While this character is defending, sacrifice it – resolve the ring effect of the contested ring as if you won the conflict as the attacking player. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-027",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Kami Unleashed",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Spirit"
+    ],
+    "text": "Seeker role only.\nAction: While this character is attacking, sacrifice it – resolve the ring effect of the contested ring as if you won the conflict as the attacking player. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "disciples-of-the-void-028",
+    "gameId": "l5r-lcg",
+    "setId": "disciples-of-the-void",
+    "publisherId": "ffg",
+    "name": "Walking the Way",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Air"
+    ],
+    "text": "If you control a Shugenja character, reduce the cost to play this card by 1.\nAction: Look at the top 3 cards of your dynasty deck. Discard a card in a province you control, and put one of the looked at cards into that province faceup. Shuffle.",
     "unverified": true
   }
 ]
