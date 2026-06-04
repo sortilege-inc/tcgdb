@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Link, navigate, type HeadFC, type PageProps } from 'gatsby'
+import { graphql, Link, navigate, type HeadFC, type PageProps } from 'gatsby'
 import { getGame } from '../data/games'
 import { useSidecarState } from '../state/SidecarStateProvider'
 
@@ -7,39 +7,133 @@ interface PageContext {
   gameId: string
 }
 
+interface StrongholdNode {
+  cardId: string
+  name: string
+  clan: string | null
+  setId: string
+}
+
+interface RoleNode {
+  cardId: string
+  name: string
+  clan: string | null
+  setId: string
+}
+
+interface SetNode {
+  setId: string
+  name: string
+}
+
+interface Data {
+  allStrongholds: { nodes: StrongholdNode[] }
+  allRoles: { nodes: RoleNode[] }
+  allCardSet: { nodes: SetNode[] }
+}
+
+// L5R clans in display order. Matches the chips used elsewhere.
+const CLANS = ['Crab', 'Crane', 'Dragon', 'Lion', 'Phoenix', 'Scorpion', 'Unicorn'] as const
+const CLAN_ACCENT: Record<string, { abbr: string; color: string }> = {
+  Crab:     { abbr: 'CB', color: '#3a6cd0' },
+  Crane:    { abbr: 'CR', color: '#5db3d6' },
+  Dragon:   { abbr: 'DR', color: '#3fa86b' },
+  Lion:     { abbr: 'LI', color: '#d4b14a' },
+  Phoenix:  { abbr: 'PH', color: '#d36637' },
+  Scorpion: { abbr: 'SC', color: '#b22e2e' },
+  Unicorn:  { abbr: 'UN', color: '#7c4ec4' },
+}
+
+type Clan = (typeof CLANS)[number]
+
+// Treat the role's name as the source of truth for grouping (the `clan` field
+// on roles is whichever clan happens to print the role, not "what kind of role
+// this is"). Anything matching "Support of the X" goes in the supports group;
+// everything else is Keeper/Seeker.
+function isSupportRole(name: string): boolean {
+  return /^Support of the\b/i.test(name)
+}
+
 export default function DeckCreatePage(
-  props: PageProps<object, PageContext>
+  props: PageProps<Data, PageContext>
 ): React.ReactElement {
   const { gameId } = props.pageContext
   const game = getGame(gameId)
   const { createDeck, readOnly } = useSidecarState()
 
-  const initialFormat = game?.formats?.[0]?.id ?? 'standard'
+  const strongholds = props.data.allStrongholds.nodes
+  const roles = props.data.allRoles.nodes
+  const setNames = React.useMemo(
+    () => Object.fromEntries(props.data.allCardSet.nodes.map((s) => [s.setId, s.name] as const)),
+    [props.data.allCardSet.nodes]
+  )
+
+  const defaultFormat = game?.formats?.[0]?.id ?? 'stronghold'
+
   const [name, setName] = React.useState('')
-  const [formatId, setFormatId] = React.useState(initialFormat)
+  const [formatId, setFormatId] = React.useState(defaultFormat)
+  const [clan, setClan] = React.useState<Clan | ''>('')
+  const [strongholdId, setStrongholdId] = React.useState('')
+  const [roleId, setRoleId] = React.useState('')
+  const [notes, setNotes] = React.useState('')
   const [origin, setOrigin] = React.useState<'own' | 'imported'>('own')
   const [importedFrom, setImportedFrom] = React.useState('')
-  const [notes, setNotes] = React.useState('')
   const [submitting, setSubmitting] = React.useState(false)
   const [error, setError] = React.useState<string | null>(null)
 
-  async function onSubmit(e: React.FormEvent): Promise<void> {
-    e.preventDefault()
-    if (readOnly) return
-    if (!name.trim()) {
-      setError('Name is required.')
-      return
-    }
+  // When clan changes, drop the selected stronghold if it no longer matches.
+  React.useEffect(() => {
+    if (!clan || !strongholdId) return
+    const sh = strongholds.find((s) => s.cardId === strongholdId)
+    if (sh && sh.clan !== clan) setStrongholdId('')
+  }, [clan, strongholdId, strongholds])
+
+  const strongholdsForClan = React.useMemo(() => {
+    if (!clan) return []
+    return strongholds
+      .filter((s) => s.clan === clan)
+      .sort((a, b) => a.name.localeCompare(b.name))
+  }, [clan, strongholds])
+
+  const rolesGrouped = React.useMemo(() => {
+    const keeperSeeker = roles.filter((r) => !isSupportRole(r.name))
+    const supports = roles.filter((r) => isSupportRole(r.name))
+    keeperSeeker.sort((a, b) => a.name.localeCompare(b.name))
+    supports.sort((a, b) => a.name.localeCompare(b.name))
+    return { keeperSeeker, supports }
+  }, [roles])
+
+  // Default name suggestion as you make picks ("New Crab deck", etc.)
+  const placeholderName = clan ? `New ${clan} deck` : 'My deck'
+  const effectiveName = name.trim() || placeholderName
+
+  const canSubmit =
+    !readOnly &&
+    !submitting &&
+    !!formatId &&
+    !!clan &&
+    !!strongholdId &&
+    !!roleId
+
+  async function onSubmit(): Promise<void> {
+    if (!canSubmit) return
     setSubmitting(true)
     setError(null)
     try {
+      const zones: Record<string, { cardId: string; qty: number }[]> = {
+        stronghold: [
+          { cardId: strongholdId, qty: 1 },
+          { cardId: roleId, qty: 1 },
+        ],
+      }
       const deck = await createDeck({
         gameId,
         formatId,
-        name,
+        name: effectiveName,
         origin,
         importedFrom: origin === 'imported' && importedFrom.trim() ? importedFrom : undefined,
         notes: notes.trim() || undefined,
+        zones,
       })
       void navigate(`/games/${gameId}/decks/${deck.id}/`)
     } catch (err: unknown) {
@@ -58,14 +152,16 @@ export default function DeckCreatePage(
     )
   }
 
+  // ----- Render -----
+
   return (
     <>
       <header style={{ marginBottom: '1.5rem' }}>
         <Link to={`/games/${gameId}/decks/`} style={{ opacity: 0.7 }}>← Decks</Link>
         <h1 style={{ marginTop: '0.5rem' }}>New deck</h1>
-        <p style={{ opacity: 0.7 }}>
-          {game.shortName ?? game.name}. You can add cards on the deck page
-          after it's created.
+        <p style={{ opacity: 0.7, fontSize: '0.9rem' }}>
+          Pick a format, clan, stronghold, and role. The deck opens in the editor
+          with your stronghold and role already placed.
         </p>
         {readOnly && (
           <p style={{ color: '#e8755a' }}>
@@ -74,43 +170,191 @@ export default function DeckCreatePage(
         )}
       </header>
 
-      <form onSubmit={onSubmit} style={{ display: 'grid', gap: '1rem', maxWidth: 560 }}>
-        <Field label="Name">
+      <form
+        onSubmit={(e) => { e.preventDefault(); void onSubmit() }}
+        style={{ display: 'grid', gap: '1.25rem', maxWidth: 760 }}
+      >
+        {/* Name field — kept light, since most decks get renamed in the editor. */}
+        <Section
+          step={0}
+          title="Name"
+          summary={name.trim() ? `“${name.trim()}”` : `(default: “${placeholderName}”)`}
+        >
           <input
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="My Crab Aggro"
-            required
+            placeholder={placeholderName}
             disabled={submitting || readOnly}
             style={inputStyle}
           />
-        </Field>
+        </Section>
 
-        <Field label="Format">
-          <select
-            value={formatId}
-            onChange={(e) => setFormatId(e.target.value)}
+        {/* Step 1: Format */}
+        <Section
+          step={1}
+          title="Format"
+          required
+          done={!!formatId}
+          summary={game.formats.find((f) => f.id === formatId)?.name}
+        >
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+            {game.formats.map((f) => {
+              const active = formatId === f.id
+              return (
+                <button
+                  key={f.id}
+                  type="button"
+                  onClick={() => setFormatId(f.id)}
+                  disabled={submitting || readOnly}
+                  style={chipButtonStyle(active)}
+                  title={f.description}
+                >
+                  {f.name}
+                </button>
+              )
+            })}
+          </div>
+        </Section>
+
+        {/* Step 2: Clan */}
+        <Section
+          step={2}
+          title="Clan"
+          required
+          done={!!clan}
+          summary={clan ? (
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}>
+              <ClanBubble clan={clan} />
+              {clan}
+            </span>
+          ) : undefined}
+        >
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem' }}>
+            {CLANS.map((c) => {
+              const active = clan === c
+              return (
+                <button
+                  key={c}
+                  type="button"
+                  onClick={() => setClan(c)}
+                  disabled={submitting || readOnly}
+                  style={{
+                    ...chipButtonStyle(active),
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.45rem',
+                    background: active ? CLAN_ACCENT[c].color : 'var(--theme-surface-2)',
+                    color: active ? '#fff' : 'var(--theme-text)',
+                    borderColor: active ? CLAN_ACCENT[c].color : 'var(--theme-border)',
+                  }}
+                >
+                  <ClanBubble clan={c} inverted={active} />
+                  {c}
+                </button>
+              )
+            })}
+          </div>
+        </Section>
+
+        {/* Step 3: Stronghold */}
+        <Section
+          step={3}
+          title="Stronghold"
+          required
+          done={!!strongholdId}
+          summary={strongholds.find((s) => s.cardId === strongholdId)?.name}
+        >
+          {!clan ? (
+            <p style={{ opacity: 0.6, fontSize: '0.85rem', margin: 0 }}>
+              Pick a clan above to see its strongholds.
+            </p>
+          ) : strongholdsForClan.length === 0 ? (
+            <p style={{ opacity: 0.6, fontSize: '0.85rem', margin: 0 }}>
+              No {clan} strongholds in the data yet.
+            </p>
+          ) : (
+            <ul style={{ listStyle: 'none', display: 'grid', gap: '0.3rem' }}>
+              {strongholdsForClan.map((s) => {
+                const active = strongholdId === s.cardId
+                return (
+                  <li key={s.cardId}>
+                    <button
+                      type="button"
+                      onClick={() => setStrongholdId(s.cardId)}
+                      disabled={submitting || readOnly}
+                      style={radioRowStyle(active)}
+                    >
+                      <span style={radioDotStyle(active)} />
+                      <span style={{ flex: 1 }}>{s.name}</span>
+                      <span style={{ opacity: 0.55, fontSize: '0.78rem' }}>
+                        {setNames[s.setId] ?? s.setId}
+                      </span>
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          )}
+        </Section>
+
+        {/* Step 4: Role */}
+        <Section
+          step={4}
+          title="Role"
+          required
+          done={!!roleId}
+          summary={roles.find((r) => r.cardId === roleId)?.name}
+        >
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.2rem' }}>
+            <RoleColumn
+              heading="Keepers & Seekers"
+              roles={rolesGrouped.keeperSeeker}
+              selectedId={roleId}
+              onSelect={setRoleId}
+              disabled={submitting || readOnly}
+            />
+            <RoleColumn
+              heading="Support roles"
+              roles={rolesGrouped.supports}
+              selectedId={roleId}
+              onSelect={setRoleId}
+              disabled={submitting || readOnly}
+              demphasize={(r) => isSupportOfOwnClan(r.name, clan)}
+            />
+          </div>
+          {roleId && isSupportOfOwnClan(roles.find((r) => r.cardId === roleId)?.name ?? '', clan) && (
+            <p style={{ opacity: 0.7, fontSize: '0.8rem', marginTop: '0.6rem' }}>
+              Heads up — Support of the {clan} on a {clan} deck is unusual.
+              Most players pick this role when splashing into a clan they don&apos;t already play.
+            </p>
+          )}
+        </Section>
+
+        {/* Notes (optional) */}
+        <Section
+          step={0}
+          title="Notes (optional)"
+          summary={notes.trim() ? `${notes.trim().split(/\s+/).length} words` : undefined}
+        >
+          <textarea
+            value={notes}
+            onChange={(e) => setNotes(e.target.value)}
+            rows={4}
+            placeholder="Plan, matchups, write-up…"
             disabled={submitting || readOnly}
-            style={inputStyle}
-          >
-            {game.formats.map((f) => (
-              <option key={f.id} value={f.id}>{f.name}</option>
-            ))}
-          </select>
-        </Field>
-
-        <Field label="Origin">
-          <div style={{ display: 'flex', gap: '1rem' }}>
-            <label>
+            style={{ ...inputStyle, fontFamily: 'inherit', resize: 'vertical' }}
+          />
+          <div style={{ marginTop: '0.45rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', fontSize: '0.85rem', opacity: 0.85 }}>
+            <label style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
               <input
                 type="radio"
                 checked={origin === 'own'}
                 onChange={() => setOrigin('own')}
                 disabled={submitting || readOnly}
-              /> Own
+              /> My own build
             </label>
-            <label>
+            <label style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
               <input
                 type="radio"
                 checked={origin === 'imported'}
@@ -118,77 +362,297 @@ export default function DeckCreatePage(
                 disabled={submitting || readOnly}
               /> Imported
             </label>
+            {origin === 'imported' && (
+              <input
+                type="text"
+                value={importedFrom}
+                onChange={(e) => setImportedFrom(e.target.value)}
+                placeholder="URL or description"
+                disabled={submitting || readOnly}
+                style={{ ...inputStyle, flex: 1, minWidth: '14rem' }}
+              />
+            )}
           </div>
-        </Field>
-
-        {origin === 'imported' && (
-          <Field label="Imported from">
-            <input
-              type="text"
-              value={importedFrom}
-              onChange={(e) => setImportedFrom(e.target.value)}
-              placeholder="URL or description"
-              disabled={submitting || readOnly}
-              style={inputStyle}
-            />
-          </Field>
-        )}
-
-        <Field label="Notes">
-          <textarea
-            value={notes}
-            onChange={(e) => setNotes(e.target.value)}
-            rows={5}
-            placeholder="Plan, matchups, write-up…"
-            disabled={submitting || readOnly}
-            style={{ ...inputStyle, fontFamily: 'inherit', resize: 'vertical' }}
-          />
-        </Field>
+        </Section>
 
         {error && (
           <p style={{ color: '#e8755a' }}>Error: {error}</p>
         )}
 
-        <div style={{ display: 'flex', gap: '0.75rem' }}>
+        <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
           <button
             type="submit"
-            disabled={submitting || readOnly || !name.trim()}
+            disabled={!canSubmit}
             style={{
-              background: 'var(--theme-primary)',
-              color: 'var(--theme-background)',
-              border: 'none',
-              padding: '0.5rem 1rem',
+              background: canSubmit ? 'var(--theme-primary)' : 'var(--theme-surface)',
+              color: canSubmit ? 'var(--theme-background)' : 'var(--theme-text-muted)',
+              border: canSubmit ? 'none' : '1px solid var(--theme-border)',
+              padding: '0.55rem 1.1rem',
+              fontWeight: 600,
+              cursor: canSubmit ? 'pointer' : 'not-allowed',
             }}
           >
             {submitting ? 'Creating…' : 'Create deck'}
           </button>
           <Link to={`/games/${gameId}/decks/`}>Cancel</Link>
+          <span style={{ flex: 1 }} />
+          {!canSubmit && !submitting && (
+            <span style={{ opacity: 0.6, fontSize: '0.82rem' }}>
+              Pick {[
+                !formatId && 'format',
+                !clan && 'clan',
+                !strongholdId && 'stronghold',
+                !roleId && 'role',
+              ].filter(Boolean).join(', ')} to continue.
+            </span>
+          )}
         </div>
       </form>
     </>
   )
 }
 
+// =============================================================================
+// Section helper — gives every block the same anatomy: numbered badge, title,
+// summary chip in the corner when complete, content below.
+// =============================================================================
+
+interface SectionProps {
+  step: number
+  title: string
+  summary?: React.ReactNode
+  required?: boolean
+  done?: boolean
+  children: React.ReactNode
+}
+
+function Section({ step, title, summary, required, done, children }: SectionProps): React.ReactElement {
+  return (
+    <section
+      style={{
+        background: 'var(--theme-surface)',
+        border: '1px solid var(--theme-border)',
+        borderLeft: done ? '4px solid #3fa86b' : required ? '4px solid var(--theme-primary)' : '4px solid transparent',
+        borderRadius: 6,
+        padding: '0.75rem 0.9rem',
+      }}
+    >
+      <header style={{ display: 'flex', alignItems: 'center', gap: '0.55rem', marginBottom: '0.5rem' }}>
+        {step > 0 && (
+          <span
+            aria-hidden
+            style={{
+              width: 22,
+              height: 22,
+              borderRadius: '50%',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              background: done ? '#3fa86b' : 'var(--theme-surface-2)',
+              color: done ? '#fff' : 'var(--theme-text-muted)',
+              border: '1px solid var(--theme-border)',
+              fontSize: '0.72rem',
+              fontWeight: 700,
+            }}
+          >
+            {done ? '✓' : step}
+          </span>
+        )}
+        <h2 style={{ fontSize: '0.95rem', margin: 0, fontWeight: 600 }}>
+          {title}
+          {required && <span style={{ color: '#e8755a', marginLeft: '0.25rem' }} aria-label="required">*</span>}
+        </h2>
+        {summary && (
+          <span
+            style={{
+              marginLeft: 'auto',
+              fontSize: '0.78rem',
+              opacity: 0.85,
+              background: 'var(--theme-background)',
+              border: '1px solid var(--theme-border)',
+              borderRadius: 999,
+              padding: '0.12rem 0.55rem',
+            }}
+          >
+            {summary}
+          </span>
+        )}
+      </header>
+      {children}
+    </section>
+  )
+}
+
+// =============================================================================
+// Clan bubble (clan glyph rendered to a small chip)
+// =============================================================================
+
+function ClanBubble({ clan, inverted }: { clan: Clan; inverted?: boolean }): React.ReactElement {
+  const { abbr, color } = CLAN_ACCENT[clan]
+  return (
+    <span
+      aria-hidden
+      style={{
+        width: 22,
+        height: 22,
+        borderRadius: '50%',
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: inverted ? 'rgba(255,255,255,0.18)' : color,
+        color: '#fff',
+        fontWeight: 700,
+        fontSize: '0.65rem',
+        letterSpacing: '0.02em',
+      }}
+    >
+      {abbr}
+    </span>
+  )
+}
+
+// =============================================================================
+// Role column (radio list with optional de-emphasis)
+// =============================================================================
+
+interface RoleColumnProps {
+  heading: string
+  roles: RoleNode[]
+  selectedId: string
+  onSelect: (cardId: string) => void
+  disabled?: boolean
+  demphasize?: (role: RoleNode) => boolean
+}
+
+function RoleColumn({ heading, roles, selectedId, onSelect, disabled, demphasize }: RoleColumnProps): React.ReactElement {
+  return (
+    <div>
+      <h3 style={{ fontSize: '0.78rem', textTransform: 'uppercase', letterSpacing: '0.06em', opacity: 0.65, marginBottom: '0.4rem' }}>
+        {heading}
+      </h3>
+      <ul style={{ listStyle: 'none', display: 'grid', gap: '0.25rem' }}>
+        {roles.map((r) => {
+          const active = selectedId === r.cardId
+          const dim = demphasize?.(r) ?? false
+          return (
+            <li key={r.cardId}>
+              <button
+                type="button"
+                onClick={() => onSelect(r.cardId)}
+                disabled={disabled}
+                style={{
+                  ...radioRowStyle(active),
+                  opacity: dim && !active ? 0.45 : undefined,
+                }}
+              >
+                <span style={radioDotStyle(active)} />
+                <span>{r.name}</span>
+              </button>
+            </li>
+          )
+        })}
+      </ul>
+    </div>
+  )
+}
+
+function isSupportOfOwnClan(roleName: string, clan: string): boolean {
+  if (!clan) return false
+  return new RegExp(`^Support of the ${clan}$`, 'i').test(roleName)
+}
+
+// =============================================================================
+// Styles
+// =============================================================================
+
 const inputStyle: React.CSSProperties = {
   width: '100%',
   padding: '0.5rem 0.65rem',
-  background: 'var(--theme-surface)',
+  background: 'var(--theme-background)',
   color: 'var(--theme-text)',
   border: '1px solid var(--theme-border)',
   borderRadius: 6,
   font: 'inherit',
 }
 
-function Field({ label, children }: { label: string; children: React.ReactNode }): React.ReactElement {
-  return (
-    <label style={{ display: 'block' }}>
-      <div style={{ opacity: 0.7, fontSize: '0.85rem', marginBottom: '0.25rem' }}>{label}</div>
-      {children}
-    </label>
-  )
+function chipButtonStyle(active: boolean): React.CSSProperties {
+  return {
+    background: active ? 'var(--theme-primary)' : 'var(--theme-surface-2)',
+    color: active ? 'var(--theme-background)' : 'var(--theme-text)',
+    border: `1px solid ${active ? 'var(--theme-primary)' : 'var(--theme-border)'}`,
+    borderRadius: 999,
+    padding: '0.35rem 0.8rem',
+    fontSize: '0.85rem',
+    cursor: 'pointer',
+  }
 }
 
-export const Head: HeadFC<object, PageContext> = ({ pageContext }) => {
+function radioRowStyle(active: boolean): React.CSSProperties {
+  return {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '0.5rem',
+    width: '100%',
+    textAlign: 'left',
+    padding: '0.4rem 0.55rem',
+    background: active ? 'rgba(108, 122, 138, 0.18)' : 'transparent',
+    border: `1px solid ${active ? 'var(--theme-primary)' : 'transparent'}`,
+    borderRadius: 5,
+    color: 'inherit',
+    cursor: 'pointer',
+    fontSize: '0.88rem',
+  }
+}
+
+function radioDotStyle(active: boolean): React.CSSProperties {
+  return {
+    width: 14,
+    height: 14,
+    borderRadius: '50%',
+    border: `2px solid ${active ? 'var(--theme-primary)' : 'var(--theme-border)'}`,
+    background: active ? 'var(--theme-primary)' : 'transparent',
+    flexShrink: 0,
+  }
+}
+
+// =============================================================================
+// GraphQL + Head
+// =============================================================================
+
+export const Head: HeadFC<Data, PageContext> = ({ pageContext }) => {
   const game = getGame(pageContext.gameId)
   return <title>{game ? `New deck · ${game.shortName ?? game.name} · tcgdb` : 'New deck · tcgdb'}</title>
 }
+
+export const query = graphql`
+  query DeckCreate($gameId: String!) {
+    allStrongholds: allCard(
+      filter: { gameId: { eq: $gameId }, type: { eq: "Stronghold" } }
+      sort: { name: ASC }
+    ) {
+      nodes {
+        cardId
+        name
+        clan
+        setId
+      }
+    }
+    allRoles: allCard(
+      filter: { gameId: { eq: $gameId }, type: { eq: "Role" } }
+      sort: { name: ASC }
+    ) {
+      nodes {
+        cardId
+        name
+        clan
+        setId
+      }
+    }
+    allCardSet(filter: { gameId: { eq: $gameId } }) {
+      nodes {
+        setId
+        name
+      }
+    }
+  }
+`
