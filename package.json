@@ -11,7 +11,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "sidecar": "tsx sidecar/index.ts",
+    "sidecar": "tsx watch sidecar/index.ts",
     "import:l5r": "tsx scripts/import-l5r.ts",
     "import:l5r-collection": "tsx scripts/import-l5r-collection.ts",
     "seed:l5r-errata": "tsx scripts/seed-l5r-errata.ts",
