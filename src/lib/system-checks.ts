@@ -84,7 +84,10 @@ export function runSiteFrameworkChecks(ctx: ChecksContext): CheckResult[] {
       out.push(fail('schema-card-sample', 'GraphQL Card schema reachable',
         'No cards in dataset — cannot verify schema shape.'))
     } else {
-      const required = ['cardId', 'gameId', 'setId', 'publisherId', 'name', 'type'] as const
+      // Card.id (not cardId) is the canonical in-app field name. The GraphQL
+      // node uses `cardId` because Gatsby reserves `id`, but adaptCards()
+      // renames it back before the dashboard's checks ever see it.
+      const required = ['id', 'gameId', 'setId', 'publisherId', 'name', 'type'] as const
       const missing = required.filter((k) => !(k in (sample as Record<string, unknown>)))
       out.push(missing.length === 0
         ? ok('schema-card-sample', 'GraphQL Card schema reachable',
