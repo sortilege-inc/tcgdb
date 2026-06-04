@@ -1,16 +1,5 @@
 [
   {
-    "id": "into-the-forbidden-city-058",
-    "gameId": "l5r-lcg",
-    "setId": "into-the-forbidden-city",
-    "publisherId": "ffg",
-    "name": "Chasing the Sun",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
     "id": "into-the-forbidden-city-041",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
@@ -18,6 +7,7 @@
     "name": "Feast or Famine",
     "type": "Province",
     "clan": "Neutral",
+    "text": "Fire role only.\nInterrupt: When this province is broken, choose an opponent's character – move 1 fate from that character to a character you control.",
     "unverified": true
   },
   {
@@ -28,6 +18,7 @@
     "name": "Public Forum",
     "type": "Province",
     "clan": "Neutral",
+    "text": "Cannot be a stronghold province.\nInterrupt: When this province would be broken, if there are no honor tokens on it – place 1 honor token on it instead.",
     "unverified": true
   },
   {
@@ -37,8 +28,15 @@
     "publisherId": "ffg",
     "name": "Kakita Yoshi",
     "type": "Character",
+    "unique": true,
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Daimyō",
+      "Imperial"
+    ],
+    "text": "Action: While this character is participating in a conflict, discard the Imperial Favor – draw 3 cards. Reduce the cost of each event you play during this conflict by 2.",
     "unverified": true
   },
   {
@@ -48,30 +46,13 @@
     "publisherId": "ffg",
     "name": "Chisei District",
     "type": "Holding",
+    "unique": true,
     "clan": "Crane",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "into-the-forbidden-city-055",
-    "gameId": "l5r-lcg",
-    "setId": "into-the-forbidden-city",
-    "publisherId": "ffg",
-    "name": "Benten's Touch",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "into-the-forbidden-city-047",
-    "gameId": "l5r-lcg",
-    "setId": "into-the-forbidden-city",
-    "publisherId": "ffg",
-    "name": "Back-Alley Hideaway",
-    "type": "Holding",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Limit 1 per deck.\n[mil] conflicts cannot be declared against this holding's province.",
     "unverified": true
   },
   {
@@ -83,6 +64,12 @@
     "type": "Character",
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "While this character is attacking, only characters that have an odd printed cost count their skill toward the resolution of this conflict.",
     "unverified": true
   },
   {
@@ -94,28 +81,26 @@
     "type": "Character",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Action: While the [water] ring is claimed – ready this character.",
     "unverified": true
   },
   {
-    "id": "into-the-forbidden-city-056",
+    "id": "into-the-forbidden-city-047",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Bayushi Kachiko",
-    "type": "Character",
+    "name": "Back-Alley Hideaway",
+    "type": "Holding",
     "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "into-the-forbidden-city-057",
-    "gameId": "l5r-lcg",
-    "setId": "into-the-forbidden-city",
-    "publisherId": "ffg",
-    "name": "Misinformation",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
+    "deck": "dynasty",
+    "traits": [
+      "City"
+    ],
+    "text": "Interrupt: When a  character you control leaves play – attach that character to this holding facedown instead of placing it in its owner's discard pile.\nAction: Play an attached facedown character from this holding as if it were in this province. Then, sacrifice this holding.",
     "unverified": true
   },
   {
@@ -127,6 +112,11 @@
     "type": "Character",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "traits": [
+      "Cavalry",
+      "Scout"
+    ],
+    "text": "Reaction: After a province this character is attacking is revealed – the attacker has the first action opportunity this conflict.",
     "unverified": true
   },
   {
@@ -138,6 +128,10 @@
     "type": "Character",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After this character is declared as an attacker, discard the top card of your dynasty deck – this character gets +X[mil] until the end of the conflict. X is the printed cost of the discarded card.",
     "unverified": true
   },
   {
@@ -149,6 +143,11 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "Reaction: After you play this character – it gains covert until the end of the phase.",
     "unverified": true
   },
   {
@@ -160,6 +159,11 @@
     "type": "Attachment",
     "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Item",
+      "Seal"
+    ],
+    "text": "Attached character gains the  clan symbol and the Berserker trait.",
     "unverified": true
   },
   {
@@ -171,6 +175,11 @@
     "type": "Event",
     "clan": "Dragon",
     "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Water"
+    ],
+    "text": "Reaction: After your opponent declares a [water] conflict, choose a Monk character or a character with a Monk attachment – ready that character and draw 1 card.",
     "unverified": true
   },
   {
@@ -182,6 +191,10 @@
     "type": "Character",
     "clan": "Lion",
     "deck": "conflict",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "During a conflict in which this character is participating, increase the cost for each player to play each event by 1.",
     "unverified": true
   },
   {
@@ -193,6 +206,64 @@
     "type": "Event",
     "clan": "Lion",
     "deck": "conflict",
+    "text": "Action: During a conflict, if your honor bid is lower than your opponent's, choose a  character you control – move that character to the conflict. Then, honor it.",
+    "unverified": true
+  },
+  {
+    "id": "into-the-forbidden-city-055",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Benten's Touch",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Air"
+    ],
+    "text": "Action: During a conflict, bow a (friendly)  Shugenja character. Choose a participating character you control – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "into-the-forbidden-city-056",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Bayushi Kachiko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Courtier",
+      "Imperial"
+    ],
+    "text": "Action: While this character is participating in a [pol] conflict, choose a participating character with lower [pol] skill than this character – move the chosen character home. Then, you may bow it.",
+    "unverified": true
+  },
+  {
+    "id": "into-the-forbidden-city-057",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Misinformation",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Action: During a conflict, if your honor bid is at least 2 higher than your opponent's – each participating character your opponent controls gets -1[mil] and -1[pol] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "into-the-forbidden-city-058",
+    "gameId": "l5r-lcg",
+    "setId": "into-the-forbidden-city",
+    "publisherId": "ffg",
+    "name": "Chasing the Sun",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Seeker role only.\nAction: During a conflict in which you are the attacking player – move the contested ring to another eligible province and reveal it, if able. That province is now the attacked province.",
     "unverified": true
   },
   {
@@ -204,6 +275,10 @@
     "type": "Attachment",
     "clan": "Neutral",
     "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Attach to a Courtier character you control.\nAction: Bow attached character – search the top 5 cards of your conflict deck for a card, reveal it, and add it to your hand. Shuffle.",
     "unverified": true
   },
   {
@@ -215,6 +290,10 @@
     "type": "Event",
     "clan": "Neutral",
     "deck": "conflict",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Play only if you have the Imperial Favor.\nInterrupt: When the effects of an event would initiate – cancel those effects.",
     "unverified": true
   }
 ]

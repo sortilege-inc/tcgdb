@@ -1,27 +1,5 @@
 [
   {
-    "id": "for-honor-and-glory-025",
-    "gameId": "l5r-lcg",
-    "setId": "for-honor-and-glory",
-    "publisherId": "ffg",
-    "name": "Northern Wall Sensei",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-honor-and-glory-031",
-    "gameId": "l5r-lcg",
-    "setId": "for-honor-and-glory",
-    "publisherId": "ffg",
-    "name": "Pathfinder's Blade",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
     "id": "for-honor-and-glory-021",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
@@ -29,6 +7,7 @@
     "name": "Frostbitten Crossing",
     "type": "Province",
     "clan": "Neutral",
+    "text": "Air role only.\nAction: During a conflict at this province, choose a participating character – discard each attachment on that character.",
     "unverified": true
   },
   {
@@ -39,6 +18,7 @@
     "name": "Riot in the Streets",
     "type": "Province",
     "clan": "Neutral",
+    "text": "Action: During a conflict at this province, if you control 3 or more participating Bushi characters, choose a participating character – bow that character.",
     "unverified": true
   },
   {
@@ -50,6 +30,12 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "While this character is defending, each character with printed cost 2 or lower does not count its skill toward the resolution of this conflict.",
     "unverified": true
   },
   {
@@ -61,6 +47,26 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Actor"
+    ],
+    "text": "Action: Spend 1 fate – this character gets +X[mil] until the end of the conflict. X is equal to its [pol] skill.",
+    "unverified": true
+  },
+  {
+    "id": "for-honor-and-glory-025",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Northern Wall Sensei",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Keeper role only.\nAction: While this character is participating in a conflict, choose a participating character you control with 1 or more attachments – until the end of the conflict, that character is immune to events.",
     "unverified": true
   },
   {
@@ -70,8 +76,14 @@
     "publisherId": "ffg",
     "name": "Ikoma Ujiaki",
     "type": "Character",
+    "unique": true,
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a conflict, discard the Imperial Favor – turn each facedown card in each of your provinces faceup. Then, put up to 2 characters from your provinces into play participating in this conflict.",
     "unverified": true
   },
   {
@@ -83,17 +95,10 @@
     "type": "Holding",
     "clan": "Phoenix",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-honor-and-glory-036",
-    "gameId": "l5r-lcg",
-    "setId": "for-honor-and-glory",
-    "publisherId": "ffg",
-    "name": "Shrine Maiden",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "conflict",
+    "traits": [
+      "Landmark"
+    ],
+    "text": "Action: Look at the top 3 cards of an opponent's deck. Discard 1 of those cards, place another on top of that deck, and the other on the bottom of that deck.",
     "unverified": true
   },
   {
@@ -103,8 +108,15 @@
     "publisherId": "ffg",
     "name": "Bayushi Yojiro",
     "type": "Character",
+    "unique": true,
     "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "While this character is participating in a conflict, ignore the effects of each status token on each participating character.",
     "unverified": true
   },
   {
@@ -114,8 +126,14 @@
     "publisherId": "ffg",
     "name": "Ide Tadaji",
     "type": "Character",
+    "unique": true,
     "clan": "Unicorn",
     "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Daimyō"
+    ],
+    "text": "Action: While this character is participating in a conflict, choose a ready non-participating character with printed cost 2 or lower controlled by each player – move each chosen character to the conflict.",
     "unverified": true
   },
   {
@@ -125,8 +143,28 @@
     "publisherId": "ffg",
     "name": "Miwaku Kabe",
     "type": "Holding",
+    "unique": true,
     "clan": "Neutral",
     "deck": "dynasty",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Limit 1 per deck.\nInterrupt: When this holding's province is broken – shuffle this card back into your dynasty deck.",
+    "unverified": true
+  },
+  {
+    "id": "for-honor-and-glory-031",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Pathfinder's Blade",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Seeker role only.\nInterrupt: When the effects of a triggered ability on the attacked province would initiate, if attached character is attacking, sacrifice this attachment – cancel those effects.",
     "unverified": true
   },
   {
@@ -138,6 +176,7 @@
     "type": "Event",
     "clan": "Crab",
     "deck": "conflict",
+    "text": "Action: During a [mil] conflict in which you are the defending player – turn a dynasty card in the attacked province faceup. Then, if that card is a character, put it into play as a defender.",
     "unverified": true
   },
   {
@@ -149,6 +188,10 @@
     "type": "Attachment",
     "clan": "Crane",
     "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Restricted.\nAttached character gets +2[pol] while it is involved in a duel.\nReaction: After attached character wins a duel – gain 1 honor.",
     "unverified": true
   },
   {
@@ -160,6 +203,10 @@
     "type": "Event",
     "clan": "Dragon",
     "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Action: During a [mil] conflict, bow a (friendly) participating Monk character. Choose a participating character controlled by your opponent – bow that character. It cannot trigger abilities during this conflict.",
     "unverified": true
   },
   {
@@ -171,6 +218,25 @@
     "type": "Attachment",
     "clan": "Lion",
     "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Bushi character only. Restricted.\nReaction: After a character triggers an ability during a conflict in which attached character is participating – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "for-honor-and-glory-036",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Shrine Maiden",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Monk"
+    ],
+    "text": "Reaction: After this character enters play, reveal the top 3 cards of your conflict deck – add each Spell and each Kihō card revealed by this ability to your hand and discard the rest.",
     "unverified": true
   },
   {
@@ -182,17 +248,7 @@
     "type": "Event",
     "clan": "Phoenix",
     "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "for-honor-and-glory-040",
-    "gameId": "l5r-lcg",
-    "setId": "for-honor-and-glory",
-    "publisherId": "ffg",
-    "name": "Policy Debate",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
+    "text": "Keeper role only.\nAction: During a conflict in which you are the defending player, choose a defending character and an attacking character with equal or lower printed cost – move each chosen character home.",
     "unverified": true
   },
   {
@@ -204,6 +260,11 @@
     "type": "Attachment",
     "clan": "Scorpion",
     "deck": "conflict",
+    "traits": [
+      "Item",
+      "Seal"
+    ],
+    "text": "Attached character gains the  clan symbol and the Shinobi trait.",
     "unverified": true
   },
   {
@@ -215,6 +276,22 @@
     "type": "Attachment",
     "clan": "Unicorn",
     "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Cavalry character only.\nAction: Choose a Cavalry character you control – attach this card to that character.",
+    "unverified": true
+  },
+  {
+    "id": "for-honor-and-glory-040",
+    "gameId": "l5r-lcg",
+    "setId": "for-honor-and-glory",
+    "publisherId": "ffg",
+    "name": "Policy Debate",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a participating character you control and a participating character your opponent controls – your character challenges the opponent's character to a [pol] duel. The controller of the losing character reveals his or her hand. That player's opponent chooses and discards 1 card from it.",
     "unverified": true
   }
 ]

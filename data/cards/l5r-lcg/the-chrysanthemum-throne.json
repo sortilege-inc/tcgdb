@@ -1,27 +1,5 @@
 [
   {
-    "id": "the-chrysanthemum-throne-076",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Guard Duty",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-064",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Doji Shizue",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
     "id": "the-chrysanthemum-throne-061",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
@@ -29,160 +7,21 @@
     "name": "Before the Throne",
     "type": "Province",
     "clan": "Neutral",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Cannot be a stronghold province.\nInterrupt: When this province is broken – take 2 honor from your opponent.",
     "unverified": true
   },
   {
-    "id": "the-chrysanthemum-throne-067",
+    "id": "the-chrysanthemum-throne-062",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Akodo Toshiro",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-080",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Way of the Chrysanthemum",
-    "type": "Event",
+    "name": "Guardians of the Seikitsu",
+    "type": "Province",
     "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-073",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Pit Trap",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-078",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Backhanded Compliment",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-079",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Gaijin Customs",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-077",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Seal of the Phoenix",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-075",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Centipede Tattoo",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-074",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Curry Favor",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-072",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "The Imperial Palace",
-    "type": "Holding",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-065",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Agasha Sumiko",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-070",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Fawning Diplomat",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-071",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Utaku Mediator",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-069",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Haughty Magistrate",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-chrysanthemum-throne-068",
-    "gameId": "l5r-lcg",
-    "setId": "the-chrysanthemum-throne",
-    "publisherId": "ffg",
-    "name": "Implacable Magistrate",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "text": "Earth role only.\nReaction: After this province is revealed – bow each character with printed cost 2 or lower.",
     "unverified": true
   },
   {
@@ -194,6 +33,45 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Engineer"
+    ],
+    "text": "Action: Choose a holding you control – you may trigger each of that holding's triggered abilities an additional time this round (or specified period).",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-064",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Doji Shizue",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Storyteller"
+    ],
+    "text": "During the fate phase, if you have the Imperial Favor, this character cannot lose fate or be discarded.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-065",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Agasha Sumiko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion"
+    ],
+    "text": "While you have the Imperial Favor, this character does not bow as a result of conflict resolution while attacking.",
     "unverified": true
   },
   {
@@ -205,16 +83,217 @@
     "type": "Holding",
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Temple"
+    ],
+    "text": "Reaction: After this holding is turned faceup – move it onto your stronghold province.\nAction: During a conflict at this province, sacrifice this holding. Choose an attacking character with printed cost 2 or lower – move that character home.",
     "unverified": true
   },
   {
-    "id": "the-chrysanthemum-throne-062",
+    "id": "the-chrysanthemum-throne-067",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Guardians of the Seikitsu",
-    "type": "Province",
+    "name": "Akodo Toshiro",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: While this character is attacking – it gets +5[mil] until the end of the conflict. Provinces cannot be broken during this conflict. At the end of the conflict, if you do not control a Commander character, discard this character.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-068",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Implacable Magistrate",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "While this character is attacking, only this character and honored characters count their skill toward the resolution of this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-069",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Haughty Magistrate",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "While this character is attacking, characters with lower glory than this character do not count their skill toward the resolution of this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-070",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Fawning Diplomat",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Interrupt: When this character leaves play – claim the Imperial Favor.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-071",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Utaku Mediator",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "This character gets +1[mil] and +1[pol] while you do not have the Imperial Favor.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-072",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "The Imperial Palace",
+    "type": "Holding",
+    "unique": true,
     "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Limit 1 per deck.\nThis holding adds +3 to your side during each glory count.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-073",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Pit Trap",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Trap"
+    ],
+    "text": "Attach to a character.\nPlay only on an attacking character.\nAttached character does not ready during the regroup phase.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-074",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Curry Favor",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Reaction: After a character you control bows as a result of conflict resolution from a second conflict you declared this round – ready that character.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-075",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Centipede Tattoo",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Tattoo"
+    ],
+    "text": "Monk character only. Attached character gains the Tattooed trait.\nAttached character does not bow as a result of conflict resolution in conflicts which it lost.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-076",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Guard Duty",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Keeper role only.\nAction: If attached character is defending – honor it.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-077",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Seal of the Phoenix",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Seal"
+    ],
+    "text": "Attached character gains the  clan symbol and the Scholar trait.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-078",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Backhanded Compliment",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Keeper role only.\nAction: Choose a player – that player draws 1 card and loses 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-079",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Gaijin Customs",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Action: If you control a  card, choose a non- character – ready the chosen character.",
+    "unverified": true
+  },
+  {
+    "id": "the-chrysanthemum-throne-080",
+    "gameId": "l5r-lcg",
+    "setId": "the-chrysanthemum-throne",
+    "publisherId": "ffg",
+    "name": "Way of the Chrysanthemum",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Imperial",
+      "Philosophy"
+    ],
+    "text": "Reaction: After 1 or more honor is given to you from an honor bid – gain that much honor. (Max 1 per round.)",
     "unverified": true
   }
 ]

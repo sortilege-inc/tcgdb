@@ -1,90 +1,16 @@
 [
   {
-    "id": "tears-of-amaterasu-009",
+    "id": "tears-of-amaterasu-001",
     "gameId": "l5r-lcg",
     "setId": "tears-of-amaterasu",
     "publisherId": "ffg",
-    "name": "Isawa Kaede",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-006",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Kitsuki Yaruma",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-010",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Swift Magistrate",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-004",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Karada District",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-018",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Smoke and Mirrors",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-015",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Time for War",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-013",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Disdainful Remark",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-019",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Goblin Sneak",
-    "type": "Character",
+    "name": "Blood of Onnotangu",
+    "type": "Province",
     "clan": "Neutral",
-    "deck": "conflict",
+    "traits": [
+      "Shrine"
+    ],
+    "text": "Seeker role only.\nDuring conflicts at this province, each player cannot spend fate from his or her fate pool.",
     "unverified": true
   },
   {
@@ -95,49 +21,10 @@
     "name": "Tears of Amaterasu",
     "type": "Province",
     "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-014",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Jade Masterpiece",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-001",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Blood of Onnotangu",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-020",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Finger of Jade",
-    "type": "Attachment",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-016",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Embrace the Void",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
+    "traits": [
+      "Shrine"
+    ],
+    "text": "Keeper role only.\nReaction: After this province is revealed – gain 1 fate for each attacking character.",
     "unverified": true
   },
   {
@@ -149,61 +36,27 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Yōjimbō"
+    ],
+    "text": "Reaction: After this character wins a conflict as a defender – resolve the ring effect of that conflict as if you were the attacking player. (Max 1 per conflict.)",
     "unverified": true
   },
   {
-    "id": "tears-of-amaterasu-012",
+    "id": "tears-of-amaterasu-004",
     "gameId": "l5r-lcg",
     "setId": "tears-of-amaterasu",
     "publisherId": "ffg",
-    "name": "Seal of the Crane",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-017",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Meek Informant",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-011",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Windswept Yurt",
+    "name": "Karada District",
     "type": "Holding",
-    "clan": "Unicorn",
+    "unique": true,
+    "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-008",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Hito District",
-    "type": "Holding",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tears-of-amaterasu-007",
-    "gameId": "l5r-lcg",
-    "setId": "tears-of-amaterasu",
-    "publisherId": "ffg",
-    "name": "Gifted Tactician",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Limit 1 per deck.\nAction: Give an opponent 1 fate. Choose an attachment on a character that player controls – take control of that attachment and attach it to an eligible character you control, if able. Otherwise, discard it.",
     "unverified": true
   },
   {
@@ -215,6 +68,240 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict – move this character home.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-006",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Kitsuki Yaruma",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Courtesy. No Poison attachments.\nReaction: After this character enters play, choose an unbroken province – turn that province facedown.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-007",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Gifted Tactician",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Reaction: After this character wins a [mil] conflict – draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-008",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Hito District",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Limit 1 per deck.\n[pol] conflicts cannot be declared against this holding's province.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-009",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Isawa Kaede",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Void"
+    ],
+    "text": "Immune to opponents' ring effects.\nWhile this character is attacking, the contested ring gains the [void] element. If this character wins the conflict as an attacker, instead of choosing an element to resolve, resolve each of that ring's effects.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-010",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Swift Magistrate",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial",
+      "Magistrate"
+    ],
+    "text": "While this character is attacking, each other character that has 1 or more fate on it does not count its skill toward the resolution of this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-011",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Windswept Yurt",
+    "type": "Holding",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "text": "Action: Sacrifice this holding, select one – each player gains 2 fate or each player gains 2 honor. Refill this province faceup.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-012",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Seal of the Crane",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Seal"
+    ],
+    "text": "Attached character gains the  clan symbol and the Duelist trait.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-013",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Disdainful Remark",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Keeper role only.\nAction: During a conflict, if you control a participating Courtier character – until the end of the conflict, the attacked province gets +X strength. X is equal to the number of cards in your opponent's hand.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-014",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Jade Masterpiece",
+    "type": "Attachment",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Jade"
+    ],
+    "text": "Action: Bow this attachment. Choose an unclaimed ring – move 1 fate from the chosen ring to another unclaimed ring.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-015",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Time for War",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Seeker role only.\nReaction: After you lose a [pol] conflict, choose a Bushi character you control – put a Weapon attachment with printed cost 3 or lower into play from your hand or conflict discard pile, attached to that character.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-016",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Embrace the Void",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Void"
+    ],
+    "text": "Play only if you control a Shugenja character.\nInterrupt: When 1 or more fate would be removed from attached character – instead, move that fate to your fate pool.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-017",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Meek Informant",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Peasant",
+      "Shinobi"
+    ],
+    "text": "Reaction: After you play this character – look at an opponent's hand.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-018",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Smoke and Mirrors",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Action: During a conflict, choose any number of attacking Shinobi characters you control – move each chosen character home.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-019",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Goblin Sneak",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Goblin",
+      "Shadowlands"
+    ],
+    "text": "Reaction: After this character enters play – place 1 fate from an opponent's fate pool on it.",
+    "unverified": true
+  },
+  {
+    "id": "tears-of-amaterasu-020",
+    "gameId": "l5r-lcg",
+    "setId": "tears-of-amaterasu",
+    "publisherId": "ffg",
+    "name": "Finger of Jade",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Jade"
+    ],
+    "text": "Attach to a character you control.\nInterrupt: When the effects of a card ability that targets attached character would initiate, sacrifice this attachment – cancel those effects.",
     "unverified": true
   }
 ]
