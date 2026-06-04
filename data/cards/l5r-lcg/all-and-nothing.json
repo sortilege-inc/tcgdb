@@ -1,49 +1,5 @@
 [
   {
-    "id": "all-and-nothing-100",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Perfect Land Ethos",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-096",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Shosuro Sadako",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-099",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Dispatch",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-097",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Mark of Shame",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
     "id": "all-and-nothing-081",
     "gameId": "l5r-lcg",
     "setId": "all-and-nothing",
@@ -51,39 +7,18 @@
     "name": "Raging Battleground",
     "type": "Province",
     "clan": "Lion",
+    "text": "Reaction: After this province is revealed, choose a non-unique character with no fate on it – discard that character.",
     "unverified": true
   },
   {
-    "id": "all-and-nothing-085",
+    "id": "all-and-nothing-082",
     "gameId": "l5r-lcg",
     "setId": "all-and-nothing",
     "publisherId": "ffg",
-    "name": "Callow Delegate",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-089",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Ethereal Dreamer",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-093",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Game of Sadane",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
+    "name": "Appealing to the Fortunes",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "This province gets +2 strength while you have a Void role.\nInterrupt: When this province is broken – put a character into play from one of your provinces or from your hand.",
     "unverified": true
   },
   {
@@ -95,115 +30,12 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-082",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Appealing to the Fortunes",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-094",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Void Fist",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-090",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Bustling Academy",
-    "type": "Holding",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-091",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Iuchi Shahai",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-088",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Matsu Mitsuko",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-086",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Togashi Mitsu",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-095",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "All and Nothing",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-098",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Discourage Pursuit",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-092",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Imperial Librarian",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "all-and-nothing-087",
-    "gameId": "l5r-lcg",
-    "setId": "all-and-nothing",
-    "publisherId": "ffg",
-    "name": "Tactician's Apprentice",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Berserker",
+      "Shadowlands"
+    ],
+    "text": "This character cannot be declared as an attacker or defender.\nAction: Sacrifice a (friendly) character – until the end of the phase, treat this character's printed text box as if it were blank (except for Traits).",
     "unverified": true
   },
   {
@@ -215,6 +47,256 @@
     "type": "Holding",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Laboratory"
+    ],
+    "text": "Each character you control gets +1[mil] and +1[pol].\nForced Reaction: After the conflict phase begins – lose 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-085",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Callow Delegate",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Interrupt: When this character leaves play, choose a character you control – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-086",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Togashi Mitsu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Covert.\nAction: During a conflict in which this character is participating, choose a Monk, Tattoo, or Kihō card in your conflict discard pile – play that card as if it were in your hand. If it is an event, put it on the bottom of your conflict deck instead of into your discard pile after resolving its effects.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-087",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Tactician's Apprentice",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After honor dials are revealed, if your bid is lower than an opponent's – draw 1 card. (Limit once per phase.)",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-088",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Matsu Mitsuko",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Commander"
+    ],
+    "text": "Action: During a [mil] conflict, if you are more honorable than your opponent, choose a character you control – move that character to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-089",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Ethereal Dreamer",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Void"
+    ],
+    "text": "Reaction: After the conflict phase begins, choose a ring – until the end of the phase, this character gets +2[mil] and +2[pol] while that ring is being contested.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-090",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Bustling Academy",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Academy"
+    ],
+    "text": "Action: If you control a Scholar character – discard a card in a province and refill it faceup.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-091",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Iuchi Shahai",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Covert.\nReduce the cost by 1 to play each Meishōdō attachment on this character or a neutral character.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-092",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Imperial Librarian",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial",
+      "Scholar"
+    ],
+    "text": "Fire role only.\nEach other character gets +1 glory.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-093",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Game of Sadane",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a participating character you control and a participating character your opponent controls – your character challenges the opponent's character to a [pol] duel. Honor the duel's winner and dishonor the duel's loser.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-094",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Void Fist",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Void"
+    ],
+    "text": "Action: During a conflict, if you have played at least 2 other cards this conflict, choose a participating character with equal or lower [mil] skill than a participating Monk character you control – move the chosen character home and bow it.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-095",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "All and Nothing",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Void"
+    ],
+    "text": "Interrupt: When you would resolve the [void] ring effect, choose another ring – resolve that ring's effect instead. Draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-096",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Shosuro Sadako",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Shadow",
+      "Shinobi"
+    ],
+    "text": "While this character is dishonored, add its glory to its [mil] and [pol] skill instead of subtracting it.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-097",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Mark of Shame",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Air role only.\nReaction: After you play this attachment – dishonor attached character. Then, dishonor it again.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-098",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Discourage Pursuit",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Earth role only.\nAction: Dishonor a (friendly) Shinobi character. Choose a participating character – until the end of the conflict, that character gets -4[mil].",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-099",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Dispatch",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Limited. (No more than one limited card can be played by each player each round.)\nAction: Move a  character you control into a conflict or home from a conflict.",
+    "unverified": true
+  },
+  {
+    "id": "all-and-nothing-100",
+    "gameId": "l5r-lcg",
+    "setId": "all-and-nothing",
+    "publisherId": "ffg",
+    "name": "Perfect Land Ethos",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: Discard each status token.",
     "unverified": true
   }
 ]

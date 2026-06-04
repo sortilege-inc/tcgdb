@@ -1,46 +1,24 @@
 [
   {
-    "id": "the-ebb-and-flow-071",
+    "id": "the-ebb-and-flow-061",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Nezumi Infiltrator",
-    "type": "Character",
+    "name": "Flooded Waste",
+    "type": "Province",
     "clan": "Crab",
-    "deck": "conflict",
+    "text": "Reaction: After this province is revealed – bow each attacking character.",
     "unverified": true
   },
   {
-    "id": "the-ebb-and-flow-076",
+    "id": "the-ebb-and-flow-062",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Heroic Resolve",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-ebb-and-flow-069",
-    "gameId": "l5r-lcg",
-    "setId": "the-ebb-and-flow",
-    "publisherId": "ffg",
-    "name": "Master of the Swift Waves",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-ebb-and-flow-080",
-    "gameId": "l5r-lcg",
-    "setId": "the-ebb-and-flow",
-    "publisherId": "ffg",
-    "name": "Force of the River",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "name": "Seeking the Truth",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "This province gets +2 strength while you have a Water role.\nInterrupt: When this province is broken, choose a defending character – move that character home.",
     "unverified": true
   },
   {
@@ -52,61 +30,10 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-ebb-and-flow-073",
-    "gameId": "l5r-lcg",
-    "setId": "the-ebb-and-flow",
-    "publisherId": "ffg",
-    "name": "Menacing Iron Warrior",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-ebb-and-flow-074",
-    "gameId": "l5r-lcg",
-    "setId": "the-ebb-and-flow",
-    "publisherId": "ffg",
-    "name": "Soul Beyond Reproach",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-ebb-and-flow-079",
-    "gameId": "l5r-lcg",
-    "setId": "the-ebb-and-flow",
-    "publisherId": "ffg",
-    "name": "Deceptive Offer",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-ebb-and-flow-067",
-    "gameId": "l5r-lcg",
-    "setId": "the-ebb-and-flow",
-    "publisherId": "ffg",
-    "name": "Disguised Protector",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-ebb-and-flow-075",
-    "gameId": "l5r-lcg",
-    "setId": "the-ebb-and-flow",
-    "publisherId": "ffg",
-    "name": "Hawk Tattoo",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Interrupt: When you would lose 1 honor for an unopposed conflict – cancel that honor loss. Then, lose 1 fate. (Unlimited.)",
     "unverified": true
   },
   {
@@ -118,6 +45,10 @@
     "type": "Character",
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Creature"
+    ],
+    "text": "No attachments except Weapon.\nWhile the [fire] ring is unclaimed, this character gets +2[mil] and +2[pol].",
     "unverified": true
   },
   {
@@ -129,17 +60,113 @@
     "type": "Character",
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "This character does not bow as a result of conflict resolution in conflicts in which it lost.",
     "unverified": true
   },
   {
-    "id": "the-ebb-and-flow-077",
+    "id": "the-ebb-and-flow-066",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "My Ancestor's Strength",
-    "type": "Event",
-    "clan": "Lion",
+    "name": "Asako Azunami",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water",
+      "Elemental Master"
+    ],
+    "text": "Interrupt: When you would resolve the [water] ring – instead of the normal ring effect, you may choose and bow any character and you may choose and ready a different character.",
+    "unverified": true
+  },
+  {
+    "id": "the-ebb-and-flow-067",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Disguised Protector",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shinobi",
+      "Yōjimbō"
+    ],
+    "text": "Action: During a conflict in which this character is participating – each player adds the bid on his or her honor dial to his or her skill total during this conflict's resolution.",
+    "unverified": true
+  },
+  {
+    "id": "the-ebb-and-flow-068",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Hidden Moon Dōjō",
+    "type": "Holding",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Dōjō"
+    ],
+    "text": "Limit 1 per deck.\nYou may play characters in adjacent provinces as if they were in your hand.\nAction: During a conflict – turn a card in an adjacent province faceup.",
+    "unverified": true
+  },
+  {
+    "id": "the-ebb-and-flow-069",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Master of the Swift Waves",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water",
+      "Cavalry"
+    ],
+    "text": "Action: During a conflict, choose a participating character you control and a character in your home – switch the chosen characters' locations.",
+    "unverified": true
+  },
+  {
+    "id": "the-ebb-and-flow-070",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Yoritomo",
+    "type": "Character",
+    "unique": true,
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion",
+      "Mantis Clan"
+    ],
+    "text": "This character gets +X[mil] and +X[pol]. X is equal to the number of fate in your fate pool.",
+    "unverified": true
+  },
+  {
+    "id": "the-ebb-and-flow-071",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Nezumi Infiltrator",
+    "type": "Character",
+    "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Creature",
+      "Scout"
+    ],
+    "text": "Immune to Shadowlands and Mahō card effects.\nReaction: After this character enters play during a conflict – until the end of the conflict, raise or lower the strength of the attacked province by 1 (to a minimum of 1). (Max 1 per conflict.)",
     "unverified": true
   },
   {
@@ -151,59 +178,80 @@
     "type": "Event",
     "clan": "Crab",
     "deck": "conflict",
+    "text": "Water role only.\nAction: While you are the defending player, choose a bowed character you control – ready that character and move it to the conflict.",
     "unverified": true
   },
   {
-    "id": "the-ebb-and-flow-062",
+    "id": "the-ebb-and-flow-073",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Seeking the Truth",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "the-ebb-and-flow-070",
-    "gameId": "l5r-lcg",
-    "setId": "the-ebb-and-flow",
-    "publisherId": "ffg",
-    "name": "Yoritomo",
+    "name": "Menacing Iron Warrior",
     "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: While this character is participating in a [mil] conflict – until the end of the conflict, each participating character your opponent controls with equal or lower [mil] skill than this character cannot trigger abilities.",
     "unverified": true
   },
   {
-    "id": "the-ebb-and-flow-066",
+    "id": "the-ebb-and-flow-074",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Asako Azunami",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
+    "name": "Soul Beyond Reproach",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Air role only.\nAction: Choose a character you control – honor that character. Then, honor it again.",
     "unverified": true
   },
   {
-    "id": "the-ebb-and-flow-068",
+    "id": "the-ebb-and-flow-075",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Hidden Moon Dōjō",
-    "type": "Holding",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "name": "Hawk Tattoo",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Tattoo"
+    ],
+    "text": "Attach to a character you control.\nAttached character gains Tattooed.\nReaction: After you play this attachment during a conflict – move attached character to the conflict. If attached character is a Monk, you may take another action after this one.",
     "unverified": true
   },
   {
-    "id": "the-ebb-and-flow-061",
+    "id": "the-ebb-and-flow-076",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Flooded Waste",
-    "type": "Province",
-    "clan": "Crab",
+    "name": "Heroic Resolve",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Action: If you have 2 or more rings in your claimed ring pool – ready attached character.",
+    "unverified": true
+  },
+  {
+    "id": "the-ebb-and-flow-077",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "My Ancestor's Strength",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water"
+    ],
+    "text": "Action: During a conflict, choose a participating Shugenja character you control and a character in your dynasty discard pile – until the end of the conflict, set the participating character's base [mil] and [pol] skill equal to the printed [mil] and [pol] skill of the other character.",
     "unverified": true
   },
   {
@@ -213,8 +261,42 @@
     "publisherId": "ffg",
     "name": "Ofushikai",
     "type": "Attachment",
+    "unique": true,
     "clan": "Phoenix",
     "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Ancestral. Restricted. Attach to a unique  character you control.\nIf attached character has the Champion trait, it gains: \"Action: During a conflict in which this character is participating, choose a participating character – move that character home. It cannot participate as an attacker this phase.\"",
+    "unverified": true
+  },
+  {
+    "id": "the-ebb-and-flow-079",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Deceptive Offer",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a participating character you control. Your opponent selects one – that character gets +2[mil] and +2[pol] until the end of the conflict, or your opponent gives you 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "the-ebb-and-flow-080",
+    "gameId": "l5r-lcg",
+    "setId": "the-ebb-and-flow",
+    "publisherId": "ffg",
+    "name": "Force of the River",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water",
+      "Meishōdō"
+    ],
+    "text": "Attach to a Shugenja character you control.\nAction: During a conflict – put each facedown card in your provinces into play facedown in the conflict as a 1[mil], –[pol], 0 glory character with the Cavalry and Spirit traits. Discard those characters at the end of the conflict.",
     "unverified": true
   }
 ]

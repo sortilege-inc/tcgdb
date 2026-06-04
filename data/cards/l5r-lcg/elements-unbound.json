@@ -1,166 +1,17 @@
 [
   {
-    "id": "elements-unbound-111",
+    "id": "elements-unbound-101",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Mantis Tenkinja",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-112",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Awakened Tsukumogami",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-120",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Unleash the Djinn",
-    "type": "Event",
+    "name": "Hisu Mori Toride (Unicorn Clan)",
+    "type": "Stronghold",
+    "unique": true,
     "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-110",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Minami Kaze Regulars",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-113",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Pragmatism",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-106",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Agasha Shunsen",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-105",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Tengu Sensei",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-109",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Reclusive Zokujin",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-108",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Reader of Omens",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-118",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Roving Michibiku",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-119",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Taryū-Jiai",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-114",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Specialized Defenses",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-103",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Web of Lies",
-    "type": "Province",
-    "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-107",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Kitsu Warrior",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "elements-unbound-117",
-    "gameId": "l5r-lcg",
-    "setId": "elements-unbound",
-    "publisherId": "ffg",
-    "name": "Restored Heirloom",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
+    "traits": [
+      "Fort"
+    ],
+    "text": "Reaction: After you win a [mil] conflict with more participating characters than your opponent, bow this stronghold and sacrifice a (friendly) Cavalry character – you may declare an additional [mil] conflict this phase.",
     "unverified": true
   },
   {
@@ -171,6 +22,18 @@
     "name": "Magistrate Station",
     "type": "Province",
     "clan": "Crane",
+    "text": "Action: Choose an honored character – ready that character.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-103",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Web of Lies",
+    "type": "Province",
+    "clan": "Scorpion",
+    "text": "X is equal to twice the bid on your honor dial.",
     "unverified": true
   },
   {
@@ -182,16 +45,168 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "While this character is participating in a conflict, each character you control gains courtesy and sincerity.",
     "unverified": true
   },
   {
-    "id": "elements-unbound-101",
+    "id": "elements-unbound-105",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Hisu Mori Toride (Unicorn Clan)",
-    "type": "Stronghold",
+    "name": "Tengu Sensei",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Creature",
+      "Duelist"
+    ],
+    "text": "Covert.\nReaction: After this character chooses a character using covert – that character cannot be declared as an attacker this phase.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-106",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Agasha Shunsen",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire"
+    ],
+    "text": "Action: During a conflict, return 1 or more rings you have claimed to the unclaimed ring pool. Choose a character you control – search your conflict deck for an attachment with printed cost equal to or lower than the number of rings returned and attach it to that character. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-107",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Kitsu Warrior",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Creature"
+    ],
+    "text": "For each [mil] ring that is claimed, this character gets +2[mil].\nFor each [pol] ring that is claimed, this character gets +2[pol].",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-108",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Reader of Omens",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Void"
+    ],
+    "text": "This character gets +3[pol] while you have claimed the [air] or [void] ring.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-109",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Reclusive Zokujin",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Creature"
+    ],
+    "text": "During [earth] conflicts, this character gains covert and is immune to enemy card effects.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-110",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Minami Kaze Regulars",
+    "type": "Character",
     "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Army",
+      "Cavalry"
+    ],
+    "text": "No attachments except Weapon.\nReaction: After this character wins a conflict in which you have more participating characters than your opponent – gain 1 fate and draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-111",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Mantis Tenkinja",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water",
+      "Mantis Clan"
+    ],
+    "text": "Water role only.\nInterrupt: When you play an event, lose 1 honor – reduce the cost of that event by 1.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-112",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Awakened Tsukumogami",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Spirit",
+      "Void"
+    ],
+    "text": "Void role only.\nYou may use fate on a ring to pay the cost of a conflict card that has a Trait that matches an element of that ring.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-113",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Pragmatism",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to a character you control.\nWhile you are less honorable than an opponent, attached character gets +1[mil], +1[pol], and gains: \"This character cannot be honored or dishonored.\"",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-114",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Specialized Defenses",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Earth role only.\nAction: During a conflict, if the attacked province has an element that matches the contested ring or a ring in your claimed ring pool – double that province's strength until the end of the conflict.",
     "unverified": true
   },
   {
@@ -203,6 +218,10 @@
     "type": "Attachment",
     "clan": "Dragon",
     "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Void role only. Attach to a character you control.\nAction: Bow attached character, choose an unclaimed ring – move each fate from that ring to attached character.",
     "unverified": true
   },
   {
@@ -214,6 +233,71 @@
     "type": "Event",
     "clan": "Dragon",
     "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Earth"
+    ],
+    "text": "Reaction: After an opponent declares a [earth] conflict, choose a Monk character or a character with a Monk attachment – until the end of the conflict, opponents' card abilities cannot choose that character as a target. Draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-117",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Restored Heirloom",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Water role only. Restricted.\nInterrupt: When you would resolve the [water] ring effect, choose a character you control – instead of resolving normal ring effects, put this attachment into play from your hand or conflict discard pile, attached to that character.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-118",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Roving Michibiku",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Monk",
+      "Scholar"
+    ],
+    "text": "Reaction: After this character wins a conflict – take a ring from the defending player's claimed ring pool.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-119",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Taryū-Jiai",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a Shugenja character you control and a Shugenja character controlled by an opponent – your character challenges your opponent's character to a glory duel. The winner of the duel's controller resolves a ring effect of his or her choice as if he or she was the attacking player.",
+    "unverified": true
+  },
+  {
+    "id": "elements-unbound-120",
+    "gameId": "l5r-lcg",
+    "setId": "elements-unbound",
+    "publisherId": "ffg",
+    "name": "Unleash the Djinn",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Fire",
+      "Meishōdō"
+    ],
+    "text": "Fire role only.\nAction: During a conflict, lose 3 honor – set the [mil] and [pol] skill of each participating character to 3 until the end of the conflict.",
     "unverified": true
   }
 ]

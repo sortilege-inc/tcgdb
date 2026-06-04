@@ -1,13 +1,27 @@
 [
   {
-    "id": "tainted-lands-036",
+    "id": "tainted-lands-021",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Feral Ningyo",
-    "type": "Character",
+    "name": "Teachings of the Elements",
+    "type": "Province",
     "clan": "Phoenix",
-    "deck": "conflict",
+    "text": "This province gets +1 strength for each claimed ring.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-022",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Border Fortress",
+    "type": "Province",
+    "clan": "Unicorn",
+    "traits": [
+      "Fort"
+    ],
+    "text": "Action: During a conflict at this province, choose a facedown province – reveal that province.",
     "unverified": true
   },
   {
@@ -18,17 +32,7 @@
     "name": "Upholding Authority",
     "type": "Province",
     "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-030",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Sneaky Shinjo",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
+    "text": "This province gets +2 strength while you have an Earth role.\nInterrupt: When this province is broken – the attacking player reveals his or her hand. Choose a card in their hand and discard any number of copies of that card from their hand.",
     "unverified": true
   },
   {
@@ -40,6 +44,11 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "Action: During a conflict, choose an attacking character without attachments – until the end of the conflict, set that character's skill values to its printed values.",
     "unverified": true
   },
   {
@@ -49,95 +58,15 @@
     "publisherId": "ffg",
     "name": "Kuni Yori",
     "type": "Character",
+    "unique": true,
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-031",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Marauding Oni",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-037",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Oracle of Stone",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-032",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Spreading the Darkness",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-021",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Teachings of the Elements",
-    "type": "Province",
-    "clan": "Phoenix",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-040",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Sabotage",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-035",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Writ of Authority",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-033",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Adopted Kin",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-034",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Ikoma Reservist",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Earth",
+      "Daimyō"
+    ],
+    "text": "During [earth] conflicts, each character you control gets +1[mil] and +1[pol].\nAction: During a conflict, lose 1 honor. Choose a player – that player discards 1 card at random from his or her hand.",
     "unverified": true
   },
   {
@@ -147,8 +76,14 @@
     "publisherId": "ffg",
     "name": "Asahina Takako",
     "type": "Character",
+    "unique": true,
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "You may look at facedown cards in each province you control.\nAction: Choose a card in one of your provinces – switch that card with a card in another of your provinces or discard it.",
     "unverified": true
   },
   {
@@ -160,27 +95,10 @@
     "type": "Holding",
     "clan": "Crane",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-022",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Border Fortress",
-    "type": "Province",
-    "clan": "Unicorn",
-    "unverified": true
-  },
-  {
-    "id": "tainted-lands-029",
-    "gameId": "l5r-lcg",
-    "setId": "tainted-lands",
-    "publisherId": "ffg",
-    "name": "Court Novice",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "traits": [
+      "Garden"
+    ],
+    "text": "Action: During an [air] conflict – gain 1 honor.",
     "unverified": true
   },
   {
@@ -192,17 +110,149 @@
     "type": "Character",
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "This character gets +1[mil] and +1[pol] while you have claimed the [fire] or [void] ring.",
     "unverified": true
   },
   {
-    "id": "tainted-lands-039",
+    "id": "tainted-lands-029",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Press of Battle",
-    "type": "Event",
+    "name": "Court Novice",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "This character gets +2[pol] while you have claimed the [air] or [water] ring.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-030",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Sneaky Shinjo",
+    "type": "Character",
     "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After you pass in the dynasty phase – play this character from your province.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-031",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Marauding Oni",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Oni",
+      "Shadowlands"
+    ],
+    "text": "This character cannot be honored or dishonored.\nForced Reaction: After this character is declared as an attacker or defender – lose 1 honor. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-032",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Spreading the Darkness",
+    "type": "Event",
+    "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Mahō",
+      "Spell",
+      "Earth"
+    ],
+    "text": "Action: Lose 2 honor. Choose a participating character you control – until the end of the conflict, that character gets +4[mil] and cannot be targeted by opponents' card abilities.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-033",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Adopted Kin",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Fire role only. Limit 1 per character.\nEach other attachment on attached character gains ancestral.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-034",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Ikoma Reservist",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "This character gets +2[mil] while you have claimed the [fire] or [water] ring.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-035",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Writ of Authority",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Earth role only. Restricted.\nIf an opponent is more honorable than you, discard this attachment.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-036",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Feral Ningyo",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Creature"
+    ],
+    "text": "Action: During a [water] conflict – put this character into play from your hand in the conflict. At the end of the conflict, shuffle it into your conflict deck.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-037",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Oracle of Stone",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Earth"
+    ],
+    "text": "Action: Each player draws two cards. Then, each player discards 2 cards from his or her hand.",
     "unverified": true
   },
   {
@@ -214,6 +264,34 @@
     "type": "Attachment",
     "clan": "Scorpion",
     "deck": "conflict",
+    "traits": [
+      "Poison"
+    ],
+    "text": "Interrupt: When attached character leaves play – move this attachment to another character controlled by the same player.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-039",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Press of Battle",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Water role only.\nAction: During a [mil] conflict, if you control more participating characters than your opponent, choose a non-unique participating character – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "tainted-lands-040",
+    "gameId": "l5r-lcg",
+    "setId": "tainted-lands",
+    "publisherId": "ffg",
+    "name": "Sabotage",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Earth role only.\nAction: During a [mil] conflict, choose a card in an opponent's province – discard that card.",
     "unverified": true
   }
 ]
