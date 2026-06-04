@@ -2297,6 +2297,11 @@ type DeckDetailQueryVariables = Exact<{
 
 type DeckDetailQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly military: number | null, readonly political: number | null, readonly glory: number | null, readonly strength: number | null, readonly influence: number | null, readonly influencePool: number | null, readonly element: string | null, readonly traits: ReadonlyArray<string | null> | null }> } };
 
+type LandingDashboardQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+type LandingDashboardQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly cost: number | null, readonly military: number | null, readonly political: number | null, readonly glory: number | null, readonly strength: number | null, readonly influence: number | null, readonly influencePool: number | null, readonly element: string | null, readonly honor: number | null, readonly fate: number | null, readonly traits: ReadonlyArray<string | null> | null, readonly flipSideOf: string | null, readonly unverified: boolean | null }> }, readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly name: string }> } };
+
 type SetDetailQueryVariables = Exact<{
   gameId: Scalars['String'];
   setId: Scalars['String'];

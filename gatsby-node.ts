@@ -42,6 +42,10 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       setId: String!
       publisherId: String!
       name: String!
+      # ASCII-fied display name (e.g. emeralddb's "Wandering Ronin" alongside
+      # our display "Wandering Rōnin"). Optional. Text search includes this
+      # so the card is findable by either form; UI displays 'name'.
+      nameAscii: String
       type: String!
       unique: Boolean
       text: String
@@ -60,14 +64,27 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       strength: Int
       influence: Int
       # L5R-specific:
-      military: Int
-      political: Int
+      # military/political are String because their value depends on the
+      # card type: Characters carry the printed base skill ("3", "0", "—")
+      # while Attachments carry the printed *modifier* in a separate field
+      # (militaryBonus / politicalBonus). Storing the base as String lets
+      # us preserve the dash ("—") that L5R uses for "no skill" — the
+      # numeric filter parses the value back to int when it can.
+      military: String
+      political: String
+      # Attachment modifiers as printed: "+0", "+1", "-2", "+X". Null on
+      # cards that don't grant a modifier (most non-attachment cards).
+      militaryBonus: String
+      politicalBonus: String
       glory: Int
       honor: Int
       fate: Int
       influencePool: Int
       element: String
       traits: [String]
+      # ASCII-fied trait list (e.g. ["Bushi","Yojimbo"] alongside our display
+      # ["Bushi","Yōjimbō"]). Optional. Text search includes this; UI displays 'traits'.
+      traitsAscii: [String]
       # Errata override (any subset of card fields can change). Stored as
       # JSON so the override is field-shape-flexible without enumerating
       # every possible field at the schema layer.
@@ -77,6 +94,7 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
     type CardRuling {
       date: String
       source: String
+      sourceUrl: String
       text: String
     }
     type CardSet implements Node @dontInfer {

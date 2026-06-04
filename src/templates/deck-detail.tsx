@@ -22,6 +22,7 @@ interface CardNode {
   setId: string
   publisherId: string
   name: string
+  nameAscii: string | null
   type: string
   unique: boolean | null
   text: string | null
@@ -32,14 +33,17 @@ interface CardNode {
   faction: string | null
   side: string | null
   cost: number | null
-  military: number | null
-  political: number | null
+  military: string | null
+  political: string | null
+  militaryBonus: string | null
+  politicalBonus: string | null
   glory: number | null
   strength: number | null
   influence: number | null
   influencePool: number | null
   element: string | null
   traits: string[] | null
+  traitsAscii: string[] | null
 }
 
 interface Data {
@@ -1017,6 +1021,7 @@ export const query = graphql`
         setId
         publisherId
         name
+        nameAscii
         type
         unique
         text
@@ -1029,12 +1034,15 @@ export const query = graphql`
         cost
         military
         political
+        militaryBonus
+        politicalBonus
         glory
         strength
         influence
         influencePool
         element
         traits
+        traitsAscii
       }
     }
   }

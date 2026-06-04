@@ -16,6 +16,7 @@ interface CardNode {
   cardId: string
   setId: string
   name: string
+  nameAscii: string | null
   type: string
   unique: boolean | null
   text: string | null
@@ -23,13 +24,16 @@ interface CardNode {
   deck: string | null
   faction: string | null
   cost: number | null
-  military: number | null
-  political: number | null
+  military: string | null
+  political: string | null
+  militaryBonus: string | null
+  politicalBonus: string | null
   glory: number | null
   strength: number | null
   influence: number | null
   element: string | null
   traits: string[] | null
+  traitsAscii: string[] | null
 }
 
 interface SetNode {
@@ -204,8 +208,8 @@ function ResultsTable({
                 <Td muted>{c.clan ?? c.faction ?? '—'}</Td>
                 <Td muted>{c.deck ?? '—'}</Td>
                 <Td align="right" muted>{c.cost ?? '—'}</Td>
-                <Td align="right" muted>{c.military ?? '—'}</Td>
-                <Td align="right" muted>{c.political ?? '—'}</Td>
+                <Td align="right" muted>{c.military ?? c.militaryBonus ?? '—'}</Td>
+                <Td align="right" muted>{c.political ?? c.politicalBonus ?? '—'}</Td>
                 <Td align="right" muted>{c.glory ?? '—'}</Td>
                 <Td align="right" muted>{c.strength ?? '—'}</Td>
               </tr>
@@ -371,6 +375,7 @@ export const query = graphql`
         cardId
         setId
         name
+        nameAscii
         type
         unique
         text
@@ -380,11 +385,14 @@ export const query = graphql`
         cost
         military
         political
+        militaryBonus
+        politicalBonus
         glory
         strength
         influence
         element
         traits
+        traitsAscii
       }
     }
     allCardSet(filter: { gameId: { eq: $gameId } }) {

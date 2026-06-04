@@ -13,11 +13,14 @@ interface PageContext {
 interface CardRulingNode {
   date?: string | null
   source?: string | null
+  sourceUrl?: string | null
   text?: string | null
 }
 
 interface CardNode {
   cardId: string
+  nameAscii?: string | null
+  traitsAscii?: string[] | null
   gameId: string
   setId: string
   publisherId: string
@@ -35,8 +38,10 @@ interface CardNode {
   cost?: number | null
   strength?: number | null
   influence?: number | null
-  military?: number | null
-  political?: number | null
+  military?: string | null
+  political?: string | null
+  militaryBonus?: string | null
+  politicalBonus?: string | null
   glory?: number | null
   honor?: number | null
   fate?: number | null
@@ -287,6 +292,7 @@ export const query = graphql`
       setId
       publisherId
       name
+      nameAscii
       type
       unique
       text
@@ -302,16 +308,20 @@ export const query = graphql`
       influence
       military
       political
+      militaryBonus
+      politicalBonus
       glory
       honor
       fate
       influencePool
       element
       traits
+      traitsAscii
       errata
       rulings {
         date
         source
+        sourceUrl
         text
       }
     }

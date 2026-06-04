@@ -13,6 +13,9 @@ import * as React from 'react'
 export interface FilterableCard {
   cardId: string
   name: string
+  /** ASCII-fied alternate name (e.g. "Wandering Ronin" alongside display "Wandering Rōnin").
+   *  Optional. Used by the text-search haystack so cards are findable by either form. */
+  nameAscii?: string | null
   type: string
   unique?: boolean | null
   text?: string | null
@@ -20,13 +23,21 @@ export interface FilterableCard {
   deck?: string | null
   faction?: string | null
   cost?: number | null
-  military?: number | null
-  political?: number | null
+  // military / political are strings because their value depends on the
+  // card's type. Characters carry a printed base skill ("3", "0", "—");
+  // attachments carry a modifier in militaryBonus / politicalBonus instead.
+  military?: string | null
+  political?: string | null
+  militaryBonus?: string | null
+  politicalBonus?: string | null
   glory?: number | null
   strength?: number | null
   influence?: number | null
   element?: string | null
   traits?: string[] | null
+  /** ASCII-fied trait list. Used by the text-search haystack and as an
+   *  alternate match key for the Traits picker (so "Yojimbo" finds "Yōjimbō"). */
+  traitsAscii?: string[] | null
 }
 
 export type TriState = 'any' | 'yes' | 'no'
@@ -172,20 +183,39 @@ export function hasKeyword(text: string | null | undefined, kw: string): boolean
 // Filter evaluation
 // =============================================================================
 
-function compareNum(cardValue: number | null | undefined, filter: NumericFilter): boolean {
+function compareNum(
+  cardValue: number | string | null | undefined,
+  filter: NumericFilter,
+): boolean {
   if (filter.value === '') return true
   if (cardValue === null || cardValue === undefined) return true
+  // military/political come in as String to fit characters' base ("3", "—")
+  // and attachments' bonus modifier (handled via militaryBonus). Parse here
+  // so the numeric filter works for character skills. Non-numeric values
+  // (dash, empty) silently degrade to "matches" so they aren't excluded.
+  const numeric = typeof cardValue === 'number' ? cardValue : Number.parseInt(cardValue, 10)
+  if (!Number.isFinite(numeric)) return true
   const target = Number(filter.value)
   if (!Number.isFinite(target)) return true
-  if (filter.op === '>') return cardValue > target
-  if (filter.op === '<') return cardValue < target
-  return cardValue === target
+  if (filter.op === '>') return numeric > target
+  if (filter.op === '<') return numeric < target
+  return numeric === target
 }
 
 export function matchesFilters(card: FilterableCard, f: FilterState): boolean {
   if (f.query.trim()) {
     const q = f.query.trim().toLowerCase()
-    const hay = `${card.name}\n${card.text ?? ''}`.toLowerCase()
+    // Include the ASCII variants so a query of "ronin" finds the card
+    // displayed as "Rōnin", and "yojimbo" finds "Yōjimbō" in traits.
+    const traitHay = (card.traits ?? []).join(' ')
+    const traitAsciiHay = (card.traitsAscii ?? []).join(' ')
+    const hay = [
+      card.name,
+      card.nameAscii ?? '',
+      card.text ?? '',
+      traitHay,
+      traitAsciiHay,
+    ].join('\n').toLowerCase()
     if (!hay.includes(q)) return false
   }
   if (f.clans.size && !f.clans.has(card.clan ?? '')) return false

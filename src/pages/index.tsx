@@ -22,6 +22,7 @@ interface CardNode {
   setId: string
   publisherId: string
   name: string
+  nameAscii: string | null
   type: string
   unique: boolean | null
   text: string | null
@@ -29,8 +30,10 @@ interface CardNode {
   deck: string | null
   faction: string | null
   cost: number | null
-  military: number | null
-  political: number | null
+  military: string | null
+  political: string | null
+  militaryBonus: string | null
+  politicalBonus: string | null
   glory: number | null
   strength: number | null
   influence: number | null
@@ -39,6 +42,7 @@ interface CardNode {
   honor: number | null
   fate: number | null
   traits: string[] | null
+  traitsAscii: string[] | null
   flipSideOf: string | null
   unverified: boolean | null
 }
@@ -77,6 +81,8 @@ function adaptCards(nodes: CardNode[]): Card[] {
     if (n.cost != null) (c as Record<string, unknown>).cost = n.cost
     if (n.military != null) (c as Record<string, unknown>).military = n.military
     if (n.political != null) (c as Record<string, unknown>).political = n.political
+    if (n.militaryBonus != null) (c as Record<string, unknown>).militaryBonus = n.militaryBonus
+    if (n.politicalBonus != null) (c as Record<string, unknown>).politicalBonus = n.politicalBonus
     if (n.glory != null) (c as Record<string, unknown>).glory = n.glory
     if (n.strength != null) (c as Record<string, unknown>).strength = n.strength
     if (n.influence != null) (c as Record<string, unknown>).influence = n.influence
@@ -85,6 +91,8 @@ function adaptCards(nodes: CardNode[]): Card[] {
     if (n.honor != null) (c as Record<string, unknown>).honor = n.honor
     if (n.fate != null) (c as Record<string, unknown>).fate = n.fate
     if (n.traits != null) (c as Record<string, unknown>).traits = n.traits
+    if (n.traitsAscii != null) (c as Record<string, unknown>).traitsAscii = n.traitsAscii
+    if (n.nameAscii != null) (c as Record<string, unknown>).nameAscii = n.nameAscii
     return c
   })
 }
@@ -418,6 +426,7 @@ export const query = graphql`
         setId
         publisherId
         name
+        nameAscii
         type
         unique
         text
@@ -427,6 +436,8 @@ export const query = graphql`
         cost
         military
         political
+        militaryBonus
+        politicalBonus
         glory
         strength
         influence
@@ -435,6 +446,7 @@ export const query = graphql`
         honor
         fate
         traits
+        traitsAscii
         flipSideOf
         unverified
       }
