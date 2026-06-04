@@ -42,25 +42,35 @@ type Card = Node & {
   readonly clan: Maybe<Scalars['String']>;
   readonly cost: Maybe<Scalars['Int']>;
   readonly deck: Maybe<Scalars['String']>;
+  readonly element: Maybe<Scalars['String']>;
   readonly errata: Maybe<Scalars['JSON']>;
   readonly faction: Maybe<Scalars['String']>;
+  readonly fate: Maybe<Scalars['Int']>;
   readonly flavorText: Maybe<Scalars['String']>;
+  readonly flipSideOf: Maybe<Scalars['String']>;
   readonly gameId: Scalars['String'];
+  readonly glory: Maybe<Scalars['Int']>;
+  readonly honor: Maybe<Scalars['Int']>;
   readonly id: Scalars['ID'];
   readonly illustrator: Maybe<Scalars['String']>;
   readonly imagePath: Maybe<Scalars['String']>;
   readonly influence: Maybe<Scalars['Int']>;
+  readonly influencePool: Maybe<Scalars['Int']>;
   readonly internal: Internal;
+  readonly military: Maybe<Scalars['Int']>;
   readonly name: Scalars['String'];
   readonly parent: Maybe<Node>;
+  readonly political: Maybe<Scalars['Int']>;
   readonly publisherId: Scalars['String'];
   readonly rulings: Maybe<ReadonlyArray<Maybe<CardRuling>>>;
   readonly setId: Scalars['String'];
   readonly side: Maybe<Scalars['String']>;
   readonly strength: Maybe<Scalars['Int']>;
   readonly text: Maybe<Scalars['String']>;
+  readonly traits: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly type: Scalars['String'];
   readonly unique: Maybe<Scalars['Boolean']>;
+  readonly unverified: Maybe<Scalars['Boolean']>;
 };
 
 type CardConnection = {
@@ -114,25 +124,35 @@ type CardFieldSelector = {
   readonly clan: InputMaybe<FieldSelectorEnum>;
   readonly cost: InputMaybe<FieldSelectorEnum>;
   readonly deck: InputMaybe<FieldSelectorEnum>;
+  readonly element: InputMaybe<FieldSelectorEnum>;
   readonly errata: InputMaybe<FieldSelectorEnum>;
   readonly faction: InputMaybe<FieldSelectorEnum>;
+  readonly fate: InputMaybe<FieldSelectorEnum>;
   readonly flavorText: InputMaybe<FieldSelectorEnum>;
+  readonly flipSideOf: InputMaybe<FieldSelectorEnum>;
   readonly gameId: InputMaybe<FieldSelectorEnum>;
+  readonly glory: InputMaybe<FieldSelectorEnum>;
+  readonly honor: InputMaybe<FieldSelectorEnum>;
   readonly id: InputMaybe<FieldSelectorEnum>;
   readonly illustrator: InputMaybe<FieldSelectorEnum>;
   readonly imagePath: InputMaybe<FieldSelectorEnum>;
   readonly influence: InputMaybe<FieldSelectorEnum>;
+  readonly influencePool: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
+  readonly military: InputMaybe<FieldSelectorEnum>;
   readonly name: InputMaybe<FieldSelectorEnum>;
   readonly parent: InputMaybe<NodeFieldSelector>;
+  readonly political: InputMaybe<FieldSelectorEnum>;
   readonly publisherId: InputMaybe<FieldSelectorEnum>;
   readonly rulings: InputMaybe<CardRulingFieldSelector>;
   readonly setId: InputMaybe<FieldSelectorEnum>;
   readonly side: InputMaybe<FieldSelectorEnum>;
   readonly strength: InputMaybe<FieldSelectorEnum>;
   readonly text: InputMaybe<FieldSelectorEnum>;
+  readonly traits: InputMaybe<FieldSelectorEnum>;
   readonly type: InputMaybe<FieldSelectorEnum>;
   readonly unique: InputMaybe<FieldSelectorEnum>;
+  readonly unverified: InputMaybe<FieldSelectorEnum>;
 };
 
 type CardFilterInput = {
@@ -141,25 +161,35 @@ type CardFilterInput = {
   readonly clan: InputMaybe<StringQueryOperatorInput>;
   readonly cost: InputMaybe<IntQueryOperatorInput>;
   readonly deck: InputMaybe<StringQueryOperatorInput>;
+  readonly element: InputMaybe<StringQueryOperatorInput>;
   readonly errata: InputMaybe<JSONQueryOperatorInput>;
   readonly faction: InputMaybe<StringQueryOperatorInput>;
+  readonly fate: InputMaybe<IntQueryOperatorInput>;
   readonly flavorText: InputMaybe<StringQueryOperatorInput>;
+  readonly flipSideOf: InputMaybe<StringQueryOperatorInput>;
   readonly gameId: InputMaybe<StringQueryOperatorInput>;
+  readonly glory: InputMaybe<IntQueryOperatorInput>;
+  readonly honor: InputMaybe<IntQueryOperatorInput>;
   readonly id: InputMaybe<StringQueryOperatorInput>;
   readonly illustrator: InputMaybe<StringQueryOperatorInput>;
   readonly imagePath: InputMaybe<StringQueryOperatorInput>;
   readonly influence: InputMaybe<IntQueryOperatorInput>;
+  readonly influencePool: InputMaybe<IntQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
+  readonly military: InputMaybe<IntQueryOperatorInput>;
   readonly name: InputMaybe<StringQueryOperatorInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
+  readonly political: InputMaybe<IntQueryOperatorInput>;
   readonly publisherId: InputMaybe<StringQueryOperatorInput>;
   readonly rulings: InputMaybe<CardRulingFilterListInput>;
   readonly setId: InputMaybe<StringQueryOperatorInput>;
   readonly side: InputMaybe<StringQueryOperatorInput>;
   readonly strength: InputMaybe<IntQueryOperatorInput>;
   readonly text: InputMaybe<StringQueryOperatorInput>;
+  readonly traits: InputMaybe<StringQueryOperatorInput>;
   readonly type: InputMaybe<StringQueryOperatorInput>;
   readonly unique: InputMaybe<BooleanQueryOperatorInput>;
+  readonly unverified: InputMaybe<BooleanQueryOperatorInput>;
 };
 
 type CardGroupConnection = {
@@ -391,25 +421,35 @@ type CardSortInput = {
   readonly clan: InputMaybe<SortOrderEnum>;
   readonly cost: InputMaybe<SortOrderEnum>;
   readonly deck: InputMaybe<SortOrderEnum>;
+  readonly element: InputMaybe<SortOrderEnum>;
   readonly errata: InputMaybe<SortOrderEnum>;
   readonly faction: InputMaybe<SortOrderEnum>;
+  readonly fate: InputMaybe<SortOrderEnum>;
   readonly flavorText: InputMaybe<SortOrderEnum>;
+  readonly flipSideOf: InputMaybe<SortOrderEnum>;
   readonly gameId: InputMaybe<SortOrderEnum>;
+  readonly glory: InputMaybe<SortOrderEnum>;
+  readonly honor: InputMaybe<SortOrderEnum>;
   readonly id: InputMaybe<SortOrderEnum>;
   readonly illustrator: InputMaybe<SortOrderEnum>;
   readonly imagePath: InputMaybe<SortOrderEnum>;
   readonly influence: InputMaybe<SortOrderEnum>;
+  readonly influencePool: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
+  readonly military: InputMaybe<SortOrderEnum>;
   readonly name: InputMaybe<SortOrderEnum>;
   readonly parent: InputMaybe<NodeSortInput>;
+  readonly political: InputMaybe<SortOrderEnum>;
   readonly publisherId: InputMaybe<SortOrderEnum>;
   readonly rulings: InputMaybe<CardRulingSortInput>;
   readonly setId: InputMaybe<SortOrderEnum>;
   readonly side: InputMaybe<SortOrderEnum>;
   readonly strength: InputMaybe<SortOrderEnum>;
   readonly text: InputMaybe<SortOrderEnum>;
+  readonly traits: InputMaybe<SortOrderEnum>;
   readonly type: InputMaybe<SortOrderEnum>;
   readonly unique: InputMaybe<SortOrderEnum>;
+  readonly unverified: InputMaybe<SortOrderEnum>;
 };
 
 type DateQueryOperatorInput = {
@@ -1240,25 +1280,35 @@ type Query_cardArgs = {
   clan: InputMaybe<StringQueryOperatorInput>;
   cost: InputMaybe<IntQueryOperatorInput>;
   deck: InputMaybe<StringQueryOperatorInput>;
+  element: InputMaybe<StringQueryOperatorInput>;
   errata: InputMaybe<JSONQueryOperatorInput>;
   faction: InputMaybe<StringQueryOperatorInput>;
+  fate: InputMaybe<IntQueryOperatorInput>;
   flavorText: InputMaybe<StringQueryOperatorInput>;
+  flipSideOf: InputMaybe<StringQueryOperatorInput>;
   gameId: InputMaybe<StringQueryOperatorInput>;
+  glory: InputMaybe<IntQueryOperatorInput>;
+  honor: InputMaybe<IntQueryOperatorInput>;
   id: InputMaybe<StringQueryOperatorInput>;
   illustrator: InputMaybe<StringQueryOperatorInput>;
   imagePath: InputMaybe<StringQueryOperatorInput>;
   influence: InputMaybe<IntQueryOperatorInput>;
+  influencePool: InputMaybe<IntQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
+  military: InputMaybe<IntQueryOperatorInput>;
   name: InputMaybe<StringQueryOperatorInput>;
   parent: InputMaybe<NodeFilterInput>;
+  political: InputMaybe<IntQueryOperatorInput>;
   publisherId: InputMaybe<StringQueryOperatorInput>;
   rulings: InputMaybe<CardRulingFilterListInput>;
   setId: InputMaybe<StringQueryOperatorInput>;
   side: InputMaybe<StringQueryOperatorInput>;
   strength: InputMaybe<IntQueryOperatorInput>;
   text: InputMaybe<StringQueryOperatorInput>;
+  traits: InputMaybe<StringQueryOperatorInput>;
   type: InputMaybe<StringQueryOperatorInput>;
   unique: InputMaybe<BooleanQueryOperatorInput>;
+  unverified: InputMaybe<BooleanQueryOperatorInput>;
 };
 
 
@@ -2208,7 +2258,7 @@ type StringQueryOperatorInput = {
 type AuditPageQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type AuditPageQuery = { readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly gameId: string, readonly name: string, readonly status: string }> } };
+type AuditPageQuery = { readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly gameId: string, readonly name: string, readonly status: string }> }, readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly gameId: string, readonly unverified: boolean | null }> } };
 
 type CardDetailQueryVariables = Exact<{
   gameId: Scalars['String'];
@@ -2217,7 +2267,7 @@ type CardDetailQueryVariables = Exact<{
 }>;
 
 
-type CardDetailQuery = { readonly card: { readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly strength: number | null, readonly influence: number | null, readonly errata: Record<string, unknown> | null, readonly rulings: ReadonlyArray<{ readonly date: string | null, readonly source: string | null, readonly text: string | null } | null> | null } | null, readonly cardSet: { readonly setId: string, readonly name: string, readonly cycle: string | null, readonly type: string } | null };
+type CardDetailQuery = { readonly card: { readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly unverified: boolean | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly strength: number | null, readonly influence: number | null, readonly military: number | null, readonly political: number | null, readonly glory: number | null, readonly honor: number | null, readonly fate: number | null, readonly influencePool: number | null, readonly element: string | null, readonly traits: ReadonlyArray<string | null> | null, readonly errata: Record<string, unknown> | null, readonly rulings: ReadonlyArray<{ readonly date: string | null, readonly source: string | null, readonly text: string | null } | null> | null } | null, readonly cardSet: { readonly setId: string, readonly name: string, readonly cycle: string | null, readonly type: string } | null };
 
 type CardsIndexQueryVariables = Exact<{
   gameId: Scalars['String'];

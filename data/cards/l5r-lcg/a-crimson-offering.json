@@ -1,78 +1,13 @@
 [
   {
-    "id": "a-crimson-offering-066",
+    "id": "a-crimson-offering-045",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Bonds of Blood (card)",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-059",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Disparaging Challenge",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-061",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Feeding An Army",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-060",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Ki Alignment",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-063",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Sanguine Mastery",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-064",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Seize the Mind",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-047",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "By Onnotangu's Light",
+    "name": "The Eternal Watch",
     "type": "Province",
-    "clan": "Neutral",
+    "clan": "Crab",
+    "text": "Action: During a conflict at this province, choose an attacking character. Your opponent selects one – either bow that character or they give you 1 honor.",
     "unverified": true
   },
   {
@@ -83,49 +18,21 @@
     "name": "Seeking Enlightenment",
     "type": "Province",
     "clan": "Dragon",
+    "text": "Reaction: After this province is revealed – your opponent loses X fate, where X is the number of attacking characters.",
     "unverified": true
   },
   {
-    "id": "a-crimson-offering-045",
+    "id": "a-crimson-offering-047",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "The Eternal Watch",
+    "name": "By Onnotangu's Light",
     "type": "Province",
-    "clan": "Crab",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-065",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Command the Tributary",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-062",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "In Harmony",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-058",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Tetsubō of Blood",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
+    "clan": "Neutral",
+    "traits": [
+      "City"
+    ],
+    "text": "During conflicts at this province, each character in play is considered to have no fate on it, and fate tokens cannot be moved or removed from those characters.",
     "unverified": true
   },
   {
@@ -137,6 +44,12 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Berserker",
+      "Shadowlands"
+    ],
+    "text": "Dire – This character gets +3[mil]. (This character is dire when it has no fate on it.)",
     "unverified": true
   },
   {
@@ -148,28 +61,27 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Dire – This character gets +2[mil] and +2[pol]. (This character is dire when it has no fate on it.)",
     "unverified": true
   },
   {
-    "id": "a-crimson-offering-056",
+    "id": "a-crimson-offering-050",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Iuchi Shahai (ACO)",
+    "name": "Togashi Kazue",
     "type": "Character",
-    "clan": "Unicorn",
+    "unique": true,
+    "clan": "Dragon",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-053",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Kaito Mai",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Each character you control gains: \"Dire – You may trigger each of this character's triggered abilities an additional time each round (or specified period).\"",
     "unverified": true
   },
   {
@@ -181,39 +93,10 @@
     "type": "Character",
     "clan": "Lion",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-057",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Resourceful Mahō-Tsukai",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-050",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Togashi Kazue (ACO)",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "a-crimson-offering-054",
-    "gameId": "l5r-lcg",
-    "setId": "a-crimson-offering",
-    "publisherId": "ffg",
-    "name": "Yogo Paramour",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Dire – This character does not bow as a result of conflict resolution. (This character is dire when it has no fate on it.)",
     "unverified": true
   },
   {
@@ -225,6 +108,42 @@
     "type": "Holding",
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Castle"
+    ],
+    "text": "While there is a Battlefield in play, fate cannot be removed from characters you control by opponents' card or ring effects.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-053",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Kaito Mai",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Monk"
+    ],
+    "text": "Dire – This character gets +3 glory.\nReaction: After 1 or more fate is removed from this character outside the fate phase, choose another character – remove 1 fate from that character.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-054",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Yogo Paramour",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Dire – This character gains: \"Action: Bow this character. Choose another character – dishonor that character.\". (This character is dire when it has no fate on it.)",
     "unverified": true
   },
   {
@@ -236,6 +155,184 @@
     "type": "Holding",
     "clan": "Neutral",
     "deck": "dynasty",
+    "traits": [
+      "Village"
+    ],
+    "text": "Reaction: After 1 or more fate is removed from a character you control outside the fate phase – draw 1 card (draw 2 cards instead if that character is dishonored)",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-056",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Iuchi Shahai",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "While you are the first player, this character gains covert.\nReaction: After you play a Meishōdō or Mahō card, lose 1 honor – place 1 fate on this character.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-057",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Resourceful Mahō-Tsukai",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Shadowlands"
+    ],
+    "text": "No attachments except Shadowlands or Spell.\nWhile this character is dishonored, reduce the cost to play each Mahō card you play by 1 (to a minimum of 0).",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-058",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Tetsubō of Blood",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Mahō",
+      "Spell",
+      "Earth",
+      "Weapon"
+    ],
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\nLimited. Restricted.\nAttached character cannot be honored.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-059",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Disparaging Challenge",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: During a conflict, initiate a [pol] duel against a character your opponent controls in their home area – resolve the duel. Move the duel's loser to the conflict, if able. Otherwise, move it home.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-060",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Ki Alignment",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Void"
+    ],
+    "text": "Reaction: After you declare a Monk character as an attacker or defender – search the top 8 cards of your conflict deck for up to 2 Kihō cards with different names, reveal them, and add them to your hand. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-061",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Feeding An Army",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Air role only.\nReaction: After the conflict phase begins, break a faceup (friendly) province – place 1 fate on each character you control with printed cost 3 or lower.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-062",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "In Harmony",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Play only if you have at least 1 ring in your claimed ring pool.\nAncestral.\nFate on attached character cannot be removed by card or ring effects.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-063",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Sanguine Mastery",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Mahō",
+      "Spell",
+      "Fire"
+    ],
+    "text": "Fire role only.\nThis card's fate cost can only be paid for with fate on characters you control.\nAction: Dishonor a (friendly) character. Choose up to X attachments, where X is the dishonored character's glory – discard each of those attachments.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-064",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Seize the Mind",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Mahō",
+      "Spell",
+      "Air"
+    ],
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAction: During a conflict, choose a non-unique character – take control of that character until the end of the conflict. You lose honor equal to the amount of fate on that character.",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-065",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Command the Tributary",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water",
+      "Meishōdō"
+    ],
+    "text": "Attached character gains: \"Action: Choose another character – move 1 fate from this character to the chosen character.\"",
+    "unverified": true
+  },
+  {
+    "id": "a-crimson-offering-066",
+    "gameId": "l5r-lcg",
+    "setId": "a-crimson-offering",
+    "publisherId": "ffg",
+    "name": "Bonds of Blood (card)",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Mahō",
+      "Spell",
+      "Water"
+    ],
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAction: During a conflict, dishonor a (friendly) participating character. Choose a character – move both the dishonored character and the chosen character home.",
     "unverified": true
   }
 ]

@@ -29,16 +29,66 @@ const SHOW_ID = (() => {
   return i >= 0 ? process.argv[i + 1] : null
 })()
 
+/**
+ * Cycle mode: distribute paste rows across multiple set files based on
+ * cumulative ID ranges. Use when the wiki page covers an entire cycle
+ * (Temptations, Inheritance, Dominion) whose packs share a single
+ * 1..N numbering. Format:
+ *
+ *     --cycle-ranges "slug:lo-hi,slug:lo-hi,..."
+ *
+ * Each "slug" must have an existing data/cards/l5r-lcg/<slug>.json.
+ * Each row's leading integer determines its set; rows outside every
+ * range raise an issue. The positional SET_SLUG becomes informational
+ * (used only in log headers).
+ */
+interface CycleRange { slug: string; lo: number; hi: number }
+const CYCLE_RANGES: CycleRange[] | null = (() => {
+  const i = process.argv.indexOf('--cycle-ranges')
+  if (i < 0 || !process.argv[i + 1]) return null
+  const spec = process.argv[i + 1]!
+  const out: CycleRange[] = []
+  for (const part of spec.split(',')) {
+    const [slug, range] = part.split(':')
+    if (!slug || !range) {
+      console.error(`[parse] bad --cycle-ranges entry: "${part}"`)
+      process.exit(1)
+    }
+    const [loStr, hiStr] = range.split('-')
+    const lo = Number(loStr); const hi = Number(hiStr)
+    if (!Number.isFinite(lo) || !Number.isFinite(hi) || lo > hi) {
+      console.error(`[parse] bad --cycle-ranges range: "${part}"`)
+      process.exit(1)
+    }
+    out.push({ slug: slug.trim(), lo, hi })
+  }
+  return out
+})()
+
 if (!HTML_PATH || !SET_SLUG) {
-  console.error('Usage: parse-l5r-wiki-paste.ts <html-path> <set-slug> [--apply]')
+  console.error('Usage: parse-l5r-wiki-paste.ts <html-path> <set-slug> [--apply] [--keep-unverified] [--show-id N] [--cycle-ranges "slug:lo-hi,..."]')
   process.exit(1)
 }
 
 const PROJECT_ROOT = path.resolve(__dirname, '..')
-const CARDS_FILE = path.join(PROJECT_ROOT, 'data', 'cards', 'l5r-lcg', `${SET_SLUG}.json`)
-if (!fs.existsSync(CARDS_FILE)) {
-  console.error(`[parse] Card data not found for set "${SET_SLUG}": ${CARDS_FILE}`)
-  process.exit(1)
+const CARDS_DIR = path.join(PROJECT_ROOT, 'data', 'cards', 'l5r-lcg')
+function cardsFileFor(slug: string): string {
+  return path.join(CARDS_DIR, `${slug}.json`)
+}
+if (!CYCLE_RANGES) {
+  const f = cardsFileFor(SET_SLUG)
+  if (!fs.existsSync(f)) {
+    console.error(`[parse] Card data not found for set "${SET_SLUG}": ${f}`)
+    process.exit(1)
+  }
+} else {
+  for (const r of CYCLE_RANGES) {
+    const f = cardsFileFor(r.slug)
+    if (!fs.existsSync(f)) {
+      console.error(`[parse] Card data not found for cycle set "${r.slug}": ${f}`)
+      process.exit(1)
+    }
+  }
 }
 
 interface CardRecord {
@@ -267,25 +317,88 @@ function buildCardId(setSlug: string, rawNum: string): string {
 
 // ---------- Main ----------
 
+interface SetCtx {
+  slug: string
+  lo: number
+  hi: number
+  filePath: string
+  existing: CardRecord[]
+  byId: Map<string, CardRecord>
+  replacements: { id: string; before: CardRecord; after: CardRecord; row: ParsedRow }[]
+  seenIds: Set<string>
+}
+
+function loadCtx(slug: string, lo: number, hi: number): SetCtx {
+  const filePath = cardsFileFor(slug)
+  const existing = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as CardRecord[]
+  return {
+    slug, lo, hi, filePath, existing,
+    byId: new Map(existing.map((c) => [c.id, c] as const)),
+    replacements: [],
+    seenIds: new Set(),
+  }
+}
+
+function ctxForRow(row: ParsedRow, ctxs: SetCtx[]): SetCtx | null {
+  const m = /^(\d+)/.exec(row.rawNum)
+  if (!m) return ctxs.length === 1 ? ctxs[0]! : null
+  const n = parseInt(m[1]!, 10)
+  for (const c of ctxs) if (n >= c.lo && n <= c.hi) return c
+  return null
+}
+
+function buildAfter(before: CardRecord, row: ParsedRow): CardRecord {
+  return {
+    id: before.id,
+    gameId: before.gameId,
+    setId: before.setId,
+    publisherId: before.publisherId,
+    name: row.name,
+    ...(row.type ? { type: row.type } : {}),
+    ...(row.unique ? { unique: true } : {}),
+    ...(row.clan ? { clan: row.clan } : {}),
+    ...(row.deck ? { deck: row.deck } : {}),
+    ...(row.traits.length > 0 ? { traits: row.traits } : {}),
+    ...(row.text ? { text: row.text } : {}),
+    // unverified is normally dropped by Replace policy, but can be kept
+    // when the caller knows the paste still needs follow-up.
+    ...(KEEP_UNVERIFIED ? { unverified: true } : {}),
+    // errata/rulings/flipSideOf preserved if previously set; this paste
+    // doesn't carry them.
+    ...(before.errata ? { errata: before.errata } : {}),
+    ...(before.rulings ? { rulings: before.rulings } : {}),
+    ...(before.flipSideOf ? { flipSideOf: before.flipSideOf } : {}),
+  }
+}
+
 function main(): void {
   const html = fs.readFileSync(HTML_PATH, 'utf-8')
-  const existing = JSON.parse(fs.readFileSync(CARDS_FILE, 'utf-8')) as CardRecord[]
-  const byId = new Map(existing.map((c) => [c.id, c] as const))
+
+  // Build set contexts (1 for single-set mode, N for cycle mode).
+  const ctxs: SetCtx[] = CYCLE_RANGES
+    ? CYCLE_RANGES.map((r) => loadCtx(r.slug, r.lo, r.hi))
+    : [loadCtx(SET_SLUG!, 0, Number.MAX_SAFE_INTEGER)]
 
   const issues: Issue[] = []
-  const rows = splitRows(html).slice(0) // skip header is handled by 7-cell check
+  const rows = splitRows(html).slice(0)
   const parsed: ParsedRow[] = []
   for (const r of rows) {
     const row = parseRow(r, issues)
     if (row) parsed.push(row)
   }
 
-  // Match parsed rows to existing records.
-  const replacements: { id: string; before: CardRecord; after: CardRecord; row: ParsedRow }[] = []
-  const seenIds = new Set<string>()
   for (const row of parsed) {
-    const id = buildCardId(SET_SLUG, row.rawNum)
-    const before = byId.get(id)
+    const ctx = ctxForRow(row, ctxs)
+    if (!ctx) {
+      issues.push({
+        rawNum: row.rawNum,
+        kind: 'unmatched-id',
+        detail: `No cycle range covers id ${row.rawNum} ("${row.name}").`,
+      })
+      continue
+    }
+    const id = buildCardId(ctx.slug, row.rawNum)
+    const before = ctx.byId.get(id)
     if (!before) {
       issues.push({
         rawNum: row.rawNum,
@@ -294,7 +407,7 @@ function main(): void {
       })
       continue
     }
-    if (seenIds.has(id)) {
+    if (ctx.seenIds.has(id)) {
       issues.push({
         rawNum: row.rawNum,
         kind: 'unmatched-id',
@@ -302,45 +415,31 @@ function main(): void {
       })
       continue
     }
-    seenIds.add(id)
-
-    const after: CardRecord = {
-      id: before.id,
-      gameId: before.gameId,
-      setId: before.setId,
-      publisherId: before.publisherId,
-      name: row.name,
-      ...(row.type ? { type: row.type } : {}),
-      ...(row.unique ? { unique: true } : {}),
-      ...(row.clan ? { clan: row.clan } : {}),
-      ...(row.deck ? { deck: row.deck } : {}),
-      ...(row.traits.length > 0 ? { traits: row.traits } : {}),
-      ...(row.text ? { text: row.text } : {}),
-      // unverified is normally dropped by Replace policy, but can be kept
-      // when the caller knows the paste still needs follow-up.
-      ...(KEEP_UNVERIFIED ? { unverified: true } : {}),
-      // errata/rulings/flipSideOf preserved if previously set; this paste
-      // doesn't carry them.
-      ...(before.errata ? { errata: before.errata } : {}),
-      ...(before.rulings ? { rulings: before.rulings } : {}),
-      ...(before.flipSideOf ? { flipSideOf: before.flipSideOf } : {}),
-    }
-    replacements.push({ id, before, after, row })
+    ctx.seenIds.add(id)
+    ctx.replacements.push({ id, before, after: buildAfter(before, row), row })
   }
 
-  // Report
-  const totalExisting = existing.length
-  const matched = replacements.length
-  const unmatched = totalExisting - matched
-  console.log(`[parse] set: ${SET_SLUG}`)
+  // Report (per-set summaries, global issue list).
+  const header = CYCLE_RANGES ? `cycle: ${SET_SLUG} (${ctxs.length} sets)` : `set: ${SET_SLUG}`
+  console.log(`[parse] ${header}`)
   console.log(`[parse] paste rows parsed: ${parsed.length}`)
-  console.log(`[parse] matched to existing records: ${matched} / ${totalExisting}`)
-  if (unmatched > 0) {
-    const matchedIds = new Set(replacements.map((r) => r.id))
-    const missingFromPaste = existing.filter((c) => !matchedIds.has(c.id)).map((c) => c.id)
-    console.log(`[parse] existing records NOT in paste (${unmatched}):`)
-    for (const id of missingFromPaste.slice(0, 20)) console.log(`    - ${id}`)
-    if (missingFromPaste.length > 20) console.log(`    - ...${missingFromPaste.length - 20} more`)
+  const totalMatched = ctxs.reduce((s, c) => s + c.replacements.length, 0)
+  const totalExisting = ctxs.reduce((s, c) => s + c.existing.length, 0)
+  console.log(`[parse] matched: ${totalMatched} / ${totalExisting} across ${ctxs.length} set(s)`)
+  for (const c of ctxs) {
+    const m = c.replacements.length
+    const t = c.existing.length
+    const unmatched = t - m
+    let line = `[parse]   ${c.slug}: ${m}/${t}`
+    if (CYCLE_RANGES) line += ` (range ${c.lo}-${c.hi})`
+    if (unmatched > 0) line += `, ${unmatched} existing NOT in paste`
+    console.log(line)
+    if (unmatched > 0 && unmatched <= 20) {
+      const matchedIds = new Set(c.replacements.map((r) => r.id))
+      for (const id of c.existing.filter((e) => !matchedIds.has(e.id)).map((e) => e.id)) {
+        console.log(`      - ${id}`)
+      }
+    }
   }
 
   if (issues.length > 0) {
@@ -353,8 +452,13 @@ function main(): void {
   }
 
   // Sample replacements (or a specific one via --show-id)
+  const allReplacements = ctxs.flatMap((c) => c.replacements)
   if (SHOW_ID) {
-    const hit = replacements.find((r) => r.row.rawNum === SHOW_ID || r.id.endsWith(`-${SHOW_ID}`) || r.id.endsWith(`-${SHOW_ID.padStart(3, '0')}`))
+    const hit = allReplacements.find((r) =>
+      r.row.rawNum === SHOW_ID ||
+      r.id.endsWith(`-${SHOW_ID}`) ||
+      r.id.endsWith(`-${SHOW_ID!.padStart(3, '0')}`)
+    )
     if (hit) {
       console.log(`\n[parse] --show-id "${SHOW_ID}" matched ${hit.id}:`)
       console.log(JSON.stringify(hit.after, null, 2).split('\n').map((l) => '  ' + l).join('\n'))
@@ -362,7 +466,7 @@ function main(): void {
       console.log(`\n[parse] --show-id "${SHOW_ID}" did not match any replacement.`)
     }
   } else {
-    const samples = replacements.slice(0, 3)
+    const samples = allReplacements.slice(0, 3)
     if (samples.length > 0) {
       console.log(`\n[parse] sample replacements (first ${samples.length}):`)
       for (const s of samples) {
@@ -382,16 +486,24 @@ function main(): void {
     process.exit(1)
   }
 
-  // Build the final card array: keep records not in the paste unchanged,
-  // replace the matched ones, sort by id.
-  const matchedById = new Map(replacements.map((r) => [r.id, r.after] as const))
-  const next = existing
-    .map((c) => matchedById.get(c.id) ?? c)
-    .sort((a, b) => a.id.localeCompare(b.id))
-
-  fs.writeFileSync(CARDS_FILE, JSON.stringify(next, null, 2) + '\n', 'utf-8')
-  console.log(`\n[parse] Wrote ${next.length} records to ${path.relative(PROJECT_ROOT, CARDS_FILE)}`)
-  console.log(`[parse]   ${matched} replaced, ${next.length - matched} unchanged.`)
+  // Write each set's file: keep records not in the paste unchanged, replace
+  // the matched ones, sort by id.
+  let totalReplaced = 0
+  let totalWritten = 0
+  for (const c of ctxs) {
+    const matchedById = new Map(c.replacements.map((r) => [r.id, r.after] as const))
+    const next = c.existing
+      .map((e) => matchedById.get(e.id) ?? e)
+      .sort((a, b) => a.id.localeCompare(b.id))
+    fs.writeFileSync(c.filePath, JSON.stringify(next, null, 2) + '\n', 'utf-8')
+    console.log(`\n[parse] Wrote ${next.length} records to ${path.relative(PROJECT_ROOT, c.filePath)}`)
+    console.log(`[parse]   ${c.replacements.length} replaced, ${next.length - c.replacements.length} unchanged.`)
+    totalReplaced += c.replacements.length
+    totalWritten += next.length
+  }
+  if (ctxs.length > 1) {
+    console.log(`\n[parse] Total: ${totalReplaced} replaced across ${ctxs.length} files (${totalWritten} records).`)
+  }
 }
 
 main()

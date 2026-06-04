@@ -1,167 +1,39 @@
 [
   {
-    "id": "peace-at-any-cost-127",
+    "id": "peace-at-any-cost-109",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "A War on Two Fronts",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-122",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "At Any Cost",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-128",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Cleanse the Empire",
-    "type": "Event",
+    "name": "Shiro Gisu",
+    "type": "Stronghold",
+    "unique": true,
     "clan": "Phoenix",
-    "deck": "conflict",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Action: Bow this stronghold – look at the top X cards of your conflict deck, where X is the number of characters an opponent controls with no fate on them. Add 1 of those cards to your hand and put the rest on the bottom of your conflict deck in a random order.",
     "unverified": true
   },
   {
-    "id": "peace-at-any-cost-130",
+    "id": "peace-at-any-cost-110",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Ride On",
-    "type": "Event",
+    "name": "Golden Plains",
+    "type": "Province",
     "clan": "Unicorn",
-    "deck": "conflict",
+    "text": "While your stronghold is Golden Plains Outpost, each character you control gains the Cavalry trait.\nReaction: After an attack is declared against this province, choose another eligible province you control – move the conflict to that province.",
     "unverified": true
   },
   {
-    "id": "peace-at-any-cost-129",
+    "id": "peace-at-any-cost-111",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Subterfuge",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-126",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Ujiaki's Offer",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-116",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Adorned Temple",
-    "type": "Holding",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-113",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Doom Thrower",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-125",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Belief in the Little Teacher",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-123",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Dutiful Assistant",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-124",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Setting the Standard",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-114",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Daidoji Iron Warrior",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-115",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Furtive Sympathizer",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-117",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Ikoma Ujiaki (PaAC)",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "peace-at-any-cost-118",
-    "gameId": "l5r-lcg",
-    "setId": "peace-at-any-cost",
-    "publisherId": "ffg",
-    "name": "Inquisitorial Initiate",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
+    "name": "Lord's Ascendancy",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Action: During a conflict at this province, choose a participating character – that character's controller moves 1 fate from their fate pool to the chosen character.",
     "unverified": true
   },
   {
@@ -173,17 +45,104 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Engineer"
+    ],
+    "text": "Dire – You may trigger the ability on each holding you control an additional time each round (or specified period). (This character is dire when it has no fate on it.)\nEach holding you control gets +2 bonus strength.",
     "unverified": true
   },
   {
-    "id": "peace-at-any-cost-121",
+    "id": "peace-at-any-cost-113",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Moto Conqueror",
-    "type": "Character",
-    "clan": "Unicorn",
+    "name": "Doom Thrower",
+    "type": "Holding",
+    "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Siege Weapon"
+    ],
+    "text": "During a conflict, sacrifice a character – the attacked province gets -2 strength until the end of the conflict (-5 strength instead if the sacrificed character had 1 or more fate on it).",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-114",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Daidoji Iron Warrior",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After this character wins a conflict – each player discards cards from their hand until they have 4 or fewer cards in hand.",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-115",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Furtive Sympathizer",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Heretic"
+    ],
+    "text": "Keeper role only.\nCovert\nAction: During a conflict in which this character is participating, if this character is ordinary – switch each participating character's base [mil] skill with its base [pol] skill until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-116",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Adorned Temple",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Temple"
+    ],
+    "text": "Reaction: After 1 or more fate is placed on a character you control by a card effect – draw 1 card (draw 2 cards instead if that character is ordinary).",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-117",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Ikoma Ujiaki",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Courtier"
+    ],
+    "text": "Reaction: During a conflict in which this character is participating, lose 2 honor – switch the conflict type (the conflict retains its element).",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-118",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Inquisitorial Initiate",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After this character wins a conflict – your opponent reveals X cards in their hand, where X is the number of characters they control with no fate on them. Choose and discard 1 of the revealed cards.",
     "unverified": true
   },
   {
@@ -195,6 +154,10 @@
     "type": "Character",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Seeker role only.\nAction: During a conflict in which this character is participating, choose a participating character your opponent controls. They must select one – either remove 1 fate from that character or bow it.",
     "unverified": true
   },
   {
@@ -206,36 +169,153 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Covert. (When this character attacks, choose one character without covert. That character cannot be declared as a defender.)",
     "unverified": true
   },
   {
-    "id": "peace-at-any-cost-110",
+    "id": "peace-at-any-cost-121",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Golden Plains",
-    "type": "Province",
+    "name": "Moto Conqueror",
+    "type": "Character",
     "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "—",
     "unverified": true
   },
   {
-    "id": "peace-at-any-cost-111",
+    "id": "peace-at-any-cost-122",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Lord's Ascendancy",
-    "type": "Province",
-    "clan": "Neutral",
+    "name": "At Any Cost",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Limited.\nAction: Lose 3 honor. Choose a character – place 2 fate on that character.",
     "unverified": true
   },
   {
-    "id": "peace-at-any-cost-109",
+    "id": "peace-at-any-cost-123",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Shiro Gisu",
-    "type": "Stronghold",
+    "name": "Dutiful Assistant",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Follower"
+    ],
+    "text": "Ancestral. (When attached card leaves play, return this card to your hand.)\nWhile attached character is honored, it gets +2 glory.",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-124",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Setting the Standard",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Air role only.\nRestricted.\nAttached character gains: \"Reaction: After this character wins a conflict – draw 2 cards, then discard 1 card from your hand.\"",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-125",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Belief in the Little Teacher",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Condition",
+      "Heresy"
+    ],
+    "text": "Ancestral\nAttached character gains: \"Action: Discard a status token from this character.\"",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-126",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Ujiaki's Offer",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Action: During a conflict, choose a participating character with printed cost equal to or lower than that of another participating character you control – place 1 fate on the chosen character. If you do, bow it, move it home, and dishonor it.",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-127",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "A War on Two Fronts",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Limited.\nReaction: After you declare a [mil] conflict, if you are more honorable than your opponent, choose an eligible province not currently being attacked – reveal it, if able. The conflict is also at that province.",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-128",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Cleanse the Empire",
+    "type": "Event",
     "clan": "Phoenix",
+    "deck": "conflict",
+    "text": "After you win a conflict as the attacking player – remove 1 fate from each character your opponent controls. Then, choose a character with no fate on it controlled by that opponent and bow it.",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-129",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Subterfuge",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Interrupt: When an opponent would draw 1 or more cards outside the draw phase, if you are less honorable than that opponent – discard up to 3 of those cards instead.",
+    "unverified": true
+  },
+  {
+    "id": "peace-at-any-cost-130",
+    "gameId": "l5r-lcg",
+    "setId": "peace-at-any-cost",
+    "publisherId": "ffg",
+    "name": "Ride On",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Action: During a conflict, choose a Cavalry character you control. Select one – either move that character to the conflict or move it home.",
     "unverified": true
   }
 ]

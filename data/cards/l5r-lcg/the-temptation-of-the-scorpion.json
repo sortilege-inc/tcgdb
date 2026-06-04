@@ -1,79 +1,18 @@
 [
   {
-    "id": "the-temptation-of-the-scorpion-069",
+    "id": "the-temptation-of-the-scorpion-067",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "An Agreeable Arrangement",
-    "type": "Event",
-    "clan": "Crane",
+    "name": "Unleashed Experiment",
+    "type": "Character",
+    "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-086",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Dark Resurrection",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-079",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Mushin no Shin",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-080",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Reconnaissance",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-084",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Shadow Step",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-085",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "The Western Wind",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-082",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Whispers of Power",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
+    "traits": [
+      "Creature",
+      "Shadowlands"
+    ],
+    "text": "Dire – This character loses each other non-keyword ability. (This character is dire when it has no fate on it.)",
     "unverified": true
   },
   {
@@ -85,39 +24,23 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Pride.\nForced Reaction: After defenders are declared during a conflict in which this character is participating, initiate a [mil] duel – resolve the duel. If this character is the duel's loser, move it home. (Unlimited.)",
     "unverified": true
   },
   {
-    "id": "the-temptation-of-the-scorpion-074",
+    "id": "the-temptation-of-the-scorpion-069",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Iuchi Soulweaver",
-    "type": "Character",
-    "clan": "Unicorn",
+    "name": "An Agreeable Arrangement",
+    "type": "Event",
+    "clan": "Crane",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-071",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Meticulous Scout",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-078",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Promising Youth",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "conflict",
+    "text": "Action: Give control of a (friendly) ready character with printed cost 2 or higher to an opponent. Choose a non-Champion character that opponent controls – bow the chosen character.",
     "unverified": true
   },
   {
@@ -129,39 +52,27 @@
     "type": "Character",
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "This character cannot be evaded by the covert keyword.\nAction: During a conflict in which this character is participating on your side alone – remove 1 fate from each other participating character with equal or lower [mil] skill.",
     "unverified": true
   },
   {
-    "id": "the-temptation-of-the-scorpion-077",
+    "id": "the-temptation-of-the-scorpion-071",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Talented Performer",
+    "name": "Meticulous Scout",
     "type": "Character",
-    "clan": "Crane",
+    "clan": "Lion",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-067",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Unleashed Experiment",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-073",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "Yogo Junzo",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "Seeker role only.\nAction: If you have gained 2 or more honor this phase, choose a province an opponent controls – place a dishonored status token on that province and reveal it, if able. While a province has a dishonored status token, treat its printed text box as if it were blank (except for Traits).",
     "unverified": true
   },
   {
@@ -171,19 +82,49 @@
     "publisherId": "ffg",
     "name": "Young Philosopher",
     "type": "Character",
+    "unique": true,
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air",
+      "Scholar"
+    ],
+    "text": "—",
     "unverified": true
   },
   {
-    "id": "the-temptation-of-the-scorpion-081",
+    "id": "the-temptation-of-the-scorpion-073",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Blessed By Fukurokojin",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
+    "name": "Yogo Junzo",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Creature",
+      "Shadowlands"
+    ],
+    "text": "Dire – This character gains: \"Action: Choose a character – discard all fate from that character.\"\nAction: Choose a character you control – move any amount of fate from that character to your fate pool.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-074",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Iuchi Soulweaver",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water",
+      "Cavalry"
+    ],
+    "text": "Dire – This character is considered to be participating in each conflict in which you control at least 1 other participating character. It does not bow as a result of conflict resolution in conflicts in which it is at home. (This character is dire when it has no fate on it.)",
     "unverified": true
   },
   {
@@ -195,17 +136,10 @@
     "type": "Attachment",
     "clan": "Crab",
     "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-temptation-of-the-scorpion-083",
-    "gameId": "l5r-lcg",
-    "setId": "the-temptation-of-the-scorpion",
-    "publisherId": "ffg",
-    "name": "The Skin of Fu Leng",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Fire role only.",
     "unverified": true
   },
   {
@@ -217,6 +151,162 @@
     "type": "Attachment",
     "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to an unbroken province.\nReaction: After you win a conflict at attached province, choose a status token on a participating character or on attached province – discard the chosen status token and gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-077",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Talented Performer",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "This character must be chosen as a target of each event if able.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-078",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Promising Youth",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "You may play this character as an attachment with the text: \"Attached character gets +2 [mil] and +2 [pol]. Interrupt: When attached character leaves play – detach this attachment and turn it into a character.\"",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-079",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Mushin no Shin",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Interrupt: When the effects of a triggered ability would initiate, if that triggered ability chooses a character you control with 2 or more attachments as a target – cancel those effects.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-080",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Reconnaissance",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Reaction: After the conflict phase begins, choose 3 provinces – look at each of those provinces (if it is facedown). If you have at least 5 more honor than an opponent, you may also discard any number of cards from those provinces.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-081",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Blessed By Fukurokojin",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Air"
+    ],
+    "text": "Attached character cannot receive dishonored status tokens.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-082",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Whispers of Power",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Mahō",
+      "Spell",
+      "Air"
+    ],
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAction: During a conflict, lose 1 honor. Choose a character – until the end of the conflict, that character gets +3 [pol] for each character with no fate your opponent controls.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-083",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "The Skin of Fu Leng",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Black Scroll",
+      "Item"
+    ],
+    "text": "Attach to a unique character you control.\nRestricted.\nYou may trigger each ability on each character with no fate on it as if you controlled that character. Each opponent cannot trigger those abilities.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-084",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Shadow Step",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Shadow"
+    ],
+    "text": "Void role only.\nAction: Choose a non-Mythic character you control – remove it from the game, then put it into play. If that character does not have the Shadow trait, it enters play dishonored.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-085",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "The Western Wind",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Action: Choose a non-stronghold province you control – search the top 8 cards of your dynasty deck for X characters and put them into the chosen province, where X is the number of faceup non-stronghold provinces an opponent controls. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "the-temptation-of-the-scorpion-086",
+    "gameId": "l5r-lcg",
+    "setId": "the-temptation-of-the-scorpion",
+    "publisherId": "ffg",
+    "name": "Dark Resurrection",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Mahō",
+      "Spell",
+      "Earth"
+    ],
+    "text": "Earth role only.\nThis card's fate cost can only be paid for with fate on characters you control.\nAction: During a [mil] conflict, choose up to 3 characters, each with printed cost 3 or lower, in your dynasty discard pile – put those characters into play in the conflict dishonored.",
     "unverified": true
   }
 ]
