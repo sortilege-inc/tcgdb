@@ -1,13 +1,13 @@
 [
   {
-    "id": "the-children-of-heaven-080",
+    "id": "the-children-of-heaven-067",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Hantei Daisetsu",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
+    "name": "Fortified Assembly",
+    "type": "Province",
+    "clan": "Crab",
+    "text": "Cannot be a stronghold province. This province gets +2 strength for each honor token on it.\nReaction: After an attack is declared against this province – place 1 honor token on it.",
     "unverified": true
   },
   {
@@ -18,72 +18,7 @@
     "name": "Emperor's Summons",
     "type": "Province",
     "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-077",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Emissary of Lies",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-088",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Overhear",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-083",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Rising Stars Kata",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-072",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Togashi Yoshi",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-073",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Truthseeker",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-086",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Unspoken Etiquette",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
+    "text": "Seeker role only.\nReaction: After this province is revealed – search your dynasty deck for a character card and put it faceup into a non-stronghold province you control, discarding each other card in the province. Shuffle.",
     "unverified": true
   },
   {
@@ -95,126 +30,11 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-067",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Fortified Assembly",
-    "type": "Province",
-    "clan": "Crab",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-074",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Ikoma Kiyono",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-075",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Righteous Delegate",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-076",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Starry Heaven Sanctuary",
-    "type": "Holding",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-078",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Licensed Quarter",
-    "type": "Holding",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-079",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Ide Ryōma",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-081",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Sharpened Tsuruhashi",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-082",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Issue a Challenge",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-084",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Regal Bearing",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-085",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Invoke the Divine",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "the-children-of-heaven-087",
-    "gameId": "l5r-lcg",
-    "setId": "the-children-of-heaven",
-    "publisherId": "ffg",
-    "name": "Natural Negotiator",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "Action: Sacrifice a (friendly) character. Choose a character – until the end of the phase, treat that character as if its printed text box were blank (except for Traits).",
     "unverified": true
   },
   {
@@ -226,6 +46,10 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: During a conflict in which this character is participating – during each player's next action opportunity in this conflict, increase the cost to play cards by 1.",
     "unverified": true
   },
   {
@@ -237,6 +61,261 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Army"
+    ],
+    "text": "No attachments except Weapon.\nDuring conflicts in which you are the attacking or defending player, X is equal to the number of cards in your opponent's hand. (Otherwise, X is zero.)",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-072",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Togashi Yoshi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Reaction: After this character wins a conflict – gain 1 fate from an unclaimed ring.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-073",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Truthseeker",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After this character enters play, choose a deck – look at the top 3 cards of that deck and put them back in any order.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-074",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Ikoma Kiyono",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Storyteller"
+    ],
+    "text": "Interrupt: When a glory count would begin, if you are more honorable than your opponent – ready this character.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-075",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Righteous Delegate",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a conflict – each participating Bushi character gets -1 [mil] and -1 [pol] and each participating non-Bushi character gets +1 [mil] and +1 [pol] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-076",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Starry Heaven Sanctuary",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Temple",
+      "Void"
+    ],
+    "text": "Limit 1 per deck.\nReaction: After fate is removed from characters in the fate phase, if 4 or more fate was removed – gain 2 fate.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-077",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Emissary of Lies",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict in which this character is participating, choose a participating character controlled by your opponent – your opponent guesses the name of a card. You may reveal your hand. If you do, and the named card is not in your hand, move the chosen character home.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-078",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Licensed Quarter",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "City"
+    ],
+    "text": "Reaction: After you win a conflict – your opponent discards the top card of his or her conflict deck. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-079",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Ide Ryōma",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Cavalry"
+    ],
+    "text": "Action: During a conflict in which this character is participating, choose a  character and a non- character controlled by the same player – bow one of the characters. If you do, ready the other.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-080",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Hantei Daisetsu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial",
+      "Crown Prince"
+    ],
+    "text": "Sincerity\nAction: During a [pol] conflict in which this character is participating, choose a participating character – until the end of the conflict, treat that character as if its printed text box were blank (except for Traits).",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-081",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Sharpened Tsuruhashi",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Interrupt: When attached character is sacrificed – return this card to your hand.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-082",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Issue a Challenge",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Reaction: After a Bushi character you control attacks alone – your opponent cannot declare more than 1 character as a defender in this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-083",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Rising Stars Kata",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Action: During a conflict, choose a participating unique character – that character gets +3[mil] until the end of the conflict (+5[mil] instead if that character has won a duel this conflict). (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-084",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Regal Bearing",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict in which you control a participating Courtier character – set the bid on your honor dial to 1. Then, draw cards equal to the difference between your honor bid and that of your opponent. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-085",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Invoke the Divine",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "text": "Action: Play up to 3 Spell cards with printed total cost 5 or less from your hand without paying their costs (This includes costs other than fate costs.)",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-086",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Unspoken Etiquette",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict – dishonor each participating non-Courtier character.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-087",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Natural Negotiator",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Attach to a Courtier character you control.\nAction: During a conflict, give your opponent 1 honor – switch attached character's base [mil] and [pol] skills until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "the-children-of-heaven-088",
+    "gameId": "l5r-lcg",
+    "setId": "the-children-of-heaven",
+    "publisherId": "ffg",
+    "name": "Overhear",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict – your opponent reveals a random card from his or her hand and puts it on top of his or her conflict deck. If you control a participating Courtier character, you may give your opponent 1 honor to resolve this ability twice.",
     "unverified": true
   }
 ]

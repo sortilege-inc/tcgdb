@@ -1,46 +1,17 @@
 [
   {
-    "id": "shojus-duty-119",
+    "id": "shojus-duty-111",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Inferno Guard Invoker",
+    "name": "Gallant Quartermaster",
     "type": "Character",
-    "clan": "Phoenix",
+    "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "shojus-duty-129",
-    "gameId": "l5r-lcg",
-    "setId": "shojus-duty",
-    "publisherId": "ffg",
-    "name": "Castigated",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "shojus-duty-121",
-    "gameId": "l5r-lcg",
-    "setId": "shojus-duty",
-    "publisherId": "ffg",
-    "name": "Bayushi Shoju (SD)",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "shojus-duty-118",
-    "gameId": "l5r-lcg",
-    "setId": "shojus-duty",
-    "publisherId": "ffg",
-    "name": "Student of Esoterica",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Interrupt: When this character is sacrificed – gain 2 fate.",
     "unverified": true
   },
   {
@@ -50,52 +21,13 @@
     "publisherId": "ffg",
     "name": "Yasuki Hatsu",
     "type": "Character",
+    "unique": true,
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "shojus-duty-111",
-    "gameId": "l5r-lcg",
-    "setId": "shojus-duty",
-    "publisherId": "ffg",
-    "name": "Gallant Quartermaster",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "shojus-duty-120",
-    "gameId": "l5r-lcg",
-    "setId": "shojus-duty",
-    "publisherId": "ffg",
-    "name": "Chrysanthemum Steward",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "shojus-duty-124",
-    "gameId": "l5r-lcg",
-    "setId": "shojus-duty",
-    "publisherId": "ffg",
-    "name": "Root Out Heresy",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "shojus-duty-114",
-    "gameId": "l5r-lcg",
-    "setId": "shojus-duty",
-    "publisherId": "ffg",
-    "name": "Hitsu-do Disciple",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict in which this character is participating, if you are less honorable than your opponent – search the top 5 cards of your conflict deck for an attachment, reveal it, and add it to your hand. Shuffle.",
     "unverified": true
   },
   {
@@ -107,6 +39,27 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shinobi"
+    ],
+    "text": "Reaction: After this character wins a [mil] conflict, your opponent chooses 2 cards in his or her hand – reveal those cards. You choose and discard one of them.",
+    "unverified": true
+  },
+  {
+    "id": "shojus-duty-114",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Hitsu-do Disciple",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Action: During a [mil] conflict in which this character is participating, if you have played 3 or more cards during this conflict, choose another participating character – dishonor that character.",
     "unverified": true
   },
   {
@@ -116,8 +69,14 @@
     "publisherId": "ffg",
     "name": "Togashi Ichi",
     "type": "Character",
+    "unique": true,
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Disguised Monk.\nAction: During a conflict in which this character is attacking, if 10 or more cards have been played during this conflict and if the attacked province is not a stronghold province – break that province.",
     "unverified": true
   },
   {
@@ -129,6 +88,10 @@
     "type": "Character",
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: During a conflict in which this character is participating, if you have fewer cards in your hand than your opponent, select one – either gain 1 honor, or the attacked province gets -1 strength until the end of the conflict (to a minimum of 0.)",
     "unverified": true
   },
   {
@@ -140,6 +103,77 @@
     "type": "Character",
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict in which this character is participating – each event you play during this conflict cannot have its effects canceled.",
+    "unverified": true
+  },
+  {
+    "id": "shojus-duty-118",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Student of Esoterica",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth",
+      "Scholar"
+    ],
+    "text": "You may spend fate from this character to pay for Spell cards.",
+    "unverified": true
+  },
+  {
+    "id": "shojus-duty-119",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Inferno Guard Invoker",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire"
+    ],
+    "text": "Action: During a [mil] conflict, choose a participating character you control – honor that character. If a province is broken during this conflict, sacrifice this character at the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "shojus-duty-120",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Chrysanthemum Steward",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial"
+    ],
+    "text": "Action: During a conflict in which this character is participating, choose a card in your opponent's conflict discard pile – put that card on top of its owner's conflict deck.",
+    "unverified": true
+  },
+  {
+    "id": "shojus-duty-121",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Bayushi Shoju",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Champion",
+      "Imperial"
+    ],
+    "text": "Your opponent cannot have the Imperial Favor.\nForced Reaction: After the conflict phase begins – each player draws 2 cards and loses 1 honor.",
     "unverified": true
   },
   {
@@ -151,6 +185,10 @@
     "type": "Character",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: After this character wins a conflict as an attacker, choose a faceup card in a province controlled by your opponent – discard that card.",
     "unverified": true
   },
   {
@@ -162,6 +200,23 @@
     "type": "Character",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Action: During a [mil] conflict in which this character is participating – ready this character.",
+    "unverified": true
+  },
+  {
+    "id": "shojus-duty-124",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Root Out Heresy",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict – discard a random card from your opponent's hand. Until the end of the conflict, reduce the strength of the attacked province by X, where X is the cost of the discarded card.",
     "unverified": true
   },
   {
@@ -173,6 +228,10 @@
     "type": "Event",
     "clan": "Crane",
     "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Action: During a [mil] conflict, choose a participating character  – until the end of the conflict, that character cannot be bowed by opponent's card effects. If it is involved in a duel during this conflict, it does not bow as a result of this conflict's resolution.",
     "unverified": true
   },
   {
@@ -184,6 +243,11 @@
     "type": "Event",
     "clan": "Dragon",
     "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Air"
+    ],
+    "text": "Reaction: After an opponent declares an [air] conflict, choose a Monk character or a character with a Monk attachment – honor that character and draw 1 card.",
     "unverified": true
   },
   {
@@ -195,6 +259,10 @@
     "type": "Event",
     "clan": "Lion",
     "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "This card can be played from your discard pile.\nAction: Bow a (friendly) non-unique character and choose a unique character – ready the chosen character. Put this card on the bottom of its owner's conflict deck.",
     "unverified": true
   },
   {
@@ -206,6 +274,27 @@
     "type": "Event",
     "clan": "Phoenix",
     "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Air"
+    ],
+    "text": "Play only if you control a Shugenja character.\nAction: During a conflict, choose a participating character – until the end of the conflict, that character gets +3 glory and cannot be chosen as the target of opponent's card abilities.",
+    "unverified": true
+  },
+  {
+    "id": "shojus-duty-129",
+    "gameId": "l5r-lcg",
+    "setId": "shojus-duty",
+    "publisherId": "ffg",
+    "name": "Castigated",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Condition",
+      "Imperial"
+    ],
+    "text": "Play only during a [pol] conflict, only on a participating character, and only if you control an Imperial character.\nIf attached character's [pol] skill is 0, discard it. (Do not discard if its skill is a dash.)",
     "unverified": true
   },
   {
@@ -217,6 +306,7 @@
     "type": "Event",
     "clan": "Unicorn",
     "deck": "conflict",
+    "text": "Interrupt: When an attack is declared against a non-stronghold facedown province you control, before revealing that province – switch it with another facedown non-stronghold province you control.",
     "unverified": true
   }
 ]

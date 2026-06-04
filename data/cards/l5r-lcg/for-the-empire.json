@@ -6,117 +6,12 @@
     "publisherId": "ffg",
     "name": "Toshi Ranbo",
     "type": "Province",
+    "unique": true,
     "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-008",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Magistrate of Reason",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-005",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Fifth Tower Watch",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-010",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Shiba Sophist",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-019",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Purity of Spirit",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-022",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "A Perfect Cut",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-009",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Akodo Zentarō",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-013",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Hantei Sotorii",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-012",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Shinjo Kyōra",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-007",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Esteemed Tea House",
-    "type": "Holding",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-006",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Sententious Poet",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.\nCharacters played from this province enter play with 1 additional fate on them.",
     "unverified": true
   },
   {
@@ -127,17 +22,18 @@
     "name": "Scene of the Crime",
     "type": "Province",
     "clan": "Dragon",
+    "text": "Reaction: After this province is revealed – look at your opponent's hand.",
     "unverified": true
   },
   {
-    "id": "for-the-empire-011",
+    "id": "for-the-empire-003",
     "gameId": "l5r-lcg",
     "setId": "for-the-empire",
     "publisherId": "ffg",
-    "name": "Shameless Gossip",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
+    "name": "Gateway to Meido",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Cannot be a stronghold province.\nDuring a conflict at this province, you may play characters from your dynasty discard pile into the conflict as if they were in your hand.",
     "unverified": true
   },
   {
@@ -149,82 +45,156 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "Action: During a conflict in which this character is defending, sacrifice this character and choose a character you control – ready that character and move it to the conflict.",
     "unverified": true
   },
   {
-    "id": "for-the-empire-021",
+    "id": "for-the-empire-005",
     "gameId": "l5r-lcg",
     "setId": "for-the-empire",
     "publisherId": "ffg",
-    "name": "Adorned Barcha",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "name": "Fifth Tower Watch",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Army"
+    ],
+    "text": "No attachments except Weapon.\nInterrupt: When you sacrifice a character, choose an opponent. That opponent must choose a character he or she controls with lower [mil] skill than the sacrificed character – bow that character.",
     "unverified": true
   },
   {
-    "id": "for-the-empire-017",
+    "id": "for-the-empire-006",
     "gameId": "l5r-lcg",
     "setId": "for-the-empire",
     "publisherId": "ffg",
-    "name": "Blade of 10,000 Battles",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-016",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Greater Understanding",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-003",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Gateway to Meido",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-018",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Command Respect",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-020",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "False Loyalties",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "for-the-empire-015",
-    "gameId": "l5r-lcg",
-    "setId": "for-the-empire",
-    "publisherId": "ffg",
-    "name": "Moment of Perfect Beauty",
-    "type": "Event",
+    "name": "Sententious Poet",
+    "type": "Character",
     "clan": "Crane",
-    "deck": "conflict",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After your opponent spends fate to play a card during a conflict in which this character is participating – gain 1 fate.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-007",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Esteemed Tea House",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Tea House"
+    ],
+    "text": "Action: During a conflict in which you control a participating Courtier, choose an attachment on a participating character – return that attachment to its owner's hand. That player cannot play copies of that card until the end of the phase.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-008",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Magistrate of Reason",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Magistrate"
+    ],
+    "text": "As an additional cost for your opponent to trigger a character ability during a conflict in which this character is attacking, that opponent must spend 1 fate to an unclaimed ring.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-009",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Akodo Zentarō",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Disguised Bushi.\nAction: During a conflict in which this character is attacking, choose a non-unique holding in the attacked province – gain control of that holding and move it to one of your unbroken non-stronghold provinces, if able, discarding each other card in that province. Otherwise, discard it.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-010",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Shiba Sophist",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Scholar"
+    ],
+    "text": "Action: During a conflict in which this character is participating – search the top 5 cards of your conflict deck for a card that shares a Trait with an element of the contested ring, reveal it, and add it to your hand. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-011",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Shameless Gossip",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict in which this character is participating, choose two characters controlled by the same player – move one status token from one of those characters to the other.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-012",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Shinjo Kyōra",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Disguised Cavalry.\nAction: During a conflict in which this character is participating – switch the contested ring with a ring in the unclaimed ring pool. (The attacking player gains all fate on that ring. Retain the ring's conflict type.)",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-013",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Hantei Sotorii",
+    "type": "Character",
+    "unique": true,
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial",
+      "Crown Prince"
+    ],
+    "text": "Pride.\nAction: During a [mil] conflict in which this character is participating, choose a participating character — that character gets +3 glory until the end of the conflict.",
     "unverified": true
   },
   {
@@ -236,6 +206,116 @@
     "type": "Event",
     "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: During a [mil] conflict, choose a defending character you control – until the end of the conflict, that character gets +2[mil] and cannot have its skills reduced. (This includes by attachments, lasting effects, and status tokens.)",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-015",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Moment of Perfect Beauty",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: During a conflict, if you control more honored participating characters than your opponent – after your opponent's next action opportunity, resolve the conflict as if both players passed consecutively.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-016",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Greater Understanding",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Attach to a ring.\nReaction: After fate is placed on attached ring – resolve that ring's effects as if you were the attacking player.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-017",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Blade of 10,000 Battles",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Attach to a unique character you control. Limited. Restricted.\nReaction: After attached character wins a conflict, if you are more honorable than your opponent, choose a card in your conflict discard pile – add that card to your hand.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-018",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Command Respect",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Action: During a conflict, if you have fewer cards in your hand than your opponent – as an additional cost for your opponent to play an event during this conflict, that opponent must give you 1 honor. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-019",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Purity of Spirit",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a participating Bushi character – honor that character. At the end of the conflict, discard any status tokens on it.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-020",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "False Loyalties",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Reaction: After an opponent wins a conflict, if he or she is more honorable than you, choose a participating character that opponent controls and a character in that opponent's home – switch those character's locations.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-021",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "Adorned Barcha",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Gaijin",
+      "Weapon"
+    ],
+    "text": "Attach to a unique character you control. Limited. Restricted.\nAction: During a [mil] conflict in which attached character is not participating, choose a participating character – bow that character and move attached character to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "for-the-empire-022",
+    "gameId": "l5r-lcg",
+    "setId": "for-the-empire",
+    "publisherId": "ffg",
+    "name": "A Perfect Cut",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a [mil] conflict, choose a participating Bushi character – that character gets +2 [mil] until the end of the conflict. If it wins the conflict, honor it.",
     "unverified": true
   }
 ]

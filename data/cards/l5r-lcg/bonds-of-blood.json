@@ -1,81 +1,5 @@
 [
   {
-    "id": "bonds-of-blood-030",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Yogo Preserver",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-043",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Softskin",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-040",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Isawa Tadaka",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-025",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Festival of the Departed",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-041",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Earth Becomes Sky",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-036",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Duel to the Death",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-034",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Arbiter of Authority",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
     "id": "bonds-of-blood-023",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
@@ -83,6 +7,10 @@
     "name": "Dishonorable Assault",
     "type": "Province",
     "clan": "Lion",
+    "traits": [
+      "Battlefield"
+    ],
+    "text": "Action: During a conflict at this province, discard one or more cards from your hand. Choose an equal number of attacking characters – dishonor each of those characters.",
     "unverified": true
   },
   {
@@ -93,6 +21,24 @@
     "name": "Untamed Steppe",
     "type": "Province",
     "clan": "Unicorn",
+    "traits": [
+      "Battlefield"
+    ],
+    "text": "Action: During a conflict at this province, choose another unbroken province – turn that province facedown.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-025",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Festival of the Departed",
+    "type": "Province",
+    "clan": "Neutral",
+    "traits": [
+      "Festival"
+    ],
+    "text": "Keeper role only.\nDuring conflicts at this province, characters cannot have their skills increased by the effects of event cards.",
     "unverified": true
   },
   {
@@ -102,8 +48,32 @@
     "publisherId": "ffg",
     "name": "Hiruma Yoshino",
     "type": "Character",
+    "unique": true,
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Daimyō",
+      "Scout"
+    ],
+    "text": "Disguised Bushi.\nAction: During a [mil] conflict in which this character is participating, choose a character card in the attacked province – that character contributes its printed [mil] skill towards your side during the resolution of this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-027",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Kitsuki Yuikimi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion"
+    ],
+    "text": "Reaction: After you gain a fate from a ring during a conflict in which this character is participating – this character cannot be chosen as the target of your opponent's triggered abilities until the end of the conflict.",
     "unverified": true
   },
   {
@@ -113,96 +83,14 @@
     "publisherId": "ffg",
     "name": "Akodo Kaede",
     "type": "Character",
+    "unique": true,
     "clan": "Lion",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-032",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Utaku Rumaru",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-035",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "A New Name",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-039",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Forebearer's Echoes",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-042",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Alluring Patron",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-044",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Unfulfilled Duty",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-038",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Two-Heavens Technique",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-033",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Fury of the Damned",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "bonds-of-blood-031",
-    "gameId": "l5r-lcg",
-    "setId": "bonds-of-blood",
-    "publisherId": "ffg",
-    "name": "Benevolent Ambassador",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Void"
+    ],
+    "text": "Immune to opponents' ring effects.\nInterrupt: When another character would leave play – remove 1 fate from this character instead.",
     "unverified": true
   },
   {
@@ -214,17 +102,112 @@
     "type": "Character",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "—",
     "unverified": true
   },
   {
-    "id": "bonds-of-blood-027",
+    "id": "bonds-of-blood-030",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Kitsuki Yuikimi",
+    "name": "Yogo Preserver",
     "type": "Character",
-    "clan": "Dragon",
+    "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Each dishonored character you control gains sincerity.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-031",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Benevolent Ambassador",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Courtesy. (When this character leaves play, gain 1 fate.)\nReaction: After this character wins a conflict – you and your opponent each gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-032",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Utaku Rumaru",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Battle Maiden",
+      "Daimyō"
+    ],
+    "text": "Each honored character you control gets +1 glory. Each dishonored character you control gets -1 glory.\nReaction: After this character wins a conflict, discard a card from your hand. Choose another participating character – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-033",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Fury of the Damned",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Fire role only.\nAction: During a conflict, choose any number of participating Bushi characters you control – double the base [mil] skill of each of those characters until the end of the conflict. At the end of the conflict, sacrifice each of those characters.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-034",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Arbiter of Authority",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Courtier",
+      "Duelist"
+    ],
+    "text": "Action: During a conflict, initiate a [pol] duel – your opponent may dishonor his or her character to refuse the duel. Otherwise, resolve the duel. Bow and move home the duel's loser.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-035",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "A New Name",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Void role only.\nAttached character gains the Bushi and Courtier traits.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-036",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Duel to the Death",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: During a conflict, initiate a [mil] duel – your opponent may dishonor his or her character to refuse the duel. Otherwise, resolve the duel. Discard the duel's loser.",
     "unverified": true
   },
   {
@@ -236,6 +219,118 @@
     "type": "Character",
     "clan": "Dragon",
     "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Water role only.\nReaction: After honor dials are revealed for a duel, if this character is involved in the duel – double this character's base [mil] and [pol] skills until the end of the phase.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-038",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Two-Heavens Technique",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Attach to a Bushi character.\nWhile there are exactly 2 Weapon attachments on attached character, attached character gains covert.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-039",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Forebearer's Echoes",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Air"
+    ],
+    "text": "Air role only.\nAction: During a [mil] conflict, choose a character in your dynasty discard pile – put that character into play in the conflict. If that character is still in play at the end of the conflict, put it on the bottom of your dynasty deck.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-040",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Isawa Tadaka",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Earth",
+      "Elemental Master"
+    ],
+    "text": "and  clan only.\nDisguised Shugenja.\nAction: During a conflict, remove one or more characters in your dynasty discard pile from the game – look at that many random cards from your opponent's hand. Choose and discard one of those cards.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-041",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Earth Becomes Sky",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Earth"
+    ],
+    "text": "Earth role only.\nReaction: After a character an opponent controls is readied – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-042",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Alluring Patron",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Fire role only.\nAction: During a conflict in which this character is participating, choose a character your opponent controls in his or her home. Your opponent selects one – either move that character to the conflict, or dishonor it.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-043",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Softskin",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Poison"
+    ],
+    "text": "Attached character cannot ready unless its controller discards the top 3 cards of his or her conflict deck.",
+    "unverified": true
+  },
+  {
+    "id": "bonds-of-blood-044",
+    "gameId": "l5r-lcg",
+    "setId": "bonds-of-blood",
+    "publisherId": "ffg",
+    "name": "Unfulfilled Duty",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Earth role only.\nAction: Choose any number of characters with no fate that have a total printed cost of 6 or lower – ready each of those characters.",
     "unverified": true
   }
 ]

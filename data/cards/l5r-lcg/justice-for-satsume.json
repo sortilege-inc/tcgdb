@@ -1,122 +1,13 @@
 [
   {
-    "id": "justice-for-satsume-065",
+    "id": "justice-for-satsume-045",
     "gameId": "l5r-lcg",
     "setId": "justice-for-satsume",
     "publisherId": "ffg",
-    "name": "Shosuro Miyako",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-059",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Wayfarer's Camp",
-    "type": "Holding",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-066",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Ujik Tactics",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-054",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Steward of the Rich Frog",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-058",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Shinjo Gunsō",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-063",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Sharpen the Mind",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-053",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Matsu Swiftspear",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-047",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Into the Forbidden City",
+    "name": "Conflict Between Kin",
     "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-057",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Shosuro Ibuki",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-050",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Doji Kuwanan",
-    "type": "Character",
     "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-049",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Doji Hotaru (JfS)",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
+    "text": "During conflicts at this province, each participating character your opponent controls cannot be chosen as the target of an event and cannot have an attachment played on it if that card shares a clan affiliation with the character.",
     "unverified": true
   },
   {
@@ -127,27 +18,21 @@
     "name": "Effective Deception",
     "type": "Province",
     "clan": "Scorpion",
+    "text": "Interrupt: When the effects of a triggered ability would initiate during a conflict at this province – cancel those effects.",
     "unverified": true
   },
   {
-    "id": "justice-for-satsume-045",
+    "id": "justice-for-satsume-047",
     "gameId": "l5r-lcg",
     "setId": "justice-for-satsume",
     "publisherId": "ffg",
-    "name": "Conflict Between Kin",
+    "name": "Into the Forbidden City",
     "type": "Province",
-    "clan": "Crane",
-    "unverified": true
-  },
-  {
-    "id": "justice-for-satsume-062",
-    "gameId": "l5r-lcg",
-    "setId": "justice-for-satsume",
-    "publisherId": "ffg",
-    "name": "Justicar's Approach",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
+    "clan": "Neutral",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Keeper role only.\nAction: During a conflict at this province, choose an attachment on an attacking character – discard that attachment.",
     "unverified": true
   },
   {
@@ -157,8 +42,48 @@
     "publisherId": "ffg",
     "name": "Hida Sugi",
     "type": "Character",
+    "unique": true,
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After this character wins a conflict, choose a card in a dynasty discard pile – put that card on the bottom of its owner's dynasty deck.",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-049",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Doji Hotaru",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Courtier",
+      "Champion"
+    ],
+    "text": "If you control Doji Kuwanan, discard him.\nReaction: After an opponent plays a card during a conflict in which this character is participating – gain 1 honor. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-050",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Doji Kuwanan",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion"
+    ],
+    "text": "If you control Doji Hotaru, discard her.\nAction: During a [mil] conflict in which this character is participating, choose a participating character with lower [mil] skill than this character – bow that character.",
     "unverified": true
   },
   {
@@ -170,6 +95,10 @@
     "type": "Character",
     "clan": "Dragon",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After you gain fate from a ring during a conflict in which this character is participating – draw 1 card.",
     "unverified": true
   },
   {
@@ -181,6 +110,37 @@
     "type": "Holding",
     "clan": "Dragon",
     "deck": "dynasty",
+    "text": "Reaction: After you win a [pol] conflict – look at 3 random cards in your opponent's hand.",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-053",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Matsu Swiftspear",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "While you have fewer cards in your hand than an opponent, this character gets +2[mil].",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-054",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Steward of the Rich Frog",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "While you have fewer cards in your hand than an opponent, characters you control cannot receive dishonored status tokens.",
     "unverified": true
   },
   {
@@ -192,6 +152,11 @@
     "type": "Character",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Action: During a [pol] conflict, choose a participating character and select one – that character either gains or loses pride until the end of the conflict.",
     "unverified": true
   },
   {
@@ -201,8 +166,62 @@
     "publisherId": "ffg",
     "name": "Isawa Heiko",
     "type": "Character",
+    "unique": true,
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Reaction: After you play a Water card during a conflict, choose a participating character – swap the base [mil] and [pol] stats of that character.",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-057",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Shosuro Ibuki",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Yōjimbō"
+    ],
+    "text": "Disguised Courtier.\nReaction: After this character wins a conflict – remove 1 fate from each other participating character.",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-058",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Shinjo Gunsō",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Reaction: After you play this character from your provinces – look at the top 5 cards of your dynasty deck. You may put a character with cost 2 or lower from among those cards into play. Discard the rest.",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-059",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Wayfarer's Camp",
+    "type": "Holding",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Battlefield"
+    ],
+    "text": "Action: During the dynasty phase – play two characters from your provinces. Then, turn a card in your provinces faceup.",
     "unverified": true
   },
   {
@@ -214,6 +233,10 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Monk"
+    ],
+    "text": "Forced Interrupt: When the conflict phase ends – each player must sacrifice a dishonored character, if able.",
     "unverified": true
   },
   {
@@ -225,6 +248,40 @@
     "type": "Attachment",
     "clan": "Crab",
     "deck": "conflict",
+    "traits": [
+      "Follower"
+    ],
+    "text": "Attach to a unique character. Restricted.\nReaction: After you break a province during a [mil] conflict in which attached character is attacking – discard each card from each of your opponent's provinces.",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-062",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Justicar's Approach",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Attach to a Courtier character.\nAttached character gains \"Action: During a conflict, initiate a [mil] duel – resolve the duel. Dishonor the duel's loser. If that character is already dishonored, bow it. If it is already bowed and dishonored, discard it.\"",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-063",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Sharpen the Mind",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Action: During a conflict, discard a card from your hand – attached character gets +3 [mil] and +3 [pol] until the end of the conflict.",
     "unverified": true
   },
   {
@@ -236,6 +293,44 @@
     "type": "Attachment",
     "clan": "Phoenix",
     "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water"
+    ],
+    "text": "Attach to a character you control.\nAction: During a conflict, if you have the [water] ring claimed  – move attached character to the conflict or home from the conflict (limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-065",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Shosuro Miyako",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Shinobi"
+    ],
+    "text": "Disguised non- character.\nThis character can only be played by the disguised keyword.\nReaction: After you play this character, choose a non-unique character an opponent controls – dishonor that character.",
+    "unverified": true
+  },
+  {
+    "id": "justice-for-satsume-066",
+    "gameId": "l5r-lcg",
+    "setId": "justice-for-satsume",
+    "publisherId": "ffg",
+    "name": "Ujik Tactics",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Gaijin",
+      "Tactic"
+    ],
+    "text": "Action: During a conflict – each non-unique character you control gets +1[mil] until the end of the conflict.",
     "unverified": true
   }
 ]

@@ -1,45 +1,39 @@
 [
   {
-    "id": "a-champions-foresight-103",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Withstand the Darkness",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-093",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Strategic Weakpoint",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
     "id": "a-champions-foresight-089",
     "gameId": "l5r-lcg",
     "setId": "a-champions-foresight",
     "publisherId": "ffg",
     "name": "Shiro Kitsuki",
     "type": "Stronghold",
+    "unique": true,
     "clan": "Dragon",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Reaction: After a conflict is declared, name a card – after each time your opponent plays that card during this conflict, choose an unclaimed ring and claim it as a [pol] ring, gaining all fate from it. (Unlimited.)",
     "unverified": true
   },
   {
-    "id": "a-champions-foresight-110",
+    "id": "a-champions-foresight-090",
     "gameId": "l5r-lcg",
     "setId": "a-champions-foresight",
     "publisherId": "ffg",
-    "name": "Outflank",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "name": "Henshin Mysteries",
+    "type": "Province",
+    "clan": "Phoenix",
+    "text": "Interrupt: During a conflict at this province, if a player would claim the contest ring – return it to the unclaimed ring pool instead.",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-091",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Smuggler's Cove",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Seeker role only.\nDuring a conflict at this province, choose a character you control and select one – either move that character to the conflict or move it home.",
     "unverified": true
   },
   {
@@ -51,59 +45,26 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Engineer"
+    ],
+    "text": "This character gets +1 glory for each holding in play.\nAction: During a conflict in which this character is defending – search the top 5 cards of your dynasty deck for a holding and put it into play in the attacked province, discarding each other card in that province. Shuffle.",
     "unverified": true
   },
   {
-    "id": "a-champions-foresight-105",
+    "id": "a-champions-foresight-093",
     "gameId": "l5r-lcg",
     "setId": "a-champions-foresight",
     "publisherId": "ffg",
-    "name": "Deduction",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-108",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "By Any Means",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-096",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Army of the Rising Wave",
-    "type": "Character",
-    "clan": "Dragon",
+    "name": "Strategic Weakpoint",
+    "type": "Holding",
+    "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-091",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Smuggler's Cove",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-090",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Henshin Mysteries",
-    "type": "Province",
-    "clan": "Phoenix",
+    "traits": [
+      "Trap"
+    ],
+    "text": "Interrupt: When this holding's province is broken, your opponent chooses an attacking character – discard that character.",
     "unverified": true
   },
   {
@@ -115,6 +76,10 @@
     "type": "Character",
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict in which this character is participating – during each player's next action opportunity in this conflict, decrease the cost to play cards by 1.",
     "unverified": true
   },
   {
@@ -124,8 +89,30 @@
     "publisherId": "ffg",
     "name": "Daidoji Kageyu",
     "type": "Character",
+    "unique": true,
     "clan": "Crane",
     "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Shinobi"
+    ],
+    "text": "Disguised Courtier.\nAction: During a [pol] conflict in which this character is participating – draw 1 card for each card your opponent has played in this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-096",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Army of the Rising Wave",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Army"
+    ],
+    "text": "No attachment except Weapon.\nReaction: After this character enters play – place 1 fate on each unclaimed ring.",
     "unverified": true
   },
   {
@@ -137,6 +124,10 @@
     "type": "Character",
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After this character loses a conflict as an attacker, if you have fewer cards in your hand than your opponent – your opponent discards 1 random card from his or her hand.",
     "unverified": true
   },
   {
@@ -148,6 +139,11 @@
     "type": "Character",
     "clan": "Lion",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Army"
+    ],
+    "text": "No attachments except Weapon.\nReaction: After this character wins a conflict, if you have fewer cards in your hand than your opponent – put a non-unique Bushi character with printed cost 2 or less into play from your dynasty discard pile.",
     "unverified": true
   },
   {
@@ -157,8 +153,13 @@
     "publisherId": "ffg",
     "name": "Asako Takahiro",
     "type": "Character",
+    "unique": true,
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Pride.\nDuring a conflict in which this character is participating, it gains +2 [mil] for each other participating dishonored character and +2 [pol] for each other participating honored character.",
     "unverified": true
   },
   {
@@ -170,61 +171,11 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-102",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Keeper of Secret Names",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-104",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Shukujo",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-106",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Fan of Command",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-107",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Erudite Prestige",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "a-champions-foresight-109",
-    "gameId": "l5r-lcg",
-    "setId": "a-champions-foresight",
-    "publisherId": "ffg",
-    "name": "Current of the Beryt",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Imperial"
+    ],
+    "text": "This character cannot be declared as an attacker against a less honorable player than you.",
     "unverified": true
   },
   {
@@ -236,6 +187,143 @@
     "type": "Holding",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Each Imperial character you control gets +1[mil] and +1[pol].",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-102",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Keeper of Secret Names",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Action: During a conflict, choose an unbroken province – resolve that province's action ability as if the conflict were at that province.",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-103",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Withstand the Darkness",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Reaction: After an opponent plays an event that chooses a  character you control as a target – place 1 fate on that character. (Max 1 per phase.)",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-104",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Shukujo",
+    "type": "Attachment",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Attach to a unique  character you control. Ancestral. Restricted.\nIf attached character has the Champion trait, it gains \"Action: during a conflict in which this character is participating – switch the conflict type.\"",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-105",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Deduction",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict, return a ring from your claimed ring pool to the unclaimed ring pool. Choose a participating character with printed cost 3 or lower – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-106",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Fan of Command",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Action: During a conflict in which attached character is participating, choose a participating Bushi character – ready that character.",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-107",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Erudite Prestige",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to a Courtier character.\nReaction: After you play a card during a conflict – attached character gets +1 [pol] until the end of the conflict. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-108",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "By Any Means",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Action: During a conflict, if your honor bid is higher than your opponent's, choose a participating Bushi character you control and a participating character your opponent controls – until the end of the conflict, set your character's base [mil] skill to the current [mil] skill of your opponent's character.",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-109",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Current of the Beryt",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water",
+      "Meishōdō"
+    ],
+    "text": "Attach to a Shugenja character.\nAction: During a conflict – take two actions.",
+    "unverified": true
+  },
+  {
+    "id": "a-champions-foresight-110",
+    "gameId": "l5r-lcg",
+    "setId": "a-champions-foresight",
+    "publisherId": "ffg",
+    "name": "Outflank",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Tactic"
+    ],
+    "text": "Reaction: After an opponent's province is revealed during a conflict, choose a non-unique character – that character cannot be declared as a defender in this conflict. (Max 1 per conflict.)",
     "unverified": true
   }
 ]
