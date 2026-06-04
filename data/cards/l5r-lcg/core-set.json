@@ -1,19 +1,54 @@
 [
   {
+    "id": "core-set-001",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shiro Nishiyama",
+    "type": "Stronghold",
+    "unique": true,
+    "clan": "Crab",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Action: During a conflict, bow this stronghold – each defending character you control gets +1[mil] and +1[pol] until the end of the conflict.",
+    "unverified": true
+  },
+  {
     "id": "core-set-002",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
     "name": "Shizuka Toshi",
     "type": "Stronghold",
+    "unique": true,
     "clan": "Crane",
+    "traits": [
+      "City"
+    ],
+    "text": "Action: During a [pol] conflict, bow this stronghold, choose a participating character with [pol] skill 2 or lower – bow that character.",
+    "unverified": true,
     "rulings": [
       {
         "date": "2026-06-03",
         "source": "[sample — replace with authoritative source]",
         "text": "Sample ruling: Shizuka Toshi's ability triggers once per duel, not once per resolution step."
       }
+    ]
+  },
+  {
+    "id": "core-set-003",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mountain's Anvil Castle",
+    "type": "Stronghold",
+    "unique": true,
+    "clan": "Dragon",
+    "traits": [
+      "Castle"
     ],
+    "text": "Action: During a conflict, bow this stronghold. Choose a participating character with 1 or more attachments on it – until the end of the conflict, that character gets +1[mil] and +1[pol] (+2[mil] and +2[pol] instead if it has 2 or more attachments on it).",
     "unverified": true
   },
   {
@@ -23,10 +58,60 @@
     "publisherId": "ffg",
     "name": "Yōjin no Shiro",
     "type": "Stronghold",
+    "unique": true,
     "clan": "Lion",
+    "traits": [
+      "Castle"
+    ],
+    "text": "Action: During a conflict, bow this stronghold – each attacking character you control gets +1[mil] until the end of the conflict.",
+    "unverified": true,
     "errata": {
       "text": "[Sample errata] Yōjin no Shiro: While you have at least one ready character with military skill 3 or higher, this stronghold gains \"Reaction: After a unit declares an attack against this province — bow this card to bow the attacking character.\""
-    },
+    }
+  },
+  {
+    "id": "core-set-005",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Isawa Mori Seidō",
+    "type": "Stronghold",
+    "unique": true,
+    "clan": "Phoenix",
+    "traits": [
+      "Shrine"
+    ],
+    "text": "Action: Bow this stronghold, choose a character – that character gets +2 glory until the end of the phase.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-006",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "City of the Open Hand",
+    "type": "Stronghold",
+    "unique": true,
+    "clan": "Scorpion",
+    "traits": [
+      "City"
+    ],
+    "text": "Action: If you are less honorable than an opponent, bow this stronghold – gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-007",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Golden Plains Outpost",
+    "type": "Stronghold",
+    "unique": true,
+    "clan": "Unicorn",
+    "traits": [
+      "Outpost"
+    ],
+    "text": "Action: During a [mil] conflict, bow this stronghold. Choose a Cavalry character you control – move it to that conflict.",
     "unverified": true
   },
   {
@@ -37,43 +122,47 @@
     "name": "Defend the Wall",
     "type": "Province",
     "clan": "Crab",
+    "text": "Reaction: After you win a conflict at this province – resolve the ring effect of that conflict as if you were the attacking player.",
+    "unverified": true,
     "rulings": [
       {
         "date": "2026-06-03",
         "source": "[sample — replace with authoritative source]",
         "text": "Sample ruling: Defend the Wall's effect resolves at the start of the conflict, before any character abilities."
       }
-    ],
-    "unverified": true
+    ]
   },
   {
-    "id": "core-set-016",
+    "id": "core-set-009",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Elemental Fury",
+    "name": "The Art of Peace",
     "type": "Province",
-    "clan": "Neutral",
-    "errata": {
-      "text": "[Sample errata] Elemental Fury: At the start of the conflict — give one participating character +1 military and +1 political for the duration of this conflict."
-    },
-    "rulings": [
-      {
-        "date": "2026-06-03",
-        "source": "[sample — replace with authoritative source]",
-        "text": "Sample ruling: Elemental Fury can target a character on either side; controller of Elemental Fury chooses."
-      }
-    ],
+    "clan": "Crane",
+    "text": "Interrupt: When this province is broken – dishonor each attacking character and honor each defending character.",
     "unverified": true
   },
   {
-    "id": "core-set-014",
+    "id": "core-set-010",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Endless Plains",
+    "name": "Restoration of Balance",
     "type": "Province",
-    "clan": "Unicorn",
+    "clan": "Dragon",
+    "text": "Interrupt: When this province is broken – your opponent chooses and discards cards from his or her hand until that player has 4 or fewer cards in hand.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-011",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "The Art of War",
+    "type": "Province",
+    "clan": "Lion",
+    "text": "Interrupt: When this province is broken – draw 3 cards.",
     "unverified": true
   },
   {
@@ -84,6 +173,138 @@
     "name": "Kuroi Mori",
     "type": "Province",
     "clan": "Phoenix",
+    "text": "Cannot be a stronghold province\nAction: During a conflict at this province, select one – switch the contested ring with an unclaimed ring (the conflict retains its type), or switch the conflict type (the conflict retains its element).",
+    "unverified": true
+  },
+  {
+    "id": "core-set-013",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Secret Cache",
+    "type": "Province",
+    "clan": "Scorpion",
+    "text": "Reaction: After a conflict is declared against this province – search the top 5 cards of your conflict deck for a card and add it to your hand. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-014",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Endless Plains",
+    "type": "Province",
+    "clan": "Unicorn",
+    "text": "Reaction: After an attack is declared here, break this province. Your opponent chooses an attacking character – discard that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-015",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ancestral Lands",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "This province gets +5 strength during [pol] conflicts.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-016",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Elemental Fury",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Reaction: After this province is revealed – switch the contested ring with an unclaimed ring. (The conflict retains its type.)",
+    "unverified": true,
+    "errata": {
+      "text": "[Sample errata] Elemental Fury: At the start of the conflict — give one participating character +1 military and +1 political for the duration of this conflict."
+    },
+    "rulings": [
+      {
+        "date": "2026-06-03",
+        "source": "[sample — replace with authoritative source]",
+        "text": "Sample ruling: Elemental Fury can target a character on either side; controller of Elemental Fury chooses."
+      }
+    ]
+  },
+  {
+    "id": "core-set-017",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Entrenched Position",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "This province gets +5 strength during [mil] conflicts.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-018",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fertile Fields",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Action: During a conflict at this province – draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-019",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Manicured Garden",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Action: During a conflict at this province – gain 1 fate.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-020",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Meditations on the Tao",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Action: During a conflict at this province, choose an attacking character – remove 1 fate from that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-021",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Night Raid",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Reaction: After this province is revealed – your opponent chooses and discards X cards from his or her hand. X is equal to the number of attacking characters.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-022",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Pilgrimage",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "During conflicts at this province, cancel all ring effects. (If this province breaks, resolve ring effects as normal.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-023",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Rally to the Cause",
+    "type": "Province",
+    "clan": "Neutral",
+    "text": "Reaction: After this province is revealed – switch the conflict type. (The conflict retains its element.)",
     "unverified": true
   },
   {
@@ -94,182 +315,7 @@
     "name": "Shameful Display",
     "type": "Province",
     "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-189",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Blackmail",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-134",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Jade Tetsubō",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-112",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Border Rider",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-096",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Bayushi Manipulator",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-046",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Daidoji Nerishma",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-187",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "I Can Swim",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-038",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Borderlands Fortifications",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-198",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Way of the Unicorn",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-057",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Mirumoto Prodigy",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-090",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Isawa Masahiro",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-106",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Yogo Hiroue",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-056",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Agasha Swordsmith",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-059",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Seeker of Enlightenment",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-192",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Favored Mount",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-045",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Savvy Politician",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-069",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Matsu Berserker",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
+    "text": "Action: During a conflict at this province, choose 2 participating characters – honor one of those characters and dishonor the other.",
     "unverified": true
   },
   {
@@ -281,1031 +327,11 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-195",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Breakthrough",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-160",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Vengeful Oathkeeper",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-167",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Way of the Lion",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-146",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Way of the Crane",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-185",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Way of the Scorpion",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-176",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Way of the Phoenix",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-154",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Way of the Dragon",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-125",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Miya Mystic",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-148",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Noble Sacrifice",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-136",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Rebuild",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-042",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Brash Samurai",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-203",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Assassination",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-055",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Togashi Initiate",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-147",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Admit Defeat",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-211",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Fallen in Battle",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-132",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Reprieve",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-122",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Otomo Courtier",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-075",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Lion's Pride Brawler",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-114",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shinjo Outrider",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-083",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Solemn Scholar",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-209",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Spies at Court",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-101",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Young Rumormonger",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-111",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Aggressive Moto",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-204",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Banzai!",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-207",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "For Shame!",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-200",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Fine Katana",
-    "type": "Attachment",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-202",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Cloud the Mind",
-    "type": "Attachment",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-171",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Seeker of Knowledge",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-082",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shiba Peacemaker",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-144",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "The Perfect Gift",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-044",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Doji Gift Giver",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-053",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Artisan Academy",
-    "type": "Holding",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-143",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Height of Fashion",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-009",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "The Art of Peace",
-    "type": "Province",
-    "clan": "Crane",
-    "unverified": true
-  },
-  {
-    "id": "core-set-047",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Doji Challenger",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-052",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Doji Hotaru",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-139",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Steward of Law",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-145",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Voice of Honor",
-    "type": "Event",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-141",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Above Question",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-142",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Duelist Training",
-    "type": "Attachment",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-071",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Akodo Gunsō",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-178",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Know the World",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-077",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Honored General",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-163",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Honored Blade",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-072",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Deathseeker",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-021",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Night Raid",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-089",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shiba Yōjimbō",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-180",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Adept of Shadows",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-208",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Good Omen",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-093",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shiba Tsukune",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-118",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Utaku Yumino",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-067",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Obstinate Recruit",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-011",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "The Art of War",
-    "type": "Province",
-    "clan": "Lion",
-    "unverified": true
-  },
-  {
-    "id": "core-set-074",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Kitsu Spiritcaller",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-076",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Matsu Beiona",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-078",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ikoma Eiji",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-169",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Strength in Numbers",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-166",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Stand Your Ground",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-168",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "For Greater Glory",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-162",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Guidance of the Ancestors",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-164",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Sashimono",
-    "type": "Attachment",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-068",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ikoma Prodigy",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-161",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Master of the Spear",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-073",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Venerable Historian",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-158",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Indomitable Will",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-159",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Mirumoto's Fury",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-129",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Imperial Storehouse",
-    "type": "Holding",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-123",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Seppun Guardsman",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-153",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Kitsuki's Method",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-155",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Let Go",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-156",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Mantra of Fire",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-010",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Restoration of Balance",
-    "type": "Province",
-    "clan": "Dragon",
-    "unverified": true
-  },
-  {
-    "id": "core-set-003",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Mountain's Anvil Castle",
-    "type": "Stronghold",
-    "clan": "Dragon",
-    "unverified": true
-  },
-  {
-    "id": "core-set-060",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Enlightened Warrior",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-064",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Niten Master",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-065",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Togashi Yokuni",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-149",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Tattooed Wanderer",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-150",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Togashi Kazue",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-061",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Kitsuki Investigator",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-201",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ornate Fan",
-    "type": "Attachment",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-043",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Cautious Scout",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-131",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Stoic Gunsō",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-133",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Watch Commander",
-    "type": "Attachment",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-036",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Kaiu Shuichi",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-017",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Entrenched Position",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-023",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Rally to the Cause",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-020",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Meditations on the Tao",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-130",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Hiruma Ambusher",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-034",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Hida Tomonatsu",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-035",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Steadfast Witch Hunter",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-037",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Hida Kisada",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-001",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shiro Nishiyama",
-    "type": "Stronghold",
-    "clan": "Crab",
-    "unverified": true
-  },
-  {
-    "id": "core-set-138",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "The Mountain Does Not Fall",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-039",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Funeral Pyre",
-    "type": "Holding",
-    "clan": "Crab",
-    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "—",
     "unverified": true
   },
   {
@@ -1317,17 +343,10 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-135",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Levy",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: While this character is participating in a conflict, choose another participating character – until the end of the conflict, that character gets +2[mil] and +2[pol] for each holding you control.",
     "unverified": true
   },
   {
@@ -1339,699 +358,10 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-210",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Charge!",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-213",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Rout",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-206",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Court Games",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-179",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Display of Power",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-170",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ishiken Initiate",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-085",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Asako Diplomat",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-084",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Adept of the Waves",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-088",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Serene Warrior",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-005",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Isawa Mori Seidō",
-    "type": "Stronghold",
-    "clan": "Phoenix",
-    "unverified": true
-  },
-  {
-    "id": "core-set-087",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Radiant Orator",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-081",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Naive Student",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-172",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Magnificent Kimono",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-117",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Warrior Poet",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-177",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Against the Waves",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-007",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Golden Plains Outpost",
-    "type": "Stronghold",
-    "clan": "Unicorn",
-    "unverified": true
-  },
-  {
-    "id": "core-set-126",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Seeker Initiate",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-124",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Keeper Initiate",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-110",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Utaku Infantry",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-102",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Favored Niece",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-212",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Outwit",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-214a",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Keeper of Air",
-    "type": "Role",
-    "clan": "Crab",
-    "unverified": true
-  },
-  {
-    "id": "core-set-215a",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Keeper of Earth",
-    "type": "Role",
-    "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "core-set-218a",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Keeper of Void",
-    "type": "Role",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-217a",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Keeper of Water",
-    "type": "Role",
-    "clan": "Unicorn",
-    "unverified": true
-  },
-  {
-    "id": "core-set-128",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Favorable Ground",
-    "type": "Holding",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-191",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ide Messenger",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-121",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shinjo Altansarnai",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-031",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Borderlands Defender",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-029",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shrewd Yasuki",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-108",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "City of Lies",
-    "type": "Holding",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-080",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Staging Ground",
-    "type": "Holding",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-054",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Doomed Shugenja",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-107",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Bayushi Shoju",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-041",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Doji Whisperer",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-070",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Steadfast Samurai",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-137",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Way of the Crab",
-    "type": "Event",
-    "clan": "Crab",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-015",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ancestral Lands",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-152",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Daimyō's Favor",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-174",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Pacifism",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-127",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Wandering Rōnin",
-    "type": "Character",
-    "clan": "Neutral",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-151",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ancestral Daishō",
-    "type": "Attachment",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-040",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Asahina Artisan",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-049",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Kakita Kaezin",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-050",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Asahina Storyteller",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-051",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Guest of Honor",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-048",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Kakita Asami",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-165",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ready for Battle",
-    "type": "Event",
-    "clan": "Lion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-079",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Akodo Toturi (Lion Clan)",
-    "type": "Character",
-    "clan": "Lion",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-022",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Pilgrimage",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-058",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Niten Adept",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-066",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Secluded Temple",
-    "type": "Holding",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-063",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ascetic Visionary",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-062",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Mirumoto Raitsugu",
-    "type": "Character",
-    "clan": "Dragon",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-140",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Political Rival",
-    "type": "Character",
-    "clan": "Crane",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-019",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Manicured Garden",
-    "type": "Province",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-033",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Vengeful Berserker",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-091",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Fearsome Mystic",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-092",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Isawa Atsuko",
-    "type": "Character",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-094",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Forgotten Library",
-    "type": "Holding",
-    "clan": "Phoenix",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-006",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "City of the Open Hand",
-    "type": "Stronghold",
-    "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "core-set-216a",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Keeper of Fire",
-    "type": "Role",
-    "clan": "Neutral",
-    "unverified": true
-  },
-  {
-    "id": "core-set-205",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Contingency Plan",
-    "type": "Event",
-    "clan": "Neutral",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-157",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Tranquility",
-    "type": "Event",
-    "clan": "Dragon",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-032",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Intimidating Hida",
-    "type": "Character",
-    "clan": "Crab",
-    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Courtesy. (When this character leaves play, gain 1 fate.)\nSincerity. (When this character leaves play, draw 1 card.)",
     "unverified": true
   },
   {
@@ -2043,181 +373,26 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Yōjimbō"
+    ],
+    "text": "This character cannot be declared as an attacker.",
     "unverified": true
   },
   {
-    "id": "core-set-173",
+    "id": "core-set-029",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Grasp of Earth",
-    "type": "Attachment",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-175",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Supernatural Storm",
-    "type": "Event",
-    "clan": "Phoenix",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-103",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shosuro Actress",
+    "name": "Shrewd Yasuki",
     "type": "Character",
-    "clan": "Scorpion",
+    "clan": "Crab",
     "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-193",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Spyglass",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-116",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ide Trader",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-119",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Moto Horde",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-109",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Moto Youth",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-115",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Giver of Gifts",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-120",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shinjo Tatsuo",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-113",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Meishōdō Wielder",
-    "type": "Character",
-    "clan": "Unicorn",
-    "deck": "dynasty",
-    "unverified": true
-  },
-  {
-    "id": "core-set-196",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Captive Audience",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-199",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Cavalry Reserves",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-194",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Born in War",
-    "type": "Attachment",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-197",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "I Am Ready",
-    "type": "Event",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-188",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Ambush",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-018",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Fertile Fields",
-    "type": "Province",
-    "clan": "Neutral",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a conflict, if there is a holding in play – look at the top 2 cards of your conflict deck. Add 1 of those cards to your hand and place the other on the bottom of your conflict deck.",
     "unverified": true
   },
   {
@@ -2229,6 +404,879 @@
     "type": "Character",
     "clan": "Crab",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: Sacrifice this character. Choose a character – place 1 fate on that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-031",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Borderlands Defender",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "While this character is defending, opponents' card effects cannot bow it or move it.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-032",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Intimidating Hida",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After an opponent passes on declaring a conflict – that player loses 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-033",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Vengeful Berserker",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Berserker"
+    ],
+    "text": "Reaction: After another character you control leaves play during a conflict – double this character's [mil] skill until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-034",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Hida Tomonatsu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After this character wins a conflict as a defender, sacrifice it. Choose a non-unique attacking character – return that character to the top of its owner's deck.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-035",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Steadfast Witch Hunter",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth"
+    ],
+    "text": "Action: Sacrifice a (friendly) character. Choose a character – ready that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-036",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kaiu Shuichi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Engineer"
+    ],
+    "text": "Covert. (When this character attacks, choose one character without covert. That character cannot be declared as a defender.)\nAction: During a conflict in which this character is participating, if there is a holding in play – gain 1 fate.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-037",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Hida Kisada",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion"
+    ],
+    "text": "While you have not lost a conflict this phase, cancel the effects of the first action ability your opponent triggers from a card during each conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-038",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Borderlands Fortifications",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Battlefield"
+    ],
+    "text": "Action: Choose a card in one of your provinces – switch this holding with that card.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-039",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Funeral Pyre",
+    "type": "Holding",
+    "clan": "Crab",
+    "deck": "dynasty",
+    "traits": [
+      "Ritual"
+    ],
+    "text": "Action: Sacrifice a (friendly) character – draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-040",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Asahina Artisan",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Action: During a conflict, bow this character. Choose another  character – that character gets +3[pol] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-041",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doji Whisperer",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "—",
+    "unverified": true
+  },
+  {
+    "id": "core-set-042",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Brash Samurai",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: While this character is your only participating character in a conflict – honor this character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-043",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Cautious Scout",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "While this character is attacking alone, treat the defending province as if its printed text box were blank (except for Traits).",
+    "unverified": true
+  },
+  {
+    "id": "core-set-044",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doji Gift Giver",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a conflict, give your opponent 1 fate. That opponent must choose a ready participating character he or she controls – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-045",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Savvy Politician",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After this character is honored, choose a character – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-046",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Daidoji Nerishma",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "Action: Choose a facedown card in one of your provinces – turn that card faceup.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-047",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doji Challenger",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Action: While this character is attacking, choose a character controlled by your opponent – move that character to this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-048",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kakita Asami",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a [pol] conflict, if you count more current [pol] skill in the conflict than your opponent – take 1 honor from that opponent.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-049",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kakita Kaezin",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist",
+      "Kenshinzen"
+    ],
+    "text": "Action: While this character is participating in a conflict, your opponent must choose a participating character he or she controls – challenge that character to a [mil] duel. If this character wins, move each character not involved in the duel home. If it loses, send it home.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-050",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Asahina Storyteller",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Sincerity. (When this character leaves play, draw 1 card.)\nEach honored  character you control gains sincerity.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-051",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Guest of Honor",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "While this character is participating in a conflict, opponents cannot play events.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-052",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doji Hotaru",
+    "type": "Character",
+    "unique": true,
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion"
+    ],
+    "text": "Reaction: After you claim a ring during a [pol] conflict in which this character is participating – resolve that ring's effect.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-053",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Artisan Academy",
+    "type": "Holding",
+    "clan": "Crane",
+    "deck": "dynasty",
+    "traits": [
+      "Academy"
+    ],
+    "text": "Action: During the conflict phase – reveal the top card of your conflict deck. Until the end of the phase, you may play that card as if it were in your hand.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-054",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Doomed Shugenja",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire"
+    ],
+    "text": "Limited. (No more than one limited card can be played by each player each round.)\nYou cannot place fate on this character when it is played from one of your provinces.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-055",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Togashi Initiate",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "Action: While this character is attacking, spend 1 fate to an unclaimed ring – honor this character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-056",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Agasha Swordsmith",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire"
+    ],
+    "text": "Action: Search the top 5 cards of your conflict deck for an attachment, reveal it, and add it to your hand. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-057",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mirumoto Prodigy",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "While this character is attacking alone, your opponent cannot declare more than one defender.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-058",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Niten Adept",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: While this character is participating in a conflict, bow a (friendly) attachment on it. Choose a participating character without attachments – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-059",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Enlightenment",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "This character gets +1[mil] and +1[pol] for each fate on each unclaimed ring.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-060",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Enlightened Warrior",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After an opponent selects a ring with fate on it – place 1 fate on this character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-061",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kitsuki Investigator",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a [pol] conflict, spend 1 fate to an unclaimed ring – look at your opponent's hand. Choose 1 of those cards and discard it. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-062",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mirumoto Raitsugu",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Duelist"
+    ],
+    "text": "Action: While this character is participating in a conflict, choose a participating character controlled by your opponent – challenge that character to a [mil] duel. If the loser of the duel has no fate on it, discard it. Otherwise remove 1 fate from it.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-063",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ascetic Visionary",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "No attachments except Monk or Tattoo.\nAction: While this character is attacking, spend 1 fate to an unclaimed ring. Choose a Monk character or a character with a Monk attachment – ready that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-064",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Niten Master",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After you attach a Weapon attachment to this character – ready this character. (Limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-065",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Togashi Yokuni",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shugenja",
+      "Champion"
+    ],
+    "text": "Action: Choose a triggered ability printed on another character – this character gains that ability until the end of the phase. (Max 1 per round.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-066",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Secluded Temple",
+    "type": "Holding",
+    "clan": "Dragon",
+    "deck": "dynasty",
+    "traits": [
+      "Shrine"
+    ],
+    "text": "Reaction: After the conflict phase begins, each opponent who controls more characters than you must choose a character he or she controls with 1 or more fate on it – remove 1 fate from each chosen character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-067",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Obstinate Recruit",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "If an opponent is more honorable than you, discard this character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-068",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ikoma Prodigy",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After 1 or more fate is placed on this character – gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-069",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Matsu Berserker",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Berserker"
+    ],
+    "text": "—",
+    "unverified": true
+  },
+  {
+    "id": "core-set-070",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Steadfast Samurai",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Forced Reaction: After the fate phase begins, if you have at least 5 more honor than an opponent – this character cannot be discarded or lose fate this phase.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-071",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Akodo Gunsō",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Pride. (After this character wins a conflict, honor it. After this character loses a conflict, dishonor it.)\nReaction: After this character enters play from a province – refill that province faceup.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-072",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Deathseeker",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After this character loses a conflict as an attacker, sacrifice this character. Choose a character controlled by your opponent – if that character has no fate on it, discard it. Otherwise, remove 1 fate from that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-073",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Venerable Historian",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Scholar"
+    ],
+    "text": "Action: While this character is participating in a conflict, if you are more honorable than your opponent – honor this character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-074",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kitsu Spiritcaller",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Action: During a conflict, bow this character. Choose a character in one of your discard piles – put that character into play in the conflict. If that character is still in play at the end of the conflict, return it to the bottom of its deck.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-075",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Lion's Pride Brawler",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Courtier"
+    ],
+    "text": "Action: While this character is attacking, choose a character with equal or lower [mil] skill than this character – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-076",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Matsu Beiona",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After this character enters play, if you control 3 or more other Bushi characters – place 2 fate on this character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-077",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Honored General",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "During a conflict in which this character is participating, each other participating  character you control gets +1[mil].\nReaction: After this character enters play – honor it.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-078",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ikoma Eiji",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After you lose a [pol] conflict – put a Bushi character with printed cost 3 or lower into play from your dynasty discard pile or provinces.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-079",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Akodo Toturi",
+    "type": "Character",
+    "unique": true,
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion"
+    ],
+    "text": "Reaction: After you claim a ring during a [mil] conflict in which this character is participating – resolve that ring's effect.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-080",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Staging Ground",
+    "type": "Holding",
+    "clan": "Lion",
+    "deck": "dynasty",
+    "traits": [
+      "Battlefield"
+    ],
+    "text": "Action: Choose up to 2 facedown cards in your provinces – turn the chosen cards faceup.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-081",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Naive Student",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Scholar"
+    ],
+    "text": "Sincerity. (When this character leaves play, draw 1 card.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-082",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shiba Peacemaker",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "This character cannot participate in conflicts as an attacker.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-083",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Solemn Scholar",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth",
+      "Scholar"
+    ],
+    "text": "Action: During a conflict, if the [earth] ring is in your claimed ring pool, choose an attacking character – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-084",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Adept of the Waves",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Action: Choose a character – until the end of the phase, that character gains covert during [water] conflicts.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-085",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Asako Diplomat",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After this character wins a conflict, choose a character – honor or dishonor that character.",
     "unverified": true
   },
   {
@@ -2240,148 +1288,139 @@
     "type": "Character",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: If an opponent has declared 2 or more conflicts against you this phase, select one – take 1 fate or 1 honor from that opponent.",
     "unverified": true
   },
   {
-    "id": "core-set-190",
+    "id": "core-set-087",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Iuchi Wayfinder",
+    "name": "Radiant Orator",
     "type": "Character",
-    "clan": "Unicorn",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-183",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Fiery Madness",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-182",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Court Mask",
-    "type": "Attachment",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-181",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Unassuming Yōjimbō",
-    "type": "Character",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-186",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Calling in Favors",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-184",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Forged Edict",
-    "type": "Event",
-    "clan": "Scorpion",
-    "deck": "conflict",
-    "unverified": true
-  },
-  {
-    "id": "core-set-013",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Secret Cache",
-    "type": "Province",
-    "clan": "Scorpion",
-    "unverified": true
-  },
-  {
-    "id": "core-set-104",
-    "gameId": "l5r-lcg",
-    "setId": "core-set",
-    "publisherId": "ffg",
-    "name": "Shosuro Miyako",
-    "type": "Character",
-    "clan": "Scorpion",
+    "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a conflict, if you count more current glory than your opponent among ready participating characters, choose an enemy character – move that character home.",
     "unverified": true
   },
   {
-    "id": "core-set-099",
+    "id": "core-set-088",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Soshi Illusionist",
+    "name": "Serene Warrior",
     "type": "Character",
-    "clan": "Scorpion",
+    "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "—",
     "unverified": true
   },
   {
-    "id": "core-set-100",
+    "id": "core-set-089",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Yogo Outcast",
+    "name": "Shiba Yōjimbō",
     "type": "Character",
-    "clan": "Scorpion",
+    "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Yōjimbō"
+    ],
+    "text": "Interrupt: When the effects of a triggered ability that targets a Shugenja you control would initiate – cancel those effects.",
     "unverified": true
   },
   {
-    "id": "core-set-097",
+    "id": "core-set-090",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Sinister Soshi",
+    "name": "Isawa Masahiro",
     "type": "Character",
-    "clan": "Scorpion",
+    "unique": true,
+    "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Fire"
+    ],
+    "text": "Action: During a [fire] conflict, bow this character. Choose a participating character with printed cost 2 or lower – discard that character.",
     "unverified": true
   },
   {
-    "id": "core-set-105",
+    "id": "core-set-091",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Bayushi Yunako",
+    "name": "Fearsome Mystic",
     "type": "Character",
-    "clan": "Scorpion",
+    "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "This character gets +2 glory during [air] conflicts.\nAction: While this character is participating in a conflict – remove 1 fate from each participating character your opponent controls with lower glory than this character.",
     "unverified": true
   },
   {
-    "id": "core-set-098",
+    "id": "core-set-092",
     "gameId": "l5r-lcg",
     "setId": "core-set",
     "publisherId": "ffg",
-    "name": "Blackmail Artist",
+    "name": "Isawa Atsuko",
     "type": "Character",
-    "clan": "Scorpion",
+    "unique": true,
+    "clan": "Phoenix",
     "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Void"
+    ],
+    "text": "Action: During a [void] conflict – until the end of the conflict, each participating character you control gets +1[mil] and +1[pol] and each participating character your opponent controls gets -1[mil] and -1[pol].",
+    "unverified": true
+  },
+  {
+    "id": "core-set-093",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shiba Tsukune",
+    "type": "Character",
+    "unique": true,
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Champion"
+    ],
+    "text": "Interrupt: When the conflict phase ends – resolve the ring effects of up to 2 unclaimed rings as if you were the attacking player.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-094",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Forgotten Library",
+    "type": "Holding",
+    "clan": "Phoenix",
+    "deck": "dynasty",
+    "traits": [
+      "Library",
+      "Shrine"
+    ],
+    "text": "Reaction: After the draw phase begins – draw 1 card.",
     "unverified": true
   },
   {
@@ -2393,6 +1432,1899 @@
     "type": "Character",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Sincerity. (When this character leaves play, draw 1 card.)",
     "unverified": true
+  },
+  {
+    "id": "core-set-096",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Bayushi Manipulator",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After honor dials are revealed – increase the value of your bid by 1.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-097",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Sinister Soshi",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Action: During a conflict, choose a participating character – that character gets -2[mil] and -2[pol] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-098",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Blackmail Artist",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After this character wins a [pol] conflict – take 1 honor from your opponent.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-099",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Soshi Illusionist",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "Action: Spend 1 fate, choose a character – discard a status token from that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-100",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Yogo Outcast",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Air"
+    ],
+    "text": "This character gets +1[mil] and +1[pol] while you are less honorable than an opponent.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-101",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Young Rumormonger",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Interrupt: When a character would be honored or dishonored, choose another character controlled by the same player – that character receives the honor or dishonor instead.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-102",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Favored Niece",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: Choose and discard 1 card from your hand – draw 1 card. (Limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-103",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shosuro Actress",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Shinobi"
+    ],
+    "text": "Action: During a conflict, sacrifice this character. Choose a non-Shinobi character with printed cost 3 or lower in an opponent's discard pile – put that character into play in the conflict under your control.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-104",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shosuro Miyako",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Shinobi"
+    ],
+    "text": "Reaction: After you play a character from your hand, your opponent must select one – discard 1 card at random from his or her hand or choose and dishonor a character he or she controls.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-105",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Bayushi Yunako",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Commander"
+    ],
+    "text": "Action: While this character is participating in a conflict, choose a character – switch that character's base [mil] and [pol] skill until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-106",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Yogo Hiroue",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: While this character is participating in a conflict, choose a non-participating character – move that character to this conflict. Then, if you win the conflict, you may dishonor that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-107",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Bayushi Shoju",
+    "type": "Character",
+    "unique": true,
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Courtier",
+      "Champion"
+    ],
+    "text": "Action: While this character is participating in a [pol] conflict, choose a participating character controlled by your opponent – until the end of the conflict, that character gets -1[pol] and is discarded if its [pol] skill is 0. (Limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-108",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "City of Lies",
+    "type": "Holding",
+    "clan": "Scorpion",
+    "deck": "dynasty",
+    "traits": [
+      "City"
+    ],
+    "text": "Action: Reduce the cost of the next event you play this phase by 1.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-109",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Moto Youth",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "This character gets +1[mil] during the first [mil] conflict each round.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-110",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Utaku Infantry",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "While this character is participating in a conflict, it gets +1[mil] and +1[pol] for each participating  character you control.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-111",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Aggressive Moto",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "This character cannot be declared as a defender.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-112",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Border Rider",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Action: Ready this character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-113",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Meishōdō Wielder",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Water"
+    ],
+    "text": "Reduce the cost to play this character by 1 while you are the first player.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-114",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shinjo Outrider",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Scout"
+    ],
+    "text": "Action: During a conflict – move this character to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-115",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Giver of Gifts",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: Choose an attachment you control – move that attachment to an eligible character you control.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-116",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ide Trader",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Reaction: After 1 or more characters move to a conflict in which this character is participating, select one – gain 1 fate or draw 1 card. (Limit once per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-117",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Warrior Poet",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry"
+    ],
+    "text": "Action: While this character is participating in a conflict – each participating character controlled by your opponent gets -1[mil] and -1[pol] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-118",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Utaku Yumino",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Battle Maiden",
+      "Cavalry"
+    ],
+    "text": "Action: During a conflict, discard a card from your hand – this character gets +2[mil] and +2[pol] until the end of the conflict. (Limit once per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-119",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Moto Horde",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Army",
+      "Cavalry"
+    ],
+    "text": "No attachments except Weapon.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-120",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shinjo Tatsuo",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Scout"
+    ],
+    "text": "Action: During a conflict, choose this character and up to 1 other character you control – move those characters to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-121",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Shinjo Altansarnai",
+    "type": "Character",
+    "unique": true,
+    "clan": "Unicorn",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Cavalry",
+      "Champion"
+    ],
+    "text": "Reaction: After you break a province during a [mil] conflict in which this character is participating, your opponent chooses a character he or she controls – discard that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-122",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Otomo Courtier",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Courtier",
+      "Imperial"
+    ],
+    "text": "This character cannot participate in conflicts as an attacker against a player that controls the Imperial Favor.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-123",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seppun Guardsman",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Imperial"
+    ],
+    "text": "This character cannot participate in conflicts as an attacker against a player that controls the Imperial Favor.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-124",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper Initiate",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Monk"
+    ],
+    "text": "Keeper role only.\nReaction: After you claim a ring that matches the element of your role – put this character into play from your dynasty discard pile or provinces. If you do, place 1 fate on this character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-125",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Miya Mystic",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Shugenja",
+      "Earth",
+      "Imperial"
+    ],
+    "text": "Action: During the conflict phase, sacrifice this character. Choose an attachment – discard that attachment.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-126",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker Initiate",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Monk"
+    ],
+    "text": "Seeker role only.\nReaction: After you claim a ring that matches the element of your role – search the top 5 cards of your conflict deck for a card and add it to your hand. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-127",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Wandering Rōnin",
+    "type": "Character",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Bushi",
+      "Rōnin"
+    ],
+    "text": "Action: During a conflict, remove 1 fate from this character – it gets +2[mil] and +2[pol] until the end of the conflict. (Limit twice per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-128",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Favorable Ground",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Battlefield"
+    ],
+    "text": "Action: During a conflict, sacrifice this holding. Choose a character you control – move that character to the conflict or home from the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-129",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Imperial Storehouse",
+    "type": "Holding",
+    "clan": "Neutral",
+    "deck": "dynasty",
+    "traits": [
+      "Imperial"
+    ],
+    "text": "Action: Sacrifice this holding – draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-130",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Hiruma Ambusher",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Scout"
+    ],
+    "text": "Reaction: After this character enters play as a defender, choose a character – that character's abilities cannot be triggered during this conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-131",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Stoic Gunsō",
+    "type": "Character",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: During a conflict, sacrifice a (friendly) character – this character gets +3[mil] until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-132",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Reprieve",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Interrupt: When attached character would leave play – discard this attachment instead.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-133",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Watch Commander",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Follower"
+    ],
+    "text": "Attach to a character you control. Limit 1 per character.\nReaction: After an opponent plays a card during a conflict in which attached character is participating – that player loses 1 honor. (Unlimited.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-134",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Jade Tetsubō",
+    "type": "Attachment",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Jade",
+      "Weapon"
+    ],
+    "text": "Attach to a character you control. Restricted.\nAction: While attached character is participating in a conflict, bow this attachment. Choose a participating character with lower [mil] skill than attached character – return all fate on that character to its owner's fate pool.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-135",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Levy",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Action: Choose an opponent, that player must select one – give you 1 fate or 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-136",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Rebuild",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "text": "Action: Shuffle a card in one of your unbroken provinces back into your dynasty deck. Choose a holding in your dynasty discard pile – put that holding into play in that province.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-137",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Crab",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: Sacrifice a (friendly)  character. Choose an opponent – that player must sacrifice a character. (Max 1 per round.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-138",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "The Mountain Does Not Fall",
+    "type": "Event",
+    "clan": "Crab",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Action: Choose a character – until the end of the phase, that character does not bow as a result of conflict resolution while defending. (Max 1 per round.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-139",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Steward of Law",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Courtier",
+      "Scholar"
+    ],
+    "text": "While this character is participating in a conflict, characters cannot receive dishonored status tokens.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-140",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Political Rival",
+    "type": "Character",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Covert. (When this character attacks, choose one character without covert. That character cannot be declared as a defender.)\nThis character gets +3[pol] while defending.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-141",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Above Question",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attached character cannot be chosen as a target of an opponent's event.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-142",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Duelist Training",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Attached character gains: \"Action: While this character is participating in a conflict, choose a participating character controlled by your opponent – challenge that character to a [mil] duel. Instead of giving honor for this duel's bid, a player may choose and discard the required number of cards from hand. Bow the loser of the duel.\"",
+    "unverified": true
+  },
+  {
+    "id": "core-set-143",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Height of Fashion",
+    "type": "Attachment",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "This attachment cannot be played during a conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-144",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "The Perfect Gift",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: Reveal the top 4 cards of each player's conflict deck. Choose 1 revealed card owned by each player and add it to its owner's hand. Shuffle.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-145",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Voice of Honor",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Interrupt: When the effects of an event would initiate, if you control more honored characters than an opponent – cancel those effects.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-146",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Crane",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: Choose a  character you control – honor that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-147",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Admit Defeat",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: Choose a character that is defending alone – bow that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-148",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Noble Sacrifice",
+    "type": "Event",
+    "clan": "Crane",
+    "deck": "conflict",
+    "text": "Action: Sacrifice a (friendly) honored character. Choose a dishonored character – discard that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-149",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Tattooed Wanderer",
+    "type": "Character",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "You may play this character as an attachment with the text: \"Attached character gains covert.\"",
+    "unverified": true
+  },
+  {
+    "id": "core-set-150",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Togashi Kazue",
+    "type": "Character",
+    "unique": true,
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Monk",
+      "Tattooed"
+    ],
+    "text": "You may play this character as an attachment with the text: \"Action: During a conflict in which attached character is participating, choose another participating character – move 1 fate from that character to the attached character.\"",
+    "unverified": true
+  },
+  {
+    "id": "core-set-151",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ancestral Daishō",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Ancestral. (When attached card leaves play, return this card to your hand.)\nRestricted. (No more than two restricted attachments per character.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-152",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Daimyō's Favor",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Attach to a character you control.\nAction: Bow this attachment – reduce the cost of the next attachment you play on this character this phase by 1.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-153",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Kitsuki's Method",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Technique"
+    ],
+    "text": "Ancestral. (When attached card leaves play, return this card to your hand.)\nRestricted. (No more than two restricted attachments per character.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-154",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Dragon",
+    "type": "Attachment",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Attach to a character you control. Limit 1 per character.\nYou may trigger each of attached character's triggered abilities an additional time each round (or specified period).",
+    "unverified": true
+  },
+  {
+    "id": "core-set-155",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Let Go",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Action: Choose an attachment – discard it.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-156",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mantra of Fire",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "traits": [
+      "Kihō",
+      "Fire"
+    ],
+    "text": "Reaction: After an opponent declares a [fire] conflict, choose a Monk character or a character with a Monk attachment – place 1 fate on that character and draw 1 card.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-157",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Tranquility",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Action: During a conflict – until the end of the conflict, characters in your opponent's home cannot trigger abilities.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-158",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Indomitable Will",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Reaction: After you win a conflict in which you control only a single participating character – that character does not bow as a result of the conflict's resolution.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-159",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Mirumoto's Fury",
+    "type": "Event",
+    "clan": "Dragon",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose an attacking character with glory X or lower – bow that character. X is equal to the number of unrevealed provinces you control.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-160",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Vengeful Oathkeeper",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Reaction: After you lose a [mil] conflict – put this character into play from your hand.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-161",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Master of the Spear",
+    "type": "Character",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Bushi"
+    ],
+    "text": "Action: While this character is attacking, your opponent must choose a participating character he or she controls – move that character home.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-162",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Guidance of the Ancestors",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Action: Play this attachment from your conflict discard pile.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-163",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Honored Blade",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Restricted. (No more than two restricted attachments per character.)\nReaction: After attached character wins a conflict – gain 1 honor.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-164",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Sashimono",
+    "type": "Attachment",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Banner"
+    ],
+    "text": "Attach to a Bushi character you control.\nAttached character does not bow as a result of conflict resolution during [mil] conflicts.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-165",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ready for Battle",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Reaction: After an opponent's card effect or a ring effect bows a character you control – ready that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-166",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Stand Your Ground",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Interrupt: When an honored character you control would leave play – instead discard that character's status token.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-167",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Lion",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: During a conflict, choose a  character – double that character's base [mil] skill until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-168",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "For Greater Glory",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Reaction: After you break a province during a [mil] conflict – place 1 fate on each participating Bushi character you control. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-169",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Strength in Numbers",
+    "type": "Event",
+    "clan": "Lion",
+    "deck": "conflict",
+    "text": "Action: While you are the attacking player, choose a defending character with glory X or lower – move that character home. X is equal to the number of attacking characters.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-170",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ishiken Initiate",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Void"
+    ],
+    "text": "This character gets +1[mil] and +1[pol] for each claimed ring.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-171",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Knowledge",
+    "type": "Character",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Courtier",
+      "Shugenja",
+      "Air"
+    ],
+    "text": "While this character is attacking, the contested ring gains the [air] element. If this character wins the conflict as an attacker, you may choose which of its ring effects to resolve.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-172",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Magnificent Kimono",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Attached character gains pride. (After this character wins a conflict, honor it. After this character loses a conflict, dishonor it.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-173",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Grasp of Earth",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Earth"
+    ],
+    "text": "Attach to a Shugenja character you control.\nAction: During a conflict, bow this attachment – opponents' characters cannot move to this conflict or be played from hand until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-174",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Pacifism",
+    "type": "Attachment",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "This attachment cannot be played during a conflict.\nAttached character cannot participate in [mil] conflicts.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-175",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Supernatural Storm",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water"
+    ],
+    "text": "Action: Choose a participating character – that character gets +X[mil] and +X[pol] until the end of the conflict. X is equal to the number of Shugenja characters you control.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-176",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Phoenix",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: Choose a ring and an opponent – that player cannot declare conflicts of that ring's element this phase. (Max 1 per phase.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-177",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Against the Waves",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Water"
+    ],
+    "text": "Action: Choose a Shugenja character you control – bow or ready that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-178",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Know the World",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Void"
+    ],
+    "text": "Action: Switch a ring in your claimed ring pool with an unclaimed ring and gain all fate on that ring. (Retain the ring's conflict type.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-179",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Display of Power",
+    "type": "Event",
+    "clan": "Phoenix",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Fire"
+    ],
+    "text": "Reaction: After you lose an unopposed conflict – cancel the ring effect of that conflict. Then, you resolve that ring effect as if you had won the conflict as the attacking player. Claim that ring.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-180",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Adept of Shadows",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Shinobi"
+    ],
+    "text": "Action: Lose 1 honor – return this character to your hand.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-181",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Unassuming Yōjimbō",
+    "type": "Character",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Bushi",
+      "Yōjimbō"
+    ],
+    "text": "Covert. (When this character attacks, choose one character without covert. That character cannot be declared as a defender.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-182",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Court Mask",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Mask"
+    ],
+    "text": "Attach to a character you control.\nAction: Return this attachment to your hand and dishonor attached character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-183",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fiery Madness",
+    "type": "Attachment",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Poison"
+    ],
+    "text": "—",
+    "unverified": true
+  },
+  {
+    "id": "core-set-184",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Forged Edict",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Interrupt: When the effects of an event would initiate, dishonor a (friendly) Courtier character – cancel those effects.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-185",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Scorpion",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: During a conflict, choose a participating non- character – dishonor that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-186",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Calling in Favors",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Action: Dishonor a (friendly) character. Choose an opponent's attachment – take control of that attachment and attach it to that character, if able. Otherwise, discard the attachment.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-187",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "I Can Swim",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Action: During a conflict, if the bid on your honor dial is higher than an opponent's, choose a participating dishonored character controlled by that opponent – discard that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-188",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ambush",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose up to 2  characters with total printed cost 6 or lower from your hand and/or provinces – put those characters into play as participating characters.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-189",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Blackmail",
+    "type": "Event",
+    "clan": "Scorpion",
+    "deck": "conflict",
+    "text": "Play only if you are less honorable than your opponent.\nAction: During a conflict, choose a character controlled by your opponent with printed cost 2 or lower – take control of that character until the end of the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-190",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Iuchi Wayfinder",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Shugenja",
+      "Water",
+      "Cavalry"
+    ],
+    "text": "Reaction: After this character enters play – look at a facedown province.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-191",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ide Messenger",
+    "type": "Character",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Courtier"
+    ],
+    "text": "Action: During a conflict, spend 1 fate. Choose a character you control – move that character to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-192",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Favored Mount",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Creature"
+    ],
+    "text": "Attach to a character you control.\nAttached character gains Cavalry.\nAction: During a conflict, bow this attachment – move attached character to the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-193",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Spyglass",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Item",
+      "Gaijin"
+    ],
+    "text": "Reaction: After attached character commits to a conflict or moves to a conflict – draw 1 card. (Limit twice per round.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-194",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Born in War",
+    "type": "Attachment",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Condition"
+    ],
+    "text": "Cavalry character only.\nX is equal to the number of unclaimed rings.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-195",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Breakthrough",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Reaction: After the resolution of your first conflict this phase as the attacking player, if that conflict broke a province – immediately declare your second conflict for this phase.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-196",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Captive Audience",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict, lose 1 honor – change the conflict type to [mil].",
+    "unverified": true
+  },
+  {
+    "id": "core-set-197",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "I Am Ready",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Action: Remove 1 fate from a (friendly)  character – ready that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-198",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Way of the Unicorn",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "traits": [
+      "Philosophy"
+    ],
+    "text": "Interrupt: When you would pass the first player token – keep it instead.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-199",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Cavalry Reserves",
+    "type": "Event",
+    "clan": "Unicorn",
+    "deck": "conflict",
+    "text": "Action: During a [mil] conflict, choose up to 6 printed cost worth of Cavalry characters in your dynasty discard pile – put those characters into play in the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-200",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fine Katana",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Weapon"
+    ],
+    "text": "Restricted. (No more than two restricted attachments per character.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-201",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Ornate Fan",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Item"
+    ],
+    "text": "Restricted. (No more than two restricted attachments per character.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-202",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Cloud the Mind",
+    "type": "Attachment",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "traits": [
+      "Spell",
+      "Air"
+    ],
+    "text": "Play only if you control a Shugenja character.\nTreat attached character as if its printed text box were blank (except for Traits).",
+    "unverified": true
+  },
+  {
+    "id": "core-set-203",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Assassination",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, lose 3 honor. Choose a character with printed cost 2 or lower – discard that character. (Max 1 per round.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-204",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Banzai!",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose a participating character – that character gets +2[mil] until the end of the conflict. You may lose 1 honor to resolve this ability twice. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-205",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Contingency Plan",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Reaction: After honor dials are revealed – increase or decrease the value of your bid by 1 (to a minimum of 0).",
+    "unverified": true
+  },
+  {
+    "id": "core-set-206",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Court Games",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a [pol] conflict, select one – choose and honor a participating character you control, or your opponent chooses and dishonors a participating character he or she controls. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-207",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "For Shame!",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, if you control a participating Courtier character, choose a participating character controlled by your opponent. Your opponent must select one – dishonor the chosen character or bow it.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-208",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Good Omen",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Play only if your honor bid is lower than an opponent's.\nAction: Choose a character with printed cost 3 or higher – place 1 fate on that character.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-209",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Spies at Court",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Reaction: After you win a [pol] conflict, dishonor a (friendly) participating character – discard 2 cards at random from your opponent's hand. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-210",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Charge!",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a [mil] conflict, choose a character in one of your provinces – put that character into play in the conflict.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-211",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Fallen in Battle",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Reaction: After you win a [mil] conflict by 5 or more skill, choose a participating character – discard that character. (Max 1 per conflict.)",
+    "unverified": true
+  },
+  {
+    "id": "core-set-212",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Outwit",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose an opponent's character with lower [pol] skill than a participating Courtier character you control – move the chosen character home.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-213",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Rout",
+    "type": "Event",
+    "clan": "Neutral",
+    "deck": "conflict",
+    "text": "Action: During a conflict, choose an opponent's character with lower [mil] skill than a participating Bushi character you control – move the chosen character home.",
+    "unverified": true
+  },
+  {
+    "id": "core-set-214a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Air",
+    "type": "Role",
+    "clan": "Crab",
+    "traits": [
+      "Keeper",
+      "Air"
+    ],
+    "text": "Increase your deckbuilding influence value by 3.\nReaction: After you win an [air] conflict as the defending player – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-214b"
+  },
+  {
+    "id": "core-set-214b",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Air",
+    "type": "Role",
+    "clan": "Dragon",
+    "traits": [
+      "Seeker",
+      "Air"
+    ],
+    "text": "You may replace 1 province of any element with an additional [air] province while deckbuilding.\nReaction: After an [air] province you control is revealed – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-214a"
+  },
+  {
+    "id": "core-set-215a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Earth",
+    "type": "Role",
+    "clan": "Scorpion",
+    "traits": [
+      "Keeper",
+      "Earth"
+    ],
+    "text": "Increase your deckbuilding influence value by 3.\nReaction: After you win an [earth] conflict as the defending player – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-215b"
+  },
+  {
+    "id": "core-set-215b",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Earth",
+    "type": "Role",
+    "clan": "Lion",
+    "traits": [
+      "Seeker",
+      "Earth"
+    ],
+    "text": "You may replace 1 province of any element with an additional [earth] province while deckbuilding.\nReaction: After an [earth] province you control is revealed – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-215a"
+  },
+  {
+    "id": "core-set-216a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Fire",
+    "type": "Role",
+    "clan": "Neutral",
+    "traits": [
+      "Keeper",
+      "Fire"
+    ],
+    "text": "Increase your deckbuilding influence value by 3.\nReaction: After you win a [fire] conflict as the defending player – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-216b"
+  },
+  {
+    "id": "core-set-216b",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Fire",
+    "type": "Role",
+    "clan": "Neutral",
+    "traits": [
+      "Seeker",
+      "Fire"
+    ],
+    "text": "You may replace 1 province of any element with an additional [fire] province while deckbuilding.\nReaction: After a [fire] province you control is revealed – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-216a"
+  },
+  {
+    "id": "core-set-217a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Water",
+    "type": "Role",
+    "clan": "Unicorn",
+    "traits": [
+      "Keeper",
+      "Water"
+    ],
+    "text": "Increase your deckbuilding influence value by 3.\nReaction: After you win a [water] conflict as the defending player – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-217b"
+  },
+  {
+    "id": "core-set-217b",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Water",
+    "type": "Role",
+    "clan": "Neutral",
+    "traits": [
+      "Seeker",
+      "Water"
+    ],
+    "text": "You may replace 1 province of any element with an additional [water] province while deckbuilding.\nReaction: After a [water] province you control is revealed – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-217a"
+  },
+  {
+    "id": "core-set-218a",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Keeper of Void",
+    "type": "Role",
+    "clan": "Neutral",
+    "traits": [
+      "Keeper",
+      "Void"
+    ],
+    "text": "Increase your deckbuilding influence value by 3.\nReaction: After you win a [void] conflict as the defending player – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-218b"
+  },
+  {
+    "id": "core-set-218b",
+    "gameId": "l5r-lcg",
+    "setId": "core-set",
+    "publisherId": "ffg",
+    "name": "Seeker of Void",
+    "type": "Role",
+    "clan": "Phoenix",
+    "traits": [
+      "Seeker",
+      "Void"
+    ],
+    "text": "You may replace 1 province of any element with an additional [void] province while deckbuilding.\nReaction: After a [void] province you control is revealed – gain 1 fate.",
+    "unverified": true,
+    "flipSideOf": "core-set-218a"
   }
 ]
