@@ -4,334 +4,433 @@
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Shrug Off Despair",
     "type": "Province",
+    "text": "Cannot be a stronghold province.\n<b>Action:</b> During a conflict at another province you control - move the contested ring to this province. It is now the attacked province.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Shrug Off Despair",
     "clan": "Crab",
-    "text": "Cannot be a stronghold province.\nAction: During a conflict at another province you control – move the contested ring to this province. It is now the attacked province.",
-    "unverified": true
+    "strength": 6,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-001.jpg"
   },
   {
     "id": "rokugan-at-war-002",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Pledge of Loyalty",
     "type": "Province",
+    "text": "<b>Interrupt:</b> When an honored character you control would leave play - discard its honored status token instead.",
+    "flavorText": "\"As I swore to your father, I swear to follow you.\" - Kakita Yoshi",
+    "illustrator": "Pius Piranto",
+    "name": "Pledge of Loyalty",
     "clan": "Crane",
-    "text": "Interrupt: when an honored character you control would leave play – discard its status honored token instead.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-002.jpg"
   },
   {
     "id": "rokugan-at-war-003",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Sharing Shinsei's Wisdom",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed, choose a character – move 1 fate from that character to another character controlled by the same player.",
+    "illustrator": "Mauro Dal Bo",
+    "name": "Sharing Shinsei's Wisdom",
     "clan": "Dragon",
-    "text": "Reaction: After this province is revealed, choose a character – move one fate from that character to another character controlled by the same player.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-003.jpg"
   },
   {
     "id": "rokugan-at-war-004",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Ninkatoshi",
     "type": "Province",
     "unique": true,
+    "text": "Eminent. <i>(This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)</i>\nEach other province gets -1 strength if controlled by an opponent and +1 strength if controlled by you or a teammate.",
+    "illustrator": "Daniel Alekov",
+    "name": "Ninkatoshi",
     "clan": "Lion",
+    "strength": 4,
     "traits": [
       "City"
     ],
-    "text": "Eminent. (This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)\nEach other province gets -1 strength if controlled by an opponent and + 1 strength if controlled by you or a teammate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-004.jpg"
   },
   {
     "id": "rokugan-at-war-005",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Kakudaira",
     "type": "Province",
     "unique": true,
+    "text": "Eminent. <i>(This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)</i>\nAfter each phase begins, reveal each facedown card in this province.",
+    "illustrator": "Nele Diel",
+    "name": "Kakudaira",
     "clan": "Phoenix",
+    "strength": 5,
     "traits": [
       "City"
     ],
-    "text": "Eminent. (This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)\nAfter each phase begins, reveal each facedown card in this province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-005.jpg"
   },
   {
     "id": "rokugan-at-war-006",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "City of the Rich Frog",
     "type": "Province",
     "unique": true,
+    "text": "Eminent. <i>(This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)</i>\nAfter setup, fill this province to 3 cards. When you would refill this province, refill it to 3 cards instead of 1.",
+    "illustrator": "Nele Diel",
+    "name": "City of the Rich Frog",
     "clan": "Neutral",
+    "strength": 3,
     "traits": [
       "City"
     ],
-    "text": "Eminent. (This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)\nAfter setup, fill this province to 3 cards.\nWhen you would refill this province, refill it to 3 cards instead of 1.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-006.jpg"
   },
   {
     "id": "rokugan-at-war-007",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Recalled Defenses",
     "type": "Event",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)</i>\n<b>Action:</b> Move a card from one of your provinces to your stronghold province.",
+    "illustrator": "Calvin Chua",
+    "name": "Recalled Defenses",
     "clan": "Crab",
     "deck": "dynasty",
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: Move a card from one of your provinces to the stronghold's province.",
-    "unverified": true
+    "cost": 1,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-007.jpg"
   },
   {
     "id": "rokugan-at-war-008",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Kakita Yoshi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After this character wins a [conflict-political] conflict as the attacker, choose up to X characters, where X is the number of faceup provinces you control - dishonor each of those characters.",
+    "flavorText": "\"Bayushi Shoju has gone too far.\"",
+    "illustrator": "Le Vuong",
+    "name": "Kakita Yoshi",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "2",
+    "political": "6",
     "traits": [
       "Courtier",
       "Daimyō",
       "Imperial"
     ],
-    "text": "Reaction: After this character wins a [pol] conflict as the attacker, choose up to X characters, where X is the number of faceup provinces you control – dishonor each of those characters.",
-    "unverified": true
+    "traitsAscii": [
+      "Courtier",
+      "Daimyo",
+      "Imperial"
+    ],
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-008.jpg"
   },
   {
     "id": "rokugan-at-war-009",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Cycle of Rebirth",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a card in a province - shuffle this card and that card into their owner's decks. Refill each province emptied by this effect faceup. (Max 1 per round.)",
+    "flavorText": "\"This lifetime shall prepare you for the trial to come.\" - Togashi Hassuno",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Cycle of Rebirth",
     "clan": "Dragon",
     "deck": "dynasty",
-    "text": "Action: Choose a card in a province – shuffle this card and that card into their owner's decks. Refill each province emptied by this effect faceup. (Max 1 per round.)",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-009.jpg"
   },
   {
     "id": "rokugan-at-war-010",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Akodo Reserve Company",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>. Rally.\n<b>Action:</b> During a conflict, if there is a <em>Battlefield</em> in play, choose a participating character you control - move this character to the conflict. If you do, move the chosen character home.",
+    "illustrator": "Lin Hsiang",
+    "name": "Akodo Reserve Company",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "5",
+    "political": "1",
     "traits": [
       "Bushi",
       "Army"
     ],
-    "text": "No attachments except Weapon. Rally.\nAction: During a conflict, if there is a Battlefield in play, choose a participating character you control – move this character to the conflict. If you do, move the chosen character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-010.jpg"
   },
   {
     "id": "rokugan-at-war-011",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Garanto Guardian",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict as the defender - resolve a ring effect that matches the attacked province's element as if you were the attacking player.",
+    "illustrator": "Marius Bota",
+    "name": "Garanto Guardian",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 3,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Bushi"
     ],
-    "text": "Keeper role only.\nReaction: After this character wins a conflict as the defender – resolve a ring effect that matches the attacked province's element as if you were the attacking player.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-011.jpg"
   },
   {
     "id": "rokugan-at-war-012",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Governor's Spy",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose a player - turn each card in that player's provinces facedown. Then, look at them and put each of those cards into one of that player's provinces, such that each province ends up with at least one card.",
+    "illustrator": "Borja Pindado",
+    "name": "Governor's Spy",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "1",
+    "political": "4",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose a player – turn each card in that player's provinces facedown. Then, look at them and put each of those cards into one of that player's provinces, such that each province ends up with at least one card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-012.jpg"
   },
   {
     "id": "rokugan-at-war-013",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "White Horde Vanguard",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>.\nDuring the first conflict each round, opponents' card effects cannot bow this character or move it.",
+    "flavorText": "\"It is as if each warrior of the Moto Khan's horde shares a mind with their steed.\" - Miya Boshin",
+    "illustrator": "Imad Awan",
+    "name": "White Horde Vanguard",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "5",
+    "political": "2",
     "traits": [
       "Bushi",
-      "Cavalry",
-      "Army"
+      "Army",
+      "Cavalry"
     ],
-    "text": "No attachments except Weapon.\nDuring the first conflict each round, opponents' card effects cannot bow this character or move it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-013.jpg"
   },
   {
     "id": "rokugan-at-war-014",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "A Season of War",
     "type": "Event",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Action:</b> Discard each card in each province, refilling each province faceup. End the dynasty phase. Then there is an additional dynasty phase, during which players do not collect fate.",
+    "illustrator": "Lin Hsiang",
+    "name": "A Season of War",
     "clan": "Neutral",
     "deck": "dynasty",
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: Discard each card in each province, refilling each province faceup. End the dynasty phase. Then there is an additional dynasty phase, during which players do not collect fate.",
-    "unverified": true
+    "cost": 1,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-014.jpg"
   },
   {
     "id": "rokugan-at-war-015",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Our Foe Does Not Wait",
     "type": "Event",
+    "text": "<em>Earth</em> role only.\n<b>Reaction:</b> After you pass on declaring a conflict, choose an unbroken non-stronghold province you control - search the top 8 cards of your dynasty deck for a card and put it into that province faceup. Shuffle. (Max 1 per conflict opportunity.)",
+    "illustrator": "Calderon Studio",
+    "name": "Our Foe Does Not Wait",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Earth role only.\nReaction: After you pass on declaring a conflict, choose an unbroken non-stronghold province you control – search the top 8 cards of your dynasty deck for a card and put it into that province faceup. Shuffle. (Max 1 per conflict opportunity.)",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-015.jpg"
   },
   {
     "id": "rokugan-at-war-016",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Captivating Story",
     "type": "Event",
+    "text": "<em>Water</em> role only.\n<b>Action:</b> During a conflict, choose a character that is participating alone on your side - that character gets +1[conflict-political] until the end of the conflict for each faceup province you control. You may remove 1 fate from that character. If you do, honor it.",
+    "illustrator": "Jorge Matar",
+    "name": "Captivating Story",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Water role only.\nAction: During a conflict, choose a character that is participating alone on your side – that character gets +1[pol] until the end of the conflict for each faceup province you control. You may remove 1 fate from that character. If you do, honor it.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-016.jpg"
   },
   {
     "id": "rokugan-at-war-017",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Educated Heimin",
     "type": "Attachment",
+    "text": "Attach to an unbroken province you control.\nEach time you would refill attached province with a card, instead look at the top 2 cards of your dynasty deck (4 cards instead if attached province is facedown), refill the province with 1 of those cards and discard the rest.",
+    "illustrator": "Hai Hoang",
+    "name": "Educated Heimin",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 3,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Follower"
     ],
-    "text": "Attach to an unbroken province you control.\nEach time you would refill attached province with a card, instead look at the top 2 cards of your dynasty deck (4 cards instead if attached province is facedown), refill the province with 1 of those cards and discard the rest.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-017.jpg"
   },
   {
     "id": "rokugan-at-war-018",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Serene Ise Zumi",
     "type": "Character",
+    "text": "Sincerity. <i>(When this character leaves play, draw 1 card.)</i>\nYou may play this character as an attachment on a character you control, reducing its cost by 2. If you do, it loses sincerity and gains the text: \"<b>Action:</b> During a conflict - move attached character home.\"",
+    "illustrator": "Jorge Matar",
+    "name": "Serene Ise Zumi",
     "clan": "Dragon",
-    "deck": "dynasty",
+    "deck": "conflict",
+    "cost": 3,
+    "glory": 1,
+    "influence": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Sincerity. (When this character leaves play, draw 1 card.)\nYou may play this character as an attachment on a character you control, reducing its cost to play by 2. If you do, it loses sincerity and gains the text: \"Action: During a conflict – move attached character home.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-018.jpg"
   },
   {
     "id": "rokugan-at-war-019",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Prepared Ambush",
     "type": "Attachment",
+    "text": "Attach to an unbroken province.\nLimit 1 <em>Battlefield</em> attachment per province.\nDuring a conflict at attached province, you may play each character in your provinces as if it were in your hand. Each character played this way must enter play in the conflict.",
+    "illustrator": "Imar Awan",
+    "name": "Prepared Ambush",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Battlefield"
     ],
-    "text": "Attach to an unbroken province. Limit 1 Battlefield attachment per province.\nDuring conflicts at attached province, you may play each character in your provinces as if it were in your hand. Each character played this way must enter play in the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-019.jpg"
   },
   {
     "id": "rokugan-at-war-020",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Wandering Mediator",
     "type": "Character",
+    "text": "<em>Air</em> role only.\n<b>Action:</b> During a conflict at an [element-air] province, select one - either move this character to the conflict, or move it home.",
+    "illustrator": "Felipe Gaona",
+    "name": "Wandering Mediator",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 1,
+    "influence": 1,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Air role only.\nAction: During a conflict at an [air] province, select one – either move this character to the conflict, or move it home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-020.jpg"
   },
   {
     "id": "rokugan-at-war-021",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Paralyzing Delicacy",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating character – that character gets -1 [conflict-military] until the end of the conflict for each facedown card in its controller's provinces.",
+    "flavorText": "When the guests' breaths suddenly fell short, only the cooks could be blamed.",
+    "illustrator": "Borja Pindado",
+    "name": "Paralyzing Delicacy",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Action: During a conflict, choose a participating character – that character gets -1 [mil] until the end of the conflict for each facedown card in its controller's provinces.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-021.jpg"
   },
   {
     "id": "rokugan-at-war-022",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Countryside Trader",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is attacking, spend 1 fate and choose a triggered ability printed on the attacked province - resolve that ability as if you controlled the province, ignoring all triggering conditions.",
+    "flavorText": "Poor in rice, yes. But rice is not our only wealth.",
+    "illustrator": "Joyce Maureira",
+    "name": "Countryside Trader",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Merchant"
     ],
-    "text": "Action: During a conflict in which this character is attacking, spend 1 fate and choose a triggered ability printed on the attacked province – resolve that ability as if you controlled the province, ignoring all triggering conditions.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-022.jpg"
   },
   {
     "id": "rokugan-at-war-023",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Scouted Terrain",
     "type": "Event",
+    "text": "<em>Void</em> role only.\n<b>Action:</b> During the conflict phase, choose an opponent. If that opponent controls at least 4 faceup provinces - you may attack that player's stronghold this phase.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Scouted Terrain",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Void role only.\nAction: Choose an opponent. If that opponent controls at least 4 faceup provinces – you may attack that player's stronghold this phase.",
-    "unverified": true
+    "cost": 4,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-023.jpg"
   },
   {
     "id": "rokugan-at-war-024",
     "gameId": "l5r-lcg",
     "setId": "rokugan-at-war",
     "publisherId": "ffg",
-    "name": "Field of Ruin",
     "type": "Attachment",
+    "text": "Reduce the cost to play this card by 1 if it is played on a broken province.\nAttach to a province. Limit 1 <em>Battlefield</em> attachment per province.\n<b>Reaction:</b> After the conflict phase begins - discard each card in attached province.",
+    "illustrator": "Jon Hodgson",
+    "name": "Field of Ruin",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 0,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Battlefield"
     ],
-    "text": "Reduce the cost to play this card by 1 if it is played on a broken province.\nAttach to a province. Limit 1 Battlefield attachment per province.\nReaction: After the conflict phase begins – discard each card in attached province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-024.jpg"
   }
 ]

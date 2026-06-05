@@ -1,0 +1,10 @@
+{
+  "id": "draft-pack",
+  "gameId": "l5r-lcg",
+  "publisherId": "ffg",
+  "name": "Draft Pack",
+  "type": "premium",
+  "status": "released",
+  "cardCount": 14,
+  "notes": "Stubbed during EmeraldDB merge — verify type/cycle/releaseDate."
+}

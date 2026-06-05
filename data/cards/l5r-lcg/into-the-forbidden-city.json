@@ -4,296 +4,390 @@
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Feast or Famine",
     "type": "Province",
+    "text": "<em>Fire</em> role only.\n<b>Interrupt:</b> When this province is broken, choose an opponent's character – move 1 fate from that character to a character you control.\n<i>Errata from RRG v11</i>",
+    "flavorText": "One man’s famine is another man’s feast.",
+    "illustrator": "Filip Storch",
+    "name": "Feast or Famine",
     "clan": "Neutral",
-    "text": "Fire role only.\nInterrupt: When this province is broken, choose an opponent's character – move 1 fate from that character to a character you control.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-041.png"
   },
   {
     "id": "into-the-forbidden-city-042",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Public Forum",
     "type": "Province",
+    "text": "Cannot be a stronghold province.\n<b>Interrupt:</b> When this province would be broken, if there are no honor tokens on it – place 1 honor token on it instead.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Public Forum",
     "clan": "Neutral",
-    "text": "Cannot be a stronghold province.\nInterrupt: When this province would be broken, if there are no honor tokens on it – place 1 honor token on it instead.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-042.jpg"
   },
   {
     "id": "into-the-forbidden-city-043",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Kakita Yoshi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While this character is participating in a conflict, discard the Imperial Favor – draw 3 cards. Reduce the cost of each event you play during this conflict by 2.",
+    "flavorText": "\"I will not forget.\"",
+    "illustrator": "Polar Engine",
+    "name": "Kakita Yoshi",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "2",
+    "political": "6",
     "traits": [
       "Courtier",
       "Daimyō",
       "Imperial"
     ],
-    "text": "Action: While this character is participating in a conflict, discard the Imperial Favor – draw 3 cards. Reduce the cost of each event you play during this conflict by 2.",
-    "unverified": true
+    "traitsAscii": [
+      "Courtier",
+      "Daimyo",
+      "Imperial"
+    ],
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-043.jpg"
   },
   {
     "id": "into-the-forbidden-city-044",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Chisei District",
     "type": "Holding",
     "unique": true,
+    "text": "Limit 1 per deck.\n[conflict-military] conflicts cannot be declared against this holding's province.",
+    "illustrator": "Nele Diel",
+    "name": "Chisei District",
     "clan": "Crane",
     "deck": "dynasty",
     "traits": [
       "Imperial"
     ],
-    "text": "Limit 1 per deck.\n[mil] conflicts cannot be declared against this holding's province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-044.jpg"
   },
   {
     "id": "into-the-forbidden-city-045",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Enigmatic Magistrate",
     "type": "Character",
+    "text": "While this character is attacking, only characters that have an odd printed cost count their skill toward the resolution of this conflict.",
+    "flavorText": "\"Is it just to uphold an unjust law?\"",
+    "illustrator": "Ray Greaves",
+    "name": "Enigmatic Magistrate",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Imperial",
       "Magistrate"
     ],
-    "text": "While this character is attacking, only characters that have an odd printed cost count their skill toward the resolution of this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-045.jpg"
   },
   {
     "id": "into-the-forbidden-city-046",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Prodigy of the Waves",
     "type": "Character",
+    "text": "<b>Action:</b> While the [element-water] ring is claimed – ready this character.",
+    "flavorText": "\"To adapt and flow around any problem, this is the lesson of water.\" – Isawa’s Elements",
+    "illustrator": "Le Vuong",
+    "name": "Prodigy of the Waves",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Action: While the [water] ring is claimed – ready this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-046.jpg"
   },
   {
     "id": "into-the-forbidden-city-047",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Back-Alley Hideaway",
     "type": "Holding",
+    "text": "<b>Interrupt:</b> When a [clan-scorpion] character you control leaves play – attach that character to this holding facedown instead of placing it in its owner's discard pile.\n<b>Action:</b> Play an attached facedown character from this holding as if it were in this province. Then, sacrifice this holding.",
+    "illustrator": "Niten",
+    "name": "Back-Alley Hideaway",
     "clan": "Scorpion",
     "deck": "dynasty",
     "traits": [
       "City"
     ],
-    "text": "Interrupt: When a  character you control leaves play – attach that character to this holding facedown instead of placing it in its owner's discard pile.\nAction: Play an attached facedown character from this holding as if it were in this province. Then, sacrifice this holding.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-047.jpg"
   },
   {
     "id": "into-the-forbidden-city-048",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Child of the Plains",
     "type": "Character",
+    "text": "<b>Reaction:</b> After a province this character is attacking is revealed – the attacker has the first action opportunity this conflict.",
+    "illustrator": "Oscar Römer",
+    "name": "Child of the Plains",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "1",
+    "political": "0",
     "traits": [
       "Cavalry",
       "Scout"
     ],
-    "text": "Reaction: After a province this character is attacking is revealed – the attacker has the first action opportunity this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-048.jpg"
   },
   {
     "id": "into-the-forbidden-city-049",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "War Dog Master",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character is declared as an attacker, discard the top card of your dynasty deck – this character gets +X[conflict-military] until the end of the conflict. X is the printed cost of the discarded card.",
+    "flavorText": "\"If samurai were as loyal as dogs, there would be no need for Bushidō.\"",
+    "illustrator": "Calvin Chua",
+    "name": "War Dog Master",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After this character is declared as an attacker, discard the top card of your dynasty deck – this character gets +X[mil] until the end of the conflict. X is the printed cost of the discarded card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-049.jpg"
   },
   {
     "id": "into-the-forbidden-city-050",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Hiruma Skirmisher",
     "type": "Character",
+    "text": "<b>Reaction:</b> After you play this character – it gains covert until the end of the phase.",
+    "flavorText": "\"My lord, I bring grave tidings from beyond the Wall.\"",
+    "illustrator": "Pavel Tomashevskiy",
+    "name": "Hiruma Skirmisher",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 1,
+    "influence": 2,
+    "military": "1",
     "traits": [
       "Bushi",
       "Scout"
     ],
-    "text": "Reaction: After you play this character – it gains covert until the end of the phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-050.jpg"
   },
   {
     "id": "into-the-forbidden-city-051",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Seal of the Crab",
     "type": "Attachment",
+    "text": "Attached character gains the [clan-crab] clan symbol and the <em>Berserker</em> trait.",
+    "flavorText": "In the name of Lord Hida Kisada, Defender of the Wall",
+    "illustrator": "Mauro Dal Bo",
+    "name": "Seal of the Crab",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Item",
       "Seal"
     ],
-    "text": "Attached character gains the  clan symbol and the Berserker trait.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-051.jpg"
   },
   {
     "id": "into-the-forbidden-city-052",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Mantra of Water",
     "type": "Event",
+    "text": "<b>Reaction:</b> After your opponent declares a [element-water] conflict, choose a <em>Monk</em> character or a character with a <em>Monk</em> attachment – ready that character and draw 1 card.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Mantra of Water",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Kihō",
       "Water"
     ],
-    "text": "Reaction: After your opponent declares a [water] conflict, choose a Monk character or a character with a Monk attachment – ready that character and draw 1 card.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Water"
+    ],
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-052.jpg"
   },
   {
     "id": "into-the-forbidden-city-053",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Ageless Crone",
     "type": "Character",
+    "text": "During a conflict in which this character is participating, increase the cost for each player to play each event by 1.",
+    "flavorText": "\"It is good to see you again, Grandmother. You have not aged a day. Ever.\" – Ikoma Ikehata",
+    "illustrator": "Lin Hsiang",
+    "name": "Ageless Crone",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 0,
+    "influence": 1,
+    "military": "0",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "During a conflict in which this character is participating, increase the cost for each player to play each event by 1.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-053.jpg"
   },
   {
     "id": "into-the-forbidden-city-054",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Test of Courage",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, if your honor bid is lower than your opponent's, choose a [clan-lion] character you control – move that character to the conflict. Then, honor it.",
+    "illustrator": "Nasrul Hakim",
+    "name": "Test of Courage",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Action: During a conflict, if your honor bid is lower than your opponent's, choose a  character you control – move that character to the conflict. Then, honor it.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-054.jpg"
   },
   {
     "id": "into-the-forbidden-city-055",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Benten's Touch",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, bow a <i>(friendly)</i> [clan-phoenix] <em>Shugenja</em> character. Choose a participating character you control – honor that character.",
+    "flavorText": "\"Blessed Benten, Lady of Love and Beauty, shine your radiance upon me. Let my hands work your beauty in the mortal realm and my words spread your grace to all.\"",
+    "illustrator": "Eli Ring",
+    "name": "Benten's Touch",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Action: During a conflict, bow a (friendly)  Shugenja character. Choose a participating character you control – honor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-055.jpg"
   },
   {
     "id": "into-the-forbidden-city-056",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Bayushi Kachiko",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While this character is participating in a [conflict-political] conflict, choose a participating character with lower [conflict-political] than this character – move the chosen character home. Then, you may bow it.",
+    "flavorText": "\"Which of us would bid this game to end? We are nearly perfectly matched, but there can be only one victor.\"",
+    "illustrator": "Polar Engine",
+    "name": "Bayushi Kachiko",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 5,
+    "glory": 3,
+    "military": "3",
+    "political": "6",
     "traits": [
       "Courtier",
       "Imperial"
     ],
-    "text": "Action: While this character is participating in a [pol] conflict, choose a participating character with lower [pol] skill than this character – move the chosen character home. Then, you may bow it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-056.jpg"
   },
   {
     "id": "into-the-forbidden-city-057",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Misinformation",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, if your honor bid is at least 2 higher than your opponent's – each participating character your opponent controls gets -1[conflict-military] and -1[conflict-political] until the end of the conflict.",
+    "illustrator": "Tropa Entertainment",
+    "name": "Misinformation",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Action: During a conflict, if your honor bid is at least 2 higher than your opponent's – each participating character your opponent controls gets -1[mil] and -1[pol] until the end of the conflict.",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-057.jpg"
   },
   {
     "id": "into-the-forbidden-city-058",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Chasing the Sun",
     "type": "Event",
+    "text": "<em>Seeker</em> role only.\n<b>Action:</b> During a conflict in which you are the attacking player – move the contested ring to another eligible province and reveal it, if able. That province is now the attacked province.",
+    "illustrator": "Halil Ural",
+    "name": "Chasing the Sun",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Seeker role only.\nAction: During a conflict in which you are the attacking player – move the contested ring to another eligible province and reveal it, if able. That province is now the attacked province.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-058.jpg"
   },
   {
     "id": "into-the-forbidden-city-059",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Tattered Missive",
     "type": "Attachment",
+    "text": "Attach to a <em>Courtier</em> character you control.\n<b>Action:</b> Bow attached character – search the top 5 cards of your conflict deck for a card, reveal it, and add it to your hand. Shuffle.",
+    "illustrator": "Borja Pindado",
+    "name": "Tattered Missive",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 0,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Item"
     ],
-    "text": "Attach to a Courtier character you control.\nAction: Bow attached character – search the top 5 cards of your conflict deck for a card, reveal it, and add it to your hand. Shuffle.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-059.jpg"
   },
   {
     "id": "into-the-forbidden-city-060",
     "gameId": "l5r-lcg",
     "setId": "into-the-forbidden-city",
     "publisherId": "ffg",
-    "name": "Censure",
     "type": "Event",
+    "text": "Play only if you have the Imperial Favor.\n<b>Interrupt:</b> When the effects of an event would initiate – cancel those effects.",
+    "flavorText": "\"I bring word from the Imperial Chancellor.\"",
+    "illustrator": "Ancor Gil Hernandez",
+    "name": "Censure",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 0,
     "traits": [
       "Imperial"
     ],
-    "text": "Play only if you have the Imperial Favor.\nInterrupt: When the effects of an event would initiate – cancel those effects.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-060.jpg"
   }
 ]

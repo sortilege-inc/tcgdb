@@ -4,312 +4,406 @@
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Hisu Mori Toride (Lion Clan)",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Reaction:</b> After you win a [conflict-military] conflict by 5 or more skill, bow this stronghold and sacrifice a <i>(friendly)</i> <em>Bushi</em> character – you may declare an additional [conflict-military] conflict this phase.",
+    "illustrator": "Nele Diel",
+    "name": "Hisu Mori Toride",
     "clan": "Lion",
+    "honor": 11,
+    "fate": 7,
+    "influencePool": 9,
     "traits": [
       "Fort"
     ],
-    "text": "Reaction: After you win a [mil] conflict by 5 or more skill, bow this stronghold and sacrifice a (friendly) Bushi character – you may declare an additional [mil] conflict this phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-001.jpg"
   },
   {
     "id": "breath-of-the-kami-002",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Sacred Sanctuary",
     "type": "Province",
+    "text": "<b>Reaction:</b> After an attack is declared at this province, choose a <em>Monk</em> character you control – ready that character. Until the end of the conflict, that character cannot be bowed by opponents' card effects or as a result of conflict resolution.",
+    "illustrator": "Logan Feliciano",
+    "name": "Sacred Sanctuary",
     "clan": "Dragon",
+    "strength": 2,
     "traits": [
       "Temple"
     ],
-    "text": "Reaction: After an attack has been declared in this province, choose a Monk character you control – ready that character. Until the end of the conflict, that character cannot be bowed by opponents' card effects or as a result of conflict resolution.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-002.jpg"
   },
   {
     "id": "breath-of-the-kami-003",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Demonstrating Excellence",
     "type": "Province",
+    "text": "This province gets +2 strength while you have an <em>Air</em> role.\n<b>Interrupt:</b> When this province is broken – gain 1 fate and draw 1 card.",
+    "illustrator": "Felipe Gaona",
+    "name": "Demonstrating Excellence",
     "clan": "Neutral",
-    "text": "This province gets +2 strength while you have an Air role.\nInterrupt: When this province is broken – gain 1 fate and draw 1 card.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-003.jpg"
   },
   {
     "id": "breath-of-the-kami-004",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Third Tower Guard",
     "type": "Character",
+    "text": "This character gets +2[conflict-military] while you have claimed the [element-earth] or [element-water] ring.",
+    "flavorText": "\"Swords will break and spears will shatter, but our courage shall never falter.\"",
+    "illustrator": "Le Vuong",
+    "name": "Third Tower Guard",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "This character gets +2[mil] while you have claimed the [earth] or [water] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-004.jpg"
   },
   {
     "id": "breath-of-the-kami-005",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Hiruma Outpost",
     "type": "Holding",
+    "text": "While this card is in an unbroken province, it gains: \"<b>Reaction:</b> After an opponent declares a conflict against a province that does not have a holding in it – that opponent loses 1 honor.\"",
+    "illustrator": "Leanna Crossan",
+    "name": "Hiruma Outpost",
     "clan": "Crab",
     "deck": "dynasty",
     "traits": [
       "Outpost"
     ],
-    "text": "While this card is in an unbroken province, it gains: \"Reaction: After an opponent declares a conflict against a province that does not have a holding in it – that opponent loses 1 honor.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-005.jpg"
   },
   {
     "id": "breath-of-the-kami-006",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Fū Sui Disciple",
     "type": "Character",
+    "text": "<b>Action:</b> The player that has the [element-air] ring in his or her claimed ring pool chooses an ordinary character he or she controls. You select one – honor or dishonor that character.",
+    "flavorText": "\"The energies of Sun and Moon, of the Five Elements — all must be balanced.\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Fū Sui Disciple",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Action: The player that has the [air] ring in his or her ring pool chooses an ordinary character he or she controls. You select one – honor or dishonor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-006.jpg"
   },
   {
     "id": "breath-of-the-kami-007",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Matsu Seventh Legion",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>.\nWhile this character is attacking, each <em>Courtier</em> character cannot be declared as a defender.",
+    "illustrator": "Calvin Chua",
+    "name": "Matsu Seventh Legion",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "7",
     "traits": [
       "Bushi",
       "Army",
       "Cavalry"
     ],
-    "text": "No attachments except Weapon.\nWhile this character is attacking, each Courtier character cannot be declared as a defender.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-007.jpg"
   },
   {
     "id": "breath-of-the-kami-008",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Isawa Uona",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After you play an <em>Air</em> card during a conflict, choose a non-unique participating character – bow that character.",
+    "flavorText": "\"We cannot always see that which guides our way.\"",
+    "illustrator": "Le Vuong",
+    "name": "Isawa Uona",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Reaction: After you play an Air card during a conflict, choose a non-unique participating character – bow that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-008.jpg"
   },
   {
     "id": "breath-of-the-kami-009",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Soshi Shadowshaper",
     "type": "Character",
+    "text": "<b>Action:</b> During the conflict phase, lose 1 honor. Choose a character with cost 2 or lower that has entered play from a player's hand this phase – return that character to its owner's hand.",
+    "illustrator": "Hai Hoang",
+    "name": "Soshi Shadowshaper",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Air",
       "Shadow"
     ],
-    "text": "Action: During the conflict phase, lose 1 honor. Choose a character with cost 2 or lower that has entered play from a player's hand this phase – return that character to its owner's hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-009.jpg"
   },
   {
     "id": "breath-of-the-kami-010",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Heartless Intimidator",
     "type": "Character",
+    "text": "<b>Reaction:</b> After an opponent loses 1 or more honor – discard the top card of that player's conflict deck. (Unlimited.)",
+    "flavorText": "\"A beautiful knife, isn't it?\"",
+    "illustrator": "Maerel Hibadita",
+    "name": "Heartless Intimidator",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After an opponent loses 1 or more honor – discard the top card of that player's conflict deck. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-010.jpg"
   },
   {
     "id": "breath-of-the-kami-011",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Shinjo Shono",
     "type": "Character",
     "unique": true,
+    "text": "Pride.\n<b>Action:</b> While this character is participating in a conflict, if you control more participating characters than your opponent – each participating <em>Cavalry</em> character you control gets +1[conflict-military] and +1[conflict-political] until the end of the conflict.",
+    "illustrator": "Maerel Hibadita",
+    "name": "Shinjo Shono",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Bushi",
       "Cavalry",
       "Commander"
     ],
-    "text": "Pride.\nAction: While this character is participating in a conflict, if you control more participating characters than your opponent – each participating Cavalry character you control gets +1 [mil] and +1 [pol] until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-011.jpg"
   },
   {
     "id": "breath-of-the-kami-012",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Shiotome Encampment",
     "type": "Holding",
+    "text": "<b>Action:</b> If you have a [conflict-military] ring in your claimed ring pool, choose a <em>Cavalry</em> character – ready that character.",
+    "flavorText": "\"We need not mar the purity of our intentions with mere words.\"",
+    "illustrator": "Cassandre Bolan",
+    "name": "Shiotome Encampment",
     "clan": "Unicorn",
     "deck": "dynasty",
     "traits": [
       "Battlefield"
     ],
-    "text": "Action: If you have a [mil] ring in your claimed ring pool, choose a Cavalry character – ready that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-012.jpg"
   },
   {
     "id": "breath-of-the-kami-013",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Kudaka",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After you claim the [element-air] ring – gain 1 fate and draw 1 card. (Limit twice per round.)",
+    "flavorText": "\"It's tradition, this, just askin' the kami for their aid.\"",
+    "illustrator": "Le Vuong",
+    "name": "Kudaka",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "3",
+    "political": "4",
     "traits": [
       "Shugenja",
       "Air",
       "Mantis Clan"
     ],
-    "text": "Reaction: After you claim the [air] ring – gain 1 fate and draw 1 card. (Limit twice per round.)",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Air",
+      "Mantis-clan"
+    ],
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-013.jpg"
   },
   {
     "id": "breath-of-the-kami-014",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Formal Invitation",
     "type": "Attachment",
+    "text": "Attach to a character with glory 2 or higher.\n<b>Action:</b> During a [conflict-political] conflict – move attached character to the conflict.",
+    "flavorText": "\"It would be an honor if you would join us.\"",
+    "illustrator": "Joyce Maureira",
+    "name": "Formal Invitation",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 3,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Item"
     ],
-    "text": "Attach to a character with glory 2 or higher.\nAction: During a [pol] conflict – move attached character to the conflict. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-014.jpg"
   },
   {
     "id": "breath-of-the-kami-015",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "The Mirror's Gaze",
     "type": "Attachment",
+    "text": "Attach to a <em>Shugenja</em> character you control.\n<b>Reaction:</b> After the effects of an opponent's event resolve – resolve that event again as if you had just played it, ignoring costs and triggering conditions. You may choose new targets.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "The Mirror's Gaze",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Attach to a Shugenja character you control.\nReaction: After the effects of an opponent's event resolve – resolve that event again as if you had just played it, ignoring costs and triggering conditions. You may choose new targets.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-015.jpg"
   },
   {
     "id": "breath-of-the-kami-016",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Ancient Master",
     "type": "Character",
+    "text": "You may play this character as an attachment with the text: \"<b>Reaction:</b> After attached character is declared as an attacker or defender – search the top 5 cards of your conflict deck for a <em>Kihō</em> or <em>Tattoo</em> card, reveal it, and add it to your hand. Shuffle.",
+    "illustrator": "Kevin Goeke",
+    "name": "Ancient Master",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 2,
+    "influence": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "You may play this character as an attachment with the text: \"Reaction: After attached character is declared as an attacker or defender – search the top 5 cards of your conflict deck for a Kihō or Tattoo card, reveal it, and add it to your hand. Shuffle.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-016.jpg"
   },
   {
     "id": "breath-of-the-kami-017",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Hurricane Punch",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating <em>Monk</em> character – that character gets +2[conflict-military] until the end of the conflict. Draw 1 card.",
+    "flavorText": "\"Strike with one thousand fists and you need deliver only a single blow.\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Hurricane Punch",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Kihō",
       "Air"
     ],
-    "text": "Action: During a conflict, choose a participating Monk character – that character gets +2[mil] until the end of the conflict. Draw 1 card.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Air"
+    ],
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-017.jpg"
   },
   {
     "id": "breath-of-the-kami-018",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Even the Odds",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, if you control fewer participating characters than your opponent, choose a character you control – move that character to the conflict. If that character is a <em>Commander</em>, honor it.",
+    "illustrator": "Lukas Banas",
+    "name": "Even the Odds",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Tactic"
     ],
-    "text": "Action: During a conflict, if you control fewer participating characters than your opponent, choose a character you control – move that character to the conflict. If that character is a Commander, honor it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-018.jpg"
   },
   {
     "id": "breath-of-the-kami-019",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Winds of Change",
     "type": "Event",
+    "text": "<em>Air</em> role only.\n<b>Action:</b> Return the [element-air] ring from a claimed ring pool to the unclaimed ring pool.",
+    "flavorText": "\"You cannot take back your words any more than you can bottle the evening breeze.\"",
+    "illustrator": "Diana Martinez",
+    "name": "Winds of Change",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Air role only.\nAction: Return the [air] ring from a claimed ring pool to the unclaimed ring pool.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-019.jpg"
   },
   {
     "id": "breath-of-the-kami-020",
     "gameId": "l5r-lcg",
     "setId": "breath-of-the-kami",
     "publisherId": "ffg",
-    "name": "Maze of Illusion",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating character controlled by an opponent – secretly select a number on your honor dial. Then, the chosen character's controller guesses whether this number is even or odd. Reveal your dial (cannot be modified). If they are wrong, bow and dishonor that character.",
+    "illustrator": "Reiko Murakami",
+    "name": "Maze of Illusion",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Action: During a conflict, choose a participating character controlled by an opponent – secretly select a number on your honor dial. Then, the chosen character's controller guesses whether this number is even or odd. Reveal your dial (cannot be modified). If they are wrong, bow and dishonor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-020.jpg"
   }
 ]

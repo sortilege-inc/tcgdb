@@ -1,0 +1,10 @@
+{
+  "id": "under-the-empress-eyes",
+  "gameId": "l5r-lcg",
+  "publisherId": "ffg",
+  "name": "Under the Empress' Eyes",
+  "type": "premium",
+  "status": "released",
+  "cardCount": 30,
+  "notes": "Stubbed during EmeraldDB merge — verify type/cycle/releaseDate."
+}

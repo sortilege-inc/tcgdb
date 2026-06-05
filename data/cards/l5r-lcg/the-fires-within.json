@@ -4,303 +4,424 @@
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Abandoning Honor",
     "type": "Province",
+    "text": "This province gets +2 strength while you have a <em>Fire</em> role.\n<b>Interrupt:</b> When this province is broken, choose a dishonored character – discard that character.",
+    "illustrator": "Lin Hsiang",
+    "name": "Abandoning Honor",
     "clan": "Neutral",
-    "text": "This province gets +2 strength while you have a Fire role.\nInterrupt: When this province is broken, choose a dishonored character – discard that character.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/the-fires-within-041.jpg"
   },
   {
     "id": "the-fires-within-042",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Hiruma Kogoe",
     "type": "Character",
     "unique": true,
+    "text": "Sincerity.\n<b>Reaction:</b> After the draw phase begins, if you have lower honor than an opponent – look at the top 3 cards of your conflict deck and put them back in any order.",
+    "flavorText": "\"Assume anything we see is probably dangerous.\"",
+    "illustrator": "Derek D Edgell",
+    "name": "Hiruma Kogoe",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Scout"
     ],
-    "text": "Sincerity.\nReaction: After the draw phase begins, if you have lower honor than an opponent – look at the top 3 cards of your conflict deck and put them back in any order.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-042.jpg"
   },
   {
     "id": "the-fires-within-043",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Sadane Student",
     "type": "Character",
+    "text": "This character gets +2[conflict-political] while you have claimed the [element-air] or [element-fire] ring.",
+    "flavorText": "\"How adorable that you would wear something your little brother made for you.\"",
+    "illustrator": "Borja Pindado",
+    "name": "Sadane Student",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "This character gets +2[pol] while you have claimed the [air] or [fire] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-043.jpg"
   },
   {
     "id": "the-fires-within-044",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Master Alchemist",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, spend 1 fate to the [element-fire] ring. Choose a character – honor or dishonor that character.",
+    "flavorText": "\"The secrets of the elements are not kept by the kami alone.\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Master Alchemist",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Fire"
     ],
-    "text": "Action: During a conflict, spend 1 fate to the [fire] ring. Choose a character – honor or dishonor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-044.jpg"
   },
   {
     "id": "the-fires-within-045",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "The Wrath of the Kami",
     "type": "Holding",
     "unique": true,
+    "text": "Limit 1 per deck.\n<b>Action:</b> During a conflict at this province, lose 1 honor – this province gets +1 strength until the end of the conflict. (Unlimited.)",
+    "illustrator": "Eli Ring",
+    "name": "The Wrath of the Kami",
     "clan": "Dragon",
     "deck": "dynasty",
     "traits": [
       "Shrine"
     ],
-    "text": "Limit 1 per deck.\nAction: During a conflict at this province, lose 1 honor – this province gets +1 strength until the end of the conflict. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-045.jpg"
   },
   {
     "id": "the-fires-within-046",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Ikoma Ikehata",
     "type": "Character",
     "unique": true,
+    "text": "Covert.\n<b>Reaction</b>: After this character wins a [conflict-political] conflict, choose a character you control – honor that character. Draw 1 card.",
+    "flavorText": "\"I like to think of myself as the 'mane' event.\"",
+    "illustrator": "Borja Pinado",
+    "name": "Ikoma Ikehata",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Covert.\nReaction: After this character wins a [pol] conflict, choose a character you control – honor that character. Draw 1 card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-046.jpg"
   },
   {
     "id": "the-fires-within-047",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Ancestral Armory",
     "type": "Holding",
+    "text": "<b>Action:</b> Sacrifice this holding, choose a <em>Weapon</em> attachment in your discard pile – return that attachment to your hand.",
+    "flavorText": "\"This is the spear of Matsu Okimoto. Do not dishonor his memory.\"",
+    "illustrator": "Lukas Banas",
+    "name": "Ancestral Armory",
     "clan": "Lion",
     "deck": "dynasty",
-    "text": "Action: Sacrifice this holding, choose a Weapon attachment in your discard pile – return that attachment to your hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-047.jpg"
   },
   {
     "id": "the-fires-within-048",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Chikai Order Protector",
     "type": "Character",
+    "text": "While this character is defending, if you control a participating <em>Courtier</em> or <em>Shugenja</em> character, this character does not bow as a result of conflict resolution.",
+    "flavorText": "\"I need not understand the Elemental Masters' wisdom, so long as it remains safe with them.\"",
+    "illustrator": "Tony Foti",
+    "name": "Chikai Order Protector",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Bushi",
       "Yōjimbō"
     ],
-    "text": "While this character is defending, if you control a participating Courtier or Shugenja character, this character does not bow as a result of conflict resolution.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Yojimbo"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-fires-within-048.jpg"
   },
   {
     "id": "the-fires-within-049",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Soshi Shiori",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After you win a conflict, choose a player – that player loses 1 honor. (Unlimited.)",
+    "flavorText": "\"The clans cannot strike at what they cannot perceive.\"",
+    "illustrator": "Diana Martinez",
+    "name": "Soshi Shiori",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "2",
+    "political": "5",
     "traits": [
       "Shugenja",
       "Air",
       "Daimyō"
     ],
-    "text": "Reaction: After you win a conflict, choose a player – that player loses 1 honor. (Unlimited.)",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Air",
+      "Daimyo"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-fires-within-049.jpg"
   },
   {
     "id": "the-fires-within-050",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Battle Maiden Recruit",
     "type": "Character",
+    "text": "This character gets +2[conflict-military] while you have claimed the [element-water] or [element-void] ring.",
+    "illustrator": "Kathryn Steele",
+    "name": "Battle Maiden Recruit",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 0,
+    "glory": 0,
+    "military": "0",
+    "political": "0",
     "traits": [
       "Bushi",
       "Battle Maiden",
       "Cavalry"
     ],
-    "text": "This character gets +2[mil] while you have claimed the [water] or [void] ring.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Battle-maiden",
+      "Cavalry"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-fires-within-050.jpg"
   },
   {
     "id": "the-fires-within-051",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Wicked Tetsubō",
     "type": "Attachment",
+    "text": "Attach to a <em>Berserker</em> character.\nRestricted.\n<b>Action:</b> During a conflict in which attached character is attacking, choose a defending character and select either [conflict-military] or [conflict-political] – set that character's selected skill to 0 until the end of the conflict.",
+    "illustrator": "Calvin Chua",
+    "name": "Wicked Tetsubō",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Weapon"
     ],
-    "text": "Attach to a Berserker character. Restricted.\nAction: During a conflict in which attached character is attacking, choose a defending character and select either [mil] or [pol] – set that character's selected skill to 0 until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-051.jpg"
   },
   {
     "id": "the-fires-within-052",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Icon of Favor",
     "type": "Attachment",
+    "text": "<em>Fire</em> role only.\nWhile you have the Imperial Favor, attached character gets +1 glory.\n<b>Reaction:</b> After you win a [element-fire] conflict — honor attached character.",
+    "illustrator": "Mauro Dal Bo",
+    "name": "Icon of Favor",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Item"
     ],
-    "text": "Fire role only.\nWhile you have the Imperial Favor, attached character gets +1 glory.\nReaction: After you win a [fire] conflict – honor attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-052.jpg"
   },
   {
     "id": "the-fires-within-053",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Insult to Injury",
     "type": "Event",
+    "text": "<b>Reaction:</b> After a <em>Duelist</em> character you control wins a duel – dishonor the losing character.",
+    "flavorText": "\"Surely, your blade must have been caught in its sheath for your draw to have been so slow.\"",
+    "illustrator": "Le Vuong",
+    "name": "Insult to Injury",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Reaction: After a Duelist character you control wins a duel – dishonor the losing character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/the-fires-within-053.jpg"
   },
   {
     "id": "the-fires-within-054",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Smoke",
     "type": "Attachment",
+    "text": "<b>Action:</b> While attached character is participating in a conflict, bow and sacrifice this attachment – until the end of the conflict, each non-unique participating character gets -2[conflict-military].",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Smoke",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Spell",
       "Fire"
     ],
-    "text": "Action: While attached character is participating in a conflict, bow and sacrifice this attachment – until the end of the conflict, each non-unique participating character gets -2[mil].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-054.jpg"
   },
   {
     "id": "the-fires-within-055",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Jurōjin's Curse",
     "type": "Attachment",
+    "text": "<em>Void</em> role only. <b>Forced Interrupt:</b> When the fate phase ends, if attached character is ready – resolve a second fate phase after this one. (Max 1 per round.)",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Jurōjin's Curse",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Spell",
       "Void",
       "Curse"
     ],
-    "text": "Void role only.\nForced Interrupt: When the fate phase ends, if attached character is ready – resolve a second fate phase after this one. (Max 1 per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-055.jpg"
   },
   {
     "id": "the-fires-within-056",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Infiltrator",
     "type": "Attachment",
+    "text": "Play only if the bid on your honor dial is higher than an opponent's.\n<b>Action:</b> During a conflict, look at the top card of an opponent's conflict deck – either immediately play that card as if it were in your hand or discard it.",
+    "illustrator": "Andreia Ugrai",
+    "name": "Infiltrator",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Follower"
     ],
-    "text": "Play only if the bid on your honor dial is higher than an opponent's.\nAction: During a conflict, look at the top card of an opponent's conflict deck – either immediately play that card as if it were in your hand or discard it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-056.jpg"
   },
   {
     "id": "the-fires-within-057",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Shiksha Scout",
     "type": "Character",
+    "text": "While this character is participating in a conflict, you are considered to control an additional character in this conflict.",
+    "flavorText": "\"We have seen much that is strange from the world. That our allies might be called strange is merely a compliment.\" - Shinjo Altansarnai",
+    "illustrator": "Isuardi Therianto",
+    "name": "Shiksha Scout",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
-      "Creature"
+      "Creature",
+      "Scout"
     ],
-    "text": "While this character is participating in a conflict, you are considered to control an additional character in this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-fires-within-057.jpg"
   },
   {
     "id": "the-fires-within-058",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Invocation of Ash",
     "type": "Attachment",
+    "text": "<b>Action:</b> Lose 1 honor. Choose a character you control – move this attachment to that character. Then, remove 1 fate from that character.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Invocation of Ash",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
+    "militaryBonus": "+2",
+    "politicalBonus": "+2",
     "traits": [
       "Spell",
       "Fire",
       "Meishōdō"
     ],
-    "text": "Action: Lose 1 honor. Choose a character you control – move this attachment to that character. Then, remove 1 fate from that character.",
-    "unverified": true
+    "traitsAscii": [
+      "Spell",
+      "Fire",
+      "Meishodo"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-fires-within-058.jpg"
   },
   {
     "id": "the-fires-within-059",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Breach of Etiquette",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict – until the end of the conflict, each time a player triggers an ability on a non-<em>Courtier</em> character, he or she loses 1 honor (Max 1 per conflict.)",
+    "illustrator": "Derek D Edgell",
+    "name": "Breach of Etiquette",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict – until the end of the conflict, each time a player triggers an ability on a non-Courtier character, he or she loses 1 honor. (Max 1 per conflict.)",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/the-fires-within-059.jpg"
   },
   {
     "id": "the-fires-within-060",
     "gameId": "l5r-lcg",
     "setId": "the-fires-within",
     "publisherId": "ffg",
-    "name": "Mantis Seafarer",
     "type": "Character",
+    "text": "<em>Air</em> role only.\n<b>Reaction</b>: After this character wins a conflict, lose 1 honor – gain 1 fate. (Unlimited.)",
+    "flavorText": "\"Nothing compares with a fresh sea breeze.\"",
+    "illustrator": "Kevin Zamir Goeke",
+    "name": "Mantis Seafarer",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 0,
+    "influence": 0,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Mantis Clan"
     ],
-    "text": "Air role only.\nReaction: After this character wins a conflict, lose 1 honor – gain 1 fate. (Unlimited.)",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Mantis-clan"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-fires-within-060.jpg"
   }
 ]

@@ -4,309 +4,409 @@
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Gallant Quartermaster",
     "type": "Character",
+    "text": "<b>Interrupt:</b> When this character is sacrificed - gain 2 fate.",
+    "flavorText": "\"Doom descends on our brothers and sisters on the Wall. I will not wait for help to come when my own stores could mean the difference between life or death.\"",
+    "illustrator": "Joyce Maureira",
+    "name": "Gallant Quartermaster",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "0",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "Interrupt: When this character is sacrificed – gain 2 fate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-111.jpg"
   },
   {
     "id": "shojus-duty-112",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Yasuki Hatsu",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating, if you are less honorable than your opponent - search the top 5 cards of your conflict deck for an attachment, reveal it, and add it to your hand. Shuffle.",
+    "illustrator": "Lin Hsiang",
+    "name": "Yasuki Hatsu",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating, if you are less honorable than your opponent – search the top 5 cards of your conflict deck for an attachment, reveal it, and add it to your hand. Shuffle.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-112.jpg"
   },
   {
     "id": "shojus-duty-113",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Daidoji Harrier",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a [conflict-military] conflict, your opponent chooses 2 cards in his or her hand - reveal those cards. You choose and discard one of them.",
+    "flavorText": "\"Vitory will only be achieved through preparedness.\" - Daidoji Uji",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Daidoji Harrier",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Shinobi"
     ],
-    "text": "Reaction: After this character wins a [mil] conflict, your opponent chooses 2 cards in his or her hand – reveal those cards. You choose and discard one of them.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-113.jpg"
   },
   {
     "id": "shojus-duty-114",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Hitsu-do Disciple",
     "type": "Character",
+    "text": "<b>Action:</b> During a [conflict-military] conflict in which this character is participating, if you have played 3 or more cards during this conflict, choose another participating character - dishonor that character.",
+    "flavorText": "\"You expect me to fear some unarmed woman?\" - Hatsuichi the rōnin",
+    "illustrator": "Lukas Banas",
+    "name": "Hitsu-do Disciple",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Action: During a [mil] conflict in which this character is participating, if you have played 3 or more cards during this conflict, choose another participating character – dishonor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-114.jpg"
   },
   {
     "id": "shojus-duty-115",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Togashi Ichi",
     "type": "Character",
     "unique": true,
+    "text": "Disguised <em>Monk</em>.\n<b>Action:</b> During a conflict in which this character is attacking, if 10 or more cards have been played during this conflict and if the attacked province is not a stronghold province - break that province.",
+    "illustrator": "Jorge Matar",
+    "name": "Togashi Ichi",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Disguised Monk.\nAction: During a conflict in which this character is attacking, if 10 or more cards have been played during this conflict and if the attacked province is not a stronghold province – break that province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-115.jpg"
   },
   {
     "id": "shojus-duty-116",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Hero of Three Trees",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, if you have fewer cards in your hand than your opponent, select one - either gain 1 honor, or the attacked province gets -1 strength until the end of the conflict (to a minimum of 0).",
+    "illustrator": "Diego Gisbert Llorens",
+    "name": "Hero of Three Trees",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Action: During a conflict in which this character is participating, if you have fewer cards in your hand than your opponent, select one – either gain 1 honor, or the attacked province gets -1 strength until the end of the conflict (to a minimum of 0.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-116.jpg"
   },
   {
     "id": "shojus-duty-117",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Persuasive Counselor",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating - each event you play during this conflict cannot be canceled.",
+    "flavorText": "\"You must not take offense at my words. Did your Bayushi not name himself a villain?\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Persuasive Counselor",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "4",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating – each event you play during this conflict cannot have its effects canceled.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-117.jpg"
   },
   {
     "id": "shojus-duty-118",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Student of Esoterica",
     "type": "Character",
+    "text": "You may spend fate from this character to pay for <em>Spell</em> cards.",
+    "flavorText": "\"Isawa Koutomo writes as if the Yobanjin could invoke spells without appealing to the kami. Surely this could not be the case?\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Student of Esoterica",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 3,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Earth",
       "Scholar"
     ],
-    "text": "You may spend fate from this character to pay for Spell cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-118.jpg"
   },
   {
     "id": "shojus-duty-119",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Inferno Guard Invoker",
     "type": "Character",
+    "text": "<b>Action:</b> During a [conflict-military] conflict, choose a participating character you control - honor that character. If a province is broken during this conflict, sacrifice that character at the end of the conflict.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Inferno Guard Invoker",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 4,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Fire"
     ],
-    "text": "Action: During a [mil] conflict, choose a participating character you control – honor that character. If a province is broken during this conflict, sacrifice this character at the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-119.jpg"
   },
   {
     "id": "shojus-duty-120",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Chrysanthemum Steward",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose a card in your opponent's conflict discard pile - put that card on top of its owner's conflict deck.",
+    "flavorText": "\"The Empire cannot survive if it does not have leadership.\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Chrysanthemum Steward",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Imperial"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose a card in your opponent's conflict discard pile – put that card on top of its owner's conflict deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-120.jpg"
   },
   {
     "id": "shojus-duty-121",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Bayushi Shoju",
     "type": "Character",
     "unique": true,
+    "text": "Your opponents cannot have the Imperial Favor.\n<b>Forced Reaction:</b> After the conflict phase begins - each player draws 2 cards and loses 1 honor.",
+    "flavorText": "In one clear moment, Shoju understood his unspoken duty, though the touch of polished emerald would forever tarnish his soul.",
+    "illustrator": "Pius Pranoto",
+    "name": "Bayushi Shoju",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 4,
+    "political": "7",
     "traits": [
       "Courtier",
       "Champion",
       "Imperial"
     ],
-    "text": "Your opponent cannot have the Imperial Favor.\nForced Reaction: After the conflict phase begins – each player draws 2 cards and loses 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-121.jpg"
   },
   {
     "id": "shojus-duty-122",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Golden Plains Raider",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict as an attacker, choose a faceup card in a province controlled by your opponent - discard that card.",
+    "flavorText": "Better this town be left abandoned than run by despots.",
+    "illustrator": "Quintin Gleim",
+    "name": "Golden Plains Raider",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Bushi"
     ],
-    "text": "Action: After this character wins a conflict as an attacker, choose a faceup card in a province controlled by your opponent – discard that card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-122.jpg"
   },
   {
     "id": "shojus-duty-123",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Moto Outrider",
     "type": "Character",
+    "text": "<b>Action:</b> During a [conflict-military] conflict in which this character is participating - ready this character.",
+    "flavorText": "Lands won on horseback ought to be ruled from horseback.",
+    "illustrator": "Conceptopolis",
+    "name": "Moto Outrider",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Action: During a [mil] conflict in which this character is participating – ready this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-123.jpg"
   },
   {
     "id": "shojus-duty-124",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Root Out Heresy",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict - discard a random card from your opponent's hand. Until the end of the conflict, reduce the strength of the attacked province by X, where X is the cost of the discarded card.",
+    "illustrator": "Felipe Gaona",
+    "name": "Root Out Heresy",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict – discard a random card from your opponent's hand. Until the end of the conflict, reduce the strength of the attacked province by X, where X is the cost of the discarded card.",
-    "unverified": true
+    "cost": 1,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/shojus-duty-124.jpg"
   },
   {
     "id": "shojus-duty-125",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Kakita's Final Stance",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-military] conflict, choose a participating character - until the end of the conflict, that character cannot be bowed by opponent's card effects. If it is involved in a duel during this conflict, it does not bow as a result of this conflict's resolution.",
+    "illustrator": "Drew Baker",
+    "name": "Kakita's Final Stance",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Technique"
     ],
-    "text": "Action: During a [mil] conflict, choose a participating character  – until the end of the conflict, that character cannot be bowed by opponent's card effects. If it is involved in a duel during this conflict, it does not bow as a result of this conflict's resolution.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-125.jpg"
   },
   {
     "id": "shojus-duty-126",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Mantra of Air",
     "type": "Event",
+    "text": "<b>Reaction:</b> After an opponent declares a [element-air] conflict, choose a <em>Monk</em> character or a character with a <em>Monk</em> attachment – honor that character and draw 1 card.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Mantra of Air",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Kihō",
       "Air"
     ],
-    "text": "Reaction: After an opponent declares an [air] conflict, choose a Monk character or a character with a Monk attachment – honor that character and draw 1 card.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Air"
+    ],
+    "imagePath": "/cards/l5r-lcg/shojus-duty-126.jpg"
   },
   {
     "id": "shojus-duty-127",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "In Service to My Lord",
     "type": "Event",
+    "text": "This card can be played from your discard pile.\n<b>Action:</b> Bow a <i>(friendly)</i> non-unique character and choose a unique character - ready the chosen character. Put this card on the bottom of its owner's conflict deck.",
+    "illustrator": "Andreia Ugrai",
+    "name": "In Service to My Lord",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Tactic"
     ],
-    "text": "This card can be played from your discard pile.\nAction: Bow a (friendly) non-unique character and choose a unique character – ready the chosen character. Put this card on the bottom of its owner's conflict deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-127.jpg"
   },
   {
     "id": "shojus-duty-128",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Cloak of Night",
     "type": "Event",
+    "text": "Play only if you control a <em>Shugenja</em> character.\n<b>Action:</b> During a conflict, choose a participating character - until the end of the conflict, that character gets +3 glory and cannot be chosen as the target of opponent's card abilities.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Cloak of Night",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Play only if you control a Shugenja character.\nAction: During a conflict, choose a participating character – until the end of the conflict, that character gets +3 glory and cannot be chosen as the target of opponent's card abilities.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-128.jpg"
   },
   {
     "id": "shojus-duty-129",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Castigated",
     "type": "Attachment",
+    "text": "Play only during a [conflict-political] conflict, only on a participating character, and only if you control an <em>Imperial</em> character.\nIf attached character's [conflict-political] skill is 0, discard it. <i>(Do not discard if its skill is a dash.)</i>",
+    "illustrator": "Eli Ring",
+    "name": "Castigated",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Condition",
       "Imperial"
     ],
-    "text": "Play only during a [pol] conflict, only on a participating character, and only if you control an Imperial character.\nIf attached character's [pol] skill is 0, discard it. (Do not discard if its skill is a dash.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/shojus-duty-129.jpg"
   },
   {
     "id": "shojus-duty-130",
     "gameId": "l5r-lcg",
     "setId": "shojus-duty",
     "publisherId": "ffg",
-    "name": "Know the Terrain",
     "type": "Event",
+    "text": "<b>Interrupt:</b> When an attack is declared against a non-stronghold facedown province you control, before revealing that province - switch it with another facedown non-stronghold province you control.",
+    "illustrator": "Shen Fei",
+    "name": "Know the Terrain",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Interrupt: When an attack is declared against a non-stronghold facedown province you control, before revealing that province – switch it with another facedown non-stronghold province you control.",
-    "unverified": true
+    "cost": 1,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/shojus-duty-130.jpg"
   }
 ]

@@ -4,421 +4,685 @@
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Kyūden Bayushi",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Action:</b> Bow this stronghold and choose a dishonored character you control – ready that character. If you have 6 or fewer honor, that character gets +1[conflict-military] and +1[conflict-political] until the end of the phase.",
+    "illustrator": "Chris Ostrowski",
+    "name": "Kyūden Bayushi",
     "clan": "Scorpion",
+    "honor": 9,
+    "fate": 7,
+    "influencePool": 9,
     "traits": [
       "Palace"
     ],
-    "text": "Action: Bow this stronghold and choose a dishonored character you control – ready that character. If you have 6 or fewer honor, that character gets +1[mil] and +1[pol] until the end of the phase.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Card",
+        "text": "Kyuden Bayushi can be triggered to give a ready, dishonored character +1/+1 (the bonus is not dependent on readying)."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-001.jpg"
   },
   {
     "id": "underhand-of-the-emperor-002",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Brother's Gift Dōjō",
     "type": "Province",
+    "unique": true,
+    "text": "<b>Action:</b> During a conflict, lose 1 honor and choose a participating character you control – move that character home. (Limit twice per round.)",
+    "name": "Brother’s Gift Dōjō",
     "clan": "Scorpion",
+    "strength": 4,
     "traits": [
       "Dōjō"
     ],
-    "text": "Action: During a conflict, lose 1 honor and choose a participating character you control – move that character home. (Limit twice per round.)",
-    "unverified": true
+    "traitsAscii": [
+      "Dojo"
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-002.jpg"
   },
   {
     "id": "underhand-of-the-emperor-003",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Support of the Scorpion",
     "type": "Role",
-    "clan": "Neutral",
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on [clan-scorpion] clan cards.",
+    "name": "Support of the Scorpion",
     "traits": [
       "Scorpion"
     ],
-    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-003.jpg"
   },
   {
     "id": "underhand-of-the-emperor-004",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Alibi Artist",
     "type": "Character",
+    "text": "<b>Action:</b> If you have 6 or fewer honor – look at the top 2 cards of your conflict deck. Put 1 of those cards into your hand and the other on the bottom of your conflict deck.",
+    "flavorText": "\"No, noble Kitsuki-sama. I was having tea with the daimyō’s son at that time.\"",
+    "illustrator": "Jake Murray",
+    "name": "Alibi Artist",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "political": "2",
     "traits": [
       "Courtier",
       "Shinobi"
     ],
-    "text": "Action: If you have 6 or fewer honor – look at the top 2 cards of your conflict deck. Put 1 of those cards into your hand and the other on the bottom of your conflict deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-004.jpg"
   },
   {
     "id": "underhand-of-the-emperor-005",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Shosuro Takao",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While a dishonored character is participating in a conflict – move this character into or out of that conflict.",
+    "flavorText": "Yojiro paused, unsure of how to read the next word. The characters read \"shadow\" and \"form,\" but introduced a paradox. Shadows had no form.",
+    "illustrator": "Asep Ariyanto",
+    "name": "Shosuro Takao",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi",
       "Shadow",
       "Shinobi"
     ],
-    "text": "Action: While a dishonored character is participating in a conflict – move this character into or out of that conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-005.jpg"
   },
   {
     "id": "underhand-of-the-emperor-006",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Insolent Rival",
     "type": "Character",
+    "text": "While the bid on your honor dial is higher than an opponent's, this character gets +2 [conflict-military] and +2 [conflict-political].\n<b>Action:</b> While this character is participating in a conflict, choose a participating character controlled by an opponent – challenge that character to a [conflict-military] duel. Dishonor the loser of the duel.",
+    "illustrator": "Greg Lambrakis",
+    "name": "Insolent Rival",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "While the bid on your honor dial is higher than an opponent's, this character gains +2 [mil] and +2 [pol].\nAction: While this character is participating in a conflict, choose a participating character controlled by an opponent – challenge that character to a [mil] duel. Dishonor the loser of the duel.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-006.jpg"
   },
   {
     "id": "underhand-of-the-emperor-007",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Soshi Aoi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> Lose 1 honor and choose a character you control. Select one – until the end of the phase that character gets +1[conflict-military] and gains the <em>Bushi</em> trait, or until the end of the phase that character gets +1[conflict-political] and gains the <em>Courtier</em> trait.",
+    "flavorText": "\"Are you volunteering to show me how to better portray an old man, Yojiro-san?\"",
+    "illustrator": "Asep Ariyanto",
+    "name": "Soshi Aoi",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Action: Lose 1 honor and choose a personality you control. Select an effect – until the end of the phase that character gets +1 [mil] and the Bushi trait; until the end of the phase that character gains +1 [pol] and the Courtier trait.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-007.jpg"
   },
   {
     "id": "underhand-of-the-emperor-008",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Bayushi Aramoro",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While this character is participating in a [conflict-military] conflict, dishonor this character and choose a participating character controlled by your opponent – until the end of the conflict, that character gets -2[conflict-military] and is discarded if its [conflict-military] skill is 0.",
+    "flavorText": "\"This is for you, Kachiko\"",
+    "illustrator": "Amélie Hutt",
+    "name": "Bayushi Aramoro",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "5",
+    "political": "2",
     "traits": [
       "Bushi",
       "Shinobi"
     ],
-    "text": "Action: While this character is participating in a [mil] conflict, dishonor this character and choose a participating character controlled by your opponent – until the end of the conflict, that character gets -2[mil] and is discarded if its [mil] skill is 0.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Lasting Effects\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#lasting-effects",
+        "text": "\"Discard if military skill is 0\" is a part of the lasting effect that applies until the end of the conflict. If Aramoro's ability doesn't lower the character down to 0 skill immediately, but a subsequent effect during the same conflict does, the character will be discarded.\n\nIf a replacement effect is used to prevent the character from leaving play (e.g. [Reprieve](https://fiveringsdb.com/card/reprieve), [Stand Your Ground](https://fiveringsdb.com/card/stand-your-ground)) but does not concurrently increase its military skill above 0, Aramoro's effect will immediately reapply, and the character will be discarded again.\n\nIf Bayushi Aramoro leaves the conflict after using his ability, the lasting effect will persist regardless."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-008.jpg"
   },
   {
     "id": "underhand-of-the-emperor-009",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Ignoble Enforcers",
     "type": "Character",
+    "text": "<b>Reaction:</b> After you play this character, you may lose up to 3 honor – for each honor you lost by this ability, put 1 fate on this character.",
+    "flavorText": "\"I would trust them with my life. I would not trust them with yours.\"",
+    "illustrator": "Shen Fei",
+    "name": "Ignoble Enforcers",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 1,
+    "military": "4",
+    "political": "4",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After you play this character, you may lose up to 3 honor – for each honor you lost by this ability, put 1 fate in this character.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Play and Put into Play\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#play-and-put-into-play",
+        "text": "You cannot trigger the Reaction on Ignoble Enforcers when you put them into play by card effects. You can only do that when you play them. ('Play' and 'Put into play' are different things.)"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-009.jpg"
   },
   {
     "id": "underhand-of-the-emperor-010",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Bayushi's Whisperers",
     "type": "Character",
     "unique": true,
+    "text": "No attachments.\n<b>Action:</b> During a conflict – look at an opponent’s hand, then name a card. That player cannot play copies of the named card this phase.",
+    "flavorText": "Word traveled fast from city to city: the Emerald Champion was coming to visit.",
+    "illustrator": "Nele Diel",
+    "name": "Bayushi's Whisperers",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 6,
+    "glory": 0,
+    "military": "3",
+    "political": "6",
     "traits": [
       "Informant"
     ],
-    "text": "No attachments.\nAction: During a conflict – look at an opponent's hand, then name a card. That player cannot play copies of the named card this phase.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Card",
+        "text": "You are not limited to naming a card that you see in the opponent's hand.\n\nThe card you name cannot be played, whether from hand (even if drawn later in the phase), discard pile ([Togashi Mitsu](https://fiveringsdb.com/card/togashi-mitsu), [Guidance of the Ancestors](https://fiveringsdb.com/card/guidance-of-the-ancestors) etc.), provinces ([Hidden Moon Dojo](https://fiveringsdb.com/card/hidden-moon-dojo) etc.), or top of the deck ([Artisan Academy](https://fiveringsdb.com/card/artisan-academy) etc.)."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-010.jpg"
   },
   {
     "id": "underhand-of-the-emperor-011",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Court of Deception",
     "type": "Holding",
+    "text": "<b>Action:</b> If you have 6 or fewer honor, choose a dishonored character in you home area – discard that character's status token.",
+    "flavorText": "Where the truth lies.",
+    "illustrator": "Derek D Edgell",
+    "name": "Court of Deception",
     "clan": "Scorpion",
     "deck": "dynasty",
-    "text": "Action: If you have 6 or fewer honor, choose a dishonored character in your home area – discard that character's status token.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-011.jpg"
   },
   {
     "id": "underhand-of-the-emperor-012",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Yasuki Oguri",
     "type": "Character",
     "unique": true,
+    "text": "Covert.\n<b>Reaction:</b> After an opponent plays an event during a conflict in which this character is defending – until the end of the conflict, this character gets +1[conflict-military] and +1[conflict-political]. (Unlimited.)",
+    "illustrator": "Borja Pindado",
+    "name": "Yasuki Oguri",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "Covert.\nReaction: After an opponent plays an event during a conflict in which this character is defending – until the end of the conflict, this character gets +1 [mil] and +1 [pol]. (Unlimited.)",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Reactions\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#reactions",
+        "text": "The Reaction on Yasuki Oguri can be triggered an Unlimited number of times per round, but only once per event played.\n\n*A reaction with a specified limit that enables it to be triggered more than once per round may only be initiated once each time its specified triggering condition occurs.*"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-012.jpg"
   },
   {
     "id": "underhand-of-the-emperor-013",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Kitsuki Shomon",
     "type": "Character",
     "unique": true,
+    "text": "<b>Interrupt:</b> When another character you control would be dishonored – instead, dishonor this character. Then, ready this character.",
+    "flavorText": "\"Governor Hyobu, on my honor, I shall share the fate of any student who uses my teachings to transgress.\"",
+    "illustrator": "Drew Baker",
+    "name": "Kitsuki Shomon",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "Interrupt: When another character you control would be dishonored – instead, dishonor this character. If you do, ready this character.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-kitsuki-shomon/",
+        "text": "Kitsuki Shomon cannot trigger her ability to ready if she is already dishonored. \n\nShe is not able to redirect the dishonor to herself, as it is not a valid game state change, and thus the pre-Then text will not be fulfilled."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-013.jpg"
   },
   {
     "id": "underhand-of-the-emperor-014",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Akodo Kage",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After honor dials are revealed for an honor bid, if your bid is lower than an opponent's and you are more honorable than that opponent – set that opponent's honor dial to be equal to yours.",
+    "flavorText": "\"Thank you, sensei. Your wisdom has again guided me to the right path.\" - Akodo Toturi",
+    "illustrator": "Agri Karuniawan",
+    "name": "Akodo Kage",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "2",
+    "political": "4",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After honor dials are revealed for an honor bid, if your bid is lower than an opponent's and you are more honorable than that opponent – set that opponent's honor dial to be equal to yours.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"2.3 or D4 Reveal honor dials\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#2-3-reveal-honor-dials",
+        "text": "Akodo Kage changes the actual dial (note that he doesn’t refer to “the value of the bid” like [Contingency Plan](https://fiveringsdb.com/card/contingency-plan)). \n\nWhen resolving dial reveals, you reference the bid on your dial and then apply modifiers to the value."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-014.jpg"
   },
   {
     "id": "underhand-of-the-emperor-015",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Asako Maezawa",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While this character is participating in a conflict, if you count more current glory than your opponent among ready participating characters, choose a participating character – double that character’s base [conflict-political] until the end of the conflict.",
+    "flavorText": "\"We all have our roles to play, Tsukune-sama.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Asako Maezawa",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: While this character is participating in a conflict, if you count more current glory than your opponent among ready participating characters, choose a participating character – double that character's base [pol] until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-015.jpg"
   },
   {
     "id": "underhand-of-the-emperor-016",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Utaku Tetsuko",
     "type": "Character",
     "unique": true,
+    "text": "While this character is attacking, increase the cost for your opponent to play cards from his or her hand by 1.",
+    "flavorText": "Not even her own sons were immune to her judgment. Morito and Tokei now wander Rokugan as mercenaries for daring to break Utaku law.",
+    "illustrator": "Andreia Ugrai",
+    "name": "Utaku Tetsuko",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi",
       "Cavalry",
       "Imperial",
       "Magistrate"
     ],
-    "text": "While this character is attacking, increase the cost for your opponent to play cards from his or her hand by 1.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-utaku-tetsuko/",
+        "text": "Utaku Tetsuko increases the cost of opponent's cards that are played \"as if it were in your hand\" ([Artisan Academy](https://fiveringsdb.com/card/artisan-academy), [Hidden Moon Dojo](https://fiveringsdb.com/card/hidden-moon-dojo), etc)."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-016.jpg"
   },
   {
     "id": "underhand-of-the-emperor-017",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Seppun Truthseeker",
     "type": "Character",
+    "text": "<b>Forced Interrupt:</b> When this character leaves play – each player draws 2 cards.",
+    "flavorText": "\"The number of Scorpions in our Emperor’s counsel concerns me. I am certain they do not operate without an agenda.\"",
+    "illustrator": "Shen Fei",
+    "name": "Seppun Truthseeker",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Courtier",
       "Imperial"
     ],
-    "text": "Forced Interrupt: When this character leaves play – each player draws 2 cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-017.jpg"
   },
   {
     "id": "underhand-of-the-emperor-018",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Opium Wastrel",
     "type": "Character",
+    "text": "Play only if you are less honorable than an opponent.\n<b>Reaction:</b> After this character enters play during a conflict, choose a participating character – set that character’s glory to 0 until the end of the conflict.",
+    "illustrator": "Borja Pindado",
+    "name": "Opium Wastrel",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 0,
+    "influence": 2,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Peasant"
     ],
-    "text": "Play only if you are less honorable than an opponent.\nReaction: After this character enters play during a conflict, choose a participating character – set that character's glory to 0 until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-018.jpg"
   },
   {
     "id": "underhand-of-the-emperor-019",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Bayushi Collector",
     "type": "Character",
+    "text": "<b>Action:</b> Choose an attachment attached to a dishonored character – discard both that attachment and that character’s status token.",
+    "flavorText": "\"Your gift to my family is most appreciated.\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Bayushi Collector",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: Choose an attachment attached to a dishonored character – discard both that attachment and that character's status token.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-019.jpg"
   },
   {
     "id": "underhand-of-the-emperor-020",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Liar's Mask",
     "type": "Attachment",
+    "text": "Play only if your have 6 or fewer honor.\n<b>Action:</b> Discard a status token from attached character.",
+    "flavorText": "\"The face is the first traitor.\" – Bayushi’s Lies",
+    "illustrator": "IFS",
+    "name": "Liar's Mask",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Item",
       "Mask"
     ],
-    "text": "Play only if you have 6 or fewer honor.\nAction: Discard a status token from attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-020.jpg"
   },
   {
     "id": "underhand-of-the-emperor-021",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Stolen Breath",
     "type": "Attachment",
+    "text": "This attachment cannot be played during a conflict.\nAttached character cannot participate in [conflict-political] conflicts.",
+    "flavorText": "\"You truly have nothing to say on the matter?\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Stolen Breath",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Poison"
     ],
-    "text": "This attachment cannot be played during a conflict.\nAttached character cannot participate in [pol] conflicts.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Participating and Cannot Participate\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#participating-and-cannot-participate",
+        "text": "If attached character somehow ends up participating in a political conflict, it immediately goes home bowed."
+      },
+      {
+        "source": "RRG \"Phase Sequence Timing Chart\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#phase-sequence-timing-chart",
+        "text": "Stolen Breath can be played during the action window before a conflict (between steps 3.1 and 3.2), or during action windows in Draw, Fate, or Regroup phases."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-021.jpg"
   },
   {
     "id": "underhand-of-the-emperor-022",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Duty",
     "type": "Event",
+    "text": "Limit 1 per deck.\n<b>Interrupt:</b> When the effect of a card ability, ring effect, or framework step would cause you to lose your last honor – cancel that effect, then gain 1 honor.",
+    "flavorText": "\"I will be your villain, Hantei.\" - Bayushi",
+    "illustrator": "B.D. Judkins",
+    "name": "Duty",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 0,
     "traits": [
       "Philosophy"
     ],
-    "text": "Limit 1 per deck.\nInterrupt: When the effect of a card ability, ring effect, or framework step would cause you to lose your last honor – cancel that effect, then gain 1 honor.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Drawing cards\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#drawing-cards",
+        "text": "If Duty is in the bottom X cards of your Conflict deck, and you draw X+1 cards, you cannot use Duty to cancel the honor loss for reshuffling your deck after running out of cards. \nAll X cards are drawn simultaneously, and the shuffling of your discard pile will occur before you finish drawing those cards."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39780-ruling-duty/",
+        "text": "- Duty cancels the initiation of any effect that makes you lose honor. It cannot cancel costs though (e.g. [Assassination](https://fiveringsdb.com/card/assassination)).\n\n- If you play Duty to cancel honor loss from [Backhanded Compliment](https://fiveringsdb.com/card/backhanded-compliment), you still get to draw a card.\n\n- If you play Duty to cancel honor loss from resolving [Banzai!](https://fiveringsdb.com/card/banzai) twice, the second resolution is prevented.\n\n- If you play Duty to cancel honor transfer (from an honor bid, the Air ring effect, or [Levy](https://fiveringsdb.com/card/levy)), both honor loss and honor gain are prevented.\n\n- If you play Duty to cancel the honor loss from running out of cards, you place it in the discard pile first, then shuffle and draw a card / refill a province."
+      },
+      {
+        "source": "RRG \"2. Draw Phase\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#2-draw-phase",
+        "text": "If your honor bid is higher during the Draw Phase, you cannot play Duty if it was among the cards you draw. The honor loss, as part of the honor transfer, occurs in Step 2.4, and cards are drawn in Step 2.5"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-022.jpg"
   },
   {
     "id": "underhand-of-the-emperor-023",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "From the Shadows",
     "type": "Event",
+    "text": "Play only if you are less honorable than an opponent.\n<b>Action:</b> During a conflict – put a <em>Shinobi</em> character into play from your hand or provinces in the conflict. That character enters play dishonored.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "From the Shadows",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Play only if you are less honorable than an opponent.\nAction: During a conflict – put a Shinobi character into play from your hand or provinces in the conflict. That character enters play dishonored.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "rulings": [
+      {
+        "source": "RRG \"Play and Put into Play\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#play-and-put-into-play",
+        "text": "From the Shadows puts a character into play, rather than playing it.\n\nAs such, you do not have to pay fate for the character, and you cannot add additional fate to the character. This is the same whether the character comes from a province or your hand."
+      },
+      {
+        "source": "RRG \"Personal Honor, Personal Dishonor\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#personal-honor-personal-dishonor",
+        "text": "The Shinobi enters play dishonored. There is no interaction with cards like [Young Rumormonger](https://fiveringsdb.com/card/young-rumormonger) or [Steward of Law](https://fiveringsdb.com/card/steward-of-law), as there is no transition from ordinary status to dishonored status."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-023.jpg"
   },
   {
     "id": "underhand-of-the-emperor-024",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Make an Opening",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict in which you control a participating character, choose a participating character controlled by your opponent – that character gets –X[conflict-military] and –X[conflict-political] until the end of the conflict, where X is the difference between the bid on your honor dial and that of your opponent.",
+    "illustrator": "Adam Schumpert",
+    "name": "Make an Opening",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Action: During a conflict in which you control a participating character, choose a participating character controlled by your opponent – that character gets -X[mil] and -X[pol] until the end of the conflict, where X is the difference between the bid on your honor dial and that of your opponent.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "rulings": [
+      {
+        "source": "Developer Ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-make-an-opening/",
+        "text": "Regardless of which honor bid belongs to which player, the difference between the two (\"X\") will be a positive (absolute) value.\nTherefore, Make an Opening will always apply a negative skill modifier."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-024.jpg"
   },
   {
     "id": "underhand-of-the-emperor-025",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Stolen Secrets",
     "type": "Event",
+    "text": "<b>Action:</b>  During a [conflict-political] conflict, remove 1 fate from a <i>(friendly)</i> participating character – search the top 4 cards of your opponent’s conflict deck for a card, remove it from the game facedown, and put the other cards back on top in any order. While removed from the game, you may play that card as if it were in your hand.",
+    "illustrator": "Tony Foti",
+    "name": "Stolen Secrets",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict, remove 1 fate from a (friendly) participating character – search the top 4 cards of your opponent's conflict deck for a card, remove it from the game facedown, and put the other cards back on top in any order. While removed from the game, you may play that card as if it were in your hand.",
-    "unverified": true
+    "cost": 1,
+    "influence": 3,
+    "rulings": [
+      {
+        "source": "Developer Ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-stolen-secrets/",
+        "text": "After being played, the card will not remain removed from the game.\nIt will go to its owner's discard pile (event), or be in play (attachment)."
+      },
+      {
+        "source": "Developer Ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-stolen-secrets/",
+        "text": "You cannot trigger an ability on a card if the ability puts the card into play from hand ([Feral Ningyo](https://fiveringsdb.com/card/feral-ningyo), [Vengeful Oathkeeper](https://fiveringsdb.com/card/vengeful-oathkeeper)], etc.), since the card is not in your hand."
+      },
+      {
+        "source": "Developer Ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-playing-your-opponents-cards-eg-stolen-secrets/",
+        "text": "If you play an opponent's card using Stolen Secrets, you control the card until a card or game effect changes that."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-025.jpg"
   },
   {
     "id": "underhand-of-the-emperor-026",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Doji Fumiki",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose a dishonored participating character – bow that character.",
+    "flavorText": "She would not even deign to look upon her lessers.",
+    "illustrator": "Felipe Gaona",
+    "name": "Doji Fumiki",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 2,
+    "military": "0",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose a dishonored participating character – bow that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-026.jpg"
   },
   {
     "id": "underhand-of-the-emperor-027",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Offer Testimony",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict, you and your opponent each chooses a ready participating character he or she controls – each of those players simultaneously reveals a card from his or her hand. Each player who reveals the lowest cost card bows his or her chosen character.",
+    "illustrator": "Lin Hsiang",
+    "name": "Offer Testimony",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict, you and your opponent each chooses a ready participating character he or she controls – each of those players simultaneously reveals a card from his or her hand. Each player who reveals the lowest cost card bows his or her chosen character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "rulings": [
+      {
+        "source": "Card",
+        "text": "If both players reveal a card with the same cost, both characters will bow. ('Each player' indicates multiple players can be affected)"
+      },
+      {
+        "source": "Developer Ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-offer-testimony/",
+        "text": "If one player has no cards in hand (after Offer Testimony is played), their opponent will reveal the card with the lowest cost, and will bow their character."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-027.jpg"
   },
   {
     "id": "underhand-of-the-emperor-028",
     "gameId": "l5r-lcg",
     "setId": "underhand-of-the-emperor",
     "publisherId": "ffg",
-    "name": "Peasant's Advice",
     "type": "Event",
+    "text": "<b>Action:</b> During the conflict phase, dishonor a <i>(friendly)</i> character and choose a province – look at that province if it is facedown. You may shuffle a faceup card in that province into its owner’s dynasty deck.",
+    "illustrator": "Derek D Edgell",
+    "name": "Peasant's Advice",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During the conflict phase, dishonor a (friendly) character and choose a province – look at that province if it is facedown. You may shuffle a faceup card in that province into its owner's dynasty deck.",
-    "unverified": true
+    "cost": 1,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-028.jpg"
   }
 ]

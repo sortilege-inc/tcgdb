@@ -1,0 +1,10 @@
+{
+  "id": "through-the-mists",
+  "gameId": "l5r-lcg",
+  "publisherId": "ffg",
+  "name": "Through The Mists",
+  "type": "premium",
+  "status": "released",
+  "cardCount": 50,
+  "notes": "Stubbed during EmeraldDB merge — verify type/cycle/releaseDate."
+}

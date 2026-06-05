@@ -4,335 +4,454 @@
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "The Eternal Watch",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at this province, choose an attacking character. Your opponent selects one - either bow that character or they give you 1 honor.",
+    "illustrator": "Piotr Arendzikowski",
+    "name": "The Eternal Watch",
     "clan": "Crab",
-    "text": "Action: During a conflict at this province, choose an attacking character. Your opponent selects one – either bow that character or they give you 1 honor.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-045.jpg"
   },
   {
     "id": "a-crimson-offering-046",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Seeking Enlightenment",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed – your opponent loses X fate, where X is the number of attacking characters.",
+    "flavorText": "\"The path to enlightenment is one that must be walked alone.\" - Togashi Hassuno",
+    "illustrator": "Imad Awan",
+    "name": "Seeking Enlightenment",
     "clan": "Dragon",
-    "text": "Reaction: After this province is revealed – your opponent loses X fate, where X is the number of attacking characters.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-046.jpg"
   },
   {
     "id": "a-crimson-offering-047",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "By Onnotangu's Light",
     "type": "Province",
+    "text": "During conflicts at this province, each character in play is considered to have no fate on it, and fate tokens cannot be moved or removed from those characters.",
+    "flavorText": "A single night can change the course of history",
+    "illustrator": "Borja Pindado",
+    "name": "By Onnotangu's Light",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "City"
     ],
-    "text": "During conflicts at this province, each character in play is considered to have no fate on it, and fate tokens cannot be moved or removed from those characters.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-047.jpg"
   },
   {
     "id": "a-crimson-offering-048",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Damned Hida",
     "type": "Character",
+    "text": "Dire - This character gets +3[conflict-military]. <i>(This character is dire when it has no fate on it.)</i>",
+    "flavorText": "\"While my honor cannot be redeemed, my service can still be fulfilled\"",
+    "illustrator": "Carlos Diaz",
+    "name": "Damned Hida",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "3",
     "traits": [
       "Bushi",
       "Berserker",
       "Shadowlands"
     ],
-    "text": "Dire – This character gets +3[mil]. (This character is dire when it has no fate on it.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-048.jpg"
   },
   {
     "id": "a-crimson-offering-049",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Desperate Negotiator",
     "type": "Character",
+    "text": "Dire - This character gets +2[conflict-military] and +2[conflict-political]. <i>(This character is dire when it has no fate on it.)</i>",
+    "flavorText": "With the capital in chaos, any hope that the violence throughout Rokugan could be brought to an end faded into memory.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Desperate Negotiator",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Dire – This character gets +2[mil] and +2[pol]. (This character is dire when it has no fate on it.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-049.jpg"
   },
   {
     "id": "a-crimson-offering-050",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Togashi Kazue",
     "type": "Character",
     "unique": true,
+    "text": "Each character you control gains: \"Dire - You may trigger each of this character's triggered abilities an additional time each round (or specified period).\"",
+    "flavorText": "The Empire is fast approaching a time where both madness and enlightenment will be needed.",
+    "illustrator": "Borja Pindado",
+    "name": "Togashi Kazue",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Each character you control gains: \"Dire – You may trigger each of this character's triggered abilities an additional time each round (or specified period).\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-050.jpg"
   },
   {
     "id": "a-crimson-offering-051",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Lion's Pride Paragon",
     "type": "Character",
+    "text": "Dire - This character does not bow as the result of conflict resolution. <i>(This character is dire when it has no fate on it.)</i>",
+    "flavorText": "\"I shall not stop fighting until the honor of the Lion has been avenged.\"",
+    "illustrator": "Stormbrush",
+    "name": "Lion's Pride Paragon",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 3,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Dire – This character does not bow as a result of conflict resolution. (This character is dire when it has no fate on it.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-051.jpg"
   },
   {
     "id": "a-crimson-offering-052",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Forward Garrison",
     "type": "Holding",
+    "text": "While there is a <em>Battlefield</em> in play, fate cannot be removed from characters you control by opponents' card or ring effects.",
+    "name": "Forward Garrison",
     "clan": "Lion",
     "deck": "dynasty",
     "traits": [
       "Castle"
     ],
-    "text": "While there is a Battlefield in play, fate cannot be removed from characters you control by opponents' card or ring effects.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-052.jpg"
   },
   {
     "id": "a-crimson-offering-053",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Kaito Mai",
     "type": "Character",
     "unique": true,
+    "text": "Dire - This character gets +3 glory.\n<b>Reaction:</b> After 1 or more fate is removed from this character outside the fate phase, choose another character - remove 1 fate from that character.",
+    "flavorText": "\"I cannot abandon even a kansen to endless suffering.\"",
+    "illustrator": "Marius Bota",
+    "name": "Kaito Mai",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk"
     ],
-    "text": "Dire – This character gets +3 glory.\nReaction: After 1 or more fate is removed from this character outside the fate phase, choose another character – remove 1 fate from that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-053.jpg"
   },
   {
     "id": "a-crimson-offering-054",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Yogo Paramour",
     "type": "Character",
+    "text": "Dire - This character gains: \"<b>Action:</b> Bow this character. Choose another character - dishonor that character.\" <i>(This character is dire when it has no fate on it.)</i>",
+    "illustrator": "Drazenka Kimpel",
+    "name": "Yogo Paramour",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Dire – This character gains: \"Action: Bow this character. Choose another character – dishonor that character.\". (This character is dire when it has no fate on it.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-054.jpg"
   },
   {
     "id": "a-crimson-offering-055",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Shadowed Village",
     "type": "Holding",
-    "clan": "Neutral",
+    "text": "<b>Reaction:</b> After 1 or more fate is removed from a character you control outside the fate phase - draw 1 card (draw 2 cards instead if that character is dishonored).",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Shadowed Village",
+    "clan": "Scorpion",
     "deck": "dynasty",
     "traits": [
       "Village"
     ],
-    "text": "Reaction: After 1 or more fate is removed from a character you control outside the fate phase – draw 1 card (draw 2 cards instead if that character is dishonored)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-055.jpg"
   },
   {
     "id": "a-crimson-offering-056",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Iuchi Shahai",
     "type": "Character",
     "unique": true,
+    "text": "While you are the first player, this character gains covert.\n<b>Reaction:</b> After you play a <em>Meishōdō</em> or <em>Mahō</em> card, lose 1 honor - place 1 fate on this character.",
+    "flavorText": "\"I can help you, my prince, if you will allow me.\"",
+    "illustrator": "Apterus",
+    "name": "Iuchi Shahai",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "2",
+    "political": "4",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "While you are the first player, this character gains covert.\nReaction: After you play a Meishōdō or Mahō card, lose 1 honor – place 1 fate on this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-056.jpg"
   },
   {
     "id": "a-crimson-offering-057",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Resourceful Mahō-Tsukai",
     "type": "Character",
+    "text": "No attachments except <em>Shadowlands</em> or <em>Spell</em>.\nWhile this character is dishonored, reduce the cost to play each <em>Mahō</em> card you play by 1 <i>(to a minimum of 0)</i>.",
+    "illustrator": "Peter Polach",
+    "name": "Resourceful Mahō-Tsukai",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Shadowlands"
     ],
-    "text": "No attachments except Shadowlands or Spell.\nWhile this character is dishonored, reduce the cost to play each Mahō card you play by 1 (to a minimum of 0).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-057.jpg"
   },
   {
     "id": "a-crimson-offering-058",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Tetsubō of Blood",
     "type": "Attachment",
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\nLimited. Restricted.\nAttached character cannot be honored.",
+    "illustrator": "Piotr Arendzikowski",
+    "name": "Tetsubō of Blood",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+4",
+    "politicalBonus": "+0",
     "traits": [
       "Mahō",
       "Spell",
       "Earth",
       "Weapon"
     ],
-    "text": "This card's fate cost can only be paid for with fate on characters you control.\nLimited. Restricted.\nAttached character cannot be honored.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Earth",
+      "Weapon"
+    ],
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-058.jpg"
   },
   {
     "id": "a-crimson-offering-059",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Disparaging Challenge",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, initiate a [conflict-political] duel against a character your opponent controls in their home area - resolve the duel. Move the duel's loser to the conflict, if able. Otherwise, move it home.",
+    "illustrator": "Andreia Ugrai",
+    "name": "Disparaging Challenge",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Action: During a conflict, initiate a [pol] duel against a character your opponent controls in their home area – resolve the duel. Move the duel's loser to the conflict, if able. Otherwise, move it home.",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-059.jpg"
   },
   {
     "id": "a-crimson-offering-060",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Ki Alignment",
     "type": "Event",
+    "text": "<b>Reaction:</b> After you declare a <em>Monk</em> character as an attacker or defender - search the top 8 cards of your conflict deck for up to 2 <em>Kihō</em> cards with different names, reveal them, and add them to your hand. Shuffle.",
+    "illustrator": "Joshua Cairos",
+    "name": "Ki Alignment",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Kihō",
       "Void"
     ],
-    "text": "Reaction: After you declare a Monk character as an attacker or defender – search the top 8 cards of your conflict deck for up to 2 Kihō cards with different names, reveal them, and add them to your hand. Shuffle.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Void"
+    ],
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-060.jpg"
   },
   {
     "id": "a-crimson-offering-061",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Feeding An Army",
     "type": "Event",
+    "text": "<b>Air</b> Role only.\n<b>Reaction:</b> After the conflict phase begins, break a faceup <i>(friendly)</i> province - place 1 fate on each character you control with printed cost 3 or lower.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Feeding An Army",
+    "nameAscii": "Feeding an Army",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Air role only.\nReaction: After the conflict phase begins, break a faceup (friendly) province – place 1 fate on each character you control with printed cost 3 or lower.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-061.jpg"
   },
   {
     "id": "a-crimson-offering-062",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "In Harmony",
     "type": "Attachment",
+    "text": "Play only if you have at least 1 ring in your claimed ring pool.\nAncestral.\nFate on attached character cannot be removed by card or ring effects.",
+    "illustrator": "Mauro Dal Bo",
+    "name": "In Harmony",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Condition"
     ],
-    "text": "Play only if you have at least 1 ring in your claimed ring pool.\nAncestral.\nFate on attached character cannot be removed by card or ring effects.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-062.jpg"
   },
   {
     "id": "a-crimson-offering-063",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Sanguine Mastery",
     "type": "Event",
+    "text": "<em>Fire</em> role only.\nThis card's fate cost can only be paid for with fate on characters you control.\n<b>Action:</b> Dishonor a <i>(friendly)</i> character. Choose up to X attachments, where X is the dishonored character's glory - discard each of those attachments.",
+    "illustrator": "Carlos Diaz",
+    "name": "Sanguine Mastery",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Mahō",
       "Spell",
       "Fire"
     ],
-    "text": "Fire role only.\nThis card's fate cost can only be paid for with fate on characters you control.\nAction: Dishonor a (friendly) character. Choose up to X attachments, where X is the dishonored character's glory – discard each of those attachments.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Fire"
+    ],
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-063.jpg"
   },
   {
     "id": "a-crimson-offering-064",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Seize the Mind",
     "type": "Event",
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\n<b>Action:</b> During a conflict, choose a non-unique character - take control of that character until the end of the conflict. You lose honor equal to the amount of fate on that character.",
+    "illustrator": "Jorge Matar",
+    "name": "Seize the Mind",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 3,
+    "influence": 2,
     "traits": [
       "Mahō",
       "Spell",
       "Air"
     ],
-    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAction: During a conflict, choose a non-unique character – take control of that character until the end of the conflict. You lose honor equal to the amount of fate on that character.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Air"
+    ],
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-064.jpg"
   },
   {
     "id": "a-crimson-offering-065",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Command the Tributary",
     "type": "Attachment",
+    "text": "Attached character gains \"<b>Action:</b> Choose another character - move 1 fate from this character to the chosen character.\"",
+    "flavorText": "\"Should you invoke the spirit's Name, you shall divert the path of its destiny.\" Iuchi Daiyu",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Command the Tributary",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 3,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Spell",
       "Water",
       "Meishōdō"
     ],
-    "text": "Attached character gains: \"Action: Choose another character – move 1 fate from this character to the chosen character.\"",
-    "unverified": true
+    "traitsAscii": [
+      "Spell",
+      "Water",
+      "Meishodo"
+    ],
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-065.jpg"
   },
   {
     "id": "a-crimson-offering-066",
     "gameId": "l5r-lcg",
     "setId": "a-crimson-offering",
     "publisherId": "ffg",
-    "name": "Bonds of Blood (card)",
     "type": "Event",
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\n<b>Action:</b> During a conflict dishonor a <i>(friendly)</i> participating character. Choose a character - move both the dishonored character and the chosen character home.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Bonds of Blood",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
     "traits": [
       "Mahō",
       "Spell",
       "Water"
     ],
-    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAction: During a conflict, dishonor a (friendly) participating character. Choose a character – move both the dishonored character and the chosen character home.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Water"
+    ],
+    "imagePath": "/cards/l5r-lcg/a-crimson-offering-066.jpg"
   }
 ]

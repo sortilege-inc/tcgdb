@@ -21,16 +21,22 @@
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Akuma no Oni",
     "type": "Warlord",
     "unique": true,
+    "text": "Corrupted. No non-[clan-shadowlands] attachments.\n<b>Action:</b> Choose a character. Its controller selects one - either remove all fate from that character or you may declare an additional [conflict-military] conflict this phase.",
+    "illustrator": "Calvin Chua",
+    "name": "Akuma no Oni",
     "clan": "Shadowlands",
+    "cost": 5,
+    "glory": 0,
+    "fate": 5,
+    "military": "7",
+    "political": "2",
     "traits": [
       "Oni",
       "Champion"
     ],
-    "text": "Corrupted. No non-[shadow] attachments.\nAction: Choose a character. Its controller selects one – either remove all fate from that character or you may declare an additional [mil] conflict this phase.",
-    "unverified": true,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-001b.jpg",
     "flipSideOf": "under-fu-lengs-shadow-001a"
   },
   {
@@ -55,16 +61,22 @@
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "The Obsidian Flower",
     "type": "Warlord",
     "unique": true,
+    "text": "Corrupted. No non-[clan-shadowlands] attachments.\n<b>Action:</b> Choose a tainted character an opponent controls. Its controller selects one - either each opponent loses 2 honor, or you gain control of the chosen character and it gains a [clan-shadowlands] clan symbol.",
+    "illustrator": "Apterus",
+    "name": "The Obsidian Flower",
     "clan": "Shadowlands",
+    "cost": 5,
+    "glory": 0,
+    "fate": 5,
+    "military": "4",
+    "political": "4",
     "traits": [
       "Oni",
       "Champion"
     ],
-    "text": "Corrupted. No non-[shadow] attachments.\nAction: Choose a tainted character an opponent controls. Its controller selects one – either each opponent loses 2 honor, or you gain control of the chosen character and it gains a [shadow] clan symbol.",
-    "unverified": true,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-002b.jpg",
     "flipSideOf": "under-fu-lengs-shadow-002a"
   },
   {
@@ -89,16 +101,22 @@
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Atsuko the Calamitous",
     "type": "Warlord",
     "unique": true,
+    "text": "Corrupted. No non-[clan-shadowlands] attachments.\n<b>Reaction:</b> Choose an opponent to select one - either that player sacrifices a character, or you play a character from your dynasty discard pile as if it were in your hand, reducing its cost by 2.",
+    "illustrator": "Diego Gisbert Llorens",
+    "name": "Atsuko the Calamitous",
     "clan": "Shadowlands",
+    "cost": 5,
+    "glory": 0,
+    "fate": 5,
+    "military": "2",
+    "political": "7",
     "traits": [
       "Oni",
       "Champion"
     ],
-    "text": "Corrupted. No non-[shadow] attachments.\nReaction: Choose an opponent to select one – either that player sacrifices a character, or you play a character from your dynasty discard pile as if it were in your hand, reducing its cost by 2.",
-    "unverified": true,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-003b.jpg",
     "flipSideOf": "under-fu-lengs-shadow-003a"
   },
   {
@@ -106,1701 +124,2192 @@
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Blood Fields",
     "type": "Province",
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province - remove 1 fate from each attacking character.",
+    "illustrator": "David Frasheski",
+    "name": "Blood Fields",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province – remove 1 fate from each attacking character.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-004.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-005",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Defiled Cavern",
     "type": "Province",
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province - place 2 (per opponent) random characters in your dynasty discard pile on the bottom of your dynasty deck.",
+    "illustrator": "Apterus",
+    "name": "Defiled Cavern",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province – place 2 (per opponent) random characters in your dynasty discard pile on the bottom of your dynasty deck.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-005.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-006",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Fallen Chrysanthemum Lake",
     "type": "Province",
     "unique": true,
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province - each opponent discards their hand and draws that many cards.",
+    "illustrator": "John Anthony Di Giovanni",
+    "name": "Fallen Chrysanthemum Lake",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province – each opponent discards their hand and draws that many cards.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-006.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-007",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "False Lantern Grove",
     "type": "Province",
     "unique": true,
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province, choose an unclaimed ring - resolve the contested ring's effect and claim it. The chosen ring is now the constested ring.",
+    "illustrator": "Brian Valenzuela",
+    "name": "False Lantern Grove",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province, choose an unclaimed ring – resolve the contested ring's effect and claim it. The chosen ring is now the contested ring.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-007.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-008",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Forgotten Tomb of Fu Leng",
     "type": "Province",
     "unique": true,
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province, choose a character in your dynasty discard pile - put that character into play in the conflict as a defender. Place 1 (per opponent) fate on it",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Forgotten Tomb of Fu Leng",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province, choose a character in your dynasty discard pile – put that character into play in the conflict as a defender. Place 1 (per opponent) fate on it.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-008.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-009",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Garden of Corruption",
     "type": "Province",
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province - dishonor each attacking tainted character, then taint each attacking character.",
+    "illustrator": "Nele Diel",
+    "name": "Garden of Corruption",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province – dishonor each attacking tainted character, then taint each attacking character.",
-    "unverified": true
+    "strength": 6,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-009.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-010",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Haunted Jungles",
     "type": "Province",
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province, choose up to 1 (per opponent) characters in your provinces - put those characters into play in the conflict as defenders.",
+    "illustrator": "Max Degen",
+    "name": "Haunted Jungles",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province, choose up to 1 (per opponent) characters in your provinces – put those characters into play in the conflict as defenders.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-010.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-011",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Maddening Emptiness",
     "type": "Province",
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province, choose up to 1 attacking character by controlled by each opponent - bow each chosen character.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Maddening Emptiness",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province, choose up to 1 attacking character controlled by each opponent – bow each chosen character.",
-    "unverified": true
+    "strength": 2,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-011.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-012",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Sea of Shadows",
     "type": "Province",
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province, choose up to 1 ready character in each opponent's home - move each of those characters to the conflict.",
+    "illustrator": "David Frasheski",
+    "name": "Sea of Shadows",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province, choose up to 1 ready character in each opponent's home – move each of those characters to the conflict.",
-    "unverified": true
+    "strength": 7,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-012.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-013",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Spectral Watchtower",
     "type": "Province",
+    "text": "<b>Reaction:</b>  After a conflict is declared against this province - take 1 fate from each opponent.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Spectral Watchtower",
     "clan": "Shadowlands",
-    "text": "Reaction: After a conflict is declared against this province – take 1 fate from each opponent.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-013.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-014",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Goblin Brawler",
     "type": "Character",
+    "text": "—",
+    "flavorText": "Akuma no Oni's army outfitted itself with the weapons and armor scavanged from fallen samurai.",
+    "illustrator": "Paolo Puggioni",
+    "name": "Goblin Brawler",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Goblin"
     ],
-    "text": "—",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-014.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-015",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Fouleye's Elite",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict, choose a character an oppontn controls with equal or lower [conflict-military] skill than this character - bow the chosen character.",
+    "flavorText": "\"I'd be more worried about those teeth than that blade.\" - Hiruma Kogoe",
+    "illustrator": "Conceptopolis",
+    "name": "Fouleye's Elite",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Goblin"
     ],
-    "text": "Reaction: After this character wins a conflict, choose a character an opponent controls with equal or lower [mil] skill than this character – bow the chosen character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-015.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-016",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Goblin Hovel",
     "type": "Holding",
+    "text": "<b>Interrupt:</b> When the conflict phase ends, choose up to 3 different [clan-shadowlands] <em>Goblin</em> characters - move 1 fate from your fate pool to each chosen character.",
+    "illustrator": "Apterus",
+    "name": "Goblin Hovel",
     "clan": "Shadowlands",
     "deck": "dynasty",
-    "text": "Interrupt: When the conflict phase ends, choose up to 3 different [shadow] Goblin characters – move 1 fate from your fate pool to each chosen character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-016.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-017",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Detritus Priest",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After a <em>Goblin</em> you control wins a conflict, remove 1 fate from it - resolve the contested ring's effect. (Limit twice per round.)",
+    "illustrator": "Paolo Puggioni",
+    "name": "Detritus Priest",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "4",
+    "political": "7",
     "traits": [
       "Shugenja",
       "Fire",
       "Goblin"
     ],
-    "text": "Reaction: After a Goblin you control wins a conflict, remove 1 fate from it – resolve the contested ring's effect. (Limit twice per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-017.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-018",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Chieftain Fouleye",
     "type": "Character",
     "unique": true,
+    "text": "Reduce the cost to play each [clan-shadowlands] <em>Goblin</em> by 1.\nEach other [clan-shadowlands] <em>Goblin</em> gets +2[conflict-political]",
+    "flavorText": "\"Great gift. Lord accepts. You eat well tonight.\"",
+    "illustrator": "Borja Pindado",
+    "name": "Chieftain Fouleye",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 1,
+    "military": "7",
+    "political": "4",
     "traits": [
       "Bushi",
       "Goblin"
     ],
-    "text": "Reduce the cost to play each [shadow] Goblin by 1.\nEach other [shadow] Goblin gets +2[pol].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-018.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-019",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Skeletal Warrior",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>",
+    "illustrator": "Diego Gisbert Llorens",
+    "name": "Skeletal Warrior",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "2",
     "traits": [
       "Undead"
     ],
-    "text": "Corrupted. (This character enters play tainted.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-019.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-020",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Endless Ranks",
     "type": "Character",
+    "text": "Corrupted. No attachments except <em>Weapon</em>.\n<b>Reaction:</b> After this character wins a conflict, choose a character in your dynasty discard pile - put that character on top of your dynasty deck.",
+    "flavorText": "Each death beyond the Wall is in service to Fu Leng.",
+    "name": "Endless Ranks",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "4",
     "traits": [
       "Undead",
       "Army"
     ],
-    "text": "Corrupted. No attachments except Weapon.\nReaction: After this character wins a conflict, choose a character in your dynasty discard pile - put that character on top of your dynasty deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-020.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-021",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Killing Field",
     "type": "Holding",
+    "text": "<b>Interrupt:</b> When the conflict phase ends - discard each card from each opponent's provinces.",
+    "flavorText": "\"No kami will ever return to this place now.\" - Isawa Nobu",
+    "illustrator": "Alexander Chelyshev",
+    "name": "Killing Field",
     "clan": "Shadowlands",
     "deck": "dynasty",
     "traits": [
       "Battlefield"
     ],
-    "text": "Interrupt: When the conflict phase ends – discard each card from each opponent's provinces.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-021.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-022",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Undead Horror",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict - attach a random character in each opponent's discard pile to this character as an attachment, treating its printed text box as if it were blank. That card gains the text: \"Add this card's printed [conflict-military] and [conflict-political] skill values to those of attached character.\"",
+    "illustrator": "Helge C. Balzer",
+    "name": "Undead Horror",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Undead"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – attach a random character in each opponent's discard pile to this character as an attachment, treating its printed text box as if it were blank. That card gains the text: \"Add this card's printed [mil] and [pol] skill values to those of attached character.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-022.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-023",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Kitsu Sokori",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After fate is removed from this character, choose a character in an opponent's dynasty discard pile - put that character into play under your control, tainted. It gains the [clan-shadowlands] clan symbol. While this character is in play, that character cannot leave play. Discard that character when this character leaves play.",
+    "illustrator": "John Anthony Di Giovanni",
+    "name": "Kitsu Sokori",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "2",
+    "political": "5",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Reaction: After fate is removed from this character, choose a character in an opponent's dynasty discard pile – put that character into play under your control, tainted. It gains the [shadow] clan symbol. While this character is in play, that character cannot leave play. Discard that character when this character leaves play.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-023.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-024",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Lost Samurai",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict, choose a participating non-[clan-shadowlands] character - dishonor that character.",
+    "flavorText": "The devotion of samurai, twisted by Jigoku into a mocker of Bushido.",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Lost Samurai",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict, choose a participating non-[shadow] character – dishonor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-024.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-025",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Onikage Rider",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict - discard each card in each opponent's provinces.",
+    "flavorText": "\"The thunder of hooves now brings me only terror and despair.\" - Shinjo Hideo",
+    "illustrator": "Jason Behnke",
+    "name": "Onikage Rider",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – discard each card in each opponent's provinces.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-025.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-026",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Dark Moto",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict - move 1 fate from your fate pool to it. It does not bow as a result of this conflict's resolution.",
+    "flavorText": "\"Such foul steeds will not succumb until their demon-riders have fallen.\" - Hida Tsuru",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Dark Moto",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – move 1 fate from your fate pool to it. It does not bow as a result of this conflict's resolution.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-026.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-027",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Moto Tsume",
     "type": "Character",
     "unique": true,
+    "text": "Corrupted. No non-[clan-shadowlands] attachments.\n<b>Reaction:</b> After this character is declared as an attacker - honor each attacking character.",
+    "flavorText": "One act of reckless pride. Three hundred years of terror.",
+    "illustrator": "Borja Pindado",
+    "name": "Moto Tsume",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "5",
+    "political": "5",
     "traits": [
       "Bushi",
       "Cavalry",
       "Daimyō"
     ],
-    "text": "Corrupted. No non-[shadow] attachments.\nReaction: After this character is declared as an attacker – honor each attacking character.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Cavalry",
+      "Daimyo"
+    ],
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-027.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-028",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Thundering Tide Keep",
     "type": "Holding",
     "unique": true,
+    "text": "<b>Interrupt:</b> When the conflict phase ends - gain 2 fate for each opponent. This ability triggers before each other [clan-shadowlands] holding's interrupt.",
+    "flavorText": "\"It is a court of demonic puppetry.\" - Kuni Yori",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Thundering Tide Keep",
     "clan": "Shadowlands",
     "deck": "dynasty",
     "traits": [
       "Castle"
     ],
-    "text": "Interrupt: When the conflict phase ends – gain 2 fate for each opponent. This ability triggers before each other [shadow] holding's interrupt.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-028.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-029",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Scavenging Goblin",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict - remove the top 3 cards of each opponent's conflict deck from the game. Then, remove from the game each attachment you do not control if it shares a name with a card removed by this effect.",
+    "illustrator": "Marius Bota",
+    "name": "Scavenging Goblin",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Goblin"
     ],
-    "text": "Reaction: After this character wins a conflict – remove the top 3 cards of each opponent's conflict deck from the game. Then, remove from the game each attachment you do not control if it shares a name with a card removed by this effect.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-029.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-030",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Penanggalan",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict, choose a tainted participating character an opponent controls - move 1 fate from that character to this character.",
+    "flavorText": "\"Who is she now?\" - Kitsuki Chiari",
+    "illustrator": "Marius Bota",
+    "name": "Penanggalan",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Undead"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict, choose a tainted participating character an opponent controls – move 1 fate from that character to this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-030.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-031",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Wild Ogre",
     "type": "Character",
+    "text": "—",
+    "flavorText": "\"Get away, runts! I've already lost enough of my dinner to your grimy kind.\"",
+    "illustrator": "Borja Pindado",
+    "name": "Wild Ogre",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "6",
+    "political": "4",
     "traits": [
       "Ogre"
     ],
-    "text": "—",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-031.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-032",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "The Butcher of Ishigaki",
     "type": "Character",
     "unique": true,
+    "text": "Corrupted. No non-[clan-shadowlands] attachments.\nWhile this character is attacking, at least one character controlled by each opponent must be declared as a defender, if able.",
+    "flavorText": "\"Who can stand against it if not us?\" - Hida Nanako",
+    "illustrator": "Joshua Cairos",
+    "name": "The Butcher of Ishigaki",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "7",
     "traits": [
-      "Goblin"
+      "Oni"
     ],
-    "text": "Corrupted. No non-[shadow] attachments.\nWhile this character is attacking, at least one character controlled by each opponent must be declared as a defender, if able.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-032.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-033",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Oni Lair",
     "type": "Holding",
     "unique": true,
+    "text": "<b>Interrupt:</b> When the conflict phase ends, spend up to 4 fate - put that many random cards in your dynasty discard pile on the bottom of your dynasty deck in a random order.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Oni Lair",
     "clan": "Shadowlands",
     "deck": "dynasty",
-    "text": "Interrupt: When the conflict phase ends, spend up to 4 fate – put that many random cards in your dynasty discard pile on the bottom of your dynasty deck in a random order.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-033.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-034",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Shambling Servant",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict, choose a participating character - taint the chosen character.",
+    "flavorText": "Nothing is wasted in the courts of the wicked.",
+    "illustrator": "Paolo Puggioni",
+    "name": "Shambling Servant",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Undead"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict, choose a participating character – taint the chosen character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-034.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-035",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Insatiable Gaki",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict - each opponent discards 1 card from their hand.",
+    "flavorText": "\"Leave the wretched thing to its hopeless gnawing.\" - Kuni Ritsuko",
+    "illustrator": "Apterus",
+    "name": "Insatiable Gaki",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "0",
+    "political": "1",
     "traits": [
       "Spirit"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – each opponent discards 1 card from their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-035.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-036",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Haunted Ruins",
     "type": "Holding",
+    "text": "<b>Interrupt:</b> When the conflict phase ends - each opponent loses 1 honor.",
+    "flavorText": "The wind whisles with screams of the forgotten.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Haunted Ruins",
     "clan": "Shadowlands",
     "deck": "dynasty",
-    "text": "Interrupt: When the conflict phase ends – each opponent loses 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-036.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-037",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Chuda Gyushi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After fate is removed from this character, each opponent selects one - they must either lose 3 honor, discard 2 random cards from their hand or sacrifice a character.",
+    "flavorText": "\"I have need of you again, my wicked companion.\"",
+    "illustrator": "Marius Bota",
+    "name": "Chuda Gyushi",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Earth"
     ],
-    "text": "Reaction: After fate is removed from this character, each opponent selects one – they must either lose 3 honor, discard 2 random cards from their hand or sacrifice a character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-037.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-038",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Oni of Obsidian and Blood",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict, choose an opponent's tainted character - discard that character.",
+    "flavorText": "\"Only the deepest pits of Jigoku could spawn such evil.\" - Isawa Masahiro",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Oni of Obsidian and Blood",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "7",
+    "political": "2",
     "traits": [
       "Oni"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict, choose an opponent's tainted character – discard that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-038.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-039",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Shrine to Jigoku",
     "type": "Holding",
+    "text": "<b>Interrupt:</b> When the conflict phase ends, spend up to 2 fate - for each fate spent this way, each opponent discards 1 random card from their hand.",
+    "illustrator": "Brenda Bal",
+    "name": "Shrine to Jigoku",
     "clan": "Shadowlands",
     "deck": "dynasty",
     "traits": [
       "Shrine"
     ],
-    "text": "Interrupt: When the conflict phase ends, spend up to 2 fate – for each fate spent this way, each opponent discards 1 random card from their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-039.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-040",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Bloodthirsty Kansen",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Reaction:</b> After this character wins a conflict - resolve the contested ring's effect.",
+    "flavorText": "\"It is no wonder the kami shun this place.\" - Kitsu Takeko",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Bloodthirsty Kansen",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "0",
+    "political": "0",
     "traits": [
       "Spirit",
       "Earth"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nReaction: After this character wins a conflict – resolve the contested ring's effect.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-040.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-041",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Bog Hag",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict - each opponent discards the top 8 cards of their conflict deck.",
+    "flavorText": "The villages thanked her with gifts of food and clothing, unaware that she was taking a much different rewards for healing their sick and wounded.",
+    "illustrator": "Marius Bota",
+    "name": "Bog Hag",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "1",
+    "political": "4",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Reaction: After this character wins a conflict – each opponent discards the top 8 cards of their conflict deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-041.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-042",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Prakhara the Schemer",
     "type": "Character",
     "unique": true,
+    "text": "Corrupted. No non-[clan-shadowlands] attachments.\n<b>Interrupt:</b> When the effects of an opponent's event would initiate, spend 1 fate - cancel those effects. (Limit twice per round.)",
+    "flavorText": "Many samurai have fallen to the wiles of the demons of the Ivory Kingdoms.",
+    "illustrator": "Borja Pindado",
+    "name": "Prakhara the Schemer",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "2",
+    "political": "7",
     "traits": [
       "Rakshasa"
     ],
-    "text": "Corrupted. No non-[shadow] attachments.\nInterrupt: When the effects of an opponent's event would initiate, spend 1 fate – cancel those effects. (Limit twice per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-042.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-043",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Gashadokuro",
     "type": "Character",
     "unique": true,
+    "text": "Corrupted. No non-[clan-shadowlands] attachments.\nThis character cannot be evaded by the covert keyword.\n<b>Reaction:</b> After an opponent declares a [conflict-military] conflict against one of your provinces - ready this character.",
+    "illustrator": "Halil Ural",
+    "name": "Gashadokuro",
     "clan": "Shadowlands",
     "deck": "dynasty",
+    "cost": 6,
+    "glory": 0,
+    "military": "9",
     "traits": [
       "Undead"
     ],
-    "text": "Corrupted. No non-[shadow] attachments.\nThis character cannot be evaded by the covert keyword.\nReaction: After an opponent declares a [mil] conflict against one of your provinces – ready this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-043.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-044",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Power of Jigoku",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a participating ready [clan-shadowlands] character - until the end of the conflict, that character gets +5[conflict-military] and cannot be bowed or moved home by opponents' card effects.",
+    "illustrator": "Helge C. Balzer",
+    "name": "Power of Jigoku",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: Choose a participating ready [shadow] character – until the end of the conflict, that character gets +5[mil] and cannot be bowed or moved home by opponents' card effects.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-044.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-045",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Blade of Chaos",
     "type": "Attachment",
+    "text": "Attach to a [clan-shadowlands] character.\n<b>Reaction:</b> After you play ths card - take another action after this one.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Blade of Chaos",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 1,
+    "militaryBonus": "+4",
+    "politicalBonus": "+2",
     "traits": [
       "Obsidian",
       "Weapon"
     ],
-    "text": "Attach to a [shadow] character.\nReaction: After you play this card – take another action after this one.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-045.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-046",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Horrific Scarring",
     "type": "Attachment",
+    "text": "Attach to an opponent's character. Other [clan-shadowlands] cannot be played on attached character.\nAttached character cannot participate in [conflict-political] conflicts.",
+    "illustrator": "Immar Palomera",
+    "name": "Horrific Scarring",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to an opponent's character. Other [shadow] attachments cannot be played on attached character.\nAttached character cannot participate in [pol] conflicts.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-046.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-047",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Violence and Evil",
     "type": "Event",
+    "text": "<b>Action:</b> If the current conflict is [conflict-political], switch the conflict type. Otherwise, choose up to 2 non-[clan-shadowlands] attachments on participating characters and discard them.",
+    "illustrator": "Helge C. Balzer",
+    "name": "Violence and Evil",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: If the current conflict is [pol], switch the conflict type. Otherwise, choose up to 2 non-[shadow] attachments on participating characters and discard them.",
-    "unverified": true
+    "cost": 2,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-047.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-048",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "The Wall is Breached",
     "type": "Event",
+    "text": "This event's effects cannot be canceled.\n<b>Action:</b> If you are attacking and count more current [conflict-military] skill in the conflict than your opponent - break each attacked non-stronghold province.",
+    "illustrator": "Diego Gisbert Llorens",
+    "name": "The Wall is Breached",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "This event's effects cannot be canceled.\nAction: If you are attacking and count more current [mil] skill in the conflict than your opponent – break each attacked non-stronghold province.",
-    "unverified": true
+    "cost": 3,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-048.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-049",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Way of the Shadowlands",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a participating character - taint that character. If it is not a [clan-shadowlands] character, you may spend 1 fate to bow it.",
+    "flavorText": "A day will come when the rightful Emperor sits the Emerald Throne.",
+    "illustrator": "Scott Wade",
+    "name": "Way of the Shadowlands",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 0,
     "traits": [
       "Philosophy"
     ],
-    "text": "Action: Choose a participating character – taint that character. If it is not a [shadow] character, you may spend 1 fate to bow it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-049.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-050",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Tendrils of Corruption",
     "type": "Attachment",
+    "text": "Attach to a [clan-shadowlands] character.\n<b>Reaction:</b> After you play this card, choose a participating character - taint it.",
+    "flavorText": "\"I have been enlightened by Fu Leng's blessing. Now, too, shall you be.\"",
+    "illustrator": "Brian Valenzuela",
+    "name": "Tendrils of Corruption",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 0,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to a [shadow] character.\nReaction: After you play this card, choose a participating character – taint it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-050.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-051",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Drawn to Blood",
     "type": "Event",
+    "text": "<b>Action:</b> If the attacked province is tainted, resolve the contested ring's effect. Otherwise, taint each attacked province.",
+    "illustrator": "Imad Awan",
+    "name": "Drawn to Blood",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: If the attacked province is tainted, resolve the contested ring's effect. Otherwise, taint each attacked province.",
-    "unverified": true
+    "cost": 1,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-051.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-052",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Death After Life",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a character in your dynasty discard pile with the highest printed cost among characters in your dynasty discard pile - put that character into play in the conflict, tainted.",
+    "illustrator": "Patrick McEvoy",
+    "name": "Death After Life",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: Choose a character in your dynasty discard pile with the highest printed cost among characters in your dynasty discard pile - put that character into play in the conflict, tainted.",
-    "unverified": true
+    "cost": 2,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-052.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-053",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "At His Command",
     "type": "Event",
+    "text": "This event's effects cannot be canceled.\n<b>Action:</b> Select one - either place 1 fate on each character you control, or put your warlord into play in the conflict with 3 fate on it.",
+    "flavorText": "\"Akuma no Oni will not stop until all of Rokugan burns.\" - Isawa Tadaka",
+    "illustrator": "Helge C. Balzer",
+    "name": "At His Command",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "This event's effects cannot be canceled.\nAction: Select one – either place 1 fate on each character you control, or put your warlord into play in the conflict with 3 fate on it.",
-    "unverified": true
+    "cost": 4,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-053.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-054",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Evil Portents",
     "type": "Event",
+    "text": "<b>Action:</b> Until the end of the conflict, each participating tainted [clan-shadowlands] characters gets +2[conflict-military] and +2[conflict-political] and each participating tainted non-[clan-shadowlands] characters gets -2[conflict-military] and -2[conflict-political].",
+    "flavorText": "They say that which is better left unknown.",
+    "illustrator": "Apterus",
+    "name": "Evil Portents",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: Until the end of the conflict, each participating tainted [shadow] characters gets +2[mil] and +2[pol] and each participating tainted non-[shadow] characters gets -2[mil] and -2[pol].",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-054.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-055",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Uncontained",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a character you control in your home - move it to the conflict. If it is bowed, you may spend 1 fate to ready it.",
+    "flavorText": "\"Those growths were wings?\" - Hiruma Izumi, final words",
+    "illustrator": "Helge C. Balzer",
+    "name": "Uncontained",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: Choose a character you control in your home – move it to the conflict. If it is bowed, you may spend 1 fate to ready it.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-055.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-056",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Unending Hatred",
     "type": "Attachment",
+    "text": "Attach to a [clan-shadowlands] character.\n<b>Reaction:</b> After you play this card - place 1 fate on attached character.",
+    "flavorText": "\"Then we shall fight again.\" - Hida Kisada",
+    "illustrator": "Helge C. Balzer",
+    "name": "Unending Hatred",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 0,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to a [shadow] character.\nReaction: After you play this card – place 1 fate on attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-056.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-057",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Direct Assault",
     "type": "Event",
+    "text": "<b>Action:</b> Put your warlord into play in the conflict. You may move up to 2 fate from your fate pool to it.",
+    "flavorText": "\"Your screams taste of the delicate grey that soothes the soul.\" - Atsuko the Calamitous",
+    "illustrator": "Diego Gisbert Llorens",
+    "name": "Direct Assault",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 3,
     "traits": [
       "Tactic"
     ],
-    "text": "Action: Put your warlord into play in the conflict. You may move up to 2 fate from your fate pool to it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-057.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-058",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Dark Brother's Blade",
     "type": "Attachment",
     "unique": true,
+    "text": "Attach to a [clan-shadowlands] character.\nWhile you are playing challenge mode, this card gains ancestral.\nWhile attached character is unique, it gains: \"<b>Reaction:</b> After this character wins a conflict - each opponent must sacrifice a participating character.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Dark Brother's Blade",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 2,
+    "militaryBonus": "+4",
+    "politicalBonus": "+1",
     "traits": [
       "Obsidian",
       "Weapon"
     ],
-    "text": "Attach to a [shadow] character.\nWhile you are playing challenge mode, this card gains ancestral.\nWhile attached character is unique, it gains: \"Reaction: After this character wins a conflict – each opponent must sacrifice a participating character.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-058.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-059",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Dark Bargain",
     "type": "Event",
+    "text": "<b>Action:</b> For each ready participating character an opponent controls, that character's controller selects one - they must either bow that character or lose 1 honor. Then, taint each ready participating character each opponent controls.",
+    "illustrator": "Borja Pindado",
+    "name": "Dark Bargain",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: For each ready participating character an opponent controls, that character's controller selects one – they must either bow that character or lose 1 honor. Then, taint each ready participating character each opponent controls.",
-    "unverified": true
+    "cost": 2,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-059.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-060",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Lurking Treachery",
     "type": "Attachment",
+    "text": "Attach to an opponent's character. Other [clan-shadowlands] cannot be played on attached character.\n<b>Interrupt:</b> When attached character leaves play, its controller chooses one of their unbroken provinces - taint that province.",
+    "illustrator": "Alayna Lemmer",
+    "name": "Lurking Treachery",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 0,
+    "militaryBonus": "-0",
+    "politicalBonus": "-3",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to an opponent's character. Other [shadow] attachments cannot be played on attached character.\nInterrupt: When attached character leaves play, its controller chooses one of their unbroken provinces – taint that province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-060.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-061",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Permeating Mutation",
     "type": "Attachment",
+    "text": "Attach to a [clan-shadowlands] character.\n<b>Reaction:</b> After you play this card - play an attachment from your discard pile.",
+    "illustrator": "Apterus",
+    "name": "Permeating Mutation",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 0,
+    "militaryBonus": "+0",
+    "politicalBonus": "+3",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to a [shadow] character.\nReaction: After you play this card – play an attachment from your discard pile.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-061.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-062",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Consumed By Evil",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a tainted character you do not control. That character's controller selects one - either they sacrifice that character, or you put your warlord into play in the conflict with 1 fate on it.",
+    "illustrator": "Carlos Nct",
+    "name": "Consumed By Evil",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: Choose a tainted character you do not control. That character's controller selects one – either they sacrifice that character, or you put your warlord into play in the conflict with 1 fate on it.",
-    "unverified": true
+    "cost": 2,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-062.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-063",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Blasphemous Act",
     "type": "Event",
+    "text": "This event's effects cannot be canceled.\n<b>Action:</b> Bow each tainted character you do not control and ready each tainted character you control. Each tainted character you control does not bow as a result of this conflict's resolution.",
+    "illustrator": "Brenda Bae",
+    "name": "Blasphemous Act",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "This event's effects cannot be canceled.\nAction: Bow each tainted character you do not control and ready each tainted character you control. Each tainted character you control does not bow as a result of this conflict's resolution.",
-    "unverified": true
+    "cost": 5,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-063.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-064",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Spiritual Isolation",
     "type": "Attachment",
+    "text": "Attach to an opponent's character. Other [clan-shadowlands] cannot be played on attached character.\nTreat attached character's printed text box as if it were blank (except for <em>Traits</em>).",
+    "flavorText": "Even destiny had abandoned her.",
+    "illustrator": "Imad Awan",
+    "name": "Spiritual Isolation",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 1,
+    "militaryBonus": "-2",
+    "politicalBonus": "-2",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to an opponent's character. Other [shadow] attachments cannot be played on attached character.\nTreat attached character's printed text box as if it were blank (except for Traits).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-064.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-065",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Shameful Affliction",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a participating non-[clan-shadowlands] character - dishonor that character. You may spend 1 fate to resolve this ability twice.",
+    "flavorText": "His mind raced as the makeup diminished in his cup. He would have to find more, at any cost, lest he be betrayed by the evil beneath his skin.",
+    "illustrator": "Drazenka Kimpel",
+    "name": "Shameful Affliction",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: Choose a participating non-[shadow] character – dishonor that character. You may spend 1 fate to resolve this ability twice.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-065.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-066",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Despair",
     "type": "Event",
+    "text": "<b>Action:</b> Increase the cost of each event an opponent plays in this conflict by 1.\nWhile playing challenge mode, this card gains: \"<b>Interrupt:</b> When the effects of an event would initiate - cancel those effects.\"",
+    "illustrator": "Apterus",
+    "name": "Despair",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Increase the cost of each event an opponent plays in this conflict by 1.\nWhile playing challenge mode, this card gains: \"Interrupt: When the effects of an event would initiate – cancel those effects.\"",
-    "unverified": true
+    "cost": 1,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-066.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-067",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Madness",
     "type": "Attachment",
+    "text": "Attach to an opponent's character.\nAttached character cannot have other attachments.",
+    "flavorText": "\"You don't understand! It's choking me!\"",
+    "illustrator": "Andreia Ugrai",
+    "name": "Madness",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 2,
+    "militaryBonus": "-8",
+    "politicalBonus": "-0",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to an opponent's character.\nAttached character cannot have other attachments.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-067.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-068",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Duty's Cost",
     "type": "Event",
+    "text": "This event's effects cannot be canceled.\n<b>Action:</b> Each opponent must select one - either taint each of your unbroken provinces or reveal your hand and discard each card with printed cost 0 from it.",
+    "illustrator": "Lin Hsiang",
+    "name": "Duty's Cost",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "This event's effects cannot be canceled.\nAction: Each opponent must select one – either taint each of your unbroken provinces or reveal your hand and discard each card with printed cost 0 from it.",
-    "unverified": true
+    "cost": 1,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-068.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-069",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Obsidian Shard",
     "type": "Attachment",
+    "text": "Attach to a [clan-shadowlands] character.\n<b>Reaction:</b> After you play this card, choose a non-[clan-shadowlands] attachments on a participating character or on the attacked province - discard that attachment.",
+    "illustrator": "Drazenka Kimpel",
+    "name": "Obsidian Shard",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 1,
+    "militaryBonus": "+2",
+    "politicalBonus": "+2",
     "traits": [
       "Item",
       "Obsidian"
     ],
-    "text": "Attach to a [shadow] character.\nReaction: After you play this card, choose a non-[shadow] attachment on a participating character or on the attacked province – discard that attachment.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-069.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-070",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Exploit Weakness",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a participating non-[clan-shadowlands] character with printed cost 2 or lower - if that character is tainted, gain control of it and it gains a [clan-shadowlands] clan symbol. Otherwise, bow and dishonor it.",
+    "flavorText": "The whispers had been right all along. His lord's treachery had to end tonight.",
+    "illustrator": "Alexander Chelyshev",
+    "name": "Exploit Weakness",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: Choose a participating non-[shadow] character with printed cost 2 or lower – if that character is tainted, gain control of it and it gains a [shadow] clan symbol. Otherwise, bow and dishonor it.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-070.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-071",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Tainted Wasteland",
     "type": "Attachment",
+    "text": "Attach to an unbroken province.\nAttached province gets +1 strength (+4 strength instead if it is tainted).\n<b>Forced Reaction:</b> After a conflict is declared against attached province - each opponent loses 1 honor.",
+    "illustrator": "Aaron Miller",
+    "name": "Tainted Wasteland",
     "clan": "Shadowlands",
     "deck": "conflict",
+    "cost": 0,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to an unbroken province.\nAttached province gets +1 strength (+4 strength instead if it is tainted).\nForced Reaction: After a conflict is declared against attached province – each opponent loses 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-071.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-072",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "In Service to Shadow",
     "type": "Event",
+    "text": "<b>Action:</b> Bow a participating non-unique <i>(friendly)</i> [clan-shadowlands] character - put your warlord into play in the conflict. Then, move all fate and attachments from the bowed character to your warlord.",
+    "illustrator": "Apterus",
+    "name": "In Service to Shadow",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "Action: Bow a participating non-unique (friendly) [shadow] character – put your warlord into play in the conflict. Then, move all fate and attachments from the bowed character to your warlord.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-072.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-073",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "The First War",
     "type": "Event",
+    "text": "This event's effects cannot be canceled.\n<b>Action:</b> Resolve the conflict as if both teams had passed consecutively.",
+    "flavorText": "\"We fight Togashi's war, that the feuding of brothers will come to an end.\" - Togashi Kazue",
+    "illustrator": "Jason Behnke",
+    "name": "The First War",
     "clan": "Shadowlands",
     "deck": "conflict",
-    "text": "This event's effects cannot be canceled.\nAction: Resolve the conflict as if both teams had passed consecutively.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-073.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-074",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Twin Soul Temple",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Action:</b> Bow this stronghold. Choose an element symbol on a card in play - replace that symbol with the symbol of a different element until the end of the phase.",
+    "illustrator": "Chris Ostrowski",
+    "name": "Twin Soul Temple",
     "clan": "Phoenix",
+    "honor": 12,
+    "fate": 7,
+    "influencePool": 10,
     "traits": [
-      "Castle"
+      "Temple"
     ],
-    "text": "Action: Bow this stronghold. Choose an element symbol on a card in play – replace that symbol with the symbol of a different element until the end of the phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-074.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-075",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Shiro Yogo",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Action:</b> Bow this stronghold. Choose a dishonored character - abilities on that character cannot be triggered this phase.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Shiro Yogo",
     "clan": "Scorpion",
+    "honor": 10,
+    "fate": 7,
+    "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "text": "Action: Bow this stronghold. Choose a dishonored character – abilities on that character cannot be triggered this phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-075.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-076",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Exiled Guardian",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\nSupport. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> Sacrifice this character. Choose a status token on a character or province - discard that status token.",
+    "illustrator": "Imad Awan",
+    "name": "Exiled Guardian",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Shadowlands"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nSupport. (Another player may help pay this card's fate cost.)\nAction: Sacrifice this character. Choose a status token on a character or province – discard that status token.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-076.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-077",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Hida Backbreaker",
     "type": "Character",
+    "text": "No opponents' attachments.\n<b>Reaction:</b> After this character wins a [conflict-military] conflict, choose an opponent's participating character - dishonor that character.",
+    "flavorText": "\"Will reputation deflect a tetsubo's strike? I thought not.\"",
+    "illustrator": "Romana Kendelic",
+    "name": "Hida Backbreaker",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "No opponents' attachments.\nReaction: After this character wins a [mil] conflict, choose an opponent's participating character – dishonor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-077.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-078",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Third Tower",
     "type": "Holding",
     "unique": true,
+    "text": "Limit 1 per deck.\n<b>Reaction:</b> After an opponent declares a conflict against a province you control that does not contain a <em>Kaiu Wall</em> holding - take 1 honor from that opponent. (Unlimited.)",
+    "illustrator": "Hai Hoang",
+    "name": "Third Tower",
     "clan": "Crab",
     "deck": "dynasty",
     "traits": [
       "Kaiu Wall"
     ],
-    "text": "Limit 1 per deck.\nReaction: After an opponent declares a conflict against a province you control that does not contain a Kaiu Wall holding – take 1 honor from that opponent. (Unlimited.)",
-    "unverified": true
+    "traitsAscii": [
+      "Kaiu-wall"
+    ],
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-078.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-079",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Iron Warrior Vanguard",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Reaction:</b> After this character wins a conflict, choose a character - honor that character.",
+    "flavorText": "\"I will never stop protecting you.\"",
+    "illustrator": "Toni Foti",
+    "name": "Iron Warrior Vanguard",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Bushi"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nReaction: After this character wins a conflict, choose a character – honor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-079.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-080",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Daidoji Strategist",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose an honored character - move that character home.",
+    "flavorText": "In honor of longstanding tradition, the Daidoji were welcomed among the Crab in defense of Rokugan. Their leadership, while effective, was somewhat less welcome.",
+    "illustrator": "Sergio Camarena",
+    "name": "Daidoji Strategist",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose an honored character – move that character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-080.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-081",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Discerning Yoriki",
     "type": "Character",
+    "text": "Courtesy.\n<b>Reaction:</b> After you look at 1 or more cards in an opponent's hand (or those are revealed), choose a character - honor it.",
+    "illustrator": "Chris Pritchard",
+    "name": "Discerning Yoriki",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Courtesy. (When this character leaves play, gain 1 fate.)\nReaction: After you look at 1 or more cards in an opponent's hand (or those are revealed), choose a character – honor it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-081.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-082",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Togashi Dreamer",
     "type": "Character",
+    "text": "Support.\n<b>Reaction:</b> After you play a <em>Kihō</em> event during a conflict in which this character is participating, choose a participating character with 1 or more status tokens on it and choose an unclaimed ring - move 1 fate from the chosen character to the chosen ring.",
+    "illustrator": "Drazenka Kimpel",
+    "name": "Togashi Dreamer",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Support.\nReaction: After you play a Kihō event during a conflict in which this character is participating, choose a participating character with 1 or more status tokens on it and choose an unclaimed ring – move 1 fate from the chosen character to the chosen ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-082.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-083",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Teacher of Empty Thought",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, if you have played 3 or more cards during this conflict - draw 1 card.",
+    "flavorText": "\"You cannot hir me because you think you can hit me. I move with the flow of the kata, not with my mind, and am freed from the prison of thought.\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Teacher of Empty Thought",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Action: During a conflict in which this character is participating, if you have played 3 or more cards during this conflict – draw 1 card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-083.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-084",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Revered Bonshō",
     "type": "Holding",
+    "text": "When fate would be removed from characters during the fate phase, instead distribute that fate among unclaimed rings as evenly as possible.",
+    "flavorText": "\"The gong of the temple bell echoes the destiny that awaits us all.\"",
+    "illustrator": "Eli Ring",
+    "name": "Revered Bonshō",
     "clan": "Dragon",
     "deck": "dynasty",
     "traits": [
       "Temple"
     ],
-    "text": "When fate would be removed from characters during the fate phase, instead distribute that fate among unclaimed rings as evenly as possible.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-084.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-085",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Field Tactician",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Reaction:</b> After you play a <em>Tactic</em> card, choose a card in any player's conflict discard pile - place it into that player's conflict deck third from the top.",
+    "flavorText": "\"We will make it work.\"",
+    "illustrator": "Conceptopolis",
+    "name": "Field Tactician",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nReaction: After you play a Tactic card, choose a card in any player's conflict discard pile – place it into that player's conflict deck third from the top.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-085.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-086",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Akodo Mastermind",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, remove 1 or more <em>Tactic</em> cards in your conflict discard pile from the game. Choose a participating character with glory equal to or lower than the number of removed cards - bow that character.",
+    "illustrator": "Carlos Nct",
+    "name": "Akodo Mastermind",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "Action: During a conflict in which this character is participating, remove 1 or more Tactic cards in your conflict discard pile from the game. Choose a participating character with glory equal to or lower than the number of removed cards - bow that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-086.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-087",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Void Wielder",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> During a [element-void] conflict, choose a participating character. That character's controller selects one - either discard a status token from it, move it home or discard an attachment on it.",
+    "illustrator": "Isuardi Therianto",
+    "name": "Void Wielder",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Void"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a [void] conflict, choose a participating character. That character's controller selects one – either discard a status token from it, move it home or discard an attachment on it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-087.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-088",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Isawa Skycaller",
     "type": "Character",
+    "text": "During [element-air] conflicts you may play characters in your provinces as if they were in your hand. Characters played this way must be played into the conflict.",
+    "flavorText": "\"Though my heart be heavy, Kaze-no-Kami shall lift my spirit.\"",
+    "illustrator": "Jonathan Moore",
+    "name": "Isawa Skycaller",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 3,
+    "military": "3",
+    "political": "5",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "During [air] conflicts you may play characters in your provinces as if they were in your hand. Characters played this way must be played into the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-088.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-089",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Disciple of Deception",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> During a conflict, choose 2 different status tokens on 2 different characters - treat one of the chosen status tokens as if it were the other until the end of the conflict.",
+    "illustrator": "Drew Baker",
+    "name": "Disciple of Deception",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict, choose 2 different status tokens on 2 different characters – treat one of the chosen status tokens as if it were the other until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-089.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-090",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Loyal Oathbreaker",
     "type": "Character",
+    "text": "You are considered to be less honorable than each opponent.",
+    "flavorText": "\"Take comfort in the knowledge that my love was true.\"",
+    "illustrator": "Mario Wibisono",
+    "name": "Loyal Oathbreaker",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Earth"
     ],
-    "text": "You are considered to be less honorable than each opponent.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-090.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-091",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Silent Enforcer",
     "type": "Character",
+    "text": "<b>Reaction:</b> After you play an event during a conflict in which this character is participating, choose a participating character with printed cost 3 or lower. Its controller selects one - either bow that character or move it home.",
+    "flavorText": "They betray not even a whisper",
+    "illustrator": "Apterus",
+    "name": "Silent Enforcer",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Shinobi"
     ],
-    "text": "Reaction: After you play an event during a conflict in which this character is participating, choose a participating character with printed cost 3 or lower. Its controller selects one – either bow that character or move it home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-091.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-092",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Reckless Avenger",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> Each player in turn order may choose a character they control - ready the first chosen character, honor the second chosen character, and taint each other chosen character.",
+    "illustrator": "Marcel Mercado",
+    "name": "Reckless Avenger",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: Each player in turn order may choose a character they control - ready the first chosen character, honor the second chosen character, and taint each other chosen character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-092.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-093",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Seasoned Patroller",
     "type": "Character",
+    "text": "While this character is attacking, the attacked province's strength cannot be increased. <i>(This includes by holdings, strongholds, attachments, lasting effects and status tokens.)</i>",
+    "flavorText": "\"I could barely shoot a bow at her age, and she's alread off winning a war!\" - Grandmother Sakae",
+    "illustrator": "Greg Lambrakis",
+    "name": "Seasoned Patroller",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "While this character is attacking, the attacked province's strength cannot be increased. (This includes by holdings, strongholds, attachments, lasting effects and status tokens.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-093.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-094",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Moto Beastmaster",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character is declared as an attacker, choose a character with printed cost 2 or lower in your provinces (printed cost 4 or lower instead if you are first player) - put that character into play in the conflict.",
+    "flavorText": "\"I'd keep my distance, I've seen them bring down bears.\"",
+    "illustrator": "Amélie Hutt",
+    "name": "Moto Beastmaster",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "4",
+    "political": "1",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Reaction: After this character is declared as an attacker, choose a character with printed cost 2 or lower in your provinces (printed cost 4 or lower instead if you are first player) – put that character into play in the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-094.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-095",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Fearless Sailor",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action: </b>During a conflict, in which this character is participating, choose a participating character with 1 or more status tokens on it - that character gets -2[conflict-military] until the end of the conflict.",
+    "illustrator": "Luis Nunez De Castro",
+    "name": "Fearless Sailor",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Mantis Clan"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict, in which this character is participating, choose a participating character with 1 or more status tokens on it – that character gets -2[mil] until the end of the conflict.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Mantis-clan"
+    ],
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-095.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-096",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Oni Tyrant",
     "type": "Character",
+    "text": "Corrupted. <i>(This character enters play tainted.)</i>\n<b>Action:</b> During a conflict in which this character is participating, lose 1 honor. Choose a [clan-shadowlands] character you own from outside the game with printed cost 2 or lower - put that character into play in the conflict. When it would leave play, remove it from the game instead.",
+    "illustrator": "Calvin Chua",
+    "name": "Oni Tyrant",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "4",
     "traits": [
       "Oni",
       "Shadowlands"
     ],
-    "text": "Corrupted. (This character enters play tainted.)\nAction: During a conflict in which this character is participating, lose 1 honor. Choose a [shadow] character you own from outside the game with printed cost 2 or lower – put that character into play in the conflict. When it would leave play, remove it from the game instead.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-096.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-097",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Audience Chamber",
     "type": "Holding",
+    "text": "<b>Reaction:</b> After you play a character with printed cost 4 or higher - place 1 fate on it.",
+    "flavorText": "When the clan champion visits, even lords are little more than servants.",
+    "illustrator": "Haibin Wu",
+    "name": "Audience Chamber",
     "clan": "Neutral",
     "deck": "dynasty",
     "traits": [
       "Castle"
     ],
-    "text": "Reaction: After you play a character with printed cost 4 or higher – place 1 fate on it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-097.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-098",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Jade Talisman",
     "type": "Attachment",
+    "text": "Attach to a character you control.\n<b>Interrupt:</b> When a ring effect would initiate, if it chooses attached character as a target, sacrifice this attachment - cancel that ring effect.",
+    "flavorText": "The difference between sanctity and suffering.",
+    "illustrator": "Nino Vecia",
+    "name": "Jade Talisman",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
-      "Item",
-      "Jade"
+      "Jade",
+      "Item"
     ],
-    "text": "Attach to a character you control.\nInterrupt: When a ring effect would initiate, if it chooses attached character as a target, sacrifice this attachment – cancel that ring effect.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-098.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-099",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Jade-Inlaid Katana",
     "type": "Attachment",
+    "text": "Restricted. Support.\nAttached character gains: \"<b>Reaction:</b> After this character wins a conflict, choose a participating character with 1 or more status tokens on it - remove 1 fate from that character.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Jade-Inlaid Katana",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+2",
+    "politicalBonus": "+0",
     "traits": [
       "Jade",
       "Weapon"
     ],
-    "text": "Attach to a character you control.\nAttached character gains: \"Reaction: After this character wins a conflict, choose a participating character with 1 or more status tokens on it – remove 1 fate from that character.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-099.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-100",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Jade Strike",
     "type": "Event",
+    "text": "Play only if you control a <em>Shugenja</em> character.\n<b>Action:</b> During a conflict, choose a participating character with 1 or more status tokens on it - set its base [conflict-military] and [conflict-political] skills to 0 until the end of the conflict. If that character is tainted, also remove 1 fate from it.",
+    "illustrator": "Carlos Nct",
+    "name": "Jade Strike",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
     "traits": [
       "Jade",
       "Spell",
       "Earth"
     ],
-    "text": "Play only if you control a Shugenja character.\nAction: During a conflict, choose a participating character with 1 or more status tokens on it – set its base [mil] and [pol] skills to 0 until the end of the conflict. If that character is tainted, also remove 1 fate from it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-100.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-101",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Preeminent Decree",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating <em>Courtier</em> character you control - for this conflict, each other participating character gets -X[conflict-political], where X is the chosen <em>Courtier</em>'s glory.",
+    "flavorText": "Even without her title, Kakita Ryoku's judgments prevail.",
+    "illustrator": "Le Vuong",
+    "name": "Preeminent Decree",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Action: During a conflict, choose a participating Courtier character you control – for this conflict, each other participating character gets -X[pol], where X is the chosen Courtier's glory.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-101.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-102",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Resourcefulness",
     "type": "Event",
+    "text": "<b>Action:</b> Dishonor a <i>(friendly)</i> character. Choose a character - honor it.",
+    "illustrator": "Diego Gisbert Llorens",
+    "name": "Resourcefulness",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Tactic"
     ],
-    "text": "Action: Dishonor a (friendly) character. Choose a character – honor it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-102.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-103",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Masashigi's Sacrifice",
     "type": "Event",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> During a conflict, sacrifice a <i>(friendly)</i> character with 1 or more status tokens on it - each defending character does not bow as a result of this conflict's resolution.",
+    "illustrator": "Nino Vecia",
+    "name": "Masashigi's Sacrifice",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict, sacrifice a (friendly) character with 1 or more status tokens on it – each defending character does not bow as a result of this conflict's resolution.",
-    "unverified": true
+    "cost": 2,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-103.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-104",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Centered Breath",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating <em>Monk</em> character – You may trigger each ability printed on that character an additional time this round (or specified period). If you have played another <em>Kihō</em> in this conflict, take another action after this one.",
+    "illustrator": "Lin Hsiang",
+    "name": "Centered Breath",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Kihō",
       "Air"
     ],
-    "text": "Action: During a conflict, choose a participating Monk character – You may trigger each ability printed on that character an additional time this round (or specified period). If you have played another Kihō in this conflict, take another action after this one.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Air"
+    ],
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-104.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-105",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Swell of Seafoam",
     "type": "Event",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> During a conflict, choose a participating <em>Monk</em> character – that character does not bow as the result of this conflict's resolution. If you have played another <em>Kihō</em> in this conflict, also honor that character.",
+    "illustrator": "Carlos Diaz",
+    "name": "Swell of Seafoam",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Kihō",
       "Water"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict, choose a participating Monk character – that character does not bow as the result of this conflict's resolution. If you have played another Kihō in this conflict, also honor that character.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Water"
+    ],
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-105.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-106",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Prove Your Skill",
     "type": "Event",
+    "text": "Play only if you are more honorable than an opponent.\n<b>Action:</b> Choose a status token on a character - discard it.",
+    "flavorText": "\"I always doubted the gossip.\"",
+    "illustrator": "Ramon Puasa",
+    "name": "Prove Your Skill",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Tactic"
     ],
-    "text": "Play only if you are more honorable than an opponent.\nAction: Choose a status token on a character – discard it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-106.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-107",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Directing the Battle",
     "type": "Event",
+    "text": "Support.\n<b>Action:</b> During a conflict, choose a character. That character's controller selects one -\n- move that character home.\n-that character gets +3[conflict-military] until the end of the conflict.\n-that character can't be bowed by opponents' card effects during this conflict.",
+    "illustrator": "Charles Urbach",
+    "name": "Directing the Battle",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
     "traits": [
       "Tactic"
     ],
-    "text": "Support.\nAction: During a conflict, choose a character. That character's controller selects one –\n* move that character home.\n* that character gets +3[mil] until the end of the conflict.\n* that character can't be bowed by opponents' card effects during this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-107.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-108",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Peerless Discipline",
     "type": "Event",
+    "text": "<b>Action:</b> Until the end of the phase, each character you control gets +1[conflict-military] and gains the <em>Bushi</em> trait.",
+    "flavorText": "\"Any of these farmers could be the difference between victory and defeat. Why would we not prepare them as best as possible?\"",
+    "illustrator": "Joshua Cairos",
+    "name": "Peerless Discipline",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Action: Until the end of the phase, each character you control gets +1[mil] and gains the Bushi trait.",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-108.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-109",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Spell Scroll",
     "type": "Attachment",
+    "text": "While attached character is participating in a conflict whose element matches one of attached character's <em>Traits</em>, it gets +3[conflict-political]\n<b>Action:</b> Choose a non-character card in your conflict discard pile that shares a <em>Trait</em> with attached character - add it to your hand and sacrifice this attachment.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Spell Scroll",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Gaijin",
       "Item"
     ],
-    "text": "While attached character is participating in a conflict whose element matches one of attached character's Traits, it gets +3[pol].\nAction: Choose a non-character card in your conflict discard pile that shares a Trait with attached character – add it to your hand and sacrifice this attachment.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-109.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-110",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Elemental Inversion",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a ring - move all fate from the chosen ring to the contested ring and switch them. <i>(The chosen ring is now contested.)</i>",
+    "flavorText": "\"If all elements are of the Void, then what is their opposite?\" - Tao of Shinsei",
+    "illustrator": "Carlos Diaz",
+    "name": "Elemental Inversion",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Spell",
       "Void"
     ],
-    "text": "Action: During a conflict, choose a ring – move all fate from the chosen ring to the contested ring and switch them. (The chosen ring is now contested.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-110.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-111",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Dance of Chikushō-dō",
     "type": "Event",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> Choose any number of non-[clan-shadowlands] players - each of those players fills each of their unbroken non-stronghold provinces with 2 facedown dynasty cards. (Max 1 per round.)",
+    "illustrator": "Borja Pindado",
+    "name": "Dance of Chikushō-dō",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: Choose any number of non-[shadow] players – each of those players fills each of their unbroken non-stronghold provinces with 2 facedown dynasty cards. (Max 1 per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-111.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-112",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Soshi's Memory",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a player - that player searches the top X cards of their deck for a card and adds it to their hand, where X is the number of <em>Shugenja</em> characters you control. Shuffle.",
+    "flavorText": "\"Does my Lord Bayushi fear the sunlight?\"",
+    "illustrator": "Adam S. Doyle",
+    "name": "Soshi's Memory",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Action: Choose a player – that player searches the top X cards of their deck for a card and adds it to their hand, where X is the number of Shugenja characters you control. Shuffle.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-112.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-113",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Betrayed Vision",
     "type": "Event",
+    "text": "Play only if you control a <em>Shugenja</em> character.\nSupport.\n<b>Action:</b> During a conflict, choose a participating character an opponent controls and a different non-unique character - the participating character becomes a copy of the non-unique character until the end of the conflict.",
+    "illustrator": "Drazenka Kimpel",
+    "name": "Betrayed Vision",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Play only if you control a Shugenja character.\nSupport.\nAction: During a conflict, choose a participating character an opponent controls and a different non-unique character – the participating character becomes a copy of the non-unique character until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-113.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-114",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Scarlet Sabre",
     "type": "Attachment",
+    "text": "Restricted.\nWhile you are the first player, attached character gains: \"<b>Reaction:</b> After this character wins a conflict - your opponent loses 1 fate.\"",
+    "flavorText": "Vibrant tassles often adorn Unicorn blades, their Ujik meaning largely forgotten.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Scarlet Sabre",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+2",
+    "politicalBonus": "+0",
     "traits": [
-      "Gaijin",
-      "Weapon"
+      "Weapon",
+      "Gaijin"
     ],
-    "text": "Restricted.\nWhile you are the first player, attached character gains: \"Reaction: After this character wins a conflict – your opponent loses 1 fate.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-114.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-115",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Daikyū",
     "type": "Attachment",
+    "text": "Restricted. Support.\nWhile you are the first player, attached character gets +2[conflict-military].\nAttached character gains: \"<b>Reaction:</b> After a character either commits to or moves to a [conflict-military] conflict this character is participating in, choose a participating character with lower [conflict-military] skill than this character - bow it.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Daikyū",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon"
     ],
-    "text": "Restricted. Support.\nWhile you are the first player, attached character gets +2[mil].\nAttached character gains: \"Reaction: After a character either commits to or moves to a [mil] conflict this character is participating in, choose a participating character with lower [mil] skill than this character – bow it.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-115.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-116",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Defiance",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, if you have fewer cards in hand than your opponent, choose a character - until the end of the conflict, that character gets +X[conflict-military] and +X[conflict-political], where X is you opponent's honor bid.",
+    "flavorText": "Fall down seven times, stand up eight.",
+    "illustrator": "Andreia Ugrai",
+    "name": "Defiance",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During a conflict, if you have fewer cards in hand than your opponent, choose a character – until the end of the conflict, that character gets +X[mil] and +X[pol], where X is your opponent's honor bid.",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-116.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-117",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Exposed Secrets",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict, choose a participating character with [conflict-political] skill equal to or lower than its controller's honor bid - bow that character.",
+    "flavorText": "\"You seemed awfully excited to learn of Ikoma-sama's return. I thought you had barely spoken to her?\"",
+    "illustrator": "Andreia Ugrai",
+    "name": "Exposed Secrets",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict, choose a participating character with [pol] skill equal to or lower than its controller's honor bid – bow that character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-117.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-118",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Lurking Affliction",
     "type": "Event",
+    "text": "<b>Action:</b> During a  conflict, choose a participating character - taint it.",
+    "flavorText": "\"Heavens, Asako-sama, are you unwell? You will shatter the ceramics!\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Lurking Affliction",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During a conflict, choose a participating character – taint it.",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-118.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-119",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Way of the Warrior",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating <em>Bushi</em> character - until the end of the conflict, opponents' card effects cannot bow, move or dishonor that character. If it is bowed, ready it.",
+    "illustrator": "Haibin Wu",
+    "name": "Way of the Warrior",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During a conflict, choose a participating Bushi character – until the end of the conflict, opponents' card effects cannot bow, move or dishonor that character. If it is bowed, ready it.",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-119.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-120",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Accursed Summoning",
     "type": "Event",
+    "text": "This card's fate cost can only be paid for with fate on character you control.\n<b>Action:</b> During a conflict, lose X honor. Choose a non-unique [clan-shadowlands] character you own from outside the game with printed cost X - put that character into play in the conflict. When it would leave play, remove it from the game instead.",
+    "illustrator": "IFS",
+    "name": "Accursed Summoning",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 0,
     "traits": [
       "Mahō",
       "Spell",
       "Earth"
     ],
-    "text": "This card's fate cost can only be paid for with fate on character you control.\nAction: During a conflict, lose X honor. Choose a non-unique [shadow] character you own from outside the game with printed cost X – put that character into play in the conflict. When it would leave play, remove it from the game instead.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Earth"
+    ],
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-120.jpg"
   },
   {
     "id": "under-fu-lengs-shadow-121",
     "gameId": "l5r-lcg",
     "setId": "under-fu-lengs-shadow",
     "publisherId": "ffg",
-    "name": "Unveiled Corruption",
     "type": "Event",
+    "text": "<b>Action:</b> Taint a <i>(friendly)</i> unbroken province - each opponent discards cards from their hand, until they have an equal or fewer number of cards in their hand as you.",
+    "flavorText": "The shrine was a lie, a facade for a maho-tsukai's personal laboratory.",
+    "illustrator": "Lin Hsiang",
+    "name": "Unveiled Corruption",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: Taint a (friendly) unbroken province – each opponent discards cards from their hand, until they have an equal or fewer number of cards in their hand as you.",
-    "unverified": true
+    "cost": 2,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-121.jpg"
   }
 ]

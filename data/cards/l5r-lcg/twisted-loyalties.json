@@ -4,314 +4,410 @@
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "The Scorpion Clan Coup",
     "type": "Province",
+    "text": "While you control an <em>Imperial</em> character, each character attacking one of your provinces gets -1[conflict-military] and -1[conflict-political].",
+    "flavorText": "\"A Scorpion on the throne, even with an edict behind him, cannot be trusted.\" - Asako Togama",
+    "illustrator": "Tommy Suhartono",
+    "name": "The Scorpion Clan Coup",
     "clan": "Scorpion",
+    "strength": 5,
     "traits": [
       "Imperial"
     ],
-    "text": "While you control an Imperial character, each character attacking one of your provinces gets –1 [mil] and –1 [pol].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-001.jpg"
   },
   {
     "id": "twisted-loyalties-002",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Brushfires",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed, choose an attacking character - remove 2 fate from that character.",
+    "flavorText": "\"This is no time for glory!\"",
+    "illustrator": "Eli Ring",
+    "name": "Brushfires",
     "clan": "Neutral",
-    "text": "Reaction: After this province is revealed, choose an attacking character – remove 2 fate from that character.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-002.jpg"
   },
   {
     "id": "twisted-loyalties-003",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Yasuki Oguri",
     "type": "Character",
     "unique": true,
+    "text": "Covert.\n<b>Action:</b> During a conflict in which this character is defending, spend 1 fate. Choose a character with 1 or more fate on it - move that character to the conflict.",
+    "flavorText": "\"Take this as a symbol of our goodwill.\"",
+    "illustrator": "Guillaume Ducos",
+    "name": "Yasuki Oguri",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "Covert\nAction: During a conflict in which this character is defending, spend 1 fate. Choose a character with 1 or more fate on it – move that character to the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-003.jpg"
   },
   {
     "id": "twisted-loyalties-004",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Watchtower of Sun's Shadow",
     "type": "Holding",
     "unique": true,
+    "text": "Limit 1 per deck.\nEach character attacking a province you control with a <em>Kaiu Wall</em> holding gets -1[conflict-military] and -1[conflict-political] for each fate on that character.\n<b>Forced Interrupt:</b> When this holding's province is broken - you lose 2 fate.",
+    "illustrator": "Nele Diel",
+    "name": "Watchtower of Sun's Shadow",
     "clan": "Crab",
     "deck": "dynasty",
     "traits": [
       "Kaiu Wall"
     ],
-    "text": "Limit 1 per deck.\nEach character attacking a province you control with a Kaiu Wall holding gets –1 [mil] and –1 [pol] for each fate on that character.\nForced Interrupt: When this holding's province is broken – you lose 2 fate.",
-    "unverified": true
+    "traitsAscii": [
+      "Kaiu-wall"
+    ],
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-004.jpg"
   },
   {
     "id": "twisted-loyalties-005",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Diplomatic Gift-Giver",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, each player chooses a character controlled by one of their opponents - each player moves 1 fate from their fate pool to the character they chose.",
+    "flavorText": "Each gift forms the foundation of future favor.",
+    "illustrator": "Joshua Cairos",
+    "name": "Diplomatic Gift-Giver",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "3",
+    "political": "4",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating, each player chooses a character controlled by one of their opponents – each player moves 1 fate from their fate pool to the character they chose.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-005.jpg"
   },
   {
     "id": "twisted-loyalties-006",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Keen Warrior",
     "type": "Character",
+    "text": "Sincerity.\n<b>Reaction:</b> After you look at 1 or more cards in an opponent's hand (or those are revealed) - draw 2 cards, then place 1 card from your hand on the bottom of your conflict deck.",
+    "illustrator": "Immar Palomera",
+    "name": "Keen Warrior",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Sincerity\nReaction: After you look at 1 or more cards in an opponent's hand (or those cards are revealed) – draw 2 cards, then place 1 card from your hand on the bottom of your conflict deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-006.jpg"
   },
   {
     "id": "twisted-loyalties-007",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Overlooked Community",
     "type": "Holding",
+    "text": "<b>Action:</b> Return a ring from your claimed ring pool to the unclaimed ring pool. Choose a status token on a character - discard it.",
+    "flavorText": "\"Only one who relinquishes fear is truly free.\" - Tao of Shinsei",
+    "illustrator": "Logan Filiciano",
+    "name": "Overlooked Community",
     "clan": "Dragon",
     "deck": "dynasty",
     "traits": [
       "Village"
     ],
-    "text": "Action: Return a ring from your claimed ring pool to the unclaimed ring pool. Choose a status token on a character – discard it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-007.jpg"
   },
   {
     "id": "twisted-loyalties-008",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Revered Ikoma",
     "type": "Character",
+    "text": "This character cannot receive dishonored status tokens.\n<b>Action:</b> If you have gained 2 or more honor this phase - gain 1 fate.",
+    "illustrator": "Hai Hoang",
+    "name": "Revered Ikoma",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "This character cannot receive dishonored status tokens.\nAction: If you have gained 2 or more honor this phase – gain 1 fate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-008.jpg"
   },
   {
     "id": "twisted-loyalties-009",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Procedural Interference",
     "type": "Event",
+    "text": "<b>Action:</b> Choose an opponent's province. That opponent selects one - either discard each card in that province, or you gain 2 honor.",
+    "flavorText": "The interruption was unorthodox, but none present could gainsay her.",
+    "illustrator": "Lukas Banas",
+    "name": "Procedural Interference",
     "clan": "Lion",
     "deck": "dynasty",
-    "text": "Action: Choose an opponent's province. That opponent selects one – either discard each card in that province, or you gain 2 honor.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-009.jpg"
   },
   {
     "id": "twisted-loyalties-010",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Asako Maezawa",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After this character wins a conflict, choose a character with no fate on it - bow that character. If that character is a [clan-phoenix] character, also dishonor it.",
+    "flavorText": "\"We can only relate to pain that is our own.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Asako Maezawa",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After this character wins a conflict, choose a character with no fate on it – bow that character. If that character is a  character, also dishonor it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-010.jpg"
   },
   {
     "id": "twisted-loyalties-011",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Sinister Peacekeeper",
     "type": "Character",
+    "text": "<em>Keeper</em> role only.\n<b>Reaction:</b> After an opponent gains 1 or more honor - that player loses 1 honor.",
+    "flavorText": "\"Do you truly wish for open war between our clans?\"",
+    "illustrator": "Isuardi Therianto",
+    "name": "Sinister Peacekeeper",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 2,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier",
       "Imperial"
     ],
-    "text": "Keeper role only.\nReaction: After an opponent gains 1 or more honor – that player loses 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-011.jpg"
   },
   {
     "id": "twisted-loyalties-012",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Khanbulak Benefactor",
     "type": "Character",
+    "text": "Dire - While this character is participating in a conflict, reduce the cost to play each card in your hand by 1 <i>(to a minimum of 0)</i>.<i>(This character is dire when it has no fate on it.)</i>\n<b>Reaction:</b> After this character enters play - draw 2 cards.",
+    "illustrator": "Marius Bota",
+    "name": "Khanbulak Benefactor",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "2",
+    "political": "4",
     "traits": [
       "Courtier",
       "Merchant"
     ],
-    "text": "Dire – While this character is participating in a conflict, reduce the cost to play each card in your hand by 1 (to a minimum of 0). (This character is dire when it has no fate on it.)\nReaction: After this character enters play – draw 2 cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-012.jpg"
   },
   {
     "id": "twisted-loyalties-013",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Chikara",
     "type": "Attachment",
     "unique": true,
+    "text": "Attach to a unique [clan-crab] character.\nAncestral. Restricted.\nIf attached character has the <em>Champion</em> trait, it gains \"<b>Reaction:</b> After this character wins a conflict, choose a participating character - that character's controller moves all fate from it to their fate pool, then sacrifices it.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Chikara",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 2,
+    "militaryBonus": "+4",
+    "politicalBonus": "+1",
     "traits": [
       "Weapon"
     ],
-    "text": "Attach to a unique  character.\nAncestral. Restricted.\nIf attached character has the Champion trait, it gains: \"Reaction: After this character wins a conflict, choose a participating character – that character's controller moves all fate from it to their fate pool, then sacrifices it.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-013.jpg"
   },
   {
     "id": "twisted-loyalties-014",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Guardians of Rokugan",
     "type": "Event",
+    "text": "<b>Reaction:</b> After you win a conflict as the defending player - search the top X cards of your dynasty deck for a character with printed cost X or lower and put it into play, where X is the amount of skill by which you won.",
+    "illustrator": "Imad Awan",
+    "name": "Guardians of Rokugan",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Reaction: After you win a conflict as the defending player – search the top X cards of your dynasty deck for a character with printed cost X or lower and put it into play, where X is the amount of skill by which you won.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-014.jpg"
   },
   {
     "id": "twisted-loyalties-015",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Exemplary Etiquette",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict - abilities on characters cannot be triggered this conflict.",
+    "flavorText": "His gentle courtesy eased the hearts of his guests, until they found themselves unwilling to confront him over his vassal's undue aggression.",
+    "illustrator": "Lin Hsiang",
+    "name": "Exemplary Etiquette",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Action: During a conflict – abilities on characters cannot be triggered this conflict.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-015.jpg"
   },
   {
     "id": "twisted-loyalties-016",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Superior Authority",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict - characters without fate do not count their skill toward the resolution of this conflict.",
+    "flavorText": "\"Doji Kayo-san, you are not dismissed. Our tea is not yet finished.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Superior Authority",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Action: During a conflict – characters without fate do not count their skill toward the resolution of this conflict.",
-    "unverified": true
+    "cost": 3,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-016.jpg"
   },
   {
     "id": "twisted-loyalties-017",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Self-Understanding",
     "type": "Attachment",
+    "text": "Restricted.\nThis attachment cannot be chosen as the target of an opponent's event.\nAttached character gains: \"<b>Reaction:</b> After this character wins a conflict - resolve the effect of each ring in your claimed ring pool.\"",
+    "illustrator": "Guillaume Ducos",
+    "name": "Self-Understanding",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 3,
+    "influence": 3,
+    "militaryBonus": "+0",
+    "politicalBonus": "+3",
     "traits": [
       "Condition"
     ],
-    "text": "Restricted.\nThis attachment cannot be chosen as the target of an opponent's event.\nAttached character gains: \"Reaction: After this character wins a conflict – resolve the effect of each ring in your claimed ring pool.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-017.jpg"
   },
   {
     "id": "twisted-loyalties-018",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Renowned Singer",
     "type": "Character",
+    "text": "<em>Water</em> role only.\n<b>Action:</b> If you have gained 2 or more honor this phase, choose an opponent and 2 cards in your conflict discard pile. That opponent chooses 1 of those cards - add the chosen card to your hand and place the other on the bottom of your conflict deck.",
+    "illustrator": "Drazenka Kimpel",
+    "name": "Renowned Singer",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 2,
+    "influence": 2,
+    "military": "0",
+    "political": "1",
     "traits": [
       "Courtier",
       "Storyteller"
     ],
-    "text": "Water role only.\nAction: If you have gained 2 or more honor this phase, choose an opponent and 2 cards in your conflict discard pile. That opponent chooses 1 of those cards – add the chosen card to your hand and place the other on the bottom of your conflict deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-018.jpg"
   },
   {
     "id": "twisted-loyalties-019",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Heresy!",
     "type": "Event",
+    "text": "<em>Void</em> role only.\n<b>Action:</b> During a conflict, initiate a [conflict-political] duel between a character your opponent controls of your choice and a character you control of your opponent's choice - resolve the duel. Remove 1 fate from the duel's loser.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Heresy!",
     "clan": "Phoenix",
     "deck": "conflict",
-    "text": "Void role only.\nAction: During a conflict, initiate a [pol] duel between a character your opponent controls of your choice and a character you control of your opponent's choice – resolve the duel. Remove 1 fate from the duel's loser.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-019.jpg"
   },
   {
     "id": "twisted-loyalties-020",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Kunshu",
     "type": "Attachment",
     "unique": true,
+    "text": "Attach to a unique character you control.\nAncestral. Restricted.\nAttached character gains: \"<b>Action:</b> During a conflict in which this character is participating, discard the Imperial Favor. Choose an event or attachment in your opponent's conflict discard pile – play that card without paying its fate cost.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Kunshu",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 2,
+    "militaryBonus": "+2",
+    "politicalBonus": "+2",
     "traits": [
+      "Imperial",
       "Weapon"
     ],
-    "text": "Attach to a unique character you control.\nAncestral. Restricted\nAttached character gains: \"Action: During a conflict in which this character is participating, discard the Imperial Favor. Choose an event or attachment in your opponent's conflict discard pile – play that card without paying its fate cost.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-020.jpg"
   },
   {
     "id": "twisted-loyalties-021",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Daughter of War",
     "type": "Attachment",
+    "text": "<em>Void</em> role only.\nAttach to a character you control.\n<b>Interrupt:</b> When attached character leaves play – search your dynasty deck for a character with lower printed cost than attached character and put it into play. Shuffle.",
+    "illustrator": "Borja Pindado",
+    "name": "Daughter of War",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
+    "militaryBonus": "+2",
+    "politicalBonus": "+0",
     "traits": [
       "Follower"
     ],
-    "text": "Void role only.\nAttach to a character you control.\nReaction: When attached character leaves play – search your dynasty deck for a character with lower printed cost than attached character and put it into play. Shuffle.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-021.jpg"
   },
   {
     "id": "twisted-loyalties-022",
     "gameId": "l5r-lcg",
     "setId": "twisted-loyalties",
     "publisherId": "ffg",
-    "name": "Make Your Case",
     "type": "Event",
+    "text": "<em>Seeker</em> role only.\n<b>Action:</b> During a conflict, initiate a [conflict-political] duel against a character your opponent controls of their choice - resolve the duel. Place 1 fate on the duel's winner.",
+    "illustrator": "Joshua Cairos",
+    "name": "Make Your Case",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Seeker role only.\nAction: During a conflict, initiate a [pol] duel against a character your opponent controls of their choice – resolve the duel. Place 1 fate on the duel's winner.",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-022.jpg"
   }
 ]

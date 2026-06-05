@@ -4,343 +4,433 @@
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Seven Stings Keep",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Interrupt:</b> When you declare a conflict, choose a number greater than 0 and bow this stronghold – your opponent declares defenders for this conflict. Then declare the conflict <i>(choosing attackers, ring, conflict type, and province)</i>. You must declare a number of attackers equal to the number you chose.",
+    "illustrator": "Imad Awan",
+    "name": "Seven Stings Keep",
     "clan": "Scorpion",
+    "honor": 10,
+    "fate": 7,
+    "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "text": "Interrupt: When you declare a conflict, choose a number greater than 0 and bow this stronghold – your opponent declares defenders for this conflict. Then declare the conflict (choosing attackers, ring, conflict type, and province). You must declare a number of attackers equal to the number you chose.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-025.jpg"
   },
   {
     "id": "spreading-shadows-026",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Shinsei's Last Hope",
     "type": "Province",
     "unique": true,
+    "text": "Eminent. <i>(This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)</i>\nEach character played from this province costs 2 less to play and enters play dishonored.",
+    "illustrator": "Frej Agelii",
+    "name": "Shinsei's Last Hope",
     "clan": "Crab",
+    "strength": 3,
     "traits": [
       "Village"
     ],
-    "text": "Eminent. (This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)\nEach character played from this province costs two less to play and enters play dishonored.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-026.jpg"
   },
   {
     "id": "spreading-shadows-027",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Spectral Visitation",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed, discard the top 4 cards of your dynasty deck. Choose a character in your dynasty discard pile - put that character into play. If it is in play at the end of the phase, put it on the bottom of your dynasty deck.",
+    "illustrator": "Apterus",
+    "name": "Spectral Visitation",
     "clan": "Lion",
+    "strength": 4,
     "traits": [
       "Spirit"
     ],
-    "text": "Reaction: After this province is revealed, discard the top 4 cards of your dynasty deck – choose a character in your dynasty discard pile and put that character into play",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-027.jpg"
   },
   {
     "id": "spreading-shadows-028",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Retire to the Brotherhood",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed - each player discards each character they control with no fate, reveals cards from the top of their dynasty deck until an equal number of characters are revealed, and puts those characters into play. Shuffle.",
+    "illustrator": "Lukas Banas",
+    "name": "Retire to the Brotherhood",
     "clan": "Phoenix",
-    "text": "Reaction: After this province is revealed – each player discards each character they control with no fate, reveals cards from the top of their dynasty deck until an equal number of characters are revealed, and puts those characters into play. Shuffle.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-028.jpg"
   },
   {
     "id": "spreading-shadows-029",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Wind's Path",
     "type": "Province",
     "unique": true,
+    "text": "Eminent.\nDuring conflicts, you may play each character in this province as if it were in your hand. Each character played this way must enter play in the conflict.",
+    "illustrator": "Nele Diel",
+    "name": "Wind's Path",
     "clan": "Unicorn",
+    "strength": 5,
     "traits": [
       "Road"
     ],
-    "text": "Eminent.\nDuring conflicts, you may play each character in this province as if it were in your hand. Each character played this way must enter play in the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-029.jpg"
   },
   {
     "id": "spreading-shadows-030",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Driven By Courage",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at an [element-air] province, choose a participating character - that character gets +2[conflict-military] and +2[conflict-political] until the end of the conflict.",
+    "illustrator": "John Anthony Di Giovanni",
+    "name": "Driven By Courage",
     "clan": "Neutral",
-    "text": "Action: During a conflict at an [air] province, choose a participating character – that character gets +2[mil] and +2[pol] until the end of the conflict.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-030.jpg"
   },
   {
     "id": "spreading-shadows-031",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Butcher of the Fallen",
     "type": "Character",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\nWhile this character is attacking, characters with less [conflict-military] skill than the number of unbroken provinces you control cannot be declared as defenders.\n<i>Errata from RRG v15 (2020-10-05)</i>",
+    "illustrator": "Carlos Dias",
+    "name": "Butcher of the Fallen",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "6",
     "traits": [
       "Bushi",
       "Berserker"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nWhile this character is attacking, characters with less [mil] skill than the number of unbroken provinces you control cannot be declared as defenders.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-031.png"
   },
   {
     "id": "spreading-shadows-032",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Cunning Negotiator",
     "type": "Character",
+    "text": "Rally.\n<b>Action:</b> During a conflict, initiate a [conflict-political] duel against a character your opponent controls of their choice - resolve the duel. The controller of the duel's winner may trigger the attacked province's action ability as if they controlled the province, even if it has already been triggered this round (or specified period).",
+    "illustrator": "Jake Murray",
+    "name": "Cunning Negotiator",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "1",
+    "political": "5",
     "traits": [
       "Courtier",
       "Duelist"
     ],
-    "text": "Rally.\nAction: During a conflict, initiate a [pol] duel against a character your opponent controls of their choice – resolve the duel. The controller of the duel's winner may trigger the attacked province's action ability as if they controlled the province, even if it has already been triggered this round (or specified period).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-032.jpg"
   },
   {
     "id": "spreading-shadows-033",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Daidoji Marketplace",
     "type": "Holding",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Reaction:</b> After the conflict phase begins - reveal this holding's province.",
+    "illustrator": "Charles Urbach",
+    "name": "Daidoji Marketplace",
     "clan": "Crane",
     "deck": "dynasty",
     "traits": [
       "Marketplace"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nReaction: After the conflict phase begins – reveal this holding's province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-033.jpg"
   },
   {
     "id": "spreading-shadows-034",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Traveling Philosopher",
     "type": "Character",
+    "text": "<b>Interrupt:</b> When this character leaves play, choose an unbroken province you control – turn that province facedown.",
+    "flavorText": "\"In another lifetime, her untrod path shall be a road.\" – Togashi Mitsu",
+    "illustrator": "Leanna Crossan",
+    "name": "Traveling Philosopher",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Monk"
     ],
-    "text": "Interrupt: When this character leaves play, choose an unbroken province you control – turn that province facedown.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-034.jpg"
   },
   {
     "id": "spreading-shadows-035",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Chronicler of Conquests",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, if there is a <em>Battlefield</em> in play - gain 1 honor.",
+    "flavorText": "\"I have seen the flames of war rage across the plain, consuming palace and city and monastery alike. It is a sight I will never forget.\"",
+    "illustrator": "Matt Bulahao",
+    "name": "Chronicler of Conquests",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating, if there is a Battlefield in play – gain 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-035.jpg"
   },
   {
     "id": "spreading-shadows-036",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Inspired Visionary",
     "type": "Character",
+    "text": "<b>Reaction:</b> After the fate phase begins, bow this character and choose an attachment – shuffle that attachment into its owner's conflict deck. That player draws 1 card.",
+    "flavorText": "\"What need have we for weapons and armor when we have the Kami at our side?\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Inspired Visionary",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Reaction: After the fate phase begins, bow this character and choose an attachment – shuffle that attachment into its owner's conflict deck. That player draws 1 card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-036.jpg"
   },
   {
     "id": "spreading-shadows-037",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Thunder Guard Elite",
     "type": "Character",
+    "text": "Pride.\n<b>Action:</b> During a conflict in which this character is participating, lose 1 honor - your opponent discards 1 random card from their hand.",
+    "flavorText": "\"The Kami only know how many cells these Thunder Guard fill, how many bodies they leave behind...\" - Crime Lord Ikku",
+    "illustrator": "Guillaume Ducos",
+    "name": "Thunder Guard Elite",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Pride.\nAction: During a conflict in which this character is participating, lose 1 honor – your opponent discards 1 random card from their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-037.jpg"
   },
   {
     "id": "spreading-shadows-038",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Dispatch to Nowhere",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a character with no fate - discard that character.",
+    "flavorText": "\"Your loyalty has been recognized, and you may take up your new assignment in Kinbō Province at once.\" – Soshi Shiori",
+    "illustrator": "Leanna Crossan",
+    "name": "Dispatch to Nowhere",
     "clan": "Scorpion",
     "deck": "dynasty",
-    "text": "Action: Choose a character with no fate – discard it.",
-    "unverified": true
+    "cost": 1,
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-038.jpg"
   },
   {
     "id": "spreading-shadows-039",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Twilight Rider",
     "type": "Character",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Reaction:</b> After this character moves to a conflict, choose a character – ready that character.",
+    "illustrator": "Imad Awan",
+    "name": "Twilight Rider",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi",
       "Cavalry",
       "Scout"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nReaction: After this character moves to a conflict, choose a character – ready that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-039.jpg"
   },
   {
     "id": "spreading-shadows-040",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Moto Stables",
     "type": "Holding",
+    "text": "<b>Reaction:</b> After a character you control moves to a conflict - it gets +2[conflict-military] until the end of the conflict. (Limit twice per round.)",
+    "illustrator": "Leanna Crossan",
+    "name": "Moto Stables",
     "clan": "Unicorn",
     "deck": "dynasty",
-    "text": "Reaction: After a character you control moves to a conflict – it gets +2[mil] until the end of the conflict. (Limit twice per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-040.jpg"
   },
   {
     "id": "spreading-shadows-041",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Disciple of Shinsei",
     "type": "Character",
+    "text": "<b>Interrupt:</b> When this character leaves play, choose an attachment – discard it.",
+    "flavorText": "\"If we do not let go our fear and our desire, we will be trapped in this cycle for eternity.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Disciple of Shinsei",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Brotherhood"
     ],
-    "text": "Interrupt: When this character leaves play, choose an attachment – discard it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-041.jpg"
   },
   {
     "id": "spreading-shadows-042",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Obsidian Talisman",
     "type": "Attachment",
+    "text": "<em>Void</em> role only.\n<b>Action:</b> Lose 1 honor - discard a status token from attached character. (Unlimited.)",
+    "flavorText": "\"Did this power not also come from the heavens?\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Obsidian Talisman",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Item",
       "Shadowlands"
     ],
-    "text": "Void role only.\nAction: Lose 1 honor – discard a status token from attached character. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-042.jpg"
   },
   {
     "id": "spreading-shadows-043",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Highlight the Flaws",
     "type": "Event",
+    "text": "<em>Fire</em> role only.\n<b>Interrupt:</b> When the effects of a province's triggered ability would initiate – cancel those effects.",
+    "flavorText": "\"Do not make the mistake of inviting a master artisan into your home.\" - Kitsuki Chiari",
+    "illustrator": "Felipe Gaona",
+    "name": "Highlight the Flaws",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Fire role only.\nInterrupt: When the effects of a province's triggered ability would initiate – cancel those effects.",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-043.jpg"
   },
   {
     "id": "spreading-shadows-044",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Mountaintop Vigil",
     "type": "Event",
+    "text": "<em>Void</em> role only.\n<b>Action:</b> During a conflict - cancel all ring effects until the end of the conflict.",
+    "flavorText": "None knew what had brought them together, yet is was agreed that none could find their answers alone.",
+    "illustrator": "Leanna Crossan",
+    "name": "Mountaintop Vigil",
     "clan": "Dragon",
     "deck": "conflict",
-    "text": "Void role only.\nAction: During a conflict – cancel all ring effects until the end of the conflict.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-044.jpg"
   },
   {
     "id": "spreading-shadows-045",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Logistics",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a card in or attached to a province - move that card to another unbroken non-stronghold province controlled by the same player. If there is a <em>Battlefield</em> in play, draw 1 card.",
+    "illustrator": "Joyce Maureira",
+    "name": "Logistics",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Tactic"
     ],
-    "text": "Action: Choose a card in or attached to a province – move that card to another unbroken non-stronghold province controlled by the same player. If there is a Battlefield in play, draw 1 card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-045.jpg"
   },
   {
     "id": "spreading-shadows-046",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Ethereal Alignment",
     "type": "Event",
+    "text": "<b>Interrupt:</b> When the conflict phase ends, choose a broken province that shares an element with a ring in your claimed ring pool - restore that province. Remove this card from the game.",
+    "flavorText": "\"This was never your fate.\"",
+    "illustrator": "Calvin Chua",
+    "name": "Ethereal Alignment",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 5,
+    "influence": 4,
     "traits": [
       "Spell",
       "Void"
     ],
-    "text": "Interrupt: When the conflict phase ends, choose a broken province that shares an element with a ring in your claimed ring pool – restore that province. Remove this card from the game.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-046.jpg"
   },
   {
     "id": "spreading-shadows-047",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Suffer the Consequences",
     "type": "Event",
+    "text": "<em>Earth</em> role only.\n<b>Action:</b> During the conflict phase, sacrifice a bowed <i>(friendly)</i> <em>Bushi</em>, <em>Courtier</em>, or <em>Shugenja</em> character - you may declare an additional [conflict-political] conflict this phase. (Max 1 per phase.)",
+    "illustrator": "Felipe Gaona",
+    "name": "Suffer the Consequences",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Earth role only.\nAction: During the conflict phase, sacrifice a bowed (friendly) Bushi, Courtier, or Shugenja character – you may declare an additional [pol] conflict this phase. (Max 1 per phase.)",
-    "unverified": true
+    "cost": 2,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-047.jpg"
   },
   {
     "id": "spreading-shadows-048",
     "gameId": "l5r-lcg",
     "setId": "spreading-shadows",
     "publisherId": "ffg",
-    "name": "Never Yield",
     "type": "Event",
+    "text": "<b>Reaction:</b> After you declare an attack - until the end of the conflict, each character you control cannot be bowed or moved home by opponents' card effects.",
+    "illustrator": "Francesca Baerald",
+    "name": "Never Yield",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 4,
     "traits": [
       "Philosophy"
     ],
-    "text": "Reaction: After you declare an attack – until the end of the conflict, each character you control cannot be bowed or moved home by opponents' card effects.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-048.jpg"
   }
 ]

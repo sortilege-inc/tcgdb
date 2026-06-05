@@ -4,294 +4,385 @@
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Frostbitten Crossing",
     "type": "Province",
+    "text": "<em>Air</em> role only.\n<b>Action:</b> During a conflict at this province, choose a participating character – discard each attachment on that character.",
+    "illustrator": "Eli Ring",
+    "name": "Frostbitten Crossing",
     "clan": "Neutral",
-    "text": "Air role only.\nAction: During a conflict at this province, choose a participating character – discard each attachment on that character.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-021.jpg"
   },
   {
     "id": "for-honor-and-glory-022",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Riot in the Streets",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at this province, if you control 3 or more participating <em>Bushi</em> characters, choose a participating character – bow that character.",
+    "illustrator": "Kevin Zamir Goeke",
+    "name": "Riot in the Streets",
     "clan": "Neutral",
-    "text": "Action: During a conflict at this province, if you control 3 or more participating Bushi characters, choose a participating character – bow that character.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-022.jpg"
   },
   {
     "id": "for-honor-and-glory-023",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Stoic Magistrate",
     "type": "Character",
+    "text": "While this character is defending, each character with printed cost 2 or lower does not count its skill toward the resolution of this conflict.",
+    "flavorText": "\"There is no justice. There is just us.\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Stoic Magistrate",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Imperial",
       "Magistrate"
     ],
-    "text": "While this character is defending, each character with printed cost 2 or lower does not count its skill toward the resolution of this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-023.jpg"
   },
   {
     "id": "for-honor-and-glory-024",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Kabuki Hero",
     "type": "Character",
+    "text": "<b>Action:</b> Spend 1 fate – this character gets +X[conflict-military] until the end of the conflict. X is equal to its [conflict-political] skill.",
+    "flavorText": "\"As a tear of dew on a fallen leaf –\nas the glimmer of moonlight on a still lake –\nsuch is the impermanence of this life.\"\n – Asahina Ichikawa",
+    "illustrator": "Jason Juta",
+    "name": "Kabuki Hero",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier",
       "Actor"
     ],
-    "text": "Action: Spend 1 fate – this character gets +X[mil] until the end of the conflict. X is equal to its [pol] skill.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-024.jpg"
   },
   {
     "id": "for-honor-and-glory-025",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Northern Wall Sensei",
     "type": "Character",
+    "text": "<em>Keeper</em> role only.\n<b>Action:</b> While this character is participating in a conflict, choose a participating character you control with 1 or more attachments – until the end of the conflict, that character is immune to events.",
+    "illustrator": "Samuel Leung",
+    "name": "Northern Wall Sensei",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Keeper role only.\nAction: While this character is participating in a conflict, choose a participating character you control with 1 or more attachments – until the end of the conflict, that character is immune to events.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-025.jpg"
   },
   {
     "id": "for-honor-and-glory-026",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Ikoma Ujiaki",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While this character is participating in a conflict, discard the Imperial Favor – turn each facedown card in each of your provinces faceup. Then, put up to 2 characters from your provinces into play participating in this conflict.",
+    "flavorText": "\"I remember.\"",
+    "illustrator": "Diego Gisbert Llorens",
+    "name": "Ikoma Ujiaki",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "3",
+    "political": "5",
     "traits": [
       "Bushi",
       "Courtier"
     ],
-    "text": "Action: While this character is participating in a conflict, discard the Imperial Favor – turn each facedown card in each of your provinces faceup. Then, put up to 2 characters from your provinces into play participating in this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-026.jpg"
   },
   {
     "id": "for-honor-and-glory-027",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Magnificent Lighthouse",
     "type": "Holding",
+    "text": "<b>Action:</b> Look at the top 3 cards of an opponent's deck. Discard 1 of those cards, place another on top of that deck, and the other on the bottom of that deck.",
+    "illustrator": "Kevin Zamir Goeke",
+    "name": "Magnificent Lighthouse",
     "clan": "Phoenix",
     "deck": "dynasty",
     "traits": [
       "Landmark"
     ],
-    "text": "Action: Look at the top 3 cards of an opponent's deck. Discard 1 of those cards, place another on top of that deck, and the other on the bottom of that deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-027.jpg"
   },
   {
     "id": "for-honor-and-glory-028",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Bayushi Yojiro",
     "type": "Character",
     "unique": true,
+    "text": "While this character is participating in a conflict, ignore the effects of each status token on each participating character.",
+    "flavorText": "\"If you will not believe a word I say, I may as well tell the truth.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Bayushi Yojiro",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi",
       "Imperial",
       "Magistrate"
     ],
-    "text": "While this character is participating in a conflict, ignore the effects of each status token on each participating character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-028.jpg"
   },
   {
     "id": "for-honor-and-glory-029",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Ide Tadaji",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While this character is participating in a conflict, choose a ready non-participating character with printed cost 2 or lower controller by each player – move each chosen character to the conflict.",
+    "flavorText": "\"Without a worthy opponent, victory is meaningless.\"",
+    "illustrator": "Polar Engine",
+    "name": "Ide Tadaji",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "1",
+    "political": "4",
     "traits": [
       "Courtier",
       "Daimyō"
     ],
-    "text": "Action: While this character is participating in a conflict, choose a ready non-participating character with printed cost 2 or lower controlled by each player – move each chosen character to the conflict.",
-    "unverified": true
+    "traitsAscii": [
+      "Courtier",
+      "Daimyo"
+    ],
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-029.jpg"
   },
   {
     "id": "for-honor-and-glory-030",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Miwaku Kabe",
     "type": "Holding",
     "unique": true,
+    "text": "Limit 1 per deck.\n<b>Interrupt:</b> When this holding's province is broken – shuffle this card back into your dynasty deck.",
+    "illustrator": "Nele Diel",
+    "name": "Miwaku Kabe",
     "clan": "Neutral",
     "deck": "dynasty",
     "traits": [
       "Imperial"
     ],
-    "text": "Limit 1 per deck.\nInterrupt: When this holding's province is broken – shuffle this card back into your dynasty deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-030.jpg"
   },
   {
     "id": "for-honor-and-glory-031",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Pathfinder's Blade",
     "type": "Attachment",
+    "text": "<em>Seeker</em> role only.\n<b>Interrupt:</b> When the effects of a triggered ability on the attacked province would initiate, if attached character is attacking, sacrifice this attachment – cancel those effects.",
+    "illustrator": "Giby Joseph",
+    "name": "Pathfinder's Blade",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon"
     ],
-    "text": "Seeker role only.\nInterrupt: When the effects of a triggered ability on the attacked province would initiate, if attached character is attacking, sacrifice this attachment – cancel those effects.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-031.jpg"
   },
   {
     "id": "for-honor-and-glory-032",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Raise the Alarm",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-military] conflict in which you are the defending player – turn a dynasty card in the attacked province faceup. Then, if that card is a character, put it into play as a defender.",
+    "illustrator": "Felipe Gaona",
+    "name": "Raise the Alarm",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Action: During a [mil] conflict in which you are the defending player – turn a dynasty card in the attacked province faceup. Then, if that card is a character, put it into play as a defender.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-032.jpg"
   },
   {
     "id": "for-honor-and-glory-033",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Kakita Blade",
     "type": "Attachment",
+    "text": "Restricted.\nAttached character gets +2[conflict-political] while it is involved in a duel.\n<b>Reaction:</b> After attached character wins a duel – gain 1 honor.",
+    "illustrator": "Shen Fei",
+    "name": "Kakita Blade",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+2",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon"
     ],
-    "text": "Restricted.\nAttached character gets +2[pol] while it is involved in a duel.\nReaction: After attached character wins a duel – gain 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-033.jpg"
   },
   {
     "id": "for-honor-and-glory-034",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "High Kick",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-military] conflict, bow a <i>(friendly)</i> participating <em>Monk</em> character. Choose a participating character controlled by your opponent – bow that character. It cannot trigger abilities during this conflict.",
+    "illustrator": "Oscar Römer",
+    "name": "High Kick",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Technique"
     ],
-    "text": "Action: During a [mil] conflict, bow a (friendly) participating Monk character. Choose a participating character controlled by your opponent – bow that character. It cannot trigger abilities during this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-034.jpg"
   },
   {
     "id": "for-honor-and-glory-035",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Kamayari",
     "type": "Attachment",
+    "text": "<em>Bushi</em> character only. Restricted.\n<b>Reaction:</b> After a character triggers an ability during a conflict in which attached character is participating – bow that character.",
+    "illustrator": "Oscar Römer",
+    "name": "Kamayari",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
+    "militaryBonus": "+3",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon"
     ],
-    "text": "Bushi character only. Restricted.\nReaction: After a character triggers an ability during a conflict in which attached character is participating – bow that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-035.jpg"
   },
   {
     "id": "for-honor-and-glory-036",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Shrine Maiden",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character enters play, reveal the top 3 cards of your conflict deck – add each <em>Spell</em> and each <em>Kihō</em> card revealed by this ability to your hand and discard the rest.",
+    "flavorText": "\"My family has protected this shrine for generations, and we shall protect it for generations more.\"",
+    "illustrator": "Shen Fei",
+    "name": "Shrine Maiden",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 0,
+    "influence": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Monk"
     ],
-    "text": "Reaction: After this character enters play, reveal the top 3 cards of your conflict deck – add each Spell and each Kihō card revealed by this ability to your hand and discard the rest.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-036.jpg"
   },
   {
     "id": "for-honor-and-glory-037",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Harmonize",
     "type": "Event",
+    "text": "<em>Keeper</em> role only.\n<b>Action:</b> During a conflict in which you are the defending player, choose a defending character and an attacking character with equal or lower printed cost – move each chosen character home.",
+    "illustrator": "Eli Ring",
+    "name": "Harmonize",
     "clan": "Phoenix",
     "deck": "conflict",
-    "text": "Keeper role only.\nAction: During a conflict in which you are the defending player, choose a defending character and an attacking character with equal or lower printed cost – move each chosen character home.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-037.jpg"
   },
   {
     "id": "for-honor-and-glory-038",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Seal of the Scorpion",
     "type": "Attachment",
+    "text": "Attached character gains the [clan-scorpion] clan symbol and the <em>Shinobi</em> trait.",
+    "flavorText": "In the name of Lord Bayushi Shoju,\nthe Most Dutiful,\nMaster of Secrets,\namong other titles known and unknown,\nDaimyō of the Bayushi, and\nChampion of the Scorpion Clan",
+    "illustrator": "Mauro Dal Bo",
+    "name": "Seal of the Scorpion",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Item",
       "Seal"
     ],
-    "text": "Attached character gains the  clan symbol and the Shinobi trait.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-038.jpg"
   },
   {
     "id": "for-honor-and-glory-039",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Shinjo Saddle",
     "type": "Attachment",
+    "text": "<em>Cavalry</em> character only.\n<b>Action:</b> Choose a <em>Cavalry</em> character you control – attach this card to that character.",
+    "flavorText": "Among the Unicorn, one inherits more than just a daishō.",
+    "illustrator": "Jason Juta",
+    "name": "Shinjo Saddle",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Item"
     ],
-    "text": "Cavalry character only.\nAction: Choose a Cavalry character you control – attach this card to that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-039.jpg"
   },
   {
     "id": "for-honor-and-glory-040",
     "gameId": "l5r-lcg",
     "setId": "for-honor-and-glory",
     "publisherId": "ffg",
-    "name": "Policy Debate",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating character you control and a participating character your opponent controls – your character challenges the opponent's character to a [conflict-political] duel. The controller of the losing character reveals his or her hand. That player's opponent chooses and discards 1 card from it.",
+    "illustrator": "Borja Pindado",
+    "name": "Policy Debate",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During a conflict, choose a participating character you control and a participating character your opponent controls – your character challenges the opponent's character to a [pol] duel. The controller of the losing character reveals his or her hand. That player's opponent chooses and discards 1 card from it.",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-040.jpg"
   }
 ]

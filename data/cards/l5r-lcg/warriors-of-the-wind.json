@@ -4,439 +4,603 @@
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Shiro Shinjo",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Reaction:</b> After you collect fate during the dynasty phase, choose an opponent and bow this stronghold - gain 1 fate for each faceup non-stronghold province controlled by that player.",
+    "illustrator": "Chris Ostrowski",
+    "name": "Shiro Shinjo",
     "clan": "Unicorn",
+    "honor": 10,
+    "fate": 6,
+    "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "text": "Reaction: After you collect fate during the dynasty phase, choose an opponent and bow this stronghold – gain 1 fate for each faceup non-stronghold province controlled by that player.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-001.jpg"
   },
   {
     "id": "warriors-of-the-wind-002",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Khan's Ordu",
     "type": "Province",
+    "unique": true,
+    "text": "<b>Reaction:</b> After this province is revealed - if the current conflict is [conflict-political], switch the conflict type. Each conflict declared this phase is [conflict-military] instead of its normal type.",
+    "illustrator": "Luis Nunez De Castro Torres",
+    "name": "Khan's Ordu",
     "clan": "Unicorn",
-    "text": "Reaction: After this province is revealed – if the current conflict is [pol], switch the conflict type. Each conflict declared this phase is [mil] instead of its normal type.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-002.jpg"
   },
   {
     "id": "warriors-of-the-wind-003",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Support of the Unicorn",
     "type": "Role",
-    "clan": "Neutral",
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on [clan-unicorn] clan cards.",
+    "name": "Support of the Unicorn",
     "traits": [
       "Unicorn"
     ],
-    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-003.jpg"
   },
   {
     "id": "warriors-of-the-wind-004",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Wild Stallion",
     "type": "Character",
+    "text": "No attachments.\n<b>Action</b>: During a conflict in which this character is not participating, choose up to 1 other character you control - move this character and that character to the conflict.",
+    "illustrator": "Eli Ring",
+    "name": "Wild Stallion",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "1",
+    "political": "0",
     "traits": [
       "Creature"
     ],
-    "text": "No attachments.\nAction: During a conflict in which this character is not participating, choose up to 1 other character you control – move this character and that character to the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-004.jpg"
   },
   {
     "id": "warriors-of-the-wind-005",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Young Warrior",
     "type": "Character",
+    "text": "This character must be declared as an attacker or defender in the first conflict declared each round.",
+    "flavorText": "Utaku women prove early on whether they have the strength and dedication to join the venerated ranks of the shiotome.",
+    "illustrator": "Anthony Grabski",
+    "name": "Young Warrior",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Cavalry",
       "Battle Maiden"
     ],
-    "text": "This character must be declared as an attacker or defender on the first conflict declared each round.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Cavalry",
+      "Battle-maiden"
+    ],
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-005.jpg"
   },
   {
     "id": "warriors-of-the-wind-006",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Shinjo Trailblazer",
     "type": "Character",
+    "text": "<b>Reaction:</b> After an opponent's province is revealed during a conflict - this character gets +2[conflict-military] and +2[conflict-political] until the end of the conflict.",
+    "flavorText": "\"Do you fear what lies beyond your sight?\"",
+    "illustrator": "Edwin David",
+    "name": "Shinjo Trailblazer",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Reaction: After an opponent's province is revealed during a conflict – this character gets +2 [mil] and +2 [pol] until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-006.jpg"
   },
   {
     "id": "warriors-of-the-wind-007",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Iuchi Farseer",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character enters play, choose an opponent's facedown province - reveal that province.",
+    "illustrator": "Derek D. Edgell",
+    "name": "Iuchi Farseer",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Reaction: After this character enters play, choose an opponent's facedown province – reveal that province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-007.jpg"
   },
   {
     "id": "warriors-of-the-wind-008",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Saadiyah al-Mozedu",
     "type": "Character",
     "unique": true,
+    "text": "Sincerity.\n<b>Action:</b> Discard a card from your hand and choose an unbroken province not currently being attacked - turn that province facedown.",
+    "flavorText": "\"When I turned sixteen I vowed to escape or to die in the attempt, thereby to free my father to act against the caliph's tyranny.\"",
+    "illustrator": "Maerel Hibadita",
+    "name": "Saadiyah al-Mozedu",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "0",
+    "political": "3",
     "traits": [
       "Courtier",
       "Gaijin",
       "Scholar"
     ],
-    "text": "Sincerity.\nAction: Discard a card from your hand and choose an unbroken province not currently being attacked – turn that province facedown.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-008.jpg"
   },
   {
     "id": "warriors-of-the-wind-009",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Iuchi Daiyu",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict, choose a character - that character gets +1[conflict-military] until the end of the conflict for each faceup non-stronghold province your opponent controls.",
+    "flavorText": "Even the greatest amount of love for his firstborn daughter could not hinder his duty to the Emperor.",
+    "illustrator": "Le Vuong",
+    "name": "Iuchi Daiyu",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Water",
       "Cavalry",
       "Daimyō"
     ],
-    "text": "Action: During a conflict, choose a character – that character gets +1[mil] until the end of the conflict for each faceup non-stronghold province your opponent controls.",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Water",
+      "Cavalry",
+      "Daimyo"
+    ],
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-009.jpg"
   },
   {
     "id": "warriors-of-the-wind-010",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Moto Chagatai",
     "type": "Character",
     "unique": true,
+    "text": "This character does not bow during the conflict resolution of conflicts in which a province your opponent controls was broken.",
+    "flavorText": "\"Where is it written that the Khan of Khans must always be a Shinjo?\"",
+    "illustrator": "Amélie Hutt",
+    "name": "Moto Chagatai",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "6",
+    "political": "3",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "This character does not bow during the conflict resolution of conflicts in which a province your opponent controls was broken.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-010.jpg"
   },
   {
     "id": "warriors-of-the-wind-011",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Aranat",
     "type": "Character",
     "unique": true,
+    "text": "No attachments.\n<b>Reaction:</b> After you play this character, choose an opponent - that player may reveal any number of his or her facedown non-stronghold provinces. Then, place 1 fate on this character for each facedown province that player controls <i>(including their stronghold province)</i>.",
+    "illustrator": "Olly Lawson",
+    "name": "Aranat",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 6,
+    "glory": 0,
+    "military": "6",
+    "political": "6",
     "traits": [
       "Creature",
       "Air",
       "Mythic",
       "Spirit"
     ],
-    "text": "No attachments.\nReaction: After you play this character, choose an opponent – that player may reveal any number of his or her facedown non-stronghold provinces. Then, place 1 fate on this character for each facedown province that player controls (including their stronghold province).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-011.jpg"
   },
   {
     "id": "warriors-of-the-wind-012",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Hida Tsuru",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After a character is moved to or played into a conflict in which this character is participating - until the end of the conflict, this character gets +1[conflict-military] and +1[conflict-political]. (Unlimited.)",
+    "flavorText": "\"We cannot simply hide on our wall and wait.\"",
+    "illustrator": "Lukas Banas",
+    "name": "Hida Tsuru",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Reaction: After a character is moved to or played into a conflict in which this character is participating – until the end of the conflict, this character gets +1[mil] and +1[pol]. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-012.jpg"
   },
   {
     "id": "warriors-of-the-wind-013",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Kakita Ryoku",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After a phase begins, if you have the Imperial Favor, choose a character - honor that character.",
+    "flavorText": "From the virtue of her writing, gossip about the former Imperial Advisor inevitably becomes reverent praise.",
+    "illustrator": "Joyce Maureira",
+    "name": "Kakita Ryoku",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Courtier",
       "Imperial"
     ],
-    "text": "Reaction: After a phase begins, if you have the Imperial Favor, choose a character – honor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-013.jpg"
   },
   {
     "id": "warriors-of-the-wind-014",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Agasha Taiko",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After you play this character, choose a non-stronghold province - that province cannot be attacked this round.",
+    "flavorText": "\"How could it be wrong to seek the enlightenment the ise zumi so effortlessly possess, when we all work towards Togashi's wisdom?\"",
+    "illustrator": "Albert Tavira",
+    "name": "Agasha Taiko",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After you play this character, choose a non-stronghold province – that province cannot be attacked this round.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-014.jpg"
   },
   {
     "id": "warriors-of-the-wind-015",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Kaito Nobukai",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating, sacrifice this character - bow each participating character. Characters cannot be moved to this conflict.",
+    "flavorText": "\"The art of archery is the art of letting go.\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Kaito Nobukai",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Courtier",
       "Daimyō"
     ],
-    "text": "Action: During a conflict in which this character is participating, sacrifice this character – bow each participating character. Characters cannot be moved to this conflict.",
-    "unverified": true
+    "traitsAscii": [
+      "Courtier",
+      "Daimyo"
+    ],
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-015.jpg"
   },
   {
     "id": "warriors-of-the-wind-016",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Shosuro Hyobu",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After an opponent discards 1 or more cards from his or her hand due to the cost or effect of a card ability, choose a character - dishonor that character.",
+    "illustrator": "Joyce Maureira",
+    "name": "Shosuro Hyobu",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: After an opponent discards 1 or more cards from his or her hand due to the cost or effect of a card ability, choose a character – dishonor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-016.jpg"
   },
   {
     "id": "warriors-of-the-wind-017",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Ivory Kingdoms Unicorn",
     "type": "Character",
+    "text": "No attachments.\n<b>Reaction:</b> After the resolution of a conflict in which this character was attacking, if a province was broken in the conflict - immediately declare your next conflict for the phase. That conflict is [conflict-military] instead of its normal type.",
+    "flavorText": "\"Fat, stupid, and ugly. A perfect unicorn!\" - Caliph Harun",
+    "illustrator": "Eli Ring",
+    "name": "Ivory Kingdoms Unicorn",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "4",
     "traits": [
       "Creature",
       "Gaijin"
     ],
-    "text": "No attachments.\nReaction: After the resolution of a conflict in which this character was attacking, if a province was broken in the conflict – immediately declare your next conflict for the phase. That conflict is [mil] instead of its normal type.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-017.jpg"
   },
   {
     "id": "warriors-of-the-wind-018",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Visiting Advisor",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose up to 1 other character you control - move this character and that character home.",
+    "flavorText": "She comes with foreign wisdom and leaves with fresh alliances.",
+    "illustrator": "Gong Studios",
+    "name": "Visiting Advisor",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 2,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier",
       "Cavalry"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose up to 1 other character you control – move this character and that character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-018.jpg"
   },
   {
     "id": "warriors-of-the-wind-019",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Shinomen Wayfinders",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>.\nDuring a conflict, reduce the cost to play this character by 1 for each participating [clan-unicorn] character you control.",
+    "flavorText": "\"There are strange creatures that lie within Shinomen that are... unlikely to greet us as friends. Stay on your guard.\" - Shinjo Tatsuo",
+    "illustrator": "Jarreau Wimberly",
+    "name": "Shinomen Wayfinders",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 4,
+    "glory": 1,
+    "influence": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi",
       "Cavalry",
       "Scout"
     ],
-    "text": "No attachments except Weapon\nAction: During a conflict, reduce the cost to play this character by 1 for each participating  character you control.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-019.jpg"
   },
   {
     "id": "warriors-of-the-wind-020",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Curved Blade",
     "type": "Attachment",
+    "text": "Attach to a [clan-unicorn] character. Restricted.\nWhile attached character is attacking, it gets an additional +2[conflict-military].",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Curved Blade",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon",
       "Gaijin"
     ],
-    "text": "Attach to a  character. Restricted.\nWhile attached character is attacking, it gets an additional +2[mil].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-020.jpg"
   },
   {
     "id": "warriors-of-the-wind-021",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Ring of Binding",
     "type": "Attachment",
+    "text": "During the fate phase, if you are the first player, attached character cannot lose fate or be discarded.",
+    "flavorText": "\"For the next thousand days and a day, may you contemplate the suffering you have wrought upon the lives of innocents.\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Ring of Binding",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Item",
       "Meishōdō"
     ],
-    "text": "During the fate phase, if you are the first player, attached character cannot lose fate or be discarded.",
-    "unverified": true
+    "traitsAscii": [
+      "Item",
+      "Meishodo"
+    ],
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-021.jpg"
   },
   {
     "id": "warriors-of-the-wind-022",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Utaku Battle Steed",
     "type": "Attachment",
+    "text": "Attach to a [clan-unicorn] character.\nAttached character gains the <em>Cavalry</em> trait.\n<b>Reaction:</b> After attached character wins a [conflict-military] conflict - honor attached character.",
+    "illustrator": "Charles Urbach",
+    "name": "Utaku Battle Steed",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Mount"
     ],
-    "text": "Attach to a  character.\nAttached character gains the Cavalry trait.\nReaction: After the attached character wins a [mil] conflict – honor attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-022.jpg"
   },
   {
     "id": "warriors-of-the-wind-023",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Speak to the Heart",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a [clan-unicorn] character - that character gets +1[conflict-political] until the end of the conflict for each faceup non-stronghold province your opponent controls.  (Max 1 per conflict.)",
+    "flavorText": "\"Let this be a token of good will, that a prosperous future awaits us both.\"",
+    "illustrator": "Joshua Cairós",
+    "name": "Speak to the Heart",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Action: During a conflict, choose a  character – that character gets +1[pol] until the end of the conflict for each faceup non-stronghold province your opponent controls. (Max 1 per conflict.)",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-023.jpg"
   },
   {
     "id": "warriors-of-the-wind-024",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Spoils of War",
     "type": "Event",
+    "text": "<b>Reaction:</b> After you win a [conflict-military] as the attacker - draw 3 cards. Then, choose and discard 1 card from your hand. (Max 1 per conflict.)",
+    "flavorText": "\"It would be a shame to leave such craftsmanship to rust.\"",
+    "illustrator": "Andreia Ugrai",
+    "name": "Spoils of War",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Reaction: After you win a [mil] conflict as the attacker – draw 3 cards. Then, choose and discard 1 card from your hand. (Max 1 per conflict.)",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-024.jpg"
   },
   {
     "id": "warriors-of-the-wind-025",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Warriors of the Wind",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict - move each participating <em>Cavalry</em> character you control home. Then, choose any number of <em>Cavalry</em> character you control and move them to the conflict.",
+    "illustrator": "Wen Juinn",
+    "name": "Warriors of the Wind",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Action: During a conflict – move each participating Cavalry character you control home. Then, choose any number of Cavalry characters you control and move them to the conflict.",
-    "unverified": true
+    "cost": 2,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-025.jpg"
   },
   {
     "id": "warriors-of-the-wind-026",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Ikoma Anakazu",
     "type": "Character",
     "unique": true,
+    "text": "During each conflict in which this character is participating, it gets +3[conflict-military] and +3[conflict-political] if your opponent has broken one or more of your provinces this phase.",
+    "flavorText": "\"You dishonor yourself and your clan with this rejection, Mistress of the Impetuous Winds.\"",
+    "illustrator": "Conceptopolis",
+    "name": "Ikoma Anakazu",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 4,
+    "glory": 2,
+    "influence": 4,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Daimyō"
     ],
-    "text": "During each conflict in which this character is participating, it gets +3 [mil] and +3 [pol] if your opponent has broken one or more of your provinces this phase.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Daimyo"
+    ],
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-026.jpg"
   },
   {
     "id": "warriors-of-the-wind-027",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Compass",
     "type": "Attachment",
+    "text": "<b>Reaction:</b> After an opponent's province is revealed during a conflict in which attached character is participating - look at the top 3 cards of one of your decks.  You may put any number of those cards on the bottom of that deck and the rest on top in any order.",
+    "illustrator": "Derek D. Edgell",
+    "name": "Compass",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 0,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Gaijin",
       "Item"
     ],
-    "text": "Reaction: After an opponent's province is revealed during a conflict in which attached character is participating – look at the top 3 cards of one of your decks. You may put any number of those cards on the bottom of that deck and the rest on top in any order.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-027.jpg"
   },
   {
     "id": "warriors-of-the-wind-028",
     "gameId": "l5r-lcg",
     "setId": "warriors-of-the-wind",
     "publisherId": "ffg",
-    "name": "Trading on the Sand Road",
     "type": "Event",
+    "text": "<b>Interrupt:</b> When the draw phase would begin - skip the draw phase. Each player removes the top 4 cards of his or her conflict deck from the game. Until the end of the round, either player may play the removed cards as if they were in his or her hand.",
+    "illustrator": "Derek D. Edgell",
+    "name": "Trading on the Sand Road",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 0,
     "traits": [
       "Gaijin"
     ],
-    "text": "Interrupt: When the draw phase would begin – skip the draw phase. Each player removes the top 4 cards of his or her conflict deck from the game. Until the end of the round, either player may play the removed cards as if they were in his or her hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-028.jpg"
   }
 ]

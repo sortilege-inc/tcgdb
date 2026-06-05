@@ -4,309 +4,415 @@
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Unleashed Experiment",
     "type": "Character",
+    "text": "Dire - this character loses each other non-keyword ability. <i>(This character is dire when it has no fate on it.)</i>\nAs an additional cost to declare this character as an attacker or defender, you lose 2 honor.",
+    "illustrator": "Carlos Diaz",
+    "name": "Unleashed Experiment",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Creature",
       "Shadowlands"
     ],
-    "text": "Dire – This character loses each other non-keyword ability. (This character is dire when it has no fate on it.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-067.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-068",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Arrogant Kakita",
     "type": "Character",
+    "text": "Pride.\n<b>Forced Reaction:</b> After defenders are declared during a conflict in which this character is participating, initiate a [conflict-military] duel - resolve the duel. If this character is the duel's loser, move it home. (Unlimited.)",
+    "illustrator": "Lukas Banas",
+    "name": "Arrogant Kakita",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "Pride.\nForced Reaction: After defenders are declared during a conflict in which this character is participating, initiate a [mil] duel – resolve the duel. If this character is the duel's loser, move it home. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-068.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-069",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "An Agreeable Arrangement",
     "type": "Event",
+    "text": "<b>Action:</b> Give control of a <i>(friendly)</i> ready character with printed cost 2 or higher to an opponent. Choose a non-<em>Champion</em> character that opponent controls - bow the chosen character.",
+    "illustrator": "Joshua Cairos",
+    "name": "An Agreeable Arrangement",
     "clan": "Crane",
     "deck": "dynasty",
-    "text": "Action: Give control of a (friendly) ready character with printed cost 2 or higher to an opponent. Choose a non-Champion character that opponent controls – bow the chosen character.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-069.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-070",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Solitary Hero",
     "type": "Character",
+    "text": "This character cannot be evaded by the covert keyword.\n<b>Action:</b> During a conflict in which this character is participating on your side alone - remove 1 fate from each other participating character with equal or lower [conflict-military] skill.",
+    "illustrator": "Neno Vecia",
+    "name": "Solitary Hero",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "This character cannot be evaded by the covert keyword.\nAction: During a conflict in which this character is participating on your side alone – remove 1 fate from each other participating character with equal or lower [mil] skill.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-070.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-071",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Meticulous Scout",
     "type": "Character",
+    "text": "<em>Seeker</em> role only.\n<b>Action:</b>  If you have gained 2 or more honor this phase, choose a province an opponent controls - place a dishonored status token on that province and reveal it, if able. While a province has a dishonored status token, treat its printed text box as if it were blank (except for <em>Traits</em>).",
+    "illustrator": "Andreia Ugrai",
+    "name": "Meticulous Scout",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Bushi",
       "Scout"
     ],
-    "text": "Seeker role only.\nAction: If you have gained 2 or more honor this phase, choose a province an opponent controls – place a dishonored status token on that province and reveal it, if able. While a province has a dishonored status token, treat its printed text box as if it were blank (except for Traits).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-071.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-072",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Young Philosopher",
     "type": "Character",
-    "unique": true,
+    "text": "—",
+    "flavorText": "\"Does the child not have a right to define the future they wish to see?\"",
+    "illustrator": "Isuardi Therianto",
+    "name": "Young Philosopher",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "political": "4",
     "traits": [
       "Shugenja",
       "Air",
       "Scholar"
     ],
-    "text": "—",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-072.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-073",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Yogo Junzo",
     "type": "Character",
     "unique": true,
+    "text": "Dire - this character gains: \"<b>Action:</b> Choose a character - discard all fate from that character.\"\n<b>Action:</b> Choose a character you control - move any amount of fate from that character to your fate pool.",
+    "flavorText": "\"You shall never again set foot in Rokugan.\"",
+    "illustrator": "Tommy Suhartono",
+    "name": "Yogo Junzo",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "5",
+    "political": "4",
     "traits": [
-      "Creature",
-      "Shadowlands"
+      "Shugenja",
+      "Air",
+      "Daimyo"
     ],
-    "text": "Dire – This character gains: \"Action: Choose a character – discard all fate from that character.\"\nAction: Choose a character you control – move any amount of fate from that character to your fate pool.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-073.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-074",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Iuchi Soulweaver",
     "type": "Character",
+    "text": "Dire - This character is considered to be participating in each conflict in which you control at least 1 other participating character. It does not bow as a result of conflict resolution in conflicts in which it is at home. <i>(This character is dire when it has no fate on it.)</i>",
+    "illustrator": "Jorge Matar",
+    "name": "Iuchi Soulweaver",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Water",
       "Cavalry"
     ],
-    "text": "Dire – This character is considered to be participating in each conflict in which you control at least 1 other participating character. It does not bow as a result of conflict resolution in conflicts in which it is at home. (This character is dire when it has no fate on it.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-074.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-075",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Enraged",
     "type": "Attachment",
+    "text": "<em>Fire</em> role only.",
+    "flavorText": "When his friends had fallen, when his commander had joined the ranks of his foes, when his honor had been forsaken, all that remained was his rage.",
+    "illustrator": "Mike Capprotti",
+    "name": "Enraged",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+2",
+    "politicalBonus": "-2",
     "traits": [
       "Condition"
     ],
-    "text": "Fire role only.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-075.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-076",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Untainted",
     "type": "Attachment",
+    "text": "Attach to an unbroken province.\n<b>Reaction:</b> After you win a conflict at attached province, choose a status token on a participating character or on attached province - discard the chosen status token and gain 1 honor.",
+    "illustrator": "Kevin Goeke",
+    "name": "Untainted",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to an unbroken province.\nReaction: After you win a conflict at attached province, choose a status token on a participating character or on attached province – discard the chosen status token and gain 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-076.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-077",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Talented Performer",
     "type": "Character",
+    "text": "This character must be chosen as the target of each event, if able.",
+    "flavorText": "\"These last few days have been surprisingly eventful.\"",
+    "illustrator": "Alayna Lemmer",
+    "name": "Talented Performer",
     "clan": "Crane",
-    "deck": "dynasty",
+    "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 3,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "This character must be chosen as a target of each event if able.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-077.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-078",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Promising Youth",
     "type": "Character",
+    "text": "You may play this character as an attachment with the text: \"Attached character gets +2[conflict-military] and +2[conflict-political]. <b>Interrupt:</b> When attached character leaves play - detach this attachment and turn it into a character.\"",
+    "illustrator": "Andreia Ugrai",
+    "name": "Promising Youth",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "You may play this character as an attachment with the text: \"Attached character gets +2 [mil] and +2 [pol]. Interrupt: When attached character leaves play – detach this attachment and turn it into a character.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-078.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-079",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Mushin no Shin",
     "type": "Event",
+    "text": "<b>Interrupt:</b> When the effects of a triggered ability would initiate, if that triggered ability chooses a character you control with 2 or more attachments as a target - cancel those effects.",
+    "flavorText": "\"An empty mind reacts without hesitation, strikes without distraction, and acts without fear\" - Mirumoto's Niten",
+    "illustrator": "Felipe Gaona",
+    "name": "Mushin no Shin",
     "clan": "Dragon",
     "deck": "conflict",
-    "text": "Interrupt: When the effects of a triggered ability would initiate, if that triggered ability chooses a character you control with 2 or more attachments as a target – cancel those effects.",
-    "unverified": true
+    "cost": 0,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-079.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-080",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Reconnaissance",
     "type": "Event",
+    "text": "<b>Reaction:</b> After the conflict phase begins, choose 3 provinces - look at each of those provinces <i>(if it is facedown)</i>. If you have at least 5 more honor than an ooponent, you may also discard any number of cards from those provinces.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Reconnaissance",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Tactic"
     ],
-    "text": "Reaction: After the conflict phase begins, choose 3 provinces – look at each of those provinces (if it is facedown). If you have at least 5 more honor than an opponent, you may also discard any number of cards from those provinces.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-080.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-081",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Blessed By Fukurokojin",
     "type": "Attachment",
+    "text": "Attached character cannot receive dishonored status tokens.",
+    "flavorText": "\"If only more of us favored inks and dyes over swords and arrows, we would not be burdened with such great suffering.\"",
+    "illustrator": "Drazenska Kimpel",
+    "name": "Blessed By Fukurokujin",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Attached character cannot receive dishonored status tokens.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-081.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-082",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Whispers of Power",
     "type": "Event",
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\n<b>Action:</b> During a conflict, lose 1 honor. Choose a character - until the end of the conflict, that character gets +3[conflict-political] for each character with no fate your opponent controls.",
+    "illustrator": "Lukas Banas",
+    "name": "Whispers of Power",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Mahō",
       "Spell",
       "Air"
     ],
-    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAction: During a conflict, lose 1 honor. Choose a character – until the end of the conflict, that character gets +3 [pol] for each character with no fate your opponent controls.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Air"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-082.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-083",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "The Skin of Fu Leng",
     "type": "Attachment",
+    "unique": true,
+    "text": "Attach to a unique character you control.\nRestricted.\nYou may trigger each ability on each character with no fate as if you controlled that character. Each opponent cannot trigger those abilities.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "The Skin of Fu Leng",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 3,
+    "militaryBonus": "+0",
+    "politicalBonus": "+3",
     "traits": [
       "Black Scroll",
       "Item"
     ],
-    "text": "Attach to a unique character you control.\nRestricted.\nYou may trigger each ability on each character with no fate on it as if you controlled that character. Each opponent cannot trigger those abilities.",
-    "unverified": true
+    "traitsAscii": [
+      "Black-scroll",
+      "Item"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-083.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-084",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Shadow Step",
     "type": "Event",
+    "text": "<em>Void</em> role only.\n<b>Action:</b> Choose a non-<em>Mythic</em> character you control - remove it from the game, then put it into play. If that character does not have the <em>Shadow</em> trait, it enters play dishonored.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Shadow Step",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
     "traits": [
       "Spell",
       "Shadow"
     ],
-    "text": "Void role only.\nAction: Choose a non-Mythic character you control – remove it from the game, then put it into play. If that character does not have the Shadow trait, it enters play dishonored.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-084.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-085",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "The Western Wind",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a non-stronghold province you control - search the top 8 cards of your dynasty deck for X characters and put them into the chosen province, where X is the number of faceup non-stronghold provinces an opponent controls. Shuffle.",
+    "illustrator": "Eli Ring",
+    "name": "The Western Wind",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Action: Choose a non-stronghold province you control – search the top 8 cards of your dynasty deck for X characters and put them into the chosen province, where X is the number of faceup non-stronghold provinces an opponent controls. Shuffle.",
-    "unverified": true
+    "cost": 0,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-085.jpg"
   },
   {
     "id": "the-temptation-of-the-scorpion-086",
     "gameId": "l5r-lcg",
     "setId": "the-temptation-of-the-scorpion",
     "publisherId": "ffg",
-    "name": "Dark Resurrection",
     "type": "Event",
+    "text": "<em>Earth</em> role only.\nThis card's fate cost can only be paid for with fate on characters you control.\n<b>Action:</b> During a [conflict-military] conflict, choose up to 3 characters, each with printed cost 3 or lower in your dynasty discard pile - put those characters into play in the conflict dishonored.",
+    "illustrator": "Apterus",
+    "name": "Dark Resurrection",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 3,
+    "influence": 1,
     "traits": [
       "Mahō",
       "Spell",
       "Earth"
     ],
-    "text": "Earth role only.\nThis card's fate cost can only be paid for with fate on characters you control.\nAction: During a [mil] conflict, choose up to 3 characters, each with printed cost 3 or lower, in your dynasty discard pile – put those characters into play in the conflict dishonored.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Earth"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-086.jpg"
   }
 ]

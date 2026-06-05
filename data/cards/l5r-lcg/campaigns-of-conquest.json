@@ -4,313 +4,415 @@
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Hayaken no Shiro",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Action:</b> Bow this stronghold. Choose a <em>Bushi</em> character with printed cost 2 or lower - ready that character.",
+    "illustrator": "Daniel Alekow",
+    "name": "Hayaken no Shiro",
     "clan": "Lion",
+    "honor": 12,
+    "fate": 7,
+    "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "text": "Action: Bow this stronghold. Choose a Bushi character with printed cost 2 or lower – ready that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-071.jpg"
   },
   {
     "id": "campaigns-of-conquest-072",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Breaking In",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed - search the top 8 cards of your dynasty deck for a character and put it into this province faceup, if that character has the <em>Cavalry</em> trait, you may put it faceup into any province you control instead. Shuffle.",
+    "illustrator": "Joshua Cairos",
+    "name": "Breaking In",
     "clan": "Unicorn",
-    "text": "Reaction: After this province is revealed – search the top 8 cards of your dynasty deck for a character and put it into this province faceup. If that character has the Cavalry trait, you may put it faceup into any province you control instead. Shuffle.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-072.jpg"
   },
   {
     "id": "campaigns-of-conquest-073",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "The Pursuit of Justice",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at a [element-water] province, choose a participating character - ready that character.",
+    "illustrator": "Kevin Zamir Golke",
+    "name": "The Pursuit of Justice",
     "clan": "Neutral",
-    "text": "Action: During a conflict at a [water] province, choose a participating character – ready that character.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-073.jpg"
   },
   {
     "id": "campaigns-of-conquest-074",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Kuni Purifier",
     "type": "Character",
+    "text": "<b>Reaction:</b> After an opponent passes on declaring a conflict - that opponent discards 1 random card from their hand.",
+    "flavorText": "\"As long as the Taint clings to you, there is nowhere for you to hide.\"",
+    "illustrator": "Apterus",
+    "name": "Kuni Purifier",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Earth"
     ],
-    "text": "Reaction: After an opponent passes on declaring a conflict – that opponent discards 1 random card from their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-074.jpg"
   },
   {
     "id": "campaigns-of-conquest-075",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Veteran of Toshi Ranbo",
     "type": "Character",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\nThis character gets +1 glory for each faceup province you control.",
+    "illustrator": "Marius Bota",
+    "name": "Veteran of Toshi Ranbo",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nThis character gets +1 glory for each faceup province you control.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-075.jpg"
   },
   {
     "id": "campaigns-of-conquest-076",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Crippling Taxes",
     "type": "Event",
+    "text": "<em>Keeper</em> role only.\n<b>Action:</b> Choose a province - discard each card in that province.",
+    "flavorText": "Without the vast reserves of wealth once boasted by the Crane Clan, if falls upon its servants to ensure the clan does not starve.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Crippling Taxes",
     "clan": "Crane",
-    "deck": "conflict",
-    "text": "Keeper role only.\nAction: Choose a province – discard each card in that province.",
-    "unverified": true
+    "deck": "dynasty",
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-076.jpg"
   },
   {
     "id": "campaigns-of-conquest-077",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Stoic Rival",
     "type": "Character",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Action:</b> During a conflict in which this character is participating, choose another participating character with fewer attachments than this character - dishonor that character.",
+    "illustrator": "Marius Bota",
+    "name": "Stoic Rival",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: During a conflict in which this character is participating, choose a participating character with fewer attachments than this character – dishonor this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-077.jpg"
   },
   {
     "id": "campaigns-of-conquest-078",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Hidden Mountain Pass",
     "type": "Holding",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Interrupt:</b> When the conflict phase ends, if this holding's province is unbroken - turn that province facedown.",
+    "illustrator": "Daniel Alekov",
+    "name": "Hidden Mountain Pass",
     "clan": "Dragon",
     "deck": "dynasty",
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nInterrupt: When the conflict phase ends, if this holding's province is unbroken – turn that province facedown.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-078.jpg"
   },
   {
     "id": "campaigns-of-conquest-079",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Ikoma Tsanuri",
     "type": "Character",
     "unique": true,
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\nDuring conflicts in which this character is participating, your opponent cannot trigger abilities on the attacked province.",
+    "illustrator": "Conceptopolis",
+    "name": "Ikoma Tsanuri",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: During conflicts in which this character is participating, your opponent cannot trigger abilities on the attacked province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-079.jpg"
   },
   {
     "id": "campaigns-of-conquest-080",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Isawa Tsuke",
     "type": "Character",
     "unique": true,
+    "text": "Pride.\n<b>Action:</b> During a conflict, if the [element-fire] ring is in the unclaimed ring pool, lose 1 or more honor. Choose an equals number of participating characters - remove 1 fate from each of those characters.",
+    "illustrator": "Calvin Chua",
+    "name": "Isawa Tsuke",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "5",
+    "political": "4",
     "traits": [
       "Shugenja",
       "Fire",
       "Elemental Master"
     ],
-    "text": "Pride\nAction: During a conflict, if the [fire] ring is in the unclaimed ring pool, lose 1 or more honor. Choose an equal number of participating characters – remove 1 fate from each of those characters.",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Fire",
+      "Elemental-master"
+    ],
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-080.jpg"
   },
   {
     "id": "campaigns-of-conquest-081",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Celebrated Renown",
     "type": "Event",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Action:</b> Choose a character with the most fate among characters in play - honor that character.",
+    "illustrator": "Charles Urbach",
+    "name": "Celebrated Renown",
     "clan": "Phoenix",
     "deck": "dynasty",
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: Choose a character with the most fate on it among characters in play – honor that character.",
-    "unverified": true
+    "cost": 1,
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-081.jpg"
   },
   {
     "id": "campaigns-of-conquest-082",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Shadow Stalker",
     "type": "Character",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\nWhile you have 6 or fewer honor, this character gets +2[conflict-military] and +2[conflict-political].",
+    "illustrator": "Apterus",
+    "name": "Shadow Stalker",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Bushi",
       "Shadow",
       "Shinobi"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nWhile you have 6 or fewer honor, this character gets +2[mil] and +2[pol].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-082.jpg"
   },
   {
     "id": "campaigns-of-conquest-083",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Open Window",
     "type": "Holding",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Action:</b> During a conflict, choose a <em>Shinobi</em> character you control - move that character to the conflict.",
+    "illustrator": "Joyce Maureira",
+    "name": "Open Window",
     "clan": "Scorpion",
     "deck": "dynasty",
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: During a conflict, choose a Shinobi character you control – move that character to the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-083.jpg"
   },
   {
     "id": "campaigns-of-conquest-084",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Ride at Dawn",
     "type": "Event",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Reaction:</b> After you pass during the dynasty phase - each opponent who has not yet passed discards 1 random card from their hand.",
+    "illustrator": "Calvin Chua",
+    "name": "Ride at Dawn",
     "clan": "Unicorn",
     "deck": "dynasty",
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nReaction: After you pass during the dynasty phase – each opponent who has not yet passed discards 1 random card from their hand.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-084.jpg"
   },
   {
     "id": "campaigns-of-conquest-085",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Mercenary Company",
     "type": "Character",
+    "text": "No attachmants except <em>Weapon</em>. Rally.\n<b>Forced Reaction:</b> After this character loses a conflict - your opponent may move 1 fate from their fate pool to this character. If they do, they gain control of it. (Unlimited.)",
+    "illustrator": "Borja Pindado",
+    "name": "Mercenary Company",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "7",
     "traits": [
       "Bushi",
       "Rōnin",
       "Army"
     ],
-    "text": "No attachments except Weapon. Rally.\nForced Reaction: After this character loses a conflict – your opponent may move 1 fate from their fate pool to this character. If they do, they gain control of it. (Unlimited.)",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Ronin",
+      "Army"
+    ],
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-085.jpg"
   },
   {
     "id": "campaigns-of-conquest-086",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Sturdy Tetsubō",
     "type": "Attachment",
+    "text": "Restricted. <i>(No more than two restricted attachments per character.)</i>\nAttached character gains: \"<b>Reaction:</b> After attached character wins a conflict - your opponent discards 1 card from their hand. (Limit twice per round.)\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Sturdy Tetsubō",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
+    "militaryBonus": "+3",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon"
     ],
-    "text": "Restricted. (No more than two restricted attachments per character.)\nAttached character gains: \"Reaction: After this character wins a conflict – your opponent discards 1 card from their hand. (Limit twice per round.)\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-086.jpg"
   },
   {
     "id": "campaigns-of-conquest-087",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Local Daimyō's Retainer",
     "type": "Character",
+    "text": "You can only play this card if you control at least 3 faceup provinces.",
+    "flavorText": "\"My lord, is it wise to bring such lowly rōnin into your service? Surely there is a Doji or Kakita pupil who would serve better than... her.\"",
+    "illustrator": "Lukas Banas",
+    "name": "Local Daimyō's Retainer",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 1,
+    "influence": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Rōnin"
     ],
-    "text": "You can only play this card if you control at least 3 faceup provinces.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Ronin"
+    ],
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-087.jpg"
   },
   {
     "id": "campaigns-of-conquest-088",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Asceticism",
     "type": "Attachment",
+    "text": "<em>Earth</em> role only.\nWhile 2 or more of your non-stronghold provinces are facedown, attached character cannot be chosen as a target of an opponent's triggered abilities.",
+    "illustrator": "Felipe Gaona",
+    "name": "Asceticism",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Condition"
     ],
-    "text": "Earth role only\nWhile 2 or more of your non-stronghold provinces are facedown, attached character cannot be chosen as a target of an opponent's triggered ability.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-088.jpg"
   },
   {
     "id": "campaigns-of-conquest-089",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Under Siege",
     "type": "Event",
+    "text": "<b>Fire</b> Role only.\n<b>Reaction:</b> After a conflict is declared - the defending player sets their hand aside, facedown and out of play. If they do, they draw 5 cards. At the end of the conflict, that player discards their hand and adds the set-aside cards to their hand. (Max 1 per conflict.)",
+    "illustrator": "Guillaume Ducos",
+    "name": "Under Siege",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Fire role only.\nReaction: After a conflict is declared – the defending player sets their hand aside, facedown and out of play. If they do, they draw 5 cards. At the end of the conflict, that player discards their hand and adds the set-aside cards to their hands. (Max 1 per conflict.)",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-089.jpg"
   },
   {
     "id": "campaigns-of-conquest-090",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Kyofuki's Hammer",
     "type": "Attachment",
+    "text": "<b>Reaction:</b> After attached character wins a conflict, choose a card in a province - discard that card. (Unlimited.)",
+    "flavorText": "\"I have made the appropriate offerings to keep my home safe. Have you?\" - Rujo the rōnin",
+    "illustrator": "Calvin Chua",
+    "name": "Kyofuki's Hammer",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Spell",
       "Earth"
     ],
-    "text": "Reaction: After attached character wins a conflict, choose a card in a province – discard that card. (Unlimited.).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-090.jpg"
   },
   {
     "id": "campaigns-of-conquest-091",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Forgery",
     "type": "Event",
+    "text": "<b>Interrupt:</b> When the effects of an event would initiate, if you are less honorable than the player initiating those effects – cancel those effects.",
+    "flavorText": "\"Who could refuse an order from the most honorable Elemental Masters?\" - Shosuro Hametsu",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Forgery",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Interrupt: When the effects of an event would initiate, if you are less honorable than the player initiating those effects – cancel those effects.",
-    "unverified": true
+    "cost": 1,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-091.jpg"
   },
   {
     "id": "campaigns-of-conquest-092",
     "gameId": "l5r-lcg",
     "setId": "campaigns-of-conquest",
     "publisherId": "ffg",
-    "name": "Steed of the Steppes",
     "type": "Attachment",
+    "text": "Attached character gains the <em>Cavalry</em> trait.\n<b>Action:</b> If an opponent controls 3 or more faceup provinces, sacrifice this attachment - ready attached character.",
+    "flavorText": "Together, they will one day see the world.",
+    "illustrator": "Amélie Hutt",
+    "name": "Steed of the Steppes",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Creature"
     ],
-    "text": "Attached character gains the Cavalry trait\nAction: If an opponent controls 3 or more faceup provinces, sacrifice this attachment – ready attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-092.jpg"
   }
 ]

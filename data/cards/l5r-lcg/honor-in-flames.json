@@ -4,337 +4,462 @@
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "The Way of Peace",
     "type": "Province",
+    "text": "<b>Interrupt:</b> When this province is broken, choose up to 3 characters – honor each of those character.",
+    "flavorText": "\"Let them see the beauty you have created and they shall bear witness to their shame.\"",
+    "illustrator": "Eli Ring",
+    "name": "The Way of Peace",
     "clan": "Crane",
-    "text": "Interrupt: When this province is broken, choose up to 3 characters – honor each of those characters.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-023.jpg"
   },
   {
     "id": "honor-in-flames-024",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "The Roar of the Lioness",
     "type": "Province",
-    "clan": "Lion",
     "text": "X is equal to half the amount of honor in your honor pool, rounded up.",
-    "unverified": true
+    "flavorText": "\"I am a samurai of the Lion Clan, and I can no longer bear to see it kept low.\" - Matsu Tsuko",
+    "illustrator": "Stormbrush",
+    "name": "The Roar of the Lioness",
+    "clan": "Lion",
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-024.jpg"
   },
   {
     "id": "honor-in-flames-025",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Cycle of Vengeance",
     "type": "Province",
+    "text": "\n<b>Interrupt:</b> When this province is broken, choose a character – place 1 fate on that character and honor it.",
+    "flavorText": "\"I will never forget the sound of my brother's lifeless body striking the ground at his hand.\" - Mirumoto Hitomi",
+    "illustrator": "Ilham Habib Zakaria",
+    "name": "Cycle of Vengeance",
     "clan": "Neutral",
-    "text": "Interrupt: When this province is broken, choose a character – place 1 fate on that character and honor it.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-025.jpg"
   },
   {
     "id": "honor-in-flames-026",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Silent Skirmisher",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, sacrifice another character - this characters gets +2[conflict-military] until the end of the conflict.",
+    "flavorText": "Even the warriors of the Crab whisper fearfully of the uncanny efficiency illustrated by Forgotten samurai.",
+    "illustrator": "Jason Juta",
+    "name": "Silent Skirmisher",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 0,
+    "glory": 1,
+    "military": "1",
     "traits": [
       "Bushi",
       "Berserker"
     ],
-    "text": "Action: During a conflict, sacrifice another character – this character gets +2 [mil] until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-026.jpg"
   },
   {
     "id": "honor-in-flames-027",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Master of Jade",
     "type": "Character",
+    "text": "<em>Keeper</em> role only.\n<b>Action:</b> Lose 2 honor. Choose a character - place 1 fate on that character.",
+    "flavorText": "\"I will not allow the Taint to take you.\"",
+    "illustrator": "Reiko Murakami",
+    "name": "Master of Jade",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Earth"
     ],
-    "text": "Keeper role only.\nAction: Lose 2 honor. Choose a character – place 1 fate on that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-027.jpg"
   },
   {
     "id": "honor-in-flames-028",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Daidoji Uji",
     "type": "Character",
     "unique": true,
+    "text": "While this character is honored, you may play each card underneath it as if it were in your hand.\n<b>Reaction:</b> After this character enters play - search your conflict deck for 4 cards and place them underneath this character facedown <i>(out of play)</i>. When this character leaves play, remove each facedown card underneath it from the game.",
+    "illustrator": "Joshua Cairos",
+    "name": "Daidoji Uji",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "6",
+    "political": "2",
     "traits": [
       "Bushi",
       "Daimyō",
       "Shinobi"
     ],
-    "text": "While this character is honored, you may play each card underneath it as if it were in your hand.\nReaction: After this character enters play – search your conflict deck for 4 cards and place them underneath this character facedown (out of play). When this character leaves play, remove each facedown card underneath it from the game.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Daimyo",
+      "Shinobi"
+    ],
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-028.jpg"
   },
   {
     "id": "honor-in-flames-029",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Perfect Land Believer",
     "type": "Character",
+    "text": "While this character is ordinary, it gets +2[conflict-military] and +2[conflict-political].",
+    "flavorText": "\"If they think to deny us Shinsei's salvation, we will take our fate into our own hands.\"",
+    "illustrator": "Isuardi Therianto",
+    "name": "Perfect Land Believer",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "1",
+    "political": "0",
     "traits": [
-      "Peasant",
-      "Heretic"
+      "Heretic",
+      "Peasant"
     ],
-    "text": "While this character is ordinary, it gets +2 [mil] and +2 [pol].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-029.jpg"
   },
   {
     "id": "honor-in-flames-030",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Commander of the Legions",
     "type": "Character",
+    "text": "Each other [clan-lion] character you control gets +1[conflict-military].\nDuring the fate phase, if you have at least 5 more honor than an opponent, fate cannot be removed from [clan-lion] characters you control with printed cost 3 or lower.",
+    "illustrator": "Stormbrush",
+    "name": "Commander of the Legions",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "Each other  character you control gets +1 [mil].\nDuring the fate phase, if you have at least 5 more honor than an opponent, fate cannot be removed from  characters you control with printed cost 3 or lower.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-030.jpg"
   },
   {
     "id": "honor-in-flames-031",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Steward of Cryptic Lore",
     "type": "Character",
+    "text": "Dire - This character gets +3[conflict-political]. <i>(This character is dire when it has no fate on it.)</i>\n<b>Action:</b> During a [element-earth] conflict, select one - the attacked province gets either +3 strength or -3 strength until the end of the conflict.",
+    "illustrator": "Lukas Banas",
+    "name": "Steward of Cryptic Lore",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Earth",
       "Scholar"
     ],
-    "text": "Dire – This character gets +3[pol]. (This character is dire when it has no fate on it.)\nAction: During an [earth] conflict, select one – the attacked province gets +3 strength or -3 strength until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-031.jpg"
   },
   {
     "id": "honor-in-flames-032",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Guardian Dōjō",
     "type": "Holding",
+    "text": "Characters played from adjacent provinces enter play honored and you cannot place fate on them when they are played.",
+    "flavorText": "Any who wish to train in the defense of others is welcome among the Shiba.",
+    "illustrator": "Logan Feliciano",
+    "name": "Guardian Dōjō",
     "clan": "Phoenix",
     "deck": "dynasty",
     "traits": [
       "Dōjō"
     ],
-    "text": "Characters played from adjacent provinces enter play honored and you cannot place fate on them when they are played.",
-    "unverified": true
+    "traitsAscii": [
+      "Dojo"
+    ],
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-032.jpg"
   },
   {
     "id": "honor-in-flames-033",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Shoju's Diviner",
     "type": "Character",
+    "text": "Dire - this character gains: \"<b>Action:</b> Look at the top 8 cards of your conflict deck. Then, discard any number of those cards and put the rest back on top in any order.\" <i>(This character is dire when it has no fate on it.)</i>",
+    "illustrator": "Marius Bota",
+    "name": "Shoju's Diviner",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Air",
       "Imperial"
     ],
-    "text": "Dire – This character gains: \"Action: Look at the top 8 cards of your conflict deck. Then, discard any number of those cards and put the rest back on top in any order\". (This character is dire when it has no fate on it.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-033.jpg"
   },
   {
     "id": "honor-in-flames-034",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Nimble Noyan",
     "type": "Character",
+    "text": "<em>Keeper</em> role only.\nDire - While this character is participating in a conflict, bowed participating characters contribute their skill toward the resolution of the conflict. <i>(This character is dire when it has no fate on it.)</i>",
+    "illustrator": "Stormbrush",
+    "name": "Nimble Noyan",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "4",
+    "political": "1",
     "traits": [
       "Bushi",
       "Cavalry",
       "Commander"
     ],
-    "text": "Keeper role only.\nDire – While this character is participating in a conflict, bowed participating characters contribute their skill toward the resolution of the conflict. (This character is dire when it has no fate on it.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-034.jpg"
   },
   {
     "id": "honor-in-flames-035",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Reserve Tents",
     "type": "Holding",
+    "text": "<b>Action:</b> During a conflict, choose a character you control - move that character to the conflict. (Limit twice per round.)",
+    "illustrator": "Nele Diel",
+    "name": "Reserve Tents",
     "clan": "Unicorn",
     "deck": "dynasty",
     "traits": [
       "Battlefield"
     ],
-    "text": "Action: During a conflict, choose a character you control – move that character to the conflict. (Limit twice per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-035.jpg"
   },
   {
     "id": "honor-in-flames-036",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Darkness Rising",
     "type": "Event",
+    "text": "<em>Water</em> role only.\nThis card's fate cost can only be paid for with fate on characters you control.\n<b>Action:</b> During a conflict, dishonor a <i>(friendly)</i> participating character - bow each participating character with lower [conflict-military] skill than that of the dishonored character.",
+    "illustrator": "Apterus",
+    "name": "Darkness Rising",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
     "traits": [
       "Mahō",
       "Spell",
       "Water"
     ],
-    "text": "Water role only.\nThis card's fate cost can only be paid for with fate on characters you control.\nAction: During a conflict, dishonor a (friendly) participating character – bow each participating character with lower [mil] skill than that of the dishonored character.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Water"
+    ],
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-036.jpg"
   },
   {
     "id": "honor-in-flames-037",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Raze to the Ground",
     "type": "Event",
+    "text": "<em>Earth</em> role only.\n<b>Reaction:</b> After you win a [conflict-military] conflict against a non-stronghold province, dishonor a participating <i>(friendly)</i> character and break a faceup <i>(friendly)</i> province - break the attacked province.",
+    "illustrator": "Leo Avero",
+    "name": "Raze to the Ground",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Earth role only.\nReaction: After you win a [mil] conflict against a non-stronghold province, dishonor a participating (friendly) character and break a faceup (friendly) province – break the attacked province.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-037.jpg"
   },
   {
     "id": "honor-in-flames-038",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Shoshi ni Kie",
     "type": "Event",
+    "text": "<em>Water</em> role only.\n<b>Action:</b> Reveal a <i>(friendly)</i> facedown province. Choose an ordinary character - ready that character.",
+    "flavorText": "\"If it gets me through the day, it is enough.\"",
+    "illustrator": "Eli Ring",
+    "name": "Shoshi ni Kie",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Heresy"
     ],
-    "text": "Water role only.\nAction: Reveal a (friendly) facedown province. Choose an ordinary character – ready that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-038.jpg"
   },
   {
     "id": "honor-in-flames-039",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Under Amaterasu's Gaze",
     "type": "Attachment",
+    "text": "Attach to an unbroken province. Limit 1 <em>Battlefield</em> attachment per province.\nDuring a conflict at attached province, increase the cost for each player to play each card from their hand by 1, unless that player has at least 5 more honor than their opponent.",
+    "illustrator": "Imad Awan",
+    "name": "Under Amaterasu's Gaze",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Battlefield"
     ],
-    "text": "Attach to an unbroken province. Limit 1 Battlefield attachment per province.\nDuring conflicts at attached province, increase the cost for each player to play each card from their hand by 1, unless that player has at least 5 more honor than their opponent.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-039.jpg"
   },
   {
     "id": "honor-in-flames-040",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Unhallow",
     "type": "Attachment",
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAttach to an unbroken province you control.\nAttached province gets +3 strength.\nAs an additional cost to declare 1 or more defenders during a conflict at attached province, you must lose 1 honor.",
+    "illustrator": "Imad Awan",
+    "name": "Unhallow",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Mahō",
       "Spell",
       "Earth"
     ],
-    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAttach to an unbroken province you control.\nAttached province gets +3 strength.\nAs an additional cost to declare 1 or more defenders during a conflict at attached province, you must lose 1 honor.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Earth"
+    ],
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-040.jpg"
   },
   {
     "id": "honor-in-flames-041",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Messenger of Misfortune",
     "type": "Character",
+    "text": "Courtesy. <i>(When this character leaves play, gain 1 fate)</i>",
+    "flavorText": "Dread drove him faster than his own heartbeat. If his lord could not prevail, what could even the regent do against such demonic power? Yet, if he failed to reach Shoju in time, what hope remained?",
+    "illustrator": "Guillaume Ducos",
+    "name": "Messenger of Misery",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 0,
+    "influence": 1,
+    "military": "0",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "Courtesy. (When this character leaves play, gain 1 fate.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-041.jpg"
   },
   {
     "id": "honor-in-flames-042",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Shape the Flesh",
     "type": "Attachment",
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAttached character gains covert and cannot be honored.",
+    "illustrator": "Apterus",
+    "name": "Shape the Flesh",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Mahō",
       "Spell",
       "Water"
     ],
-    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAttached character gains covert and cannot be honored.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Water"
+    ],
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-042.jpg"
   },
   {
     "id": "honor-in-flames-043",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Shadow Steed",
     "type": "Attachment",
+    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAncestral.\nAttached character gains the <em>Cavalry</em> trait.\n<b>Action:</b> If attached character has no fate on it, lose 1 honor - ready attached character.",
+    "illustrator": "Stormbrush",
+    "name": "Shadow Steed",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Creature",
       "Mahō",
       "Spell",
       "Water"
     ],
-    "text": "This card's fate cost can only be paid for with fate on characters you control.\nAncestral.\nAttached character gains the Cavalry trait.\nAction: If attached character has no fate on it, lose 1 honor – ready attached character.",
-    "unverified": true
+    "traitsAscii": [
+      "Creature",
+      "Maho",
+      "Spell",
+      "Water"
+    ],
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-043.jpg"
   },
   {
     "id": "honor-in-flames-044",
     "gameId": "l5r-lcg",
     "setId": "honor-in-flames",
     "publisherId": "ffg",
-    "name": "Curse of Misfortune",
     "type": "Attachment",
+    "text": "Each other attachment on attached character gains restricted.",
+    "flavorText": "\"Do you think to mock me, little spider? I will not let you ruin the first profitable job I've seen in weeks with your boldness.\"",
+    "illustrator": "Borja Pindado",
+    "name": "Curse of Misfortune",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 0,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Condition",
       "Curse"
     ],
-    "text": "Each other attachment on attached character gains restricted.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-044.jpg"
   }
 ]

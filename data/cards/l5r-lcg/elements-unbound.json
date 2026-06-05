@@ -4,300 +4,399 @@
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Hisu Mori Toride (Unicorn Clan)",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Reaction:</b> After you win a [conflict-military] conflict with more participating characters than your opponent, bow this stronghold and sacrifice a <i>(friendly)</i> <em>Cavalry</em> character – you may declare an additional [conflict-military] conflict this phase.",
+    "illustrator": "Nele Diel",
+    "name": "Hisu Mori Toride",
     "clan": "Unicorn",
+    "honor": 11,
+    "fate": 7,
+    "influencePool": 10,
     "traits": [
       "Fort"
     ],
-    "text": "Reaction: After you win a [mil] conflict with more participating characters than your opponent, bow this stronghold and sacrifice a (friendly) Cavalry character – you may declare an additional [mil] conflict this phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-101.jpg"
   },
   {
     "id": "elements-unbound-102",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Magistrate Station",
     "type": "Province",
+    "text": "<b>Action:</b> Choose an honored character – ready that character.",
+    "illustrator": "Caravan Studio",
+    "name": "Magistrate Station",
     "clan": "Crane",
-    "text": "Action: Choose an honored character – ready that character.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/elements-unbound-102.jpg"
   },
   {
     "id": "elements-unbound-103",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Web of Lies",
     "type": "Province",
-    "clan": "Scorpion",
     "text": "X is equal to twice the bid on your honor dial.",
-    "unverified": true
+    "illustrator": "Hai Hoang",
+    "name": "Web of Lies",
+    "clan": "Scorpion",
+    "imagePath": "/cards/l5r-lcg/elements-unbound-103.jpg"
   },
   {
     "id": "elements-unbound-104",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Yasuki Broker",
     "type": "Character",
+    "text": "While this character is participating in a conflict, each character you control gains courtesy and sincerity.",
+    "illustrator": "Derek D Edgell",
+    "name": "Yasuki Broker",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "While this character is participating in a conflict, each character you control gains courtesy and sincerity.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-104.jpg"
   },
   {
     "id": "elements-unbound-105",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Tengu Sensei",
     "type": "Character",
+    "text": "Covert.\n<b>Reaction:</b> After this character chooses a character using covert – that character cannot be declared as an attacker this phase.",
+    "illustrator": "Diana Martinez",
+    "name": "Tengu Sensei",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Bushi",
       "Creature",
       "Duelist"
     ],
-    "text": "Covert.\nReaction: After this character chooses a character using covert – that character cannot be declared as an attacker this phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-105.jpg"
   },
   {
     "id": "elements-unbound-106",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Agasha Shunsen",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict, return 1 or more rings you have claimed to the unclaimed ring pool. Choose a character you control – search your conflict deck for an attachment with printed cost equal to or lower than the number of rings returned and attach it to that character. Shuffle.",
+    "illustrator": "Felipe Gaona",
+    "name": "Agasha Shunsen",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Fire"
     ],
-    "text": "Action: During a conflict, return 1 or more rings you have claimed to the unclaimed ring pool. Choose a character you control – search your conflict deck for an attachment with printed cost equal to or lower than the number of rings returned and attach it to that character. Shuffle.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-106.jpg"
   },
   {
     "id": "elements-unbound-107",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Kitsu Warrior",
     "type": "Character",
+    "text": "For each [conflict-military] ring that is claimed, this character gets +2[conflict-military].\nFor each [conflict-political] ring that is claimed, this character gets +2[conflict-political].",
+    "illustrator": "Antonio Jose Manzanedo",
+    "name": "Kitsu Warrior",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Creature"
     ],
-    "text": "For each [mil] ring that is claimed, this character gets +2[mil].\nFor each [pol] ring that is claimed, this character gets +2[pol].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-107.jpg"
   },
   {
     "id": "elements-unbound-108",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Reader of Omens",
     "type": "Character",
+    "text": "This character gets +3[conflict-political] while you have claimed the [element-air] or [element-void] ring.",
+    "illustrator": "Lin Hsiang",
+    "name": "Reader of Omens",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Shugenja",
       "Void"
     ],
-    "text": "This character gets +3[pol] while you have claimed the [air] or [void] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-108.jpg"
   },
   {
     "id": "elements-unbound-109",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Reclusive Zokujin",
     "type": "Character",
+    "text": "During [element-earth] conflicts, this character gains covert and is immune to enemy card effects.",
+    "illustrator": "Diana Martinez",
+    "name": "Reclusive Zokujin",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Creature"
     ],
-    "text": "During [earth] conflicts, this character gains covert and is immune to enemy card effects.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-109.jpg"
   },
   {
     "id": "elements-unbound-110",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Minami Kaze Regulars",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>.\n<b>Reaction:</b> After this character wins a conflict in which you have more participating characters than your opponent – gain 1 fate and draw 1 card.",
+    "illustrator": "Eli Ring",
+    "name": "Minami Kaze Regulars",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "6",
+    "political": "3",
     "traits": [
       "Bushi",
       "Army",
       "Cavalry"
     ],
-    "text": "No attachments except Weapon.\nReaction: After this character wins a conflict in which you have more participating characters than your opponent – gain 1 fate and draw 1 card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-110.jpg"
   },
   {
     "id": "elements-unbound-111",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Mantis Tenkinja",
     "type": "Character",
+    "text": "<em>Water</em> role only.\n<b>Interrupt:</b> When you play an event, lose 1 honor – reduce the cost of that event by 1.",
+    "illustrator": "Eli Ring",
+    "name": "Mantis Tenkinja",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Water",
       "Mantis Clan"
     ],
-    "text": "Water role only.\nInterrupt: When you play an event, lose 1 honor – reduce the cost of that event by 1.",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Water",
+      "Mantis-clan"
+    ],
+    "imagePath": "/cards/l5r-lcg/elements-unbound-111.jpg"
   },
   {
     "id": "elements-unbound-112",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Awakened Tsukumogami",
     "type": "Character",
+    "text": "<em>Void</em> role only.\nYou may use the fate on a ring to pay the cost of a conflict card that has a <em>Trait</em> that matches an element of that ring.",
+    "illustrator": "Reiko Murakami",
+    "name": "Awakened Tsukumogami",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Spirit",
       "Void"
     ],
-    "text": "Void role only.\nYou may use fate on a ring to pay the cost of a conflict card that has a Trait that matches an element of that ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-112.jpg"
   },
   {
     "id": "elements-unbound-113",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Pragmatism",
     "type": "Attachment",
+    "text": "Attach to a character you control.\nWhile you are less honorable than an opponent, attached character gets +1[conflict-military], +1[conflict-political], and gains: \"This character cannot be honored or dishonored.\"",
+    "illustrator": "Arif Wijaya",
+    "name": "Pragmatism",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to a character you control.\nWhile you are less honorable than an opponent, attached character gets +1[mil], +1[pol], and gains: \"This character cannot be honored or dishonored.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-113.jpg"
   },
   {
     "id": "elements-unbound-114",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Specialized Defenses",
     "type": "Event",
+    "text": "<em>Earth</em> role only.\n<b>Action:</b> During a conflict, if the attacked province has an element that matches the contested ring or a ring in your claimed ring pool – double that province's strength until the end of the conflict.",
+    "illustrator": "Diana Martinez",
+    "name": "Specialized Defenses",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Earth role only.\nAction: During a conflict, if the attacked province has an element that matches the contested ring or a ring in your claimed ring pool – double that province's strength until the end of the conflict.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/elements-unbound-114.jpg"
   },
   {
     "id": "elements-unbound-115",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Being and Becoming",
     "type": "Attachment",
+    "text": "<em>Void</em> role only. Attach to a character you control.\n<b>Action:</b> Bow attached character, choose an unclaimed ring – move each fate from that ring to attached character.",
+    "illustrator": "Joyce Maureira",
+    "name": "Being and Becoming",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Condition"
     ],
-    "text": "Void role only. Attach to a character you control.\nAction: Bow attached character, choose an unclaimed ring – move each fate from that ring to attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-115.jpg"
   },
   {
     "id": "elements-unbound-116",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Mantra of Earth",
     "type": "Event",
+    "text": "<b>Reaction:</b> After an opponent declares an [element-earth] conflict, choose a <em>Monk</em> character or a character with a <em>Monk</em> attachment – until the end of the conflict, opponents’ card abilities cannot choose that character as a target. Draw 1 card.\n<i>Errata from RRG v1.7</i>",
+    "illustrator": "Derek D Edgell",
+    "name": "Mantra of Earth",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Kihō",
       "Earth"
     ],
-    "text": "Reaction: After an opponent declares a [earth] conflict, choose a Monk character or a character with a Monk attachment – until the end of the conflict, opponents' card abilities cannot choose that character as a target. Draw 1 card.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Earth"
+    ],
+    "imagePath": "/cards/l5r-lcg/elements-unbound-116.jpg"
   },
   {
     "id": "elements-unbound-117",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Restored Heirloom",
     "type": "Attachment",
+    "text": "<em>Water</em> role only. Restricted.\n<b>Interrupt:</b> When you would resolve the [element-water] ring effect, choose a character you control – instead of resolving normal ring effects, put this attachment into play from your hand or conflict discard pile, attached to that character.",
+    "illustrator": "Hai Hoang",
+    "name": "Restored Heirloom",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 1,
+    "militaryBonus": "+3",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon"
     ],
-    "text": "Water role only. Restricted.\nInterrupt: When you would resolve the [water] ring effect, choose a character you control – instead of resolving normal ring effects, put this attachment into play from your hand or conflict discard pile, attached to that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-117.jpg"
   },
   {
     "id": "elements-unbound-118",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Roving Michibiku",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict – take a ring from the defending player's claimed ring pool.",
+    "illustrator": "Nele Diel",
+    "name": "Roving Michibiku",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 3,
+    "glory": 1,
+    "influence": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Scholar"
     ],
-    "text": "Reaction: After this character wins a conflict – take a ring from the defending player's claimed ring pool.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/elements-unbound-118.jpg"
   },
   {
     "id": "elements-unbound-119",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Taryū-Jiai",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a <em>Shugenja</em> character you control and a <em>Shugenja</em> character controlled by an opponent – your character challenges your opponent's character to a glory duel. The winner of the duel's controller resolves a ring effect of his or her choice as if he or she was the attacking player.",
+    "illustrator": "Eli Ring",
+    "name": "Taryū-Jiai",
     "clan": "Phoenix",
     "deck": "conflict",
-    "text": "Action: During a conflict, choose a Shugenja character you control and a Shugenja character controlled by an opponent – your character challenges your opponent's character to a glory duel. The winner of the duel's controller resolves a ring effect of his or her choice as if he or she was the attacking player.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/elements-unbound-119.jpg"
   },
   {
     "id": "elements-unbound-120",
     "gameId": "l5r-lcg",
     "setId": "elements-unbound",
     "publisherId": "ffg",
-    "name": "Unleash the Djinn",
     "type": "Event",
+    "text": "<em>Fire</em> role only.\n<b>Action:</b> During a conflict, lose 3 honor – set the [conflict-military] and [conflict-political] skill of each participating character to 3 until the end of the conflict.",
+    "illustrator": "Calvin Chua",
+    "name": "Unleash the Djinn",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 3,
     "traits": [
       "Spell",
       "Fire",
       "Meishōdō"
     ],
-    "text": "Fire role only.\nAction: During a conflict, lose 3 honor – set the [mil] and [pol] skill of each participating character to 3 until the end of the conflict.",
-    "unverified": true
+    "traitsAscii": [
+      "Spell",
+      "Fire",
+      "Meishodo"
+    ],
+    "imagePath": "/cards/l5r-lcg/elements-unbound-120.jpg"
   }
 ]

@@ -4,294 +4,399 @@
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Teachings of the Elements",
     "type": "Province",
-    "clan": "Phoenix",
     "text": "This province gets +1 strength for each claimed ring.",
-    "unverified": true
+    "flavorText": "\"You cannot balance the elements when you are without balance.\" – Tao of Shinsei",
+    "illustrator": "Eli Ring",
+    "name": "Teachings of the Elements",
+    "clan": "Phoenix",
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/tainted-lands-021.jpg"
   },
   {
     "id": "tainted-lands-022",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Border Fortress",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at this province, choose a facedown province – reveal that province.",
+    "flavorText": "The first stage of attack. The first line of defense.",
+    "illustrator": "Alayna Lemmer",
+    "name": "Border Fortress",
     "clan": "Unicorn",
+    "strength": 4,
     "traits": [
       "Fort"
     ],
-    "text": "Action: During a conflict at this province, choose a facedown province – reveal that province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-022.jpg"
   },
   {
     "id": "tainted-lands-023",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Upholding Authority",
     "type": "Province",
+    "text": "This province gets +2 strength while you have an <em>Earth</em> role.\n<b>Interrupt:</b> When this province is broken – the attacking player reveals his or her hand. Choose a card in their hand and discard any number of copies of that card from their hand.",
+    "illustrator": "Joyce Maureira",
+    "name": "Upholding Authority",
     "clan": "Neutral",
-    "text": "This province gets +2 strength while you have an Earth role.\nInterrupt: When this province is broken – the attacking player reveals his or her hand. Choose a card in their hand and discard any number of copies of that card from their hand.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/tainted-lands-023.jpg"
   },
   {
     "id": "tainted-lands-024",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Apprentice Earthcaller",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, choose an attacking character without attachments – until the end of the conflict, set that character's skill values to its printed values.",
+    "flavorText": "\"The kami are already angry. It's not difficult to turn their rage to your advantage.\" – Kuni Yori",
+    "illustrator": "Lukas Banas",
+    "name": "Apprentice Earthcaller",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Earth"
     ],
-    "text": "Action: During a conflict, choose an attacking character without attachments – until the end of the conflict, set that character's skill values to its printed values.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-024.jpg"
   },
   {
     "id": "tainted-lands-025",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Kuni Yori",
     "type": "Character",
     "unique": true,
+    "text": "During [element-earth] conflicts, each character you control gets +1[conflict-military] and +1[conflict-political].\n<b>Action:</b> During a conflict, lose 1 honor. Choose a player – that player discards 1 card at random from his or her hand.",
+    "flavorText": "\"I know our enemy.\"",
+    "illustrator": "Maerel Hibadita",
+    "name": "Kuni Yori",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 1,
+    "military": "4",
+    "political": "4",
     "traits": [
       "Shugenja",
       "Earth",
       "Daimyō"
     ],
-    "text": "During [earth] conflicts, each character you control gets +1[mil] and +1[pol].\nAction: During a conflict, lose 1 honor. Choose a player – that player discards 1 card at random from his or her hand.",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Earth",
+      "Daimyo"
+    ],
+    "imagePath": "/cards/l5r-lcg/tainted-lands-025.jpg"
   },
   {
     "id": "tainted-lands-026",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Asahina Takako",
     "type": "Character",
     "unique": true,
+    "text": "You may look at facedown cards in each province you control.\n<b>Action:</b> Choose a card in one of your provinces – switch that card with a card in another of your provinces or discard it.",
+    "flavorText": "\"Life is already fleeting. Why waste such precious time with war?\"",
+    "illustrator": "Maerel Hibadita",
+    "name": "Asahina Takako",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "political": "5",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "You may look at facedown cards in each province you control.\nAction: Choose a card in one of your provinces – switch that card with a card in another of your provinces or discard it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-026.jpg"
   },
   {
     "id": "tainted-lands-027",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Bonsai Garden",
     "type": "Holding",
+    "text": "<b>Action:</b> During an [element-air] conflict – gain 1 honor.",
+    "flavorText": "\"Daily caretaking leads to a life of peace.\" – Tao of Shinsei",
+    "illustrator": "Derek D Edgell",
+    "name": "Bonsai Garden",
     "clan": "Crane",
     "deck": "dynasty",
     "traits": [
       "Garden"
     ],
-    "text": "Action: During an [air] conflict – gain 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-027.jpg"
   },
   {
     "id": "tainted-lands-028",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Impulsive Novice",
     "type": "Character",
+    "text": "This character gets +1[conflict-military] and +1[conflict-political] while you have claimed the [element-fire] or [element-void] ring.",
+    "flavorText": "\"You clearly have not seen what I can do.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Impulsive Novice",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "2",
     "traits": [
-      "Courtier"
+      "Monk"
     ],
-    "text": "This character gets +1[mil] and +1[pol] while you have claimed the [fire] or [void] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-028.jpg"
   },
   {
     "id": "tainted-lands-029",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Court Novice",
     "type": "Character",
+    "text": "This character gets +2[conflict-political] while you have claimed the [element-air] or [element-water] ring.",
+    "flavorText": "\"Each detail you reveal is another tool your opponent will use against you.\" – Sensei Nagori",
+    "illustrator": "Felipe Gaona",
+    "name": "Court Novice",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "This character gets +2[pol] while you have claimed the [air] or [water] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-029.jpg"
   },
   {
     "id": "tainted-lands-030",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Sneaky Shinjo",
     "type": "Character",
+    "text": "<b>Reaction:</b> After you pass in the dynasty phase – play this character from your province.",
+    "flavorText": "\"Conceal yourself like the desert viper within the dunes.\"",
+    "illustrator": "Isuardi Therianto",
+    "name": "Sneaky Shinjo",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After you pass in the dynasty phase – play this character from your province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-030.jpg"
   },
   {
     "id": "tainted-lands-031",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Marauding Oni",
     "type": "Character",
+    "text": "This character cannot be honored or dishonored.\n<b>Forced Reaction:</b> After this character is declared as an attacked or defender – lose 1 honor. (Unlimited.)",
+    "flavorText": "\"No price could be too high for victory.\"",
+    "illustrator": "Calvin Chua",
+    "name": "Marauding Oni",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "4",
     "traits": [
       "Oni",
       "Shadowlands"
     ],
-    "text": "This character cannot be honored or dishonored.\nForced Reaction: After this character is declared as an attacker or defender – lose 1 honor. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-031.jpg"
   },
   {
     "id": "tainted-lands-032",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Spreading the Darkness",
     "type": "Event",
+    "text": "<b>Action:</b> Lose 2 honor. Choose a participating character you control – until the end of the conflict, that character gets +4[conflict-military] and cannot be targeted by opponents' card abilities.",
+    "flavorText": "\"Feast, kansen, upon this offering.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Spreading the Darkness",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Mahō",
       "Spell",
       "Earth"
     ],
-    "text": "Action: Lose 2 honor. Choose a participating character you control – until the end of the conflict, that character gets +4[mil] and cannot be targeted by opponents' card abilities.",
-    "unverified": true
+    "traitsAscii": [
+      "Maho",
+      "Spell",
+      "Earth"
+    ],
+    "imagePath": "/cards/l5r-lcg/tainted-lands-032.jpg"
   },
   {
     "id": "tainted-lands-033",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Adopted Kin",
     "type": "Attachment",
+    "text": "<em>Fire</em> role only. Limit 1 per character.\nEach other attachment on attached character gains ancestral.",
+    "flavorText": "Facing a crisis of children, the Dragon were willing to turn even to the peasantry to find new heirs.",
+    "illustrator": "Joyce Maureira",
+    "name": "Adopted Kin",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Condition"
     ],
-    "text": "Fire role only. Limit 1 per character.\nEach other attachment on attached character gains ancestral.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-033.jpg"
   },
   {
     "id": "tainted-lands-034",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Ikoma Reservist",
     "type": "Character",
+    "text": "This character gets 2[conflict-military] while you have claimed the [element-fire] or [element-water] ring.",
+    "flavorText": "\"Take arms! The Unicorn are at our door!\"",
+    "illustrator": "Andreia Ugrai",
+    "name": "Ikoma Reservist",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 0,
+    "influence": 2,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "This character gets +2[mil] while you have claimed the [fire] or [water] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-034.jpg"
   },
   {
     "id": "tainted-lands-035",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Writ of Authority",
     "type": "Attachment",
+    "text": "<em>Earth</em> role only. Restricted.\nIf an opponent is more honorable than you, discard this attachment.",
+    "illustrator": "Lukas Banas",
+    "name": "Writ of Authority",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+3",
     "traits": [
       "Item"
     ],
-    "text": "Earth role only. Restricted.\nIf an opponent is more honorable than you, discard this attachment.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-035.jpg"
   },
   {
     "id": "tainted-lands-036",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Feral Ningyo",
     "type": "Character",
+    "text": "<b>Action:</b> During a [element-water] conflict – put this character into play from your hand in the conflict. At the end of the conflict, shuffle it into your conflict deck.",
+    "flavorText": "The sea's embrace is cold and sharp.",
+    "illustrator": "Antonio Jose Manzanedo",
+    "name": "Feral Ningyo",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 3,
+    "glory": 0,
+    "influence": 3,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Creature"
     ],
-    "text": "Action: During a [water] conflict – put this character into play from your hand in the conflict. At the end of the conflict, shuffle it into your conflict deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-036.jpg"
   },
   {
     "id": "tainted-lands-037",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Oracle of Stone",
     "type": "Event",
+    "text": "<b>Action:</b> Each player draws 2 cards. Then, each player discards 2 cards from his or her hand.\n<i>Errata from RRG v1.7</i>",
+    "flavorText": "Pray it does not foretell disaster.",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Oracle of Stone",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Spell",
       "Earth"
     ],
-    "text": "Action: Each player draws two cards. Then, each player discards 2 cards from his or her hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-037.jpg"
   },
   {
     "id": "tainted-lands-038",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Tainted Koku",
     "type": "Attachment",
+    "text": "<b>Interrupt:</b> When attached character leaves play – move this attachment to another character controlled by the same player.",
+    "flavorText": "\"Some say greed is an illness. They don't know how right they are.\" – Ikoma Ikehata",
+    "illustrator": "Felipe Gaona",
+    "name": "Tainted Koku",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "-1",
+    "politicalBonus": "-1",
     "traits": [
       "Poison"
     ],
-    "text": "Interrupt: When attached character leaves play – move this attachment to another character controlled by the same player.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/tainted-lands-038.jpg"
   },
   {
     "id": "tainted-lands-039",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Press of Battle",
     "type": "Event",
+    "text": "<em>Water</em> role only.\n<b>Action:</b> During a [conflict-military] conflict, if you control more participating characters than your opponent, choose a non-unique participating character – bow that character.",
+    "illustrator": "Calvin Chua",
+    "name": "Press of Battle",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Water role only.\nAction: During a [mil] conflict, if you control more participating characters than your opponent, choose a non-unique participating character – bow that character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/tainted-lands-039.jpg"
   },
   {
     "id": "tainted-lands-040",
     "gameId": "l5r-lcg",
     "setId": "tainted-lands",
     "publisherId": "ffg",
-    "name": "Sabotage",
     "type": "Event",
+    "text": "<em>Earth</em> role only.\n<b>Action:</b> During a [conflict-military] conflict, choose a card in an opponent's province – discard that card.",
+    "illustrator": "Eli Ring",
+    "name": "Sabotage",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Earth role only.\nAction: During a [mil] conflict, choose a card in an opponent's province – discard that card.",
-    "unverified": true
+    "cost": 0,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/tainted-lands-040.jpg"
   }
 ]

@@ -4,318 +4,410 @@
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Shiro Gisu",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Action:</b> Bow this stronghold - look at the top X cards of you conflict deck, where X is the number of characters an opponent controls with no fate on them. Add 1 of those cards to your hand and put the rest on the bottom of your conflict deck in a random order.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Shiro Gisu",
     "clan": "Phoenix",
+    "honor": 10,
+    "fate": 7,
+    "influencePool": 11,
     "traits": [
       "Castle"
     ],
-    "text": "Action: Bow this stronghold – look at the top X cards of your conflict deck, where X is the number of characters an opponent controls with no fate on them. Add 1 of those cards to your hand and put the rest on the bottom of your conflict deck in a random order.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-109.png"
   },
   {
     "id": "peace-at-any-cost-110",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Golden Plains",
     "type": "Province",
+    "text": "While your stronghold is Golden Plains Outpost, each character you control gains the <em>Cavalry</em> trait.\n<b>Reaction:</b> After an attack is declared against this province, choose another eligible province you control - move the conflict to that province.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Golden Plains",
     "clan": "Unicorn",
-    "text": "While your stronghold is Golden Plains Outpost, each character you control gains the Cavalry trait.\nReaction: After an attack is declared against this province, choose another eligible province you control – move the conflict to that province.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-110.jpg"
   },
   {
     "id": "peace-at-any-cost-111",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Lord's Ascendancy",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at this province, choose a participating character - that character's controller moves 1 fate from their fate pool to the chosen character.",
+    "illustrator": "Borja Pindado",
+    "name": "Lord's Ascendancy",
     "clan": "Neutral",
-    "text": "Action: During a conflict at this province, choose a participating character – that character's controller moves 1 fate from their fate pool to the chosen character.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-111.jpg"
   },
   {
     "id": "peace-at-any-cost-112",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Midnight Builder",
     "type": "Character",
+    "text": "Dire - you may trigger the ability on each holding you control an additional time each round (or specified period). <i>(This character is dire when it has no fate on it.)</i>\nEach holding you control gets +2 bonus strength.",
+    "illustrator": "Andreia Ugrai",
+    "name": "Midnight Builder",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Bushi",
       "Engineer"
     ],
-    "text": "Dire – You may trigger the ability on each holding you control an additional time each round (or specified period). (This character is dire when it has no fate on it.)\nEach holding you control gets +2 bonus strength.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-112.jpg"
   },
   {
     "id": "peace-at-any-cost-113",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Doom Thrower",
     "type": "Holding",
+    "text": "During a conflict, sacrifice a character - the attacked province gets -2 strength until the end of the conflict (-5 strength instead if the sacrificed character had 1 or more fate on it).",
+    "illustrator": "Hai Hoang",
+    "name": "Doom Thrower",
     "clan": "Crab",
     "deck": "dynasty",
     "traits": [
       "Siege Weapon"
     ],
-    "text": "During a conflict, sacrifice a character – the attacked province gets -2 strength until the end of the conflict (-5 strength instead if the sacrificed character had 1 or more fate on it).",
-    "unverified": true
+    "traitsAscii": [
+      "Siege-weapon"
+    ],
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-113.jpg"
   },
   {
     "id": "peace-at-any-cost-114",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Daidoji Iron Warrior",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict - each player discards cards from their hand until they have 4 or fewer cards in hand.",
+    "flavorText": "\"We may be outnumbered, but we will never be outmatched.\"",
+    "illustrator": "Imad Awan",
+    "name": "Daidoji Iron Warrior",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After this character wins a conflict – each player discards cards from their hand until they have 4 or fewer cards in hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-114.jpg"
   },
   {
     "id": "peace-at-any-cost-115",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Furtive Sympathizer",
     "type": "Character",
+    "text": "<em>Keeper</em> role only.\nCovert.\n<b>Action:</b> During a conflict in which this character is participating, if this character is ordinary - switch each participating character's base [conflict-military] skill with its base [conflict-political] skill until the end of the conflict.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Furtive Sympathizer",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Monk",
       "Heretic"
     ],
-    "text": "Keeper role only.\nCovert\nAction: During a conflict in which this character is participating, if this character is ordinary – switch each participating character's base [mil] skill with its base [pol] skill until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-115.png"
   },
   {
     "id": "peace-at-any-cost-116",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Adorned Temple",
     "type": "Holding",
+    "text": "<b>Reaction:</b> After 1 or more fate is placed on a character you control by a card effect - draw 1 card (draw 2 cards instead if that character is ordinary).",
+    "illustrator": "Nele Diel",
+    "name": "Adorned Temple",
     "clan": "Dragon",
     "deck": "dynasty",
     "traits": [
       "Temple"
     ],
-    "text": "Reaction: After 1 or more fate is placed on a character you control by a card effect – draw 1 card (draw 2 cards instead if that character is ordinary).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-116.jpg"
   },
   {
     "id": "peace-at-any-cost-117",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Ikoma Ujiaki",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating, lose 2 honor - switch the conflict type <i>(The conflict retains its element)</i>.",
+    "flavorText": "\"Our service to the throne has never wavered.\"",
+    "illustrator": "Surya Prasetya",
+    "name": "Ikoma Ujiaki",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "3",
+    "political": "5",
     "traits": [
       "Bushi",
       "Courtier"
     ],
-    "text": "Reaction: During a conflict in which this character is participating, lose 2 honor – switch the conflict type (the conflict retains its element).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-117.jpg"
   },
   {
     "id": "peace-at-any-cost-118",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Inquisitorial Initiate",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict - your opponent reveals X cards in their hand, where X is the number of characters they control with no fate on them. Choose and discard 1 of the revealed cards.",
+    "illustrator": "Isuardi Therianto",
+    "name": "Inquisitorial Initiate",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After this character wins a conflict – your opponent reveals X cards in their hand, where X is the number of characters they control with no fate on them. Choose and discard 1 of the revealed cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-118.png"
   },
   {
     "id": "peace-at-any-cost-119",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Relentless Inquisitor",
     "type": "Character",
+    "text": "<em>Seeker</em> role only.\n<b>Action:</b> During a conflict in which this character is participating, choose a participating character your opponent controls. They must select one - either remove 1 fate from that character or bow it.",
+    "illustrator": "Marius Bota",
+    "name": "Relentless Inquisitor",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "2",
+    "political": "4",
     "traits": [
       "Courtier"
     ],
-    "text": "Seeker role only.\nAction: During a conflict in which this character is participating, choose a participating character your opponent controls. They must select one – either remove 1 fate from that character or bow it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-119.png"
   },
   {
     "id": "peace-at-any-cost-120",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Underhanded Samurai",
     "type": "Character",
+    "text": "Covert. <i>(When this character attacks, choose one character without covert. That character cannot be declared as a defender.)</i>",
+    "flavorText": "\"Confront only your enemy's weaknesses, never their strengths.\" - Bayushi's Lies",
+    "illustrator": "Drew Baker",
+    "name": "Underhanded Samurai",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Covert. (When this character attacks, choose one character without covert. That character cannot be declared as a defender.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-120.jpg"
   },
   {
     "id": "peace-at-any-cost-121",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Moto Conqueror",
     "type": "Character",
+    "text": "—",
+    "flavorText": "On the distant Plain of Wind and Stone, Shinjo's followers learned new gaijin ways to ride, to hunt and to fight from horseback.",
+    "illustrator": "Imad Awan",
+    "name": "Moto Conqueror",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "4",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "—",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-121.jpg"
   },
   {
     "id": "peace-at-any-cost-122",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "At Any Cost",
     "type": "Event",
+    "text": "Limited.\n<b>Action:</b> Lose 3 honor. Choose a character - place 2 fate on that character.",
+    "flavorText": "\"Kuni did not hesitate when he turned the spirits of Jigoku against Hajimeno Tatakai no Oni. Why should I?\" - Kuni Yori",
+    "illustrator": "Francesca Baerald",
+    "name": "At Any Cost",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 4,
     "traits": [
       "Philosophy"
     ],
-    "text": "Limited.\nAction: Lose 3 honor. Choose a character – place 2 fate on that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-122.jpg"
   },
   {
     "id": "peace-at-any-cost-123",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Dutiful Assistant",
     "type": "Attachment",
+    "text": "Ancestral. <i>(When attached card leaves play, return this card to your hand.)</i>\nWhile attached character is honored, it gets +2 glory.",
+    "illustrator": "IFS",
+    "name": "Dutiful Assistant",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Follower"
     ],
-    "text": "Ancestral. (When attached card leaves play, return this card to your hand.)\nWhile attached character is honored, it gets +2 glory.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-123.jpg"
   },
   {
     "id": "peace-at-any-cost-124",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Setting the Standard",
     "type": "Attachment",
+    "text": "<em>Air</em> role only.\nRestricted.\nAttached character gains: \"<b>Reaction:</b> After this character wins a conflict — draw 2 cards, then discard 1 card from your hand.\"",
+    "illustrator": "Isuardi Therianto",
+    "name": "Setting the Standard",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+2",
     "traits": [
       "Technique"
     ],
-    "text": "Air role only.\nRestricted.\nAttached character gains: \"Reaction: After this character wins a conflict – draw 2 cards, then discard 1 card from your hand.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-124.jpg"
   },
   {
     "id": "peace-at-any-cost-125",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Belief in the Little Teacher",
     "type": "Attachment",
+    "text": "Ancestral.\nAttached character gains: \"<b>Action:</b> Discard a status token from this character.\"",
+    "flavorText": "\"The kie was given to us by Shinsei to finally be free of karma and reincarnation.\"",
+    "illustrator": "Guillaume Ducos",
+    "name": "Belief in the Little Teacher",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Condition",
       "Heresy"
     ],
-    "text": "Ancestral\nAttached character gains: \"Action: Discard a status token from this character.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-125.png"
   },
   {
     "id": "peace-at-any-cost-126",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Ujiaki's Offer",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict, choose a participating character with printed cost equal to or lower than that of another participating character you control - place 1 fate on the chosen character. If you do, bow it, move it home, and dishonor it.",
+    "illustrator": "Kanadekana",
+    "name": "Ujiaki's Offer",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
     "traits": [
       "Tactic"
     ],
-    "text": "Action: During a conflict, choose a participating character with printed cost equal to or lower than that of another participating character you control – place 1 fate on the chosen character. If you do, bow it, move it home, and dishonor it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-126.jpg"
   },
   {
     "id": "peace-at-any-cost-127",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "A War on Two Fronts",
     "type": "Event",
+    "text": "Limited.\n<b>Reaction:</b> After you declare a [conflict-military] conflict, if you are more honorable than your opponent, choose an eligible province not currently being attacked - reveal it, if able. The conflict is also at that province.",
+    "illustrator": "Francesca Baerald",
+    "name": "A War on Two Fronts",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Limited.\nReaction: After you declare a [mil] conflict, if you are more honorable than your opponent, choose an eligible province not currently being attacked – reveal it, if able. The conflict is also at that province.",
-    "unverified": true
+    "cost": 2,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-127.jpg"
   },
   {
     "id": "peace-at-any-cost-128",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Cleanse the Empire",
     "type": "Event",
+    "text": "<b>Reaction:</b> After you win a conflict as the attacking player - remove 1 fate from each character your opponent controls. Then, choose a character with no fate on it controlled by that opponent and bow it.",
+    "illustrator": "Imad Awan",
+    "name": "Cleanse the Empire",
     "clan": "Phoenix",
     "deck": "conflict",
-    "text": "After you win a conflict as the attacking player – remove 1 fate from each character your opponent controls. Then, choose a character with no fate on it controlled by that opponent and bow it.",
-    "unverified": true
+    "cost": 3,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-128.jpg"
   },
   {
     "id": "peace-at-any-cost-129",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Subterfuge",
     "type": "Event",
+    "text": "<b>Interrupt:</b> When an opponent would draw 1 or more cards outside the draw phase, if you are less honorable than that opponent - discard up to 3 of those cards instead.",
+    "illustrator": "Drazenka Kimpel",
+    "name": "Subterfuge",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Interrupt: When an opponent would draw 1 or more cards outside the draw phase, if you are less honorable than that opponent – discard up to 3 of those cards instead.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-129.jpg"
   },
   {
     "id": "peace-at-any-cost-130",
     "gameId": "l5r-lcg",
     "setId": "peace-at-any-cost",
     "publisherId": "ffg",
-    "name": "Ride On",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a <em>Cavalry</em> character you control. Select one - either move that character to the conflict or move it home.",
+    "flavorText": "\"Why would we settle down like some indulgent Bayushi, when we draw strength from our unique freedom?\" - Moto Rurame",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Ride On",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Tactic"
     ],
-    "text": "Action: During a conflict, choose a Cavalry character you control. Select one – either move that character to the conflict or move it home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-130.jpg"
   }
 ]

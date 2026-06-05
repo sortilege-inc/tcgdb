@@ -4,332 +4,422 @@
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Castle of the Forgotten",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Reaction:</b>  After you break a province, bow this stronghold - each conflict declared this round is [conflict-military] instead of its normal type.",
+    "illustrator": "Nele Diel",
+    "name": "Castle of the Forgotten",
     "clan": "Crab",
+    "honor": 10,
+    "fate": 7,
+    "influencePool": 9,
     "traits": [
       "Castle"
     ],
-    "text": "Reaction: After you break a province, bow this stronghold – each conflict declared this round is [mil] instead of its normal type.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-087.png"
   },
   {
     "id": "coils-of-power-088",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Offerings to the Kami",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed, choose a ring in the unclaimed ring pool - resolve that ring's effects and claim it as a [conflict-political] ring, gaining all fate on it.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Offerings to the Kami",
     "clan": "Phoenix",
+    "strength": 4,
     "traits": [
       "Shrine"
     ],
-    "text": "Reaction: After this province is revealed, choose a ring in the unclaimed ring pool – resolve that ring's effects and claim it as a ring, gaining all fate on it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-088.jpg"
   },
   {
     "id": "coils-of-power-089",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Deserted Shrine",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed, choose a deck - discard the top 10 cards of that deck.",
+    "flavorText": "\"In emptiness, despair lurks.\" - Tao of Shinsei",
+    "illustrator": "Logan Feliciano",
+    "name": "Deserted Shrine",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "Shrine"
     ],
-    "text": "Reaction: After this province is revealed, choose a deck – discard the top 10 cards of that deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-089.jpg"
   },
   {
     "id": "coils-of-power-090",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Repentant Legion",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>.\n<b>Reaction:</b> After you break a province during a conflict in which this character is participating - fill each of your non-stronghold provinces with 1 facedown dynasty card.",
+    "illustrator": "Aurelien Hubert",
+    "name": "Repentant Legion",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 1,
+    "military": "9",
     "traits": [
       "Bushi",
       "Army",
       "Berserker"
     ],
-    "text": "No attachments except Weapon.\nReaction: After you break a province during a conflict in which this character is participating – fill each of your non-stronghold provinces with 1 facedown dynasty card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-090.png"
   },
   {
     "id": "coils-of-power-091",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Asahina Peacekeeper",
     "type": "Character",
+    "text": "<em>Seeker</em> role only.\nLimited.\nAs an additional cost for a player to declare a character as an attacker during a [conflict-military] conflict, that player must discard 1 card from their hand.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Asahina Peacekeeper",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 3,
+    "political": "5",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Seeker role only.\nLimited.\nAs an additional cost for a player to declare a character as an attacker during a [mil] conflict, that player must discard 1 card from their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-091.jpg"
   },
   {
     "id": "coils-of-power-092",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Fū Sui Temple",
     "type": "Holding",
+    "text": "During [conflict-political] conflicts, each participating character gains pride.",
+    "flavorText": "\"With temperance and grace, you can achieve greatness.\" - Asahina Takako",
+    "illustrator": "Nele Diel",
+    "name": "Fū Sui Temple",
     "clan": "Crane",
     "deck": "dynasty",
     "traits": [
       "Temple"
     ],
-    "text": "During [pol] conflicts, each participating character gains pride.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-092.jpg"
   },
   {
     "id": "coils-of-power-093",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Militant Faithful",
     "type": "Character",
+    "text": "No attachments except <em>Heresy</em> or <em>Weapon</em>.\nThis character does not bow as the result of conflict resolution during conflicts in which an opponent controls a participating honored or dishonored character.",
+    "illustrator": "Piotr Arendzikowski",
+    "name": "Militant Faithful",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 0,
+    "military": "5",
+    "political": "5",
     "traits": [
       "Peasant",
       "Heretic",
       "Army"
     ],
-    "text": "No attachments except Heresy or Weapon.\nThis character does not bow as the result of conflict resolution during conflicts in which an opponent controls a participating honored or dishonored character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-093.jpg"
   },
   {
     "id": "coils-of-power-094",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Conduit of Heroes",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, bow this character unless you have at least 5 more honor than an opponent. Choose another character - until the end of the conflict, that character gets +3[conflict-military], +1[conflict-political] and +1 glory.",
+    "illustrator": "Stormbrush",
+    "name": "Conduit of Heroes",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Action: During a conflict, bow this character unless you have at least 5 more honor than an opponent. Choose another character – until the end of the conflict, that character gets +3 [mil], +1 [pol] and +1 glory.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-094.jpg"
   },
   {
     "id": "coils-of-power-095",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Kami of Ancient Wisdom",
     "type": "Character",
+    "text": "No attachments except <em>Spell</em> or <em>Spirit</em>.\n<b>Reaction:</b> After 1 or more fate is removed from a character outside the fate phase, choose a character and select one - either place 1 fate on the chosen character or remove 1 fate from it.",
+    "illustrator": "Carlos Barquet",
+    "name": "Kami of Ancient Wisdom",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 0,
+    "military": "2",
+    "political": "6",
     "traits": [
       "Spirit"
     ],
-    "text": "No attachments except Spell or Spirit.\nReaction: After 1 or more fate is removed from a character outside the fate phase, choose a character and select one – either place 1 fate on the chosen character or remove 1 fate from it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-095.jpg"
   },
   {
     "id": "coils-of-power-096",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Shosuro Deceiver",
     "type": "Character",
+    "text": "While this character is participating in a conflict it gains each triggered ability on each other participating dishonored character except for abilities granted by instances of this ability.",
+    "flavorText": "\"When you are but one face in a crowd of many, you are everywhere.\"",
+    "illustrator": "Drazenka Kimpel",
+    "name": "Shosuro Deceiver",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "2",
+    "political": "4",
     "traits": [
       "Courtier",
       "Shinobi"
     ],
-    "text": "While this character is participating in a conflict it gains each triggered ability on each other participating dishonored character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-096.jpg"
   },
   {
     "id": "coils-of-power-097",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Display of Loyalty",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a character with the most fate on it among characters in play - dishonor that character.",
+    "flavorText": "\"You shall suffer no dishonor, my lord.\"",
+    "illustrator": "Isuardi Therianto",
+    "name": "Display of Loyalty",
     "clan": "Scorpion",
     "deck": "dynasty",
-    "text": "Action: Choose a character with the most fate on it among characters in play – dishonor that character.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/coils-of-power-097.jpg"
   },
   {
     "id": "coils-of-power-098",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Open Field Skirmisher",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is attacking, remove 1 fate from this character - the attacked province gets -3 strength until the end of the conflict.",
+    "illustrator": "Conceptopolis",
+    "name": "Open Field Skirmisher",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Bushi"
     ],
-    "text": "Action: During a conflict in which this character is attacking, remove 1 fate from this character – the attacked province gets -3 strength until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-098.jpg"
   },
   {
     "id": "coils-of-power-099",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Higashi Kaze Company",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>.\n<b>Reaction:</b> After this character wins a conflict, choose another participating character with no fate on it - that character does not bow as the result of this conflict's resolution.",
+    "illustrator": "Imad Awan",
+    "name": "Higashi Kaze Company",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "6",
+    "political": "3",
     "traits": [
       "Bushi",
       "Army",
       "Cavalry"
     ],
-    "text": "No attachments except Weapon.\nReaction: After this character wins a conflict, choose another participating character with no fate on it – that character does not bow as the result of this conflict's resolution.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-099.jpg"
   },
   {
     "id": "coils-of-power-100",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Battle Meditation",
     "type": "Event",
+    "text": "<b>Reaction:</b> After you break a province during a conflict, if you control a participating <em>Berserker</em> character - draw 3 cards. (Max 1 per conflict.)",
+    "flavorText": "\"In the destruction of your enemies, may you find peace.\" - Hida Kiyomasa",
+    "illustrator": "Carlos Diaz",
+    "name": "Battle Meditation",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Reaction: After you break a province during a conflict, if you control a participating Berserker character – draw 3 cards. (Max 1 per conflict.)",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/coils-of-power-100.png"
   },
   {
     "id": "coils-of-power-101",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Tsangusuri Ward",
     "type": "Attachment",
+    "text": "Play only on a character you control, and only if your control a <em>Shugenja</em> character.\nOpponents cannot play attachments on attached character.",
+    "flavorText": "The spirits awoken in Asahina art mirror the artisan's harmonious intent.",
+    "illustrator": "Eli Ring",
+    "name": "Tsangusuri Ward",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Item",
       "Spell",
       "Air"
     ],
-    "text": "Play only on a character you control, and only if you control a Shugenja character.\nOpponents cannot play attachments on attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-101.jpg"
   },
   {
     "id": "coils-of-power-102",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Phoenix Tattoo",
     "type": "Attachment",
+    "text": "<em>Fire</em> role only.\nAttach to a character you control. Attached character gains the <em>Tattooed</em> trait.\nRestricted.\nWhile attached character is participating in a conflict, each other participating character gains pride.",
+    "illustrator": "Borja Pindado",
+    "name": "Phoenix Tattoo",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+2",
+    "politicalBonus": "+2",
     "traits": [
       "Tattoo"
     ],
-    "text": "Fire role only.\nAttach to a character you control. Attached character gains the Tattooed trait.\nRestricted.\nWhile attached character is participating in a conflict, each other participating character gains pride.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-102.jpg"
   },
   {
     "id": "coils-of-power-103",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Betrayal of Truth",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict - bow each participating honored or dishonored character.",
+    "flavorText": "\"What have you done, my son...\" - Mirumoto Masashige",
+    "illustrator": "Joshua Cairos",
+    "name": "Betrayal of Truth",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
     "traits": [
       "Heresy"
     ],
-    "text": "Reaction: During a conflict – bow each participating honored or dishonored character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-103.jpg"
   },
   {
     "id": "coils-of-power-104",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Ancestral Sight",
     "type": "Attachment",
+    "text": "Attach to a <em>Shugenja</em> character.\nAttached character gains: \"<b>Action:</b> Put a character in your dynasty discard pile on the bottom of your dynasty deck. Choose a copy of that character in play - move 1 fate from your fate pool to that character.\"",
+    "illustrator": "Lukas Banas",
+    "name": "Ancestral Sight",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Spell",
       "Water"
     ],
-    "text": "Attach to a Shugenja character.\nAttached character gains: \"Action: Put a character in your discard pile on the bottom of your dynasty deck. Choose a copy of that character in play – move 1 fate from your fate pool to that character.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-104.jpg"
   },
   {
     "id": "coils-of-power-105",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Battlefield Orders",
     "type": "Event",
+    "text": "If you have at least 5 more honor than an opponent, reduce the cost to play this card by 1.\n<b>Action:</b> During a [conflict-military] conflict, choose an action ability on a participating character - that character's controller resolves that ability.",
+    "illustrator": "Calvin Chua",
+    "name": "Battlefield Orders",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
     "traits": [
       "Tactic"
     ],
-    "text": "If you have at least 5 more honor than an opponent, reduce the cost to play this card by 1.\nAction: During a [mil] conflict, choose an action ability on a participating character – that character's controller resolves that ability.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-105.jpg"
   },
   {
     "id": "coils-of-power-106",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Calling the Storm",
     "type": "Event",
+    "text": "<b>Action:</b> Discard your hand - until the end of the phase, you may look at and play the top card of your conflict deck as if it were in your hand.",
+    "flavorText": "\"You would be a fool to ignore the limitless wisdom of the kami.\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Calling the Storm",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 3,
     "traits": [
       "Spell",
       "Water"
     ],
-    "text": "Action: Discard your hand – until the end of the phase, you may look at and play the top card of your conflict deck as if it were in your hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-106.jpg"
   },
   {
     "id": "coils-of-power-107",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Final Whisper",
     "type": "Event",
+    "text": "<em>Air</em> role only.\n<b>Reaction:</b> After an opponent's character receives a status token, that opponent chooses another character they control - the chosen character receives the same status token as well.",
+    "illustrator": "Logan Feliciano",
+    "name": "Final Whisper",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Poison",
       "Shadowlands"
     ],
-    "text": "Air role only.\nReaction: After an opponent's character receives a status token, that opponent chooses another character they control – the chosen character receives the same status token as well.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/coils-of-power-107.jpg"
   },
   {
     "id": "coils-of-power-108",
     "gameId": "l5r-lcg",
     "setId": "coils-of-power",
     "publisherId": "ffg",
-    "name": "Overrun",
     "type": "Event",
+    "text": "Limited.\n<b>Reaction:</b> After you break a province, choose a province controlled by the same opponent - place a dishonored status token on that province and reveal it, if able. While a province has a dishonored status token, treat its printed text box as if it were blank (except for <em>Traits</em>).",
+    "illustrator": "Aurelien Hubert",
+    "name": "Overrun",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Limited.\nReaction: After you break a province, choose a province controlled by the same opponent – place a dishonored status token on that province and reveal it, if able. While a province has a dishonored status token, treat its printed text box as if it were blank (except for Traits).",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/coils-of-power-108.jpg"
   }
 ]

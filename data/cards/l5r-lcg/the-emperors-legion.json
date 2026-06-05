@@ -4,430 +4,572 @@
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Kyūden Ikoma",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Reaction:</b> After a character you control loses a conflict as an attacker, bow this stronghold. Choose a non-<em>Champion</em> character - bow that character.",
+    "illustrator": "Daniel Alekow",
+    "name": "Kyūden Ikoma",
     "clan": "Lion",
+    "honor": 13,
+    "fate": 7,
+    "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "text": "Reaction: After a character you control loses a conflict as an attacker, bow this stronghold. Choose a non-Champion character – bow that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-001.jpg"
   },
   {
     "id": "the-emperors-legion-002",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Kenson no Gakka",
     "type": "Province",
-    "unique": true,
+    "text": "<b>Reaction:</b> After you lose a conflict at this province - honor each defending character.",
+    "flavorText": "It stands as a testament to the limits of Scorpion ambition.",
+    "name": "Kenson no Gakka",
     "clan": "Lion",
+    "strength": 5,
     "traits": [
       "Castle"
     ],
-    "text": "Reaction: After you lose a conflict at this province – honor each defending character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-002.jpg"
   },
   {
     "id": "the-emperors-legion-003",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Support of the Lion",
     "type": "Role",
-    "clan": "Neutral",
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on [clan-lion] clan cards.",
+    "name": "Support of the Lion",
     "traits": [
       "Lion"
     ],
-    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-003.jpg"
   },
   {
     "id": "the-emperors-legion-004",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Ashigaru Levy",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character enters play, choose another copy of this card in your provinces or discard pile - put that character into play.",
+    "flavorText": "Ashigaru of the Lion Clan benefit from better training, better equipment, and greater numbers than those of any other clan.",
+    "illustrator": "Felipe Gaona",
+    "name": "Ashigaru Levy",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 0,
+    "glory": 0,
+    "military": "1",
     "traits": [
       "Peasant"
     ],
-    "text": "Reaction: After this character enters play, choose another copy of this card in your provinces or discard pile – put that character into play.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-004.jpg"
   },
   {
     "id": "the-emperors-legion-005",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Samurai of Integrity",
     "type": "Character",
+    "text": "—",
+    "flavorText": "\"Your soldiers will follow you into the darkest valley, and fight in the blackest night, if they are illuminated by your honor.\" - Akodo's Leadership",
+    "illustrator": "Drew Baker",
+    "name": "Samurai of Integrity",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi"
     ],
-    "text": "—",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-005.jpg"
   },
   {
     "id": "the-emperors-legion-006",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Matsu Gohei",
     "type": "Character",
     "unique": true,
+    "text": "This character does not bow as the result of conflict resolution during conflicts in which it is attacking with 2 or more other <em>Bushi</em> characters.",
+    "flavorText": "\"Why'd you want to fight me when you'd do such a bad job of it.\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Matsu Gohei",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "This character does not bow as the result of conflict resolution during conflicts in which it is attacking with 2 or more other Bushi characters.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-006.jpg"
   },
   {
     "id": "the-emperors-legion-007",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Ardent Omoidasu",
     "type": "Character",
+    "text": "<b>Reaction:</b> After an opponent's card ability or ring effect dishonors a character you control - take 2 honor from that opponent.",
+    "flavorText": "\"You expect Akodo-san to care about an insult conceived by a novice, when he has singlehandedly repelled eight different Unicorn assaults on Juntou no Shiro?\"",
+    "illustrator": "Greg Burrowski",
+    "name": "Ardent Omoidasu",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After an opponent's card ability or ring effect dishonors a character you control – take 2 honor from that opponent.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-007.jpg"
   },
   {
     "id": "the-emperors-legion-008",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Kitsu Motso",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action</b>: During a conflict in which this character is participating, if you have fewer cards in your hand than your opponent, choose a character that opponent controls - move that character to the conflict.",
+    "flavorText": "\"The time is now\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Kitsu Motso",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "Action: During a conflict in which this character is participating, if you have fewer cards in your hand than your opponent, choose a character that opponent controls – move that character to the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-008.jpg"
   },
   {
     "id": "the-emperors-legion-009",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Akodo Motivator",
     "type": "Character",
+    "text": "<b>Reaction:</b> After an opponent's card ability or ring effect discards 1 or more cards from your hand - that opponent discards an equal number of cards at random from his or her hand.",
+    "flavorText": "\"You may find that honor carries a different meaning in this battlefield.\"",
+    "illustrator": "Kevin Zamir Golke",
+    "name": "Akodo Motivator",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "5",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After an opponent's card ability or ring effect discards 1 or more cards from your hand – that opponent discards an equal number of cards at random from his or her hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-009.jpg"
   },
   {
     "id": "the-emperors-legion-010",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Voice of the Ancestors",
     "type": "Character",
+    "text": "<b>Action:</b> Choose a character you control - play a [clan-lion] character from your dynasty discard pile as an attachment on the chosen character, reducing its cost by 1. Treat this attachment as if its printed text box were blank. It gains the <em>Spirit</em> trait and the text: \"Limit 1 <em>Spirit</em> per character. Add this card's printed [conflict-military] and [conflict-political] skill values to those of attached character.\"",
+    "illustrator": "Bram Sels",
+    "name": "Voice of the Ancestors",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Action: Choose a character you control – play a  character from your dynasty discard pile as an attachment on the chosen character, reducing its cost by 1. Treat this attachment as if its printed text box were blank. It gains the Spirit trait and the text: \"Limit 1 Spirit per character. Add this card's printed [mil] and [pol] skill values to those of attached character.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-010.jpg"
   },
   {
     "id": "the-emperors-legion-011",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Matsu Tsuko",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After this character wins a conflict as the attacker against a non-stronghold province, if you are more honorable than your opponent – break the attacked province.",
+    "flavorText": "\"We will make them cower for their insults, and Arasou will be avenged.\"",
+    "illustrator": "Amélie Hutt",
+    "name": "Matsu Tsuko",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "5",
+    "political": "4",
     "traits": [
       "Bushi",
       "Champion",
       "Commander"
     ],
-    "text": "Reaction: After this character wins a conflict as the attacker against a non-stronghold province, if you are more honorable than your opponent – break the attacked province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-011.jpg"
   },
   {
     "id": "the-emperors-legion-012",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Champions of Yomi",
     "type": "Character",
     "unique": true,
+    "text": "No attachments except <em>Spirit</em>.\n<b>Reaction:</b> After a character you control loses a conflict as the attacker, bow your stronghold - put this character into play from your dynasty discard pile. If it is in play at the end of the phase, remove it from the game.",
+    "illustrator": "Polar Engine",
+    "name": "Champions of Yomi",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 6,
+    "glory": 2,
+    "military": "6",
+    "political": "6",
     "traits": [
       "Spirit",
       "Army"
     ],
-    "text": "No attachments except Spirit.\nReaction: After a character you control loses a conflict as an attacker, bow your stronghold – put this character into play from your dynasty discard pile. If it is in play at the end of the phase, remove it from the game.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-012.jpg"
   },
   {
     "id": "the-emperors-legion-013",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Hall of Victories",
     "type": "Holding",
+    "text": "<b>Forced Reaction:</b> After a player wins a conflict - that player gains 1 honor. (Unlimited.)",
+    "flavorText": "\"In these records, you will be remembered for the next thousand years.\"",
+    "illustrator": "Hai Hoang",
+    "name": "Hall of Victories",
     "clan": "Lion",
     "deck": "dynasty",
-    "text": "Forced Reaction: After a player wins a conflict – that player gains 1 honor. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-013.jpg"
   },
   {
     "id": "the-emperors-legion-014",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Yasuki Hikaru",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is defending, choose an attacking character with higher [conflict-military] skill than this character - move the chosen character home.",
+    "flavorText": "\"As a samurai in service to my clan, I cannot allow you to spread the Taint any further.\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Yasuki Hikaru",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Magistrate"
     ],
-    "text": "Action: During a conflict in which this character is defending, choose an attacking character with higher [mil] skill than this character – move the chosen character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-014.jpg"
   },
   {
     "id": "the-emperors-legion-015",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Doji Kuzunobu",
     "type": "Character",
     "unique": true,
+    "text": "While this character is participating in a conflict, players cannot trigger reaction abilities.",
+    "flavorText": "Each poem spun discloses a trace of the wondrous forest home to which he hopes to one day return.",
+    "illustrator": "Polar Engine",
+    "name": "Doji Kuzunobu",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "4",
     "traits": [
       "Courtier",
       "Creature"
     ],
-    "text": "While this character is participating in a conflict, players cannot trigger reaction abilities.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-015.jpg"
   },
   {
     "id": "the-emperors-legion-016",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Isawa Tsuke",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After you honor or dishonor a character by the effect of the [element-fire] ring - each other character with the same printed cost as the chosen character controlled by the same player receives the same ring effect as that character.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Isawa Tsuke",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Fire",
       "Elemental Master"
     ],
-    "text": "Reaction: After you honor or dishonor a character by the effect of the [fire] ring – each other character with the same printed cost as the chosen character controlled by the same player receives the same ring effect as the character.",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Fire",
+      "Elemental-master"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-016.jpg"
   },
   {
     "id": "the-emperors-legion-017",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Shosuro Denmaru",
     "type": "Character",
     "unique": true,
+    "text": "Each honored character controlled by an opponent has a base glory of 0.",
+    "flavorText": "\"I fear I can offer nothing of value for your investigation. I generally leave matters of murder in Denmaru's hands.\" - Shosuro Hyobu",
+    "illustrator": "Conceptopolis",
+    "name": "Shosuro Denmaru",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "Each honored character controlled by an opponent has a base glory of 0.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-017.jpg"
   },
   {
     "id": "the-emperors-legion-018",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Moto Ariq",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating, if your opponent is more honorable than you, he or she must choose a ready character he or she controls - move that character to the conflict.",
+    "illustrator": "Jorge Matar",
+    "name": "Moto Ariq",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Action: During a conflict in which this character is participating, if your opponent is more honorable than you, he or she must choose a ready character he or she controls – move that character to the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-018.jpg"
   },
   {
     "id": "the-emperors-legion-019",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Caravan Guard",
     "type": "Character",
+    "text": "<em>Keeper</em> role only.\nThis character cannot be declared as an attacker unless you spend 1 fate.",
+    "illustrator": "Kevin Zamir Golke",
+    "name": "Caravan Guard",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Rōnin"
     ],
-    "text": "Keeper role only.\nThis character cannot be declared as an attacker unless you spend 1 fate.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Ronin"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-019.jpg"
   },
   {
     "id": "the-emperors-legion-020",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Insolent Outcast",
     "type": "Character",
+    "text": "<em>Seeker</em> role only.\nThis character gets +1[conflict-military] and +1[conflict-political] for each honored character your opponent controls.",
+    "flavorText": "\"I could defeat any samurai who thinks themselves great just because of which clan they serve.\"",
+    "illustrator": "Ben Peck",
+    "name": "Insolent Outcast",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Bushi",
       "Rōnin"
     ],
-    "text": "Seeker role only.\nThis character gets +1[mil] and +1[pol] for each honored character an opponent controls.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Ronin"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-020.jpg"
   },
   {
     "id": "the-emperors-legion-021",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Tactical Ingenuity",
     "type": "Attachment",
+    "text": "Attach to a <em>Commander</em> character.\nAttached character gains: \"<b>Action:</b> During a conflict in which this character is participating - search the top 4 cards of your conflict deck for an event, reveal it, and add it to your hand. Shuffle.\"",
+    "illustrator": "Greg Lambrakis",
+    "name": "Tactical Ingenuity",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to a Commander character.\nAttached character gains: \"Action: During a conflict in which this character is participating – search the top 4 cards of your conflict deck for an event, reveal it, and add it to your hand. Shuffle.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-021.jpg"
   },
   {
     "id": "the-emperors-legion-022",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Total Warfare",
     "type": "Attachment",
+    "text": "Attach to an unbroken province.\nLimit 1 <em>Battlefield</em> attachment per province.\n<b>Forced Reaction:</b> After a player loses a conflict at attached province - that player must sacrifice a participating character.",
+    "illustrator": "Evan Shipard",
+    "name": "Total Warfare",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Battlefield"
     ],
-    "text": "Attach to an unbroken province. Limit 1 Battlefield attachment per province.\nForced Reaction: After a player loses a conflict at attached province – that player must sacrifice a participating character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-022.jpg"
   },
   {
     "id": "the-emperors-legion-023",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Embrace Death",
     "type": "Event",
+    "text": "<b>Reaction:</b> After a <em>Bushi</em> character you control loses a conflict as the attacker, sacrifice it. Choose a character controlled by your opponent - if that character has no fate on it, discard it. Otherwise, remove 1 fate from it.",
+    "illustrator": "Michael Matsumoto",
+    "name": "Embrace Death",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 4,
     "traits": [
       "Philosophy"
     ],
-    "text": "Reaction: After a Bushi character you control loses a conflict as the attacker, sacrifice it. Choose a character controlled by your opponent – if that character has no fate on it, discard it. Otherwise, remove 1 fate from it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-023.jpg"
   },
   {
     "id": "the-emperors-legion-024",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Honor in Battle",
     "type": "Event",
+    "text": "<b>Action:</b> If you have claimed a [conflict-military] ring, choose a character - honor that character.",
+    "flavorText": "\"With victory, your foe is set back. With honor, your foe is vanquished.\" - Akodo's Leadership",
+    "illustrator": "Diego Gisbert Llorens",
+    "name": "Honor in Battle",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Action: If you have claimed a [mil] ring, choose a character – honor that character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-024.jpg"
   },
   {
     "id": "the-emperors-legion-025",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Prepare for War",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a character you control - you may discard any number of attachments and/or status tokens from it. If that character is a <em>Commander</em>, honor it.",
+    "illustrator": "Le Vuong",
+    "name": "Prepare for War",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Action: Choose a character you control – you may discard any number of attachments and/or status tokens from it. Then, if that character is a Commander, honor it.",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-025.jpg"
   },
   {
     "id": "the-emperors-legion-026",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Right Hand of the Emperor",
     "type": "Event",
+    "text": "If you are more honorable than an opponent, you can play this card from your discard pile.\n<b>Action:</b> Choose up to 6 printed cost worth of <em>Bushi</em> characters you control - ready each of those characters. Put this card on the bottom of its owner's conflict deck.",
+    "illustrator": "Marius Bota",
+    "name": "Right Hand of the Emperor",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "If you are more honorable than an opponent, you can play this card from your discard pile.\nAction: Choose up to 6 printed cost worth of Bushi characters you control – ready each of those characters. Put this card on the bottom of its owner's conflict deck.",
-    "unverified": true
+    "cost": 3,
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-026.jpg"
   },
   {
     "id": "the-emperors-legion-027",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Kitsuki Kāgi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After this character wins a conflict, choose up to 3 cards in a player's discard pile - remove them from the game.",
+    "flavorText": "\"If only Doji-sama's recordings were not as frustratingly secretive as he was when he was alive...\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Kitsuki Kāgi",
+    "nameAscii": "Kitsuki Kagi",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Imperial"
     ],
-    "text": "Reaction: After this character wins a conflict, choose up to 3 cards in a player's discard pile – remove them from the game.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-027.jpg"
   },
   {
     "id": "the-emperors-legion-028",
     "gameId": "l5r-lcg",
     "setId": "the-emperors-legion",
     "publisherId": "ffg",
-    "name": "Those Who Serve",
     "type": "Event",
+    "text": "Limited. <i>(No more than one limited card can be played by each player each round.)</i>\n<b>Action:</b> During the dynasty phase - reduce the cost for each character you play this phase by 1 <i>(to a minimum of 1)</i>.\n<i>Errata from Imperial Law (2020-04-06).</i>",
+    "illustrator": "B. D. Judkins",
+    "name": "Those Who Serve",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 0,
     "traits": [
       "Philosophy"
     ],
-    "text": "Limited. (No more than one limited card can be played by each player each round.)\nAction: During the dynasty phase – reduce the cost to play each character you play this phase by 1 (to a minimum of 1).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-028.png"
   }
 ]

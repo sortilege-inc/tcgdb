@@ -4,296 +4,390 @@
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Before the Throne",
     "type": "Province",
+    "text": "Cannot be the stronghold province.\n<b>Interrupt:</b> When this province is broken – take 2 honor from your opponent.",
+    "flavorText": "\"Your August Imperial Majesty, your humble servant comes before you...\"",
+    "illustrator": "Nele Diel",
+    "name": "Before the Throne",
     "clan": "Neutral",
+    "strength": 5,
     "traits": [
       "Imperial"
     ],
-    "text": "Cannot be a stronghold province.\nInterrupt: When this province is broken – take 2 honor from your opponent.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-061.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-062",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Guardians of the Seikitsu",
     "type": "Province",
+    "text": "<em>Earth</em> role only.\n<b>Reaction:</b> After this province is revealed – bow each character with printed cost 2 or lower.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Guardians of the Seikitsu",
     "clan": "Neutral",
-    "text": "Earth role only.\nReaction: After this province is revealed – bow each character with printed cost 2 or lower.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-062.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-063",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Kaiu Inventor",
     "type": "Character",
+    "text": "<b>Action:</b> Choose a holding you control – you may trigger each of that holding's triggered abilities an additional time this round (or specified period).\n<i>Errata from RRG v1.1</i>",
+    "flavorText": "\"It will work...eventually.\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Kaiu Inventor",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Engineer"
     ],
-    "text": "Action: Choose a holding you control – you may trigger each of that holding's triggered abilities an additional time this round (or specified period).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-063.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-064",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Doji Shizue",
     "type": "Character",
     "unique": true,
+    "text": "During the fate phase, if you have the Imperial Favor, this character cannot lose fate or be discarded.",
+    "flavorText": "\"Mukashi mukashi...\"",
+    "illustrator": "Borja Pindado",
+    "name": "Doji Shizue",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Storyteller"
     ],
-    "text": "During the fate phase, if you have the Imperial Favor, this character cannot lose fate or be discarded.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-064.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-065",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Agasha Sumiko",
     "type": "Character",
     "unique": true,
+    "text": "While you have the Imperial Favor, this character does not bow as a result of conflict resolution while attacking.",
+    "flavorText": "\"I will not merely record history. I will forge it myself.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Agasha Sumiko",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 1,
+    "military": "4",
+    "political": "4",
     "traits": [
       "Bushi",
       "Champion"
     ],
-    "text": "While you have the Imperial Favor, this character does not bow as a result of conflict resolution while attacking.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-065.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-066",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Mountaintop Statuary",
     "type": "Holding",
+    "text": "<b>Reaction:</b> After this holding is turned faceup – move it onto your stronghold province.\n<b>Action:</b> During a conflict at this province, sacrifice this holding. Choose an attacking character with printed cost 2 or lower – move that character home.",
+    "illustrator": "Charles Urbach",
+    "name": "Mountaintop Statuary",
     "clan": "Dragon",
     "deck": "dynasty",
     "traits": [
       "Temple"
     ],
-    "text": "Reaction: After this holding is turned faceup – move it onto your stronghold province.\nAction: During a conflict at this province, sacrifice this holding. Choose an attacking character with printed cost 2 or lower – move that character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-066.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-067",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Akodo Toshiro",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While this character is attacking – it gets +5[conflict-military] until the end of the conflict. Provinces cannot be broken during this conflict. At the end of the conflict, if you do not control a <em>Commander</em> character, discard this character.",
+    "flavorText": "\"You are the most gifted swordsman of your generation. Why must you waste your time on this cowardly art?\" Akodo Gendo",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Akodo Toshiro",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Action: While this character is attacking – it gets +5[mil] until the end of the conflict. Provinces cannot be broken during this conflict. At the end of the conflict, if you do not control a Commander character, discard this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-067.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-068",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Implacable Magistrate",
     "type": "Character",
+    "text": "While this character is attacking, only this character and honored characters count their skill toward the resolution of this conflit.",
+    "flavorText": "\"A failure before the law is a failure of honor.\"",
+    "illustrator": "Tropa Entertainment",
+    "name": "Implacable Magistrate",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Imperial",
       "Magistrate"
     ],
-    "text": "While this character is attacking, only this character and honored characters count their skill toward the resolution of this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-068.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-069",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Haughty Magistrate",
     "type": "Character",
+    "text": "While this character is attacking, characters with lower glory than this character do not count their skill toward the resolution of this conflict.",
+    "flavorText": "\"There is the Tao and there is the Law. Both are the same under Heaven.\"",
+    "illustrator": "Hai Hoang",
+    "name": "Haughty Magistrate",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Imperial",
       "Magistrate"
     ],
-    "text": "While this character is attacking, characters with lower glory than this character do not count their skill toward the resolution of this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-069.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-070",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Fawning Diplomat",
     "type": "Character",
+    "text": "<b>Interrupt:</b> When this character leaves play – claim the Imperial Favor.",
+    "flavorText": "Flattery is the currency of the court.",
+    "illustrator": "Giby Joseph",
+    "name": "Fawning Diplomat",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Interrupt: When this character leaves play – claim the Imperial Favor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-070.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-071",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Utaku Mediator",
     "type": "Character",
+    "text": "This character gets +1 [conflict-military] and +1 [conflict-political] while you do not have the Imperial Favor.",
+    "flavorText": "\"It is difficult to speak clearly to those who have seen so little of the world.\"",
+    "illustrator": "Giby Joseph",
+    "name": "Utaku Mediator",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 0,
+    "military": "0",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "This character gets +1[mil] and +1[pol] while you do not have the Imperial Favor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-071.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-072",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "The Imperial Palace",
     "type": "Holding",
     "unique": true,
+    "text": "Limit 1 per deck.\nThis holding adds +3 to your side during each glory count.",
+    "illustrator": "Chris Ostrowski",
+    "name": "The Imperial Palace",
     "clan": "Neutral",
     "deck": "dynasty",
     "traits": [
       "Imperial"
     ],
-    "text": "Limit 1 per deck.\nThis holding adds +3 to your side during each glory count.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-072.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-073",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Pit Trap",
     "type": "Attachment",
+    "text": "Attach to a character.\nPlay only on an attacking character.\nAttached character does not ready during the regroup phase.\n<i>Errata from RRG v1.2</i>",
+    "flavorText": "\"My apologies, samurai-san. That pit was intended for goblins.\" – Kaiu Shuichi",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Pit Trap",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 3,
+    "influence": 3,
+    "militaryBonus": "-1",
+    "politicalBonus": "-1",
     "traits": [
       "Item",
       "Trap"
     ],
-    "text": "Attach to a character.\nPlay only on an attacking character.\nAttached character does not ready during the regroup phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-073.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-074",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Curry Favor",
     "type": "Event",
+    "text": "<b>Reaction:</b> After a character you control bows as a result of conflict resolution from the second conflict you declared this round – ready that character.",
+    "flavorText": "\"How could the Crane do any less for our honored allies?\"",
+    "illustrator": "Hai Hoang",
+    "name": "Curry Favor",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Reaction: After a character you control bows as a result of conflict resolution from a second conflict you declared this round – ready that character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-074.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-075",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Centipede Tattoo",
     "type": "Attachment",
+    "text": "<em>Monk</em> character only. Attached character gains <em>Tattooed</em>.\nAttached character does not bow as a result of conflict resolution in conflicts in which it lost.",
+    "illustrator": "Jorge Matar",
+    "name": "Centipede Tattoo",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Tattoo"
     ],
-    "text": "Monk character only. Attached character gains the Tattooed trait.\nAttached character does not bow as a result of conflict resolution in conflicts which it lost.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-075.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-076",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Guard Duty",
     "type": "Attachment",
+    "text": "<em>Keeper</em> role only.\n<b>Action:</b> If attached character is defending – honor it.",
+    "flavorText": "\"But mother,\" said the young Lion, \"how am I to find glory if I remain behind?\"\n\"You will find honor,\" said his mother. \"And a Lion requires nothing more.\" – Ikoma's Chronicles",
+    "illustrator": "Piotr Arendzikowski",
+    "name": "Guard Duty",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Keeper role only.\nAction: If attached character is defending – honor it.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-076.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-077",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Seal of the Phoenix",
     "type": "Attachment",
+    "text": "Attached character gains the [clan-phoenix] clan symbol and the <em>Scholar</em> trait.",
+    "flavorText": "In the name of Lady Shiba Tsukune,\nthe Soul of Shiba,\nProtector of the Council,\nKeeper of the Tao,\nDaimyō of the Shiba, and\nChampion of the Phoenix Clan",
+    "illustrator": "Mauro Dal Bo",
+    "name": "Seal of the Phoenix",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Item",
       "Seal"
     ],
-    "text": "Attached character gains the  clan symbol and the Scholar trait.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-077.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-078",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Backhanded Compliment",
     "type": "Event",
+    "text": "<em>Keeper</em> role only.\n<b>Action:</b> Choose a player – that player draws 1 card and loses 1 honor.",
+    "flavorText": "\"No one could accuse you of vanity with such a style.\"",
+    "illustrator": "Tropa Entertainment",
+    "name": "Backhanded Compliment",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Keeper role only.\nAction: Choose a player – that player draws 1 card and loses 1 honor.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-078.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-079",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Gaijin Customs",
     "type": "Event",
+    "text": "<b>Action:</b> If you control a [clan-unicorn] card, choose a non-[clan-unicorn] character – ready the chosen character.",
+    "flavorText": "They stood, unmoving, each unsure how to proceed.",
+    "illustrator": "Tropa Entertainment",
+    "name": "Gaijin Customs",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Action: If you control a  card, choose a non- character – ready the chosen character.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-079.jpg"
   },
   {
     "id": "the-chrysanthemum-throne-080",
     "gameId": "l5r-lcg",
     "setId": "the-chrysanthemum-throne",
     "publisherId": "ffg",
-    "name": "Way of the Chrysanthemum",
     "type": "Event",
+    "text": "<b>Reaction:</b> After 1 or more honor is given to you from an honor bid – gain that much honor. (Max 1 per round.)",
+    "flavorText": "As Lady Sun's brilliance illuminates the land, so too does her chosen son radiate peace and prosperity to all Rokugan.",
+    "illustrator": "Francesca Baerald",
+    "name": "Way of the Chrysanthemum",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 0,
     "traits": [
       "Imperial",
       "Philosophy"
     ],
-    "text": "Reaction: After 1 or more honor is given to you from an honor bid – gain that much honor. (Max 1 per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-080.jpg"
   }
 ]

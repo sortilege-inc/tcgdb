@@ -4,318 +4,419 @@
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Fortified Assembly",
     "type": "Province",
+    "text": "Cannot be a stronghold province. This province gets +2 strength for each honor token on it.\n<b>Reaction:</b> After an attack is declared against this province - place 1 honor token on it.",
+    "illustrator": "Leanna Crossan",
+    "name": "Fortified Assembly",
     "clan": "Crab",
-    "text": "Cannot be a stronghold province. This province gets +2 strength for each honor token on it.\nReaction: After an attack is declared against this province – place 1 honor token on it.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-067.jpg"
   },
   {
     "id": "the-children-of-heaven-068",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Emperor's Summons",
     "type": "Province",
+    "text": "<em>Seeker</em> role only.\n<b>Reaction:</b> After this province is revealed - search your dynasty deck for a character card and put it faceup into a non-stronghold province you control, discarding each other card in that province. Shuffle.",
+    "illustrator": "Joyce Maureira",
+    "name": "Emperor's Summons",
     "clan": "Neutral",
-    "text": "Seeker role only.\nReaction: After this province is revealed – search your dynasty deck for a character card and put it faceup into a non-stronghold province you control, discarding each other card in the province. Shuffle.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-068.jpg"
   },
   {
     "id": "the-children-of-heaven-069",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Student of Anatomies",
     "type": "Character",
+    "text": "<b>Action:</b> Sacrifice a <i>(friendly)</i> character. Choose a character - until the end of the phase treat that character as if its printed text box were blank (except for <em>Traits</em>).",
+    "illustrator": "Ilich Henriquez",
+    "name": "Student of Anatomies",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Earth"
     ],
-    "text": "Action: Sacrifice a (friendly) character. Choose a character – until the end of the phase, treat that character as if its printed text box were blank (except for Traits).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-069.jpg"
   },
   {
     "id": "the-children-of-heaven-070",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Graceful Guardian",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating - during each player's next action opportunity in this conflict, increase the cost to play cards by 1.",
+    "flavorText": "\"Victory without honor is no victory at all.\"",
+    "illustrator": "Asep Ariyanto",
+    "name": "Graceful Guardian",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Bushi"
     ],
-    "text": "Action: During a conflict in which this character is participating – during each player's next action opportunity in this conflict, increase the cost to play cards by 1.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-070.jpg"
   },
   {
     "id": "the-children-of-heaven-071",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Iron Crane Legion",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>.\nDuring conflicts in which you are the attacking or defending player, X is equal to the number of cards in your opponent's hand. <i>(Otherwise, X is zero.)</i>",
+    "illustrator": "Lukas Banas",
+    "name": "Iron Crane Legion",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "X",
+    "political": "3",
     "traits": [
       "Bushi",
       "Army"
     ],
-    "text": "No attachments except Weapon.\nDuring conflicts in which you are the attacking or defending player, X is equal to the number of cards in your opponent's hand. (Otherwise, X is zero.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-071.jpg"
   },
   {
     "id": "the-children-of-heaven-072",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Togashi Yoshi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After this character wins a conflict - gain 1 fate from an unclaimed ring.",
+    "flavorText": "\"If I can provide some solace to those less fortunate, then perhaps I will understand my Champion's wisdom.\"",
+    "illustrator": "Amélie Hutt",
+    "name": "Togashi Yoshi",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Reaction: After this character wins a conflict – gain 1 fate from an unclaimed ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-072.jpg"
   },
   {
     "id": "the-children-of-heaven-073",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Truthseeker",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character enters play, choose a deck - look at the top 3 cards of that deck and put them back in any order.",
+    "flavorText": "\"I recognized the ink that had been used, as one whose meesage could be hidden by clever alchemy.\"",
+    "illustrator": "Quintin Gleim",
+    "name": "Truthseeker",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After this character enters play, choose a deck – look at the top 3 cards of that deck and put them back in any order.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-073.jpg"
   },
   {
     "id": "the-children-of-heaven-074",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Ikoma Kiyono",
     "type": "Character",
     "unique": true,
+    "text": "<b>Interrupt:</b> When a glory count would begin, if you are more honorable than your opponent - ready this character.",
+    "flavorText": "\"It is as if she has told us each a unique tale, yet the words in the telling are all the same.\" - Miya Matsuo",
+    "illustrator": "Lin Hsiang",
+    "name": "Ikoma Kiyono",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 3,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Storyteller"
     ],
-    "text": "Interrupt: When a glory count would begin, if you are more honorable than your opponent – ready this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-074.jpg"
   },
   {
     "id": "the-children-of-heaven-075",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Righteous Delegate",
     "type": "Character",
+    "text": "<b>Action:</b> While this character is participating in a conflict -  until the end of the conflict, each participating non-<em>Bushi</em> character gets +1[conflict-military] and +1[conflict-political] and each participating <em>Bushi</em> character gets -1[conflict-military] and -1[conflict-political].",
+    "illustrator": "Guillaume Ducos",
+    "name": "Righteous Delegate",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: While this character is participating in a conflict – each participating Bushi character gets -1 [mil] and -1 [pol] and each participating non-Bushi character gets +1 [mil] and +1 [pol] until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-075.jpg"
   },
   {
     "id": "the-children-of-heaven-076",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Starry Heaven Sanctuary",
     "type": "Holding",
+    "unique": true,
+    "text": "Limit 1 per deck.\n<b>Reaction:</b> After fate is removed from characters in the fate phase. If 4 or more fate was removed - gain 2 fate.",
+    "illustrator": "Frej Agelh",
+    "name": "Starry Heaven Sanctuary",
     "clan": "Phoenix",
     "deck": "dynasty",
     "traits": [
       "Temple",
       "Void"
     ],
-    "text": "Limit 1 per deck.\nReaction: After fate is removed from characters in the fate phase, if 4 or more fate was removed – gain 2 fate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-076.jpg"
   },
   {
     "id": "the-children-of-heaven-077",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Emissary of Lies",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose a participating character controlled by your opponent - your opponent guesses the name of a card. You may reveal your hand. If you do, and the named card is not in your hand, move the chosen character home.",
+    "illustrator": "Hai Hoang",
+    "name": "Emissary of Lies",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose a participating character controlled by your opponent – your opponent guesses the name of a card. You may reveal your hand. If you do, and the named card is not in your hand, move the chosen character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-077.jpg"
   },
   {
     "id": "the-children-of-heaven-078",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Licensed Quarter",
     "type": "Holding",
+    "text": "<b>Reaction:</b> After you win a conflict - your opponent discards the top card of his or her conflict deck. (Unlimited.)",
+    "flavorText": "With promises of fine wine, awaiting riches, and beautiful entertainment, Ryokō Owari Toshi can break even the most stouthearted of samurai.",
+    "illustrator": "Frej Agelh",
+    "name": "Licensed Quarter",
     "clan": "Scorpion",
     "deck": "dynasty",
     "traits": [
       "City"
     ],
-    "text": "Reaction: After you win a conflict – your opponent discards the top card of his or her conflict deck. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-078.jpg"
   },
   {
     "id": "the-children-of-heaven-079",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Ide Ryōma",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose a [clan-unicorn] character and a non-[clan-unicorn] character controlled by the same player - bow one of those characters. Then, ready the other.",
+    "flavorText": "\"Have you already become a Nehiri, Ryōma-san?\" - Utaku Yumino",
+    "illustrator": "Pius Pranoto",
+    "name": "Ide Ryōma",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "0",
+    "political": "4",
     "traits": [
       "Courtier",
       "Cavalry"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose a  character and a non- character controlled by the same player – bow one of the characters. If you do, ready the other.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-079.jpg"
   },
   {
     "id": "the-children-of-heaven-080",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Hantei Daisetsu",
     "type": "Character",
     "unique": true,
+    "text": "Sincerity.\n<b>Action: </b>During a [conflict-political] conflict in which this character is participating, choose a participating character - until the end of the conflict, treat that character as if its printed text box were blank (except for <em>Traits</em>).",
+    "illustrator": "Polar Engine",
+    "name": "Hantei Daisetsu",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 3,
+    "military": "3",
+    "political": "4",
     "traits": [
       "Courtier",
       "Imperial",
       "Crown Prince"
     ],
-    "text": "Sincerity\nAction: During a [pol] conflict in which this character is participating, choose a participating character – until the end of the conflict, treat that character as if its printed text box were blank (except for Traits).",
-    "unverified": true
+    "traitsAscii": [
+      "Courtier",
+      "Imperial",
+      "Crown-prince"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-080.jpg"
   },
   {
     "id": "the-children-of-heaven-081",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Sharpened Tsuruhashi",
     "type": "Attachment",
+    "text": "<b>Interrupt:</b> When attached character is sacrificed - return this card to your hand.",
+    "flavorText": "The builder's axe makes no distinction between wood or skull.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Sharpened Tsuruhashi",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon"
     ],
-    "text": "Interrupt: When attached character is sacrificed – return this card to your hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-081.jpg"
   },
   {
     "id": "the-children-of-heaven-082",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Issue a Challenge",
     "type": "Event",
+    "text": "<b>Reaction:</b> After a <em>Bushi</em> character you control attacks alone - your opponent cannot declare more than 1 character as a defender in this conflict.",
+    "flavorText": "\"If your skill with a blade is even half of what you have boasted, you will face me alone like a true samurai.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Issue a Challenge",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Reaction: After a Bushi character you control attacks alone – your opponent cannot declare more than 1 character as a defender in this conflict.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-082.jpg"
   },
   {
     "id": "the-children-of-heaven-083",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Rising Stars Kata",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating unique character – that character gets +3[conflict-military] until the end of the conflict. (+5[conflict-military] instead if that character has won a duel this conflict). (Max 1 per conflict.)",
+    "illustrator": "Carlos Nunez De Castro",
+    "name": "Rising Stars Kata",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Technique"
     ],
-    "text": "Action: During a conflict, choose a participating unique character – that character gets +3[mil] until the end of the conflict (+5[mil] instead if that character has won a duel this conflict). (Max 1 per conflict.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-083.jpg"
   },
   {
     "id": "the-children-of-heaven-084",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Regal Bearing",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict in which you control a participating <em>Courtier</em> character - set the bid on your honor dial to 1 and draw cards equal to the difference between your honor bid and that of your opponent. (Max 1 per conflict.)",
+    "illustrator": "Joshua Cairos",
+    "name": "Regal Bearing",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict in which you control a participating Courtier character – set the bid on your honor dial to 1. Then, draw cards equal to the difference between your honor bid and that of your opponent. (Max 1 per conflict.)",
-    "unverified": true
+    "cost": 1,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-084.jpg"
   },
   {
     "id": "the-children-of-heaven-085",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Invoke the Divine",
     "type": "Event",
+    "text": "<b>Action:</b> Play up to 3 <em>Spell</em> cards with printed total cost 5 or less from your hand without paying their costs. <i>(This includes costs other than fate costs.)</i>",
+    "flavorText": "\"No longer will your disrespect go ignored, either by me or by the kami of this place.\"",
+    "illustrator": "Quentin Gleim",
+    "name": "Invoke the Divine",
     "clan": "Phoenix",
     "deck": "conflict",
-    "text": "Action: Play up to 3 Spell cards with printed total cost 5 or less from your hand without paying their costs (This includes costs other than fate costs.)",
-    "unverified": true
+    "cost": 3,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-085.jpg"
   },
   {
     "id": "the-children-of-heaven-086",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Unspoken Etiquette",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict - dishonor each participating non-<em>Courtier</em> character.",
+    "flavorText": "No one had informed the Hida visitors that gifts were expected for such an informal visit, but that didn't make their empty hands any less disgraceful.",
+    "illustrator": "Hai Hoang",
+    "name": "Unspoken Etiquette",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict – dishonor each participating non-Courtier character.",
-    "unverified": true
+    "cost": 2,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-086.jpg"
   },
   {
     "id": "the-children-of-heaven-087",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Natural Negotiator",
     "type": "Attachment",
+    "text": "Attach to a <em>Courtier</em> character you control.\n<b>Action:</b> During a conflict, give your opponent 1 honor - switch attached character's base [conflict-military] and [conflict-political] skills until the end of the conflict.",
+    "flavorText": "\"Beware the Ide with empty hands.\" - Ujik proverb",
+    "illustrator": "Derek D. Edgell",
+    "name": "Natural Negotiator",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Technique"
     ],
-    "text": "Attach to a Courtier character you control.\nAction: During a conflict, give your opponent 1 honor – switch attached character's base [mil] and [pol] skills until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-087.jpg"
   },
   {
     "id": "the-children-of-heaven-088",
     "gameId": "l5r-lcg",
     "setId": "the-children-of-heaven",
     "publisherId": "ffg",
-    "name": "Overhear",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict - your opponent reveals a random card from his or her hand and puts it on top of his or her conflict deck. If you control a participating <em>Courtier</em> character, you may give your opponent 1 honor to resolve this ability twice.",
+    "illustrator": "Anna Christenson",
+    "name": "Overhear",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict – your opponent reveals a random card from his or her hand and puts it on top of his or her conflict deck. If you control a participating Courtier character, you may give your opponent 1 honor to resolve this ability twice.",
-    "unverified": true
+    "cost": 1,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-088.jpg"
   }
 ]

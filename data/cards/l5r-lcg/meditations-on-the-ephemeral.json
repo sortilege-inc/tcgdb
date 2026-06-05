@@ -4,315 +4,420 @@
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Along the River of Gold",
     "type": "Province",
+    "text": "<em>Water</em> role only.\n<b>Action:</b> During a conflict at a [element-water] province, choose a participating character – switch that character's base [conflict-military] and [conflict-political] skill until the end of the conflict.",
+    "illustrator": "Alayna Lemmer",
+    "name": "Along the River of Gold",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "River"
     ],
-    "text": "Water role only.\nAction: During a conflict at a [water] province, choose a participating character – switch that character's base [mil] and [pol] skill until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-101.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-102",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Kuni Ritsuko",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After this character wins a conflict as a defender, choose an attacking character – remove 1 fate from that character.",
+    "flavorText": "\"The kami of earth abhor corruption even more than we do. Their aid is ours for the asking.\"",
+    "illustrator": "Shen Fei",
+    "name": "Kuni Ritsuko",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Earth"
     ],
-    "text": "Reaction: After this character wins a conflict as a defender, choose an attacking character – remove 1 fate from that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-102.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-103",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Iron Mine",
     "type": "Holding",
+    "text": "<b>Interrupt:</b> When a character you control would leave play – sacrifice this holding instead.",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Iron Mine",
     "clan": "Crab",
     "deck": "dynasty",
     "traits": [
       "Mine"
     ],
-    "text": "Interrupt: When a character you control would leave play – sacrifice this holding instead.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-103.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-104",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Silver-Tongued Magistrate",
     "type": "Character",
+    "text": "While this character is attacking, each other character that has no fate on it does not count its skill toward the resolution of this conflict.",
+    "flavorText": "\"A beautiful Empire can only be built upon beautiful laws.\"",
+    "illustrator": "Jason Juta",
+    "name": "Silver-Tongued Magistrate",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Imperial",
       "Magistrate"
     ],
-    "text": "While this character is attacking, each other character that has no fate on it does not count its skill toward the resolution of this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-104.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-105",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Togashi Mendicant",
     "type": "Character",
+    "text": "<b>Reaction:</b> After the fate phase begins – look at the top 3 cards of your dynasty deck. Then, put them back in any order.",
+    "flavorText": "\"It was but a little I spent to save the kit, but had it cost a Fortune I would not have grudged it.\"",
+    "illustrator": "Leanna Crossan",
+    "name": "Togashi Mendicant",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Reaction: After the fate phase begins – look at the top 3 cards of your dynasty deck. Then, put them back in any order.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-105.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-106",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Beastmaster Matriarch",
     "type": "Character",
+    "text": "This character has +2[conflict-military] for each ring in each opponent's claimed ring pool.",
+    "flavorText": "\"I have always heard that the Lion’s greatest weapon is their pride.\" – Ikoma Ikehata",
+    "illustrator": "Halil Ural",
+    "name": "Beastmaster Matriarch",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "This character gets +2 [mil] for each ring in each opponent's claimed ring pool.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-106.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-107",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Asako Tsuki",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After the [element-water] ring is claimed, choose a <em>Scholar</em> character – honor that character.",
+    "flavorText": "\"History is fixed, but the future flows.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Asako Tsuki",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Scholar",
       "Shugenja",
       "Water"
     ],
-    "text": "Reaction: After the [water] ring is claimed, choose a Scholar character – honor that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-107.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-108",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Kanjo District",
     "type": "Holding",
     "unique": true,
+    "text": "Limit 1 per deck.\n<b>Action:</b> During a conflict, discard the Imperial Favor. Choose a participating character – bow that character and move it home.",
+    "illustrator": "Nele Diel",
+    "name": "Kanjo District",
     "clan": "Phoenix",
     "deck": "dynasty",
     "traits": [
       "Imperial"
     ],
-    "text": "Limit 1 per deck.\nAction: During a conflict, discard the Imperial Favor. Choose a participating character – bow that character and move it home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-108.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-109",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Sake House Confidant",
     "type": "Character",
+    "text": "<b>Action:</b> While this character is participating in a conflict, discard the Imperial Favor – each <em>Shinobi</em> character you control gets +2[conflict-political] until the end of the conflict.",
+    "flavorText": "\"Would you like to concede?\"",
+    "illustrator": "Borja Pindado",
+    "name": "Sake House Confidant",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Courtier",
       "Shinobi"
     ],
-    "text": "Action: While this character is participating in a conflict, discard the Imperial Favor – each Shinobi character you control gets +2[pol] until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-109.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-110",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Illustrious Plagiarist",
     "type": "Character",
+    "text": "<b>Action:</b> Choose the topmost event in an opponent's conflict discard pile – this character gains each of that event's action abilities until the end of the phase.",
+    "flavorText": "\"All good artists borrow. I am a great artist.\"",
+    "illustrator": "Jorge Matar",
+    "name": "Illustrious Plagiarist",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Courtier",
       "Shugenja",
       "Air"
     ],
-    "text": "Action: Choose the topmost event in an opponent's conflict discard pile – this character gains each of that event's action abilities until the end of the phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-110.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-111",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Shinjo Scout",
     "type": "Character",
+    "text": "<b>Reaction:</b> After you gain fate for passing in the dynasty phase – gain 1 fate.",
+    "flavorText": "\"The Scorpion have eyes in every court. We have eyes everywhere else.\"",
+    "illustrator": "Leanna Crossan",
+    "name": "Shinjo Scout",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Cavalry",
       "Scout"
     ],
-    "text": "Reaction: After you gain fate for passing in the dynasty phase – gain 1 fate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-111.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-112",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Miya Satoshi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> Discard cards from your dynasty deck until you discard an <em>Imperial</em> card. Then, discard a card in a non-stronghold province you control and put the discarded <em>Imperial</em> card into that province, faceup.",
+    "flavorText": "\"You who would speak to the Son of Heaven would do well to speak first to me.\"",
+    "illustrator": "Gong Studios",
+    "name": "Miya Satoshi",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "2",
+    "political": "4",
     "traits": [
       "Courtier",
       "Daimyō",
       "Imperial"
     ],
-    "text": "Action: Discard cards from your dynasty deck until you discard an Imperial card. Then, discard a card in a non-stronghold province you control and put the discarded Imperial card into that province, faceup.",
-    "unverified": true
+    "traitsAscii": [
+      "Courtier",
+      "Daimyo",
+      "Imperial"
+    ],
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-112.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-113",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Pillow Book",
     "type": "Attachment",
+    "text": "<b>Action:</b> While attached character is participating in a conflict – reveal the top card of your conflict deck until the end of the conflict. While it remains revealed, you may play that card as if it were in your hand.",
+    "illustrator": "Joyce Maureira",
+    "name": "Pillow Book",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Item"
     ],
-    "text": "Action: While attached character is participating in a conflict – reveal the top card of your conflict deck until the end of the conflict. While it remains revealed, you may play that card as if it were in your hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-113.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-114",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Seal of the Dragon",
     "type": "Attachment",
+    "text": "Attached character gains the [clan-dragon] clan symbol and the <em>Monk</em> trait.",
+    "flavorText": "In the name of Togashi Yokuni,\nthe Enlightened,\nMaster of the High House of Light, and\nChampion of the Dragon Clan",
+    "illustrator": "Mauro Dal Bo",
+    "name": "Seal of the Dragon",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Item",
       "Seal"
     ],
-    "text": "Attached character gains the  clan symbol and the Monk trait.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-114.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-115",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Written in the Stars",
     "type": "Event",
+    "text": "<b>Action:</b> Select one – place 1 fate on each unclaimed ring with no fate or remove 1 fate from each unclaimed ring.",
+    "flavorText": "\"The time has come.\" – Togashi Mitsu",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Written in the Stars",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Omen"
     ],
-    "text": "Action: Select one – place 1 fate on each unclaimed ring with no fate or remove 1 fate from each unclaimed ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-115.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-116",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "A Legion of One",
     "type": "Event",
+    "text": "<b>[conflict-military] Conflict Action:</b> Choose a character alone on your side - for this conflict, that character gets +3[conflict-military]. You may remove 1 fate from that character to resolve this ability twice.",
+    "illustrator": "Borja Pindado",
+    "name": "A Legion of One",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Action: During a [mil] conflict, choose a character that is participating on your side alone – until the end of the conflict, that character gets +3[mil]. You may remove 1 fate from that character to resolve this ability twice.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-116.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-117",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Oni Mask",
     "type": "Attachment",
+    "text": "<em>Seeker</em> role only.\nAttach to a character you control.\n<b>Action:</b> During a conflict, remove 1 fate from attached character. Choose a participating character – treat that character as if its printed text box were blank (except for <em>Traits</em>) until the end of the conflict.",
+    "illustrator": "Felipe Gaona",
+    "name": "Oni Mask",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Item",
       "Mask"
     ],
-    "text": "Seeker role only.\nAttach to a character you control.\nAction: During a conflict, remove 1 fate from attached character. Choose a participating character – treat that character as if its printed text box were blank (except Traits) until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-117.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-118",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Seal of the Unicorn",
     "type": "Attachment",
+    "text": "Attached character gains the [clan-unicorn] clan symbol and the <em>Cavalry</em> trait.",
+    "flavorText": "In the name of Lady Shinjo Altansarnai,\nSeeker of the Setting Sun,\nKhan of Khans,\nMistress of the Five Winds,\nDaimyō of the Shinjo, and\nChampion of the Unicorn Clan",
+    "illustrator": "Mauro Dal Bo",
+    "name": "Seal of the Unicorn",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Item",
       "Seal"
     ],
-    "text": "Attached character gains the  clan symbol and the Cavalry trait.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-118.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-119",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Talisman of the Sun",
     "type": "Attachment",
     "unique": true,
+    "text": "<em>Keeper</em> role only.\n<b>Action:</b> During a conflict in which you are the defending player, bow this attachment – move the contested ring to another eligible province and reveal it, if able. That province is now the attacked province.",
+    "illustrator": "Calvin Chua",
+    "name": "Talisman of the Sun",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Item",
       "Meishōdō"
     ],
-    "text": "Keeper role only.\nAction: During a conflict in which you are the defending player, bow this attachment – move the contested ring to another eligible province and reveal it, if able. That province is now the attacked province.",
-    "unverified": true
+    "traitsAscii": [
+      "Item",
+      "Meishodo"
+    ],
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-119.jpg"
   },
   {
     "id": "meditations-on-the-ephemeral-120",
     "gameId": "l5r-lcg",
     "setId": "meditations-on-the-ephemeral",
     "publisherId": "ffg",
-    "name": "Mono no Aware",
     "type": "Event",
+    "text": "<b>Action:</b> Remove 1 fate from each character. Draw 1 card. (Max 1 per round.)",
+    "flavorText": "Autumn’s voice falters\nVisions of days together\nFade with the new snow",
+    "illustrator": "Kevin Zamir Goeke",
+    "name": "Mono no Aware",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Action: Remove 1 fate from each character. Draw 1 card. (Max 1 per round).",
-    "unverified": true
+    "cost": 3,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-120.jpg"
   }
 ]

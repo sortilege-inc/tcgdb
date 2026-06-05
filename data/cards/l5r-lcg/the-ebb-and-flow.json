@@ -4,299 +4,413 @@
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Flooded Waste",
     "type": "Province",
+    "text": "<b>Reaction:</b> After this province is revealed – bow each attacking character.",
+    "flavorText": "Where none survive to cremate the fallen, rot and corruption reign.",
+    "illustrator": "Nele Diel",
+    "name": "Flooded Waste",
     "clan": "Crab",
-    "text": "Reaction: After this province is revealed – bow each attacking character.",
-    "unverified": true
+    "strength": 2,
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-061.jpg"
   },
   {
     "id": "the-ebb-and-flow-062",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Seeking the Truth",
     "type": "Province",
+    "text": "This province gets +2 strength while you have a <em>Water</em> role.\n<b>Interrupt:</b> When this province is broken, choose a defending character – move that character home.",
+    "illustrator": "Felipe Gaona",
+    "name": "Seeking the Truth",
     "clan": "Neutral",
-    "text": "This province gets +2 strength while you have a Water role.\nInterrupt: When this province is broken, choose a defending character – move that character home.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-062.jpg"
   },
   {
     "id": "the-ebb-and-flow-063",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Ikebana Artisan",
     "type": "Character",
+    "text": "<b>Interrupt:</b> When you would lose 1 honor for an unopposed conflict – cancel that honor loss. Then, lose 1 fate. (Unlimited.)\n<i>Errata from RRG v1.7</i>",
+    "flavorText": "\"The art is in the flowers chosen, not merely their position.\"",
+    "illustrator": "Le Vuong",
+    "name": "Ikebana Artisan",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Interrupt: When you would lose 1 honor for an unopposed conflict – cancel that honor loss. Then, lose 1 fate. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-063.jpg"
   },
   {
     "id": "the-ebb-and-flow-064",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Volcanic Troll",
     "type": "Character",
+    "text": "No attachments except <em>Weapon</em>.\nWhile the [element-fire] ring is unclaimed, this character gets +2[conflict-military] and +2[conflict-political].",
+    "illustrator": "Diana Martinez",
+    "name": "Volcanic Troll",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Creature"
     ],
-    "text": "No attachments except Weapon.\nWhile the [fire] ring is unclaimed, this character gets +2[mil] and +2[pol].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-064.jpg"
   },
   {
     "id": "the-ebb-and-flow-065",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Tireless Sōdan Senzo",
     "type": "Character",
+    "text": "This character does not bow as a result of conflict resolution in conflicts in which it lost.",
+    "flavorText": "\"The spirits cannot rest, so why should I?\"",
+    "illustrator": "Lukas Banas",
+    "name": "Tireless Sōdan Senzo",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "This character does not bow as a result of conflict resolution in conflicts in which it lost.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-065.jpg"
   },
   {
     "id": "the-ebb-and-flow-066",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Asako Azunami",
     "type": "Character",
     "unique": true,
+    "text": "<b>Interrupt:</b> When you would resolve the [element-water] ring – instead of the normal ring effect, you may choose and bow any character and you may choose and ready a different character.",
+    "illustrator": "Asep Ariyanto",
+    "name": "Asako Azunami",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "4",
+    "political": "4",
     "traits": [
       "Shugenja",
       "Water",
       "Elemental Master"
     ],
-    "text": "Interrupt: When you would resolve the [water] ring – instead of the normal ring effect, you may choose and bow any character and you may choose and ready a different character.",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Water",
+      "Elemental-master"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-066.jpg"
   },
   {
     "id": "the-ebb-and-flow-067",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Disguised Protector",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating – each player adds the bid on his or her honor dial to his or her skill during this conflict's resolution.",
+    "flavorText": "Her face might be bare, but she was never without a mask.",
+    "illustrator": "Le Vuong",
+    "name": "Disguised Protector",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 1,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Shinobi",
       "Yōjimbō"
     ],
-    "text": "Action: During a conflict in which this character is participating – each player adds the bid on his or her honor dial to his or her skill total during this conflict's resolution.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Shinobi",
+      "Yojimbo"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-067.jpg"
   },
   {
     "id": "the-ebb-and-flow-068",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Hidden Moon Dōjō",
     "type": "Holding",
     "unique": true,
+    "text": "Limit 1 per deck.\nYou may play cards in adjacent provinces as if they were in your hand.\n<b>Action:</b> During a conflict – turn a card in an adjacent province faceup.",
+    "illustrator": "Nele Diel",
+    "name": "Hidden Moon Dōjō",
     "clan": "Scorpion",
     "deck": "dynasty",
     "traits": [
       "Dōjō"
     ],
-    "text": "Limit 1 per deck.\nYou may play characters in adjacent provinces as if they were in your hand.\nAction: During a conflict – turn a card in an adjacent province faceup.",
-    "unverified": true
+    "traitsAscii": [
+      "Dojo"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-068.jpg"
   },
   {
     "id": "the-ebb-and-flow-069",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Master of the Swift Waves",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, choose a participating character you control and a character in your home – switch the chosen characters' location.",
+    "flavorText": "\"When I call upon you, you will answer!\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Master of the Swift Waves",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Water",
       "Cavalry"
     ],
-    "text": "Action: During a conflict, choose a participating character you control and a character in your home – switch the chosen characters' locations.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-069.jpg"
   },
   {
     "id": "the-ebb-and-flow-070",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Yoritomo",
     "type": "Character",
     "unique": true,
+    "text": "This character gets +X[conflict-military] and +X[conflict-political]. X is equal to the number of fate in your fate pool.",
+    "flavorText": "\"Simply saying it does not make it so.\"",
+    "illustrator": "Agri Karuniawan",
+    "name": "Yoritomo",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Champion",
       "Mantis Clan"
     ],
-    "text": "This character gets +X[mil] and +X[pol]. X is equal to the number of fate in your fate pool.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Champion",
+      "Mantis-clan"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-070.jpg"
   },
   {
     "id": "the-ebb-and-flow-071",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Nezumi Infiltrator",
     "type": "Character",
+    "text": "Immune to <em>Shadowlands</em> and <em>Mahō</em> card effects.\n<b>Reaction:</b> After this character enters play during a conflict – until the end of the conflict, raise or lower the strength of the attacked province by 1 (to a minimum of 1). (Max 1 per conflict.)",
+    "illustrator": "Eli Ring",
+    "name": "Nezumi Infiltrator",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 1,
+    "glory": 0,
+    "influence": 2,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Creature",
       "Scout"
     ],
-    "text": "Immune to Shadowlands and Mahō card effects.\nReaction: After this character enters play during a conflict – until the end of the conflict, raise or lower the strength of the attacked province by 1 (to a minimum of 1). (Max 1 per conflict.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-071.jpg"
   },
   {
     "id": "the-ebb-and-flow-072",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Fight On",
     "type": "Event",
+    "text": "<em>Water</em> role only.\n<b>Action:</b> While you are the defending player, choose a bowed character you control – ready that character and move it to the conflict.",
+    "flavorText": "\"If wse rest, the entire Empire falls.\"",
+    "illustrator": "Cassandra Bolan",
+    "name": "Fight On",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Water role only.\nAction: While you are the defending player, choose a bowed character you control – ready that character and move it to the conflict.",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-072.jpg"
   },
   {
     "id": "the-ebb-and-flow-073",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Menacing Iron Warrior",
     "type": "Character",
+    "text": "<b>Action:</b> While this character is participating in a [conflict-military] conflict – until the end of the conflict, each participating character your opponent controls with equal or lower [conflict-military] skill than this character cannot trigger their abilities.",
+    "illustrator": "Diana Martinez",
+    "name": "Menacing Iron Warrior",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 3,
+    "glory": 2,
+    "influence": 2,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Action: While this character is participating in a [mil] conflict – until the end of the conflict, each participating character your opponent controls with equal or lower [mil] skill than this character cannot trigger abilities.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-073.jpg"
   },
   {
     "id": "the-ebb-and-flow-074",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Soul Beyond Reproach",
     "type": "Event",
+    "text": "<em>Air</em> role only.\n<b>Action:</b> Choose a character you control – honor that character. Then, honor it again.",
+    "illustrator": "Le Vuong",
+    "name": "Soul Beyond Reproach",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Air role only.\nAction: Choose a character you control – honor that character. Then, honor it again.",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-074.jpg"
   },
   {
     "id": "the-ebb-and-flow-075",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Hawk Tattoo",
     "type": "Attachment",
+    "text": "Attach to a character you control.\nAttached character gains <em>Tattooed</em>.\n<b>Reaction:</b> After you play this attachment during a conflict – move attached character to the conflict. If attached character is a <em>Monk</em>, you may take another action after this one.\n<i>Errata from RRG v1.6</i>",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Hawk Tattoo",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Tattoo"
     ],
-    "text": "Attach to a character you control.\nAttached character gains Tattooed.\nReaction: After you play this attachment during a conflict – move attached character to the conflict. If attached character is a Monk, you may take another action after this one.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-075.jpg"
   },
   {
     "id": "the-ebb-and-flow-076",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Heroic Resolve",
     "type": "Attachment",
+    "text": "<b>Action:</b> If you have 2 or more rings in your claimed ring pool – ready attached character.",
+    "flavorText": "So long as he never lost his feet, he would never stop fighting.",
+    "illustrator": "Eli Ring",
+    "name": "Heroic Resolve",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Condition"
     ],
-    "text": "Action: If you have 2 or more rings in your claimed ring pool – ready attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-076.jpg"
   },
   {
     "id": "the-ebb-and-flow-077",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "My Ancestor's Strength",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating <em>Shugenja</em> character you control and a character in your dynasty discard pile – until the end of the conflict, set the participating character's base [conflict-military] and [conflict-political] skill equal to the printed [conflict-military] and [conflict-political] skill of the other character.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "My Ancestor's Strength",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Spell",
       "Water"
     ],
-    "text": "Action: During a conflict, choose a participating Shugenja character you control and a character in your dynasty discard pile – until the end of the conflict, set the participating character's base [mil] and [pol] skill equal to the printed [mil] and [pol] skill of the other character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-077.jpg"
   },
   {
     "id": "the-ebb-and-flow-078",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Ofushikai",
     "type": "Attachment",
     "unique": true,
+    "text": "Ancestral. Restricted. Attach to a unique [clan-phoenix] character you control.\nIf attached character has the <em>Champion</em> trait, it gains \"<b>Action:</b> During a conflict in which this character is participating, choose a participating character – move that character home. It cannot participate as an attacker this phase.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Ofushikai",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 2,
+    "militaryBonus": "+2",
+    "politicalBonus": "+3",
     "traits": [
       "Weapon"
     ],
-    "text": "Ancestral. Restricted. Attach to a unique  character you control.\nIf attached character has the Champion trait, it gains: \"Action: During a conflict in which this character is participating, choose a participating character – move that character home. It cannot participate as an attacker this phase.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-078.jpg"
   },
   {
     "id": "the-ebb-and-flow-079",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Deceptive Offer",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating character you control. Your opponent selects one – that character gets +2[conflict-military] and +2[conflict-political] until the end of the conflict, or your opponent gives you 1 honor.",
+    "illustrator": "Asep Ariyanto",
+    "name": "Deceptive Offer",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Action: During a conflict, choose a participating character you control. Your opponent selects one – that character gets +2[mil] and +2[pol] until the end of the conflict, or your opponent gives you 1 honor.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-079.jpg"
   },
   {
     "id": "the-ebb-and-flow-080",
     "gameId": "l5r-lcg",
     "setId": "the-ebb-and-flow",
     "publisherId": "ffg",
-    "name": "Force of the River",
     "type": "Attachment",
+    "text": "Attach to a <em>Shugenja</em> character you control.\n<b>Action:</b> During a conflict – put each facedown card in your provinces into play facedown in the conflict as 1[conflict-military], -[conflict-political], 0 glory characters with the <em>Cavalry</em> and <em>Spirit</em> traits. Discard those characters at the end of the conflict.",
+    "illustrator": "Sebastian Rodriguez",
+    "name": "Force of the River",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Spell",
       "Water",
       "Meishōdō"
     ],
-    "text": "Attach to a Shugenja character you control.\nAction: During a conflict – put each facedown card in your provinces into play facedown in the conflict as a 1[mil], –[pol], 0 glory character with the Cavalry and Spirit traits. Discard those characters at the end of the conflict.",
-    "unverified": true
+    "traitsAscii": [
+      "Spell",
+      "Water",
+      "Meishodo"
+    ],
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-080.jpg"
   }
 ]

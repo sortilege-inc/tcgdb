@@ -4,452 +4,820 @@
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Kyūden Isawa",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict, bow this stronghold and discard a <em>Spell</em> event from your hand – play a <em>Spell</em> event from your conflict discard pile as if it were in your hand. Remove that event from the game.\n<i>Errata from the Imperial Law (2020-01-06)</i>",
+    "illustrator": "Nele Diel",
+    "name": "Kyūden Isawa",
     "clan": "Phoenix",
+    "honor": 11,
+    "fate": 7,
+    "influencePool": 10,
     "traits": [
       "Library",
       "Palace"
     ],
-    "text": "Action: During a conflict, bow this stronghold and discard a Spell event from your hand – play a Spell event from your conflict discard pile as if it were in your hand. Remove that spell from the game.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/38326-ruling-ky%C5%ABden-isawa-display-of-power/",
+        "text": "Kyūden Isawa cannot be used to play spells with a reaction ability (eg. [Display of Power](https://fiveringsdb.com/card/display-of-power)).  \nYou have to resolve the Spell as an action, which reactions cannot do."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/38290-ruling-ky%C5%ABden-isawa/",
+        "text": "If a ***Spell*** event played via Kyūden Isawa has its effects canceled, it is still removed from the game.\n\nCards are removed from the game faceup."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-001.png"
   },
   {
     "id": "disciples-of-the-void-002",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Sanpuku Seidō",
     "type": "Province",
+    "unique": true,
+    "text": "Cannot be a stronghold province.\nWhile resolving a conflict at this province, characters count their glory instead of their [conflict-military] skill and [conflict-political] skill.",
+    "illustrator": "Nele Diel",
+    "name": "Sanpuku Seidō",
     "clan": "Phoenix",
+    "strength": 1,
     "traits": [
       "Shrine"
     ],
-    "text": "Cannot be a stronghold province.\nWhile resolving a conflict at this province, characters count their glory instead of their [mil] skill and [pol] skill.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/38205-ruling-massing-at-twilight-kakita-asami-crisis-breaker/",
+        "text": "While at Sanpuku Seidō, any skill counts (e.g. [Kakita Asami](https://fiveringsdb.com/card/kakita-asami), [Crisis Breaker](https://fiveringsdb.com/card/crisis-breaker)) count glory instead."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39774-sanpuku-seid%C5%8D-magistrates/#entry329746",
+        "text": "While at Sanpuku Seidō, [Magistrates](https://fiveringsdb.com/cards/search?q=Magistrate) prevent relevant characters from counting their glory."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39667-ruling-sanpuku-seidō-imperial-favor",
+        "text": "The Imperial Favor bonus still applies during conflicts at Sanpuku Seidō."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-002.jpg"
   },
   {
     "id": "disciples-of-the-void-003",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Support of the Phoenix",
     "type": "Role",
-    "clan": "Neutral",
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on [clan-phoenix] clan cards.",
+    "name": "Support of the Phoenix",
     "traits": [
       "Phoenix"
     ],
-    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Role Cards\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#role-cards",
+        "text": "Support of the Phoenix can only be used on its own, it cannot be used along a ***Keeper/Seeker*** role."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-003.jpg"
   },
   {
     "id": "disciples-of-the-void-004",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Fire Tensai Initiate",
     "type": "Character",
+    "text": "—",
+    "flavorText": "\"Can you coax your mind from wandering and keep to the original oneness?\" - Tao of Shinsei",
+    "illustrator": "Anna Christenson",
+    "name": "Fire Tensai Initiate",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 2,
+    "military": "0",
+    "political": "0",
     "traits": [
       "Shugenja",
       "Fire",
       "Scholar"
     ],
-    "text": "—",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-004.jpg"
   },
   {
     "id": "disciples-of-the-void-005",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Pacifist Philosopher",
     "type": "Character",
+    "text": "<b>Reaction:</b> After a player passes on declaring a conflict - gain 1 fate. (Limit twice per round.)",
+    "flavorText": "Use your sword. You will only prove me correct.",
+    "illustrator": "Kevin Zamie Goeke",
+    "name": "Pacifist Philosopher",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After a player passes on declaring a conflict – gain 1 fate. (Limit twice per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-005.jpg"
   },
   {
     "id": "disciples-of-the-void-006",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Shiba Tetsu",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After you play a <em>Spell</em> card during a conflict – until the end of the conflict, this character gets +1[conflict-military] and +1[conflict-political]. (Unlimited.)",
+    "flavorText": "All that matters is that I server my clan as best I am able.",
+    "illustrator": "Ignatius Budi",
+    "name": "Shiba Tetsu",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After you play a Spell card during a conflict – until the end of the conflict this character gets +1 [mil] and +1 [pol]. (Unlimited.)",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Reactions\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#reactions",
+        "text": "The Reaction on Shiba Tetsu can be triggered an Unlimited number of times per round, but only once per Spell played.\n\n*A reaction with a specified limit that enables it to be triggered more than once per round may only be initiated once each time its specified triggering condition occurs.*"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-006.jpg"
   },
   {
     "id": "disciples-of-the-void-007",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Inquisitive Ishika",
     "type": "Character",
+    "text": "During a conflict, each card that has a <em>Trait</em> that matches an element of the contested ring has its cost to play reduced by 1.",
+    "flavorText": "\"There was something formless before the universe was born. Serene. Empty. Infinite.\" - from the scrolls of the Starry Heaven Sanctuary",
+    "illustrator": "Conceptopolis",
+    "name": "Inquisitive Ishika",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Void"
     ],
-    "text": "During a conflict, each card that has a Trait that matches an element of the contested ring has its cost to play reduced by 1.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39875-ruling-soshi-shadowshaper-cost/",
+        "text": "Inquisitive Ishika only reduces the cost of cards as they're being played. It does not reduce the cost of cards in play (e.g. for [Soshi Shadowshaper](https://fiveringsdb.com/card/soshi-shadowshaper))."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-007.jpg"
   },
   {
     "id": "disciples-of-the-void-008",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Fire Elemental Guard",
     "type": "Character",
+    "text": "No attachments except <em>Spell</em>.\n<b>Action:</b> During a conflict in which you have played 3 or more <em>Spell</em> cards, choose an attachment – discard that attachment.",
+    "illustrator": "Eli Ring",
+    "name": "Fire Elemental Guard",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Fire",
       "Army"
     ],
-    "text": "No attachments except Spell.\nAction: During a conflict in which you have played 3 or more Spell cards, choose an attachment – discard that attachment.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-008.jpg"
   },
   {
     "id": "disciples-of-the-void-009",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Kaito Temple Protector",
     "type": "Character",
+    "text": "While this character is defending, opponent's card effects cannot move it.\n<b>Action:</b> While this character is defending, choose another participating character - until the end of the conflict, set this character's base [conflict-military] and [conflict-political] skill to the chosen character's current skill values.",
+    "illustrator": "Francisco Martin",
+    "name": "Kaito Temple Protector",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Monk"
     ],
-    "text": "While this character is defending, opponents' card effects cannot move it.\nAction: While this character is defending, choose another participating character – until the end of the conflict, set this character's base [mil] and [pol] skill to the chosen character's current skill values.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Modifiers\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#modifiers",
+        "text": "Set modifiers override all non-set modifiers (+/- and doubling/halving, even those applied afterwards), with the exception of the bid during a duel, which is always added after other calculations."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39828-ruling-kaito-temple-protector-bayushi-yunako-set-vs-switch/",
+        "text": "Skills that have been set cannot be switched ([Along the River of Gold](https://fiveringsdb.com/card/along-the-river-of-gold), [Bayushi Yunako](https://fiveringsdb.com/card/bayushi-yunako))."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39626-ruling-kaito-temple-protector/",
+        "text": "If Kaito Temple Protector targets a character with a dash (–) for a skill value, its own corresponding current skill value is set to a dash (not 0)."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-009.jpg"
   },
   {
     "id": "disciples-of-the-void-010",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Isawa Tadaka",
     "type": "Character",
     "unique": true,
+    "text": "Each opponent cannot play copies of event cards that are in his or her conflict discard pile unless the [element-earth] ring is in the player's claimed ring pool.",
+    "flavorText": "As a mountain's roots run deep, I shall not be moved.",
+    "illustrator": "Amelie Hutt",
+    "name": "Isawa Tadaka",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 2,
+    "military": "5",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Earth",
       "Elemental Master"
     ],
-    "text": "Each opponent cannot play copies of event cards that are in his or her conflict discard pile unless the [earth] ring is in that player's claimed ring pool.",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Earth",
+      "Elemental-master"
+    ],
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39622-ruling-isawa-tadaka-ky%C5%ABden-isawa/",
+        "text": "Isawa Tadaka prevents the opponent from using cards effects that play cards from the conflict discard pile ([Kyūden Isawa](https://fiveringsdb.com/card/kyuden-isawa), [Togashi Mitsu](https://fiveringsdb.com/card/togashi-mitsu) etc.)."
+      },
+      {
+        "source": "RRG \"Deckbuilding\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#deckbuilding",
+        "text": "You can include 3 copies of Isawa Tadaka (Disciples of the Void), or 3 copies of Isawa Tadaka (Bonds of Blood), or any combination of each, so long as you include no more than 3 copies in total.\n\n*No more than 3 copies of a single card by title can be included in any combination in a player's dynasty and conflict decks.*"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-010.png"
   },
   {
     "id": "disciples-of-the-void-011",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Fushichō",
     "type": "Character",
     "unique": true,
+    "text": "No attachments.\n<b>Interrupt:</b> When this character leaves play, choose a [clan-phoenix] character in your dynasty pile – put that character into play with 1 fate on it.",
+    "illustrator": "IFS",
+    "name": "Fushichō",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 6,
+    "glory": 0,
+    "military": "6",
+    "political": "6",
     "traits": [
       "Creature",
       "Fire",
       "Mythic",
       "Spirit"
     ],
-    "text": "No attachments.\nInterrupt: When this character leaves play, choose a  character in your dynasty discard pile – put that character into play with 1 fate on it.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Play and Put into Play\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#play-and-put-into-play",
+        "text": "If Fushichō leaves play during a conflict, it cannot put another character into play in the conflict, only at home."
+      },
+      {
+        "source": "RRG: \"Interrupts\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#interrupts",
+        "text": "Fushichō's ability resolves while it is still in play. It cannot put into play another copy of itself, because it's unique.\n\n*When a triggering condition initiates (but before it completes its resolution), an interrupt window for that triggering condition opens. Always resolve interrupts to a triggering condition before resolving the consequences of the triggering condition itself.*"
+      },
+      {
+        "source": "RRG \"Lasting Effects\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#lasting-effects",
+        "text": "Any 'until the end of the conflict' lasting effects (e.g. [Kakita Dojo](https://fiveringsdb.com/card/kakita-dojo)) will expire before any 'at the end of the conflict' abilities or delayed effects (e.g.  [Forebearer's Echoes](https://fiveringsdb.com/card/forebearer-s-echoes)) resolve. \n\nA Fushichō that has been put into play by Forebearer's Echoes and duelled by Kakita Dojo will be able to resolve its Interrupt ability when leaving play at the end of the conflict."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-011.jpg"
   },
   {
     "id": "disciples-of-the-void-012",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Secluded Shrine",
     "type": "Holding",
+    "text": "<b>Reaction:</b> After the conflict phase begins, choose a ring – until the end of the phase, you are considered to have that ring in your claimed ring pool.",
+    "illustrator": "Kevin Zamie Goeke",
+    "name": "Secluded Shrine",
     "clan": "Phoenix",
     "deck": "dynasty",
     "traits": [
       "Shrine"
     ],
-    "text": "Reaction: After the conflict phase begins, choose a ring – until the end of the phase, you are considered to have that ring in your claimed ring pool.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Card",
+        "text": "A ring affected by Secluded Shrine counts towards the Imperial Favor contest. If you use Shrine on a ring and then claim it, it only counts once. If you use Shrine on a ring and your opponent claims it, it counts for both players."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39823-ruling-secluded-shrine-wholeness-of-the-world-fū-sui-disciple",
+        "text": "If the Air ring is affected by one player's Secluded Shrine, but is physically in another player's claimed pool, both players are considered to have it claimed. In this case, [Fū Sui Disciple](https://fiveringsdb.com/card/fu-sui-disciple)'s controller may choose against which player to resolve its ability."
+      },
+      {
+        "source": "RRG \"Rings\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#rings",
+        "text": "A ring affected by Secluded Shrine counts as a claimed ring for [Prodigy of the Waves](https://fiveringsdb.com/card/prodigy-of-the-waves), [Solemn Scholar](https://fiveringsdb.com/card/solemn-scholar), [Henshin Disciple](https://fiveringsdb.com/card/henshin-disciple), and [Ishiken Initiate](https://fiveringsdb.com/card/ishiken-initiate).\n\nHowever, affecting a ring by Secluded Shrine does not count as claiming a ring for [Keeper](https://fiveringsdb.com/card/keeper-initiate)/[Seeker Initiate](https://fiveringsdb.com/card/seeker-initiate) or [Asako Tsuki](https://fiveringsdb.com/card/asako-tsuki)."
+      },
+      {
+        "source": "RRG \"Appendix III: Card Clarifications\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#appendix-iii-card-clarifications",
+        "text": "The ring chosen for Secluded Shrine’s effect can be in multiple states at once. For example, while unclaimed, the chosen ring simultaneously counts as being in both the unclaimed ring pool and in your claimed ring pool.\n\n- You cannot move the chosen ring out of your claimed ring pool due to the cost or effect of a card ability unless the physical ring token is in your claimed ring pool."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-secluded-shrine/",
+        "text": "Secluded Shrine's ring generally does not have an associated type (MIL/POL), but will gain the appropriate type if your opponent claims that ring."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-012.jpg"
   },
   {
     "id": "disciples-of-the-void-013",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Hida Amoro",
     "type": "Character",
     "unique": true,
+    "text": "<b>Forced Reaction:</b> After a player passes on declaring a conflict – that player must sacrifice a character he or she controls. (Unlimited.)",
+    "illustrator": "Arif Wijaya",
+    "name": "Hida Amoro",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "4",
     "traits": [
       "Bushi",
       "Berserker"
     ],
-    "text": "Forced Reaction: After a player passes on declaring a conflict – that player must sacrifice a character he or she controls. (Unlimited.)",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Reactions\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#reactions",
+        "text": "The Reaction on Hida Amoro can be triggered an Unlimited number of times per round, but only once per pass.\n\n*A reaction with a specified limit that enables it to be triggered more than once per round may only be initiated once each time its specified triggering condition occurs.*"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-013.jpg"
   },
   {
     "id": "disciples-of-the-void-014",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Doji Shigeru",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After your opponent plays an event during a conflict in which this character is participating – that opponent chooses and discards a card from his or her hand. (Unlimited.)",
+    "flavorText": "It is humbling to be mistaken for the beautiful Lady Shike.",
+    "illustrator": "Asep Ariyanto",
+    "name": "Doji Shigeru",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After your opponent plays an event during a conflict in which this character is participating – that opponent chooses and discards a card from his or her hand. (Unlimited.)",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Initiating Abilities / Playing Cards\" step 6",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#initiating-abilities-playing-cards",
+        "text": "When your opponent plays an event, first you get a chance to cancel its effects (with e.g. [Voice of Honor](https://fiveringsdb.com/card/voice-of-honor)), then you can trigger Shigeru's ability and make the opponent discard a card."
+      },
+      {
+        "source": "RRG \"Reactions\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#reactions",
+        "text": "The Reaction on Doji Shigeru can be triggered an Unlimited number of times per round, but only once per event played.\n\n*A reaction with a specified limit that enables it to be triggered more than once per round may only be initiated once each time its specified triggering condition occurs.*"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-014.jpg"
   },
   {
     "id": "disciples-of-the-void-015",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Togashi Tadakatsu",
     "type": "Character",
     "unique": true,
+    "text": "The defending player chooses the element <i>(but not the type)</i> during each conflict declared against him or her. This choice is made before conflict type, attacking characters, and the attacked province are chosen.",
+    "flavorText": "The ant and the beetle are equal beneath the sun. The beetle and the ant are equal beneath the moon.",
+    "illustrator": "Borja Pindado",
+    "name": "Togashi Tadakatsu",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 0,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Monk",
       "Heretic"
     ],
-    "text": "The defending player chooses the element (but not the type) during each conflict declared against him or her. This choice is made before conflict type, attacking characters, and the attacked province are chosen.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Card",
+        "text": "The defending player chooses the element from the options available to the attacking player, i.e. among the unclaimed rings, and accounting for any restrictions (e.g. [Way of the Phoenix](https://fiveringsdb.com/card/way-of-the-phoenix))."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-togashi-tadakatsu/",
+        "text": "The attacking player is still the one who 'selects' the ring, so the defending player can trigger [Enlightened Warrior](https://fiveringsdb.com/card/enlightened-warrior)."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-togashi-tadakatsu/",
+        "text": "If the attacking player only controls a ready character that has a restriction on which ring it can declared to attack with (eg. [Fire Tensai Acolyte](https://fiveringsdb.com/card/fire-tensai-acolyte)), the defending player must select the appropriate ring to make the attack valid."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "https://courtgamespod.com/topic/ruling-conflict-declaration-timings/",
+        "text": "See the timing chart [here](https://community.fantasyflightgames.com/topic/313033-ruling-conflict-declaration-timings/) for full details of the timing of Tadakatsu's ability."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-015.jpg"
   },
   {
     "id": "disciples-of-the-void-016",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Ikoma Tsanuri",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating, if you control 3 or more participating <em>Bushi</em> characters - until the end of the conflict, each participating character you control gets +1 [conflict-military] and +1 [conflict-political].",
+    "illustrator": "Malhel Ribadita",
+    "name": "Ikoma Tsanuri",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "Action: During a conflict in which this character is participating, if you control 3 or more participating Bushi characters – until the end of the conflict, each participating character you control gets +1 [mil] and +1 [pol].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-016.jpg"
   },
   {
     "id": "disciples-of-the-void-017",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Moto Nergüi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> While this character is participating in a [conflict-military] conflict, choose a participating character with the highest glory in the conflict <i>(you choose in case of a tie)</i> – move that character home.",
+    "flavorText": "Honor is for those with no deeds to their name.",
+    "illustrator": "Isuardi Therianto",
+    "name": "Moto Nergüi",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Action: While this character is participating in a [mil] conflict, choose a participating character with the highest glory in the conflict (you choose in case of a tie) – move that character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-017.jpg"
   },
   {
     "id": "disciples-of-the-void-018",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Kaito Kosori",
     "type": "Character",
     "unique": true,
+    "text": "During each [element-air] conflict, if you control at least 1 participating character and if this character is in your home area and ready, it contributes its skill to your side.\n<i>Errata from RRG v1.3</i>",
+    "flavorText": "An arrow, once loosed, cannot be recalled.",
+    "illustrator": "Le Vuong",
+    "name": "Kaito Kosori",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 3,
+    "glory": 1,
+    "influence": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Shugenja",
       "Air"
     ],
-    "text": "During each [air] conflict, if you control at least 1 participating character and this character is in your home area and ready, it contributes its skill to your side.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/38288-ruling-kaito-kosori/",
+        "text": "Kaito Kosori does not contribute her skill while at home if she is bowed, or if a relevant ***Magistrate*** is present in the conflict."
+      },
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39662-ruling-kaito-kosori-sanpuku-seidō",
+        "text": "During conflicts at [Sanpuku Seidō](https://fiveringsdb.com/card/sanpuku-seido), Kaito Kosori counts her glory."
+      },
+      {
+        "source": "Card",
+        "text": "While Kaito Kosori contributes her skill from home, she is not participating in the conflict. So if you win the conflict and she has [Honored Blade](https://fiveringsdb.com/card/honored-blade) attached, you cannot trigger it - she did not win the conflict, even though she contributed."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-018.jpg"
   },
   {
     "id": "disciples-of-the-void-019",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Favor of the Kami",
     "type": "Attachment",
+    "text": "Attached character gets +1 glory.",
+    "flavorText": "\"Like air, invisible.\nLike water, formless.\nLike earth, unchanging.\nLike fire, powerful.\"\n- Isawa's Elements",
+    "illustrator": "David Horned",
+    "name": "Favor of the Kami",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Condition"
     ],
-    "text": "Attached character gets +1 glory.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-019.jpg"
   },
   {
     "id": "disciples-of-the-void-020",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Katana of Fire",
     "type": "Attachment",
+    "text": "Play only if you control a <em>Shugenja</em> character. Restricted.\nAttached character gets +1[conflict-military] for each <em>Fire</em> card you control.\nAttached character gets +2[conflict-military] while the [element-fire] ring is in your claimed ring pool.",
+    "illustrator": "Eli Ring",
+    "name": "Katana of Fire",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Spell",
       "Fire",
       "Weapon"
     ],
-    "text": "Play only if you control a Shugenja character. Restricted.\nAttached character gets +1 [mil] for each Fire card you control.\nAttached character gets +2 [mil] while the [fire] ring is in your claimed ring pool.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/38289-ruling-katana-of-fire/",
+        "text": "Katana of Fire does not give a skill bonus for [Keeper of Fire](https://fiveringsdb.com/card/keeper-of-fire) and [Seeker of Fire](https://fiveringsdb.com/card/seeker-of-fire) roles, because they are not in play."
+      },
+      {
+        "source": "RRG \"Ability\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#ability",
+        "text": "Although you control all of the cards in each of your decks, Katana of Fire only gets a skill bonus for **Fire** cards in play.\n\n*Card abilities only interact with, and can only target, cards that are in play, unless the ability specifically refers to an out-of-play area or element.*"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-020.jpg"
   },
   {
     "id": "disciples-of-the-void-021",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "The Path of Man",
     "type": "Event",
+    "text": "<b>Reaction:</b> After you win a conflict by 5 or more skill – gain 2 fate.",
+    "flavorText": "\"It is the nature of man to walk the path. It is the nature of man to turn from the path. This is the nature of man.\"\n- Shinsei's Gift, apocryphal",
+    "illustrator": "Scott Wade",
+    "name": "The Path of Man",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 4,
     "traits": [
       "Kihō",
       "Philosophy"
     ],
-    "text": "Reaction: After you win a conflict by 5 or more skill – gain 2 fate.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Philosophy"
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-021.jpg"
   },
   {
     "id": "disciples-of-the-void-022",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Wholeness of the World",
     "type": "Event",
+    "text": "<b>Interrupt:</b> When a ring in your claimed ring pool would be returned to the unclaimed ring pool – it remains claimed instead. (Max 1 per round.)",
+    "flavorText": "\"The Master understands that the universe is out of his control. Because he accepts himself, the whole word accepts him.\" - Tao of Shinsei",
+    "illustrator": "Muyoung Kim",
+    "name": "Wholeness of the World",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Spell",
       "Earth"
     ],
-    "text": "Interrupt: When a ring in your claimed ring pool would be returned to the unclaimed ring pool – it remains claimed instead. (Max 1 per round.)",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39625-ruling-know-the-world-wholeness-of-the-world",
+        "text": "You can play [Know the World](https://fiveringsdb.com/card/know-the-world) and interrupt its resolution with Wholeness of the World. You will add a new ring to your claimed ring pool without giving up the one you already had."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-022.jpg"
   },
   {
     "id": "disciples-of-the-void-023",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Clarity of Purpose",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a character you control – until the end of that conflict, opponents' card effects cannot bow that character and it does not bow as a result of conflict resolution during [conflict-political] conflicts.",
+    "illustrator": "Kevin Zamie Goeke",
+    "name": "Clarity of Purpose",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
     "traits": [
       "Spell",
       "Water"
     ],
-    "text": "Action: During a conflict, choose a character you control – until the end of that conflict, opponents' card effects cannot bow that character and it does not bow as a result of conflict resolution during [pol] conflicts.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "Developer ruling",
+        "sourceUrl": "http://www.cardgamedb.com/forums/index.php?/topic/39550-ruling-clarity-of-purpose",
+        "text": "The entire effect of Clarity of Purpose lasts until the end of the conflict."
+      },
+      {
+        "source": "RRG \"Effects\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#effects",
+        "text": "A character chosen by Clarity of Purpose can be bowed by cards that resolve ring effects ([Guardian Kami](https://fiveringsdb.com/card/guardian-kami), [Kami Unleashed](https://fiveringsdb.com/card/kami-unleashed)) (selecting the Water ring effect to resolve). It is a ring effect that is bowing the character, and not a card effect."
+      },
+      {
+        "source": "Card",
+        "text": "Clarity of Purpose can be played during a Military conflict, as the first effect (*opponents' card effects cannot bow this character*) is not dependent on it being a Political conflict."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-023.jpg"
   },
   {
     "id": "disciples-of-the-void-024",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Karmic Twist",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a non-unique character with 1 or more fate on it – move each fate from that character to a non-unique character with no fate on it controlled by the same player.",
+    "flavorText": "\"This is not my fate; it is ours.\"",
+    "illustrator": "Le Vuong",
+    "name": "Karmic Twist",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
     "traits": [
       "Spell",
       "Void"
     ],
-    "text": "Action: Choose a non-unique character with 1 or more fate on it – move each fate from that character to a non-unique character with no fate on it controlled by the same player.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Move\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#move",
+        "text": "You need an eligible card to move fate to, in order to play Karmic Twist. You cannot move fate from a character to nowhere.\n\n*When an entity moves, it cannot move to its same (current) placement. If there is no valid destination for a move, the move attempt cannot be made.*"
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-024.jpg"
   },
   {
     "id": "disciples-of-the-void-025",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Yogo Kikuyo",
     "type": "Character",
     "unique": true,
+    "text": "<b>Interrupt:</b> When the effects of a <em>Spell</em> event your opponent plays during a conflict would initiate, put this character into play from your hand – cancel those effects.\n<i>Errata from RRG v1.3</i>",
+    "flavorText": "\"Not on my watch.\"",
+    "illustrator": "Isuardi Therianto",
+    "name": "Yogo Kikuyo",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 3,
+    "glory": 1,
+    "influence": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Earth"
     ],
-    "text": "Interrupt: When the effects of a Spell event your opponent plays during a conflict would initiate, put this card into play from your hand – cancel those effects.",
-    "unverified": true
+    "rulings": [
+      {
+        "source": "RRG \"Play and Put into Play\"",
+        "sourceUrl": "https://fiveringsdb.com/rules/reference#play-and-put-into-play",
+        "text": "When Yogo Kikuyo's ability is used, she can only enter play at home, not in a conflict."
+      }
+    ],
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-025.jpg"
   },
   {
     "id": "disciples-of-the-void-026",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Guardian Kami",
     "type": "Character",
+    "text": "<b>Keeper</b> role only.\n<b>Action:</b> While this character is defending, sacrifice it – resolve the ring effect of the contested ring as if you won the conflict as the attacking player. (Max 1 per conflict.)",
+    "illustrator": "Francisco Martin",
+    "name": "Guardian Kami",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 0,
+    "influence": 0,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Spirit"
     ],
-    "text": "Keeper role only.\nAction: While this character is defending, sacrifice it – resolve the ring effect of the contested ring as if you won the conflict as the attacking player. (Max 1 per conflict.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-026.jpg"
   },
   {
     "id": "disciples-of-the-void-027",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Kami Unleashed",
     "type": "Character",
+    "text": "<b>Seeker</b> role only.\n<b>Action:</b> While this character is attacking, sacrifice it – resolve the ring effect of the contested ring as if you won the conflict as the attacking player. (Max 1 per conflict.)",
+    "illustrator": "Le Vuong",
+    "name": "Kami Unleashed",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 0,
+    "influence": 0,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Spirit"
     ],
-    "text": "Seeker role only.\nAction: While this character is attacking, sacrifice it – resolve the ring effect of the contested ring as if you won the conflict as the attacking player. (Max 1 per conflict.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-027.jpg"
   },
   {
     "id": "disciples-of-the-void-028",
     "gameId": "l5r-lcg",
     "setId": "disciples-of-the-void",
     "publisherId": "ffg",
-    "name": "Walking the Way",
     "type": "Event",
+    "text": "If you control a <em>Shugenja</em> character, reduce the cost to play this card by 1.\n<b>Action:</b> Look at the top 3 cards of your dynasty deck. Discard a card from a province you control, and put one of the looked at cards into that province faceup. Shuffle.",
+    "illustrator": "Oscar Romer",
+    "name": "Walking the Way",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 0,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "If you control a Shugenja character, reduce the cost to play this card by 1.\nAction: Look at the top 3 cards of your dynasty deck. Discard a card in a province you control, and put one of the looked at cards into that province faceup. Shuffle.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-028.jpg"
   }
 ]

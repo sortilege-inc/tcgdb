@@ -4,1302 +4,1668 @@
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who broke this treaty gives control of a character they control with the highest printed cost of X or lower to the player who did not break this treaty.",
+    "illustrator": "Muyoung Kim",
     "name": "Desertion",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who broke this treaty gives control of a character they control with the highest printed cost of X or lower to the player who did not break this treaty.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-001.jpg"
   },
   {
     "id": "clan-war-002",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who broke this treaty dishonors a character they control with the highest printed cost of X or lower.",
+    "illustrator": "Muyoung Kim",
     "name": "Dishonorable Dealings",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who broke this treaty dishonors a character they control with the highest printed cost of X or lower.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-002.jpg"
   },
   {
     "id": "clan-war-003",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who did not break this treaty draws X cards.",
+    "illustrator": "Yudong Shen",
     "name": "Exposed Secrets",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who did not break this treaty draws X cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-003.jpg"
   },
   {
     "id": "clan-war-004",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who broke this treaty loses X fate.",
+    "illustrator": "Yudong Shen",
     "name": "Falling Fortune",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who broke this treaty loses X fate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-004.jpg"
   },
   {
     "id": "clan-war-005",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who did not break this treaty gains X fate.",
+    "illustrator": "Muyoung Kim",
     "name": "Finding a New Lord",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who did not break this treaty gains X fate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-005.jpg"
   },
   {
     "id": "clan-war-006",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who broke this treaty discards X cards from their hand.",
+    "illustrator": "Muyoung Kim",
     "name": "Forgotten Plans",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who broke this treaty discards X cards from their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-006.jpg"
   },
   {
     "id": "clan-war-007",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who did not break this treaty distributes X fate among characters they control.",
+    "illustrator": "Muyoung Kim",
     "name": "Second Chances",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who did not break this treaty distributes X fate among characters they control.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-007.jpg"
   },
   {
     "id": "clan-war-008",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who broke this treaty discards a total of X fate from characters they control.",
+    "illustrator": "Muyoung Kim",
     "name": "Sent to their Deaths",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who broke this treaty discards a total of X fate from characters they control.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-008.jpg"
   },
   {
     "id": "clan-war-009",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who broke this treaty discards X attachments they control.",
+    "illustrator": "Yudong Shen",
     "name": "Shattered Blades",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who broke this treaty discards X attachments they control.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-009.jpg"
   },
   {
     "id": "clan-war-010",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who broke this treaty bows a character they control with the highest printed cost of X or lower.",
+    "illustrator": "Muyoung Kim",
     "name": "Spreading Discontent",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who broke this treaty bows a character they control with the highest printed cost of X or lower.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-010.jpg"
   },
   {
     "id": "clan-war-011",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who broke this treaty loses X honor.",
+    "illustrator": "Muyoung Kim",
     "name": "Transgression of Honor",
-    "type": "treaty",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who broke this treaty loses X honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-011.jpg"
   },
   {
     "id": "clan-war-012",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
+    "type": "Treaty",
+    "text": "<em>(X is equal to the value staked on this treaty.)</em>\nThe player who did not break this treaty gains X honor.",
+    "illustrator": "Francesca Baerald",
     "name": "Upholding Bushido",
-    "type": "treaty",
+    "nameAscii": "Upholding Bushidō",
     "clan": "Neutral",
-    "text": "(X is equal to the value staked on this treaty.)\nThe player who did not break this treaty gains X honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-012.jpg"
   },
   {
     "id": "clan-war-013",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Slaughtered Village",
     "type": "Province",
+    "text": "<b>Interrupt:</b> When this province is broken – resolve the effect of each ring claimed on it as if you were the attacking player.",
+    "flavorText": "The fallen rider left with empty hands, having taken everything it had come for.",
+    "illustrator": "Imad Awan",
+    "name": "Slaughtered Village",
     "clan": "Crab",
-    "text": "Interrupt: When this province is broken – resolve the effect of each ring claimed on it as if you were the attacking player.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/clan-war-013.jpg"
   },
   {
     "id": "clan-war-014",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Model of Courtesy",
     "type": "Province",
+    "text": "<b>Interrupt:</b> When a province you control is broken, choose an unbroken province you control - move a ring claimed on the broken province to the chosen province.",
+    "illustrator": "Joshua Cairos",
+    "name": "Model of Courtesy",
     "clan": "Crane",
-    "text": "Interrupt: When a province you control is broken, choose an unbroken province you control – move a ring claimed on the broken province to the chosen province.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/clan-war-014.jpg"
   },
   {
     "id": "clan-war-015",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Karmic Teachings",
     "type": "Province",
+    "text": "<b>Interrupt:</b> When this province is broken – move each ring claimed on it to your unclaimed ring pool.",
+    "flavorText": "\"What do you remember?\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Karmic Teachings",
     "clan": "Dragon",
-    "text": "Interrupt: When this province is broken – move each ring claimed on it to your unclaimed ring pool.",
-    "unverified": true
+    "strength": 3,
+    "imagePath": "/cards/l5r-lcg/clan-war-015.jpg"
   },
   {
     "id": "clan-war-016",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Strategizing",
     "type": "Province",
+    "text": "<b>Reaction:</b> After a province you control is revealed - redistribute the rings claimed on your provinces among eligible provinces you control.",
+    "illustrator": "Stefano Baldo",
+    "name": "Strategizing",
     "clan": "Lion",
-    "text": "Reaction: After a province you control is revealed – redistribute the rings claimed on your provinces among eligible provinces you control.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/clan-war-016.jpg"
   },
   {
     "id": "clan-war-017",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Fury of the Kami",
     "type": "Province",
+    "text": "<b>Interrupt:</b> When a province you control is broken, choose a ring claimed on that province - resolve that ring's effect as if you were the attacking player.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Fury of the Kami",
     "clan": "Phoenix",
-    "text": "Interrupt: When a province you control is broken, choose a ring claimed on that province – resolve that ring's effect as if you were the attacking player.",
-    "unverified": true
+    "strength": 5,
+    "imagePath": "/cards/l5r-lcg/clan-war-017.jpg"
   },
   {
     "id": "clan-war-018",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Shadowed Alleyway",
     "type": "Province",
+    "text": "<b>Reaction:</b> After an attack is declared against this province, choose another unbroken non-stronghold province you control - move a claimed ring from this province to the chosen province.",
+    "illustrator": "Pawel Kolomeyets",
+    "name": "Shadowed Alleyway",
     "clan": "Scorpion",
-    "text": "Reaction: After an attack is declared against this province, choose another unbroken non-stronghold province you control – move a claimed ring from this province to the chosen province.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/clan-war-018.jpg"
   },
   {
     "id": "clan-war-019",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Fields of the Wind",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at this province, choose 2 rings claimed on different provinces you control - move each of those rings to the other chosen ring's province.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Fields of the Wind",
     "clan": "Unicorn",
-    "text": "Action: During a conflict at this province, choose 2 rings you claimed on different provinces you control – move each of those rings to the other chosen ring's province.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/clan-war-019.jpg"
   },
   {
     "id": "clan-war-020",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Temple of Daikoku",
     "type": "Province",
+    "text": "This province gets +2 strength for each claimed [element-water] ring.\n<b>Forced Reaction:</b> After an attack is declared against this province - place 1 fate on each unclaimed [element-water] ring.",
+    "illustrator": "Hai Hoang",
+    "name": "Temple of Daikoku",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "Temple"
     ],
-    "text": "This province gets +2 strength for each claimed [water] ring.\nForced Reaction: After an attack is declared against this province – place 1 fate on each unclaimed [water] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-020.jpg"
   },
   {
     "id": "clan-war-021",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Temple of Jikoju",
     "type": "Province",
+    "text": "This province gets +2 strength for each claimed [element-air] ring.\n<b>Forced Reaction:</b> After an attack is declared against this province - place 1 fate on each unclaimed [element-air] ring.",
+    "illustrator": "Hai Hoang",
+    "name": "Temple of Jikoju",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "Temple"
     ],
-    "text": "This province gets +2 strength for each claimed [air] ring.\nForced Reaction: After an attack is declared against this province – place 1 fate on each unclaimed [air] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-021.jpg"
   },
   {
     "id": "clan-war-022",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Temple of Osano-wo",
     "type": "Province",
+    "text": "This province gets +2 strength for each claimed [element-earth] ring.\n<b>Forced Reaction:</b> After an attack is declared against this province - place 1 fate on each unclaimed [element-earth] ring.",
+    "illustrator": "Hai Hoang",
+    "name": "Temple of Osano-wo",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "Temple"
     ],
-    "text": "This province gets +2 strength for each claimed [earth] ring.\nForced Reaction: After an attack is declared against this province – place 1 fate on each unclaimed [earth] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-022.jpg"
   },
   {
     "id": "clan-war-023",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Temple of Shinsei's Wisdom",
     "type": "Province",
+    "text": "This province gets +2 strength for each claimed [element-void] ring.\n<b>Forced Reaction:</b> After an attack is declared against this province - place 1 fate on each unclaimed [element-void] ring.",
+    "illustrator": "Hai Hoang",
+    "name": "Temple of Shinsei's Wisdom",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "Temple"
     ],
-    "text": "This province gets +2 strength for each claimed [void] ring.\nForced Reaction: After an attack is declared against this province – place 1 fate on each unclaimed [void] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-023.jpg"
   },
   {
     "id": "clan-war-024",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Temple of the Thunders",
     "type": "Province",
+    "text": "This province gets +2 strength for each claimed [element-fire] ring.\n<b>Forced Reaction:</b> After an attack is declared against this province - place 1 fate on each unclaimed [element-fire] ring.",
+    "illustrator": "Hai Hoang",
+    "name": "Temple of the Thunders",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "Temple"
     ],
-    "text": "This province gets +2 strength for each claimed [fire] ring.\nForced Reaction: After an attack is declared against this province – place 1 fate on each unclaimed [fire] ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-024.jpg"
   },
   {
     "id": "clan-war-025",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Hida Secretkeeper",
     "type": "Character",
+    "text": "This character gets +2[conflict-military] and +2[conflict-political] while defending a province with 1 or more rings claimed on it.",
+    "flavorText": "\"I suffered the misfortune of witnessing my lord at work. Do not make my mistake.\"",
+    "illustrator": "Nino Vecia",
+    "name": "Hida Secretkeeper",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "This character gets +2[mil] and +2[pol] while defending a province with 1 or more rings claimed on it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-025.jpg"
   },
   {
     "id": "clan-war-026",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "One of the Forgotten",
     "type": "Character",
+    "text": "You cannot place fate on this character when it is played from your provinces.\n<b>Reaction:</b> After an opponent passes on declaring a conflict, if that opponent controls any ready characters - put 1 fate on this character.",
+    "illustrator": "Lin Hsiang",
+    "name": "One of the Forgotten",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "4",
+    "political": "0",
     "traits": [
       "Bushi",
       "Berserker"
     ],
-    "text": "You cannot place fate on this character when it is played from your provinces.\nReaction: After an opponent passes on declaring a conflict, if that opponent controls any ready characters – put 1 fate on this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-026.jpg"
   },
   {
     "id": "clan-war-027",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Sake House Smuggler",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> During the conflict phase, choose another player - until the end of the phase, the next non-event card you play and the next non-event card that player plays each has its cost to play reduced by 1.",
+    "illustrator": "Moc Aran",
+    "name": "Sake House Smuggler",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Merchant"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During the conflict phase, choose another player – until the end of the phase, the next non-event card you play and the next non-event card that player plays each has its cost to play reduced by 1.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-027.jpg"
   },
   {
     "id": "clan-war-028",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Kuni Silencer",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict as the defender - your opponent must return a ring from his or her claimed ring pool to the unclaimed ring pool.",
+    "flavorText": "\"Have you seen a soul cut off from its ki?\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Kuni Silencer",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Monk"
     ],
-    "text": "Reaction: After this character wins a conflict as the defender – your opponent must return a ring from his or her claimed ring pool to the unclaimed ring pool.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-028.jpg"
   },
   {
     "id": "clan-war-029",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Roadside Inn",
     "type": "Holding",
+    "text": "<b>Reaction:</b> After the fate phase begins, choose a character. Each opponent may give you 1 honor and choose a character - each player who chose a character in this way moves 1 fate from their fate pool to their chosen character, if able.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Roadside Inn",
     "clan": "Crab",
     "deck": "dynasty",
     "traits": [
       "Inn"
     ],
-    "text": "Reaction: After the fate phase begins, choose a character. Each opponent may give you 1 honor and choose a character in this way moves 1 fate from their fate pool to their chosen character, if able.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-029.jpg"
   },
   {
     "id": "clan-war-030",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Chancellor's Aide",
     "type": "Character",
+    "text": "<b>Interrupt:</b> When this character leaves play, choose a player. Each opponent may give you 1 honor and choose a player - each chosen player discards 1 card from their hand.",
+    "flavorText": "\"I wish to see the leaves of Ide-sama's garden before they begin to fall. The regent's business with me can wait.\" - Kakita Yoshi",
+    "illustrator": "Tawny Fritz",
+    "name": "Chancellor's Aide",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Courtier",
       "Imperial"
     ],
-    "text": "Interrupt: When this character leaves play, choose a player. Each opponent may give you 1 honor and choose a player – each chosen player discards a card from their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-030.jpg"
   },
   {
     "id": "clan-war-031",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Dazzling Duelist",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, initiate a [conflict-military] duel against a character your opponent controls of their choice - resolve the duel. The controller of the duel's loser cannot claim rings during this conflict.",
+    "flavorText": "\"If you were so wise you would not have challenged me.\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Dazzling Duelist",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "Action: During a conflict, initiate a [mil] duel against a character your opponent controls of their choice – resolve the duel. The controller of the duel's loser cannot claim rings during this conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-031.jpg"
   },
   {
     "id": "clan-war-032",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Perfect Guest",
     "type": "Character",
+    "text": "<b>Action:</b> Choose another player - that player gains control of this character and cannot trigger this ability this round.",
+    "flavorText": "One with impeccable courtesy can indulge extravagant tastes.",
+    "illustrator": "Nino Vecia",
+    "name": "Perfect Guest",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: Choose another player – that player gains control of this character and cannot trigger this ability this round.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-032.jpg"
   },
   {
     "id": "clan-war-033",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Masterpiece Painter",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> Choose any number of players - each of those players reveals the top card of their conflict deck. Until the end of the phase, each of those players may play their revealed card as if it were in their hand.",
+    "illustrator": "Lin Hsiang",
+    "name": "Masterpiece Painter",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "4",
     "traits": [
       "Courtier"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: Choose any number of players. – each of those players reveals the top card of their conflict deck. Until the end of the phase, each of those players may play their revealed card as if it were in their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-033.jpg"
   },
   {
     "id": "clan-war-034",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Negotiation Table",
     "type": "Holding",
+    "text": "<b>Action:</b> In turn order each opponent may select 1 or more of the following -\n- draw 1 card.\n- choose and ready a character.\n- gain 1 fate.\nThen, you do each option once for each opponent that selected that option.",
+    "illustrator": "Maerel Hibadita",
+    "name": "Negotiation Table",
     "clan": "Crane",
     "deck": "dynasty",
-    "text": "Action: In turn order, each opponent may select one or more of the following –\n• draw 1 card.\n• choose and ready a character.\n• gain 1 fate.\nThen, you do each option once for each opponent that selected that option.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-034.jpg"
   },
   {
     "id": "clan-war-035",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Inventive Mirumoto",
     "type": "Character",
+    "text": "<b>Action:</b> If you have claimed the [element-water] ring, choose an attachment in your discard pile - play that attachment on this character <i>(paying all costs)</i>.",
+    "flavorText": "\"When you understand the path of the sword, your adversary can do nothing you cannot forsee.\" - Mirumoto's Niten",
+    "illustrator": "Eli Ring",
+    "name": "Inventive Mirumoto",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "When you play this character, it enters play under the control of an opponent of your choice.\nThis character cannot participate in conflicts against its owner.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-035.jpg"
   },
   {
     "id": "clan-war-036",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Agasha Prodigy",
     "type": "Character",
+    "text": "<b>Action:</b> Choose a character. Each opponent may give you 1 honor and choose a character - each player that chose a character discards the top card of their conflict deck. Each attachment a player discards this way is put into play attached to the character that player chose.",
+    "illustrator": "Felipe Gaona",
+    "name": "Agasha Prodigy",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Fire"
     ],
-    "text": "Action: Choose a character. Each opponent may give you 1 honor and choose a character – each player that chose a character discards the top card of their conflict deck. Each attachment a player discards this way is put into play attached to the character that player chose.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-036.jpg"
   },
   {
     "id": "clan-war-037",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Ascetic of the North Wall",
     "type": "Character",
+    "text": "While you have claimed the [element-earth] ring, this character cannot lose fate or be discarded outside the fate phase.",
+    "flavorText": "\"Be as the mountain: unyielding of body and mind.\"",
+    "illustrator": "Imad Awan",
+    "name": "Ascetic of the North Wall",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "While you have claimed the [earth] ring, this character cannot lose fate or be discarded outside the fate phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-037.jpg"
   },
   {
     "id": "clan-war-038",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Mindful Warrior",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character wins a conflict, choose a ring in your unclaimed ring pool - switch that ring with a ring claimed on one of your provinces, gaining all fate on it.",
+    "flavorText": "\"When the day closes and Amaterasu sleeps, what will you have learned? What difference will you have made?\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Mindful Warrior",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After this character wins a conflict, choose a ring in your unclaimed ring pool – switch that ring with a ring claimed on one of your provinces, gaining all fate on it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-038.jpg"
   },
   {
     "id": "clan-war-039",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Alchemical Laboratory",
     "type": "Holding",
+    "text": "While you have claimed the [element-fire] ring, each attachment you control on another player's character gains ancestral.",
+    "flavorText": "\"I have seen no interest among the fire kami for keihi bark - except when ground to paste, which seems to bring them great delight.\" - from the journals of Agasha Shunsen",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Alchemical Laboratory",
     "clan": "Dragon",
     "deck": "dynasty",
     "traits": [
       "Laboratory"
     ],
-    "text": "While you have claimed the [fire] ring, each attachment you control on another player's character gains ancestral.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-039.jpg"
   },
   {
     "id": "clan-war-040",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Ikoma Message Runner",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> For each player, choose up to 1 facedown card in that player's provinces - turn each chosen card faceup.",
+    "illustrator": "Felipe Gaona",
+    "name": "Ikoma Message Runner",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: For each player, choose up to 1 facedown card in that player's provinces – turn each chosen card faceup.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-040.jpg"
   },
   {
     "id": "clan-war-041",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Righteous Akodo",
     "type": "Character",
+    "text": "This character gets +2[conflict-political] while attacking or defending a province with 1 or more rings claimed on it.",
+    "flavorText": "She stopped at every shrine encountered, whispering prayers of penitence for the violence that her duty demanded",
+    "illustrator": "Nino Vecia",
+    "name": "Righteous Akodo",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Bushi"
     ],
-    "text": "This character gets +2[pol] while attacking or defending a province with 1 or more rings claimed on it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-041.jpg"
   },
   {
     "id": "clan-war-042",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Battle Aspirant",
     "type": "Character",
+    "text": "<b>Reaction:</b> After this character is declared as an attacker in a [conflict-military] conflict, choose a character your opponent controls without covert - the chosen character must be declared as a defender in this conflict, if able.",
+    "illustrator": "Nino Vecia",
+    "name": "Battle Aspirant",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "3",
+    "political": "0",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After this character is declared as an attacker in a [mil] conflict, choose a character your opponent controls without covert – the chosen character must be declared as a defender in this conflict, if able.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-042.jpg"
   },
   {
     "id": "clan-war-043",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Medium of the Living Soul",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, choose a participating character - until the end of the conflict, that character gains: \"<b>Reaction:</b> After you resolve a ring effect during a conflict in which this character is participating, remove 1 fate from this character - resolve that effect again.\"",
+    "illustrator": "Felipe Gaona",
+    "name": "Medium of the Living Soul",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Action: During a conflict, choose a participating character – until the end of the conflict, that character gains: “Reaction: After you resolve a ring effect during a conflict in which this character is participating, remove 1 fate from this character – resolve that effect again.”",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-043.jpg"
   },
   {
     "id": "clan-war-044",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Bushidō Adherent",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> During a conflict in which this character is participating, choose a participating character - honor that character. Your opponent draws 1 card.",
+    "illustrator": "Nino Vecia",
+    "name": "Bushidō Adherent",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "4",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict in which this character is participating, choose a participating character – honor that character. Your opponent draws 1 card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-044.jpg"
   },
   {
     "id": "clan-war-045",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Expert Interpreter",
     "type": "Character",
+    "text": "<b>Reaction:</b> After the conflict phase begins, choose a ring. Each opponent may give you 1 honor and choose a ring - during each conflict in which one of the chosen rings is contested, characters cannot enter play.",
+    "illustrator": "Joyce Maureira",
+    "name": "Expert Interpreter",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier",
       "Scholar"
     ],
-    "text": "Reaction: After the conflict phase begins, choose a ring. Each opponent may give you 1 honor and choose a ring – during each conflict in which one of the chosen rings is contested this phase, characters cannot enter play.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-045.jpg"
   },
   {
     "id": "clan-war-046",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Isawa Pilgrim",
     "type": "Character",
+    "text": "Pride.\n<b>Action:</b> Choose another player who has claimed the [element-water] ring – that player gains control of this character.",
+    "illustrator": "Lin Hsiang",
+    "name": "Isawa Pilgrim",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Pride.\nAction: Choose another player who has claimed the [water] ring – that player gains control of this character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-046.jpg"
   },
   {
     "id": "clan-war-047",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Mediator of Hostilities",
     "type": "Character",
+    "text": "<b>Reaction:</b> After a player passes on declaring a conflict - draw 1 card. (Limit twice per round.)",
+    "flavorText": "\"Do not lose your virtue under Tengoku by thinking a katana alone puts you in the right.\"",
+    "illustrator": "Moc Aran",
+    "name": "Mediator of Hostilities",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Reaction: After a player passes on declaring a conflict – draw 1 card. (Limit twice per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-047.jpg"
   },
   {
     "id": "clan-war-048",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Serene Seer",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> For each opponent that has claimed the [element-void] ring, choose a facedown province that player controls - look at each chosen province.",
+    "illustrator": "Derek D. Edgell",
+    "name": "Serene Seer",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Void"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: For each opponent that has claimed the [void] ring, choose a facedown province that player controls – look at each chosen province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-048.jpg"
   },
   {
     "id": "clan-war-049",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Hallowed Ground",
     "type": "Holding",
+    "text": "Each opponent that has claimed\n- the [element-air] ring loses 1 honor when they lose a conflict unopposed.\n- the [element-earth] ring cannot claim rings that were claimed on provinces they break.\n- the [element-fire] cannot put fate on character they play.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "Hallowed Ground",
     "clan": "Phoenix",
     "deck": "dynasty",
-    "text": "Each opponent who has claimed:\n• the [air] ring loses 1 honor when they lose a conflict unopposed.\n• the [earth] ring cannot claim rings that were claimed on provinces they break.\n• the [fire] ring cannot put fate on characters they play.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-049.jpg"
   },
   {
     "id": "clan-war-050",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Shepherd of Visages",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, choose a participating character – that character gets –2 glory until the end of the conflict.",
+    "flavorText": "\"Remember, we each wear a mask.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Shepherd of Visages",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Action: During a conflict, choose a participating character – that character gets -2 glory until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-050.jpg"
   },
   {
     "id": "clan-war-051",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Shosuro Actor",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose a non-unique character you do not control - this character becomes a copy of that character until the end of the conflict.",
+    "flavorText": "\"All of life is a festival, and all are celebrants.\"",
+    "illustrator": "Brock Crossman",
+    "name": "Shosuro Actor",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "0",
+    "political": "0",
     "traits": [
       "Actor",
       "Shinobi"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose a non-unique character you do not control – this character becomes a copy of that character until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-051.jpg"
   },
   {
     "id": "clan-war-052",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Vice Proprietor",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, dishonor it. Choose an opponent, than that opponent chooses a participating character you do not control - bow that character.",
+    "flavorText": "\"You know I'll always have a little something set aside for you...\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Vice Proprietor",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Merchant"
     ],
-    "text": "Action: During a conflict in which this character is participating, dishonor it. Choose an opponent, then that opponent chooses a participating character you do not control – bow that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-052.jpg"
   },
   {
     "id": "clan-war-053",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Master Whisperer",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> Choose a player - that player discards 3 cards from their hand and draws 3 cards.",
+    "illustrator": "Drew Baker",
+    "name": "Master Whisperer",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Courtier"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: Choose a player – that player discards 3 cards from their hand and draws 3 cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-053.jpg"
   },
   {
     "id": "clan-war-054",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Acclaimed Geisha House",
     "type": "Holding",
+    "text": "<b>Action:</b> During a conflict, dishonor a <i>(friendly)</i> participating character and choose an unclaimed ring - switch the contested ring with the chosen ring. <i>(The conflict retains its type.)</i>",
+    "illustrator": "Ruwen Liu",
+    "name": "Acclaimed Geisha House",
     "clan": "Scorpion",
     "deck": "dynasty",
-    "text": "Action: During a conflict, dishonor a (friendly) participating character and choose an unclaimed ring – switch the contested ring with the chosen ring. (The conflict retains its type.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-054.jpg"
   },
   {
     "id": "clan-war-055",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Altansarnai's Vanguard",
     "type": "Character",
+    "text": "During each conflict against a province with 1 or more rings claimed on it, this character cannot be bowed by card or ring effects.",
+    "flavorText": "When war calls she stands ready",
+    "illustrator": "Storn Cook",
+    "name": "Altansarnai's Vanguard",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "2",
+    "political": "0",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "During each conflict against a province with 1 or more rings claimed on it, this character cannot be bowed by card or ring effects.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-055.jpg"
   },
   {
     "id": "clan-war-056",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Merchant of Curiosities",
     "type": "Character",
+    "text": "<b>Action:</b> Discard a card from your hand. Each opponent may give you 1 honor and discard a card from their hand - each player who discards a card this way draws 1 card.",
+    "flavorText": "\"How fascinating. You say it is used for eating?\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Merchant of Curiosities",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Courtier",
       "Merchant"
     ],
-    "text": "Action: Discard a card from your hand. Each opponent may give you 1 honor and discard a card from their hand – each player who discards a card this way draws 1 card.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-056.jpg"
   },
   {
     "id": "clan-war-057",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Endless Plains Skirmisher",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, choose a player - move this character to the conflict on that player's side. <i>(You still control this character, but its skill contributes towards that player's side in the conflict.)</i>",
+    "illustrator": "Imad Awan",
+    "name": "Endless Plains Skirmisher",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "3",
+    "political": "0",
     "traits": [
       "Bushi",
       "Cavalry"
     ],
-    "text": "Action: During a conflict, choose a player – move this character to the conflict on that player's side. (You still control this character, but its skill contributes towards that player's side in the conflict.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-057.jpg"
   },
   {
     "id": "clan-war-058",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Way Station Trader",
     "type": "Character",
+    "text": "Limited. <i>(No more than one limited card can be played by each player each round.)</i>\n<b>Reaction:</b> After a province is revealed during a conflict in which this character is participating, choose an opponent - take 1 fate from that opponent.",
+    "illustrator": "Felipe Gaona",
+    "name": "Way Station Trader",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier",
       "Gaijin",
       "Merchant"
     ],
-    "text": "Limited. (No more than one limited card can be played by each player each round.)\nReaction: After a province is revealed during a conflict in which this character is participating, choose an opponent – take 1 fate from that opponent.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-058.jpg"
   },
   {
     "id": "clan-war-059",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Forthright Ide",
     "type": "Character",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n(<b>Action:</b> During a conflict in which this character is participating, choose a character with printed cost 3 or lower - ready that character. If you control that character, discard 1 card from you hand.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Forthright Ide",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "1",
+    "political": "3",
     "traits": [
-      "Cavalry",
       "Courtier",
+      "Cavalry",
       "Merchant"
     ],
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict in which this character is participating, choose a character with printed cost 3 or lower – ready that character. If you control that character, discard 1 card from you hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-059.jpg"
   },
   {
     "id": "clan-war-060",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Shika Matchmaker",
     "type": "Character",
+    "text": "Each card in your hand gains support. <i>(Another player may help pay that card's fate cost.)</i>",
+    "flavorText": "Though they do not share their art often, matchmakers of the Deer Clan readily guide those in need toward fruitful and enduring partnerships.",
+    "illustrator": "Lin Hsiang",
+    "name": "Shika Matchmaker",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Air",
       "Deer Clan"
     ],
-    "text": "Each card in your hand gains support. (Another player may help pay that card’s fate cost.)",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Air",
+      "Deer-clan"
+    ],
+    "imagePath": "/cards/l5r-lcg/clan-war-060.jpg"
   },
   {
     "id": "clan-war-061",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Cunning Confidant",
     "type": "Character",
+    "text": "While participating in a conflict against a player with more claimed rings than you, this character gets +2[conflict-political].",
+    "flavorText": "\"I would not share such thoughts with the court.\"",
+    "illustrator": "Joyce Maureira",
+    "name": "Cunning Confidant",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
-      "Bushi",
-      "Fox Clan"
+      "Courtier",
+      "Fox-clan"
     ],
-    "text": "While participating in a conflict against a player with more claimed rings than you, this character gets +2[pol].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-061.jpg"
   },
   {
     "id": "clan-war-062",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Insightful Gatekeeper",
     "type": "Character",
+    "text": "While participating in a conflict against a player with more claimed rings than you, this character gets +2[conflict-military].",
+    "flavorText": "\"The truest path is not cut from stone or brick.\"",
+    "illustrator": "Imad Awan",
+    "name": "Insightful Gatekeeper",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Bushi",
       "Dragonfly Clan"
     ],
-    "text": "While participating in a conflict against a player with more claimed rings than you, this character gets +2[mil].",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Dragonfly-clan"
+    ],
+    "imagePath": "/cards/l5r-lcg/clan-war-062.jpg"
   },
   {
     "id": "clan-war-063",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Venerable Fortunist",
     "type": "Character",
+    "text": "<b>Action:</b> Return a ring in your claimed ring pool that matches the the element of your role to the unclaimed ring pool - gain 2 fate.",
+    "flavorText": "\"Prune away your burdens to find your harmony.\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Venerable Fortunist",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Monk",
       "Brotherhood"
     ],
-    "text": "Action: Return a ring in your claimed ring pool that matches the element of your role to the unclaimed ring pool – gain 2 fate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-063.jpg"
   },
   {
     "id": "clan-war-064",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Kobo Ichi-Kai Jūjutsu",
     "type": "Attachment",
+    "text": "Restricted. <i>(No more than two restricted attachments per character.)</i>\nX is equal to the greatest number of rings claimed by a single opponent.",
+    "flavorText": "\"Who needs a weapon? I am the weapon.\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Kobo Ichi-Kai Jūjutsu",
+    "nameAscii": "Kobo Ichi-Kai Jujutsu",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+X",
+    "politicalBonus": "+0",
     "traits": [
       "Technique"
     ],
-    "text": "Restricted. (No more than two restricted attachments per character.)\nX is equal to the greatest number of rings claimed by a single opponent.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-064.jpg"
   },
   {
     "id": "clan-war-065",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Common Cause",
     "type": "Event",
+    "text": "<b>Action:</b> Sacrifice a <i>(friendly)</i> character and choose another character - ready the chosen character. If that character is controlled by another player, honor it.",
+    "flavorText": "\"They may break our homes, but they will never break our spirit.\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Common Cause",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Action: Sacrifice a (friendly) character and choose another character – ready the chosen character. If that character is controlled by another player, honor it.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/clan-war-065.jpg"
   },
   {
     "id": "clan-war-066",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "The Crashing Wave",
     "type": "Event",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Reaction:</b> After an attack is declared against a province but before the province is revealed, choose an eligible province you control - move the conflict to the chosen province and reveal it, if able. You are now the defending player if you were not already.",
+    "illustrator": "Calvin Chua",
+    "name": "The Crashing Wave",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Support.\nReaction: After an attack is declared against a province but before the province is revealed, choose an eligible province you control – move the conflict to the chosen province and reveal it, if able. You are now the defending player if you were not already.",
-    "unverified": true
+    "cost": 2,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/clan-war-066.jpg"
   },
   {
     "id": "clan-war-067",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Fulfill Your Duty",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, sacrifice a <i>(friendly)</i> character - the attacked province gets +X strength until the end of the conflict, where X is the sacrificed character's [conflict-military] skill <i>(including modifiers)</i>.",
+    "illustrator": "Francisco Miyara",
+    "name": "Fulfill Your Duty",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Action: During a conflict, sacrifice a (friendly) character – the attacked province gets +X strength until the end of the conflict, where X is the sacrificed character’s [mil] skill (including modifiers).",
-    "unverified": true
+    "cost": 2,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/clan-war-067.jpg"
   },
   {
     "id": "clan-war-068",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "A Game of Letters",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-political] conflict, choose a participating character and a status token on a character controlled by a different player -\n- if you chose an honored status token, honor the chosen character.\n- if you chose a dishonored status token, dishonor the chosen character.",
+    "illustrator": "Mauro Dal Bo",
+    "name": "A Game of Letters",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Action: During a [pol] conflict, choose a participating character and a status token on a character controlled by a different player –\n• if you chose an honored status token, honor the chosen character.\n• if you chose a dishonored status token, dishonor the chosen character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/clan-war-068.jpg"
   },
   {
     "id": "clan-war-069",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Favorable Alliance",
     "type": "Event",
+    "text": "Support.\n<b>Action:</b> Set aside cards from the top of up to two conflict decks, yours and the that of the player who supports you, until X cards are set aside. Those cards are faceup and out of play. Both you and the player who supports you may play those cards as if they were in their hand.",
+    "illustrator": "Joshua Carlos",
+    "name": "Favorable Alliance",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Support\nAction: Set aside cards from the top of up to two conflict decks, yours and that of the player who supports you, until X cards are set aside. Those cards are faceup and out of play. Both you and the player who supports you may play those cards as if they were in their hand.",
-    "unverified": true
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/clan-war-069.jpg"
   },
   {
     "id": "clan-war-070",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Cultured Façade",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict - until the end of the conflict, each participating character cannot be chosen as the target of an event played by a player whose honor bid is higher than that of the character's controller.",
+    "illustrator": "Joyce Maureira",
+    "name": "Cultured Façade",
+    "nameAscii": "Cultured Facade",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Action: During a conflict – until the end of the conflict, each participating character cannot be chosen as a target of an event played by a player whose honor bid is higher than that of the character’s controller.",
-    "unverified": true
+    "cost": 1,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/clan-war-070.jpg"
   },
   {
     "id": "clan-war-071",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Return the Offense",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, initiate a [conflict-political] duel between two characters controlled by different players, even if you do not control either of them - resolve the duel. Until the end of the conflict, the duel's winner does not bow as the result of conflict resolution and the duel's loser cannot be readied by card effects.",
+    "illustrator": "Quintin Gleim",
+    "name": "Return the Offense",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Action: During a conflict, initiate a [pol] duel between two characters controlled by different players, even if you do not control either of them – resolve the duel. Until the end of the conflict, the duel's winner does not bow as the result of conflict resolution and the duel's loser cannot be readied by card effects.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/clan-war-071.jpg"
   },
   {
     "id": "clan-war-072",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Inscribed Tantō",
     "type": "Attachment",
+    "text": "While you have claimed the [element-void] ring, attached character is immune to opponents' ring effects.",
+    "flavorText": "\"Words of wisdom are nice, but sometimes you just need a sharpened claw.\"",
+    "illustrator": "Gong Studios",
+    "name": "Inscribed Tantō",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Weapon"
     ],
-    "text": "While you have claimed the [void] ring, attached character is immune to opponents' ring effect.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-072.jpg"
   },
   {
     "id": "clan-war-073",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Contemplative Wisdom",
     "type": "Attachment",
+    "text": "Restricted. Support.\nAttached character gains: \"<b>Action:</b> During a conflict, return a ring from your claimed ring pool to the unclaimed ring pool. Choose a participating character - that character gains each of this character's printed abilities until the end of the conflict.\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Contemplative Wisdom",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 3,
+    "militaryBonus": "+0",
+    "politicalBonus": "+2",
     "traits": [
       "Technique"
     ],
-    "text": "Restricted. Support.\nAttached character gains: “Action: During a conflict, return a ring from your claimed ring pool to the unclaimed ring pool. Choose a participating character – that character gains each of this character’s printed abilities until the end of the conflict.”",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-073.jpg"
   },
   {
     "id": "clan-war-074",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Unquestioned Heritage",
     "type": "Event",
+    "text": "<b>Action:</b> If you have claimed the [element-air] ring, choose an attachment on a character you control - move that attachment to another character.",
+    "flavorText": "As the farmer who had always known him stepped out of his path, the boy's vision blurred with tears. Had the whole world changed when he joined his new family?",
+    "illustrator": "Ruwen Liu",
+    "name": "Unquestioned Heritage",
     "clan": "Dragon",
     "deck": "conflict",
-    "text": "Action: If you have claimed the [air] ring, choose an attachment on a character you control – move that attachment to another character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/clan-war-074.jpg"
   },
   {
     "id": "clan-war-075",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Impossible Kōan",
     "type": "Event",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> During a conflict - set each character's base [conflict-military] and base [conflict-political] skills to 1 until the end of the conflict.",
+    "flavorText": "If the candlelight is fire, the meal is long-cooked",
+    "illustrator": "Derek D. Edgell",
+    "name": "Impossible Kōan",
     "clan": "Dragon",
     "deck": "conflict",
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a conflict – set each character's base [mil] and base [pol] skills to 1 until the end of the conflict.",
-    "unverified": true
+    "cost": 3,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/clan-war-075.jpg"
   },
   {
     "id": "clan-war-076",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Take Up Command",
     "type": "Attachment",
+    "text": "Attached character gains the <em>Commander</em> trait and: \"<b>Action:</b> During a conflict in which this character is participating, choose a <em>Bushi</em> character you control with printed cost 2 or lower - ready that character and move it to the conflict.\"",
+    "illustrator": "Andreia Ugrai",
+    "name": "Take Up Command",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Condition"
     ],
-    "text": "Attached character gains the Commander trait and: “Action: During a conflict in which this character is participating, choose a Bushi character you control with printed cost 2 or lower – ready that character and move it to the conflict.”",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-076.jpg"
   },
   {
     "id": "clan-war-077",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Called to War",
     "type": "Event",
+    "text": "<b>Action:</b> Choose a <em>Bushi</em> character. Each opponent may give you 1 honor and choose a <em>Bushi</em> character - place 1 fate on each chosen character.",
+    "illustrator": "Reiko Murakami",
+    "name": "Called to War",
     "clan": "Lion",
     "deck": "conflict",
-    "text": "Action: Choose a Bushi character. Each opponent may give you 1 honor and choose a Bushi character – place 1 fate on each chosen character.",
-    "unverified": true
+    "cost": 0,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/clan-war-077.jpg"
   },
   {
     "id": "clan-war-078",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "All Out Assault",
     "type": "Event",
+    "text": "<b>Reaction:</b> After the conflict phase begins - each time a player has the opportunity to declare an attack this phase, they must attack with as many of their characters as are able.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "All Out Assault",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Tactic"
     ],
-    "text": "Reaction: After the conflict phase begins – each time a player has the opportunity to declare an attack this phase, they must attack with as many of their characters as are able.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-078.jpg"
   },
   {
     "id": "clan-war-079",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Privileged Position",
     "type": "Event",
-    "clan": "Neutral",
+    "text": "<b>Reaction:</b> After honor dials are revealed during an honor bid - each opponent who bid higher than you cannot declare more than one conflict against you this round.",
+    "flavorText": "\"Welcome, Bayushi-San, to Kenson no Gakka, where we proudly remember your history...\"",
+    "illustrator": "Paolo Puggioni",
+    "name": "Privileged Position",
+    "clan": "Lion",
     "deck": "conflict",
-    "text": "Reaction: After honor dials are revealed during an honor bid – each opponent who bid higher than you cannot declare more than one conflict against you this round.",
-    "unverified": true
+    "cost": 2,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/clan-war-079.jpg"
   },
   {
     "id": "clan-war-080",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Peacemaker's Blade",
     "type": "Attachment",
+    "text": "This attachment cannot be played on an attacking character.\nRestricted. <i>(No more than two restricted attachments per character.)</i>\nAttached character cannot be declared as an attacker.",
+    "illustrator": "Jason Juta",
+    "name": "Peacemaker's Blade",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+3",
+    "politicalBonus": "+1",
     "traits": [
       "Weapon"
     ],
-    "text": "This attachment cannot be played on an attacking character.\nRestricted. (No more than two restricted attachments per character.)\nAttached character cannot be declared as an attacker.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-080.jpg"
   },
   {
     "id": "clan-war-081",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Trick of the Light",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating character - until the end of the conflict, treat that character as if its printed text box was blank (except for <em>Traits</em>).",
+    "flavorText": "\"This confirms all of my suspicions!\"",
+    "illustrator": "Joyce Maureira",
+    "name": "Trick of the Light",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Action: During a conflict, choose a participating character – until the end of the conflict, treat the characters as if its printed text box were blanks (except for Traits).",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-081.jpg"
   },
   {
     "id": "clan-war-082",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Appeal to Sympathy",
     "type": "Event",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Interrupt:</b> When the effects of an event would initiate - cancel those effects and put that event on top of its owner's conflict deck.",
+    "illustrator": "Isuardi Therianto",
+    "name": "Appeal to Sympathy",
     "clan": "Phoenix",
     "deck": "conflict",
-    "text": "Support. (Another player may help pay this card's fate cost.)\nInterrupt: When the effects of an event would initiate – cancel those effects and put that event on top of its owner's conflict deck.",
-    "unverified": true
+    "cost": 2,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/clan-war-082.jpg"
   },
   {
     "id": "clan-war-083",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Ramparts of Stone",
     "type": "Event",
+    "text": "Limited. <i>(No more than one limited card can be played by each player each round.)</i>\n<b>Action:</b> During a conflict, the attacking player must select one - either bow each participating character they control, or discard 3 cards from their hand.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Ramparts of Stone",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 3,
     "traits": [
       "Spell",
       "Earth"
     ],
-    "text": "Limited. (No more than one limited card can be played by each player each round.)\nAction: During a conflict, the attacking player must select one – either bow each participating character they control, or discard 3 cards from their hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-083.jpg"
   },
   {
     "id": "clan-war-084",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Bayushi Traitor",
     "type": "Character",
+    "text": "When you play this character, it enters play under the control of an opponent of your choice. <i>(You may still put fate on it.)</i>\nThis character cannot participate in conflicts against its owner.",
+    "flavorText": "\"I am sorry. This was my duty.\"",
+    "illustrator": "Stanislav Dikolenko",
+    "name": "Bayushi Traitor",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 1,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Shinobi"
     ],
-    "text": "When you play this character, it enters play under the control of an opponent of your choice.\nThis character cannot participate in conflicts against its owner.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-084.jpg"
   },
   {
     "id": "clan-war-085",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Imbued With Shadows",
     "type": "Event",
+    "text": "<b>Action:</b> Lose X honor. Choose X characters - discard a status token from each of those characters.",
+    "flavorText": "\"Keep telling yourself that I am the one who is lying to you.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Imbued With Shadows",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 3,
     "traits": [
       "Spell",
       "Air",
       "Shadow"
     ],
-    "text": "Action: Lose X honor. Choose X characters – discard a status token from each of those characters.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-085.jpg"
   },
   {
     "id": "clan-war-086",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Compelling Testimony",
     "type": "Event",
+    "text": "Support. <i>(Another player may help pay this card's fate cost.)</i>\n<b>Action:</b> During a [conflict-political] conflict, choose a participating character - that character gets -4[conflict-political] until the end of the conflict.",
+    "illustrator": "Felipe Gaona",
+    "name": "Compelling Testimony",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Support. (Another player may help pay this card's fate cost.)\nAction: During a [pol] conflict, choose a participating character – that character gets -4[pol] until the end of the conflict.",
-    "unverified": true
+    "cost": 1,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/clan-war-086.jpg"
   },
   {
     "id": "clan-war-087",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Criminal Contacts",
     "type": "Event",
+    "text": "Play only if your honor bid is higher than an opponent's.\n<b>Action:</b> Choose a character. Each opponent may give you 1 honor to choose a character - discard 1 fate from each chosen character.",
+    "illustrator": "Pawel Kolomeyets",
+    "name": "Criminal Contacts",
     "clan": "Scorpion",
     "deck": "conflict",
-    "text": "Play only if your honor bid is higher than an opponent's.\nAction: Choose a character. Each opponent may give you 1 honor to choose a character – discard 1 fate from each chosen character.",
-    "unverified": true
+    "cost": 1,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/clan-war-087.jpg"
   },
   {
     "id": "clan-war-088",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Expert Bartering",
     "type": "Attachment",
+    "text": "<b>Action:</b> You may spend 1 fate. Choose another attachment (you may only choose one an opponent controls if you spent 1 fate) - switch this attachment with the chosen attachment. If you do not control the chosen attachment, exchange control of them as well.",
+    "illustrator": "Isuardi Therianto",
+    "name": "Expert Bartering",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Technique"
     ],
-    "text": "You may spend 1 fate. Choose another attachment (you may only choose one an opponent controls if you spent 1 fate) – switch this attachment with the chosen attachment. If you do not control the chosen attachment, exchange control of them as well.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-088.jpg"
   },
   {
     "id": "clan-war-089",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Way of the Open Hand",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict against a non-stronghold province, choose a participating character you do not control - move that character home and put 1 fate on it.",
+    "flavorText": "\"In every trade, someone must give first.\" - Ide Tadaji",
+    "illustrator": "Maricela Ugarte",
+    "name": "Way of the Open Hand",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 4,
     "traits": [
       "Philosophy"
     ],
-    "text": "Action: During a conflict against a non-stronghold province, choose a participating character you do not control – move that character home and put 1 fate on it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-089.jpg"
   },
   {
     "id": "clan-war-090",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Diversionary Maneuver",
     "type": "Event",
+    "text": "<b>Action:</b> During a [conflict-military] conflict in which you are the attacking player, choose an eligible province not currently being attacked - bow and move home each participating character. Move the conflict to the chosen province and reveal it, if able. Move any number of ready characters you control to the conflict, then your opponent does so as well.",
+    "illustrator": "Dimitry Burmak",
+    "name": "Diversionary Maneuver",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 2,
     "traits": [
       "Tactic"
     ],
-    "text": "Action: During a [mil] conflict in which you are the attacking player, choose an eligible province not currently being attacked – bow and move home each participating character. Move the conflict to the chosen province and reveal it, if able. Move any number of ready characters you control to the conflict, then your opponent does so as well.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-090.jpg"
   },
   {
     "id": "clan-war-091",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Join the Fray",
     "type": "Event",
+    "text": "Support.\n<b>Action:</b> During a [conflict-military] conflict choose a <em>Cavalry</em> character in your provinces and a player - put that character into play in the conflict on that player's side. <i>(You still control the character, but its skill contributes towards that player's side in the conflict.)</i>",
+    "illustrator": "Imad Awan",
+    "name": "Join the Fray",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Support.\nAction: During a [mil] conflict, choose a Cavalry character in your provinces and a player – put that character into play in the conflict on that player's side. (You still control the character, but its skill contributes towards that player's side in the conflict.)",
-    "unverified": true
+    "cost": 2,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/clan-war-091.jpg"
   },
   {
     "id": "clan-war-092",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Hige's Sermon",
     "type": "Event",
+    "text": "Limited. <i>(No more than one limited card can be played by each player each round.)</i>\n<b>Action:</b> During the draw phase, each player in turn order chooses a different character they do not control - bow each of those characters.",
+    "illustrator": "Lin Hsiang",
+    "name": "Hige's Sermon",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 0,
     "traits": [
       "Heresy"
     ],
-    "text": "Limited. (No more than one limited card can be played by each player each round.)\nAction: During the draw phase, each player in turn order chooses a different character they do not control – bow each of those characters.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/clan-war-092.jpg"
   },
   {
     "id": "clan-war-093",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Seize the Day",
     "type": "Event",
+    "text": "Reduce the cost to play this card by 1 if you have 2 or more opponents.\n<b>Reaction:</b> After the conflict phase begins - you become the first player.",
+    "illustrator": "Pius Piranoto",
+    "name": "Seize the Day",
     "clan": "Neutral",
     "deck": "conflict",
-    "text": "Reduce the cost to play this card by 1 if you have 2 or more opponents.\nReaction: After the conflict phase begins – you become the first player.",
-    "unverified": true
+    "cost": 1,
+    "influence": 0,
+    "imagePath": "/cards/l5r-lcg/clan-war-093.jpg"
   },
   {
     "id": "clan-war-094",
     "gameId": "l5r-lcg",
     "setId": "clan-war",
     "publisherId": "ffg",
-    "name": "Enlightenment",
     "type": "Event",
+    "text": "<b>Action:</b> Resolve the effect of each ring in your claimed ring pool as if you were the attacking player. Then, if all five rings are in your claimed ring pool, you win the game.",
+    "flavorText": "\"The world and I are as one.\"",
+    "illustrator": "Francisco Miyara",
+    "name": "Enlightenment",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 5,
+    "influence": 0,
     "traits": [
       "Kihō"
     ],
-    "text": "Action: Resolve the effect of each ring in your claimed ring pool as if you were the attacking player. Then, if all five rings are in your claimed ring pool, you win the game.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho"
+    ],
+    "imagePath": "/cards/l5r-lcg/clan-war-094.jpg"
   }
 ]

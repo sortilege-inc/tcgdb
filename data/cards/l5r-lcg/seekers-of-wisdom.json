@@ -4,454 +4,614 @@
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "High House of Light",
     "type": "Stronghold",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict, bow this stronghold. Choose a participating <em>Monk</em> character you control - that character cannot be chosen as the target of an opponent's event during this conflict. If you have played 5 or more cards in this conflict, also move 1 fate from a ring to this character.",
+    "illustrator": "Daria Khlebnikova",
+    "name": "High House of Light",
     "clan": "Dragon",
+    "honor": 11,
+    "fate": 7,
+    "influencePool": 7,
     "traits": [
       "Temple"
     ],
-    "text": "Action: During a conflict, bow this stronghold. Choose a participating Monk character you control – that character cannot be chosen as a target of an opponent's event during this conflict. If you have played 5 or more cards in this conflict, also move 1 fate from a ring to that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-001.jpg"
   },
   {
     "id": "seekers-of-wisdom-002",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Fuchi Mura",
     "type": "Province",
     "unique": true,
+    "text": "<b>Reaction:</b> After an attack is declared against this province – place 1 fate on each unclaimed ring.",
+    "flavorText": "\"The wheel without a hub, turning, stops for the hand of neither master or no master.\" - Togashi Kazue",
+    "illustrator": "Chris Ostrowski",
+    "name": "Fuchi Mura",
     "clan": "Dragon",
+    "strength": 3,
     "traits": [
       "Village"
     ],
-    "text": "Reaction: After an attack is declared against this province – place 1 fate on each unclaimed ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-002.jpg"
   },
   {
     "id": "seekers-of-wisdom-003",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Support of the Dragon",
     "type": "Role",
-    "clan": "Neutral",
+    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on [clan-dragon] clan cards.",
+    "name": "Support of the Dragon",
     "traits": [
       "Dragon"
     ],
-    "text": "Increase your deckbuilding influence value by 8. You may only spend influence on  clan cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-003.jpg"
   },
   {
     "id": "seekers-of-wisdom-004",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Taoist Adept",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, initiate a [conflict-military] duel - resolve the duel. The controller of the duel's winner may place 1 fate on an unclaimed ring.",
+    "flavorText": "\"Only a mind open to the world can perceive it.\" - Tao of Shinsei",
+    "illustrator": "Bram Sels",
+    "name": "Taoist Adept",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Bushi",
       "Monk",
       "Duelist"
     ],
-    "text": "Action: During a conflict, initiate a [mil] duel – resolve the duel. The controller of the duel's winner may place 1 fate on an unclaimed ring.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-004.jpg"
   },
   {
     "id": "seekers-of-wisdom-005",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Perceptive Kitsuki",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating, return a ring in your claimed ring pool to the unclaimed ring pool - look at your opponent's hand.",
+    "flavorText": "\"So that was Asako-sama's handwriting, as I suspected.\"",
+    "illustrator": "Wen Juinn",
+    "name": "Perceptive Kitsuki",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 2,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating, return a ring in your claimed ring pool to the unclaimed ring pool – look at your opponent's hand.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-005.jpg"
   },
   {
     "id": "seekers-of-wisdom-006",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Austere Exemplar",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is attacking, spend 1 fate to an unclaimed ring - take 3 actions. (Max 1 per conflict.)",
+    "flavorText": "\"To understand the world is to understand the rhythm of the breath.\"",
+    "illustrator": "Zezhou Chen",
+    "name": "Austere Exemplar",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Action: During a conflict in which this character is attacking, spend 1 fate to an unclaimed ring – take 3 actions. (Max 1 per conflict.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-006.jpg"
   },
   {
     "id": "seekers-of-wisdom-007",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Togashi Gaijutsu",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After you play a <em>Tattoo</em> attachment on a character - ready that character.",
+    "flavorText": "\"The tattoos I give are gifts from Togashi-no-Kami himself. You were meant to wield this power.\"",
+    "illustrator": "Polar Engine",
+    "name": "Togashi Gaijutsu",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "political": "3",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "Reaction: After you play a Tattoo attachment on a character – ready that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-007.jpg"
   },
   {
     "id": "seekers-of-wisdom-008",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Mirumoto Masashige",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After the conflict phase begins, if an opponent controls more characters than you, choose a character you control - honor that character.",
+    "flavorText": "A crisis of children, a heretical sect, and armies marching to war. Yet no guidance would come to him from Togashi-ue.",
+    "illustrator": "Lin Hsiang",
+    "name": "Mirumoto Masashige",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "4",
+    "political": "3",
     "traits": [
       "Bushi",
       "Daimyō",
       "Duelist"
     ],
-    "text": "Reaction: After the conflict phase begins, if an opponent controls more characters than you, choose a character you control – honor that character.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Daimyo",
+      "Duelist"
+    ],
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-008.jpg"
   },
   {
     "id": "seekers-of-wisdom-009",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Monastery Protector",
     "type": "Character",
+    "text": "No attachments except <em>Monk</em> or <em>Tattoo</em>.\nAs an additional cost to choose a <em>Tattooed</em> character you control as a target of an event, the opponent playing that event must pay 1 additional fate.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Monastery Protector",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "No attachments except Monk or Tattoo.\nAs an additional cost to choose a Tattooed character you control as the target of an event, the opponent playing that event must pay 1 fate.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-009.jpg"
   },
   {
     "id": "seekers-of-wisdom-010",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Togashi Mitsu",
     "type": "Character",
     "unique": true,
+    "text": "This character cannot be evaded by the covert keyword.\n<b>Action:</b> During a conflict in which this character is participating, if you have played 5 or more cards in the conflict, choose a ring - resolve that ring's effects as if you were the attacking player.",
+    "illustrator": "Amélie Hutt",
+    "name": "Togashi Mitsu",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "4",
+    "political": "5",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "This character cannot be evaded by the covert keyword.\nAction: During a conflict in which this character is participating, if you have played 5 or more cards in the conflict, choose a ring – resolve that ring's effects as if you were the attacking player.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-010.jpg"
   },
   {
     "id": "seekers-of-wisdom-011",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Togashi Hoshi",
     "type": "Character",
     "unique": true,
+    "text": "No attachments except <em>Monk</em> or <em>Tattoo</em>.\n<b>Action:</b> Detach an attachment from a character you control and turn it into a character. If that card has the printed attachment card type, its [conflict-military] and [conflict-political] skills are equal to its printed [conflict-military] and [conflict-political] modifiers and it has 0 glory.",
+    "illustrator": "Polar Engine",
+    "name": "Togashi Hoshi",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 6,
+    "glory": 3,
+    "military": "5",
+    "political": "5",
     "traits": [
       "Monk",
       "Creature",
       "Fire",
       "Mythic"
     ],
-    "text": "No attachments except Monk or Tattoo.\nAction: Detach an attachment from a character you control and turn it into a character. If that card has the printed attachment card type, its [mil] and [pol] skills are equal to its printed [mil] and [pol] skill modifiers and it has 0 glory.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-011.jpg"
   },
   {
     "id": "seekers-of-wisdom-012",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Shintao Monastery",
     "type": "Holding",
+    "text": "You are considered to have played an additional card in each conflict.",
+    "flavorText": "With simple ritual and meditation, one lets go of the Three Sins: Desire, Fear and Regret.",
+    "illustrator": "Eli Ring",
+    "name": "Shintao Monastery",
     "clan": "Dragon",
     "deck": "dynasty",
     "traits": [
       "Temple"
     ],
-    "text": "You are considered to have played an additional card in each conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-012.jpg"
   },
   {
     "id": "seekers-of-wisdom-013",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Asahina Maeko",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict - increase the cost for each player to play cards by 1 until the end of the conflict.",
+    "flavorText": "At the sight of black sails, Maeko's heart sank. \"I never thought I would be so mad at myself for being right.\"",
+    "illustrator": "Wen Juinn",
+    "name": "Asahina Maeko",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Action: During a conflict – increase the cost for each player to play cards by 1 until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-013.jpg"
   },
   {
     "id": "seekers-of-wisdom-014",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Matsu Koso",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating - each participating character gets -X[conflict-military] until the end of the conflict, where X is that character's printed [conflict-political] skill.",
+    "flavorText": "\"What good is an army if you don't use it?\"",
+    "illustrator": "Toni Foti",
+    "name": "Matsu Koso",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 2,
+    "military": "3",
     "traits": [
       "Bushi",
       "Berserker"
     ],
-    "text": "Action: During a conflict in which this character is participating – each participating character gets –X[mil] until the end of the conflict, where X is that character's printed [pol] skill.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-014.jpg"
   },
   {
     "id": "seekers-of-wisdom-015",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Asako Togama",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict in which this character is participating, choose an unclaimed ring - switch that ring with a ring in your claimed ring pool and gain all fate on it. <i>(Retain the ring's conflict type.)</i>",
+    "flavorText": "\"Never overlook knowledge when you find it, no matter how lowly its source.\"",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "Asako Togama",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "2",
+    "political": "5",
     "traits": [
       "Courtier",
       "Daimyō",
       "Scholar"
     ],
-    "text": "Action: During a conflict in which this character is participating, choose an unclaimed ring – switch the ring with a ring in your claimed ring pool and gain all fate on it. (Retain the ring's conflict type.)",
-    "unverified": true
+    "traitsAscii": [
+      "Courtier",
+      "Daimyo",
+      "Scholar"
+    ],
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-015.jpg"
   },
   {
     "id": "seekers-of-wisdom-016",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Bayushi Gensato",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> During a conflict, initiate a [conflict-military] duel - resolve the duel, ignoring the skill modifiers of attachments until the end of the duel. Bow the duel's loser and dishonor the duel's winner.",
+    "flavorText": "\"I see your skill is greater than mine. Please accept my most sincere apology.\"",
+    "illustrator": "Borja Pindado",
+    "name": "Bayushi Gensato",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 0,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "Action: During a conflict, initiate a [mil] duel – resolve the duel, ignoring the skill modifiers of attachments until the end of the duel. Bow the duel's loser and dishonor the duel's winner.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-016.jpg"
   },
   {
     "id": "seekers-of-wisdom-017",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Iuchi Rimei",
     "type": "Character",
     "unique": true,
+    "text": "<b>Action:</b> Choose an attachment an opponent controls with printed cost 1 or less - move it from the character it is on to another character controlled by the same player.",
+    "flavorText": "\"Do you have any idea what spirits you might anger? Do you even have any way of controlling them?\"",
+    "illustrator": "Greg Bobrowski",
+    "name": "Iuchi Rimei",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Shugenja",
       "Water"
     ],
-    "text": "Action: Choose an attachment an opponent controls with printed cost 1 or less – move it from the character it is on to another character controlled by the same player.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-017.jpg"
   },
   {
     "id": "seekers-of-wisdom-018",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Ichirō",
     "type": "Character",
     "unique": true,
+    "text": "Each character with 1 or more attachments cannot be honored or dishonored.",
+    "flavorText": "\"My father is a liar and a hypocrite. How could I feel any loyalty to a man who  has never once told me the truth?\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Ichirō",
     "clan": "Neutral",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "2",
     "traits": [
       "Bushi",
       "Heretic",
       "Rōnin"
     ],
-    "text": "Each character with 1 or more attachments cannot be honored or dishonored.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Heretic",
+      "Ronin"
+    ],
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-018.jpg"
   },
   {
     "id": "seekers-of-wisdom-019",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Togashi Acolyte",
     "type": "Character",
+    "text": "You may play this character as an attachment with the text: \"<b>Reaction:</b> After you play a card during a conflict in which attached character is participating - attached character gets +1[conflict-military] and +1[conflict-political] until the end of the conflict. (Unlimited.)\"",
+    "illustrator": "Conceptopolis",
+    "name": "Togashi Acolyte",
     "clan": "Dragon",
-    "deck": "dynasty",
+    "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 2,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Monk",
       "Tattooed"
     ],
-    "text": "You may play this character as an attachment with the text: \"Reaction: After you play a card during a conflict in which attached character is participating – attached character gets +1[mil] and +1[pol] until the end of the conflict. (Unlimited.)\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-019.jpg"
   },
   {
     "id": "seekers-of-wisdom-020",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Vine Tattoo",
     "type": "Attachment",
+    "text": "Attach to a character you control. Attached character gains the <em>Tattooed</em> trait.\nAttached character cannot be chosen as the target of keywords or abilities triggered from characters with an equal or higher printed cost.",
+    "illustrator": "Derek D. Edgell",
+    "name": "Vine Tattoo",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Tattoo"
     ],
-    "text": "Attach to a character you control. Attached character gains the Tattooed trait.\nAttached character cannot be chosen as the target of keywords or abilities triggered from characters with an equal or higher printed cost.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-020.jpg"
   },
   {
     "id": "seekers-of-wisdom-021",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "An Ocean in a Drop",
     "type": "Attachment",
+    "text": "<b>Action:</b> During a conflict in which attached character is participating, sacrifice this attachment and choose a player - that player puts his or her hand on the bottom of his or her conflict deck in a random order and draws that many cards.",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "An Ocean in a Drop",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Spell",
       "Water"
     ],
-    "text": "Action: During a conflict in which attached character is participating, sacrifice this attachment and choose a player – that player puts his or her hand on the bottom of his or her conflict deck in a random order and draws that many cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-021.jpg"
   },
   {
     "id": "seekers-of-wisdom-022",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Niten",
     "type": "Attachment",
+    "unique": true,
+    "text": "Attach to a [clan-dragon] character.\n<b>Action:</b> During a conflict in which attached character is participating, return this attachment to your hand - put an attachment from your hand into play attached to the same character. (Max 1 per round.)",
+    "illustrator": "Preston Stone",
+    "name": "Niten",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Item",
       "Philosophy"
     ],
-    "text": "Attach to a  character.\nAction: During a conflict in which attached character is participating, return this attachment to your hand – put an attachment from your hand into play attached to the same character. (Max 1 per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-022.jpg"
   },
   {
     "id": "seekers-of-wisdom-023",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Dragon Tattoo",
     "type": "Attachment",
+    "text": "Attach to a character you control. Attached character gains the <em>Tattooed</em> trait.\nRestricted.\n<b>Reaction:</b> After you play an event that chooses attached character as a target - play that event again <i>(paying all costs)</i>. You may choose new targets. Remove that event from the game.",
+    "illustrator": "Matthew Armstrong",
+    "name": "Dragon Tattoo",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 3,
+    "militaryBonus": "+2",
+    "politicalBonus": "+0",
     "traits": [
       "Tattoo"
     ],
-    "text": "Attach to a character you control. Attached character gains the Tattooed trait.\nRestricted.\nReaction: After you play an event that chooses attached character as a target – play that event again (paying all costs). You may choose new targets. Remove that event from the game.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-023.jpg"
   },
   {
     "id": "seekers-of-wisdom-024",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Iron Foundations Stance",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict, choose a participating <em>Monk</em> character you control – until the end of the conflict, that character cannot be bowed or moved home by opponents' card effects. If you have played another <em>Kihō</em> in this conflict, draw 1 card.",
+    "illustrator": "Marius Bota",
+    "name": "Iron Foundations Stance",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
     "traits": [
       "Kihō",
       "Earth"
     ],
-    "text": "Action: During a conflict, choose a participating Monk character you control – until the end of the conflict, that character cannot be bowed or moved home by opponents' card effects. If you have played another Kihō in this conflict, draw 1 card.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Earth"
+    ],
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-024.jpg"
   },
   {
     "id": "seekers-of-wisdom-025",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Wildfire Kick",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict in which you have played 3 or more cards, choose a participating <em>Monk</em> character you control - each participating character your opponent controls with [conflict-military] skill equal to or lower than the chosen character gets -2[conflict-military] and -2[conflict-political] until the end of the conflict.",
+    "illustrator": "Antonio José Manzanedo",
+    "name": "Wildfire Kick",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
     "traits": [
       "Kihō",
       "Fire"
     ],
-    "text": "Action: During a conflict in which you have played 3 or more cards, choose a participating Monk character you control – each participating character your opponent controls with [mil] skill equal to or lower than the chosen character gets –2[mil] and –2[pol] until the end of the conflict.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Fire"
+    ],
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-025.jpg"
   },
   {
     "id": "seekers-of-wisdom-026",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Hida Kotoe",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After this character wins a conflict as the defender, choose an attachment - discard it.",
+    "flavorText": "\"You don't need this.\"",
+    "illustrator": "Halil Ural",
+    "name": "Hida Kotoe",
     "clan": "Crab",
     "deck": "conflict",
+    "cost": 3,
+    "glory": 1,
+    "influence": 2,
+    "military": "3",
+    "political": "1",
     "traits": [
       "Bushi"
     ],
-    "text": "Reaction: After this character wins a conflict as the defender, choose an attachment – discard it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-026.jpg"
   },
   {
     "id": "seekers-of-wisdom-027",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Elegant Tessen",
     "type": "Attachment",
+    "text": "Restricted. <i>(No more than two restricted attachments per character.)</i>\n<b>Reaction:</b> After this attachments enters play, if it is on a character with printed cost 2 or less - ready attached character.",
+    "illustrator": "Isuardi Therianto",
+    "name": "Elegant Tessen",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 0,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
     "traits": [
       "Weapon"
     ],
-    "text": "Restricted. (No more than two restricted attachments per character.)\nReaction: After this attachment enters play, if it is on a character with printed cost 2 or less – ready attached character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-027.jpg"
   },
   {
     "id": "seekers-of-wisdom-028",
     "gameId": "l5r-lcg",
     "setId": "seekers-of-wisdom",
     "publisherId": "ffg",
-    "name": "Four Temples Advisor",
     "type": "Attachment",
+    "text": "Restricted.\n<b>Reaction:</b> After you gain fate from a ring - draw 1 card. (Unlimited.)",
+    "flavorText": "Even the wisest and most powerful daimyō does not wholly ignore the words of one who has studied the Tao.",
+    "illustrator": "Sergio Camarena",
+    "name": "Four Temples Advisor",
     "clan": "Neutral",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 0,
+    "militaryBonus": "+0",
+    "politicalBonus": "+2",
     "traits": [
       "Brotherhood",
       "Follower"
     ],
-    "text": "Restricted.\nReaction: After you gain fate from a ring – draw 1 card. (Unlimited.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-028.jpg"
   }
 ]

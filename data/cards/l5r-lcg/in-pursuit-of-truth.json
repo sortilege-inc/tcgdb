@@ -4,326 +4,424 @@
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Tsuma",
     "type": "Province",
     "unique": true,
+    "text": "Eminent. <i>(This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)</i>\nEach character played from this province enters play honored.",
+    "illustrator": "Daniel Alekow",
+    "name": "Tsuma",
     "clan": "Crane",
+    "strength": 3,
     "traits": [
       "City"
     ],
-    "text": "Eminent. (This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)\nEach character played from this province enters play honored.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-049.jpg"
   },
   {
     "id": "in-pursuit-of-truth-050",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Silent Ones Monastery",
     "type": "Province",
     "unique": true,
+    "text": "Eminent. <i>(This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)</i>\nEach opponent cannot gain more than 2 honor each phase.",
+    "name": "Silent Ones Monastery",
     "clan": "Scorpion",
+    "strength": 5,
     "traits": [
       "Temple"
     ],
-    "text": "Eminent. (This province starts the game faceup and cannot be turned facedown. It cannot be a stronghold province.)\nEach opponent cannot gain more than 2 honor each phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-050.jpg"
   },
   {
     "id": "in-pursuit-of-truth-051",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Courteous Greeting",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at an [element-earth] province, choose an attacking character and a defending character - bow those characters.",
+    "illustrator": "Andreia Ugrai",
+    "name": "Courteous Greeting",
     "clan": "Neutral",
-    "text": "Action: During a conflict at an [earth] province, choose an attacking character and a defending character – bow those characters.",
-    "unverified": true
+    "strength": 4,
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-051.jpg"
   },
   {
     "id": "in-pursuit-of-truth-052",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Blatant Swindler",
     "type": "Character",
+    "text": "<em>Seeker</em> role only.\n<b>Action:</b> During a conflict in which this character is particpating, give your opponent 1 honor. That player chooses a participating character they control - move that character home.",
+    "illustrator": "Lucas Banas",
+    "name": "Blatant Swindler",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "1",
     "traits": [
       "Courtier",
       "Merchant"
     ],
-    "text": "Seeker role only.\nAction: During a conflict in which this character is participating, give your opponent 1 honor. That player chooses a participating character they control – move that character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-052.jpg"
   },
   {
     "id": "in-pursuit-of-truth-053",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Third Whisker Sneak",
     "type": "Character",
+    "text": "Immune to <em>Shadowlands</em> and <em>Mahō</em> card effects.\n<b>Reaction:</b> After this character wins an unopposed conflict - search the top X cards of your conflict deck for a card and add it to your hand. X is equal to the number of unbroken provinces you control. Shuffle.",
+    "illustrator": "Apterus",
+    "name": "Third Whisker Sneak",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 0,
+    "military": "2",
+    "political": "1",
     "traits": [
       "Creature",
       "Nezumi",
       "Scout"
     ],
-    "text": "Immune to Shadowlands and Mahō card effects.\nReaction: After this character wins an unopposed conflict – search the top X cards of your conflict deck for a card and add it to your hand. X is equal to the number of unbroken provinces you control. Shuffle.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-053.jpg"
   },
   {
     "id": "in-pursuit-of-truth-054",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Asahina Augur",
     "type": "Character",
+    "text": "You may look at facedown cards in your provinces.\n<b>Action:</b> Choose a card in your provinces - discard that card. (Limit 3 times per round.)",
+    "flavorText": "\"This is the only bird I have seen in days. War comes for us, whether we wish for it or not.\"",
+    "illustrator": "Lin Hsiang",
+    "name": "Asahina Augur",
     "clan": "Crane",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 3,
+    "military": "0",
+    "political": "0",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "You may look at facedown cards in your provinces.\nAction: Choose a card in your provinces – discard that card. (Limit 3 times per round.)",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-054.jpg"
   },
   {
     "id": "in-pursuit-of-truth-055",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Shrewd Investigator",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict in which this character is participating - look at X random cards in your opponent's hand. X is equal to the number of facedown provinces you control.",
+    "flavorText": "\"I know of every possible hiding place in a palace such as this\"",
+    "illustrator": "Derek D. Edgell",
+    "name": "Shrewd Investigator",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 2,
+    "military": "0",
+    "political": "1",
     "traits": [
       "Courtier"
     ],
-    "text": "Action: During a conflict in which this character is participating – look at X random cards in your opponent's hand. X is equal to the number of facedown provinces you control.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-055.jpg"
   },
   {
     "id": "in-pursuit-of-truth-056",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Kitsuki Chiari",
     "type": "Character",
     "unique": true,
+    "text": "No <em>Poison</em> attachments.\n<b>Reaction:</b> After a province you control is revealed, choose an opponent and name a card - reveal 4 random cards in that opponent's hand and discard each copy of the named card revealed this way.",
+    "flavorText": "\"This changes everything.\"",
+    "illustrator": "Nino Vecia",
+    "name": "Kitsuki Chiari",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "No Poison attachments.\nReaction: After a province you control is revealed, name a card – reveal 4 random cards in your opponent's hand and discard each copy of the named card revealed this way.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-056.jpg"
   },
   {
     "id": "in-pursuit-of-truth-057",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Master Tactician",
     "type": "Character",
+    "text": "During conflicts in which this character is participating, if there is a <em>Battlefield</em> in play, you may look at and play the top card of your conflict deck as if it were in your hand. You cannot play more than 3 cards per round this way.",
+    "flavorText": "\"It's neither war nor peace: only order and chaos.\" - Akodo's Leadership",
+    "illustrator": "Jason Engle",
+    "name": "Master Tactician",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "5",
+    "political": "5",
     "traits": [
       "Bushi",
       "Commander"
     ],
-    "text": "During conflicts in which this character is participating, if there is a Battlefield in play, you may look at and play the top card of your conflict deck as if it were in your hand. You cannot play more than 3 cards per round in this way.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-057.jpg"
   },
   {
     "id": "in-pursuit-of-truth-058",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Student of the Tao",
     "type": "Character",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Action:</b> During a conflict at a [element-void] province, choose a character you do not control - move that character home.",
+    "illustrator": "Le Vuong",
+    "name": "Student of the Tao",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 3,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Void",
       "Scholar"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: During a conflict at a [void] province, choose a character you do not control – move that character home.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-058.jpg"
   },
   {
     "id": "in-pursuit-of-truth-059",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Cursecatcher",
     "type": "Character",
+    "text": "<em>Seeker</em> role only.\n<b>Interrupt:</b> When the effects of a province's triggered ability would initiate, if that province has any facedown cards in it - cancel those effects.",
+    "flavorText": "\"If you leave now, I cannot protect you.\"",
+    "illustrator": "Le Vuong",
+    "name": "Cursecatcher",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Seeker role only.\nInterrupt: When the effects of a province's triggered ability would initiate, if that province has any facedown cards in it – cancel those effects.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-059.jpg"
   },
   {
     "id": "in-pursuit-of-truth-060",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Scholar of Old Rempet",
     "type": "Character",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Action:</b> During a conflict, lose 1 honor. Choose a non-unique character - that character is immune to events until the end of the conflict.",
+    "illustrator": "Marius Bota",
+    "name": "Scholar of Old Rempet",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "1",
+    "political": "0",
     "traits": [
       "Shugenja",
       "Water",
       "Scholar"
     ],
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nAction: During a conflict, lose 1 honor. Choose a non-unique character – that character is immune to events until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-060.jpg"
   },
   {
     "id": "in-pursuit-of-truth-061",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Lost Papers",
     "type": "Event",
+    "text": "Rally. <i>(After this card is revealed in a province, add the top card of your dynasty deck to the province, faceup.)</i>\n<b>Reaction:</b> After this card is revealed in a province, choose a character with the most fate on it among characters in play - bow that character.",
+    "illustrator": "Felipe Gaona",
+    "name": "Lost Papers",
     "clan": "Neutral",
     "deck": "dynasty",
-    "text": "Rally. (After this card is revealed in a province, add the top card of your dynasty deck to the province faceup.)\nReaction: After this card is revealed in a province, choose a character with the most fate on it among characters in play – bow that character.",
-    "unverified": true
+    "cost": 0,
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-061.jpg"
   },
   {
     "id": "in-pursuit-of-truth-062",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Return From Shadows",
     "type": "Event",
+    "text": "<b>Reaction:</b> After you win a conflict unopposed, choose a province the defending player controls - put a dishonored status token on it and reveal it, if able. While a province has a dishonored status token, treat its printed text box as if it were blank (except for <em>Traits</em>). (Max 1 per conflict.)",
+    "illustrator": "Carlos Dias",
+    "name": "Return From Shadows",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Reaction: After you win a conflict unopposed, choose a province the defending player controls – put a dishonored status token on it and reveal it, if able. While a province has a dishonored status token, treat its printed text box as if it were blank (except for Traits). (Max 1 per conflict.)",
-    "unverified": true
+    "cost": 0,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-062.jpg"
   },
   {
     "id": "in-pursuit-of-truth-063",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "The Wealth of the Crane",
     "type": "Event",
+    "text": "Reduce the cost to play this card by 1 for each faceup province you control.\n<b>Action:</b> Look at the top 10 cards of your dynasty deck. Put 1 of those cards into each of your non-stronghold provinces faceup. Shuffle. (Max 1 per phase.)",
+    "illustrator": "Carlos Palma Cruchaga",
+    "name": "The Wealth of the Crane",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Reduce the cost to play this card by 1 for each faceup province you control.\nAction: Look at the top 10 cards of your dynasty deck. Put 1 of those cards into each of your non-stronghold provinces faceup. Shuffle. (Max 1 per phase.)",
-    "unverified": true
+    "cost": 5,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-063.jpg"
   },
   {
     "id": "in-pursuit-of-truth-064",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Mantra of Void",
     "type": "Event",
+    "text": "<b>Reaction:</b> After an opponent declares a [element-void] conflict, choose a <em>Monk</em> character or a character with a <em>Monk</em> attachment – until the end of the conflict, reduce the cost to play attachments on that character by 1. Draw 1 card.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Mantra of Void",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 2,
     "traits": [
       "Kihō",
       "Void"
     ],
-    "text": "Reaction: After an opponent declares a [void] conflict, choose a Monk character or a character with a Monk attachment – until the end of the conflict, reduce the cost to play attachments on that character by 1. Draw 1 card.",
-    "unverified": true
+    "traitsAscii": [
+      "Kiho",
+      "Void"
+    ],
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-064.jpg"
   },
   {
     "id": "in-pursuit-of-truth-065",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Makeshift War Camp",
     "type": "Attachment",
+    "text": "Attach to an unbroken province.\nLimit 1 <em>Battlefield</em> attachment per province.\nDuring a conflict at attached province, each participating character you control gets +2[conflict-military].",
+    "illustrator": "Marius Bota",
+    "name": "Makeshift War Camp",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 3,
+    "militaryBonus": "-",
+    "politicalBonus": "-",
     "traits": [
       "Battlefield"
     ],
-    "text": "Attach to an unbroken province.\nLimit 1 Battlefield attachment per province.\nDuring conflicts at attached province, each participating character you control gets +2 [mil].",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-065.jpg"
   },
   {
     "id": "in-pursuit-of-truth-066",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Shori",
     "type": "Attachment",
     "unique": true,
+    "text": "Attach to a unique [clan-lion] character.\nAncestral. Restricted.\nIf attached character has the <em>Champion</em> trait, it gains \"You may declare an additional [conflict-military] conflict each conflict phase.\"",
+    "illustrator": "Nino Vecia",
+    "name": "Shori",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 2,
+    "militaryBonus": "+4",
+    "politicalBonus": "+1",
     "traits": [
       "Weapon"
     ],
-    "text": "Attach to a unique  character.\nAncestral. Restricted.\nIf attached character has the Champion trait, it gains \"You may declare an additional [mil] conflict each conflict phase.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-066.jpg"
   },
   {
     "id": "in-pursuit-of-truth-067",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Studious",
     "type": "Attachment",
+    "text": "Attach to a <em>Scholar</em> character.\nAttached character gains sincerity and \"<b>Reaction:</b> After this character wins a conflict - draw 1 card.\"",
+    "illustrator": "Hai Hoang",
+    "name": "Studious",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Condition"
     ],
-    "text": "Attach to a Scholar character.\nAttached character gains sincerity and: \"Reaction: After this character wins a conflict – draw 1 card.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-067.jpg"
   },
   {
     "id": "in-pursuit-of-truth-068",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Study the Natural World",
     "type": "Event",
+    "text": "<b>Action:</b> During a conflict in which you control an attacking <em>Scholar</em> character - the contested ring gains each of the attacked province's elements. If you win the conflict, you may resolve each of the contested ring's effects.",
+    "illustrator": "Guillaume Ducor",
+    "name": "Study the Natural World",
     "clan": "Phoenix",
     "deck": "conflict",
-    "text": "Action: During a conflict in which you control an attacking Scholar character – the contested ring gains each of the attacked province's elements until the end of the conflict. If you win the conflict, you may resolve each of the contested ring's effects.",
-    "unverified": true
+    "cost": 2,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-068.jpg"
   },
   {
     "id": "in-pursuit-of-truth-069",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Way With Words",
     "type": "Attachment",
+    "text": "<em>Water</em> role only.\nAttached character gains: \"<b>Reaction:</b> After this character wins a [conflict-political] conflict - take 1 honor from your opponent.\"",
+    "illustrator": "Monztre",
+    "name": "Way With Words",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+0",
+    "politicalBonus": "+1",
     "traits": [
       "Technique"
     ],
-    "text": "Water role only.\nAttached character gains: \"Reaction: After this character wins a [pol] conflict – take 1 honor from your opponent.\"",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-069.jpg"
   },
   {
     "id": "in-pursuit-of-truth-070",
     "gameId": "l5r-lcg",
     "setId": "in-pursuit-of-truth",
     "publisherId": "ffg",
-    "name": "Hunting Falcon",
     "type": "Attachment",
+    "text": "<b>Reaction:</b> After this attachment enters play, choose a facedown province - look at that province.",
+    "flavorText": "\"If she returns without prey, we should be wary.\"",
+    "illustrator": "Borja Pindado",
+    "name": "Hunting Falcon",
     "clan": "Unicorn",
     "deck": "conflict",
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Creature"
     ],
-    "text": "Reaction: After this attachment enters play, choose a facedown province – look at that province.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-070.jpg"
   }
 ]

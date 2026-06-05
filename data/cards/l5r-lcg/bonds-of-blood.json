@@ -4,333 +4,455 @@
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Dishonorable Assault",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at this province, discard one or more cards from your hand. Choose an equal number of attacking characters - dishonor each of those characters.",
+    "illustrator": "John Anthony Di Giovanni",
+    "name": "Dishonorable Assault",
     "clan": "Lion",
+    "strength": 4,
     "traits": [
       "Battlefield"
     ],
-    "text": "Action: During a conflict at this province, discard one or more cards from your hand. Choose an equal number of attacking characters – dishonor each of those characters.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-023.jpg"
   },
   {
     "id": "bonds-of-blood-024",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Untamed Steppe",
     "type": "Province",
+    "text": "<b>Action:</b> During a conflict at this province, choose another unbroken province - turn that province facedown.",
+    "flavorText": "\"We are meant to hunt and ride free, not stay tethered to Khanbulak like an ox on a string.\" - Moto Rurame",
+    "illustrator": "Nele Diel",
+    "name": "Untamed Steppe",
     "clan": "Unicorn",
+    "strength": 6,
     "traits": [
       "Battlefield"
     ],
-    "text": "Action: During a conflict at this province, choose another unbroken province – turn that province facedown.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-024.jpg"
   },
   {
     "id": "bonds-of-blood-025",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Festival of the Departed",
     "type": "Province",
+    "text": "<em>Keeper</em> role only.\nDuring conflicts at this province, characters cannot have their skills increased by the effects of event cards.",
+    "illustrator": "Lin Hsiang",
+    "name": "Festival of the Departed",
     "clan": "Neutral",
+    "strength": 4,
     "traits": [
       "Festival"
     ],
-    "text": "Keeper role only.\nDuring conflicts at this province, characters cannot have their skills increased by the effects of event cards.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-025.jpg"
   },
   {
     "id": "bonds-of-blood-026",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Hiruma Yoshino",
     "type": "Character",
     "unique": true,
+    "text": "Disguised <em>Bushi</em>.\n<b>Action:</b> During a [conflict-military] conflict in which this character is participating, choose a character card in the attacked province - that character contributes its printed [conflict-military] skill towards your side during the resolution of this conflict.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Hiruma Yoshino",
     "clan": "Crab",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Daimyō",
       "Scout"
     ],
-    "text": "Disguised Bushi.\nAction: During a [mil] conflict in which this character is participating, choose a character card in the attacked province – that character contributes its printed [mil] skill towards your side during the resolution of this conflict.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Daimyo",
+      "Scout"
+    ],
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-026.jpg"
   },
   {
     "id": "bonds-of-blood-027",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Kitsuki Yuikimi",
     "type": "Character",
     "unique": true,
+    "text": "<b>Reaction:</b> After you gain a fate from a ring during a conflict in which this character is participating - this character cannot be chosen as the target of your opponent's triggered abilities until the end of the conflict.",
+    "illustrator": "Jorge Matar",
+    "name": "Kitsuki Yuikimi",
     "clan": "Dragon",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "3",
+    "political": "3",
     "traits": [
       "Bushi",
       "Champion"
     ],
-    "text": "Reaction: After you gain a fate from a ring during a conflict in which this character is participating – this character cannot be chosen as the target of your opponent's triggered abilities until the end of the conflict.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-027.jpg"
   },
   {
     "id": "bonds-of-blood-028",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Akodo Kaede",
     "type": "Character",
     "unique": true,
+    "text": "Immune to opponent's ring effects.\n<b>Interrupt:</b> When another character would leave play - remove 1 fate from this character instead.",
+    "flavorText": "Heedless of her own fate, Kaede chose. With that choice, a sould was rent and a destiny altered.",
+    "illustrator": "Leo Avero",
+    "name": "Akodo Kaede",
     "clan": "Lion",
     "deck": "dynasty",
+    "cost": 4,
+    "glory": 2,
+    "military": "3",
+    "political": "4",
     "traits": [
       "Shugenja",
       "Void"
     ],
-    "text": "Immune to opponents' ring effects.\nInterrupt: When another character would leave play – remove 1 fate from this character instead.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-028.jpg"
   },
   {
     "id": "bonds-of-blood-029",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Valiant Oathkeeper",
     "type": "Character",
+    "text": "—",
+    "flavorText": "\"If the Isawa cannot be at peace, then of what value is my blade? If I would not die to uphold my oath, then of what value is my word? If you think me faithless, then your know nothing of the Shiba.\"",
+    "illustrator": "Adam Schumpert",
+    "name": "Valiant Oathkeeper",
     "clan": "Phoenix",
     "deck": "dynasty",
+    "cost": 1,
+    "glory": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi"
     ],
-    "text": "—",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-029.jpg"
   },
   {
     "id": "bonds-of-blood-030",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Yogo Preserver",
     "type": "Character",
+    "text": "Each dishonored character you control gains sincerity.",
+    "flavorText": "\"Yet surely it cannot be one of my origami moths in the lord's kitchens - I have never set foot there. Unless you mean to suggest that my origami can fly?\"",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Yogo Preserver",
     "clan": "Scorpion",
     "deck": "dynasty",
+    "cost": 3,
+    "glory": 1,
+    "military": "2",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Air"
     ],
-    "text": "Each dishonored character you control gains sincerity.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-030.jpg"
   },
   {
     "id": "bonds-of-blood-031",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Benevolent Ambassador",
     "type": "Character",
+    "text": "Courtesy. <i>(When this character leaves play, gain 1 fate.)</i>\n<b>Reaction:</b> After this character wins a conflict - you and your opponent each gain 1 honor.",
+    "flavorText": "With compassion and patience, the Ide turn trade into friendship, and friendship into alliance.",
+    "illustrator": "Andreia Ugrai",
+    "name": "Benevolent Ambassador",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 2,
+    "glory": 1,
+    "military": "1",
+    "political": "2",
     "traits": [
       "Courtier"
     ],
-    "text": "Courtesy. (When this character leaves play, gain 1 fate.)\nReaction: After this character wins a conflict – you and your opponent each gain 1 honor.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-031.jpg"
   },
   {
     "id": "bonds-of-blood-032",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Utaku Rumaru",
     "type": "Character",
     "unique": true,
+    "text": "Each honored character you control gets +1 glory. Each dishonored character you control gets -1 glory.\n<b>Reaction:</b> After this character wins a conflict, discard a card from your hand. Choose another participating character - honor that character.",
+    "illustrator": "Pius Pranoto",
+    "name": "Utaku Rumaru",
     "clan": "Unicorn",
     "deck": "dynasty",
+    "cost": 5,
+    "glory": 3,
+    "military": "4",
+    "political": "4",
     "traits": [
       "Bushi",
       "Cavalry",
       "Battle Maiden",
       "Daimyō"
     ],
-    "text": "Each honored character you control gets +1 glory. Each dishonored character you control gets -1 glory.\nReaction: After this character wins a conflict, discard a card from your hand. Choose another participating character – honor that character.",
-    "unverified": true
+    "traitsAscii": [
+      "Bushi",
+      "Cavalry",
+      "Battle-maiden",
+      "Daimyo"
+    ],
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-032.jpg"
   },
   {
     "id": "bonds-of-blood-033",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Fury of the Damned",
     "type": "Event",
+    "text": "<em>Fire</em> role only.\n<b>Action:</b> During a conflict, choose any number of participating <em>Bushi</em> characters you control - double the base [conflict-military] skill of each of those characters until the end of the conflict. At the end of the conflict, sacrifice each of those characters.",
+    "illustrator": "Reiko Murakami",
+    "name": "Fury of the Damned",
     "clan": "Crab",
     "deck": "conflict",
-    "text": "Fire role only.\nAction: During a conflict, choose any number of participating Bushi characters you control – double the base [mil] skill of each of those characters until the end of the conflict. At the end of the conflict, sacrifice each of those characters.",
-    "unverified": true
+    "cost": 2,
+    "influence": 1,
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-033.jpg"
   },
   {
     "id": "bonds-of-blood-034",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Arbiter of Authority",
     "type": "Character",
+    "text": "<b>Action:</b> During a conflict, initiate a [conflict-political] duel – your opponent may dishonor his or her character to refuse the duel. Otherwise, resolve the duel. Bow and move home the duel's loser.",
+    "flavorText": "Yuuhisa immediately regretted asking who had requested the historical records.",
+    "illustrator": "Eli Ring",
+    "name": "Arbiter of Authority",
     "clan": "Crane",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 2,
+    "influence": 2,
+    "military": "0",
+    "political": "2",
     "traits": [
       "Courtier",
       "Duelist"
     ],
-    "text": "Action: During a conflict, initiate a [pol] duel – your opponent may dishonor his or her character to refuse the duel. Otherwise, resolve the duel. Bow and move home the duel's loser.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-034.jpg"
   },
   {
     "id": "bonds-of-blood-035",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "A New Name",
     "type": "Attachment",
+    "text": "<em>Void</em> role only.\nAttached character gains the <em>Bushi</em> and <em>Courtier</em> traits.",
+    "flavorText": "With your new name, you leave childhood behind and begin your service to your lord",
+    "illustrator": "Drazenka Kimpel",
+    "name": "A New Name",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Void role only.\nAttached character gains the Bushi and Courtier traits.",
-    "unverified": true
+    "cost": 0,
+    "influence": 1,
+    "militaryBonus": "+1",
+    "politicalBonus": "+1",
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-035.jpg"
   },
   {
     "id": "bonds-of-blood-036",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Duel to the Death",
     "type": "Event",
+    "text": "\n<b>Action:</b> During a conflict, initiate a [conflict-military] duel – your opponent may dishonor his or her character to refuse the duel. Otherwise, resolve the duel. Discard the duel's loser.",
+    "flavorText": "\"So be it.\" - Kakita Toshimoko",
+    "illustrator": "Sergio Camarena",
+    "name": "Duel to the Death",
     "clan": "Crane",
     "deck": "conflict",
-    "text": "Action: During a conflict, initiate a [mil] duel – your opponent may dishonor his or her character to refuse the duel. Otherwise, resolve the duel. Discard the duel's loser.",
-    "unverified": true
+    "cost": 1,
+    "influence": 3,
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-036.jpg"
   },
   {
     "id": "bonds-of-blood-037",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Niten Pupil",
     "type": "Character",
+    "text": "<em>Water</em> role only.\n<b>Reaction:</b> After honor dials are revealed for a duel, if this character is involved in the duel - double this character's base [conflict-military] and [conflict-political] skills until the end of the phase.",
+    "illustrator": "Ruwen Liu",
+    "name": "Niten Pupil",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 2,
+    "glory": 1,
+    "influence": 1,
+    "military": "2",
+    "political": "2",
     "traits": [
       "Bushi",
       "Duelist"
     ],
-    "text": "Water role only.\nReaction: After honor dials are revealed for a duel, if this character is involved in the duel – double this character's base [mil] and [pol] skills until the end of the phase.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-037.jpg"
   },
   {
     "id": "bonds-of-blood-038",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Two-Heavens Technique",
     "type": "Attachment",
+    "text": "Attach to a <em>Bushi</em> character.\nWhile there are exactly 2 <em>Weapon</em> attachments on attached character, attached character gains covert.",
+    "flavorText": "\"One man, one sword, one strike.\" - Kakita\n \"Two hands.\" - Mirumoto",
+    "illustrator": "Mario Wibisono",
+    "name": "Two-Heavens Technique",
     "clan": "Dragon",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 2,
+    "militaryBonus": "+1",
+    "politicalBonus": "+0",
     "traits": [
       "Technique"
     ],
-    "text": "Attach to a Bushi character.\nWhile there are exactly 2 Weapon attachments on attached character, attached character gains covert.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-038.jpg"
   },
   {
     "id": "bonds-of-blood-039",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Forebearer's Echoes",
     "type": "Event",
+    "text": "<b>Air</b> Role only.\n<b>Action:</b> During a [conflict-military] conflict, choose a character in your dynasty discard pile - put that character into play in the conflict. If that character is still in play at the end of the conflict, put it on the bottom of your dynasty deck.",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Forebearer's Echoes",
     "clan": "Lion",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 1,
     "traits": [
       "Spell",
       "Air"
     ],
-    "text": "Air role only.\nAction: During a [mil] conflict, choose a character in your dynasty discard pile – put that character into play in the conflict. If that character is still in play at the end of the conflict, put it on the bottom of your dynasty deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-039.jpg"
   },
   {
     "id": "bonds-of-blood-040",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Isawa Tadaka",
     "type": "Character",
     "unique": true,
+    "text": "[clan-crab] and [clan-phoenix] only.\nDisguised <em>Shugenja</em>.\n<b>Action:</b> During a conflict, remove one or more characters in your dynasty discard pile from the game - look at that many random cards from your opponent's hand. Choose and discard one of those cards.",
+    "illustrator": "Pius Pranoto",
+    "name": "Isawa Tadaka",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 5,
+    "glory": 2,
+    "influence": 2,
+    "military": "5",
+    "political": "3",
     "traits": [
       "Shugenja",
       "Earth",
       "Elemental Master"
     ],
-    "text": "and  clan only.\nDisguised Shugenja.\nAction: During a conflict, remove one or more characters in your dynasty discard pile from the game – look at that many random cards from your opponent's hand. Choose and discard one of those cards.",
-    "unverified": true
+    "traitsAscii": [
+      "Shugenja",
+      "Earth",
+      "Elemental-master"
+    ],
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-040.jpg"
   },
   {
     "id": "bonds-of-blood-041",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Earth Becomes Sky",
     "type": "Event",
+    "text": "<em>Earth</em> role only.\n<b>Reaction:</b> After a character an opponent controls is readied - bow that character.",
+    "flavorText": "\"I used to look up to the heavens, but the earth seems to have decided it wants that position.\"",
+    "illustrator": "Lukas Banas",
+    "name": "Earth Becomes Sky",
     "clan": "Phoenix",
     "deck": "conflict",
+    "cost": 1,
+    "influence": 1,
     "traits": [
       "Spell",
       "Earth"
     ],
-    "text": "Earth role only.\nReaction: After a character an opponent controls is readied – bow that character.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-041.jpg"
   },
   {
     "id": "bonds-of-blood-042",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Alluring Patron",
     "type": "Character",
+    "text": "<em>Fire</em> role only.\n<b>Action:</b> During a conflict in which this character is participating, choose a character your opponent controls in his or her home. Your opponent selects one - either move that character to the conflict, or dishonor it.",
+    "illustrator": "Sara Winters",
+    "name": "Alluring Patron",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 4,
+    "glory": 2,
+    "influence": 2,
+    "military": "1",
+    "political": "4",
     "traits": [
       "Courtier"
     ],
-    "text": "Fire role only.\nAction: During a conflict in which this character is participating, choose a character your opponent controls in his or her home. Your opponent selects one – either move that character to the conflict, or dishonor it.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-042.jpg"
   },
   {
     "id": "bonds-of-blood-043",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Softskin",
     "type": "Attachment",
+    "text": "Attached character cannot ready unless its controller discards the top 3 cards of his or her conflict deck.",
+    "flavorText": "\"I wish you luck on your return to court.\"",
+    "illustrator": "Ruko Murakami",
+    "name": "Softskin",
     "clan": "Scorpion",
     "deck": "conflict",
+    "cost": 2,
+    "influence": 1,
+    "militaryBonus": "+0",
+    "politicalBonus": "+0",
     "traits": [
       "Poison"
     ],
-    "text": "Attached character cannot ready unless its controller discards the top 3 cards of his or her conflict deck.",
-    "unverified": true
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-043.jpg"
   },
   {
     "id": "bonds-of-blood-044",
     "gameId": "l5r-lcg",
     "setId": "bonds-of-blood",
     "publisherId": "ffg",
-    "name": "Unfulfilled Duty",
     "type": "Event",
+    "text": "<em>Earth</em> role only.\n<b>Action:</b> Choose any number of characters with no fate that have a total printed cost of 6 or lower - ready each of those characters.",
+    "illustrator": "Guillaume Ducos",
+    "name": "Unfulfilled Duty",
     "clan": "Unicorn",
     "deck": "conflict",
-    "text": "Earth role only.\nAction: Choose any number of characters with no fate that have a total printed cost of 6 or lower – ready each of those characters.",
-    "unverified": true
+    "cost": 2,
+    "influence": 2,
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-044.jpg"
   }
 ]

@@ -1,0 +1,10 @@
+{
+  "id": "restoration-of-balance",
+  "gameId": "l5r-lcg",
+  "publisherId": "ffg",
+  "name": "Restoration of Balance",
+  "type": "premium",
+  "status": "released",
+  "cardCount": 32,
+  "notes": "Stubbed during EmeraldDB merge — verify type/cycle/releaseDate."
+}
