@@ -57,10 +57,13 @@ type Card = Node & {
   readonly influence: Maybe<Scalars['Int']>;
   readonly influencePool: Maybe<Scalars['Int']>;
   readonly internal: Internal;
-  readonly military: Maybe<Scalars['Int']>;
+  readonly military: Maybe<Scalars['String']>;
+  readonly militaryBonus: Maybe<Scalars['String']>;
   readonly name: Scalars['String'];
+  readonly nameAscii: Maybe<Scalars['String']>;
   readonly parent: Maybe<Node>;
-  readonly political: Maybe<Scalars['Int']>;
+  readonly political: Maybe<Scalars['String']>;
+  readonly politicalBonus: Maybe<Scalars['String']>;
   readonly publisherId: Scalars['String'];
   readonly rulings: Maybe<ReadonlyArray<Maybe<CardRuling>>>;
   readonly setId: Scalars['String'];
@@ -68,6 +71,7 @@ type Card = Node & {
   readonly strength: Maybe<Scalars['Int']>;
   readonly text: Maybe<Scalars['String']>;
   readonly traits: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
+  readonly traitsAscii: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly type: Scalars['String'];
   readonly unique: Maybe<Scalars['Boolean']>;
   readonly unverified: Maybe<Scalars['Boolean']>;
@@ -140,9 +144,12 @@ type CardFieldSelector = {
   readonly influencePool: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
   readonly military: InputMaybe<FieldSelectorEnum>;
+  readonly militaryBonus: InputMaybe<FieldSelectorEnum>;
   readonly name: InputMaybe<FieldSelectorEnum>;
+  readonly nameAscii: InputMaybe<FieldSelectorEnum>;
   readonly parent: InputMaybe<NodeFieldSelector>;
   readonly political: InputMaybe<FieldSelectorEnum>;
+  readonly politicalBonus: InputMaybe<FieldSelectorEnum>;
   readonly publisherId: InputMaybe<FieldSelectorEnum>;
   readonly rulings: InputMaybe<CardRulingFieldSelector>;
   readonly setId: InputMaybe<FieldSelectorEnum>;
@@ -150,6 +157,7 @@ type CardFieldSelector = {
   readonly strength: InputMaybe<FieldSelectorEnum>;
   readonly text: InputMaybe<FieldSelectorEnum>;
   readonly traits: InputMaybe<FieldSelectorEnum>;
+  readonly traitsAscii: InputMaybe<FieldSelectorEnum>;
   readonly type: InputMaybe<FieldSelectorEnum>;
   readonly unique: InputMaybe<FieldSelectorEnum>;
   readonly unverified: InputMaybe<FieldSelectorEnum>;
@@ -176,10 +184,13 @@ type CardFilterInput = {
   readonly influence: InputMaybe<IntQueryOperatorInput>;
   readonly influencePool: InputMaybe<IntQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
-  readonly military: InputMaybe<IntQueryOperatorInput>;
+  readonly military: InputMaybe<StringQueryOperatorInput>;
+  readonly militaryBonus: InputMaybe<StringQueryOperatorInput>;
   readonly name: InputMaybe<StringQueryOperatorInput>;
+  readonly nameAscii: InputMaybe<StringQueryOperatorInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
-  readonly political: InputMaybe<IntQueryOperatorInput>;
+  readonly political: InputMaybe<StringQueryOperatorInput>;
+  readonly politicalBonus: InputMaybe<StringQueryOperatorInput>;
   readonly publisherId: InputMaybe<StringQueryOperatorInput>;
   readonly rulings: InputMaybe<CardRulingFilterListInput>;
   readonly setId: InputMaybe<StringQueryOperatorInput>;
@@ -187,6 +198,7 @@ type CardFilterInput = {
   readonly strength: InputMaybe<IntQueryOperatorInput>;
   readonly text: InputMaybe<StringQueryOperatorInput>;
   readonly traits: InputMaybe<StringQueryOperatorInput>;
+  readonly traitsAscii: InputMaybe<StringQueryOperatorInput>;
   readonly type: InputMaybe<StringQueryOperatorInput>;
   readonly unique: InputMaybe<BooleanQueryOperatorInput>;
   readonly unverified: InputMaybe<BooleanQueryOperatorInput>;
@@ -236,18 +248,21 @@ type CardGroupConnection_sumArgs = {
 type CardRuling = {
   readonly date: Maybe<Scalars['String']>;
   readonly source: Maybe<Scalars['String']>;
+  readonly sourceUrl: Maybe<Scalars['String']>;
   readonly text: Maybe<Scalars['String']>;
 };
 
 type CardRulingFieldSelector = {
   readonly date: InputMaybe<FieldSelectorEnum>;
   readonly source: InputMaybe<FieldSelectorEnum>;
+  readonly sourceUrl: InputMaybe<FieldSelectorEnum>;
   readonly text: InputMaybe<FieldSelectorEnum>;
 };
 
 type CardRulingFilterInput = {
   readonly date: InputMaybe<StringQueryOperatorInput>;
   readonly source: InputMaybe<StringQueryOperatorInput>;
+  readonly sourceUrl: InputMaybe<StringQueryOperatorInput>;
   readonly text: InputMaybe<StringQueryOperatorInput>;
 };
 
@@ -258,6 +273,7 @@ type CardRulingFilterListInput = {
 type CardRulingSortInput = {
   readonly date: InputMaybe<SortOrderEnum>;
   readonly source: InputMaybe<SortOrderEnum>;
+  readonly sourceUrl: InputMaybe<SortOrderEnum>;
   readonly text: InputMaybe<SortOrderEnum>;
 };
 
@@ -437,9 +453,12 @@ type CardSortInput = {
   readonly influencePool: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
   readonly military: InputMaybe<SortOrderEnum>;
+  readonly militaryBonus: InputMaybe<SortOrderEnum>;
   readonly name: InputMaybe<SortOrderEnum>;
+  readonly nameAscii: InputMaybe<SortOrderEnum>;
   readonly parent: InputMaybe<NodeSortInput>;
   readonly political: InputMaybe<SortOrderEnum>;
+  readonly politicalBonus: InputMaybe<SortOrderEnum>;
   readonly publisherId: InputMaybe<SortOrderEnum>;
   readonly rulings: InputMaybe<CardRulingSortInput>;
   readonly setId: InputMaybe<SortOrderEnum>;
@@ -447,6 +466,7 @@ type CardSortInput = {
   readonly strength: InputMaybe<SortOrderEnum>;
   readonly text: InputMaybe<SortOrderEnum>;
   readonly traits: InputMaybe<SortOrderEnum>;
+  readonly traitsAscii: InputMaybe<SortOrderEnum>;
   readonly type: InputMaybe<SortOrderEnum>;
   readonly unique: InputMaybe<SortOrderEnum>;
   readonly unverified: InputMaybe<SortOrderEnum>;
@@ -1295,10 +1315,13 @@ type Query_cardArgs = {
   influence: InputMaybe<IntQueryOperatorInput>;
   influencePool: InputMaybe<IntQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
-  military: InputMaybe<IntQueryOperatorInput>;
+  military: InputMaybe<StringQueryOperatorInput>;
+  militaryBonus: InputMaybe<StringQueryOperatorInput>;
   name: InputMaybe<StringQueryOperatorInput>;
+  nameAscii: InputMaybe<StringQueryOperatorInput>;
   parent: InputMaybe<NodeFilterInput>;
-  political: InputMaybe<IntQueryOperatorInput>;
+  political: InputMaybe<StringQueryOperatorInput>;
+  politicalBonus: InputMaybe<StringQueryOperatorInput>;
   publisherId: InputMaybe<StringQueryOperatorInput>;
   rulings: InputMaybe<CardRulingFilterListInput>;
   setId: InputMaybe<StringQueryOperatorInput>;
@@ -1306,6 +1329,7 @@ type Query_cardArgs = {
   strength: InputMaybe<IntQueryOperatorInput>;
   text: InputMaybe<StringQueryOperatorInput>;
   traits: InputMaybe<StringQueryOperatorInput>;
+  traitsAscii: InputMaybe<StringQueryOperatorInput>;
   type: InputMaybe<StringQueryOperatorInput>;
   unique: InputMaybe<BooleanQueryOperatorInput>;
   unverified: InputMaybe<BooleanQueryOperatorInput>;
@@ -2267,14 +2291,14 @@ type CardDetailQueryVariables = Exact<{
 }>;
 
 
-type CardDetailQuery = { readonly card: { readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly unverified: boolean | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly strength: number | null, readonly influence: number | null, readonly military: number | null, readonly political: number | null, readonly glory: number | null, readonly honor: number | null, readonly fate: number | null, readonly influencePool: number | null, readonly element: string | null, readonly traits: ReadonlyArray<string | null> | null, readonly errata: Record<string, unknown> | null, readonly rulings: ReadonlyArray<{ readonly date: string | null, readonly source: string | null, readonly text: string | null } | null> | null } | null, readonly cardSet: { readonly setId: string, readonly name: string, readonly cycle: string | null, readonly type: string } | null };
+type CardDetailQuery = { readonly card: { readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly nameAscii: string | null, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly imagePath: string | null, readonly unverified: boolean | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly strength: number | null, readonly influence: number | null, readonly military: string | null, readonly political: string | null, readonly militaryBonus: string | null, readonly politicalBonus: string | null, readonly glory: number | null, readonly honor: number | null, readonly fate: number | null, readonly influencePool: number | null, readonly element: string | null, readonly traits: ReadonlyArray<string | null> | null, readonly traitsAscii: ReadonlyArray<string | null> | null, readonly errata: Record<string, unknown> | null, readonly rulings: ReadonlyArray<{ readonly date: string | null, readonly source: string | null, readonly sourceUrl: string | null, readonly text: string | null } | null> | null } | null, readonly cardSet: { readonly setId: string, readonly name: string, readonly cycle: string | null, readonly type: string } | null };
 
 type CardsIndexQueryVariables = Exact<{
   gameId: Scalars['String'];
 }>;
 
 
-type CardsIndexQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly setId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly cost: number | null, readonly military: number | null, readonly political: number | null, readonly glory: number | null, readonly strength: number | null, readonly influence: number | null, readonly element: string | null, readonly traits: ReadonlyArray<string | null> | null }> }, readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly name: string, readonly cycle: string | null, readonly parentSetId: string | null, readonly type: string }> } };
+type CardsIndexQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly setId: string, readonly name: string, readonly nameAscii: string | null, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly cost: number | null, readonly military: string | null, readonly political: string | null, readonly militaryBonus: string | null, readonly politicalBonus: string | null, readonly glory: number | null, readonly strength: number | null, readonly influence: number | null, readonly element: string | null, readonly traits: ReadonlyArray<string | null> | null, readonly traitsAscii: ReadonlyArray<string | null> | null }> }, readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly name: string, readonly cycle: string | null, readonly parentSetId: string | null, readonly type: string }> } };
 
 type CollectionPageQueryVariables = Exact<{
   gameId: Scalars['String'];
@@ -2295,12 +2319,12 @@ type DeckDetailQueryVariables = Exact<{
 }>;
 
 
-type DeckDetailQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly military: number | null, readonly political: number | null, readonly glory: number | null, readonly strength: number | null, readonly influence: number | null, readonly influencePool: number | null, readonly element: string | null, readonly traits: ReadonlyArray<string | null> | null }> } };
+type DeckDetailQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly nameAscii: string | null, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly flavorText: string | null, readonly illustrator: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly side: string | null, readonly cost: number | null, readonly military: string | null, readonly political: string | null, readonly militaryBonus: string | null, readonly politicalBonus: string | null, readonly glory: number | null, readonly strength: number | null, readonly influence: number | null, readonly influencePool: number | null, readonly element: string | null, readonly traits: ReadonlyArray<string | null> | null, readonly traitsAscii: ReadonlyArray<string | null> | null }> } };
 
 type LandingDashboardQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type LandingDashboardQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly cost: number | null, readonly military: number | null, readonly political: number | null, readonly glory: number | null, readonly strength: number | null, readonly influence: number | null, readonly influencePool: number | null, readonly element: string | null, readonly honor: number | null, readonly fate: number | null, readonly traits: ReadonlyArray<string | null> | null, readonly flipSideOf: string | null, readonly unverified: boolean | null }> }, readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly name: string }> } };
+type LandingDashboardQuery = { readonly allCard: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly gameId: string, readonly setId: string, readonly publisherId: string, readonly name: string, readonly nameAscii: string | null, readonly type: string, readonly unique: boolean | null, readonly text: string | null, readonly clan: string | null, readonly deck: string | null, readonly faction: string | null, readonly cost: number | null, readonly military: string | null, readonly political: string | null, readonly militaryBonus: string | null, readonly politicalBonus: string | null, readonly glory: number | null, readonly strength: number | null, readonly influence: number | null, readonly influencePool: number | null, readonly element: string | null, readonly honor: number | null, readonly fate: number | null, readonly traits: ReadonlyArray<string | null> | null, readonly traitsAscii: ReadonlyArray<string | null> | null, readonly flipSideOf: string | null, readonly unverified: boolean | null }> }, readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly name: string }> } };
 
 type SetDetailQueryVariables = Exact<{
   gameId: Scalars['String'];

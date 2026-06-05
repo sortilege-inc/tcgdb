@@ -56,6 +56,12 @@ button:hover {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* Per-game theme CSS variables are inlined on this element, so the body's
+   * `background: var(--theme-background)` rule above can't see them.
+   * Set them here too so the themed background + text actually paint the
+   * viewport (not just the nav, which has its own explicit surface bg). */
+  background: var(--theme-background);
+  color: var(--theme-text);
 }
 
 .tcgdb-main {

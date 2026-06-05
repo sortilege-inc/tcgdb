@@ -6,7 +6,12 @@ export interface GameTheme {
   secondary?: string
   background?: string
   surface?: string
+  /** Higher-elevation surface (buttons, chips). Defaults sit slightly above
+   *  surface in the same hue. */
+  surface2?: string
   text?: string
+  /** Muted body text (captions, secondary info). */
+  textMuted?: string
   accentMuted?: string
   font?: { body?: string; heading?: string }
   decorations?: Record<string, string>

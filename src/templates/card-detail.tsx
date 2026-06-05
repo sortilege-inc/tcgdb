@@ -30,6 +30,7 @@ interface CardNode {
   text?: string | null
   flavorText?: string | null
   illustrator?: string | null
+  imagePath?: string | null
   unverified?: boolean | null
   clan?: string | null
   deck?: string | null
@@ -161,7 +162,13 @@ export default function CardDetailPage(
           {card.text && (
             <section style={{ marginTop: '1.5rem' }}>
               <h2 style={{ fontSize: '1rem', opacity: 0.7, marginBottom: '0.5rem' }}>Text</h2>
-              <p style={{ whiteSpace: 'pre-wrap' }}>{card.text}</p>
+              {/* Scraped text contains inline <b> / <i> / <em> / <br> markup.
+               * Source is the local EmeraldDB scrape (trusted), single-user app,
+               * no untrusted input — dangerouslySetInnerHTML is safe here. */}
+              <p
+                style={{ whiteSpace: 'pre-wrap' }}
+                dangerouslySetInnerHTML={{ __html: card.text }}
+              />
             </section>
           )}
           {card.flavorText && (
@@ -236,15 +243,31 @@ export default function CardDetailPage(
           )}
         </section>
 
-        <aside
-          style={{
-            background: 'var(--theme-surface)',
-            border: '1px solid var(--theme-border)',
-            borderLeft: `4px solid var(--theme-primary)`,
-            borderRadius: 8,
-            padding: '1rem',
-          }}
-        >
+        <aside style={{ display: 'grid', gap: '1rem' }}>
+          {card.imagePath && (
+            <img
+              src={card.imagePath}
+              alt={card.name}
+              loading="lazy"
+              style={{
+                width: '100%',
+                height: 'auto',
+                borderRadius: 8,
+                border: '1px solid var(--theme-border)',
+                background: 'var(--theme-surface)',
+                display: 'block',
+              }}
+            />
+          )}
+          <div
+            style={{
+              background: 'var(--theme-surface)',
+              border: '1px solid var(--theme-border)',
+              borderLeft: `4px solid var(--theme-primary)`,
+              borderRadius: 8,
+              padding: '1rem',
+            }}
+          >
           <h2 style={{ fontSize: '1rem', opacity: 0.7, marginBottom: '0.5rem' }}>Set</h2>
           {set ? (
             <>
@@ -262,6 +285,7 @@ export default function CardDetailPage(
           <div style={{ marginTop: '0.75rem', fontSize: '0.85rem' }}>
             <div style={{ opacity: 0.6 }}>Publisher</div>
             <div>{card.publisherId}</div>
+          </div>
           </div>
         </aside>
       </div>
@@ -298,6 +322,7 @@ export const query = graphql`
       text
       flavorText
       illustrator
+      imagePath
       unverified
       clan
       deck

@@ -16,7 +16,16 @@
       { "id": "dynasty", "name": "Dynasty Deck" },
       { "id": "conflict", "name": "Conflict Deck" }
     ],
-    "theme": { "primary": "#c8a04d" }
+    "theme": {
+      "primary":     "#2c4570",
+      "secondary":   "#7ca3c4",
+      "background":  "#ebe1c8",
+      "surface":     "#f5ecd6",
+      "surface2":    "#fbf4e0",
+      "text":        "#1f2640",
+      "textMuted":   "#6e6750",
+      "accentMuted": "#c8b89a"
+    }
   },
   {
     "id": "netrunner",
