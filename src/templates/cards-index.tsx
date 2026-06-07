@@ -33,6 +33,7 @@ interface CardNode {
   strength: number | null
   influence: number | null
   element: string | null
+  elements: string[] | null
   traits: string[] | null
   traitsAscii: string[] | null
 }
@@ -392,6 +393,7 @@ export const query = graphql`
         strength
         influence
         element
+        elements
         traits
         traitsAscii
       }

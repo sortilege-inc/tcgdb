@@ -42,9 +42,24 @@ interface CardNode {
   strength: number | null
   influence: number | null
   influencePool: number | null
+  honor: number | null
+  fateIncome: number | null
   element: string | null
+  elements: string[] | null
   traits: string[] | null
   traitsAscii: string[] | null
+  // Validator-relevant fields (added when deck validation was wired up).
+  // Without these in the GraphQL query, validators silently see undefined
+  // and report false-positive errors (e.g. "all five rings missing" when
+  // provinces actually have elements).
+  deckLimit: number | null
+  legalIn: { standard: string | null; stronghold: string | null; skirmish: string | null } | null
+  roleRestriction: { ring: string | null; type: string | null; clan: string | null } | null
+  roleClassifier: string | null
+  roleRing: string | null
+  roleClan: string | null
+  influenceBonus: number | null
+  forcesSplashClan: string | null
 }
 
 interface Data {
@@ -274,6 +289,16 @@ export default function DeckDetailPage(
           qtyOf={qtyOf}
           onAdjustQty={adjustQty}
           disabled={readOnly}
+          primaryClan={(() => {
+            // Pluck the stronghold from the deck's stronghold zone and use
+            // its clan as the deck's primary clan. Used to highlight
+            // out-of-clan influence costs in the picker.
+            const shEntry = liveDeck.zones?.stronghold?.find((e) => {
+              const c = cardById.get(e.cardId)
+              return c?.type === 'Stronghold'
+            })
+            return shEntry ? (cardById.get(shEntry.cardId)?.clan ?? null) : null
+          })()}
         />
       </div>
     </>
@@ -732,13 +757,16 @@ function SubCategory({ title, entries, gameId, onAdjust, disabled }: SubCategory
 const PICKER_PAGE_SIZE = 25
 
 function CardPicker({
-  gameId, allCards, qtyOf, onAdjustQty, disabled,
+  gameId, allCards, qtyOf, onAdjustQty, disabled, primaryClan,
 }: {
   gameId: string
   allCards: CardNode[]
   qtyOf: (cardId: string) => number
   onAdjustQty: (cardId: string, delta: number) => void
   disabled?: boolean
+  /** The deck's primary clan (from the stronghold). When set, the
+   *  influence column lights up for out-of-clan rows. */
+  primaryClan: string | null
 }): React.ReactElement {
   const [filters, setFilters] = React.useState<FilterState>(DEFAULT_FILTERS)
   const [panelOpen, setPanelOpen] = React.useState(false)
@@ -783,6 +811,14 @@ function CardPicker({
               <th style={thStyle}>Qty</th>
               <th style={thStyle}>Card</th>
               <th style={{ ...thStyle, textAlign: 'right' }}>Cost</th>
+              <th
+                style={{ ...thStyle, textAlign: 'right' }}
+                title={primaryClan
+                  ? `Influence cost to splash from off-clan (${primaryClan} is in-clan).`
+                  : 'Influence cost (printed; consumed only when splashing out-of-clan).'}
+              >
+                Inf
+              </th>
               <th style={thStyle}>Traits</th>
             </tr>
           </thead>
@@ -807,6 +843,35 @@ function CardPicker({
                   </td>
                   <td style={{ padding: '0.35rem 0.5rem', textAlign: 'right', opacity: 0.8, fontVariantNumeric: 'tabular-nums' }}>
                     {c.cost ?? '—'}
+                  </td>
+                  {/* Influence cost: only meaningful for off-clan conflict cards.
+                      RRG p. 7: "Each of these cards must be in-clan, be neutral, or
+                      be purchased from a single other clan by using influence."
+                      Show the cost only when the card has one AND it'd actually
+                      be charged (off-clan + non-Neutral). Otherwise show "—". */}
+                  <td style={{ padding: '0.35rem 0.5rem', textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>
+                    {(() => {
+                      const cost = c.influence
+                      if (cost == null) return <span style={{ opacity: 0.35 }}>—</span>
+                      const isOffClan =
+                        primaryClan !== null &&
+                        c.clan !== null &&
+                        c.clan !== primaryClan &&
+                        c.clan !== 'Neutral'
+                      if (isOffClan) {
+                        return (
+                          <span
+                            style={{ color: '#e8a35a', fontWeight: 600 }}
+                            title={`${cost} influence — off-clan from your ${primaryClan} stronghold.`}
+                          >
+                            {cost}
+                          </span>
+                        )
+                      }
+                      // In-clan / Neutral / no stronghold-set yet: show greyed so
+                      // the value is visible but doesn't draw the eye.
+                      return <span style={{ opacity: 0.35 }} title="Not charged (in-clan or Neutral).">{cost}</span>
+                    })()}
                   </td>
                   <td style={{ padding: '0.35rem 0.5rem', opacity: 0.75, fontSize: '0.78rem', fontStyle: 'italic' }}>
                     {c.traits?.length ? c.traits.join('. ') + '.' : '—'}
@@ -1044,9 +1109,20 @@ export const query = graphql`
         strength
         influence
         influencePool
+        honor
+        fateIncome
         element
+        elements
         traits
         traitsAscii
+        deckLimit
+        legalIn { standard stronghold skirmish }
+        roleRestriction { ring type clan }
+        roleClassifier
+        roleRing
+        roleClan
+        influenceBonus
+        forcesSplashClan
       }
     }
   }

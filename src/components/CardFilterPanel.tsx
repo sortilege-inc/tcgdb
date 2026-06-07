@@ -34,6 +34,10 @@ export interface FilterableCard {
   strength?: number | null
   influence?: number | null
   element?: string | null
+  /** Multi-element provinces (and Toshi Ranbo, the all-five wildcard) carry
+   *  their element coverage here. Provinces filter through `elements`;
+   *  the legacy `element` field is no longer populated. */
+  elements?: string[] | null
   traits?: string[] | null
   /** ASCII-fied trait list. Used by the text-search haystack and as an
    *  alternate match key for the Traits picker (so "Yojimbo" finds "Yōjimbō"). */
@@ -49,6 +53,10 @@ export interface FilterState {
   clans: Set<string>
   types: Set<string>
   decks: Set<string>            // 'dynasty' | 'conflict' | 'province'
+  /** Province element filter — empty = any. Multi-element provinces match
+   *  if ANY of their elements is in the set; Toshi Ranbo (all five) always
+   *  matches when any element is picked. */
+  elements: Set<string>
   traits: Set<string>
   unique: TriState
   triggeredAbility: string      // '' = any
@@ -96,6 +104,15 @@ const TYPE_GLYPH: Record<string, string> = {
 
 export const DECK_SIDES = ['dynasty', 'conflict', 'province'] as const
 
+export const ELEMENTS = ['air', 'earth', 'fire', 'water', 'void'] as const
+const ELEMENT_GLYPH: Record<string, { abbr: string; color: string }> = {
+  air:   { abbr: 'AI', color: '#a9c3d8' },
+  earth: { abbr: 'EA', color: '#7c8a4a' },
+  fire:  { abbr: 'FI', color: '#c25a3a' },
+  water: { abbr: 'WA', color: '#4a8aa8' },
+  void:  { abbr: 'VO', color: '#7a6aa0' },
+}
+
 const TRIGGERS = [
   { value: '',                  label: 'Any' },
   { value: 'Action',            label: 'Action' },
@@ -132,6 +149,7 @@ export const DEFAULT_FILTERS: FilterState = {
   clans: new Set(),
   types: new Set(),
   decks: new Set(),
+  elements: new Set(),
   traits: new Set(),
   unique: 'any',
   triggeredAbility: '',
@@ -229,6 +247,14 @@ export function matchesFilters(card: FilterableCard, f: FilterState): boolean {
     if (side === '__skip') return false
     if (!f.decks.has(side)) return false
   }
+  if (f.elements.size) {
+    const cardElements = new Set((card.elements ?? []).map((e) => e.toLowerCase()))
+    let any = false
+    for (const e of f.elements) {
+      if (cardElements.has(e)) { any = true; break }
+    }
+    if (!any) return false
+  }
   if (f.traits.size) {
     const cardTraits = new Set(card.traits ?? [])
     for (const t of f.traits) if (!cardTraits.has(t)) return false
@@ -256,6 +282,7 @@ export function isEmptyFilters(f: FilterState): boolean {
     f.clans.size === 0 &&
     f.types.size === 0 &&
     f.decks.size === 0 &&
+    f.elements.size === 0 &&
     f.traits.size === 0 &&
     f.unique === 'any' &&
     f.triggeredAbility === '' &&
@@ -439,6 +466,58 @@ export default function CardFilterPanel({
             </SelectField>
           </div>
 
+          {/* row: element chips (Province filter) */}
+          <div>
+            <div style={{ opacity: 0.6, fontSize: '0.7rem', marginBottom: '0.3rem', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
+              Element <span style={{ opacity: 0.6, textTransform: 'none', letterSpacing: 0 }}>(Province)</span>
+            </div>
+            <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
+              {ELEMENTS.map((el) => {
+                const active = filters.elements.has(el)
+                const meta = ELEMENT_GLYPH[el]!
+                return (
+                  <button
+                    key={el}
+                    type="button"
+                    onClick={() => update('elements', toggleInSet(filters.elements, el))}
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.4rem',
+                      padding: '0.35rem 0.6rem',
+                      background: active ? meta.color : 'var(--theme-surface-2)',
+                      color: active ? '#fff' : 'var(--theme-text)',
+                      border: `1px solid ${active ? meta.color : 'var(--theme-border)'}`,
+                      borderRadius: 6,
+                      fontWeight: 600,
+                      letterSpacing: '0.06em',
+                      fontSize: '0.75rem',
+                      textTransform: 'uppercase',
+                    }}
+                  >
+                    <span
+                      style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        width: 18,
+                        height: 18,
+                        borderRadius: '50%',
+                        background: active ? 'rgba(255,255,255,0.25)' : meta.color,
+                        color: active ? '#fff' : '#1a1a1a',
+                        fontSize: '0.6rem',
+                        fontWeight: 700,
+                      }}
+                    >
+                      {meta.abbr}
+                    </span>
+                    {el}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+
           {/* numeric grid */}
           <div style={{ display: 'grid', gridTemplateColumns: compact ? '1fr 1fr' : 'repeat(3, 1fr)', gap: '0.4rem 1rem' }}>
             <NumericRow label="Cost"     value={filters.cost}      onChange={(v) => update('cost', v)} />
@@ -458,7 +537,7 @@ export default function CardFilterPanel({
           <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
             <button
               type="button"
-              onClick={() => onChange({ ...DEFAULT_FILTERS, traits: new Set() })}
+              onClick={() => onChange({ ...DEFAULT_FILTERS, traits: new Set(), elements: new Set() })}
               style={{
                 background: '#b03a3a',
                 color: '#fff',
