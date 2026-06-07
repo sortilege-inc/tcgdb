@@ -19,10 +19,27 @@ A separate **play engine**, `tcggg`, lives at `../tcggg/` (sibling repo). It is 
 
 ## How decks flow tcgdb → tcggg
 
-- **Today** (the short-term plan): an "Export" button on the deck-detail page downloads the full deck as JSON, including every card's full record inline (not just cardIds — tcggg is not allowed to assume it has the cards).
+**Today** — an "Export" button on the deck-detail page downloads a single JSON file with the following shape:
+
+```jsonc
+{
+  "exportVersion": 1,
+  "exportedAt": "2026-06-06T22:30:00.000Z",
+  "deck": {
+    "id": "...", "gameId": "l5r-lcg", "formatId": "stronghold",
+    "name": "...", "splashClan": "...",
+    "zones": { "stronghold": [...], "dynasty": [...], "conflict": [...] },
+    "enforceErrata": true, "notes": "..."
+  },
+  "cards": {
+    "<cardId>": { /* full Card record, including text/stats/elements/etc. */ }
+  }
+}
+```
+
+- The JSON is **self-contained for gameplay data**. tcggg can render and play with no other knowledge of tcgdb's catalog.
+- **Card images are referenced by URL** (`/cards/l5r-lcg/<cardId>.<ext>` style, pointing at tcgdb's static host). The export does NOT embed base64 image data. To see images in tcggg, the tcgdb host must be reachable.
 - **Later**: an HTTP API on the sidecar (or a sibling process) that tcggg pulls from. Same payload shape.
-- The exported JSON must be **self-contained** — tcggg should be able to load it and play a game with zero ambient knowledge of tcgdb's catalog.
-- Card images: TBD whether the export embeds image data, includes URLs to a hosted location, or both. (See open question.)
 
 ## What goes here
 
