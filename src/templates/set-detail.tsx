@@ -3,6 +3,7 @@ import { graphql, Link, type HeadFC, type PageProps } from 'gatsby'
 import { getGame } from '../data/games'
 import { getGameModule } from '../games/registry'
 import { useGameCollection } from '../state/SidecarStateProvider'
+import { CardLink } from '../components/CardLink'
 import type { Card, CardSet } from '../types/data'
 
 interface PageContext {
@@ -145,7 +146,7 @@ export default function SetDetailPage(
                     background: statusBg,
                   }}
                 >
-                  <Link to={`/games/${gameId}/cards/${c.cardId}/`}>{c.name}</Link>
+                  <CardLink gameId={gameId} cardId={c.cardId} name={c.name} />
                   <span style={{ opacity: 0.7, fontSize: '0.85rem' }}>{c.type}</span>
                   <span style={{ opacity: 0.6, fontSize: '0.8rem', minWidth: '5rem', textAlign: 'right' }}>
                     {c.clan ?? c.faction ?? ''}

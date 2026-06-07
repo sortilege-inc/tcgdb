@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { graphql, Link, navigate, type HeadFC, type PageProps } from 'gatsby'
+import { CardLink } from '../components/CardLink'
 import { getGame } from '../data/games'
 import { getGameModule } from '../games/registry'
 import { useDeck, useSidecarState } from '../state/SidecarStateProvider'
@@ -690,9 +691,12 @@ function SubCategory({ title, entries, gameId, onAdjust, disabled }: SubCategory
             <span style={{ fontVariantNumeric: 'tabular-nums', opacity: 0.85, width: '1.5rem' }}>
               {entry.qty}×
             </span>
-            <Link to={`/games/${gameId}/cards/${entry.cardId}/`} style={{ minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-              {card.name}
-            </Link>
+            <CardLink
+              gameId={gameId}
+              cardId={entry.cardId}
+              name={card.name}
+              style={{ minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
+            />
             {card.cost != null ? (
               <span style={{ opacity: 0.5, fontSize: '0.75rem', fontVariantNumeric: 'tabular-nums' }}>{card.cost}</span>
             ) : <span />}
@@ -796,7 +800,7 @@ function CardPicker({
                     />
                   </td>
                   <td style={{ padding: '0.35rem 0.5rem' }}>
-                    <Link to={`/games/${gameId}/cards/${c.cardId}/`}>{c.name}</Link>
+                    <CardLink gameId={gameId} cardId={c.cardId} name={c.name} />
                     <span style={{ opacity: 0.55, marginLeft: '0.4rem', fontSize: '0.75rem' }}>
                       {c.type}{c.clan ? ` · ${c.clan}` : ''}
                     </span>

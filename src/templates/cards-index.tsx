@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { graphql, Link, type HeadFC, type PageProps } from 'gatsby'
+import { CardLink } from '../components/CardLink'
 import { getGame } from '../data/games'
 import CardFilterPanel, {
   DEFAULT_FILTERS,
@@ -194,7 +195,7 @@ function ResultsTable({
             {slice.map((c) => (
               <tr key={c.cardId} style={{ borderBottom: '1px solid var(--theme-border)' }}>
                 <Td>
-                  <Link to={`/games/${gameId}/cards/${c.cardId}/`}>{c.name}</Link>
+                  <CardLink gameId={gameId} cardId={c.cardId} name={c.name} />
                   {c.unique && (
                     <span title="Unique" style={{ marginLeft: '0.35rem', opacity: 0.55, fontSize: '0.7rem' }}>◆</span>
                   )}
@@ -344,7 +345,7 @@ function GroupedView({
                     alignItems: 'baseline',
                   }}
                 >
-                  <Link to={`/games/${gameId}/cards/${c.cardId}/`}>{c.name}</Link>
+                  <CardLink gameId={gameId} cardId={c.cardId} name={c.name} />
                   <span style={{ opacity: 0.7, fontSize: '0.85rem' }}>{c.type}</span>
                   <span style={{ opacity: 0.6, fontSize: '0.8rem', minWidth: '5rem', textAlign: 'right' }}>
                     {c.clan ?? c.faction ?? ''}

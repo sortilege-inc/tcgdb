@@ -4,6 +4,7 @@ import { getGame } from '../data/games'
 import { getGameModule } from '../games/registry'
 import { useGameCollection, useSidecarState } from '../state/SidecarStateProvider'
 import { CollectionCounter } from '../components/CollectionCounter'
+import { CardLink } from '../components/CardLink'
 import type { Card, CardSet } from '../types/data'
 
 interface PageContext {
@@ -273,7 +274,7 @@ function SetGroup({
                 }}
               >
                 <div style={{ minWidth: 0 }}>
-                  <Link to={`/games/${gameId}/cards/${c.cardId}/`}>{c.name}</Link>
+                  <CardLink gameId={gameId} cardId={c.cardId} name={c.name} />
                   <div style={{ opacity: 0.6, fontSize: '0.8rem' }}>
                     {c.type}
                     {c.clan && ` · ${c.clan}`}

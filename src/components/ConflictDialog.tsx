@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import type { BuiltConflict } from '../state/sidecar-client'
+import { CardLink } from './CardLink'
 
 interface Props {
   gameId: string
@@ -90,9 +91,7 @@ export function ConflictDialog({
                 }}
               >
                 <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem' }}>
-                  <Link to={`/games/${gameId}/cards/${c.cardId}/`}>
-                    {cardNames?.[c.cardId] ?? c.cardId}
-                  </Link>
+                  <CardLink gameId={gameId} cardId={c.cardId} name={cardNames?.[c.cardId] ?? c.cardId} />
                   <span style={{ fontVariantNumeric: 'tabular-nums', opacity: 0.85 }}>
                     needs <strong>{c.demanded}</strong> · own <strong>{c.owned}</strong>{' '}
                     <span style={{ color: '#e8755a' }}>(short {c.shortfall})</span>

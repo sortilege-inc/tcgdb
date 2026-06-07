@@ -3,6 +3,7 @@ import { graphql, Link, type HeadFC, type PageProps } from 'gatsby'
 import { getGame } from '../data/games'
 import { getGameModule } from '../games/registry'
 import { erratafDiff } from '../lib/errata'
+import { useLinkifyRulings } from '../lib/linkify-rulings'
 import type { CardDisplayField } from '../games/_types'
 
 interface PageContext {
@@ -88,6 +89,7 @@ export default function CardDetailPage(
 
   const schema: CardDisplayField[] = module?.cardDisplaySchema ?? []
   const cardRecord = card as unknown as Record<string, unknown>
+  const linkifyRuling = useLinkifyRulings(gameId)
 
   return (
     <>
@@ -235,7 +237,9 @@ export default function CardDetailPage(
                       {r.date && <span>{r.date}</span>}
                       {r.source && <span>· {r.source}</span>}
                     </div>
-                    <div style={{ whiteSpace: 'pre-wrap' }}>{r.text}</div>
+                    <div style={{ whiteSpace: 'pre-wrap' }}>
+                      {r.text ? linkifyRuling(r.text) : null}
+                    </div>
                   </li>
                 ))}
               </ul>
