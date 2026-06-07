@@ -11,12 +11,12 @@
     "name": "Castle of the Forgotten",
     "clan": "Crab",
     "honor": 10,
-    "fate": 7,
     "influencePool": 9,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/coils-of-power-087.png"
+    "imagePath": "/cards/l5r-lcg/coils-of-power-087.png",
+    "fateIncome": 7
   },
   {
     "id": "coils-of-power-088",
@@ -32,7 +32,10 @@
     "traits": [
       "Shrine"
     ],
-    "imagePath": "/cards/l5r-lcg/coils-of-power-088.jpg"
+    "imagePath": "/cards/l5r-lcg/coils-of-power-088.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "coils-of-power-089",
@@ -49,7 +52,10 @@
     "traits": [
       "Shrine"
     ],
-    "imagePath": "/cards/l5r-lcg/coils-of-power-089.jpg"
+    "imagePath": "/cards/l5r-lcg/coils-of-power-089.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "coils-of-power-090",

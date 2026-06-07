@@ -11,12 +11,12 @@
     "name": "Shiro Shinjo",
     "clan": "Unicorn",
     "honor": 10,
-    "fate": 6,
     "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-001.jpg"
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-001.jpg",
+    "fateIncome": 6
   },
   {
     "id": "warriors-of-the-wind-002",
@@ -30,7 +30,10 @@
     "name": "Khan's Ordu",
     "clan": "Unicorn",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-002.jpg"
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-002.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "warriors-of-the-wind-003",
@@ -43,7 +46,11 @@
     "traits": [
       "Unicorn"
     ],
-    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-003.jpg"
+    "imagePath": "/cards/l5r-lcg/warriors-of-the-wind-003.jpg",
+    "roleClassifier": "support",
+    "roleClan": "Unicorn",
+    "influenceBonus": 8,
+    "forcesSplashClan": "Unicorn"
   },
   {
     "id": "warriors-of-the-wind-004",

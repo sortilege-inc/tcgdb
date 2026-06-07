@@ -10,7 +10,10 @@
     "name": "Raging Battleground",
     "clan": "Lion",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/all-and-nothing-081.jpg"
+    "imagePath": "/cards/l5r-lcg/all-and-nothing-081.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "all-and-nothing-082",
@@ -23,7 +26,10 @@
     "name": "Appealing to the Fortunes",
     "clan": "Neutral",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/all-and-nothing-082.jpg"
+    "imagePath": "/cards/l5r-lcg/all-and-nothing-082.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "all-and-nothing-083",

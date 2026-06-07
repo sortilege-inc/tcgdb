@@ -11,12 +11,12 @@
     "name": "Hisu Mori Toride",
     "clan": "Unicorn",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Fort"
     ],
-    "imagePath": "/cards/l5r-lcg/elements-unbound-101.jpg"
+    "imagePath": "/cards/l5r-lcg/elements-unbound-101.jpg",
+    "fateIncome": 7
   },
   {
     "id": "elements-unbound-102",
@@ -29,7 +29,10 @@
     "name": "Magistrate Station",
     "clan": "Crane",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/elements-unbound-102.jpg"
+    "imagePath": "/cards/l5r-lcg/elements-unbound-102.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "elements-unbound-103",
@@ -41,7 +44,10 @@
     "illustrator": "Hai Hoang",
     "name": "Web of Lies",
     "clan": "Scorpion",
-    "imagePath": "/cards/l5r-lcg/elements-unbound-103.jpg"
+    "imagePath": "/cards/l5r-lcg/elements-unbound-103.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "elements-unbound-104",

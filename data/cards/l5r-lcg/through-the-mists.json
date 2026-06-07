@@ -127,12 +127,12 @@
     "name": "Mioko's Song",
     "clan": "Crane",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Boat"
     ],
-    "imagePath": "/cards/l5r-lcg/through-the-mists-007.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-007.jpg",
+    "fateIncome": 7
   },
   {
     "id": "through-the-mists-008",
@@ -378,12 +378,12 @@
     "name": "Pride",
     "clan": "Lion",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Boat"
     ],
-    "imagePath": "/cards/l5r-lcg/through-the-mists-019.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-019.jpg",
+    "fateIncome": 7
   },
   {
     "id": "through-the-mists-020",
@@ -753,12 +753,12 @@
     "name": "The East Wind",
     "clan": "Unicorn",
     "honor": 10,
-    "fate": 7,
     "influencePool": 12,
     "traits": [
       "Boat"
     ],
-    "imagePath": "/cards/l5r-lcg/through-the-mists-037.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-037.jpg",
+    "fateIncome": 7
   },
   {
     "id": "through-the-mists-038",
@@ -772,7 +772,10 @@
     "name": "Maelstrom",
     "clan": "Unicorn",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/through-the-mists-038.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-038.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "through-the-mists-039",

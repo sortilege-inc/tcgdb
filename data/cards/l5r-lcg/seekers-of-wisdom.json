@@ -11,12 +11,12 @@
     "name": "High House of Light",
     "clan": "Dragon",
     "honor": 11,
-    "fate": 7,
     "influencePool": 7,
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-001.jpg"
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-001.jpg",
+    "fateIncome": 7
   },
   {
     "id": "seekers-of-wisdom-002",
@@ -34,7 +34,10 @@
     "traits": [
       "Village"
     ],
-    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-002.jpg"
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-002.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "seekers-of-wisdom-003",
@@ -47,7 +50,11 @@
     "traits": [
       "Dragon"
     ],
-    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-003.jpg"
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-003.jpg",
+    "roleClassifier": "support",
+    "roleClan": "Dragon",
+    "influenceBonus": 8,
+    "forcesSplashClan": "Dragon"
   },
   {
     "id": "seekers-of-wisdom-004",

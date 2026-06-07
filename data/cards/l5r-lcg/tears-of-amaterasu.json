@@ -13,7 +13,10 @@
     "traits": [
       "Shrine"
     ],
-    "imagePath": "/cards/l5r-lcg/tears-of-amaterasu-001.jpg"
+    "imagePath": "/cards/l5r-lcg/tears-of-amaterasu-001.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "tears-of-amaterasu-002",
@@ -29,7 +32,10 @@
     "traits": [
       "Shrine"
     ],
-    "imagePath": "/cards/l5r-lcg/tears-of-amaterasu-002.jpg"
+    "imagePath": "/cards/l5r-lcg/tears-of-amaterasu-002.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "tears-of-amaterasu-003",

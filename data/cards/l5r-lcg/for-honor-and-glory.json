@@ -10,7 +10,10 @@
     "name": "Frostbitten Crossing",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-021.jpg"
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-021.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "for-honor-and-glory-022",
@@ -23,7 +26,10 @@
     "name": "Riot in the Streets",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-022.jpg"
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-022.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "for-honor-and-glory-023",

@@ -11,7 +11,6 @@
     "name": "Shiro Nishiyama",
     "clan": "Crab",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
@@ -23,7 +22,8 @@
         "text": "Shiro Nishiyama only affects characters that are already participating in the conflict. Any characters that enter the conflict after the ability has resolved are not affected."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-001.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-001.jpg",
+    "fateIncome": 7
   },
   {
     "id": "core-set-002",
@@ -37,12 +37,12 @@
     "name": "Shizuka Toshi",
     "clan": "Crane",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "City"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-002.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-002.jpg",
+    "fateIncome": 7
   },
   {
     "id": "core-set-003",
@@ -56,7 +56,6 @@
     "name": "Mountain's Anvil Castle",
     "clan": "Dragon",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
@@ -68,7 +67,8 @@
         "text": "The bonus provided by Mountain's Anvil Castle is fixed upon resolution. If the number of attachments subsequently changes, the bonus is not affected."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-003.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-003.jpg",
+    "fateIncome": 7
   },
   {
     "id": "core-set-004",
@@ -82,7 +82,6 @@
     "name": "Yōjin no Shiro",
     "clan": "Lion",
     "honor": 12,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
@@ -97,7 +96,8 @@
     "imagePath": "/cards/l5r-lcg/core-set-004.jpg",
     "errata": {
       "text": "[Sample errata] Yōjin no Shiro: While you have at least one ready character with military skill 3 or higher, this stronghold gains \"Reaction: After a unit declares an attack against this province — bow this card to bow the attacking character.\""
-    }
+    },
+    "fateIncome": 7
   },
   {
     "id": "core-set-005",
@@ -111,7 +111,6 @@
     "name": "Isawa Mori Seidō",
     "clan": "Phoenix",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Shrine"
@@ -123,7 +122,8 @@
         "text": "Glory count happens before the conflict phase ends, so Isawa Mori Seidō can help you claim the Imperial Favor."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-005.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-005.jpg",
+    "fateIncome": 7
   },
   {
     "id": "core-set-006",
@@ -137,7 +137,6 @@
     "name": "City of the Open Hand",
     "clan": "Scorpion",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "City"
@@ -149,7 +148,8 @@
         "text": "City of the Open Hand received official errata. \n\nIts ability now instructs you to either gain 1 honor, or force your opponent to lose 1 honor."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-006.png"
+    "imagePath": "/cards/l5r-lcg/core-set-006.png",
+    "fateIncome": 7
   },
   {
     "id": "core-set-007",
@@ -163,12 +163,12 @@
     "name": "Golden Plains Outpost",
     "clan": "Unicorn",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Outpost"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-007.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-007.jpg",
+    "fateIncome": 7
   },
   {
     "id": "core-set-008",
@@ -181,7 +181,10 @@
     "name": "Defend the Wall",
     "clan": "Crab",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/core-set-008.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-008.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "core-set-009",
@@ -195,7 +198,10 @@
     "name": "The Art of Peace",
     "clan": "Crane",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/core-set-009.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-009.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "core-set-010",
@@ -215,7 +221,10 @@
         "text": "Cards are discarded all at once. You cannot discard down to fewer than 4 cards."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-010.png"
+    "imagePath": "/cards/l5r-lcg/core-set-010.png",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "core-set-011",
@@ -229,7 +238,10 @@
     "name": "The Art of War",
     "clan": "Lion",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/core-set-011.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-011.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "core-set-012",
@@ -259,7 +271,10 @@
         "text": "Changing the conflict type does not affect what other conflicts the attacker can declare. What matters is which conflict type was originally declared."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-012.png"
+    "imagePath": "/cards/l5r-lcg/core-set-012.png",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "core-set-013",
@@ -283,7 +298,10 @@
         "text": "If [Chasing the Sun](https://fiveringsdb.com/card/chasing-the-sun) or [Talisman of the Sun](https://fiveringsdb.com/card/talisman-of-the-sun) are used to move the contested ring to Secret Cache, the province's ability cannot be triggered, because an attack is not being declared."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-013.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-013.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "core-set-014",
@@ -317,7 +335,10 @@
         "text": "If [Chasing the Sun](https://fiveringsdb.com/card/chasing-the-sun) or [Talisman of the Sun](https://fiveringsdb.com/card/talisman-of-the-sun) are used to move the contested ring to Endless Plains, the province's ability cannot be triggered, because an attack is not being declared."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-014.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-014.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "core-set-015",
@@ -331,7 +352,10 @@
     "name": "Ancestral Lands",
     "clan": "Neutral",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/core-set-015.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-015.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "core-set-016",
@@ -359,7 +383,10 @@
     "imagePath": "/cards/l5r-lcg/core-set-016.jpg",
     "errata": {
       "text": "[Sample errata] Elemental Fury: At the start of the conflict — give one participating character +1 military and +1 political for the duration of this conflict."
-    }
+    },
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "core-set-017",
@@ -373,7 +400,10 @@
     "name": "Entrenched Position",
     "clan": "Neutral",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/core-set-017.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-017.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "core-set-018",
@@ -387,7 +417,10 @@
     "name": "Fertile Fields",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/core-set-018.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-018.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "core-set-019",
@@ -401,7 +434,10 @@
     "name": "Manicured Garden",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/core-set-019.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-019.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "core-set-020",
@@ -415,7 +451,10 @@
     "name": "Meditations on the Tao",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/core-set-020.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-020.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "core-set-021",
@@ -428,7 +467,10 @@
     "name": "Night Raid",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/core-set-021.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-021.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "core-set-022",
@@ -452,7 +494,10 @@
         "text": "Pilgrimage cancels ring effects before they can be interrupted (eg. [Restored Heirloom](https://fiveringsdb.com/card/restored-heirloom), [Asako Azunami](https://fiveringsdb.com/card/asako-azunami))."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-022.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-022.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "core-set-023",
@@ -477,7 +522,10 @@
         "text": "Changing the conflict type does not affect what other conflicts the attacker can declare. What matters is which conflict type was originally declared."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-023.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-023.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "core-set-024",
@@ -502,7 +550,10 @@
         "text": "Shameful Display can only be triggered if there are at least 2 eligible targets (participating characters that can each be either honored or dishonored; eligibility is assessed individually)."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-024.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-024.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "core-set-025",
@@ -5575,7 +5626,10 @@
       "Air"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-214a.jpg",
-    "flipSideOf": "core-set-214b"
+    "flipSideOf": "core-set-214b",
+    "roleClassifier": "keeper",
+    "roleRing": "air",
+    "influenceBonus": 3
   },
   {
     "id": "core-set-214b",
@@ -5591,7 +5645,9 @@
       "Air"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-214b.jpg",
-    "flipSideOf": "core-set-214a"
+    "flipSideOf": "core-set-214a",
+    "roleClassifier": "seeker",
+    "roleRing": "air"
   },
   {
     "id": "core-set-215a",
@@ -5607,7 +5663,10 @@
       "Earth"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-215a.jpg",
-    "flipSideOf": "core-set-215b"
+    "flipSideOf": "core-set-215b",
+    "roleClassifier": "keeper",
+    "roleRing": "earth",
+    "influenceBonus": 3
   },
   {
     "id": "core-set-215b",
@@ -5623,7 +5682,9 @@
       "Earth"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-215b.jpg",
-    "flipSideOf": "core-set-215a"
+    "flipSideOf": "core-set-215a",
+    "roleClassifier": "seeker",
+    "roleRing": "earth"
   },
   {
     "id": "core-set-216a",
@@ -5639,7 +5700,10 @@
       "Fire"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-216a.jpg",
-    "flipSideOf": "core-set-216b"
+    "flipSideOf": "core-set-216b",
+    "roleClassifier": "keeper",
+    "roleRing": "fire",
+    "influenceBonus": 3
   },
   {
     "id": "core-set-216b",
@@ -5655,7 +5719,9 @@
       "Fire"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-216b.jpg",
-    "flipSideOf": "core-set-216a"
+    "flipSideOf": "core-set-216a",
+    "roleClassifier": "seeker",
+    "roleRing": "fire"
   },
   {
     "id": "core-set-217a",
@@ -5671,7 +5737,10 @@
       "Water"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-217a.jpg",
-    "flipSideOf": "core-set-217b"
+    "flipSideOf": "core-set-217b",
+    "roleClassifier": "keeper",
+    "roleRing": "water",
+    "influenceBonus": 3
   },
   {
     "id": "core-set-217b",
@@ -5687,7 +5756,9 @@
       "Water"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-217b.jpg",
-    "flipSideOf": "core-set-217a"
+    "flipSideOf": "core-set-217a",
+    "roleClassifier": "seeker",
+    "roleRing": "water"
   },
   {
     "id": "core-set-218a",
@@ -5703,7 +5774,10 @@
       "Void"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-218a.jpg",
-    "flipSideOf": "core-set-218b"
+    "flipSideOf": "core-set-218b",
+    "roleClassifier": "keeper",
+    "roleRing": "void",
+    "influenceBonus": 3
   },
   {
     "id": "core-set-218b",
@@ -5719,6 +5793,8 @@
       "Void"
     ],
     "imagePath": "/cards/l5r-lcg/core-set-218b.jpg",
-    "flipSideOf": "core-set-218a"
+    "flipSideOf": "core-set-218a",
+    "roleClassifier": "seeker",
+    "roleRing": "void"
   }
 ]

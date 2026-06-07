@@ -14,7 +14,11 @@
     "traits": [
       "City"
     ],
-    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-049.jpg"
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-049.jpg",
+    "elements": [
+      "air",
+      "fire"
+    ]
   },
   {
     "id": "in-pursuit-of-truth-050",
@@ -30,7 +34,11 @@
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-050.jpg"
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-050.jpg",
+    "elements": [
+      "air",
+      "water"
+    ]
   },
   {
     "id": "in-pursuit-of-truth-051",
@@ -43,7 +51,10 @@
     "name": "Courteous Greeting",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-051.jpg"
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-051.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "in-pursuit-of-truth-052",

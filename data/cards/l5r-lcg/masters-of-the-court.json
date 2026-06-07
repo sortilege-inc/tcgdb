@@ -11,12 +11,12 @@
     "name": "Kyūden Kakita",
     "clan": "Crane",
     "honor": 11,
-    "fate": 7,
     "influencePool": 9,
     "traits": [
       "Palace"
     ],
-    "imagePath": "/cards/l5r-lcg/masters-of-the-court-001.jpg"
+    "imagePath": "/cards/l5r-lcg/masters-of-the-court-001.jpg",
+    "fateIncome": 7
   },
   {
     "id": "masters-of-the-court-002",
@@ -33,7 +33,10 @@
     "traits": [
       "Marketplace"
     ],
-    "imagePath": "/cards/l5r-lcg/masters-of-the-court-002.jpg"
+    "imagePath": "/cards/l5r-lcg/masters-of-the-court-002.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "masters-of-the-court-003",
@@ -46,7 +49,11 @@
     "traits": [
       "Crane"
     ],
-    "imagePath": "/cards/l5r-lcg/masters-of-the-court-003.jpg"
+    "imagePath": "/cards/l5r-lcg/masters-of-the-court-003.jpg",
+    "roleClassifier": "support",
+    "roleClan": "Crane",
+    "influenceBonus": 8,
+    "forcesSplashClan": "Crane"
   },
   {
     "id": "masters-of-the-court-004",

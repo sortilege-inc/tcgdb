@@ -156,7 +156,10 @@
     "name": "Slaughtered Village",
     "clan": "Crab",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/clan-war-013.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-013.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "clan-war-014",
@@ -169,7 +172,10 @@
     "name": "Model of Courtesy",
     "clan": "Crane",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/clan-war-014.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-014.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "clan-war-015",
@@ -183,7 +189,10 @@
     "name": "Karmic Teachings",
     "clan": "Dragon",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/clan-war-015.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-015.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "clan-war-016",
@@ -196,7 +205,10 @@
     "name": "Strategizing",
     "clan": "Lion",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/clan-war-016.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-016.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "clan-war-017",
@@ -209,7 +221,10 @@
     "name": "Fury of the Kami",
     "clan": "Phoenix",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/clan-war-017.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-017.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "clan-war-018",
@@ -222,7 +237,10 @@
     "name": "Shadowed Alleyway",
     "clan": "Scorpion",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/clan-war-018.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-018.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "clan-war-019",
@@ -235,7 +253,10 @@
     "name": "Fields of the Wind",
     "clan": "Unicorn",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/clan-war-019.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-019.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "clan-war-020",
@@ -251,7 +272,10 @@
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-020.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-020.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "clan-war-021",
@@ -267,7 +291,10 @@
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-021.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-021.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "clan-war-022",
@@ -283,7 +310,10 @@
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-022.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-022.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "clan-war-023",
@@ -299,7 +329,10 @@
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-023.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-023.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "clan-war-024",
@@ -315,7 +348,10 @@
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-024.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-024.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "clan-war-025",

@@ -14,7 +14,10 @@
     "traits": [
       "Imperial"
     ],
-    "imagePath": "/cards/l5r-lcg/twisted-loyalties-001.jpg"
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-001.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "twisted-loyalties-002",
@@ -28,7 +31,10 @@
     "name": "Brushfires",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/twisted-loyalties-002.jpg"
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-002.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "twisted-loyalties-003",

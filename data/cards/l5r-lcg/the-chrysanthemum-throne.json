@@ -14,7 +14,10 @@
     "traits": [
       "Imperial"
     ],
-    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-061.jpg"
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-061.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "the-chrysanthemum-throne-062",
@@ -27,7 +30,10 @@
     "name": "Guardians of the Seikitsu",
     "clan": "Neutral",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-062.jpg"
+    "imagePath": "/cards/l5r-lcg/the-chrysanthemum-throne-062.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "the-chrysanthemum-throne-063",

@@ -10,12 +10,12 @@
     "name": "Seven Fold Palace",
     "clan": "Crane",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Palace"
     ],
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-093.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-093.jpg",
+    "fateIncome": 7
   },
   {
     "id": "as-honor-demands-094",
@@ -32,7 +32,11 @@
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-094.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-094.jpg",
+    "elements": [
+      "fire",
+      "void"
+    ]
   },
   {
     "id": "as-honor-demands-095",
@@ -45,7 +49,10 @@
     "name": "Honor's Reward",
     "clan": "Neutral",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-095.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-095.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "as-honor-demands-096",

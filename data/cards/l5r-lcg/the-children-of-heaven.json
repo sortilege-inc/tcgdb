@@ -10,7 +10,10 @@
     "name": "Fortified Assembly",
     "clan": "Crab",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-067.jpg"
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-067.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "the-children-of-heaven-068",
@@ -23,7 +26,10 @@
     "name": "Emperor's Summons",
     "clan": "Neutral",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-068.jpg"
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-068.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "the-children-of-heaven-069",

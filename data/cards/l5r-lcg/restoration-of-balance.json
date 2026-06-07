@@ -67,7 +67,10 @@
     "traits": [
       "Oasis"
     ],
-    "imagePath": "/cards/l5r-lcg/restoration-of-balance-004.jpg"
+    "imagePath": "/cards/l5r-lcg/restoration-of-balance-004.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "restoration-of-balance-005",

@@ -11,12 +11,12 @@
     "name": "Hayaken no Shiro",
     "clan": "Lion",
     "honor": 12,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-071.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-071.jpg",
+    "fateIncome": 7
   },
   {
     "id": "campaigns-of-conquest-072",
@@ -29,7 +29,10 @@
     "name": "Breaking In",
     "clan": "Unicorn",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-072.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-072.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "campaigns-of-conquest-073",
@@ -42,7 +45,10 @@
     "name": "The Pursuit of Justice",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-073.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-073.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "campaigns-of-conquest-074",

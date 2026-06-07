@@ -11,12 +11,12 @@
     "name": "Kyūden Ikoma",
     "clan": "Lion",
     "honor": 13,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/the-emperors-legion-001.jpg"
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-001.jpg",
+    "fateIncome": 7
   },
   {
     "id": "the-emperors-legion-002",
@@ -32,7 +32,10 @@
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/the-emperors-legion-002.jpg"
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-002.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "the-emperors-legion-003",
@@ -45,7 +48,11 @@
     "traits": [
       "Lion"
     ],
-    "imagePath": "/cards/l5r-lcg/the-emperors-legion-003.jpg"
+    "imagePath": "/cards/l5r-lcg/the-emperors-legion-003.jpg",
+    "roleClassifier": "support",
+    "roleClan": "Lion",
+    "influenceBonus": 8,
+    "forcesSplashClan": "Lion"
   },
   {
     "id": "the-emperors-legion-004",

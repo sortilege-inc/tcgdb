@@ -11,12 +11,12 @@
     "name": "Kyūden Hida",
     "clan": "Crab",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-001.jpg"
+    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-001.jpg",
+    "fateIncome": 7
   },
   {
     "id": "defenders-of-rokugan-002",
@@ -32,7 +32,10 @@
     "traits": [
       "Wasteland"
     ],
-    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-002.jpg"
+    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-002.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "defenders-of-rokugan-003",
@@ -45,7 +48,11 @@
     "traits": [
       "Crab"
     ],
-    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-003.jpg"
+    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-003.jpg",
+    "roleClassifier": "support",
+    "roleClan": "Crab",
+    "influenceBonus": 8,
+    "forcesSplashClan": "Crab"
   },
   {
     "id": "defenders-of-rokugan-004",

@@ -11,12 +11,12 @@
     "name": "Shiro Gisu",
     "clan": "Phoenix",
     "honor": 10,
-    "fate": 7,
     "influencePool": 11,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-109.png"
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-109.png",
+    "fateIncome": 7
   },
   {
     "id": "peace-at-any-cost-110",
@@ -29,7 +29,10 @@
     "name": "Golden Plains",
     "clan": "Unicorn",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-110.jpg"
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-110.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "peace-at-any-cost-111",
@@ -42,7 +45,10 @@
     "name": "Lord's Ascendancy",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-111.jpg"
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-111.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "peace-at-any-cost-112",

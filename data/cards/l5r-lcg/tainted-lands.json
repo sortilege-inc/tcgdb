@@ -11,7 +11,10 @@
     "name": "Teachings of the Elements",
     "clan": "Phoenix",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/tainted-lands-021.jpg"
+    "imagePath": "/cards/l5r-lcg/tainted-lands-021.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "tainted-lands-022",
@@ -28,7 +31,10 @@
     "traits": [
       "Fort"
     ],
-    "imagePath": "/cards/l5r-lcg/tainted-lands-022.jpg"
+    "imagePath": "/cards/l5r-lcg/tainted-lands-022.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "tainted-lands-023",
@@ -41,7 +47,10 @@
     "name": "Upholding Authority",
     "clan": "Neutral",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/tainted-lands-023.jpg"
+    "imagePath": "/cards/l5r-lcg/tainted-lands-023.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "tainted-lands-024",

@@ -78,18 +78,47 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       politicalBonus: String
       glory: Int
       honor: Int
+      # Stronghold fate-per-round income (not a cost). Pre-rename name was
+      # 'fate', retained on the type for backward-compat reads; new data
+      # should use 'fateIncome'.
       fate: Int
+      fateIncome: Int
       influencePool: Int
+      # Province element associations. 'element' is the legacy single value
+      # (kept for backward-compat reads); 'elements' is the array form used
+      # by dual-element provinces (e.g. ["air","water"]).
       element: String
+      elements: [String]
       traits: [String]
       # ASCII-fied trait list (e.g. ["Bushi","Yojimbo"] alongside our display
       # ["Bushi","Yōjimbō"]). Optional. Text search includes this; UI displays 'traits'.
       traitsAscii: [String]
+      # ---- Deck-validation metadata ----
+      # Override default deckbuilding copy limit (L5R default = 3).
+      deckLimit: Int
+      legalIn: CardLegalIn
+      roleRestriction: CardRoleRestriction
+      # Role-card specific (only set when type === 'Role'):
+      roleClassifier: String
+      roleRing: String
+      roleClan: String
+      influenceBonus: Int
+      forcesSplashClan: String
       # Errata override (any subset of card fields can change). Stored as
       # JSON so the override is field-shape-flexible without enumerating
       # every possible field at the schema layer.
       errata: JSON
       rulings: [CardRuling]
+    }
+    type CardLegalIn {
+      standard: String
+      stronghold: String
+      skirmish: String
+    }
+    type CardRoleRestriction {
+      ring: String
+      type: String
+      clan: String
     }
     type CardRuling {
       date: String

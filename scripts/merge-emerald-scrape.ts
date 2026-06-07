@@ -334,9 +334,22 @@ function mergeRecord(
 
   if (imagePath) after.imagePath = imagePath
 
-  // Preserve project-specific fields when we have them.
+  // Preserve project-specific fields when we have them. These are fields
+  // the EmeraldDB scrape doesn't carry — they're authored by hand or by
+  // separate migration scripts (deck-validation metadata, role classifiers,
+  // province elements, etc.). Without this, a re-merge would silently wipe them.
   if (before.flipSideOf) after.flipSideOf = before.flipSideOf
   if (before.errata) after.errata = before.errata
+  if (before.elements) after.elements = before.elements
+  if (before.fateIncome != null) after.fateIncome = before.fateIncome
+  if (before.deckLimit != null) after.deckLimit = before.deckLimit
+  if (before.legalIn) after.legalIn = before.legalIn
+  if (before.roleRestriction) after.roleRestriction = before.roleRestriction
+  if (before.roleClassifier) after.roleClassifier = before.roleClassifier
+  if (before.roleRing) after.roleRing = before.roleRing
+  if (before.roleClan) after.roleClan = before.roleClan
+  if (before.influenceBonus != null) after.influenceBonus = before.influenceBonus
+  if (before.forcesSplashClan) after.forcesSplashClan = before.forcesSplashClan
 
   // Diff vs before for reporting.
   const diffs: FieldDiff[] = []

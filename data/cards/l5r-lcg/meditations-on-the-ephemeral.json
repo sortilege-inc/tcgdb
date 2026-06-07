@@ -13,7 +13,10 @@
     "traits": [
       "River"
     ],
-    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-101.jpg"
+    "imagePath": "/cards/l5r-lcg/meditations-on-the-ephemeral-101.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "meditations-on-the-ephemeral-102",

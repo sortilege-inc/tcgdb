@@ -11,12 +11,12 @@
     "name": "Hisu Mori Toride",
     "clan": "Lion",
     "honor": 11,
-    "fate": 7,
     "influencePool": 9,
     "traits": [
       "Fort"
     ],
-    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-001.jpg"
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-001.jpg",
+    "fateIncome": 7
   },
   {
     "id": "breath-of-the-kami-002",
@@ -32,7 +32,10 @@
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-002.jpg"
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-002.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "breath-of-the-kami-003",
@@ -45,7 +48,10 @@
     "name": "Demonstrating Excellence",
     "clan": "Neutral",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-003.jpg"
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-003.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "breath-of-the-kami-004",

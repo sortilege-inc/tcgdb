@@ -13,7 +13,10 @@
     "traits": [
       "Battlefield"
     ],
-    "imagePath": "/cards/l5r-lcg/bonds-of-blood-023.jpg"
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-023.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "bonds-of-blood-024",
@@ -30,7 +33,10 @@
     "traits": [
       "Battlefield"
     ],
-    "imagePath": "/cards/l5r-lcg/bonds-of-blood-024.jpg"
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-024.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "bonds-of-blood-025",
@@ -46,7 +52,10 @@
     "traits": [
       "Festival"
     ],
-    "imagePath": "/cards/l5r-lcg/bonds-of-blood-025.jpg"
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-025.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "bonds-of-blood-026",

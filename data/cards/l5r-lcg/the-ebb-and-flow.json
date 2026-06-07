@@ -11,7 +11,10 @@
     "name": "Flooded Waste",
     "clan": "Crab",
     "strength": 2,
-    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-061.jpg"
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-061.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "the-ebb-and-flow-062",
@@ -24,7 +27,10 @@
     "name": "Seeking the Truth",
     "clan": "Neutral",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-062.jpg"
+    "imagePath": "/cards/l5r-lcg/the-ebb-and-flow-062.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "the-ebb-and-flow-063",

@@ -11,7 +11,6 @@
     "name": "Kyūden Bayushi",
     "clan": "Scorpion",
     "honor": 9,
-    "fate": 7,
     "influencePool": 9,
     "traits": [
       "Palace"
@@ -22,7 +21,8 @@
         "text": "Kyuden Bayushi can be triggered to give a ready, dishonored character +1/+1 (the bonus is not dependent on readying)."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-001.jpg"
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-001.jpg",
+    "fateIncome": 7
   },
   {
     "id": "underhand-of-the-emperor-002",
@@ -41,7 +41,10 @@
     "traitsAscii": [
       "Dojo"
     ],
-    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-002.jpg"
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-002.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "underhand-of-the-emperor-003",
@@ -54,7 +57,11 @@
     "traits": [
       "Scorpion"
     ],
-    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-003.jpg"
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-003.jpg",
+    "roleClassifier": "support",
+    "roleClan": "Scorpion",
+    "influenceBonus": 8,
+    "forcesSplashClan": "Scorpion"
   },
   {
     "id": "underhand-of-the-emperor-004",

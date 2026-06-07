@@ -109,6 +109,48 @@ export interface Card {
    * not here.
    */
   flipSideOf?: string
+
+  // ---------------------------------------------------------------------
+  // Deck-validation metadata (used by GameModule.validate() at deck time).
+  // All fields optional; absence means "default behavior".
+  // ---------------------------------------------------------------------
+
+  /** Override the default deckbuilding copy limit (L5R default = 3).
+   *  Some cards print "Limit X per deck" — set X here. */
+  deckLimit?: number
+
+  /** Per-format legality. Absence of a format key means "legal" by default.
+   *  Used to encode banned/restricted-list state without mutating card text. */
+  legalIn?: {
+    standard?: 'legal' | 'restricted' | 'banned'
+    stronghold?: 'legal' | 'restricted' | 'banned'
+    skirmish?: 'legal' | 'restricted' | 'banned'
+  }
+
+  /** Deckbuilding restriction printed on the card text, e.g. "Air role only"
+   *  or "Keeper role only". The deck's chosen Role must satisfy each set field. */
+  roleRestriction?: {
+    /** Ring required on the role (matches Role card's `roleRing`). */
+    ring?: 'air' | 'earth' | 'fire' | 'water' | 'void'
+    /** Role classification required (Keeper / Seeker / Support). */
+    type?: 'keeper' | 'seeker' | 'support'
+    /** Clan required on the role (matches Role card's `roleClan`). */
+    clan?: string
+  }
+
+  // ---------- Role-card-specific fields (only set when type === 'Role'). ----------
+
+  /** What kind of role this is. */
+  roleClassifier?: 'keeper' | 'seeker' | 'support' | 'other'
+  /** Which ring the role is tied to (Keeper of [Ring] / Seeker of [Ring]). */
+  roleRing?: 'air' | 'earth' | 'fire' | 'water' | 'void'
+  /** Which clan the role supports (Support of [Clan]). */
+  roleClan?: string
+  /** Flat bonus added to the deck's influence pool (Keeper +3, Support +8). */
+  influenceBonus?: number
+  /** When set, this role mandates the deck's splash clan (Support roles). */
+  forcesSplashClan?: string
+
   [gameField: string]: unknown
 }
 
@@ -146,6 +188,10 @@ export interface Deck {
   built: boolean
   enforceErrata: boolean
   publisherFilter: PublisherFilter
+  /** L5R: the deck's secondary clan for splash, if any. Player sets at
+   *  deck-create OR it gets auto-set the first time an out-of-clan card
+   *  is added. Null/undefined = mono-clan deck so far. */
+  splashClan?: string
   notes?: string
   createdAt: string
   updatedAt: string

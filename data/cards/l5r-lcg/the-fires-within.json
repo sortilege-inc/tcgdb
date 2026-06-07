@@ -10,7 +10,10 @@
     "name": "Abandoning Honor",
     "clan": "Neutral",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/the-fires-within-041.jpg"
+    "imagePath": "/cards/l5r-lcg/the-fires-within-041.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "the-fires-within-042",

@@ -11,12 +11,12 @@
     "name": "Iron Mountain Castle",
     "clan": "Dragon",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/atonement-115.jpg"
+    "imagePath": "/cards/l5r-lcg/atonement-115.jpg",
+    "fateIncome": 7
   },
   {
     "id": "atonement-116",
@@ -30,7 +30,10 @@
     "name": "Unbridled Ambition",
     "clan": "Scorpion",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/atonement-116.png"
+    "imagePath": "/cards/l5r-lcg/atonement-116.png",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "atonement-117",
@@ -43,7 +46,10 @@
     "name": "Weight of Duty",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/atonement-117.jpg"
+    "imagePath": "/cards/l5r-lcg/atonement-117.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "atonement-118",

@@ -148,7 +148,10 @@
     "name": "Excellence, Attained",
     "clan": "Crane",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/shadows-of-doubt-008.jpg"
+    "imagePath": "/cards/l5r-lcg/shadows-of-doubt-008.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "shadows-of-doubt-009",
@@ -425,7 +428,10 @@
     "name": "River Crossing",
     "clan": "Lion",
     "strength": 1,
-    "imagePath": "/cards/l5r-lcg/shadows-of-doubt-022.jpg"
+    "imagePath": "/cards/l5r-lcg/shadows-of-doubt-022.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "shadows-of-doubt-023",
@@ -965,6 +971,9 @@
     "name": "Fallow Lands",
     "clan": "Neutral",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/shadows-of-doubt-050.jpg"
+    "imagePath": "/cards/l5r-lcg/shadows-of-doubt-050.jpg",
+    "elements": [
+      "void"
+    ]
   }
 ]

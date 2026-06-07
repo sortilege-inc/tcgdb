@@ -11,7 +11,6 @@
     "name": "Kyūden Isawa",
     "clan": "Phoenix",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Library",
@@ -29,7 +28,8 @@
         "text": "If a ***Spell*** event played via Kyūden Isawa has its effects canceled, it is still removed from the game.\n\nCards are removed from the game faceup."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-001.png"
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-001.png",
+    "fateIncome": 7
   },
   {
     "id": "disciples-of-the-void-002",
@@ -63,7 +63,10 @@
         "text": "The Imperial Favor bonus still applies during conflicts at Sanpuku Seidō."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-002.jpg"
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-002.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "disciples-of-the-void-003",
@@ -83,7 +86,11 @@
         "text": "Support of the Phoenix can only be used on its own, it cannot be used along a ***Keeper/Seeker*** role."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-003.jpg"
+    "imagePath": "/cards/l5r-lcg/disciples-of-the-void-003.jpg",
+    "roleClassifier": "support",
+    "roleClan": "Phoenix",
+    "influenceBonus": 8,
+    "forcesSplashClan": "Phoenix"
   },
   {
     "id": "disciples-of-the-void-004",

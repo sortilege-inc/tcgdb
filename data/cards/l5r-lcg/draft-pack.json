@@ -11,12 +11,12 @@
     "name": "Closed Shell Castle",
     "clan": "Neutral",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-001.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-001.png",
+    "fateIncome": 7
   },
   {
     "id": "draft-pack-002",
@@ -29,7 +29,10 @@
     "name": "Overlooked Virtues",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/draft-pack-002.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-002.png",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "draft-pack-003",
@@ -42,7 +45,10 @@
     "name": "Enticing Wares",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/draft-pack-003.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-003.png",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "draft-pack-004",
@@ -55,7 +61,10 @@
     "name": "Noteworthy Deeds",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/draft-pack-004.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-004.png",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "draft-pack-005",
@@ -68,7 +77,10 @@
     "name": "Fruitful Crossroads",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/draft-pack-005.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-005.png",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "draft-pack-006",
@@ -81,7 +93,10 @@
     "name": "Empty Pockets",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/draft-pack-006.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-006.png",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "draft-pack-007",
@@ -100,7 +115,8 @@
       "Void",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-007.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-007.png",
+    "roleClassifier": "other"
   },
   {
     "id": "draft-pack-008",
@@ -119,7 +135,8 @@
       "Void",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-008.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-008.png",
+    "roleClassifier": "other"
   },
   {
     "id": "draft-pack-009",
@@ -138,7 +155,8 @@
       "Void",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-009.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-009.png",
+    "roleClassifier": "other"
   },
   {
     "id": "draft-pack-010",
@@ -157,7 +175,8 @@
       "Void",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-010.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-010.png",
+    "roleClassifier": "other"
   },
   {
     "id": "draft-pack-011",
@@ -176,7 +195,8 @@
       "Void",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-011.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-011.png",
+    "roleClassifier": "other"
   },
   {
     "id": "draft-pack-012",
@@ -195,7 +215,8 @@
       "Void",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-012.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-012.png",
+    "roleClassifier": "other"
   },
   {
     "id": "draft-pack-013",
@@ -214,7 +235,8 @@
       "Void",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-013.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-013.png",
+    "roleClassifier": "other"
   },
   {
     "id": "draft-pack-014",
@@ -227,6 +249,7 @@
     "traits": [
       "Ronin"
     ],
-    "imagePath": "/cards/l5r-lcg/draft-pack-014.png"
+    "imagePath": "/cards/l5r-lcg/draft-pack-014.png",
+    "roleClassifier": "other"
   }
 ]

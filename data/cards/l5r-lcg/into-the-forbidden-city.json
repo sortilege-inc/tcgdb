@@ -11,7 +11,10 @@
     "name": "Feast or Famine",
     "clan": "Neutral",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-041.png"
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-041.png",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "into-the-forbidden-city-042",
@@ -24,7 +27,10 @@
     "name": "Public Forum",
     "clan": "Neutral",
     "strength": 3,
-    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-042.jpg"
+    "imagePath": "/cards/l5r-lcg/into-the-forbidden-city-042.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "into-the-forbidden-city-043",

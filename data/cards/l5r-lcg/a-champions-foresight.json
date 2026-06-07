@@ -11,12 +11,12 @@
     "name": "Shiro Kitsuki",
     "clan": "Dragon",
     "honor": 10,
-    "fate": 7,
     "influencePool": 11,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/a-champions-foresight-089.jpg"
+    "imagePath": "/cards/l5r-lcg/a-champions-foresight-089.jpg",
+    "fateIncome": 7
   },
   {
     "id": "a-champions-foresight-090",
@@ -29,7 +29,10 @@
     "name": "Henshin Mysteries",
     "clan": "Phoenix",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/a-champions-foresight-090.jpg"
+    "imagePath": "/cards/l5r-lcg/a-champions-foresight-090.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "a-champions-foresight-091",
@@ -42,7 +45,10 @@
     "name": "Smuggler's Cove",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/a-champions-foresight-091.jpg"
+    "imagePath": "/cards/l5r-lcg/a-champions-foresight-091.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "a-champions-foresight-092",

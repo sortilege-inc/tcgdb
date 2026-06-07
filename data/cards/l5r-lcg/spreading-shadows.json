@@ -11,12 +11,12 @@
     "name": "Seven Stings Keep",
     "clan": "Scorpion",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Castle"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-025.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-025.jpg",
+    "fateIncome": 7
   },
   {
     "id": "spreading-shadows-026",
@@ -33,7 +33,11 @@
     "traits": [
       "Village"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-026.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-026.jpg",
+    "elements": [
+      "earth",
+      "water"
+    ]
   },
   {
     "id": "spreading-shadows-027",
@@ -49,7 +53,10 @@
     "traits": [
       "Spirit"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-027.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-027.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "spreading-shadows-028",
@@ -62,7 +69,10 @@
     "name": "Retire to the Brotherhood",
     "clan": "Phoenix",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-028.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-028.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "spreading-shadows-029",
@@ -79,7 +89,11 @@
     "traits": [
       "Road"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-029.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-029.jpg",
+    "elements": [
+      "fire",
+      "water"
+    ]
   },
   {
     "id": "spreading-shadows-030",
@@ -92,7 +106,10 @@
     "name": "Driven By Courage",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-030.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-030.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "spreading-shadows-031",

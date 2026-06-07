@@ -13,7 +13,10 @@
     "traits": [
       "Festival"
     ],
-    "imagePath": "/cards/l5r-lcg/children-of-the-empire-001.jpg"
+    "imagePath": "/cards/l5r-lcg/children-of-the-empire-001.jpg",
+    "elements": [
+      "air"
+    ]
   },
   {
     "id": "children-of-the-empire-002",
@@ -26,7 +29,10 @@
     "name": "Illustrious Forge",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/children-of-the-empire-002.jpg"
+    "imagePath": "/cards/l5r-lcg/children-of-the-empire-002.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "children-of-the-empire-003",
@@ -39,7 +45,10 @@
     "name": "Midnight Revels",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/children-of-the-empire-003.jpg"
+    "imagePath": "/cards/l5r-lcg/children-of-the-empire-003.jpg",
+    "elements": [
+      "water"
+    ]
   },
   {
     "id": "children-of-the-empire-004",
@@ -55,7 +64,10 @@
     "traits": [
       "Temple"
     ],
-    "imagePath": "/cards/l5r-lcg/children-of-the-empire-004.jpg"
+    "imagePath": "/cards/l5r-lcg/children-of-the-empire-004.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "children-of-the-empire-005",
@@ -69,7 +81,10 @@
     "name": "Vassal Fields",
     "clan": "Neutral",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/children-of-the-empire-005.jpg"
+    "imagePath": "/cards/l5r-lcg/children-of-the-empire-005.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "children-of-the-empire-006",

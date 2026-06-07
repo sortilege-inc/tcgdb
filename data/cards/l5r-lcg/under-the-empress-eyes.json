@@ -11,12 +11,12 @@
     "name": "Ebony Blood Garrison",
     "clan": "Crab",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Fort"
     ],
-    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-001.jpg"
+    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-001.jpg",
+    "fateIncome": 7
   },
   {
     "id": "under-the-empress-eyes-002",
@@ -140,12 +140,12 @@
     "name": "Tranquil Overlook Dojo",
     "clan": "Dragon",
     "honor": 11,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Dojo"
     ],
-    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-007.jpg"
+    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-007.jpg",
+    "fateIncome": 7
   },
   {
     "id": "under-the-empress-eyes-008",
@@ -272,12 +272,12 @@
     "name": "Inquisitor's Grove",
     "clan": "Phoenix",
     "honor": 12,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Garden"
     ],
-    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-013.jpg"
+    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-013.jpg",
+    "fateIncome": 7
   },
   {
     "id": "under-the-empress-eyes-014",
@@ -333,12 +333,12 @@
     "name": "Theatre of Honest Lies",
     "clan": "Scorpion",
     "honor": 10,
-    "fate": 7,
     "influencePool": 10,
     "traits": [
       "Theatre"
     ],
-    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-016.jpg"
+    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-016.jpg",
+    "fateIncome": 7
   },
   {
     "id": "under-the-empress-eyes-017",
@@ -450,7 +450,10 @@
     "name": "Landfall",
     "clan": "Neutral",
     "strength": 2,
-    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-022.jpg"
+    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-022.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "under-the-empress-eyes-023",

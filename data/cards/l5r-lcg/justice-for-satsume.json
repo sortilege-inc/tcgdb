@@ -10,7 +10,10 @@
     "name": "Conflict Between Kin",
     "clan": "Crane",
     "strength": 5,
-    "imagePath": "/cards/l5r-lcg/justice-for-satsume-045.jpg"
+    "imagePath": "/cards/l5r-lcg/justice-for-satsume-045.jpg",
+    "elements": [
+      "void"
+    ]
   },
   {
     "id": "justice-for-satsume-046",
@@ -24,7 +27,10 @@
     "name": "Effective Deception",
     "clan": "Scorpion",
     "strength": 4,
-    "imagePath": "/cards/l5r-lcg/justice-for-satsume-046.jpg"
+    "imagePath": "/cards/l5r-lcg/justice-for-satsume-046.jpg",
+    "elements": [
+      "earth"
+    ]
   },
   {
     "id": "justice-for-satsume-047",
@@ -40,7 +46,10 @@
     "traits": [
       "Imperial"
     ],
-    "imagePath": "/cards/l5r-lcg/justice-for-satsume-047.jpg"
+    "imagePath": "/cards/l5r-lcg/justice-for-satsume-047.jpg",
+    "elements": [
+      "fire"
+    ]
   },
   {
     "id": "justice-for-satsume-048",
