@@ -20,7 +20,7 @@ export default function DecksIndexPage(
   const game = getGame(gameId)
   const decks = useGameDecks(gameId)
   const collection = useGameCollection(gameId)
-  const { loading, error, readOnly } = useSidecarState()
+  const { loading, error, readOnly, deleteDeck } = useSidecarState()
 
   const [origin, setOrigin] = React.useState<OriginFilter>('all')
   const [builtFilter, setBuiltFilter] = React.useState<BuiltFilter>('any')
@@ -107,6 +107,15 @@ export default function DecksIndexPage(
               gameId={gameId}
               deck={d}
               availability={availability.get(d.id)}
+              readOnly={readOnly}
+              onDelete={async () => {
+                if (!window.confirm(`Delete "${d.name}"? This cannot be undone.`)) return
+                try {
+                  await deleteDeck(gameId, d.id)
+                } catch (err: unknown) {
+                  alert(`Failed: ${err instanceof Error ? err.message : String(err)}`)
+                }
+              }}
             />
           ))}
         </ul>
@@ -142,8 +151,14 @@ function FilterGroup({
 }
 
 function DeckRow({
-  gameId, deck, availability,
-}: { gameId: string; deck: Deck; availability: DeckAvailability | undefined }): React.ReactElement {
+  gameId, deck, availability, readOnly, onDelete,
+}: {
+  gameId: string
+  deck: Deck
+  availability: DeckAvailability | undefined
+  readOnly: boolean
+  onDelete: () => void | Promise<void>
+}): React.ReactElement {
   const totalCards = React.useMemo(() => {
     let n = 0
     for (const entries of Object.values(deck.zones)) {
@@ -168,7 +183,7 @@ function DeckRow({
         padding: '0.65rem 0.75rem',
         borderBottom: '1px solid var(--theme-border)',
         display: 'grid',
-        gridTemplateColumns: '1fr auto auto auto auto auto',
+        gridTemplateColumns: '1fr auto auto auto auto auto auto',
         gap: '0.75rem',
         alignItems: 'baseline',
       }}
@@ -222,6 +237,36 @@ function DeckRow({
       <span style={{ opacity: 0.5, fontSize: '0.75rem', fontVariantNumeric: 'tabular-nums' }}>
         {totalCards} cards · {deck.updatedAt.slice(0, 10)}
       </span>
+      <button
+        type="button"
+        onClick={() => { void onDelete() }}
+        disabled={readOnly}
+        title={readOnly ? 'Read-only build' : `Delete "${deck.name}"`}
+        aria-label={`Delete ${deck.name}`}
+        style={{
+          background: 'transparent',
+          border: '1px solid transparent',
+          color: 'var(--theme-text-muted, #9aa1ad)',
+          padding: '0.1rem 0.4rem',
+          fontSize: '0.85rem',
+          cursor: readOnly ? 'not-allowed' : 'pointer',
+          opacity: readOnly ? 0.35 : 0.7,
+          borderRadius: 4,
+        }}
+        onMouseEnter={(e) => {
+          if (readOnly) return
+          e.currentTarget.style.color = '#e8755a'
+          e.currentTarget.style.borderColor = 'rgba(192, 57, 43, 0.45)'
+          e.currentTarget.style.opacity = '1'
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.color = 'var(--theme-text-muted, #9aa1ad)'
+          e.currentTarget.style.borderColor = 'transparent'
+          e.currentTarget.style.opacity = readOnly ? '0.35' : '0.7'
+        }}
+      >
+        ✕
+      </button>
     </li>
   )
 }

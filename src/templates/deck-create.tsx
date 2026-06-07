@@ -19,6 +19,11 @@ interface RoleNode {
   name: string
   clan: string | null
   setId: string
+  roleClassifier?: string | null
+  roleRing?: string | null
+  roleClan?: string | null
+  forcesSplashClan?: string | null
+  influenceBonus?: number | null
 }
 
 interface SetNode {
@@ -75,6 +80,10 @@ export default function DeckCreatePage(
   const [clan, setClan] = React.useState<Clan | ''>('')
   const [strongholdId, setStrongholdId] = React.useState('')
   const [roleId, setRoleId] = React.useState('')
+  // null = the user explicitly chose "no splash" (mono-clan).
+  // undefined = the user hasn't decided yet — gets auto-set on first
+  //              out-of-clan card add in the editor.
+  const [splashClan, setSplashClan] = React.useState<string | null | undefined>(undefined)
   const [notes, setNotes] = React.useState('')
   const [origin, setOrigin] = React.useState<'own' | 'imported'>('own')
   const [importedFrom, setImportedFrom] = React.useState('')
@@ -87,6 +96,18 @@ export default function DeckCreatePage(
     const sh = strongholds.find((s) => s.cardId === strongholdId)
     if (sh && sh.clan !== clan) setStrongholdId('')
   }, [clan, strongholdId, strongholds])
+
+  // When the selected role forces a splash clan (Support of [Clan]),
+  // adopt it; when the role changes away from a forcing role, leave the
+  // user's previous pick alone unless it conflicts.
+  const selectedRole = React.useMemo(
+    () => roles.find((r) => r.cardId === roleId) ?? null,
+    [roles, roleId]
+  )
+  const forcedSplashClan = selectedRole?.forcesSplashClan ?? null
+  React.useEffect(() => {
+    if (forcedSplashClan) setSplashClan(forcedSplashClan)
+  }, [forcedSplashClan])
 
   const strongholdsForClan = React.useMemo(() => {
     if (!clan) return []
@@ -126,6 +147,10 @@ export default function DeckCreatePage(
           { cardId: roleId, qty: 1 },
         ],
       }
+      // Only send splashClan when the user has actually picked one (clan name
+      // or null=mono-clan); undefined means "decide later" and we leave the
+      // field unset on the deck so the editor can auto-populate it later.
+      const resolvedSplash = forcedSplashClan ?? splashClan
       const deck = await createDeck({
         gameId,
         formatId,
@@ -134,6 +159,7 @@ export default function DeckCreatePage(
         importedFrom: origin === 'imported' && importedFrom.trim() ? importedFrom : undefined,
         notes: notes.trim() || undefined,
         zones,
+        ...(resolvedSplash ? { splashClan: resolvedSplash } : {}),
       })
       void navigate(`/games/${gameId}/decks/${deck.id}/`)
     } catch (err: unknown) {
@@ -328,6 +354,85 @@ export default function DeckCreatePage(
               Heads up — Support of the {clan} on a {clan} deck is unusual.
               Most players pick this role when splashing into a clan they don&apos;t already play.
             </p>
+          )}
+        </Section>
+
+        {/* Step 5: Splash clan (optional) */}
+        <Section
+          step={5}
+          title="Splash clan"
+          summary={
+            forcedSplashClan
+              ? `${forcedSplashClan} (locked by role)`
+              : splashClan === null
+                ? 'None (mono-clan)'
+                : splashClan
+                  ? `${splashClan}`
+                  : 'Decide later'
+          }
+        >
+          {!clan ? (
+            <p style={{ opacity: 0.6, fontSize: '0.85rem', margin: 0 }}>
+              Pick a clan first.
+            </p>
+          ) : forcedSplashClan ? (
+            <p style={{ opacity: 0.7, fontSize: '0.85rem', margin: 0 }}>
+              Your role <strong>{selectedRole?.name}</strong> locks your splash to{' '}
+              <strong>{forcedSplashClan}</strong>.
+            </p>
+          ) : (
+            <>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                {/* "Decide later" — default; gets auto-set on first out-of-clan add */}
+                <button
+                  type="button"
+                  onClick={() => setSplashClan(undefined)}
+                  disabled={submitting || readOnly}
+                  style={chipButtonStyle(splashClan === undefined)}
+                  title="Leave unset; the editor will set this when you add the first off-clan card."
+                >
+                  Decide later
+                </button>
+                {/* Explicit mono-clan */}
+                <button
+                  type="button"
+                  onClick={() => setSplashClan(null)}
+                  disabled={submitting || readOnly}
+                  style={chipButtonStyle(splashClan === null)}
+                  title="No splash — only your primary clan + Neutral cards."
+                >
+                  None (mono-clan)
+                </button>
+                {CLANS.filter((c) => c !== clan).map((c) => {
+                  const active = splashClan === c
+                  return (
+                    <button
+                      key={c}
+                      type="button"
+                      onClick={() => setSplashClan(c)}
+                      disabled={submitting || readOnly}
+                      style={{
+                        ...chipButtonStyle(active),
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.45rem',
+                        background: active ? CLAN_ACCENT[c].color : 'var(--theme-surface-2)',
+                        color: active ? '#fff' : 'var(--theme-text)',
+                        borderColor: active ? CLAN_ACCENT[c].color : 'var(--theme-border)',
+                      }}
+                    >
+                      <ClanBubble clan={c} inverted={active} />
+                      {c}
+                    </button>
+                  )
+                })}
+              </div>
+              <p style={{ opacity: 0.6, fontSize: '0.78rem', marginTop: '0.55rem', margin: 0 }}>
+                You may only ever have one splash clan. If you skip this, the
+                editor will lock it in the first time you add an out-of-clan
+                card to your conflict deck.
+              </p>
+            </>
           )}
         </Section>
 
@@ -646,6 +751,11 @@ export const query = graphql`
         name
         clan
         setId
+        roleClassifier
+        roleRing
+        roleClan
+        forcesSplashClan
+        influenceBonus
       }
     }
     allCardSet(filter: { gameId: { eq: $gameId } }) {

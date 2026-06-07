@@ -118,6 +118,7 @@ export interface CreateDeckInput {
   zones?: Record<string, { cardId: string; qty: number }[]>
   enforceErrata?: boolean
   publisherFilter?: PublisherFilter
+  splashClan?: string
   notes?: string
 }
 
@@ -130,6 +131,8 @@ export interface PatchDeckInput {
   built?: boolean
   enforceErrata?: boolean
   publisherFilter?: PublisherFilter
+  /** Pass null to clear the deck's splash clan. */
+  splashClan?: string | null
   notes?: string
 }
 

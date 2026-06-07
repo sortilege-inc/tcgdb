@@ -26,6 +26,9 @@ interface Deck {
   built: boolean
   enforceErrata: boolean
   publisherFilter: PublisherFilter
+  /** L5R: declared secondary clan for splash (player-set or auto-set on
+   *  first out-of-clan add). Undefined = no splash yet (mono-clan). */
+  splashClan?: string
   notes?: string
   createdAt: string
   updatedAt: string
@@ -68,6 +71,7 @@ interface CreateDeckBody {
   zones?: Record<string, DeckEntry[]>
   enforceErrata?: boolean
   publisherFilter?: PublisherFilter
+  splashClan?: string
   notes?: string
 }
 
@@ -80,6 +84,7 @@ interface PatchDeckBody {
   built?: boolean
   enforceErrata?: boolean
   publisherFilter?: PublisherFilter
+  splashClan?: string | null   // pass null to clear
   notes?: string
 }
 
@@ -139,6 +144,7 @@ export function decksRouter(): Router {
       built: false,
       enforceErrata: !!body.enforceErrata,
       publisherFilter: body.publisherFilter ?? { mode: 'official-only' },
+      ...(body.splashClan ? { splashClan: body.splashClan } : {}),
       ...(body.notes ? { notes: body.notes } : {}),
       createdAt: nowIso(),
       updatedAt: nowIso(),
@@ -176,6 +182,9 @@ export function decksRouter(): Router {
           ...(body.built !== undefined ? { built: !!body.built } : {}),
           ...(body.enforceErrata !== undefined ? { enforceErrata: !!body.enforceErrata } : {}),
           ...(body.publisherFilter !== undefined ? { publisherFilter: body.publisherFilter } : {}),
+          ...(body.splashClan !== undefined
+            ? (body.splashClan === null ? { splashClan: undefined } : { splashClan: body.splashClan })
+            : {}),
           ...(body.notes !== undefined ? { notes: body.notes } : {}),
           updatedAt: nowIso(),
         }
