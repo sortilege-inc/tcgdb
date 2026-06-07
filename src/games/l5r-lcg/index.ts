@@ -1,4 +1,5 @@
 import { makeStubModule } from '../stub'
+import { validateL5RDeck } from './validate'
 import type { GameModule, SearchFieldSpec, CardDisplayField } from '../_types'
 import type { Card, CardSet } from '../../types/data'
 
@@ -104,6 +105,7 @@ const base = makeStubModule('l5r-lcg')
 
 export const l5rModule: GameModule = {
   ...base,
+  validate: validateL5RDeck,
   searchableFields,
   cardDisplaySchema,
   expectedCopiesPerBox,
