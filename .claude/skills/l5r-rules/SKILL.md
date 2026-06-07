@@ -6,13 +6,32 @@ description: Authoritative rules and terminology for Legend of the Five Rings �
 # Legend of the Five Rings: The Card Game — Rules Reference (Distilled)
 
 This skill is **sourced**: every factual claim cites the Rules Reference
-Guide v17 (RRG), Fantasy Flight Games, August 10, 2021. The PDF is at
-`docs/l5r-rules-reference-v17.pdf` in this repo. Page citations like
-*(RRG p. 19)* refer to that PDF.
+Guide v17 (RRG), Fantasy Flight Games, August 10, 2021. Page citations like
+*(RRG p. 19)* refer to the FFG v17 PDF, which is the **authoritative source
+for the default Stronghold format** that tcgdb / tcggg target.
+
+**Three available rule sources** (use in this order of authority):
+
+1. `docs/l5r-rules-reference-v17.pdf` — **FFG official RRG v17** (Aug 10, 2021).
+   The PDF is the canonical reference for FFG-era L5R LCG. Use this as the
+   primary citation target.
+2. `docs/rules-source/Rules Reference Guide.adoc` — **Emerald Legacy RRG v5.0**
+   (May 10, 2025). The fan-continuation RRG, in asciidoc source. Cleaner to
+   parse than the PDF and useful for cross-checking specific entries (the
+   asciidoc is glossary-structured with `_Example:_` blocks, named anchors,
+   etc.). EL v5.0 explicitly diverges from FFG v17 in a handful of rulings;
+   when it does, **FFG v17 wins for the Stronghold format**. Use EL v5.0 as
+   a secondary citation, and note "EL §X" alongside "RRG p. Y" when both
+   agree, or "EL diverges, see §X" when they don't. Provenance + scope notes:
+   `docs/rules-source/PROVENANCE.md`.
+3. This file (`.claude/skills/l5r-rules/SKILL.md`) — distilled, not sourced.
+   Use it as a quick index, not as a fact source. When in doubt, re-open
+   the source.
 
 The skill is built from text extracted by `scripts/extract-rules-by-column.py`
 and structured by `scripts/parse-rrg-glossary.py`. To refresh, re-run those
-scripts; outputs land in `.tmp/`.
+scripts; outputs land in `.tmp/`. A future refresh pass should also parse the
+asciidoc source — much more reliable than the PDF OCR pipeline.
 
 > **The Jade Rule** — "If the text of this Rules Reference directly contradicts
 > the text of the Learn to Play book, the text of the Rules Reference takes
