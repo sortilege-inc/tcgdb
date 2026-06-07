@@ -89,7 +89,10 @@
       "Creature",
       "Duelist"
     ],
-    "imagePath": "/cards/l5r-lcg/elements-unbound-105.jpg"
+    "imagePath": "/cards/l5r-lcg/elements-unbound-105.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "elements-unbound-106",

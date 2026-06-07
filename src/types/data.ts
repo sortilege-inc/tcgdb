@@ -111,6 +111,29 @@ export interface Card {
   flipSideOf?: string
 
   // ---------------------------------------------------------------------
+  // Play-engine metadata (consumed by tcggg via the deck-export envelope).
+  // ---------------------------------------------------------------------
+
+  /**
+   * Printed keywords on the card, normalized to a lowercase canonical
+   * vocabulary. Parsed from the card's `text` field by
+   * scripts/backfill-l5r-keywords.ts.
+   *
+   * Canonical L5R vocabulary (as of FFG-era + Emerald Legacy): "covert",
+   * "courtesy", "pride", "sincerity", "rally", "eminent", "disguise",
+   * "restricted". The play engine dispatches generic keyword handlers off
+   * this list rather than re-parsing card text at runtime.
+   *
+   * Absence vs empty array is meaningful: `undefined` = "never parsed"
+   * (audit-flagged); `[]` = "parsed, no keywords found".
+   *
+   * Game-specific naming: not every TCG has "keywords" — this field is
+   * conventionally only set for games where the play-engine consumer
+   * (tcggg) defines a keyword vocabulary.
+   */
+  keywords?: string[]
+
+  // ---------------------------------------------------------------------
   // Deck-validation metadata (used by GameModule.validate() at deck time).
   // All fields optional; absence means "default behavior".
   // ---------------------------------------------------------------------

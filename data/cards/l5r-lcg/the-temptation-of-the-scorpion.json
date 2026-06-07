@@ -39,7 +39,10 @@
       "Bushi",
       "Duelist"
     ],
-    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-068.jpg"
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-068.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "the-temptation-of-the-scorpion-069",
@@ -354,7 +357,10 @@
       "Black-scroll",
       "Item"
     ],
-    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-083.jpg"
+    "imagePath": "/cards/l5r-lcg/the-temptation-of-the-scorpion-083.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "the-temptation-of-the-scorpion-084",

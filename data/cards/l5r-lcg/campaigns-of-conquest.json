@@ -90,7 +90,10 @@
     "traits": [
       "Bushi"
     ],
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-075.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-075.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "campaigns-of-conquest-076",
@@ -126,7 +129,10 @@
       "Bushi",
       "Duelist"
     ],
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-077.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-077.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "campaigns-of-conquest-078",
@@ -139,7 +145,10 @@
     "name": "Hidden Mountain Pass",
     "clan": "Dragon",
     "deck": "dynasty",
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-078.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-078.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "campaigns-of-conquest-079",
@@ -161,7 +170,10 @@
       "Bushi",
       "Commander"
     ],
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-079.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-079.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "campaigns-of-conquest-080",
@@ -189,7 +201,10 @@
       "Fire",
       "Elemental-master"
     ],
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-080.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-080.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "campaigns-of-conquest-081",
@@ -203,7 +218,10 @@
     "clan": "Phoenix",
     "deck": "dynasty",
     "cost": 1,
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-081.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-081.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "campaigns-of-conquest-082",
@@ -225,7 +243,10 @@
       "Shadow",
       "Shinobi"
     ],
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-082.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-082.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "campaigns-of-conquest-083",
@@ -238,7 +259,10 @@
     "name": "Open Window",
     "clan": "Scorpion",
     "deck": "dynasty",
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-083.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-083.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "campaigns-of-conquest-084",
@@ -252,7 +276,10 @@
     "clan": "Unicorn",
     "deck": "dynasty",
     "cost": 0,
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-084.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-084.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "campaigns-of-conquest-085",
@@ -298,7 +325,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-086.jpg"
+    "imagePath": "/cards/l5r-lcg/campaigns-of-conquest-086.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "campaigns-of-conquest-087",

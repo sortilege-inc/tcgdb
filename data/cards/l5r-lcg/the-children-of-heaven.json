@@ -285,7 +285,10 @@
       "Imperial",
       "Crown-prince"
     ],
-    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-080.jpg"
+    "imagePath": "/cards/l5r-lcg/the-children-of-heaven-080.jpg",
+    "keywords": [
+      "sincerity"
+    ]
   },
   {
     "id": "the-children-of-heaven-081",

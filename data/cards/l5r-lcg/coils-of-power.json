@@ -314,7 +314,10 @@
     "traits": [
       "Tattoo"
     ],
-    "imagePath": "/cards/l5r-lcg/coils-of-power-102.jpg"
+    "imagePath": "/cards/l5r-lcg/coils-of-power-102.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "coils-of-power-103",

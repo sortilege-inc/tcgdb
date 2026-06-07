@@ -256,7 +256,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-033.jpg"
+    "imagePath": "/cards/l5r-lcg/for-honor-and-glory-033.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "for-honor-and-glory-034",

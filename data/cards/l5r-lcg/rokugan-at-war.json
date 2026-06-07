@@ -67,6 +67,9 @@
     "elements": [
       "earth",
       "water"
+    ],
+    "keywords": [
+      "eminent"
     ]
   },
   {
@@ -88,6 +91,9 @@
     "elements": [
       "air",
       "void"
+    ],
+    "keywords": [
+      "eminent"
     ]
   },
   {
@@ -109,6 +115,9 @@
     "elements": [
       "earth",
       "void"
+    ],
+    "keywords": [
+      "eminent"
     ]
   },
   {
@@ -123,7 +132,10 @@
     "clan": "Crab",
     "deck": "dynasty",
     "cost": 1,
-    "imagePath": "/cards/l5r-lcg/rokugan-at-war-007.jpg"
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-007.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "rokugan-at-war-008",
@@ -265,7 +277,10 @@
     "clan": "Neutral",
     "deck": "dynasty",
     "cost": 1,
-    "imagePath": "/cards/l5r-lcg/rokugan-at-war-014.jpg"
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-014.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "rokugan-at-war-015",
@@ -337,7 +352,10 @@
       "Monk",
       "Tattooed"
     ],
-    "imagePath": "/cards/l5r-lcg/rokugan-at-war-018.jpg"
+    "imagePath": "/cards/l5r-lcg/rokugan-at-war-018.jpg",
+    "keywords": [
+      "sincerity"
+    ]
   },
   {
     "id": "rokugan-at-war-019",

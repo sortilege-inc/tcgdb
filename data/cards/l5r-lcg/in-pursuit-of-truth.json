@@ -18,6 +18,9 @@
     "elements": [
       "air",
       "fire"
+    ],
+    "keywords": [
+      "eminent"
     ]
   },
   {
@@ -38,6 +41,9 @@
     "elements": [
       "air",
       "water"
+    ],
+    "keywords": [
+      "eminent"
     ]
   },
   {
@@ -206,7 +212,10 @@
       "Void",
       "Scholar"
     ],
-    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-058.jpg"
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-058.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "in-pursuit-of-truth-059",
@@ -250,7 +259,10 @@
       "Water",
       "Scholar"
     ],
-    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-060.jpg"
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-060.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "in-pursuit-of-truth-061",
@@ -264,7 +276,10 @@
     "clan": "Neutral",
     "deck": "dynasty",
     "cost": 0,
-    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-061.jpg"
+    "imagePath": "/cards/l5r-lcg/in-pursuit-of-truth-061.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "in-pursuit-of-truth-062",

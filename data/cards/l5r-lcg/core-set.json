@@ -627,7 +627,11 @@
     "traits": [
       "Bushi"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-027.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-027.jpg",
+    "keywords": [
+      "courtesy",
+      "sincerity"
+    ]
   },
   {
     "id": "core-set-028",
@@ -870,7 +874,10 @@
         "text": "Kaiu Shuichi can trigger if there is any holding in play, even one controlled by your opponent."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-036.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-036.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "core-set-037",
@@ -1236,7 +1243,10 @@
         "text": "A card can have multiple instances of the same keyword, but functions as if it has one instance of that keyword."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-050.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-050.jpg",
+    "keywords": [
+      "sincerity"
+    ]
   },
   {
     "id": "core-set-051",
@@ -1803,7 +1813,10 @@
         "text": "The Pride keyword resolves immediately when the conflict winner is determined, before any Reactions to winning/losing a conflict can be used."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-071.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-071.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "core-set-072",
@@ -2043,7 +2056,10 @@
       "Courtier",
       "Scholar"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-081.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-081.jpg",
+    "keywords": [
+      "sincerity"
+    ]
   },
   {
     "id": "core-set-082",
@@ -2413,7 +2429,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-095.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-095.jpg",
+    "keywords": [
+      "sincerity"
+    ]
   },
   {
     "id": "core-set-096",
@@ -3644,7 +3663,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-140.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-140.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "core-set-141",
@@ -3951,7 +3973,10 @@
         "text": "An Ancestral attachment only goes to your hand if the card it is attached to leaves play. If an Ancestral attachmentis is discarded by a card effect (e.g. [Let Go](https://fiveringsdb.com/card/let-go) or [Miya Mystic](https://fiveringsdb.com/card/miya-mystic)) or due to a character having three of more Restricted atachments, it goes into the discard pile as normal."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-151.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-151.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "core-set-152",
@@ -4011,7 +4036,10 @@
         "text": "If you take control of an Ancestral attachment (e.g. via [Calling in Favors](https://fiveringsdb.com/card/calling-in-favors)), when the card it is attached to leaves play, the attachment goes to its owner's hand."
       }
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-153.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-153.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "core-set-154",
@@ -4274,7 +4302,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-163.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-163.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "core-set-164",
@@ -4776,7 +4807,10 @@
       "Bushi",
       "Yojimbo"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-181.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-181.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "core-set-182",
@@ -5294,7 +5328,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-200.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-200.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "core-set-201",
@@ -5315,7 +5352,10 @@
     "traits": [
       "Item"
     ],
-    "imagePath": "/cards/l5r-lcg/core-set-201.jpg"
+    "imagePath": "/cards/l5r-lcg/core-set-201.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "core-set-202",

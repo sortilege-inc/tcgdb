@@ -175,7 +175,10 @@
       "Bushi",
       "Yojimbo"
     ],
-    "imagePath": "/cards/l5r-lcg/atonement-123.jpg"
+    "imagePath": "/cards/l5r-lcg/atonement-123.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "atonement-124",
@@ -258,7 +261,10 @@
     "clan": "Neutral",
     "deck": "dynasty",
     "cost": 1,
-    "imagePath": "/cards/l5r-lcg/atonement-127.jpg"
+    "imagePath": "/cards/l5r-lcg/atonement-127.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "atonement-128",
@@ -342,7 +348,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/atonement-131.jpg"
+    "imagePath": "/cards/l5r-lcg/atonement-131.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "atonement-132",

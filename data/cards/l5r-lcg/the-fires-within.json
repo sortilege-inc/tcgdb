@@ -36,7 +36,10 @@
       "Bushi",
       "Scout"
     ],
-    "imagePath": "/cards/l5r-lcg/the-fires-within-042.jpg"
+    "imagePath": "/cards/l5r-lcg/the-fires-within-042.jpg",
+    "keywords": [
+      "sincerity"
+    ]
   },
   {
     "id": "the-fires-within-043",
@@ -118,7 +121,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/the-fires-within-046.jpg"
+    "imagePath": "/cards/l5r-lcg/the-fires-within-046.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "the-fires-within-047",
@@ -234,7 +240,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/the-fires-within-051.jpg"
+    "imagePath": "/cards/l5r-lcg/the-fires-within-051.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "the-fires-within-052",

@@ -130,7 +130,10 @@
       "Monk",
       "Heretic"
     ],
-    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-115.png"
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-115.png",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "peace-at-any-cost-116",
@@ -230,7 +233,10 @@
     "traits": [
       "Bushi"
     ],
-    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-120.jpg"
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-120.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "peace-at-any-cost-121",
@@ -310,7 +316,10 @@
     "traits": [
       "Technique"
     ],
-    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-124.jpg"
+    "imagePath": "/cards/l5r-lcg/peace-at-any-cost-124.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "peace-at-any-cost-125",

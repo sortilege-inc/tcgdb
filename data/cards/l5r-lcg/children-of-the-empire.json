@@ -328,7 +328,10 @@
       "Bushi",
       "Duelist"
     ],
-    "imagePath": "/cards/l5r-lcg/children-of-the-empire-017.jpg"
+    "imagePath": "/cards/l5r-lcg/children-of-the-empire-017.jpg",
+    "keywords": [
+      "courtesy"
+    ]
   },
   {
     "id": "children-of-the-empire-018",
@@ -412,7 +415,10 @@
       "Bushi",
       "Duelist"
     ],
-    "imagePath": "/cards/l5r-lcg/children-of-the-empire-021.jpg"
+    "imagePath": "/cards/l5r-lcg/children-of-the-empire-021.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "children-of-the-empire-022",
@@ -1199,7 +1205,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/children-of-the-empire-058.jpg"
+    "imagePath": "/cards/l5r-lcg/children-of-the-empire-058.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "children-of-the-empire-059",

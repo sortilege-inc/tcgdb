@@ -108,7 +108,10 @@
       "Monk",
       "Tattooed"
     ],
-    "imagePath": "/cards/l5r-lcg/all-and-nothing-086.jpg"
+    "imagePath": "/cards/l5r-lcg/all-and-nothing-086.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "all-and-nothing-087",
@@ -210,7 +213,10 @@
       "Shugenja",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/all-and-nothing-091.jpg"
+    "imagePath": "/cards/l5r-lcg/all-and-nothing-091.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "all-and-nothing-092",

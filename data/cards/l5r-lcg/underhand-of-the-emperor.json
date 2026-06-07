@@ -278,7 +278,10 @@
         "text": "The Reaction on Yasuki Oguri can be triggered an Unlimited number of times per round, but only once per event played.\n\n*A reaction with a specified limit that enables it to be triggered more than once per round may only be initiated once each time its specified triggering condition occurs.*"
       }
     ],
-    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-012.jpg"
+    "imagePath": "/cards/l5r-lcg/underhand-of-the-emperor-012.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "underhand-of-the-emperor-013",

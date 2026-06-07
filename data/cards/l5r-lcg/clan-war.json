@@ -796,7 +796,10 @@
       "Shugenja",
       "Water"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-046.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-046.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "clan-war-047",
@@ -1179,7 +1182,10 @@
     "traits": [
       "Technique"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-064.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-064.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "clan-war-065",
@@ -1326,7 +1332,10 @@
     "traits": [
       "Technique"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-073.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-073.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "clan-war-074",
@@ -1447,7 +1456,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/clan-war-080.jpg"
+    "imagePath": "/cards/l5r-lcg/clan-war-080.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "clan-war-081",

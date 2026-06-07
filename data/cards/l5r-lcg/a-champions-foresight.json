@@ -212,7 +212,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/a-champions-foresight-099.jpg"
+    "imagePath": "/cards/l5r-lcg/a-champions-foresight-099.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "a-champions-foresight-100",

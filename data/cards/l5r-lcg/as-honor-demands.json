@@ -36,6 +36,9 @@
     "elements": [
       "fire",
       "void"
+    ],
+    "keywords": [
+      "eminent"
     ]
   },
   {
@@ -72,7 +75,10 @@
     "traits": [
       "Bushi"
     ],
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-096.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-096.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "as-honor-demands-097",
@@ -115,7 +121,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-098.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-098.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "as-honor-demands-099",
@@ -136,7 +145,10 @@
       "Monk",
       "Tattooed"
     ],
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-099.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-099.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "as-honor-demands-100",
@@ -171,7 +183,10 @@
     "clan": "Lion",
     "deck": "dynasty",
     "cost": 0,
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-101.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-101.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "as-honor-demands-102",
@@ -228,7 +243,10 @@
     "traits": [
       "Geisha"
     ],
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-104.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-104.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "as-honor-demands-105",
@@ -269,7 +287,10 @@
       "Battlefield",
       "Village"
     ],
-    "imagePath": "/cards/l5r-lcg/as-honor-demands-106.jpg"
+    "imagePath": "/cards/l5r-lcg/as-honor-demands-106.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "as-honor-demands-107",

@@ -119,7 +119,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/tears-of-amaterasu-006.jpg"
+    "imagePath": "/cards/l5r-lcg/tears-of-amaterasu-006.jpg",
+    "keywords": [
+      "courtesy"
+    ]
   },
   {
     "id": "tears-of-amaterasu-007",

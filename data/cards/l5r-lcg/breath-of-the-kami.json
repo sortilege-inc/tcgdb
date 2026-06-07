@@ -219,7 +219,10 @@
       "Cavalry",
       "Commander"
     ],
-    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-011.jpg"
+    "imagePath": "/cards/l5r-lcg/breath-of-the-kami-011.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "breath-of-the-kami-012",

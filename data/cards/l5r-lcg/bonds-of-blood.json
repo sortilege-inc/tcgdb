@@ -192,7 +192,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/bonds-of-blood-031.jpg"
+    "imagePath": "/cards/l5r-lcg/bonds-of-blood-031.jpg",
+    "keywords": [
+      "courtesy"
+    ]
   },
   {
     "id": "bonds-of-blood-032",

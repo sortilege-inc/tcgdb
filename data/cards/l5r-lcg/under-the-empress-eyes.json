@@ -258,7 +258,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-012.jpg"
+    "imagePath": "/cards/l5r-lcg/under-the-empress-eyes-012.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "under-the-empress-eyes-013",

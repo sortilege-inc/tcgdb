@@ -468,7 +468,10 @@
       "Bushi",
       "Cavalry"
     ],
-    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-022.jpg"
+    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-022.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "defenders-of-rokugan-023",
@@ -649,7 +652,10 @@
       "Air",
       "Elemental-master"
     ],
-    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-031.jpg"
+    "imagePath": "/cards/l5r-lcg/defenders-of-rokugan-031.jpg",
+    "keywords": [
+      "courtesy"
+    ]
   },
   {
     "id": "defenders-of-rokugan-032",

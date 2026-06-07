@@ -323,7 +323,10 @@
     "traits": [
       "Technique"
     ],
-    "imagePath": "/cards/l5r-lcg/through-the-mists-016.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-016.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "through-the-mists-017",
@@ -343,7 +346,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/through-the-mists-017.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-017.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "through-the-mists-018",
@@ -364,7 +370,11 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/through-the-mists-018.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-018.jpg",
+    "keywords": [
+      "sincerity",
+      "restricted"
+    ]
   },
   {
     "id": "through-the-mists-019",
@@ -449,7 +459,10 @@
       "Follower",
       "Peasant"
     ],
-    "imagePath": "/cards/l5r-lcg/through-the-mists-022.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-022.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "through-the-mists-023",
@@ -1010,7 +1023,10 @@
       "Boat",
       "Otter-clan"
     ],
-    "imagePath": "/cards/l5r-lcg/through-the-mists-049.jpg"
+    "imagePath": "/cards/l5r-lcg/through-the-mists-049.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "through-the-mists-050",

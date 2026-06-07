@@ -271,7 +271,10 @@
       "Imperial",
       "Crown-prince"
     ],
-    "imagePath": "/cards/l5r-lcg/for-the-empire-013.jpg"
+    "imagePath": "/cards/l5r-lcg/for-the-empire-013.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "for-the-empire-014",

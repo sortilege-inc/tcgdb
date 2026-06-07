@@ -1560,7 +1560,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-081.jpg"
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-081.jpg",
+    "keywords": [
+      "courtesy"
+    ]
   },
   {
     "id": "under-fu-lengs-shadow-082",
@@ -1941,7 +1944,10 @@
       "Jade",
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-099.jpg"
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-099.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "under-fu-lengs-shadow-100",
@@ -2226,7 +2232,10 @@
       "Weapon",
       "Gaijin"
     ],
-    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-114.jpg"
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-114.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "under-fu-lengs-shadow-115",
@@ -2246,7 +2255,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-115.jpg"
+    "imagePath": "/cards/l5r-lcg/under-fu-lengs-shadow-115.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "under-fu-lengs-shadow-116",

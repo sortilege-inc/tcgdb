@@ -37,6 +37,9 @@
     "elements": [
       "earth",
       "water"
+    ],
+    "keywords": [
+      "eminent"
     ]
   },
   {
@@ -93,6 +96,9 @@
     "elements": [
       "fire",
       "water"
+    ],
+    "keywords": [
+      "eminent"
     ]
   },
   {
@@ -129,7 +135,10 @@
       "Bushi",
       "Berserker"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-031.png"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-031.png",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "spreading-shadows-032",
@@ -150,7 +159,10 @@
       "Courtier",
       "Duelist"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-032.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-032.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "spreading-shadows-033",
@@ -166,7 +178,10 @@
     "traits": [
       "Marketplace"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-033.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-033.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "spreading-shadows-034",
@@ -251,7 +266,10 @@
     "traits": [
       "Bushi"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-037.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-037.jpg",
+    "keywords": [
+      "pride"
+    ]
   },
   {
     "id": "spreading-shadows-038",
@@ -288,7 +306,10 @@
       "Cavalry",
       "Scout"
     ],
-    "imagePath": "/cards/l5r-lcg/spreading-shadows-039.jpg"
+    "imagePath": "/cards/l5r-lcg/spreading-shadows-039.jpg",
+    "keywords": [
+      "rally"
+    ]
   },
   {
     "id": "spreading-shadows-040",

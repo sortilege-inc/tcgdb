@@ -167,7 +167,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/restoration-of-balance-009.jpg"
+    "imagePath": "/cards/l5r-lcg/restoration-of-balance-009.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "restoration-of-balance-010",
@@ -341,7 +344,10 @@
     "traits": [
       "Follower"
     ],
-    "imagePath": "/cards/l5r-lcg/restoration-of-balance-018.jpg"
+    "imagePath": "/cards/l5r-lcg/restoration-of-balance-018.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "restoration-of-balance-019",
@@ -524,7 +530,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/restoration-of-balance-027.jpg"
+    "imagePath": "/cards/l5r-lcg/restoration-of-balance-027.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "restoration-of-balance-028",

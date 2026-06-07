@@ -466,7 +466,10 @@
     "traits": [
       "Item"
     ],
-    "imagePath": "/cards/l5r-lcg/masters-of-the-court-021.jpg"
+    "imagePath": "/cards/l5r-lcg/masters-of-the-court-021.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "masters-of-the-court-022",
@@ -579,7 +582,10 @@
     "traits": [
       "Item"
     ],
-    "imagePath": "/cards/l5r-lcg/masters-of-the-court-027.jpg"
+    "imagePath": "/cards/l5r-lcg/masters-of-the-court-027.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "masters-of-the-court-028",

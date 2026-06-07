@@ -391,7 +391,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/honor-in-flames-041.jpg"
+    "imagePath": "/cards/l5r-lcg/honor-in-flames-041.jpg",
+    "keywords": [
+      "courtesy"
+    ]
   },
   {
     "id": "honor-in-flames-042",

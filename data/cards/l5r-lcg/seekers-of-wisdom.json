@@ -508,7 +508,10 @@
     "traits": [
       "Tattoo"
     ],
-    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-023.jpg"
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-023.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "seekers-of-wisdom-024",
@@ -597,7 +600,10 @@
     "traits": [
       "Weapon"
     ],
-    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-027.jpg"
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-027.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "seekers-of-wisdom-028",
@@ -619,6 +625,9 @@
       "Brotherhood",
       "Follower"
     ],
-    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-028.jpg"
+    "imagePath": "/cards/l5r-lcg/seekers-of-wisdom-028.jpg",
+    "keywords": [
+      "restricted"
+    ]
   }
 ]

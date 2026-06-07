@@ -56,7 +56,10 @@
     "traits": [
       "Courtier"
     ],
-    "imagePath": "/cards/l5r-lcg/twisted-loyalties-003.jpg"
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-003.jpg",
+    "keywords": [
+      "covert"
+    ]
   },
   {
     "id": "twisted-loyalties-004",
@@ -117,7 +120,10 @@
     "traits": [
       "Bushi"
     ],
-    "imagePath": "/cards/l5r-lcg/twisted-loyalties-006.jpg"
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-006.jpg",
+    "keywords": [
+      "sincerity"
+    ]
   },
   {
     "id": "twisted-loyalties-007",
@@ -321,7 +327,10 @@
     "traits": [
       "Condition"
     ],
-    "imagePath": "/cards/l5r-lcg/twisted-loyalties-017.jpg"
+    "imagePath": "/cards/l5r-lcg/twisted-loyalties-017.jpg",
+    "keywords": [
+      "restricted"
+    ]
   },
   {
     "id": "twisted-loyalties-018",
