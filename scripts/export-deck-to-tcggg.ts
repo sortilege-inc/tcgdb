@@ -168,9 +168,54 @@ function main(): void {
     },
     cards,
   }
-  const outFile = path.join(DEST_DECKS, `${slugify(deck.name)}.json`)
+  const slug = slugify(deck.name)
+  const outFile = path.join(DEST_DECKS, `${slug}.json`)
   fs.writeFileSync(outFile, JSON.stringify(envelope, null, 2) + '\n', 'utf-8')
   console.log(`[export] wrote envelope → ${path.relative(TCGGG_ROOT, outFile)}`)
+
+  // Update / create manifest.json so tcggg's DeckImport can list what's
+  // available without server-side directory listings (Vite serves public/
+  // statically; no filesystem API from the browser).
+  const manifestPath = path.join(DEST_DECKS, 'manifest.json')
+  interface ManifestEntry {
+    filename: string
+    deckId: string
+    name: string
+    formatId: string
+    splashClan?: string
+    cardCount: number
+    exportedAt: string
+  }
+  interface Manifest { manifestVersion: 1; gameId: string; decks: ManifestEntry[] }
+  const totalCards = Object.values(deck.zones ?? {})
+    .flat()
+    .reduce((n, e) => n + e.qty, 0)
+  let manifest: Manifest
+  if (fs.existsSync(manifestPath)) {
+    try {
+      manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8')) as Manifest
+      if (manifest.manifestVersion !== 1) manifest = { manifestVersion: 1, gameId: 'l5r-lcg', decks: [] }
+    } catch {
+      manifest = { manifestVersion: 1, gameId: 'l5r-lcg', decks: [] }
+    }
+  } else {
+    manifest = { manifestVersion: 1, gameId: 'l5r-lcg', decks: [] }
+  }
+  const filename = `${slug}.json`
+  const entry: ManifestEntry = {
+    filename,
+    deckId: deck.id,
+    name: deck.name,
+    formatId: deck.formatId,
+    ...(deck.splashClan ? { splashClan: deck.splashClan } : {}),
+    cardCount: totalCards,
+    exportedAt: envelope.exportedAt,
+  }
+  manifest.decks = manifest.decks.filter((d) => d.filename !== filename)
+  manifest.decks.push(entry)
+  manifest.decks.sort((a, b) => a.name.localeCompare(b.name))
+  fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf-8')
+  console.log(`[export] updated manifest (${manifest.decks.length} decks total)`)
   console.log(`[export] done: ${Object.keys(cards).length} cards, ${copied + alreadyPresent} images on disk.`)
 }
 
