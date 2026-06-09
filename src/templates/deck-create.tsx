@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { graphql, Link, navigate, type HeadFC, type PageProps } from 'gatsby'
-import { getGame } from '../data/games'
+import { getGame, publishersForGame, buildPublisherFilter, matchesPublisherFilter } from '../data/games'
 import { useSidecarState } from '../state/SidecarStateProvider'
 
 interface PageContext {
@@ -12,6 +12,7 @@ interface StrongholdNode {
   name: string
   clan: string | null
   setId: string
+  publisherId: string
 }
 
 interface RoleNode {
@@ -19,6 +20,7 @@ interface RoleNode {
   name: string
   clan: string | null
   setId: string
+  publisherId: string
   roleClassifier?: string | null
   roleRing?: string | null
   roleClan?: string | null
@@ -90,6 +92,32 @@ export default function DeckCreatePage(
   const [submitting, setSubmitting] = React.useState(false)
   const [error, setError] = React.useState<string | null>(null)
 
+  // Publisher filter — multi-select of publisher IDs. Default to all
+  // publishers registered for the game (= no filter applied). Cards
+  // from non-selected publishers are HIDDEN from stronghold / role
+  // pickers here and from the deck editor's card search later.
+  const gamePublishers = React.useMemo(
+    () => publishersForGame(gameId),
+    [gameId]
+  )
+  const [selectedPublishers, setSelectedPublishers] = React.useState<string[]>(
+    () => gamePublishers.map((p) => p.publisher.id)
+  )
+  const publisherFilter = React.useMemo(
+    () => buildPublisherFilter(gameId, selectedPublishers),
+    [gameId, selectedPublishers]
+  )
+  function togglePublisher(pubId: string): void {
+    setSelectedPublishers((curr) => {
+      if (curr.includes(pubId)) {
+        // Don't allow deselecting all — leave at least one.
+        if (curr.length === 1) return curr
+        return curr.filter((id) => id !== pubId)
+      }
+      return [...curr, pubId]
+    })
+  }
+
   // When clan changes, drop the selected stronghold if it no longer matches.
   React.useEffect(() => {
     if (!clan || !strongholdId) return
@@ -109,20 +137,43 @@ export default function DeckCreatePage(
     if (forcedSplashClan) setSplashClan(forcedSplashClan)
   }, [forcedSplashClan])
 
+  // Apply publisher filter to stronghold / role pools BEFORE the
+  // clan filter — if the user excludes a publisher, none of its
+  // strongholds or roles should appear regardless of clan.
+  const publisherFilteredStrongholds = React.useMemo(
+    () => strongholds.filter((s) => matchesPublisherFilter(s, publisherFilter, gameId)),
+    [strongholds, publisherFilter, gameId]
+  )
+  const publisherFilteredRoles = React.useMemo(
+    () => roles.filter((r) => matchesPublisherFilter(r, publisherFilter, gameId)),
+    [roles, publisherFilter, gameId]
+  )
+
+  // If the publisher filter excludes the currently-selected
+  // stronghold or role, clear it so we don't submit an invalid pick.
+  React.useEffect(() => {
+    if (strongholdId && !publisherFilteredStrongholds.some((s) => s.cardId === strongholdId)) {
+      setStrongholdId('')
+    }
+    if (roleId && !publisherFilteredRoles.some((r) => r.cardId === roleId)) {
+      setRoleId('')
+    }
+  }, [publisherFilteredStrongholds, publisherFilteredRoles, strongholdId, roleId])
+
   const strongholdsForClan = React.useMemo(() => {
     if (!clan) return []
-    return strongholds
+    return publisherFilteredStrongholds
       .filter((s) => s.clan === clan)
       .sort((a, b) => a.name.localeCompare(b.name))
-  }, [clan, strongholds])
+  }, [clan, publisherFilteredStrongholds])
 
   const rolesGrouped = React.useMemo(() => {
-    const keeperSeeker = roles.filter((r) => !isSupportRole(r.name))
-    const supports = roles.filter((r) => isSupportRole(r.name))
+    const keeperSeeker = publisherFilteredRoles.filter((r) => !isSupportRole(r.name))
+    const supports = publisherFilteredRoles.filter((r) => isSupportRole(r.name))
     keeperSeeker.sort((a, b) => a.name.localeCompare(b.name))
     supports.sort((a, b) => a.name.localeCompare(b.name))
     return { keeperSeeker, supports }
-  }, [roles])
+  }, [publisherFilteredRoles])
 
   // Default name suggestion as you make picks ("New Crab deck", etc.)
   const placeholderName = clan ? `New ${clan} deck` : 'My deck'
@@ -159,6 +210,7 @@ export default function DeckCreatePage(
         importedFrom: origin === 'imported' && importedFrom.trim() ? importedFrom : undefined,
         notes: notes.trim() || undefined,
         zones,
+        publisherFilter,
         ...(resolvedSplash ? { splashClan: resolvedSplash } : {}),
       })
       void navigate(`/games/${gameId}/decks/${deck.id}/`)
@@ -242,6 +294,59 @@ export default function DeckCreatePage(
             })}
           </div>
         </Section>
+
+        {/* Publisher filter — optional. Only shown when the game has
+            more than one registered publisher. Cards from publishers
+            not in the selection are hidden from this wizard's
+            stronghold / role pickers and from the deck-detail editor's
+            card search. Stored on the Deck record so it persists. */}
+        {gamePublishers.length > 1 && (
+          <Section
+            step={0}
+            title="Publishers"
+            summary={(() => {
+              const allCount = gamePublishers.length
+              const selCount = selectedPublishers.length
+              if (selCount === allCount) return 'All (no filter)'
+              if (selCount === 1) return gamePublishers.find((p) => p.publisher.id === selectedPublishers[0])?.publisher.name ?? '1 selected'
+              return `${selCount} of ${allCount}`
+            })()}
+          >
+            <p style={{ margin: '0 0 0.6rem 0', fontSize: '0.85rem', opacity: 0.75 }}>
+              Filter which publishers&apos; cards can go in this deck. Cards from
+              non-selected publishers won&apos;t appear in search results. You can
+              change this later from the deck editor.
+            </p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+              {gamePublishers.map((gp) => {
+                const active = selectedPublishers.includes(gp.publisher.id)
+                const onlyOneLeft = active && selectedPublishers.length === 1
+                return (
+                  <button
+                    key={gp.publisher.id}
+                    type="button"
+                    onClick={() => togglePublisher(gp.publisher.id)}
+                    disabled={submitting || readOnly || onlyOneLeft}
+                    style={{
+                      ...chipButtonStyle(active),
+                      ...(onlyOneLeft ? { opacity: 0.7, cursor: 'not-allowed' } : {}),
+                    }}
+                    title={onlyOneLeft
+                      ? 'At least one publisher must remain selected.'
+                      : (gp.notes ?? gp.publisher.notes ?? gp.publisher.name)}
+                  >
+                    {gp.publisher.name}
+                    {gp.status === 'third-party' && (
+                      <span style={{ marginLeft: '0.4rem', opacity: 0.7, fontSize: '0.75rem' }}>
+                        (third-party)
+                      </span>
+                    )}
+                  </button>
+                )
+              })}
+            </div>
+          </Section>
+        )}
 
         {/* Step 2: Clan */}
         <Section
@@ -740,6 +845,7 @@ export const query = graphql`
         name
         clan
         setId
+        publisherId
       }
     }
     allRoles: allCard(
@@ -751,6 +857,7 @@ export const query = graphql`
         name
         clan
         setId
+        publisherId
         roleClassifier
         roleRing
         roleClan

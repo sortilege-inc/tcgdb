@@ -5,7 +5,8 @@
     "shortName": "L5R",
     "status": "stubbed",
     "publishers": [
-      { "publisherId": "ffg", "status": "official", "notes": "Original publisher, 2017-2021" }
+      { "publisherId": "ffg", "status": "official", "notes": "Original publisher, 2017-2021" },
+      { "publisherId": "emerald-legacy", "status": "third-party", "notes": "Community continuation after FFG discontinued the game. Publishes the Emerald Legacy RRG (v5.0+) and the Emerald Edict." }
     ],
     "formats": [
       { "id": "standard", "name": "Standard" },

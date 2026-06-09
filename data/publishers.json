@@ -5,5 +5,6 @@
   { "id": "white-wolf",           "name": "White Wolf Publishing" },
   { "id": "black-chantry",        "name": "Black Chantry Productions" },
   { "id": "lss",                  "name": "Legend Story Studios" },
-  { "id": "wizards-of-the-coast", "name": "Wizards of the Coast" }
+  { "id": "wizards-of-the-coast", "name": "Wizards of the Coast" },
+  { "id": "emerald-legacy",       "name": "Emerald Legacy", "url": "https://emeraldlegacy.org/", "notes": "Community continuation of L5R LCG after FFG discontinued the game in 2021. Publishes the Emerald Legacy RRG (v5.0+) and Emerald Edict (banned/restricted list)." }
 ]

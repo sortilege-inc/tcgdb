@@ -1,11 +1,14 @@
 import * as React from 'react'
 import { graphql, Link, navigate, type HeadFC, type PageProps } from 'gatsby'
 import { CardLink } from '../components/CardLink'
-import { getGame } from '../data/games'
+import {
+  getGame, publishersForGame,
+  buildPublisherFilter, extractSelectedPublishers, matchesPublisherFilter,
+} from '../data/games'
 import { getGameModule } from '../games/registry'
 import { useDeck, useSidecarState } from '../state/SidecarStateProvider'
 import { useConflictReporter } from '../state/ConflictReporter'
-import type { Card, Deck, Format } from '../types/data'
+import type { Card, Deck, Format, PublisherFilter } from '../types/data'
 import type { CardLookup, ValidationResult } from '../games/_types'
 import CardFilterPanel, {
   DEFAULT_FILTERS,
@@ -286,6 +289,8 @@ export default function DeckDetailPage(
         <CardPicker
           gameId={gameId}
           allCards={allCards}
+          publisherFilter={liveDeck.publisherFilter}
+          onChangePublisherFilter={(next) => onPatch({ publisherFilter: next })}
           qtyOf={qtyOf}
           onAdjustQty={adjustQty}
           disabled={readOnly}
@@ -757,10 +762,18 @@ function SubCategory({ title, entries, gameId, onAdjust, disabled }: SubCategory
 const PICKER_PAGE_SIZE = 25
 
 function CardPicker({
-  gameId, allCards, qtyOf, onAdjustQty, disabled, primaryClan,
+  gameId, allCards, publisherFilter, onChangePublisherFilter,
+  qtyOf, onAdjustQty, disabled, primaryClan,
 }: {
   gameId: string
   allCards: CardNode[]
+  /** Deck-level publisher filter — cards from non-selected publishers
+   *  are HIDDEN from the picker entirely. Undefined = no filter (all
+   *  publishers visible). */
+  publisherFilter: PublisherFilter | undefined
+  /** Called when the user toggles a publisher chip. The deck-detail
+   *  parent patches the deck record via the sidecar. */
+  onChangePublisherFilter: (next: PublisherFilter) => void
   qtyOf: (cardId: string) => number
   onAdjustQty: (cardId: string, delta: number) => void
   disabled?: boolean
@@ -771,17 +784,42 @@ function CardPicker({
   const [filters, setFilters] = React.useState<FilterState>(DEFAULT_FILTERS)
   const [panelOpen, setPanelOpen] = React.useState(false)
   const [page, setPage] = React.useState(0)
+
+  // Apply the deck's publisher filter BEFORE everything else. Cards
+  // from non-selected publishers don't enter the picker at all (per
+  // the feature spec — "ignore cards from any non-chosen publisher").
+  const publisherAllowed = React.useMemo(
+    () => allCards.filter((c) => matchesPublisherFilter(c, publisherFilter, gameId)),
+    [allCards, publisherFilter, gameId]
+  )
+
+  const gamePublishers = React.useMemo(() => publishersForGame(gameId), [gameId])
+  const selectedPublisherIds = React.useMemo(
+    () => extractSelectedPublishers(gameId, publisherFilter),
+    [gameId, publisherFilter]
+  )
+  function togglePublisher(pubId: string): void {
+    const curr = new Set(selectedPublisherIds)
+    if (curr.has(pubId)) {
+      if (curr.size === 1) return    // never let it go to zero
+      curr.delete(pubId)
+    } else {
+      curr.add(pubId)
+    }
+    onChangePublisherFilter(buildPublisherFilter(gameId, Array.from(curr)))
+  }
+
   const traits = React.useMemo(() => {
     const s = new Set<string>()
-    for (const c of allCards) for (const t of c.traits ?? []) s.add(t)
+    for (const c of publisherAllowed) for (const t of c.traits ?? []) s.add(t)
     return Array.from(s).sort((a, b) => a.localeCompare(b))
-  }, [allCards])
+  }, [publisherAllowed])
 
-  React.useEffect(() => { setPage(0) }, [filters])
+  React.useEffect(() => { setPage(0) }, [filters, publisherFilter])
 
   const filtered = React.useMemo(
-    () => allCards.filter((c) => matchesFilters(c, filters)),
-    [allCards, filters]
+    () => publisherAllowed.filter((c) => matchesFilters(c, filters)),
+    [publisherAllowed, filters]
   )
 
   const pages = Math.max(1, Math.ceil(filtered.length / PICKER_PAGE_SIZE))
@@ -790,6 +828,63 @@ function CardPicker({
 
   return (
     <section style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+      {/* Deck-level publisher filter. Only shown when the game has
+          more than one registered publisher. Persists on the Deck
+          record (via patchDeck) and is also passed through to the
+          export envelope. Different from the CardFilterPanel below,
+          which is transient search-time state. */}
+      {gamePublishers.length > 1 && (
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            gap: '0.5rem',
+            padding: '0.4rem 0.6rem',
+            background: 'var(--theme-surface2)',
+            border: '1px solid var(--theme-border)',
+            borderRadius: 4,
+            fontSize: '0.82rem',
+          }}
+        >
+          <strong style={{ opacity: 0.75 }}>Publishers:</strong>
+          {gamePublishers.map((gp) => {
+            const active = selectedPublisherIds.includes(gp.publisher.id)
+            const onlyOneLeft = active && selectedPublisherIds.length === 1
+            return (
+              <button
+                key={gp.publisher.id}
+                type="button"
+                onClick={() => togglePublisher(gp.publisher.id)}
+                disabled={disabled || onlyOneLeft}
+                title={onlyOneLeft
+                  ? 'At least one publisher must remain selected.'
+                  : (gp.notes ?? gp.publisher.notes ?? gp.publisher.name)}
+                style={{
+                  padding: '0.2rem 0.6rem',
+                  borderRadius: 12,
+                  border: '1px solid var(--theme-border)',
+                  background: active ? 'var(--theme-primary)' : 'transparent',
+                  color: active ? 'var(--theme-surface)' : 'var(--theme-text)',
+                  cursor: (disabled || onlyOneLeft) ? 'not-allowed' : 'pointer',
+                  opacity: onlyOneLeft ? 0.7 : 1,
+                  fontSize: '0.78rem',
+                }}
+              >
+                {gp.publisher.name}
+                {gp.status === 'third-party' && (
+                  <span style={{ marginLeft: '0.3rem', opacity: 0.7, fontSize: '0.68rem' }}>
+                    ◦
+                  </span>
+                )}
+              </button>
+            )
+          })}
+          <span style={{ marginLeft: 'auto', opacity: 0.55, fontSize: '0.72rem' }}>
+            Cards from un-selected publishers are hidden.
+          </span>
+        </div>
+      )}
       <CardFilterPanel
         open={panelOpen}
         onToggle={() => setPanelOpen((v) => !v)}
