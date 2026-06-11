@@ -332,20 +332,25 @@ export default function DeckDetailPage(
           onDelete={onDelete}
           onAdjustQty={adjustQty}
         />
-        {packLegalityEnabled && (
-          <PackLegalityPanel
-            groups={packGroups}
-            allSetIds={allSetIds}
-            allowedPacks={liveDeck.allowedPacks}
-            onChange={(next) => {
-              void onPatch({ allowedPacks: next })
-            }}
-            disabled={readOnly}
-          />
-        )}
-        <CardPicker
-          gameId={gameId}
-          allCards={pickerCards}
+        {/* Right grid column: pack-legality filter stacked above the card
+            picker. Wrapped in a single cell so both share column 2 (the grid
+            is exactly two columns); minWidth:0 lets the picker's wide table
+            shrink within the minmax(0,1fr) track instead of overflowing. */}
+        <div style={{ minWidth: 0 }}>
+          {packLegalityEnabled && (
+            <PackLegalityPanel
+              groups={packGroups}
+              allSetIds={allSetIds}
+              allowedPacks={liveDeck.allowedPacks}
+              onChange={(next) => {
+                void onPatch({ allowedPacks: next })
+              }}
+              disabled={readOnly}
+            />
+          )}
+          <CardPicker
+            gameId={gameId}
+            allCards={pickerCards}
           publisherFilter={liveDeck.publisherFilter}
           onChangePublisherFilter={(next) => onPatch({ publisherFilter: next })}
           qtyOf={qtyOf}
@@ -361,7 +366,8 @@ export default function DeckDetailPage(
             })
             return shEntry ? (cardById.get(shEntry.cardId)?.clan ?? null) : null
           })()}
-        />
+          />
+        </div>
       </div>
     </>
   )
