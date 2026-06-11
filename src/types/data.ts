@@ -215,6 +215,12 @@ export interface Deck {
    *  deck-create OR it gets auto-set the first time an out-of-clan card
    *  is added. Null/undefined = mono-clan deck so far. */
   splashClan?: string
+  /** L5R pack-legality: set ids the player has marked legal for this deck.
+   *  When present, the deck editor's card picker only shows cards from these
+   *  sets. Absent/undefined = all packs allowed (the default). This is a
+   *  builder-side convenience filter only — it does NOT raise a validation
+   *  error for cards already in the deck from a now-excluded pack. */
+  allowedPacks?: string[]
   notes?: string
   createdAt: string
   updatedAt: string

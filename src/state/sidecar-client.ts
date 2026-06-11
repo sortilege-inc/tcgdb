@@ -133,6 +133,9 @@ export interface PatchDeckInput {
   publisherFilter?: PublisherFilter
   /** Pass null to clear the deck's splash clan. */
   splashClan?: string | null
+  /** L5R pack-legality: set ids legal for this deck. Pass null/[] to clear
+   *  (→ all packs allowed). Drives the deck editor's card-picker filter. */
+  allowedPacks?: string[] | null
   notes?: string
 }
 

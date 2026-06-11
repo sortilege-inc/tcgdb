@@ -72,6 +72,7 @@ interface CreateDeckBody {
   enforceErrata?: boolean
   publisherFilter?: PublisherFilter
   splashClan?: string
+  allowedPacks?: string[]
   notes?: string
 }
 
@@ -85,7 +86,18 @@ interface PatchDeckBody {
   enforceErrata?: boolean
   publisherFilter?: PublisherFilter
   splashClan?: string | null   // pass null to clear
+  allowedPacks?: string[] | null   // pass null (or omit) to clear → all packs allowed
   notes?: string
+}
+
+/** Sanitise a pack-legality list: keep only non-empty strings, dedupe. */
+function normaliseAllowedPacks(input: unknown): string[] | undefined {
+  if (!Array.isArray(input)) return undefined
+  const seen = new Set<string>()
+  for (const v of input) {
+    if (typeof v === 'string' && v.trim()) seen.add(v.trim())
+  }
+  return Array.from(seen)
 }
 
 function nowIso(): string {
@@ -145,6 +157,11 @@ export function decksRouter(): Router {
       enforceErrata: !!body.enforceErrata,
       publisherFilter: body.publisherFilter ?? { mode: 'official-only' },
       ...(body.splashClan ? { splashClan: body.splashClan } : {}),
+      // Absent → all packs allowed. An explicit array (incl. []) restricts
+      // the deck editor's card picker to those sets ([] = none).
+      ...(Array.isArray(body.allowedPacks)
+        ? { allowedPacks: normaliseAllowedPacks(body.allowedPacks) ?? [] }
+        : {}),
       ...(body.notes ? { notes: body.notes } : {}),
       createdAt: nowIso(),
       updatedAt: nowIso(),
@@ -184,6 +201,13 @@ export function decksRouter(): Router {
           ...(body.publisherFilter !== undefined ? { publisherFilter: body.publisherFilter } : {}),
           ...(body.splashClan !== undefined
             ? (body.splashClan === null ? { splashClan: undefined } : { splashClan: body.splashClan })
+            : {}),
+          // null → clear (undefined = all packs allowed). An array (incl. [])
+          // restricts the picker to those sets; [] = none. Omitted → unchanged.
+          ...(body.allowedPacks !== undefined
+            ? (body.allowedPacks === null
+                ? { allowedPacks: undefined }
+                : { allowedPacks: normaliseAllowedPacks(body.allowedPacks) ?? [] })
             : {}),
           ...(body.notes !== undefined ? { notes: body.notes } : {}),
           updatedAt: nowIso(),

@@ -15,6 +15,8 @@ import CardFilterPanel, {
   matchesFilters,
   type FilterState,
 } from '../components/CardFilterPanel'
+import PackLegalityPanel from '../components/PackLegalityPanel'
+import { buildPackLegalityGroups } from '../games/l5r-lcg/packMeta'
 
 interface PageContext {
   gameId: string
@@ -65,8 +67,16 @@ interface CardNode {
   forcesSplashClan: string | null
 }
 
+interface SetNode {
+  setId: string
+  name: string
+  type: string | null
+  cycle: string | null
+}
+
 interface Data {
   allCard: { nodes: CardNode[] }
+  allCardSet: { nodes: SetNode[] }
 }
 
 // L5R format requirements. Pulled from the official rules; kept on hand because
@@ -106,6 +116,30 @@ export default function DeckDetailPage(
     return m
   }, [allCards])
 
+  // --- L5R pack legality (deckbuilding pack filter) -------------------------
+  // The grouping / release order is L5R-specific (packMeta), so the feature
+  // is gated on the game. Only packs that actually contribute cards to the
+  // catalog are offered. Cards already in the deck are NOT affected — only
+  // the card picker is filtered (see pickerCards below).
+  const packLegalityEnabled = gameId === 'l5r-lcg'
+  const setsWithCards = React.useMemo(() => {
+    const s = new Set<string>()
+    for (const c of allCards) s.add(c.setId)
+    return s
+  }, [allCards])
+  const packSets = React.useMemo(
+    () =>
+      props.data.allCardSet.nodes
+        .filter((s) => setsWithCards.has(s.setId))
+        .map((s) => ({ id: s.setId, name: s.name, type: s.type, cycle: s.cycle })),
+    [props.data.allCardSet.nodes, setsWithCards],
+  )
+  const packGroups = React.useMemo(
+    () => (packLegalityEnabled ? buildPackLegalityGroups(packSets) : []),
+    [packLegalityEnabled, packSets],
+  )
+  const allSetIds = React.useMemo(() => packSets.map((s) => s.id), [packSets])
+
   const cardLookup: CardLookup = React.useMemo(() => {
     return {
       get: (id: string) => cardById.get(id) as Card | undefined,
@@ -140,6 +174,16 @@ export default function DeckDetailPage(
 
   const liveDeck: Deck = deck
 
+  // Cards offered in the picker, filtered by this deck's pack legality.
+  // allowedPacks === undefined → all packs allowed (no filter). The deck's
+  // existing cards (cardLookup) are intentionally NOT filtered.
+  const allowedPackSet =
+    packLegalityEnabled && liveDeck.allowedPacks !== undefined
+      ? new Set(liveDeck.allowedPacks)
+      : null
+  const pickerCards =
+    allowedPackSet === null ? allCards : allCards.filter((c) => allowedPackSet.has(c.setId))
+
   const format: Format = game.formats.find((f) => f.id === liveDeck.formatId) ?? {
     id: liveDeck.formatId, name: liveDeck.formatId,
   }
@@ -153,7 +197,9 @@ export default function DeckDetailPage(
     [allCards]
   )
 
-  async function onPatch(patch: Partial<Deck>): Promise<void> {
+  async function onPatch(
+    patch: Omit<Partial<Deck>, 'allowedPacks'> & { allowedPacks?: string[] | null },
+  ): Promise<void> {
     if (readOnly) return
     try {
       await patchDeck(gameId, liveDeck.id, patch as Parameters<typeof patchDeck>[2])
@@ -286,9 +332,20 @@ export default function DeckDetailPage(
           onDelete={onDelete}
           onAdjustQty={adjustQty}
         />
+        {packLegalityEnabled && (
+          <PackLegalityPanel
+            groups={packGroups}
+            allSetIds={allSetIds}
+            allowedPacks={liveDeck.allowedPacks}
+            onChange={(next) => {
+              void onPatch({ allowedPacks: next })
+            }}
+            disabled={readOnly}
+          />
+        )}
         <CardPicker
           gameId={gameId}
-          allCards={allCards}
+          allCards={pickerCards}
           publisherFilter={liveDeck.publisherFilter}
           onChangePublisherFilter={(next) => onPatch({ publisherFilter: next })}
           qtyOf={qtyOf}
@@ -1218,6 +1275,14 @@ export const query = graphql`
         roleClan
         influenceBonus
         forcesSplashClan
+      }
+    }
+    allCardSet(filter: { gameId: { eq: $gameId } }) {
+      nodes {
+        setId
+        name
+        type
+        cycle
       }
     }
   }
