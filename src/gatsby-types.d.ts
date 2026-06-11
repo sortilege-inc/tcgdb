@@ -2411,7 +2411,7 @@ type DeckCreateQueryVariables = Exact<{
 }>;
 
 
-type DeckCreateQuery = { readonly allStrongholds: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly name: string, readonly clan: string | null, readonly setId: string, readonly publisherId: string }> }, readonly allRoles: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly name: string, readonly clan: string | null, readonly setId: string, readonly publisherId: string, readonly roleClassifier: string | null, readonly roleRing: string | null, readonly roleClan: string | null, readonly forcesSplashClan: string | null, readonly influenceBonus: number | null }> }, readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly name: string }> } };
+type DeckCreateQuery = { readonly allStrongholds: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly name: string, readonly clan: string | null, readonly setId: string, readonly publisherId: string }> }, readonly allRoles: { readonly nodes: ReadonlyArray<{ readonly cardId: string, readonly name: string, readonly clan: string | null, readonly setId: string, readonly publisherId: string, readonly roleClassifier: string | null, readonly roleRing: string | null, readonly roleClan: string | null, readonly forcesSplashClan: string | null, readonly influenceBonus: number | null }> }, readonly allCardSet: { readonly nodes: ReadonlyArray<{ readonly setId: string, readonly name: string, readonly type: string, readonly cycle: string | null }> } };
 
 type DeckDetailQueryVariables = Exact<{
   gameId: Scalars['String'];

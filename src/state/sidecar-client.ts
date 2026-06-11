@@ -119,6 +119,8 @@ export interface CreateDeckInput {
   enforceErrata?: boolean
   publisherFilter?: PublisherFilter
   splashClan?: string
+  /** L5R pack-legality: set ids legal for this deck (absent = all packs). */
+  allowedPacks?: string[]
   notes?: string
 }
 

@@ -2,6 +2,8 @@ import * as React from 'react'
 import { graphql, Link, navigate, type HeadFC, type PageProps } from 'gatsby'
 import { getGame, publishersForGame, buildPublisherFilter, matchesPublisherFilter } from '../data/games'
 import { useSidecarState } from '../state/SidecarStateProvider'
+import PackLegalityPanel from '../components/PackLegalityPanel'
+import { buildPackLegalityGroups } from '../games/l5r-lcg/packMeta'
 
 interface PageContext {
   gameId: string
@@ -31,6 +33,8 @@ interface RoleNode {
 interface SetNode {
   setId: string
   name: string
+  type: string | null
+  cycle: string | null
 }
 
 interface Data {
@@ -107,6 +111,24 @@ export default function DeckCreatePage(
     () => buildPublisherFilter(gameId, selectedPublishers),
     [gameId, selectedPublishers]
   )
+
+  // L5R pack legality — optional. `undefined` = all packs allowed (default).
+  // Grouping/order is L5R-specific (packMeta), so the section is game-gated.
+  const packLegalityEnabled = gameId === 'l5r-lcg'
+  const [allowedPacks, setAllowedPacks] = React.useState<string[] | undefined>(undefined)
+  const packSets = React.useMemo(
+    () =>
+      props.data.allCardSet.nodes.map((s) => ({
+        id: s.setId, name: s.name, type: s.type, cycle: s.cycle,
+      })),
+    [props.data.allCardSet.nodes]
+  )
+  const packGroups = React.useMemo(
+    () => (packLegalityEnabled ? buildPackLegalityGroups(packSets) : []),
+    [packLegalityEnabled, packSets]
+  )
+  const allSetIds = React.useMemo(() => packSets.map((s) => s.id), [packSets])
+
   function togglePublisher(pubId: string): void {
     setSelectedPublishers((curr) => {
       if (curr.includes(pubId)) {
@@ -212,6 +234,7 @@ export default function DeckCreatePage(
         zones,
         publisherFilter,
         ...(resolvedSplash ? { splashClan: resolvedSplash } : {}),
+        ...(packLegalityEnabled && allowedPacks !== undefined ? { allowedPacks } : {}),
       })
       void navigate(`/games/${gameId}/decks/${deck.id}/`)
     } catch (err: unknown) {
@@ -346,6 +369,19 @@ export default function DeckCreatePage(
               })}
             </div>
           </Section>
+        )}
+
+        {/* Pack legality — optional. Same selector as the deck editor; sets
+            the deck's allowedPacks at creation so the editor's card picker is
+            pre-filtered. Absent (no change) = all packs allowed. */}
+        {packLegalityEnabled && (
+          <PackLegalityPanel
+            groups={packGroups}
+            allSetIds={allSetIds}
+            allowedPacks={allowedPacks}
+            onChange={(next) => setAllowedPacks(next === null ? undefined : next)}
+            disabled={submitting || readOnly}
+          />
         )}
 
         {/* Step 2: Clan */}
@@ -869,6 +905,8 @@ export const query = graphql`
       nodes {
         setId
         name
+        type
+        cycle
       }
     }
   }
