@@ -148,6 +148,15 @@ export default function DeckDetailPage(
     }
   }, [cardById])
 
+  // Built BEFORE the early returns below: deleting the open deck makes
+  // `deck` undefined, which fires `if (!deck) return` — any hook after that
+  // guard would run on some renders but not others, tripping React's
+  // "rendered fewer hooks than expected" rules-of-hooks error.
+  const cardNames = React.useMemo(
+    () => Object.fromEntries(allCards.map((c) => [c.cardId, c.name])),
+    [allCards]
+  )
+
   if (loading && !deck) {
     return <p style={{ opacity: 0.6 }}>Loading deck…</p>
   }
@@ -191,11 +200,6 @@ export default function DeckDetailPage(
   const validation: ValidationResult | null = module
     ? module.validate({ deck: liveDeck, format, lookup: cardLookup })
     : null
-
-  const cardNames = React.useMemo(
-    () => Object.fromEntries(allCards.map((c) => [c.cardId, c.name])),
-    [allCards]
-  )
 
   async function onPatch(
     patch: Omit<Partial<Deck>, 'allowedPacks'> & { allowedPacks?: string[] | null },
