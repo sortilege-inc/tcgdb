@@ -89,7 +89,7 @@
     <tr><td>2–3</td><td>Overview &amp; Components</td><td class="done">✓ transcribed</td></tr>
     <tr><td>4–6</td><td>Shadowlands Faction Rules</td><td class="done">✓ transcribed</td></tr>
     <tr><td>7</td><td>Assembling Shadowlands Decks</td><td class="done">✓ transcribed</td></tr>
-    <tr><td>8–17</td><td>Cooperative Mode Rules</td><td class="pending">pending</td></tr>
+    <tr><td>8–17</td><td>Cooperative Mode Rules</td><td class="done">✓ transcribed</td></tr>
     <tr><td>18–20</td><td>Challenge Mode Rules</td><td class="pending">pending</td></tr>
     <tr><td>21</td><td>Appendix I: New Mechanics</td><td class="pending">pending</td></tr>
     <tr><td>22–23</td><td>Appendix II: Card Anatomy</td><td class="pending">pending</td></tr>
@@ -328,6 +328,386 @@
     Note the <span class="sym">[element]</span> marker denotes the province whose printed element is shown
     on the page; exact element symbols to be confirmed against the province cards when implementing.
   </p>
+</section>
+
+<!-- ============================================================ -->
+<!-- ======================  COOPERATIVE MODE  ================== -->
+<!-- ============================================================ -->
+<section data-page="8">
+  <h2>Cooperative Mode</h2>
+  <p class="rule">
+    In cooperative mode, <strong>1–4 players work together</strong> to defeat an army of minions besieging
+    their provinces. <strong>The standard game rules apply wherever they are not explicitly altered,
+    replaced, or negated by this document.</strong>
+  </p>
+
+  <h3>The Shadowlands Deck</h3>
+  <ul>
+    <li>A team of players opposes a Shadowlands deck <strong>not run by any individual player</strong>
+        (referred to as the "Shadowlands deck").</li>
+    <li>The players are one team; the Shadowlands deck is the opposing team for the purposes of the team
+        rules (Appendix III, p. 24).</li>
+  </ul>
+
+  <h3>Setup</h3>
+  <ul>
+    <li>The Shadowlands deck is composed of a 40-card dynasty deck, a 40-card conflict deck, five provinces,
+        and a warlord. These are laid out in a pair of rows in front of the players, with the warlord and
+        the two decks <strong>behind</strong> the five provinces.</li>
+    <li>The Shadowlands in-play <strong>home area</strong> is in front of its provinces (closer to the players).</li>
+    <li>All Shadowlands provinces begin the game <strong>facedown and in a random order</strong>.</li>
+    <li>If playing the <strong>skirmish format</strong>, five <strong>province tokens</strong> are used instead
+        of province cards (per the skirmish-format rulebook).</li>
+    <li>After setting up the Shadowlands deck, the players shuffle their own decks and set up as normal
+        (filling provinces, drawing opening hands).</li>
+    <li>The Shadowlands deck has <strong>no hand of cards</strong>. Each of its provinces starts the game
+        <strong>empty and tainted</strong>. The Shadowlands deck <strong>always starts with the first
+        player token</strong>.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="9">
+  <h2>Key Concepts (Cooperative Mode)</h2>
+
+  <h3>Making Choices</h3>
+  <ul>
+    <li>When a card ability requires the Shadowlands deck to make a choice or selection, the
+        <strong>players decide together</strong> how it is made.</li>
+    <li><strong>Exception — Sacrifice:</strong> when the Shadowlands deck is instructed to sacrifice a card
+        in play, it <strong>always sacrifices the card with the lowest printed fate cost</strong> among all
+        possible options.</li>
+  </ul>
+
+  <h3>"You" and the Shadowlands Player</h3>
+  <ul>
+    <li>On Shadowlands cards, "you" refers to the <strong>Shadowlands deck</strong> and "your opponent(s)"
+        refers to the <strong>player(s) opposing it</strong>.</li>
+    <li>The Shadowlands deck is considered to be <strong>a player</strong> for the purposes of resolving card
+        abilities, even though no player operates it.</li>
+  </ul>
+
+  <h3>Abilities Are Not Optional</h3>
+  <ul>
+    <li>The Shadowlands deck <strong>always triggers its abilities whenever possible</strong>, and
+        <strong>always pays as many optional costs as it can</strong>.</li>
+    <li>As in the standard game, each action, reaction, and interrupt ability can only be triggered
+        <strong>once each round</strong>.</li>
+  </ul>
+
+  <h3>Reinforcement Number</h3>
+  <ul>
+    <li>Each Shadowlands character has a <strong>reinforcement number</strong> located adjacent to its fate
+        cost — how many rounds that character stays in play in cooperative mode.</li>
+    <li>When the Shadowlands deck plays a character, place fate on it from the general token pool
+        <strong>equal to its reinforcement number</strong>.</li>
+    <li>If a card effect puts a Shadowlands character into play <strong>from its provinces or discard pile</strong>,
+        <strong>ignore the reinforcement number</strong> — it receives no fate beyond what that effect instructs.</li>
+  </ul>
+
+  <h3>Shadow Elements and Shadow Numbers</h3>
+  <ul>
+    <li>Certain Shadowlands decisions are made automatically by referencing the <strong>shadow element</strong>
+        or <strong>shadow number</strong> printed on each Shadowlands conflict card.</li>
+    <li><strong>Shadow numbers</strong> are randomizers used to determine how the Shadowlands deck bids during
+        the draw phase and during duels, and to select which provinces are attacked when it declares a conflict.</li>
+    <li><strong>Shadow elements</strong> are randomizers used to select the contested ring when the Shadowlands
+        player declares a conflict.</li>
+  </ul>
+  <p class="note">
+    The shadow-element symbols are defined in Appendix II (card anatomy, pp. 22–23); their exact mapping to
+    the five rings is cross-checked there. (The page-13 example names a shadow element "Madness.")
+  </p>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="10">
+  <h2>Cooperative — Dynasty Phase</h2>
+  <p class="rule">
+    The cooperative game uses the <strong>same phase sequence</strong> as any other format. Both teams
+    <strong>alternate taking dynasty actions</strong>, starting with the team holding the first player token.
+    Once a team passes, no player on that team may take actions or play cards for the rest of the phase.
+  </p>
+
+  <h3>Shadowlands Provinces (refill)</h3>
+  <ul>
+    <li>At the start of each dynasty phase, fill each Shadowlands province with <strong>one faceup card
+        (1–2 players)</strong> or <strong>two faceup cards (3–4 players)</strong> from the Shadowlands dynasty
+        deck — <strong>even if that province already has one or more cards in it</strong>.</li>
+    <li>Shadowlands provinces are <strong>never refilled when empty</strong>; they only receive new cards from
+        the Shadowlands deck at the <strong>start of the dynasty phase</strong> (or through card effects).</li>
+  </ul>
+
+  <h3>Shadowlands Fate Collection</h3>
+  <ul>
+    <li>After filling each province, the Shadowlands deck collects <strong>5 fate per player</strong>, as
+        indicated by the warlord.</li>
+    <li>After collecting fate, the Shadowlands deck <strong>triggers the warlord's ability</strong>, even if it
+        is out of play.</li>
+  </ul>
+
+  <h3>Shadowlands Dynasty Actions</h3>
+  <ul>
+    <li>On its dynasty action, the Shadowlands deck attempts to <strong>play a character from its provinces</strong>.
+        If it cannot, it <strong>passes</strong> and takes no more actions for the rest of the round.</li>
+    <li>The character played is the one in the <strong>leftmost Shadowlands province whose fate cost can be paid</strong>
+        from the Shadowlands deck's fate pool. If the leftmost province contains two or more eligible characters,
+        the Shadowlands deck <strong>always plays the most expensive eligible option first</strong>; on a tie,
+        the players choose.</li>
+    <li>After playing the leftmost character, it attempts to play the <strong>next leftmost character</strong>
+        (even if in the same province), moving right and <strong>skipping any character it cannot pay for</strong>.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="11">
+  <h2>Cooperative — Playing Characters &amp; Draw Phase</h2>
+
+  <h3>Playing a Shadowlands character</h3>
+  <ul>
+    <li>Spend the appropriate fate from the Shadowlands deck's fate pool and place the character in the
+        Shadowlands deck's <strong>home area</strong>.</li>
+    <li>It enters play with fate on it <strong>equal to its reinforcement number</strong>, taken from the
+        general pool.</li>
+  </ul>
+
+  <h3>Passing First</h3>
+  <p class="rule">
+    The team that <strong>passes first</strong> in the dynasty phase <strong>does not gain any fate</strong>,
+    regardless of game format.
+  </p>
+
+  <h3>Draw Phase</h3>
+  <p class="rule">
+    Each player bids with their honor dial to draw cards, while the Shadowlands deck <strong>counter-bids using
+    the top card of its conflict deck</strong> to gain fate. Each player compares their honor bid to that
+    conflict card's <strong>shadow number</strong> and gains or loses honor equal to the difference.
+  </p>
+
+  <h3>Honor Bids</h3>
+  <ul>
+    <li>Each player selects a number on their honor dial (1–5 stronghold, 1–3 skirmish) for how many cards to draw.</li>
+    <li>Reveal dials, then <strong>discard the top card of the Shadowlands conflict deck</strong>.</li>
+    <li>Each player whose bid is <strong>higher</strong> than the discarded card's shadow number
+        <strong>loses honor</strong> equal to the difference; each player whose bid is <strong>lower</strong>
+        <strong>gains honor</strong> equal to the difference.</li>
+    <li>Each player <strong>draws cards equal to their honor bid</strong>.</li>
+    <li>The Shadowlands deck <strong>gains fate equal to the discarded card's shadow number × the number of
+        players</strong>.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="12">
+  <h2>Cooperative — Conflict Phase</h2>
+  <p class="rule">
+    Both teams <strong>alternate declaring conflicts</strong> against each other's provinces, starting with the
+    team holding the first player token.
+  </p>
+  <ul>
+    <li><strong>Stronghold format:</strong> the team of players has <strong>two conflict opportunities</strong>
+        (one military, one political), while the Shadowlands deck <strong>can continue declaring conflicts until
+        it runs out of ready characters and/or unclaimed rings</strong> to attack with.</li>
+    <li><strong>Skirmish format:</strong> each team has <strong>only one conflict opportunity</strong>.</li>
+  </ul>
+
+  <h3>Shadowlands Waves</h3>
+  <ul>
+    <li>Shadowlands characters are organized into <strong>waves</strong>: a wave contains <strong>each ready
+        character with a certain amount of fate on it</strong>.</li>
+    <li>When a conflict is declared, <strong>only the wave with the fewest fate</strong> attacks or defends in
+        that conflict (the <strong>"next wave"</strong>).</li>
+    <li>If any of those characters cannot participate in a conflict together, then each <em>eligible</em>
+        character in that wave participates, and the remaining characters <strong>form a new wave</strong> for the
+        next conflict.</li>
+  </ul>
+
+  <h3>Shadowlands Conflict Declaration</h3>
+  <p class="rule">
+    Four decisions are made: <strong>three automatically</strong>, and the <strong>fourth (conflict type) by the
+    defending players</strong>.
+  </p>
+  <ul>
+    <li><strong>Attacking characters</strong> (auto): each eligible character in the next wave is declared as an
+        attacker.</li>
+    <li><strong>Contested ring</strong> (auto): discard the top card of the Shadowlands conflict deck; its
+        <strong>shadow element</strong> indicates the contested ring's element. If the shadow element does not
+        match a ring in the unclaimed ring pool, <strong>continue discarding</strong> until a card whose shadow
+        element matches an unclaimed ring is found.</li>
+    <li><strong>Attacked provinces</strong> (auto): the same discarded card's <strong>shadow number</strong>
+        selects the position. Each player's leftmost non-stronghold province is position #1, increasing to #4 at
+        the rightmost. The conflict is declared against the non-stronghold province in the matching position; if
+        that province is <strong>broken</strong>, it is declared against that player's <strong>stronghold</strong>
+        instead.
+        <ul>
+          <li><strong>Skirmish format:</strong> the Shadowlands deck's single attack each round is instead declared
+              against each player's <strong>leftmost unbroken province</strong>.</li>
+        </ul></li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="13">
+  <h2>Cooperative — Multi-province Attacks &amp; Conflict Type</h2>
+  <ul>
+    <li>Each Shadowlands conflict is declared against <strong>one province per player</strong>. With two or more
+        players this becomes a conflict <strong>against multiple provinces at once</strong>. The conflict is
+        considered to be at each of those provinces, but the players <strong>defend all of them with a single
+        group of defenders</strong>.</li>
+    <li><strong>Conflict type</strong> (the fourth decision): the <strong>players choose the type</strong>, since
+        they are deciding how to defend. If any attacking character has a <strong>dash skill value</strong>, or
+        otherwise cannot participate in a conflict of a certain type, then the conflict <strong>cannot be of that
+        type — the attack must still be legal</strong>.</li>
+  </ul>
+  <p class="note">
+    Per the page-13 example, the players will choose the conflict type that is most advantageous to them (e.g. the
+    type that gives the attacking characters the <em>least</em> applicable skill).
+  </p>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="14">
+  <h2>Cooperative — Dash Eligibility &amp; Conflict Actions</h2>
+
+  <h3>Dash Skill Values and Participation Eligibility</h3>
+  <ul>
+    <li>A character with a <strong>dash skill value</strong> (or with <em>Pacifism</em> / <em>Stolen Breath</em>
+        attached) cannot participate in a conflict of the corresponding type. This may <strong>force an attack to
+        be a particular type</strong> and may prevent that character from defending against that type. Cards such
+        as <em>Peacemaker's Blade</em> can prevent Shadowlands characters from being declared as attackers.</li>
+    <li>If <strong>every</strong> Shadowlands character in the next wave of <em>attackers</em> cannot be declared
+        as an attacker, that wave is <strong>skipped over</strong> and the subsequent next wave attacks instead.</li>
+    <li>If <strong>every</strong> Shadowlands character in the next wave of <em>defenders</em> cannot be declared
+        as a defender, that wave is <strong>not skipped</strong> — the Shadowlands deck declares
+        <strong>no defenders</strong>.</li>
+    <li>If the Shadowlands deck would attack with a wave where some characters cannot participate in a military
+        conflict and others cannot participate in a political conflict, the players select the type and the
+        character(s) unable to participate <strong>do not attack</strong>; they <strong>form a new wave</strong>
+        for the next conflict.</li>
+  </ul>
+
+  <h3>Conflict Actions</h3>
+  <ul>
+    <li>During a conflict, the team of players and the Shadowlands deck <strong>alternate action opportunities</strong>.
+        The Shadowlands deck <strong>always takes the first action in each conflict</strong>, regardless of which
+        team is defending.</li>
+    <li>On a Shadowlands action opportunity, <strong>reveal the top card of the conflict deck</strong>. If it can
+        be played (enough fate, eligible targets, and the effect can change the game state), it is played. All
+        attachments played this way must go on a <strong>participating character or an attacked province</strong>.
+        If the revealed card cannot be played, <strong>discard it</strong> (the deck has "passed" its action).</li>
+    <li>Once the team of players passes, the Shadowlands deck <strong>immediately passes</strong> and the conflict
+        resolves.</li>
+  </ul>
+
+  <h3>Running out of Cards</h3>
+  <ul>
+    <li>If the top card of the Shadowlands conflict deck is needed (for an honor bid, conflict declaration, or
+        conflict action) and the conflict deck is empty, <strong>immediately reshuffle the conflict discard pile</strong>
+        into a new conflict deck. The Shadowlands deck <strong>does not lose honor</strong> for running out of cards.</li>
+    <li>If the Shadowlands <strong>dynasty</strong> deck has no cards in it at the end of any game round, the
+        <strong>players win the game</strong>.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="15">
+  <h2>Cooperative — Resolving a Conflict</h2>
+  <p class="rule">Resolve following the normal conflict-resolution rules, with these clarifications for the team:</p>
+  <ul>
+    <li>The players <strong>win or lose the conflict as a team</strong>, regardless of who controls participating
+        characters. "When a player wins/loses a conflict" abilities trigger for each player on the team, as each
+        counts as having won (or lost) the conflict.</li>
+    <li>If the players control <strong>no defending characters</strong> and are playing the stronghold format when
+        the Shadowlands deck wins as the attacker, <strong>each player loses 1 honor</strong> for the unopposed
+        conflict.</li>
+    <li>A Shadowlands conflict declared against multiple provinces can <strong>break multiple provinces with a
+        single attack</strong>. Each player determines whether their attacked province is broken
+        <strong>independently</strong> of the others.</li>
+    <li>The team that wins claims the contested ring into their <strong>shared claimed ring pool</strong>. For card
+        and game effects, a team's claimed ring pool counts as the claimed ring pool of <strong>each player</strong>
+        on that team.</li>
+  </ul>
+  <h3>When a Shadowlands province is broken</h3>
+  <ul>
+    <li>Discard each card in that province <strong>along with five cards from the top of the Shadowlands dynasty
+        deck</strong>.</li>
+    <li>A broken Shadowlands province <strong>cannot be attacked</strong>, but <strong>does receive cards during the
+        dynasty phase</strong> (which can then be played).</li>
+    <li><strong>If all five Shadowlands provinces are broken, the players immediately win the game.</strong></li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="16">
+  <h2>Cooperative — Card Abilities &amp; Imperial Favor</h2>
+
+  <h3>Shadowlands Card Abilities (by card type)</h3>
+  <p class="rule">Abilities on <strong>non-unique</strong> Shadowlands cards are organized by card type:</p>
+  <ul>
+    <li><strong>Warlord</strong>: ability triggers each round during the dynasty phase, after the Shadowlands
+        deck collects fate.</li>
+    <li><strong>Event</strong>: an action ability that can be played during a conflict (when Shadowlands conflict
+        cards are played).</li>
+    <li><strong>Attachment</strong> (non-unique): a reaction ability that triggers after it is played; afterward
+        the attachment provides only skill bonuses.</li>
+    <li><strong>Character</strong> (non-unique): a reaction ability that triggers when that character wins a
+        conflict (on attack or defense). Each <strong>unique</strong> Shadowlands character has a reaction or
+        interrupt ability with a triggering condition unique to it.</li>
+    <li><strong>Province</strong> card (and each attachment that attaches to a province): an ability that triggers
+        when a conflict is declared against that province.</li>
+    <li><strong>Holding</strong>: an ability that triggers at the end of the conflict phase.</li>
+    <li>As in the standard game, each action/reaction/interrupt ability can only be triggered <strong>once each
+        round</strong> unless the card specifies otherwise.</li>
+  </ul>
+
+  <h3>Glory Counts and the Imperial Favor</h3>
+  <ul>
+    <li>The Imperial Favor can only be controlled by the <strong>team of players</strong>, and is
+        <strong>shared by the team</strong> rather than any individual. If any player on the team discards it via a
+        card ability, it is lost by the entire team. <strong>The Shadowlands deck cannot have the Imperial
+        Favor.</strong></li>
+    <li>On a glory count, each team adds together the total glory on <strong>ready characters they control</strong>
+        plus <strong>one for each ring claimed by their team</strong>; compare the two totals.</li>
+    <li>If the <strong>team of players</strong> wins the glory count, it claims the Imperial Favor as normal. If the
+        <strong>Shadowlands deck</strong> wins the glory count, <strong>discard the Imperial Favor from play</strong>.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="17">
+  <h2>Cooperative — Fate Phase &amp; Difficulty Options</h2>
+
+  <h3>Fate Phase</h3>
+  <ul>
+    <li>Resolves as normal: discard each character with no fate, remove one fate from each other character. In the
+        stronghold format, place one fate on each unclaimed ring and <strong>discard each card from each broken
+        province</strong>.</li>
+    <li>Each team returns its claimed rings to the unclaimed ring pool, and the first player token is given to the
+        <strong>opposing team</strong>.</li>
+    <li>The end of the fate phase ends the game round. Proceed to the next round and continue until one team has won.</li>
+  </ul>
+
+  <h3>For an Additional Challenge (optional difficulty rules)</h3>
+  <p class="rule">One or more may be used to increase difficulty (use all five for a "nightmarish" challenge):</p>
+  <ul>
+    <li><strong>Cunning</strong> — When the Shadowlands deck would take an action during a conflict in which it is
+        attacking, that action opportunity is <strong>passed if the Shadowlands deck is currently winning and
+        breaking the province</strong>.</li>
+    <li><strong>Dangerous</strong> — When the Shadowlands deck declares a conflict, the conflict type is determined
+        by the attacking characters' skills: total their military and political skills separately. The conflict is
+        always declared <strong>military</strong> unless their total political skill <strong>exceeds</strong> their
+        total military skill. (If any character cannot participate in a conflict of a particular type, it cannot be
+        declared of that type.)</li>
+    <li><strong>Greedy</strong> — When the Shadowlands deck declares a conflict, if any rings have fate on them, it
+        can only declare using a ring with the <strong>most fate</strong> on it. Discard conflict cards until one
+        whose shadow element matches an unclaimed ring with the most fate, and use that card to determine the
+        conflict's type and location.</li>
+    <li><strong>Relentless</strong> — The Shadowlands deck collects <strong>1 additional fate per player</strong>
+        each round.</li>
+    <li><strong>Unpredictable</strong> — When the Shadowlands deck is instructed to make a choice or selection while
+        resolving card abilities, that choice is made <strong>randomly</strong> among all available options; the
+        players do not choose for the Shadowlands deck.</li>
+  </ul>
 </section>
 
 </div>
