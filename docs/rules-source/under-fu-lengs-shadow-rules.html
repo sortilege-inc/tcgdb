@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Under Fu Leng's Shadow — Rules of Play (transcribed)</title>
+<style>
+  :root {
+    --bg: #1a1614; --panel: #241f1b; --ink: #ece4d8; --dim: #b3a392;
+    --accent: #c8553d; --rule: #3a322c; --tag: #8a6d3b; --warn: #d08a4a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 -apple-system, "Segoe UI", system-ui, sans-serif;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 2rem 1.5rem 6rem; }
+  header.doc { border-bottom: 2px solid var(--accent); padding-bottom: 1.2rem; margin-bottom: 2rem; }
+  h1 { color: var(--accent); font-size: 1.9rem; margin: 0 0 .4rem; }
+  h2 {
+    color: var(--accent); font-size: 1.4rem; margin: 2.6rem 0 .8rem;
+    border-bottom: 1px solid var(--rule); padding-bottom: .3rem;
+  }
+  h3 { color: var(--ink); font-size: 1.12rem; margin: 1.8rem 0 .5rem; }
+  h4 { color: var(--dim); font-size: 1rem; margin: 1.2rem 0 .3rem; text-transform: uppercase; letter-spacing: .03em; }
+  section[data-page]::before {
+    content: "p. " attr(data-page); float: right; color: var(--dim);
+    font-size: .72rem; font-weight: 600; letter-spacing: .04em;
+    background: var(--panel); border: 1px solid var(--rule);
+    border-radius: 4px; padding: .1rem .5rem; margin-left: .6rem;
+  }
+  .provenance {
+    background: var(--panel); border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+    border-radius: 6px; padding: 1rem 1.2rem; margin: 1rem 0 0; font-size: .92rem; color: var(--dim);
+  }
+  .provenance strong { color: var(--ink); }
+  blockquote {
+    margin: .8rem 0; padding: .6rem 1rem; border-left: 3px solid var(--tag);
+    background: rgba(138,109,59,.08); color: var(--ink); font-style: italic;
+  }
+  .rule { margin: .5rem 0; }
+  .keyword { color: var(--accent); font-weight: 600; }
+  .tag { display: inline-block; font-size: .72rem; font-weight: 700; text-transform: uppercase;
+         letter-spacing: .04em; color: #1a1614; background: var(--tag); border-radius: 3px; padding: .05rem .4rem; }
+  .sym { color: var(--warn); font-weight: 600; }
+  ul, ol { margin: .5rem 0 .8rem; padding-left: 1.4rem; }
+  li { margin: .3rem 0; }
+  .card-quote { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px;
+                padding: .8rem 1rem; margin: .8rem 0; font-size: .94rem; }
+  .card-quote .name { color: var(--accent); font-weight: 700; }
+  .note { color: var(--dim); font-size: .9rem; font-style: italic; }
+  .status-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .9rem; }
+  .status-table th, .status-table td { border: 1px solid var(--rule); padding: .4rem .6rem; text-align: left; }
+  .status-table th { background: var(--panel); color: var(--dim); }
+  .done { color: #7fc888; }
+  .pending { color: var(--dim); }
+  code { background: var(--panel); padding: .05rem .3rem; border-radius: 3px; font-size: .88em; }
+  .deck-build { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: .8rem 1rem; margin: .8rem 0; }
+  .deck-build h3 { margin-top: 0; color: var(--accent); }
+  .deck-build dl { margin: .4rem 0; }
+  .deck-build dt { color: var(--dim); font-size: .82rem; text-transform: uppercase; letter-spacing: .03em; margin-top: .5rem; }
+  .deck-build dd { margin: .1rem 0 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="doc">
+  <h1>Under Fu Leng's Shadow — Rules of Play</h1>
+  <p class="provenance">
+    <strong>Source:</strong> <code>shadowlands.pdf</code> — "Under Fu Leng's Shadow — Rules of Play"
+    (Fantasy Flight Games, L5R LCG expansion rulebook, 28 pages, image-only scan).<br>
+    <strong>Method:</strong> Each page was rendered to a high-DPI PNG and transcribed by reading the
+    page image directly (the PDF has no text layer). Every section carries a <code>data-page="N"</code>
+    attribute citing the source page (shown top-right as <em>p. N</em>).<br>
+    <strong>Scope:</strong> Every <em>specific rule</em> needed to implement solo/co-op and challenge
+    modes is captured. <em>Examples of play, flavor text, and component-identification art are omitted.</em>
+    Card-specific ability text (warlords, encounter cards) is reproduced only where the rulebook states a
+    rule via that card; full card data belongs in the tcgdb catalog.<br>
+    <strong>Symbol legend:</strong> <span class="sym">[shadowlands]</span> = Shadowlands clan symbol;
+    <span class="sym">[per-player]</span> = per-player scaling icon; ring elements written as
+    <span class="sym">Air / Earth / Fire / Water / Void</span>.
+  </p>
+
+  <h4>Transcription status</h4>
+  <table class="status-table">
+    <tr><th>Pages</th><th>Section</th><th>Status</th></tr>
+    <tr><td>1</td><td>Cover</td><td class="done">— (no rules; omitted)</td></tr>
+    <tr><td>2–3</td><td>Overview &amp; Components</td><td class="done">✓ transcribed</td></tr>
+    <tr><td>4–6</td><td>Shadowlands Faction Rules</td><td class="done">✓ transcribed</td></tr>
+    <tr><td>7</td><td>Assembling Shadowlands Decks</td><td class="done">✓ transcribed</td></tr>
+    <tr><td>8–17</td><td>Cooperative Mode Rules</td><td class="pending">pending</td></tr>
+    <tr><td>18–20</td><td>Challenge Mode Rules</td><td class="pending">pending</td></tr>
+    <tr><td>21</td><td>Appendix I: New Mechanics</td><td class="pending">pending</td></tr>
+    <tr><td>22–23</td><td>Appendix II: Card Anatomy</td><td class="pending">pending</td></tr>
+    <tr><td>24–27</td><td>Appendix III: Team Rules</td><td class="pending">pending</td></tr>
+    <tr><td>28</td><td>Credits</td><td class="done">— (no rules; omitted)</td></tr>
+  </table>
+</header>
+
+<!-- ============================================================ -->
+<section data-page="2">
+  <h2>Overview</h2>
+  <p class="rule">
+    <em>Under Fu Leng's Shadow</em> is an expansion for <em>Legend of the Five Rings: The Card Game</em>.
+    It introduces new cards, rules, and game components to support playing the game against the
+    Shadowlands faction. The faction is designed to be played as a <strong>cooperative</strong>
+    experience in which <strong>1–4 players</strong> work together to withstand waves of attacks.
+    Alternatively, it can be played as a player-driven <strong>challenge</strong> deck where
+    <strong>one player commands the Shadowlands against a team of 2–4 opponents</strong>.
+  </p>
+  <p class="rule">
+    The expansion includes <strong>138 non-Shadowlands cards</strong>. These are highlighted in the new
+    formats but can also be used in standard <em>Legend of the Five Rings</em> play.
+  </p>
+
+  <h3>Two Formats supported</h3>
+  <p class="rule">
+    The rules accommodate both formats and assume players already know the normal rules of the game:
+  </p>
+  <ul>
+    <li><strong>Stronghold format</strong> — uses 5 provinces and a stronghold.</li>
+    <li><strong>Skirmish format</strong> — uses 3 provinces (no stronghold).</li>
+  </ul>
+  <p class="note">
+    The rulebook recommends new players learn the skirmish format before the stronghold format.
+    (Learn-to-Play documents for both are at www.L5R.com.)
+  </p>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="3">
+  <h2>Components (rules-relevant)</h2>
+  <p class="note">
+    The component list is for identification only; no rules. Counts retained for reference (they bound
+    deck-construction): 3 Shadowlands Warlord cards (double-sided), 10 Shadowlands Province cards,
+    2 Stronghold cards, 60 Shadowlands Dynasty cards, 60 Shadowlands Conflict cards, 64 (non-Shadowlands)
+    Dynasty cards, 72 (non-Shadowlands) Conflict cards, and 20 double-sided Status tokens
+    (<span class="keyword">Tainted</span>).
+  </p>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="4">
+  <h2>Shadowlands Faction Rules</h2>
+  <p class="rule">
+    The Shadowlands faction changes how the game is played: it exists as an <strong>external threat</strong>
+    that the clans of Rokugan must defeat together.
+  </p>
+  <blockquote>
+    With the exception of the rules listed below, the Shadowlands faction is treated as a clan just like
+    the seven clans currently in the game. It is identified by the <span class="sym">[shadowlands]</span>
+    clan symbol in text and by its unique card frame. <strong>The following rules apply to the Shadowlands
+    faction in all game modes.</strong>
+  </blockquote>
+
+  <h3>Team Play</h3>
+  <ul>
+    <li>The Shadowlands is not meant to be faced by a single opponent. Players who oppose the Shadowlands
+        do so as <strong>a team</strong>, and the Shadowlands faction operates as <strong>a team of one</strong>.</li>
+    <li>Even when playing a single-player cooperative game against a Shadowlands deck,
+        <strong>all of the rules for team play must be observed</strong>.</li>
+    <li>Throughout the rulebook, both the team of players opposing the Shadowlands and the Shadowlands
+        itself are referred to as <strong>teams</strong>, regardless of the number of players on that team.</li>
+  </ul>
+  <p class="note">Full team rules: Appendix III (p. 24).</p>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="5">
+  <h2>Winning the Game (vs. the Shadowlands)</h2>
+  <p class="rule">
+    When playing with or against the Shadowlands, <strong>only</strong> use the following win conditions
+    (the normal honor-total and standard victory conditions do not apply to the Shadowlands side — see Honor below):
+  </p>
+  <ul>
+    <li>If the <strong>Shadowlands dynasty deck has 0 cards</strong> in it at the end of any game round,
+        the Shadowlands deck (or player) <strong>loses</strong> the game.</li>
+    <li>If <strong>all of the Shadowlands provinces are broken</strong>, the Shadowlands deck (or player)
+        <strong>immediately loses</strong> the game.</li>
+    <li>If <strong>each player's stronghold province is broken</strong> (stronghold format), or
+        <strong>all non-Shadowlands provinces are broken</strong> (skirmish format), the Shadowlands deck
+        (or player) <strong>immediately wins</strong> the game.</li>
+  </ul>
+
+  <h3>Honor</h3>
+  <ul>
+    <li>The Shadowlands faction has <strong>no clan honor</strong>, and a team of opponents
+        <strong>cannot win by accumulating a sufficient honor total</strong>.</li>
+    <li>If an effect would cause the Shadowlands deck (or player) to gain or lose honor, it is
+        <strong>ignored</strong>. <strong>Honor costs are always considered to be paid</strong> by the Shadowlands.</li>
+    <li>If a player would be instructed to take honor from / give honor to their Shadowlands opponent
+        (or vice-versa), that player <strong>gains honor from or loses honor to the general token pool
+        instead</strong>.</li>
+  </ul>
+
+  <h3>Surviving the Shadowlands</h3>
+  <p class="rule">
+    Because the Shadowlands dynasty deck is also the timer leading toward its opponents' victory condition,
+    <strong>card effects cannot discard cards from the Shadowlands dynasty deck</strong>.
+  </p>
+
+  <h3>Banned Cards (when playing against the Shadowlands)</h3>
+  <p class="rule">The following cards are banned; players cannot include them in their decks:</p>
+  <ul>
+    <li>Trading on the Sand Road (Warriors of the Wind, 28)</li>
+    <li>Haughty Magistrate (Imperial Cycle, 69)</li>
+    <li>Waning Hostilities (Imperial Cycle, 100)</li>
+    <li>Hige's Sermon (Clan War, 92)</li>
+    <li>A Season of War (Dominion Cycle, 14)</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="6">
+  <h2>Warlords</h2>
+  <ul>
+    <li>Each Shadowlands deck is built around a unique <strong>warlord</strong> who defines how the game
+        is played from round to round.</li>
+    <li>Warlord cards are <strong>double-sided</strong>: one side for <strong>cooperative</strong> play and
+        one for <strong>challenge</strong> play. Use the side matching the game mode; the mode is indicated
+        by a <strong>tag at the bottom of the card's text box</strong>.</li>
+    <li>The warlord <strong>starts the game out of play</strong>, visible between the two Shadowlands decks.</li>
+    <li>Instead of a cost, the warlord has a <strong>fate value in its upper-left corner</strong> that
+        indicates <strong>how much fate the Shadowlands collects each round</strong>.</li>
+    <li>Each warlord has a powerful ability that can be <strong>triggered once per round, even while the
+        warlord is out of play</strong>.</li>
+    <li>The warlord can be <strong>brought into play by card effects</strong>, at which point it functions
+        like any other character. When it would leave play, it <strong>returns to its out-of-play zone</strong>
+        (where its ability can continue to be used and from which it can be brought back into play later).</li>
+  </ul>
+  <p class="note">
+    Example warlord shown on this page (card data, not a rule): <span class="keyword">Akuma no Oni</span> —
+    "Champion. Corrupted. No <span class="sym">[void]</span> attachments." with a once-per-round Reaction,
+    tagged <span class="tag">Cooperative</span>. Full warlord card text belongs in the card catalog.
+  </p>
+
+  <h2>Per-Player Icon</h2>
+  <ul>
+    <li>The per-player icon <span class="sym">[per-player]</span> is used on Shadowlands warlord and
+        province cards to <strong>scale a value by the number of players</strong>.</li>
+    <li>When a number is followed by the <span class="sym">[per-player]</span> symbol,
+        <strong>multiply that number by the number of non-Shadowlands players</strong> in the game to
+        determine that value.</li>
+    <li><strong>Players will not be eliminated during the game.</strong></li>
+  </ul>
+
+  <h2>Tainted Status and Corrupted Keyword</h2>
+  <ul>
+    <li>Many Shadowlands card effects can <span class="keyword">taint</span> a character or province.
+        To indicate a card is tainted, place a <strong>tainted status token</strong> on it.</li>
+    <li>A tainted card is <strong>stronger when tainted</strong>, but <strong>carries an honor cost in
+        order to attack or defend</strong>.</li>
+    <li>Because the Shadowlands is always considered to pay honor costs, <strong>the cost to use a tainted
+        card is ignored by the Shadowlands faction</strong>.</li>
+    <li>Many Shadowlands characters have the <span class="keyword">corrupted</span> keyword, which means
+        they <strong>enter play already tainted</strong>.</li>
+  </ul>
+  <p class="note">Full rules on tainted status and the corrupted keyword: Appendix I (p. 21).</p>
+
+  <h2>Shadowlands Ring Effects</h2>
+  <p class="rule">
+    When a <strong>Shadowlands player</strong> would resolve a ring effect, they use a different set of ring
+    effects than their opponents (the standard ring effects are corrupted by Jigoku):
+  </p>
+  <ul>
+    <li><span class="sym">Air</span>: Each opponent loses 1 honor.</li>
+    <li><span class="sym">Earth</span>: Each opponent chooses 1 faceup card in their provinces and discards it,
+        then discards 1 random card from their hand.</li>
+    <li><span class="sym">Fire</span>: Each opponent chooses and taints a character they control.</li>
+    <li><span class="sym">Water</span>: Each opponent chooses and bows a character in their home.</li>
+    <li><span class="sym">Void</span>: Each opponent removes 1 fate from a character they control.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="7">
+  <h2>Assembling Shadowlands Decks</h2>
+  <ul>
+    <li>Each Shadowlands deck is built around its warlord and contains <strong>two 40-card decks</strong>
+        (dynasty + conflict) and <strong>five provinces</strong>.</li>
+    <li>The Shadowlands dynasty and conflict cards are organized into <strong>twelve encounter groups of
+        ten cards each</strong>, identified by a number on the bottom of each card. There are
+        <strong>six dynasty encounter groups</strong> and <strong>six conflict encounter groups</strong>.</li>
+    <li><strong>To build a Shadowlands deck:</strong> select the warlord and each of that warlord's
+        provinces (listed by title below). Then select the <strong>four 10-card encounter groups</strong>
+        listed for the dynasty deck and shuffle them together, and the four listed for the conflict deck and
+        shuffle them together. This creates a <strong>40-card dynasty deck</strong> and a
+        <strong>40-card conflict deck</strong>. The two decks, five provinces, and warlord together form the
+        Shadowlands deck.</li>
+    <li>For a first game against the Shadowlands, the rulebook recommends playing against
+        <strong>Akuma no Oni</strong>.</li>
+  </ul>
+
+  <div class="deck-build">
+    <h3>Akuma no Oni: Violence and Destruction</h3>
+    <dl>
+      <dt>Provinces</dt>
+      <dd>Blood Fields · <span class="sym">[element]</span> Fallen Chrysanthemum Lake · Haunted Jungles ·
+          Maddening Emptiness · Spectral Watchtower</dd>
+      <dt>Dynasty Encounter Groups</dt><dd>1, 2, 3, and 4</dd>
+      <dt>Conflict Encounter Groups</dt><dd>1, 3, 4, and 6</dd>
+    </dl>
+  </div>
+
+  <div class="deck-build">
+    <h3>Atsuko the Calamitous: Life From Death</h3>
+    <dl>
+      <dt>Provinces</dt>
+      <dd>Defiled Cavern · <span class="sym">[element]</span> Forgotten Tomb of Fu Leng · Haunted Jungles ·
+          Maddening Emptiness · Sea of Shadows</dd>
+      <dt>Dynasty Encounter Groups</dt><dd>1, 2, 5, and 6</dd>
+      <dt>Conflict Encounter Groups</dt><dd>1, 2, 3, and 5</dd>
+    </dl>
+  </div>
+
+  <div class="deck-build">
+    <h3>The Obsidian Flower: Proliferating Corruption</h3>
+    <dl>
+      <dt>Provinces</dt>
+      <dd>Defiled Cavern · <span class="sym">[element]</span> False Lantern Grove · Garden of Corruption ·
+          Sea of Shadows · Spectral Watchtower</dd>
+      <dt>Dynasty Encounter Groups</dt><dd>3, 4, 5, and 6</dd>
+      <dt>Conflict Encounter Groups</dt><dd>2, 4, 5, and 6</dd>
+    </dl>
+  </div>
+  <p class="note">
+    Note the <span class="sym">[element]</span> marker denotes the province whose printed element is shown
+    on the page; exact element symbols to be confirmed against the province cards when implementing.
+  </p>
+</section>
+
+</div>
+</body>
+</html>
