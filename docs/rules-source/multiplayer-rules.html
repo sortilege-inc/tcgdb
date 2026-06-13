@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L5R LCG Multiplayer Rules (Enlightenment + Team Conquest) — transcribed</title>
+<style>
+  :root {
+    --bg: #14171a; --panel: #1c2127; --ink: #e6ecf2; --dim: #9aa7b4;
+    --accent: #5aa9e6; --rule: #2a313a; --tag: #6b8caf; --warn: #e0b15a; --gold: #f0d27a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.6 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 2rem 1.5rem 6rem; }
+  header.doc { border-bottom: 2px solid var(--accent); padding-bottom: 1.2rem; margin-bottom: 2rem; }
+  h1 { color: var(--accent); font-size: 1.8rem; margin: 0 0 .4rem; }
+  h2 { color: var(--accent); font-size: 1.35rem; margin: 2.4rem 0 .7rem;
+       border-bottom: 1px solid var(--rule); padding-bottom: .3rem; }
+  h3 { color: var(--ink); font-size: 1.1rem; margin: 1.6rem 0 .4rem; }
+  .part { background: linear-gradient(90deg, rgba(90,169,230,.14), transparent);
+          border-left: 4px solid var(--accent); padding: .8rem 1rem; margin: 3rem 0 1rem; }
+  .part h2 { border: 0; margin: 0; font-size: 1.5rem; }
+  .part .sub { color: var(--dim); font-size: .95rem; }
+  section[data-page]::before {
+    content: "p. " attr(data-page); float: right; color: var(--dim);
+    font-size: .72rem; font-weight: 600; letter-spacing: .04em;
+    background: var(--panel); border: 1px solid var(--rule);
+    border-radius: 4px; padding: .1rem .5rem; margin-left: .6rem; }
+  .provenance { background: var(--panel); border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+    border-radius: 6px; padding: 1rem 1.2rem; margin: 1rem 0 0; font-size: .92rem; color: var(--dim); }
+  .provenance strong { color: var(--ink); }
+  .rule { margin: .5rem 0; }
+  ul, ol { margin: .5rem 0 .8rem; padding-left: 1.4rem; }
+  li { margin: .3rem 0; }
+  .note { color: var(--dim); font-size: .9rem; font-style: italic; }
+  .sym { color: var(--warn); font-weight: 600; }
+  code { background: var(--panel); padding: .05rem .3rem; border-radius: 3px; font-size: .88em; }
+  .banned { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: .6rem 1rem; }
+  .status-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .9rem; }
+  .status-table th, .status-table td { border: 1px solid var(--rule); padding: .4rem .6rem; text-align: left; }
+  .status-table th { background: var(--panel); color: var(--dim); }
+  .done { color: #7fc888; }
+  blockquote { margin: .8rem 0; padding: .5rem 1rem; border-left: 3px solid var(--tag);
+    background: rgba(107,140,175,.1); font-style: italic; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="doc">
+  <h1>L5R LCG Multiplayer Rules — Enlightenment &amp; Team Conquest</h1>
+  <p class="provenance">
+    <strong>Source:</strong> <code>multiplayer.pdf</code> — Fantasy Flight Games "Multiplayer Rules," <strong>Version 2</strong>
+    (update effective <strong>April 6, 2020</strong>), 9 pages. Covers the <strong>Enlightenment format</strong>
+    (3 players) and the <strong>Team Conquest format</strong> (4 players, 2v2).<br>
+    <strong>Method:</strong> The PDF has a clean embedded text layer, which was extracted and used as the
+    authoritative source; page renders were cross-checked for the ring-element glyphs that did not encode in the
+    text layer. Each section carries a <code>data-page="N"</code> attribute (shown top-right as <em>p. N</em>).<br>
+    <strong>Scope:</strong> Every specific rule is captured. Flavor fiction, worked numeric examples (e.g.
+    "Marie/Bryce/Alex," "Tom/Kris"), and the FAQ illustration are summarized or omitted per the
+    "rules-only, no examples" brief.<br>
+    <strong>Terminology note:</strong> this document refers to a "<strong>regroup phase</strong>" (pp. 3, 7) — in
+    current FFG RRG terminology this is the <strong>fate phase</strong> (the final phase of the round). Transcribed
+    verbatim with this note.
+  </p>
+
+  <h4>Transcription status</h4>
+  <table class="status-table">
+    <tr><th>Pages</th><th>Section</th><th>Status</th></tr>
+    <tr><td>1</td><td>Summary of Changes (v2)</td><td class="done">✓</td></tr>
+    <tr><td>2–6</td><td>Enlightenment Format (3 players)</td><td class="done">✓</td></tr>
+    <tr><td>7–9</td><td>Team Conquest Format (4 players)</td><td class="done">✓</td></tr>
+  </table>
+</header>
+
+<!-- ============================================================ -->
+<section data-page="1">
+  <h2>Summary of Changes (Version 2)</h2>
+  <p class="rule">
+    This update goes into effect <strong>April 6, 2020</strong>. New entries / changes from previous editions
+    (noted in blue text in the original) affect these sections:
+  </p>
+  <ul>
+    <li>Eligible Provinces (p. 5)</li>
+    <li>Enlightenment Banned List (p. 6)</li>
+    <li>Declaring Conflicts (p. 8)</li>
+    <li>Resolving Conflict (p. 8)</li>
+    <li>Player Elimination (p. 8)</li>
+    <li>Eligible Provinces (p. 9)</li>
+    <li>Additional Players (p. 9)</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<!-- ===============  PART A — ENLIGHTENMENT (3P)  ============= -->
+<!-- ============================================================ -->
+<div class="part">
+  <h2>Part A — Enlightenment Format (3 players)</h2>
+  <div class="sub">A three-player head-to-head format introducing the Enlightenment victory condition. Additional
+  players can be added by altering the draw-phase rules (see p. 3). The standard game rules apply wherever not
+  explicitly altered, replaced, or negated here.</div>
+</div>
+
+<section data-page="2">
+  <h2>Enlightenment — Overview &amp; Setup</h2>
+  <h3>Overview</h3>
+  <p class="rule">
+    The Enlightenment format is a way to play L5R LCG with <strong>three players</strong>, introducing the
+    Enlightenment victory condition (win by collecting all five elemental rings on your provinces).
+  </p>
+  <h3>Setup</h3>
+  <p class="rule">Follow standard setup (RRG p. 17) with this change to Step 4:</p>
+  <ul>
+    <li>Players <strong>do not set aside rings to form a shared unclaimed ring pool</strong>. Instead, each player
+        sets aside their own set of ring tokens into a <strong>personal unclaimed ring pool</strong>.</li>
+    <li>The general token pool is still created (fate, honor, status tokens, and the Imperial Favor card within
+        reach of each player).</li>
+    <li>There is a <strong>common unclaimed ring pool</strong> available to all players, but it
+        <strong>begins the game with no rings in it</strong>.</li>
+  </ul>
+
+  <h2>Enlightenment — Victory and Defeat</h2>
+  <p class="rule">
+    The standard win/lose rules are <strong>replaced</strong>. Three ways for a player to win an Enlightenment game:
+  </p>
+  <ul>
+    <li><strong>Enlightenment:</strong> collect one of each elemental ring on their unbroken provinces;</li>
+    <li><strong>Honorable Victory:</strong> accumulate <strong>25 or more honor</strong>;</li>
+    <li>have <strong>each of their opponents eliminated</strong>.</li>
+  </ul>
+
+  <h3>Enlightenment (the ring victory)</h3>
+  <ul>
+    <li>A player collecting one copy of each elemental ring on their <strong>unbroken provinces</strong>
+        <strong>immediately wins</strong>.</li>
+    <li><strong>Only rings claimed on a player's province</strong> count toward the victory condition, and each
+        counts only as a ring of its <strong>printed element</strong>. A ring counted as being in a player's
+        claimed ring pool but <strong>not claimed on their provinces</strong> (via a card effect)
+        <strong>does not count</strong> toward the victory condition.</li>
+    <li>A player can take rings claimed on opponents' provinces by <strong>breaking those provinces</strong>.</li>
+    <li>A player <strong>cannot have multiple rings of the same printed element</strong> claimed on their
+        provinces.</li>
+  </ul>
+
+  <h3>Honorable Victory</h3>
+  <p class="rule">A player with <strong>25 or more honor</strong> in their honor pool immediately wins.</p>
+
+  <h3>Player Elimination</h3>
+  <ul>
+    <li>A player whose <strong>stronghold is broken</strong>, or who <strong>has no honor</strong>, is
+        <strong>immediately eliminated</strong>.</li>
+    <li>Any ring tokens an eliminated player had claimed on their provinces, or in their personal unclaimed ring
+        pool, are placed in the <strong>common unclaimed ring pool</strong>.</li>
+    <li>A player's <strong>stronghold cannot be attacked unless all four of their non-stronghold provinces are
+        broken</strong>.</li>
+    <li>When a player is eliminated:
+      <ul>
+        <li>Any cards owned by them are <strong>immediately removed from the game</strong>.</li>
+        <li>Any <strong>treaties</strong> they made are <strong>immediately dissolved</strong>.</li>
+        <li>Their <strong>honor dial is ignored</strong> for card-effect purposes for the rest of the game.</li>
+        <li>If they were the first player, the first player token <strong>passes to the player on their left</strong>.</li>
+      </ul></li>
+    <li><span class="note">Lasting effects from an eliminated player's cards persist for their normal duration;
+        delayed effects still occur at their specified time.</span></li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="3">
+  <h2>Enlightenment — Honor Bids &amp; the Draw Phase</h2>
+  <p class="rule">
+    Players bid honor with their dial to determine the number of cards drawn, as in the standard game, but the
+    exchange of honor is handled differently with three players. The three-player draw phase has 3 steps:
+  </p>
+  <ol>
+    <li>Each player secretly selects a number between <strong>1 and 5</strong> on their honor dial.</li>
+    <li>Each player reveals their selection and players exchange honor (see Exchanging Honor).</li>
+    <li>Each player draws cards from their conflict deck <strong>equal to the number selected</strong>.</li>
+  </ol>
+
+  <h3>Exchanging Honor</h3>
+  <ul>
+    <li><strong>All three different:</strong> the player who selected the <strong>highest</strong> gives honor to
+        the player who selected the <strong>lowest</strong>, equal to the difference between those two numbers. The
+        middle player neither gains nor loses.</li>
+    <li><strong>Two the same, third higher:</strong> the higher player <strong>gives to both</strong> opponents,
+        an amount equal to the difference between the two numbers, <strong>divided as evenly as possible</strong>
+        between the two tied players. Any leftover honor: the <strong>giver chooses</strong> which opponent gets it.</li>
+    <li><strong>Two the same, third lower:</strong> the lower player <strong>takes from both</strong> opponents,
+        total equal to the difference, divided as evenly as possible. Any leftover: the <strong>receiver
+        chooses</strong> which opponent to take it from.</li>
+    <li><strong>All three the same:</strong> no honor is exchanged.</li>
+  </ul>
+
+  <h3>The Draw Phase with Four or More Players</h3>
+  <p class="rule">With 4+ players, honor bids during the draw phase work differently (the draw phase has 4 steps):</p>
+  <ol>
+    <li>Each player secretly selects either <strong>2 or 4</strong> on their honor dial.</li>
+    <li>Each player reveals their selection. <strong>This value cannot be modified by card effects.</strong></li>
+    <li>Honor is exchanged: each player who selected <strong>2</strong> is acting "honorably" and gives away no
+        honor; each player who selected <strong>4</strong> is acting "dishonorably" and <strong>gives 1 honor
+        token to each player acting honorably</strong>.</li>
+    <li>Each player draws cards <strong>equal to the number selected</strong> (2 or 4).</li>
+  </ol>
+  <p class="note">During <strong>duels</strong>, honor bids work as in the RRG, with all five numbers available.</p>
+
+  <h3>The First Player Token (Enlightenment)</h3>
+  <ul>
+    <li>When the first player token would be passed during Step 4 of the regroup phase (the fate phase), it
+        passes to the player to the <strong>left</strong> of the first player instead.</li>
+    <li>At the beginning of each dynasty phase, the player with the first player token <strong>gains 1 additional
+        fate</strong> from the general token pool (to mitigate being forced to act first in the conflict phase).</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="4">
+  <h2>Enlightenment — Rings</h2>
+  <p class="rule">
+    When a player claims a ring, they place it on one of their unbroken provinces, where it remains claimed until
+    that province is broken. The following ring rules apply in the Enlightenment format:
+  </p>
+
+  <h3>Rings Do Not Return</h3>
+  <p class="rule">
+    During <strong>step 6 of the fate phase</strong>, rings claimed on provinces <strong>remain on those
+    provinces</strong> instead of returning to the unclaimed ring pool.
+  </p>
+
+  <h3>Duplicate Rings</h3>
+  <p class="rule">
+    A player may never have more than one ring of the same printed element claimed on their provinces at once. If a
+    card effect or framework step would cause a player to claim a duplicate-element ring:
+  </p>
+  <ul>
+    <li>If the ring to be claimed is the <strong>contested ring</strong>, it returns to the <strong>attacking
+        player's personal unclaimed ring pool</strong>.</li>
+    <li>If the ring to be claimed is <strong>on the defending player's province</strong>, it moves to the
+        <strong>defending player's personal unclaimed ring pool</strong>.</li>
+  </ul>
+  <p class="note">Ownership of rings does not need to be tracked.</p>
+
+  <h3>Placing Fate on Unclaimed Rings in the Fate Phase</h3>
+  <p class="rule">
+    Do <strong>not</strong> place a fate token on each unclaimed ring as normal. Instead, <strong>in player
+    order</strong>, each player chooses a ring token in a <strong>different player's personal unclaimed ring
+    pool</strong> and places one fate token from the general pool on it.
+  </p>
+
+  <h3>Rings and Card Effects</h3>
+  <ul>
+    <li>A card effect referring to a ring by element refers to <strong>any ring with that element</strong>; an
+        effect interacting with claimed/unclaimed rings may interact with a ring in <strong>any</strong> claimed or
+        unclaimed ring pool.</li>
+    <li>When an effect moves a ring between a claimed and an unclaimed ring pool, <strong>both pools must belong to
+        the same player</strong>. During a conflict, effects can only switch the contested ring with rings in the
+        <strong>attacking player's</strong> claimed or unclaimed ring pools.</li>
+  </ul>
+
+  <h3>Declaring Conflicts and Claiming Rings</h3>
+  <ul>
+    <li>The attacking player uses a ring from their <strong>personal unclaimed ring pool</strong> or, occasionally,
+        from the <strong>common unclaimed ring pool</strong>.</li>
+    <li>On a win, they resolve the contested ring's effect and place the ring on one of their unbroken provinces;
+        it is not returned at end of round and counts as being in their claimed ring pool for card/game effects.</li>
+    <li>On a defender win, the ring is not claimed and returns to the <strong>attacker's personal unclaimed ring
+        pool</strong>.</li>
+    <li>A ring <strong>cannot be placed on a stronghold province</strong> unless each of that player's
+        non-stronghold provinces is broken.</li>
+    <li><span class="note">Multiple rings can be placed on the same unbroken province.</span></li>
+  </ul>
+
+  <h3>Taking Rings from Other Players</h3>
+  <p class="rule">
+    If a player breaks an opponent's province, they claim any rings that were claimed on it and place them onto
+    their own unbroken provinces (which may be divided among several provinces). If any taken ring has the same
+    printed element as a ring already claimed on the attacking player's provinces, that ring is instead returned to
+    the <strong>defending player's personal unclaimed ring pool</strong>.
+  </p>
+
+  <h3>Undefended Conflicts</h3>
+  <p class="rule">
+    When a defending player loses an <strong>unopposed</strong> conflict, they <strong>do not lose any honor</strong>
+    for the conflict being unopposed.
+  </p>
+
+  <h3>Ring Availability</h3>
+  <p class="rule">
+    If a player has no rings in their personal unclaimed ring pool and none in the common unclaimed ring pool, they
+    may <strong>declare a conflict without a contested ring</strong>. They still select attacking characters, a
+    province, and a conflict type. With no ring token, the conflict <strong>has no element and resolves no ring
+    effect</strong> on a win.
+  </p>
+
+  <h3>The Common Unclaimed Ring Pool</h3>
+  <p class="rule">
+    In addition to each player's personal unclaimed ring pool, there is a <strong>common unclaimed ring pool</strong>
+    any player may use to declare attacks. It is empty at the start of the game; rings enter it via card effects or,
+    more often, by <strong>player elimination</strong>.
+  </p>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="5">
+  <h2>Enlightenment — Treaties (terms)</h2>
+  <p class="rule">
+    Players may establish a formal agreement called a <strong>treaty</strong>. Setting one up requires agreeing on
+    four parameters (in any order; each must be agreed by both involved players before the treaty is finalized):
+  </p>
+  <ol>
+    <li><strong>What Player One promises</strong> — something they will do (or not do) during the game. May be
+        specific or vague, but <strong>must be an action/decision a player can take</strong> and
+        <strong>cannot include an exchange of game components</strong> (honor, fate, cards, or claimed rings).</li>
+    <li><strong>What Player Two promises</strong> — both players must make a promise (same rules as parameter one)
+        for the treaty to be finalized.</li>
+    <li><strong>Duration</strong> — any length, from "immediate" to "the remainder of the game." If the two
+        promises have different durations, use the <strong>longer</strong>. When the duration ends, the treaty is
+        either <strong>dissolved</strong> (both kept their promises) or <strong>broken</strong> (one did not).</li>
+    <li><strong>Value</strong> — both agree a value to stake, <strong>between 1 and 5</strong>. If broken, the
+        breaker suffers a penalty based on this value (by default, <strong>losing that amount of honor</strong>).</li>
+  </ol>
+
+  <h2>Enlightenment — Clarifying Concepts</h2>
+
+  <h3>"In Player Order" and "Pass Consecutively"</h3>
+  <ul>
+    <li><strong>In player order:</strong> the first player acts first, then the player to their left, continuing
+        <strong>clockwise</strong>.</li>
+    <li><strong>Pass consecutively:</strong> a sequence continues until <strong>all players</strong> pass
+        consecutively (includes action, reaction, and interrupt windows).</li>
+  </ul>
+
+  <h3>"Your Opponent"</h3>
+  <ul>
+    <li>"Your opponent" refers only to the <strong>single opponent participating against you in a conflict</strong>.
+        It does not refer to the non-participating player, who cannot fulfill conditions referring to "your
+        opponent."</li>
+    <li>"An opponent" can refer to <strong>any of your opponents</strong>, even during a conflict.</li>
+  </ul>
+
+  <h3>Eligible Provinces</h3>
+  <p class="rule">
+    During a conflict, a province is only an "eligible province" to be attacked if it is <strong>controlled by the
+    defending player</strong>. The provinces of non-defending players are not eligible.
+  </p>
+
+  <h3>Participation in a Conflict</h3>
+  <ul>
+    <li>Only <strong>two players</strong> control participating characters: one attacking player and one defending
+        player. The other player may take actions to influence the conflict but <strong>cannot play or move
+        characters to the conflict on either side</strong> (except as indicated by card effects).</li>
+    <li>During the conflict action window, <strong>every player</strong> (including the non-participating player)
+        may take actions; the window does not end until each player passes consecutively.</li>
+    <li>A conflict <strong>cannot resolve without two participating players</strong>. If a player is eliminated
+        mid-conflict, the conflict <strong>immediately ends with no winner</strong>: return the ring to the
+        attacker's unclaimed ring pool (or the common pool, as appropriate) and each participating character
+        controlled by the remaining player <strong>goes home bowed</strong>.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="6">
+  <h2>Enlightenment — Banned List</h2>
+  <p class="rule">When deckbuilding, a player may not include any copies of these cards in their decks or provinces:</p>
+  <ul class="banned">
+    <li>Display of Power (Core Set, 179)</li>
+    <li>Togashi Tadakatsu (Disciples of the Void, 15)</li>
+    <li>Karada District (Imperial Cycle, 4)</li>
+    <li>Ide Tadaji (Imperial Cycle, 29)</li>
+    <li>Jurōjin's Curse (Elemental Cycle, 55)</li>
+    <li>Roving Michibiku (Elemental Cycle, 118)</li>
+    <li>Severed from the Stream (Children of the Empire, 67)</li>
+  </ul>
+
+  <h2>Enlightenment — Ending Treaties</h2>
+  <h3>Breaking a Treaty</h3>
+  <p class="rule">
+    When a player goes against their promised parameters, the treaty is <strong>immediately broken</strong> and
+    that player must <strong>immediately suffer the consequences</strong> (by default, lose honor equal to the
+    staked value; if using treaty cards, the card determines the consequence). After a break, the players are no
+    longer bound by their promises.
+  </p>
+  <h3>Dissolving a Treaty</h3>
+  <p class="rule">
+    A treaty <strong>dissolves</strong> with no penalty if its timeframe has lapsed or both players mutually agree
+    to dissolve it.
+  </p>
+  <h3>Treaty Limits</h3>
+  <p class="rule">
+    Each player can form a treaty with any number of other players, but each <strong>pair</strong> of players may
+    only have <strong>one treaty active between them at a time</strong>. After a treaty dissolves or breaks, a new
+    one may be formed between those players.
+  </p>
+  <h3>Treaty Cards (Clan War expansion)</h3>
+  <ul>
+    <li>Treaty cards replace the default honor-staking method. Shuffle them into a treaty deck within reach of all
+        players.</li>
+    <li>When two players agree a treaty, place the top treaty card <strong>facedown between them without looking</strong>
+        and mark the staked value. When a player breaks the treaty, <strong>reveal and resolve</strong> the card.</li>
+    <li>A treaty card referring to "the player who did not break this treaty" refers only to the single other
+        player in that treaty.</li>
+    <li>After a treaty is broken (effects resolved) or fulfilled (effects unrevealed), put the card on the bottom
+        of the treaty deck.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<!-- ===============  PART B — TEAM CONQUEST (4P)  ============= -->
+<!-- ============================================================ -->
+<div class="part">
+  <h2>Part B — Team Conquest Format (4 players, 2v2)</h2>
+  <div class="sub">A four-player team format: two allied players vs. two allied opponents. Each team wins or loses
+  together. Used with the RRG / Learn to Play. The standard game rules apply wherever not explicitly altered,
+  replaced, or negated here.</div>
+</div>
+
+<section data-page="7">
+  <h2>Team Conquest — Overview, Setup &amp; New Rules</h2>
+  <h3>Overview &amp; Setup</h3>
+  <ul>
+    <li>Four players: two allied players on a team against two allied opponents.</li>
+    <li>At setup, each player on a team <strong>sits next to their teammate and across from one opponent</strong>.
+        The opponent a player sits across from is the one they <strong>exchange honor with</strong> during draw-phase
+        honor bids. Otherwise follow standard setup.</li>
+  </ul>
+
+  <h3>Victory and Defeat</h3>
+  <p class="rule">The standard win/lose rules are replaced. A team wins a Team Conquest game by either:</p>
+  <ul>
+    <li><strong>breaking the stronghold provinces of both opponents</strong>, or</li>
+    <li>accumulating a total of <strong>50 honor</strong> between both allied players' honor pools.</li>
+  </ul>
+
+  <h3>Teammates and Opponents</h3>
+  <ul>
+    <li>Both players on a team declare conflicts against opponents to break provinces and strongholds.</li>
+    <li>Characters can be played under a <strong>teammate's control</strong> to defend that player's provinces.</li>
+    <li>During the draw phase, each player <strong>only exchanges honor with the opponent across the table</strong>,
+        but <strong>either opponent can be attacked</strong> during the conflict phase.</li>
+  </ul>
+
+  <h3>The First Player Token</h3>
+  <ul>
+    <li>Given to a <strong>team</strong>, not a player; both players on that team are considered the first player.</li>
+    <li>During action windows, <strong>each team</strong> (not each player) has an action opportunity: one player on
+        the team acts, then a player on the opposing team may act, until <strong>both teams pass in sequence</strong>.</li>
+    <li>At the end of the regroup phase (fate phase), the token passes to the opposing team.</li>
+  </ul>
+
+  <h3>Playing Characters</h3>
+  <p class="rule">
+    A player playing a character from hand or provinces chooses to play it under their <strong>own or their
+    teammate's control</strong>. Control cannot be exchanged afterward except by card effects. Fate is put on the
+    character from the <strong>fate pool of the player playing it</strong>, regardless of who controls it.
+  </p>
+
+  <h3>Passing Fate</h3>
+  <p class="rule">
+    Neither player on the team that <strong>passes first in the dynasty phase</strong> gains fate from the general
+    token pool.
+  </p>
+
+  <h3>Drawing Cards</h3>
+  <ul>
+    <li>Each player selects a number on their honor dial as in the RRG. Honor is <strong>only exchanged between the
+        two opponents sitting across the table</strong> from one another, based on the difference between their bids.</li>
+    <li>If the combined total of two allied players' honor pools is ever <strong>50 or higher</strong>, that team
+        wins.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="8">
+  <h2>Team Conquest — Favor, Elimination, Unique Cards, Conflicts</h2>
+
+  <h3>Glory Counts and the Imperial Favor</h3>
+  <ul>
+    <li>The Imperial Favor is controlled by a <strong>team</strong>. On a glory count, each team sums glory on ready
+        characters they control plus <strong>1 per ring claimed by their team</strong>; the higher total wins.</li>
+    <li>During each conflict of the appropriate type, the Imperial Favor contributes <strong>+1 skill to the side
+        of the team that controls it</strong>.</li>
+  </ul>
+
+  <h3>Player Elimination</h3>
+  <p class="rule">Players are not eliminated until their team loses. If a player's stronghold province is broken,
+    they continue to play with these penalties:</p>
+  <ul>
+    <li>Treat the printed text box of that player's stronghold as <strong>blank</strong> (except for
+        <strong>Traits</strong>).</li>
+    <li>That player <strong>cannot bid more than 2</strong> during honor bids.</li>
+    <li>That player <strong>cannot reshuffle</strong> either of their decks if those decks run out of cards.</li>
+    <li>That player <strong>does not need to be attacked</strong> by the opposing team before their teammate can be
+        attacked multiple times.</li>
+  </ul>
+  <ul>
+    <li>If a player reaches <strong>0 honor</strong>, their stronghold province is <strong>immediately broken</strong>.</li>
+    <li><strong>Broken stronghold provinces are immune to all card effects.</strong></li>
+  </ul>
+
+  <h3>Unique Cards (team rules, replacing the standard unique rules)</h3>
+  <ul>
+    <li>A player cannot take control of or bring into play a unique card if <strong>any player on their team</strong>
+        already controls or owns another in-play card with the same title or printed title.</li>
+    <li>A player cannot bring into play a unique card owned by either opponent if one of those opponents already
+        controls an in-play card with the same title or printed title.</li>
+    <li>As a player action during the dynasty phase, a player may <strong>discard a copy (by title) of a unique
+        character</strong> from hand or provinces to place <strong>1 fate on an in-play copy</strong> controlled by
+        any player on their team.</li>
+    <li>While a team controls more than one copy of a unique stronghold, province, or holding, treat each copy as
+        <strong>blank</strong> with a <strong>strength (or bonus strength) of 0</strong>.</li>
+  </ul>
+
+  <h3>Declaring Conflicts</h3>
+  <ul>
+    <li>A <strong>team</strong> (not a player) declares a conflict or passes. Each team can declare only
+        <strong>one military and one political</strong> conflict, and each <strong>must be declared against a
+        province controlled by a different opponent</strong>. Opportunities alternate between teams, starting with
+        the first players.</li>
+    <li>The declaring team makes the standard selections (attacking characters, conflict type, an eligible province,
+        and the contested ring). <strong>Both players on a team may declare attackers</strong>; those characters
+        participate on the same side together.</li>
+    <li>When an attacking team would gain fate from the contested ring, <strong>they choose which attacking player
+        gains that fate</strong>.</li>
+    <li>Additional conflict opportunities granted by card effects go to that player's <strong>team</strong>. Any
+        conflicts beyond the first two may be declared against <strong>any</strong> province. A team must attack a
+        province controlled by <strong>each opponent</strong> before attacking a player's provinces more than once,
+        unless a player's stronghold province is broken.</li>
+    <li>When a player's province is attacked, they may declare any number of their characters as defenders, and
+        <strong>their teammate may also declare up to 1 character</strong> as a defender. Both count as defending
+        players.</li>
+    <li>Conflicts <strong>cannot be declared against a stronghold province</strong> unless that player controls at
+        least <strong>1 broken non-stronghold province</strong> AND that player's team controls at least
+        <strong>3 total broken provinces</strong>.</li>
+  </ul>
+
+  <h3>Resolving Conflicts</h3>
+  <ul>
+    <li>Players <strong>win or lose as a team</strong>; "when a player wins/loses a conflict" abilities trigger for
+        both players on the team.</li>
+    <li>If the defending team controls <strong>no defending characters</strong>, the conflict is unopposed and
+        <strong>each player on that team loses 1 honor</strong>. If any player on the defending team controls a
+        defending character, no one loses honor for unopposed.</li>
+    <li>On a win, the attacking team may resolve the contested ring's effect as normal. The <strong>Air and
+        Earth</strong> ring effects may only be resolved against the opponent whose province is being attacked, and
+        <strong>only one player on the attacking team (not both)</strong> may receive the ring's effect.</li>
+  </ul>
+</section>
+
+<!-- ============================================================ -->
+<section data-page="9">
+  <h2>Team Conquest — FAQ, Additional Players &amp; Clarifications</h2>
+
+  <h3>Frequently Asked Questions</h3>
+  <p class="rule">
+    <strong>Hida Kisada (Core Set, 37):</strong> Kisada cancels the first Action ability triggered by a player on
+    the opposing team during each conflict, but cancels a total of only <strong>one</strong> ability each conflict.
+    His controller <strong>does not select which opponent</strong> the ability applies to — either opponent could
+    qualify, and it is mandatory.
+  </p>
+
+  <h3>Additional Players (more than 4)</h3>
+  <ul>
+    <li><strong>Honor Victory:</strong> with six or more total players, a team wins when its combined honor equals
+        <strong>25 per player</strong> on the team (3 players → 75 honor, 4 players → 100 honor, etc.).</li>
+    <li><strong>Stronghold Victory:</strong> a team loses when each player's stronghold province is broken. A team's
+        stronghold provinces become eligible to be attacked when the team collectively controls <strong>X broken
+        provinces, where X = 1 + the number of players on that team</strong> (3 players → 4 broken, 4 players → 5
+        broken, etc.).</li>
+  </ul>
+
+  <h3>"In Player Order" and "Pass Consecutively"</h3>
+  <ul>
+    <li><strong>In player order:</strong> the first players act as a team (selecting one of their players), then the
+        opposing team acts (selecting one of theirs), then the other player on the first-player team, then the final
+        player.</li>
+    <li><strong>Pass consecutively:</strong> continues until <strong>both teams pass consecutively</strong> (a team
+        passes instead of a player) — includes action, reaction, and interrupt windows.</li>
+  </ul>
+
+  <h3>"Your Opponent"</h3>
+  <p class="rule">
+    "Your opponent" / "an opponent" refers to <strong>either player on the opposing team</strong>, chosen when
+    resolving the card ability.
+  </p>
+
+  <h3>Duels</h3>
+  <p class="rule">
+    Both characters chosen for a duel <strong>must be controlled by players on opposing teams</strong>. All other
+    duel parameters from the RRG still apply.
+  </p>
+
+  <h3>Claimed and Unclaimed Rings</h3>
+  <ul>
+    <li>A <strong>single unclaimed ring pool</strong> holds the five rings used to declare conflicts; a team selects
+        one when declaring a conflict, as in the standard game. <span class="note">(Unlike the Enlightenment format,
+        Team Conquest uses one shared unclaimed ring pool, not personal pools.)</span></li>
+    <li>Each team has a <strong>shared claimed ring pool</strong>, counting as the claimed ring pool of both players
+        on that team for card/game effects.</li>
+  </ul>
+
+  <h3>Participation in a Conflict</h3>
+  <ul>
+    <li>All four players may control participating characters. Characters controlled by players on the same team
+        participate on the <strong>same side</strong> and contribute to the <strong>same total</strong>. Any
+        character may be moved/put/played into the conflict on the side of its controller's team. Any effect
+        referencing "a player's side of the conflict" references that <strong>player's team's side</strong> instead.</li>
+    <li>During the conflict action window, <strong>each team</strong> has an action opportunity; the window does not
+        end until each team passes consecutively.</li>
+  </ul>
+
+  <h3>Eligible Provinces</h3>
+  <p class="rule">
+    A province is only an "eligible province" to be attacked if it is <strong>controlled by the defending
+    player</strong>. The provinces of non-defending players are not eligible.
+  </p>
+</section>
+
+</div>
+</body>
+</html>
